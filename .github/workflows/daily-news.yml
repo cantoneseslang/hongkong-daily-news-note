@@ -81,12 +81,33 @@ jobs:
         run: |
           echo "✍️  Generating article..."
           LATEST_RSS=$(ls -t daily-articles/rss_news_*.json | head -1)
+          if [ -z "$LATEST_RSS" ]; then
+            echo "❌ Error: No RSS news file found"
+            exit 1
+          fi
+          echo "Using RSS file: $LATEST_RSS"
           python generate_article.py "$LATEST_RSS"
+          
+          # デバッグ: 生成されたファイルを確認
+          echo "📂 Files in daily-articles:"
+          ls -lh daily-articles/
+          
+          # 記事ファイルが生成されたか確認
+          if ! ls daily-articles/hongkong-news_*.md 1> /dev/null 2>&1; then
+            echo "❌ Error: Article file not generated"
+            exit 1
+          fi
+          echo "✅ Article generated successfully"
       
       - name: Fix article date
         run: |
           echo "📅 Fixing article date..."
-          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md | head -1)
+          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
+          if [ -z "$LATEST_ARTICLE" ]; then
+            echo "❌ Error: No article file found"
+            exit 1
+          fi
+          echo "Fixing date in: $LATEST_ARTICLE"
           TODAY=$(date +"%Y年%m月%d日")
           sed -i "s/# 毎日AIピックアップニュース([0-9]\{4\}年[0-9]\{2\}月[0-9]\{2\}日)/# 毎日AIピックアップニュース($TODAY)/" "$LATEST_ARTICLE"
           echo "✅ Article date fixed to $TODAY"

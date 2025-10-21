@@ -1,0 +1,20 @@
+{
+  "name": "hongkong-daily-news-note",
+  "version": "1.0.0",
+  "description": "香港ニュース自動生成・投稿システム",
+  "main": "post_to_note_github_actions.js",
+  "scripts": {
+    "post": "node post_to_note_github_actions.js"
+  },
+  "keywords": [
+    "hongkong",
+    "news",
+    "automation",
+    "note.com"
+  ],
+  "author": "cantoneseslang",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}

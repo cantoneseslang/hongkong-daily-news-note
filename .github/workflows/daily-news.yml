@@ -130,6 +130,36 @@ jobs:
           sed -i "s/# 毎日AIピックアップニュース([0-9]\{4\}年[0-9]\{2\}月[0-9]\{2\}日)/# 毎日AIピックアップニュース($TODAY)/" "$LATEST_ARTICLE"
           echo "✅ Article date fixed to $TODAY"
       
+      - name: Setup Node.js for note.com posting
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install Puppeteer
+        run: |
+          echo "📦 Installing Puppeteer..."
+          npm install
+          echo "✅ Puppeteer installed"
+      
+      - name: Post to note.com
+        env:
+          NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
+          NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
+        run: |
+          echo "📮 Posting to note.com..."
+          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
+          
+          if [ -z "$LATEST_ARTICLE" ]; then
+            echo "❌ Error: No article file found"
+            exit 1
+          fi
+          
+          echo "📄 Article: $LATEST_ARTICLE"
+          node post_to_note_github_actions.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
+          
+          echo "✅ Posted to note.com successfully"
+      
       - name: Commit and push generated article
         run: |
           git config user.name "GitHub Actions Bot"

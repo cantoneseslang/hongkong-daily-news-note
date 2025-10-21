@@ -161,9 +161,27 @@ jobs:
           fi
           
           echo "📄 Article: $LATEST_ARTICLE"
-          node post_to_note_github_actions.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
+          node post_to_note_github_actions.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" || {
+            echo "⚠️  note.com投稿に失敗しました（続行）"
+          }
           
-          echo "✅ Posted to note.com successfully"
+          echo "✅ note.com投稿ステップ完了"
+      
+      - name: Upload debug screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: note-com-debug-screenshots
+          path: /tmp/*.png
+          if-no-files-found: ignore
+      
+      - name: Upload debug HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: note-com-debug-html
+          path: /tmp/*.html
+          if-no-files-found: ignore
       
       - name: Commit and push generated article
         run: |

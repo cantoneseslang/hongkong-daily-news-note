@@ -144,6 +144,12 @@ jobs:
           else
             ARTICLE_DATE=$(date +"%Y-%m-%d")
             git commit -m "📰 Daily news: $ARTICLE_DATE [automated]"
+            
+            # プッシュ前に最新をプル（リベース）
+            git pull --rebase origin main || {
+              echo "⚠️  Pull failed, trying to push anyway"
+            }
+            
             git push
             echo "✅ Article committed and pushed"
           fi

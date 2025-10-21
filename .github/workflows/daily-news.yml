@@ -6,6 +6,11 @@ on:
     - cron: '0 22 * * *'
   workflow_dispatch:  # 手動実行も可能
 
+# 同時実行を防ぐ
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
 permissions:
   contents: write  # リポジトリへの書き込み権限
 
@@ -175,13 +180,22 @@ jobs:
             ARTICLE_DATE=$(date +"%Y-%m-%d")
             git commit -m "📰 Daily news: $ARTICLE_DATE [automated]"
             
-            # プッシュ前に最新をプル（リベース）
-            git pull --rebase origin main || {
-              echo "⚠️  Pull failed, trying to push anyway"
-            }
-            
-            git push
-            echo "✅ Article committed and pushed"
+            # プッシュ（失敗したら3回リトライ）
+            for i in {1..3}; do
+              if git push origin main; then
+                echo "✅ Article committed and pushed (attempt $i)"
+                break
+              else
+                echo "⚠️  Push failed (attempt $i/3), pulling latest changes..."
+                git pull --no-rebase origin main || true
+                sleep 2
+                
+                if [ $i -eq 3 ]; then
+                  echo "❌ Failed to push after 3 attempts"
+                  exit 1
+                fi
+              fi
+            done
           fi
       
       - name: Summary

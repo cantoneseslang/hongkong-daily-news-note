@@ -510,53 +510,48 @@ def preprocess_news(news_list):
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     
-    # 1. イベント署名による重複除外
+    # 1. タイトルの類似度による重複除外（強化版）
     unique_news = []
-    seen_signatures = set()
+    seen_titles = []
     
     for news in filtered_news:
-        title = news['title'].lower()
-        desc = news.get('description', '').lower()
-        text = title + ' ' + desc
+        title = news['title']
         
-        # イベント署名を生成
-        signature = []
+        # タイトルを単語に分割して正規化
+        def extract_keywords(text):
+            # 記号を除去して単語を抽出
+            words = re.sub(r'[^\w\s]', ' ', text).split()
+            # 2文字以上の単語のみ（ストップワードを除く）
+            stop_words = {'の', 'に', 'を', 'は', 'が', 'と', 'で', 'や', 'も', 'から', 'まで', 'a', 'an', 'the', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or'}
+            keywords = [w.lower() for w in words if len(w) >= 2 and w.lower() not in stop_words]
+            return set(keywords)
         
-        # 火災関連
-        if ('fire' in text or '火災' in text or '火' in text) and ('chinachem' in text or '華懋' in text or 'central' in text or '中環' in text):
-            signature.append('central_fire')
+        current_keywords = extract_keywords(title)
         
-        # サッカー関連
-        if 'liverpool' in text or 'manchester united' in text or '利物浦' in text or '曼聯' in text or '雙紅會' in text:
-            signature.append('football_legends')
+        # 既存のタイトルと比較
+        is_duplicate = False
+        for seen_title in seen_titles:
+            seen_keywords = extract_keywords(seen_title)
+            
+            # 共通キーワードの割合を計算
+            if len(current_keywords) > 0 and len(seen_keywords) > 0:
+                common = current_keywords & seen_keywords
+                
+                # 主要キーワード（3文字以上）を重視
+                current_major = {k for k in current_keywords if len(k) >= 3}
+                seen_major = {k for k in seen_keywords if len(k) >= 3}
+                common_major = current_major & seen_major
+                
+                # 主要キーワードが2つ以上一致、かつ全体の類似度が70%以上なら重複
+                if len(common_major) >= 2:
+                    similarity = len(common) / min(len(current_keywords), len(seen_keywords))
+                    if similarity >= 0.7:
+                        is_duplicate = True
+                        break
         
-        # 楊振寧関連
-        if '楊振寧' in text or 'yang zhenning' in text:
-            signature.append('yang_zhenning')
-        
-        # 劇のキャンセル
-        if '我們最快樂' in text or 'gay-themed play' in text:
-            signature.append('play_cancel')
-        
-        # ペット病院訪問
-        if 'pet' in text and 'hospital' in text:
-            signature.append('pet_hospital')
-        
-        # 十五五計画関連
-        if '十五五' in text or 'five-year plan' in text or '五年計劃' in text:
-            signature.append('fifteen_five_plan')
-        
-        # 署名を文字列化
-        sig_str = '_'.join(sorted(signature)) if signature else None
-        
-        # 重複チェック
-        if sig_str and sig_str in seen_signatures:
-            continue
-        
-        if sig_str:
-            seen_signatures.add(sig_str)
-        
-        unique_news.append(news)
+        if not is_duplicate:
+            seen_titles.append(title)
+            unique_news.append(news)
     
     print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
     

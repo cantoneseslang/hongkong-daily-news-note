@@ -568,10 +568,28 @@ class RSSNewsAPI:
 
 if __name__ == "__main__":
     import json
+    import sys
     
-    rss_api = RSSNewsAPI()
-    news = rss_api.fetch_all_rss()
-    weather = rss_api.fetch_weather_info()
+    print("🔍 スクリプト開始", flush=True)
+    print(f"Python version: {sys.version}", flush=True)
+    
+    try:
+        print("📦 RSSNewsAPI初期化中...", flush=True)
+        rss_api = RSSNewsAPI()
+        print("✅ RSSNewsAPI初期化完了", flush=True)
+        
+        print("📰 ニュース取得開始...", flush=True)
+        news = rss_api.fetch_all_rss()
+        print("✅ ニュース取得完了", flush=True)
+        
+        print("🌤️ 天気情報取得開始...", flush=True)
+        weather = rss_api.fetch_weather_info()
+        print("✅ 天気情報取得完了", flush=True)
+    except Exception as e:
+        print(f"❌ エラー発生: {e}", flush=True)
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
     
     if news:
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')

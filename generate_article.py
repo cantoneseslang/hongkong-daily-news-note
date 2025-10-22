@@ -397,10 +397,9 @@ Published: {news.get('published_at', 'N/A')}
             content_parts.append(article['lead'])
         content_parts.append(article['body'])
         
-        # Markdown生成（不要な空行を排除）
-        content_str = '\n\n'.join(content_parts)
+        # Markdown生成
+        content_str = '\n'.join(content_parts)
         markdown = f"""# {article['title']}
-
 {content_str}
 
 ---

@@ -299,9 +299,9 @@ Published: {news.get('published_at', 'N/A')}
                 translated_desc = self._translate_weather_text(desc)
                 
                 # 改行なしで一行にまとめる
-                weather_section += f"\n### 天気予報\n{translated_title} {translated_desc}*情報提供: 香港天文台*"
+                weather_section += f"\n### 天気予報\n{translated_title} {translated_desc}\n\n**引用元**: 香港天文台"
             else:
-                weather_section += f"\n### 天気予報\n{translated_title}*情報提供: 香港天文台*"
+                weather_section += f"\n### 天気予報\n{translated_title}\n\n**引用元**: 香港天文台"
         
         return weather_section
     
@@ -396,10 +396,20 @@ Published: {news.get('published_at', 'N/A')}
         # 天気情報セクションを生成
         weather_section = self.format_weather_info(weather_data) if weather_data else ""
         
+        # 本日のニュース一覧を生成（記事本文から###見出しを抽出）
+        news_titles = re.findall(r'^### (.+)$', article['body'], re.MULTILINE)
+        news_list_section = ""
+        if news_titles:
+            news_list_section = "## 本日のニュース一覧\n"
+            for i, title in enumerate(news_titles, 1):
+                news_list_section += f"{i}. {title}\n"
+        
         # コンテンツ部分を組み立て（空のセクションは改行を挟まない）
         content_parts = []
         if weather_section:
             content_parts.append(weather_section)
+        if news_list_section:
+            content_parts.append(news_list_section)
         if article['lead']:
             content_parts.append(article['lead'])
         content_parts.append(article['body'])

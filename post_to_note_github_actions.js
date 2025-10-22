@@ -73,7 +73,7 @@ async function postToNote(markdownPath, email, password) {
       timeout: 60000 
     });
     
-    await page.waitForTimeout(3000);
+    await new Promise(resolve => setTimeout(resolve, 3000));
     const currentUrl = page.url();
     console.log(`現在のURL: ${currentUrl}`);
     
@@ -146,7 +146,7 @@ async function postToNote(markdownPath, email, password) {
         throw new Error('メール入力欄が見つかりません');
       }
       
-      await page.waitForTimeout(1000);
+      await new Promise(resolve => setTimeout(resolve, 1000));
       
       // パスワード入力
       const passwordInput = await page.$('input[type="password"]');
@@ -158,7 +158,7 @@ async function postToNote(markdownPath, email, password) {
       console.log('✅ パスワード入力成功');
       
       await page.screenshot({ path: '/tmp/filled_form.png' });
-      await page.waitForTimeout(1000);
+      await new Promise(resolve => setTimeout(resolve, 1000));
       
       // ログインボタンをクリック
       const buttons = await page.$$('button');
@@ -180,7 +180,7 @@ async function postToNote(markdownPath, email, password) {
         page.waitForNavigation({ timeout: 30000 }).catch(() => console.log('⚠️  ナビゲーション待機タイムアウト'))
       ]);
       
-      await page.waitForTimeout(3000);
+      await new Promise(resolve => setTimeout(resolve, 3000));
       console.log(`ログイン後のURL: ${page.url()}`);
       
       // 再度編集ページへ移動
@@ -190,7 +190,7 @@ async function postToNote(markdownPath, email, password) {
           waitUntil: 'networkidle0', 
           timeout: 30000 
         });
-        await page.waitForTimeout(3000);
+        await new Promise(resolve => setTimeout(resolve, 3000));
       }
     }
     
@@ -241,7 +241,7 @@ async function postToNote(markdownPath, email, password) {
     }
     
     await bodyEditor.click();
-    await page.waitForTimeout(500);
+        await new Promise(resolve => setTimeout(resolve, 500));
     
     // 本文を小分けにして入力
     const chunkSize = 3000;
@@ -249,11 +249,11 @@ async function postToNote(markdownPath, email, password) {
       const chunk = body.substring(i, Math.min(i + chunkSize, body.length));
       await page.keyboard.type(chunk, { delay: 0 });
       console.log(`   入力進捗: ${Math.min(i + chunkSize, body.length)}/${body.length}文字`);
-      await page.waitForTimeout(100);
+      await new Promise(resolve => setTimeout(resolve, 100));
     }
     console.log('✅ 本文入力完了');
     
-    await page.waitForTimeout(2000);
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
     // 7. 下書き保存
     console.log('💾 下書き保存中...');
@@ -277,7 +277,7 @@ async function postToNote(markdownPath, email, password) {
     
     if (saveButton) {
       await saveButton.click();
-      await page.waitForTimeout(3000);
+      await new Promise(resolve => setTimeout(resolve, 3000));
       console.log('✅ 下書き保存完了！');
     } else {
       console.log('⚠️  下書き保存ボタンが見つかりませんでした');

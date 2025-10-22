@@ -131,8 +131,8 @@ function parseMarkdown(content) {
       continue;
     }
 
-    // タイトルが見つかった後のみ本文に追加
-    if (titleFound && (frontMatterEnded || !line.trim().startsWith('---'))) {
+    // タイトルが見つかった後は全て本文に追加
+    if (titleFound) {
       body += line + '\n';
     }
   }

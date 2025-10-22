@@ -299,9 +299,9 @@ Published: {news.get('published_at', 'N/A')}
                 translated_desc = self._translate_weather_text(desc)
                 
                 # 改行なしで一行にまとめる
-                weather_section += f"\n### 天気予報{translated_title} {translated_desc}*情報提供: 香港天文台*"
+                weather_section += f"\n### 天気予報\n{translated_title} {translated_desc}*情報提供: 香港天文台*"
             else:
-                weather_section += f"\n### 天気予報{translated_title}*情報提供: 香港天文台*"
+                weather_section += f"\n### 天気予報\n{translated_title}*情報提供: 香港天文台*"
         
         return weather_section
     
@@ -386,8 +386,10 @@ Published: {news.get('published_at', 'N/A')}
         # 記事本文から重複を除外
         article['body'] = self.remove_duplicate_articles(article['body'])
         
-        # 記事本文から区切り線を削除
-        article['body'] = article['body'].replace('\n---\n', '\n').replace('---\n', '').replace('\n---', '')
+        # 記事本文から区切り線と空行を削除
+        import re
+        article['body'] = re.sub(r'\n+---\n+', '\n', article['body'])
+        article['body'] = re.sub(r'\n{3,}', '\n\n', article['body'])
         
         # 天気情報セクションを生成
         weather_section = self.format_weather_info(weather_data) if weather_data else ""

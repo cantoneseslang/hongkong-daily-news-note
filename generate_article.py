@@ -401,11 +401,8 @@ Published: {news.get('published_at', 'N/A')}
         content_str = '\n'.join(content_parts)
         markdown = f"""# {article['title']}
 {content_str}
-
 ---
-
 **タグ**: {article['tags']}
-
 **生成日時**: {datetime.now().strftime('%Y年%m月%d日 %H:%M')}
 """
         

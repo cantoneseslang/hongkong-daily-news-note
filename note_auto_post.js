@@ -343,19 +343,58 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
 
     const lines = body.split('\n');
     let tocInsertLine = -1;
+    let shouldInsertToc = false;
     
     // 一番最初の空行を検出（ここに目次を挿入）
     for (let i = 0; i < lines.length; i++) {
       if (lines[i].trim() === '') {
         tocInsertLine = i;
+        shouldInsertToc = true;
         console.log(`✓ 目次挿入位置を${i}行目で検出（一番最初の空行）`);
         break;
+      }
+    }
+    
+    // 最初の空行の場合、本文入力前に目次を挿入
+    if (shouldInsertToc && tocInsertLine === 0) {
+      console.log('📋 目次を挿入中（本文入力前）...');
+      
+      try {
+        // 現在カーソルは本文の最初の行（空行）にある
+        
+        // +ボタンをクリック（メニューを開く）
+        const menuButton = page.locator('button[aria-label="メニューを開く"]');
+        await menuButton.waitFor({ state: 'visible', timeout: 5000 });
+        await menuButton.click();
+        await page.waitForTimeout(1000);
+        console.log('✓ メニューを開きました');
+        
+        // 目次ボタンをクリック
+        const tocButton = page.locator('button:has-text("目次")');
+        await tocButton.waitFor({ state: 'visible', timeout: 5000 });
+        await tocButton.click();
+        await page.waitForTimeout(3000);
+        console.log('✓ 目次を挿入しました');
+        
+        // 目次の後に改行して、次の行に移動
+        await page.keyboard.press('Enter');
+        await page.waitForTimeout(500);
+        
+        shouldInsertToc = false; // 挿入済みフラグ
+      } catch (e) {
+        console.log('⚠️  目次挿入エラー:', e.message);
+        console.log('手動で目次を挿入してください。');
       }
     }
     
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       const isLastLine = i === lines.length - 1;
+      
+      // 目次を挿入した場合、最初の空行はスキップ
+      if (i === 0 && tocInsertLine === 0 && !shouldInsertToc) {
+        continue;
+      }
 
       // 画像+リンク結合マークダウンを検出: [![alt](path)](url)
       const linkedImageMatch = line.match(/\[!\[([^\]]*)\]\(([^)]+)\)\]\(([^)]+)\)/);
@@ -485,48 +524,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       }
     }
     console.log('✓ 本文入力完了');
-
-    // 天気情報の後の空行に目次を挿入
-    if (tocInsertLine !== -1) {
-      console.log('📋 目次を挿入中...');
-      
-      try {
-        const isMac = process.platform === 'darwin';
-        
-        // 本文の最後の行から、目次挿入位置まで戻る
-        const totalLines = lines.length;
-        const stepsBack = totalLines - tocInsertLine - 1;
-        console.log(`総行数: ${totalLines}行、目次挿入位置: ${tocInsertLine}行目（0-indexed）、戻る行数: ${stepsBack}`);
-        
-        for (let i = 0; i < stepsBack; i++) {
-          await page.keyboard.press('ArrowUp');
-          await page.waitForTimeout(20);
-        }
-        console.log(`✓ ${tocInsertLine}行目（空行）に移動`);
-        
-        // +ボタンをクリック（メニューを開く）
-        const menuButton = page.locator('button[aria-label="メニューを開く"]');
-        await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-        await menuButton.click();
-        await page.waitForTimeout(1000);
-        console.log('✓ メニューを開きました');
-        
-        // 目次ボタンをクリック（テキストで検索）
-        const tocButton = page.locator('button:has-text("目次")');
-        await tocButton.waitFor({ state: 'visible', timeout: 5000 });
-        console.log('目次ボタンが見つかりました。クリックします...');
-        await tocButton.click();
-        await page.waitForTimeout(3000);
-        
-        // クリック後のスクリーンショット
-        await page.screenshot({ path: '/tmp/note-after-toc-click.png' });
-        console.log('📷 目次クリック後: /tmp/note-after-toc-click.png');
-        console.log('✓ 目次を挿入しました');
-      } catch (e) {
-        console.log('⚠️  目次挿入エラー:', e.message);
-        console.log('手動で目次を挿入してください。');
-      }
-    }
 
     if (isPublish) {
       console.log('📤 公開処理を開始...');

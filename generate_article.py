@@ -271,7 +271,7 @@ Published: {news.get('published_at', 'N/A')}
             # 適切な改行で結合
             return ' '.join(cleaned_lines)
         
-        weather_section = "---\n\n## 本日の香港の天気\n"
+        weather_section = "## 本日の香港の天気\n"
         
         # 天気警報
         if 'weather_warning' in weather_data:
@@ -398,9 +398,10 @@ Published: {news.get('published_at', 'N/A')}
         content_parts.append(article['body'])
         
         # Markdown生成（不要な空行を排除）
+        content_str = '\n\n'.join(content_parts)
         markdown = f"""# {article['title']}
 
-{chr(10).join(content_parts)}
+{content_str}
 
 ---
 

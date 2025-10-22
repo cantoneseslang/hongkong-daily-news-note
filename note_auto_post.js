@@ -95,14 +95,16 @@ function parseMarkdown(content) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
-    if (line.trim() === '---') {
-      if (!frontMatterEnded) {
-        inFrontMatter = !inFrontMatter;
-        if (!inFrontMatter) {
-          frontMatterEnded = true;
-        }
-        continue;
-      }
+    // Front matterは最初の行が---で始まる場合のみ有効
+    if (i === 0 && line.trim() === '---') {
+      inFrontMatter = true;
+      continue;
+    }
+
+    if (line.trim() === '---' && inFrontMatter && !frontMatterEnded) {
+      inFrontMatter = false;
+      frontMatterEnded = true;
+      continue;
     }
 
     if (inFrontMatter) {

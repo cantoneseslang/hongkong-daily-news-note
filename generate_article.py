@@ -397,27 +397,19 @@ Published: {news.get('published_at', 'N/A')}
         # 天気情報セクションを生成
         weather_section = self.format_weather_info(weather_data) if weather_data else ""
         
-        # 本日のニュース一覧を生成（記事本文から###見出しを抽出）
-        news_titles = re.findall(r'^### (.+)$', article['body'], re.MULTILINE)
-        news_list_section = ""
-        if news_titles:
-            news_list_section = "## 本日のニュース一覧\n\n"
-            for title in news_titles:
-                news_list_section += f"- {title}\n"
-        
         # コンテンツ部分を組み立て（空のセクションは改行を挟まない）
         content_parts = []
         if weather_section:
             content_parts.append(weather_section)
-        if news_list_section:
-            content_parts.append(news_list_section)
         if article['lead']:
             content_parts.append(article['lead'])
         content_parts.append(article['body'])
         
         # Markdown生成
         content_str = '\n\n'.join(content_parts)
+        # bodyの最初に改行を入れる（1行目が空行になり、ここに目次を挿入）
         markdown = f"""# {article['title']}
+
 {content_str}
 ---
 **タグ**: {article['tags']}

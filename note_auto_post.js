@@ -141,7 +141,7 @@ function parseMarkdown(content) {
 
   return {
     title: title || 'Untitled',
-    body: body.trim(),
+    body: body,
     tags: tags.filter(Boolean),
     thumbnail: thumbnail,
   };
@@ -342,19 +342,14 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     await bodyBox.click({ force: true });
 
     const lines = body.split('\n');
-    let newsListStartLine = -1;
-    let newsListEndLine = -1;
+    let tocInsertLine = -1;
     
-    // 「## 本日のニュース一覧」セクションの開始と終了を検出
+    // 一番最初の空行を検出（ここに目次を挿入）
     for (let i = 0; i < lines.length; i++) {
-      if (lines[i].trim() === '## 本日のニュース一覧') {
-        newsListStartLine = i;
-      } else if (newsListStartLine !== -1 && newsListEndLine === -1) {
-        // 箇条書きリストの終了を検出（空行または次のセクション）
-        if (lines[i].trim() === '' || lines[i].trim().startsWith('#')) {
-          newsListEndLine = i;
-          break;
-        }
+      if (lines[i].trim() === '') {
+        tocInsertLine = i;
+        console.log(`✓ 目次挿入位置を${i}行目で検出（一番最初の空行）`);
+        break;
       }
     }
     
@@ -491,111 +486,42 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     }
     console.log('✓ 本文入力完了');
 
-    // 「## 本日のニュース一覧」セクションに目次を挿入
-    if (newsListStartLine !== -1) {
+    // 天気情報の後の空行に目次を挿入
+    if (tocInsertLine !== -1) {
       console.log('📋 目次を挿入中...');
       
       try {
-        // 本文全体のテキストを取得して「## 本日のニュース一覧」の位置を探す
-        const bodyText = await bodyBox.textContent();
-        const newsListHeaderIndex = bodyText.indexOf('本日のニュース一覧');
+        const isMac = process.platform === 'darwin';
         
-        if (newsListHeaderIndex !== -1) {
-          // 「## 本日のニュース一覧」の直後をクリック（改行の後）
-          await bodyBox.click();
-          await page.waitForTimeout(500);
-          
-          // Cmd+F（Mac）で検索を開く
-          const isMac = process.platform === 'darwin';
-          if (isMac) {
-            await page.keyboard.press('Meta+f');
-          } else {
-            await page.keyboard.press('Control+f');
-          }
-          await page.waitForTimeout(500);
-          
-          // 「本日のニュース一覧」を検索
-          await page.keyboard.type('本日のニュース一覧');
-          await page.waitForTimeout(500);
-          await page.keyboard.press('Enter');
-          await page.waitForTimeout(500);
-          
-          // 検索を閉じる
-          await page.keyboard.press('Escape');
-          await page.waitForTimeout(500);
-          
-          // カーソルが見出しにあるので、行末に移動してEnter
-          await page.keyboard.press('End');
-          await page.keyboard.press('Enter');
-          await page.waitForTimeout(500);
-          
-          // 「+」マーク（メニューを開く）ボタンをクリック
-          const menuButton = page.locator('button[aria-label="メニューを開く"]');
-          await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-          await menuButton.click();
-          await page.waitForTimeout(1000);
-          console.log('✓ メニューを開きました');
-          
-          // 「目次」ボタンをクリック
-          const tocButton = page.locator('button#toc-setting');
-          await tocButton.waitFor({ state: 'visible', timeout: 5000 });
-          await tocButton.click();
-          await page.waitForTimeout(2000);
-          console.log('✓ 目次を挿入しました');
-          
-          // 手動で入力した箇条書きリストを削除
-          console.log('🗑️  手動の箇条書きリストを削除中...');
-          
-          // 目次が挿入されたので、その次の行から箇条書きを削除
-          // 目次ブロックの後の最初の箇条書き行に移動
-          await page.keyboard.press('ArrowDown'); // 目次ブロックの次へ
-          await page.waitForTimeout(200);
-          
-          // 次の見出し（###）が出現するまで行を削除
-          let deletedLines = 0;
-          const maxDelete = 50; // 安全のため最大削除行数を設定
-          
-          while (deletedLines < maxDelete) {
-            // 現在行のテキストを取得
-            await page.keyboard.press('Home');
-            await page.keyboard.down('Shift');
-            await page.keyboard.press('End');
-            await page.keyboard.up('Shift');
-            await page.waitForTimeout(50);
-            
-            // 選択されたテキストをクリップボードにコピー
-            const isMac = process.platform === 'darwin';
-            if (isMac) {
-              await page.keyboard.press('Meta+c');
-            } else {
-              await page.keyboard.press('Control+c');
-            }
-            await page.waitForTimeout(50);
-            
-            // クリップボードから取得
-            const lineText = await page.evaluate(() => navigator.clipboard.readText());
-            
-            // 見出し（###）が出現したら終了
-            if (lineText.trim().startsWith('###')) {
-              await page.keyboard.press('Home'); // 選択解除
-              break;
-            }
-            
-            // 空行または箇条書き行の場合は削除
-            if (lineText.trim() === '' || lineText.trim().startsWith('-')) {
-              // 行全体を削除（選択状態のままBackspace）
-              await page.keyboard.press('Backspace');
-              await page.waitForTimeout(50);
-              deletedLines++;
-            } else {
-              // 想定外の内容なら終了
-              await page.keyboard.press('Home'); // 選択解除
-              break;
-            }
-          }
-          
-          console.log(`✓ ${deletedLines}行の箇条書きリストを削除しました`);
+        // 本文の最後の行から、目次挿入位置まで戻る
+        const totalLines = lines.length;
+        const stepsBack = totalLines - tocInsertLine - 1;
+        console.log(`総行数: ${totalLines}行、目次挿入位置: ${tocInsertLine}行目（0-indexed）、戻る行数: ${stepsBack}`);
+        
+        for (let i = 0; i < stepsBack; i++) {
+          await page.keyboard.press('ArrowUp');
+          await page.waitForTimeout(20);
         }
+        console.log(`✓ ${tocInsertLine}行目（空行）に移動`);
+        
+        // +ボタンをクリック（メニューを開く）
+        const menuButton = page.locator('button[aria-label="メニューを開く"]');
+        await menuButton.waitFor({ state: 'visible', timeout: 5000 });
+        await menuButton.click();
+        await page.waitForTimeout(1000);
+        console.log('✓ メニューを開きました');
+        
+        // 目次ボタンをクリック（テキストで検索）
+        const tocButton = page.locator('button:has-text("目次")');
+        await tocButton.waitFor({ state: 'visible', timeout: 5000 });
+        console.log('目次ボタンが見つかりました。クリックします...');
+        await tocButton.click();
+        await page.waitForTimeout(3000);
+        
+        // クリック後のスクリーンショット
+        await page.screenshot({ path: '/tmp/note-after-toc-click.png' });
+        console.log('📷 目次クリック後: /tmp/note-after-toc-click.png');
+        console.log('✓ 目次を挿入しました');
       } catch (e) {
         console.log('⚠️  目次挿入エラー:', e.message);
         console.log('手動で目次を挿入してください。');

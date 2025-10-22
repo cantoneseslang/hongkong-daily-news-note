@@ -402,8 +402,8 @@ Published: {news.get('published_at', 'N/A')}
         news_list_section = ""
         if news_titles:
             news_list_section = "## 本日のニュース一覧\n\n"
-            for i, title in enumerate(news_titles, 1):
-                news_list_section += f"{i}. {title}\n"
+            for title in news_titles:
+                news_list_section += f"- {title}\n"
         
         # コンテンツ部分を組み立て（空のセクションは改行を挟まない）
         content_parts = []

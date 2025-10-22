@@ -271,7 +271,7 @@ Published: {news.get('published_at', 'N/A')}
             # 適切な改行で結合
             return ' '.join(cleaned_lines)
         
-        weather_section = "## 本日の香港の天気\n"
+        weather_section = "## 本日の香港の天気"
         
         # 天気警報
         if 'weather_warning' in weather_data:
@@ -281,9 +281,9 @@ Published: {news.get('published_at', 'N/A')}
             
             # 天気警報を完全にフィルター（現時並無警告生效、酷熱天氣警告など）
             if title and "現時並無警告生效" not in title and "酷熱天氣警告" not in title and "發出" not in title:
-                weather_section += f"### 天気警報\n\n{title}\n\n"
+                weather_section += f"\n### 天気警報{title}"
                 if desc and "現時並無警告生效" not in desc and "酷熱天氣警告" not in desc:
-                    weather_section += f"{desc}\n\n"
+                    weather_section += f"{desc}"
         
         # 地域天気予報のみ表示
         if 'weather_forecast' in weather_data:
@@ -299,9 +299,9 @@ Published: {news.get('published_at', 'N/A')}
                 translated_desc = self._translate_weather_text(desc)
                 
                 # 改行なしで一行にまとめる
-                weather_section += f"### 天気予報\n{translated_title} {translated_desc}*情報提供: 香港天文台*"
+                weather_section += f"\n### 天気予報{translated_title} {translated_desc}*情報提供: 香港天文台*"
             else:
-                weather_section += f"### 天気予報\n{translated_title}*情報提供: 香港天文台*"
+                weather_section += f"\n### 天気予報{translated_title}*情報提供: 香港天文台*"
         
         return weather_section
     

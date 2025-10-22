@@ -33,6 +33,10 @@ daily-articles/*.json
 screenshots/
 logs/
 
+# Node.js
+node_modules/
+package-lock.json
+
 # IDE
 .vscode/
 .idea/

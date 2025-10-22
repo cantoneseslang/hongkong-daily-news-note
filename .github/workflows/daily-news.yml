@@ -198,22 +198,30 @@ jobs:
             ARTICLE_DATE=$(date +"%Y-%m-%d")
             git commit -m "📰 Daily news: $ARTICLE_DATE [automated]"
             
-            # プッシュ（失敗したら3回リトライ）
-            for i in {1..3}; do
-              if git push origin main; then
-                echo "✅ Article committed and pushed (attempt $i)"
-                break
+            # プッシュ（コンフリクト時は自動解決）
+            if git push origin main; then
+              echo "✅ Article committed and pushed"
+            else
+              echo "⚠️  Push failed, resolving conflicts..."
+              
+              # リモートの最新を取得
+              git fetch origin main
+              
+              # コンフリクトが発生した場合、リモートを優先
+              git reset --soft origin/main
+              
+              # 記事ファイルを再度追加
+              git add daily-articles/hongkong-news_*.md
+              
+              # 変更があれば再コミット
+              if ! git diff --staged --quiet; then
+                git commit -m "📰 Daily news: $ARTICLE_DATE [automated - resolved conflict]"
+                git push origin main
+                echo "✅ Conflict resolved and pushed"
               else
-                echo "⚠️  Push failed (attempt $i/3), pulling latest changes..."
-                git pull --no-rebase origin main || true
-                sleep 2
-                
-                if [ $i -eq 3 ]; then
-                  echo "❌ Failed to push after 3 attempts"
-                  exit 1
-                fi
+                echo "ℹ️  No changes to push (article already exists on remote)"
               fi
-            done
+            fi
           fi
       
       - name: Summary

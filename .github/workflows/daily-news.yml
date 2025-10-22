@@ -182,11 +182,12 @@ jobs:
           node-version: '20'
           cache: 'npm'
       
-      - name: Install Puppeteer
+      - name: Install Playwright
         run: |
-          echo "📦 Installing Puppeteer..."
+          echo "📦 Installing Playwright..."
           npm install
-          echo "✅ Puppeteer installed"
+          npx playwright install chromium
+          echo "✅ Playwright installed"
       
       - name: Post to note.com
         env:
@@ -202,7 +203,7 @@ jobs:
           fi
           
           echo "📄 Article: $LATEST_ARTICLE"
-          node post_to_note_github_actions.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
+          node post_to_note_playwright.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
           echo "✅ note.com投稿完了！"
       
       - name: Upload debug screenshots

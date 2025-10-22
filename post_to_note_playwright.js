@@ -116,16 +116,17 @@ async function postToNote(markdownPath, email, password) {
       }
     }
     
-    // 編集ページの読み込みを待つ
+    // 編集ページの完全な読み込みを待つ
     console.log('📄 編集ページの読み込み待機中...');
-    await page.waitForTimeout(3000);
+    await page.waitForLoadState('networkidle', { timeout: 30000 });
+    await page.waitForTimeout(5000);
     await page.screenshot({ path: '/tmp/editor_page.png' });
     console.log(`📷 編集ページのスクリーンショット保存`);
     console.log(`現在のURL: ${page.url()}`);
 
     // タイトル入力
     console.log('📋 タイトル入力中...');
-    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 15000 });
+    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
     await page.fill('textarea[placeholder*="タイトル"]', title);
     console.log('✅ タイトル入力完了');
 

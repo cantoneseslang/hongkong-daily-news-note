@@ -1,6 +1,9 @@
 name: Daily Hong Kong News Generator
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # UTC 22:00 = JST/HKT 6:00（翌日）
     - cron: '0 22 * * *'

@@ -400,7 +400,7 @@ class RSSNewsAPI:
         """HKET（香港経済日報）のRSSを取得（User-Agent必要）"""
         print("📰 HKET 香港 RSS からニュース取得中...")
         try:
-            response = requests.get(self.rss_feeds['hket_hk'], headers=self.headers, timeout=10)
+            response = requests.get(self.rss_feeds['hket_hk'], headers=self.headers, timeout=5)
             
             if response.status_code == 200:
                 feed = feedparser.parse(response.content)
@@ -447,7 +447,7 @@ class RSSNewsAPI:
         print(f"📰 {source_name} RSS からニュース取得中...")
         try:
             if use_headers:
-                response = requests.get(self.rss_feeds[feed_key], headers=self.headers, timeout=10)
+                response = requests.get(self.rss_feeds[feed_key], headers=self.headers, timeout=5)
                 feed = feedparser.parse(response.content)
             else:
                 feed = feedparser.parse(self.rss_feeds[feed_key])
@@ -528,7 +528,7 @@ class RSSNewsAPI:
                 else:
                     duplicate_count += 1
             
-            time.sleep(1)
+            time.sleep(0.5)  # 1秒 → 0.5秒に短縮
         
         # 処理済みURLを保存
         self._save_processed_urls()

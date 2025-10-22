@@ -179,6 +179,38 @@ jobs:
             fi
           fi
       
+      - name: Setup Node.js for note.com posting
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install Playwright
+        run: |
+          echo "📦 Installing Playwright..."
+          npm install
+          npx playwright install chromium
+          echo "✅ Playwright installed"
+      
+      - name: Post to note.com
+        env:
+          NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
+          NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
+        run: |
+          echo "📮 Posting to note.com..."
+          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
+          
+          if [ -z "$LATEST_ARTICLE" ]; then
+            echo "❌ Error: No article file found"
+            exit 1
+          fi
+          
+          echo "📄 Article: $LATEST_ARTICLE"
+          node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" || {
+            echo "⚠️ note.com投稿失敗（続行）"
+          }
+          echo "✅ note.com投稿ステップ完了"
+      
       - name: Summary
         if: always()
         run: |

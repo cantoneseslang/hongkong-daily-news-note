@@ -179,51 +179,6 @@ jobs:
             fi
           fi
       
-      - name: Setup Node.js for note.com posting
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      
-      - name: Install Playwright
-        run: |
-          echo "📦 Installing Playwright..."
-          npm install
-          npx playwright install chromium
-          echo "✅ Playwright installed"
-      
-      - name: Post to note.com
-        env:
-          NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
-          NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
-        run: |
-          echo "📮 Posting to note.com..."
-          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
-          
-          if [ -z "$LATEST_ARTICLE" ]; then
-            echo "❌ Error: No article file found"
-            exit 1
-          fi
-          
-          echo "📄 Article: $LATEST_ARTICLE"
-          node note_simple_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
-      
-      - name: Upload debug screenshots
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: note-com-debug-screenshots
-          path: /tmp/*.png
-          if-no-files-found: ignore
-      
-      - name: Upload debug HTML
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: note-com-debug-html
-          path: /tmp/*.html
-          if-no-files-found: ignore
-      
       - name: Summary
         if: always()
         run: |

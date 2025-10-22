@@ -206,8 +206,7 @@ jobs:
           fi
           
           echo "📄 Article: $LATEST_ARTICLE"
-          node note_post_working.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
-          echo "✅ note.com投稿完了！"
+          node note_simple_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"
       
       - name: Upload debug screenshots
         if: always()

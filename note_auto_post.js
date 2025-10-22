@@ -90,6 +90,7 @@ function parseMarkdown(content) {
   let thumbnail = '';
   let inFrontMatter = false;
   let frontMatterEnded = false;
+  let titleFound = false;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -121,12 +122,17 @@ function parseMarkdown(content) {
       continue;
     }
 
-    if (!title && line.startsWith('# ')) {
-      title = line.substring(2).trim();
+    // タイトル行をスキップ
+    if (!titleFound && line.startsWith('# ')) {
+      if (!title) {
+        title = line.substring(2).trim();
+      }
+      titleFound = true;
       continue;
     }
 
-    if (frontMatterEnded || !line.trim().startsWith('---')) {
+    // タイトルが見つかった後のみ本文に追加
+    if (titleFound && (frontMatterEnded || !line.trim().startsWith('---'))) {
       body += line + '\n';
     }
   }

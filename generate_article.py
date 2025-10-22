@@ -542,6 +542,10 @@ def preprocess_news(news_list):
         if 'pet' in text and 'hospital' in text:
             signature.append('pet_hospital')
         
+        # 十五五計画関連
+        if '十五五' in text or 'five-year plan' in text or '五年計劃' in text:
+            signature.append('fifteen_five_plan')
+        
         # 署名を文字列化
         sig_str = '_'.join(sorted(signature)) if signature else None
         

@@ -112,7 +112,10 @@ class RSSNewsAPI:
             '加薩', '以色列', '哈瑪斯', '巴勒斯坦',
             '烏克蘭', '俄羅斯', '澤連斯基',
             '金鐘獎', '陳偉霆', '台灣',
-            'golden horse', 'taiwan election'
+            'golden horse', 'taiwan election',
+            'sudan', 'khartoum', '喀土穆', 'スーダン',
+            'trump', 'oracle', 'amazon', 'exxonmobil',
+            'トランプ', '米国ビジネス', '米中'
         ]
         
         # タイトルのみでチェック（香港関連キーワードがあればOK）

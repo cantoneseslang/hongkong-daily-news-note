@@ -78,6 +78,7 @@ class GrokArticleGenerator:
 - 各ニュースのタイトルは「### タイトル名」形式で小見出しにする
 - ニュース間は「---」で区切る
 - 引用元、リンク、備考は「**項目名**:」形式で太字にする
+- Google Newsのリダイレクトリンク（news.google.com/rss/articles/...）は使用しない。元のソース（HK01、Yahoo等）の実リンクを使用すること
 
 【翻訳ルール】
 - 地名: 天水圍(ティン・シュイ・ワイ)、調景嶺(ティウ・ケン・レン)のように漢字+読み仮名
@@ -400,7 +401,7 @@ Published: {news.get('published_at', 'N/A')}
         news_titles = re.findall(r'^### (.+)$', article['body'], re.MULTILINE)
         news_list_section = ""
         if news_titles:
-            news_list_section = "## 本日のニュース一覧\n"
+            news_list_section = "## 本日のニュース一覧\n\n"
             for i, title in enumerate(news_titles, 1):
                 news_list_section += f"{i}. {title}\n"
         
@@ -415,7 +416,7 @@ Published: {news.get('published_at', 'N/A')}
         content_parts.append(article['body'])
         
         # Markdown生成
-        content_str = '\n'.join(content_parts)
+        content_str = '\n\n'.join(content_parts)
         markdown = f"""# {article['title']}
 {content_str}
 ---

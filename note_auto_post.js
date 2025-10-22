@@ -467,6 +467,10 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
 
       if (!isLastLine) {
         await page.keyboard.press('Enter');
+        // 番号付きリスト（1. 2. など）の場合は、少し待機
+        if (line.match(/^\d+\.\s/)) {
+          await page.waitForTimeout(50);
+        }
       }
     }
     console.log('✓ 本文入力完了');

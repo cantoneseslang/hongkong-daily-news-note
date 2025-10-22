@@ -271,7 +271,7 @@ Published: {news.get('published_at', 'N/A')}
             # 適切な改行で結合
             return ' '.join(cleaned_lines)
         
-        weather_section = "\n\n---\n\n## 本日の香港の天気\n"
+        weather_section = "---\n\n## 本日の香港の天気\n"
         
         # 天気警報
         if 'weather_warning' in weather_data:
@@ -389,14 +389,18 @@ Published: {news.get('published_at', 'N/A')}
         # 天気情報セクションを生成
         weather_section = self.format_weather_info(weather_data) if weather_data else ""
         
-        # Markdown生成（天気情報を記事の最初に配置、改行削除）
+        # コンテンツ部分を組み立て（空のセクションは改行を挟まない）
+        content_parts = []
+        if weather_section:
+            content_parts.append(weather_section)
+        if article['lead']:
+            content_parts.append(article['lead'])
+        content_parts.append(article['body'])
+        
+        # Markdown生成（不要な空行を排除）
         markdown = f"""# {article['title']}
 
-{weather_section}
-
-{article['lead']}
-
-{article['body']}
+{chr(10).join(content_parts)}
 
 ---
 

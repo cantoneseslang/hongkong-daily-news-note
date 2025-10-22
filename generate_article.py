@@ -464,6 +464,13 @@ def preprocess_news(news_list):
     for news in news_list:
         url = news.get('url', '')
         title = news.get('title', '')
+        description = news.get('description', '')
+        
+        # 天気関連のニュースを除外
+        weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度']
+        if any(keyword in title.lower() or keyword in title for keyword in weather_keywords):
+            duplicate_count += 1
+            continue
         
         # URLで重複チェック
         if url in past_urls:

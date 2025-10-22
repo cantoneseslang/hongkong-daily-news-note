@@ -369,9 +369,9 @@ Published: {news.get('published_at', 'N/A')}
             if duplicate_count > 0:
                 print(f"🔄 重複記事を除外: {duplicate_count}件")
             
-            # 再結合
+            # 再結合（見出しの前に空行を入れる）
             if len(result) > 1:
-                return result[0] + '\n### ' + '\n### '.join(result[1:])
+                return result[0] + '\n\n### ' + '\n\n### '.join(result[1:])
             else:
                 return result[0]
         
@@ -386,10 +386,12 @@ Published: {news.get('published_at', 'N/A')}
         # 記事本文から重複を除外
         article['body'] = self.remove_duplicate_articles(article['body'])
         
-        # 記事本文から区切り線と空行を削除
+        # 記事本文から区切り線を削除し、見出し前に空行を追加
         import re
         article['body'] = re.sub(r'\n+---\n+', '\n', article['body'])
         article['body'] = re.sub(r'\n{3,}', '\n\n', article['body'])
+        # 見出しの前に必ず空行を入れる
+        article['body'] = re.sub(r'([^\n])\n(###)', r'\1\n\n\2', article['body'])
         
         # 天気情報セクションを生成
         weather_section = self.format_weather_info(weather_data) if weather_data else ""

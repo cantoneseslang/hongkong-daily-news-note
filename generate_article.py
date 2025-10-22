@@ -386,6 +386,9 @@ Published: {news.get('published_at', 'N/A')}
         # 記事本文から重複を除外
         article['body'] = self.remove_duplicate_articles(article['body'])
         
+        # 記事本文から区切り線を削除
+        article['body'] = article['body'].replace('\n---\n', '\n').replace('---\n', '').replace('\n---', '')
+        
         # 天気情報セクションを生成
         weather_section = self.format_weather_info(weather_data) if weather_data else ""
         

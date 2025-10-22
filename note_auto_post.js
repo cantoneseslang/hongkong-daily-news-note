@@ -342,6 +342,22 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     await bodyBox.click({ force: true });
 
     const lines = body.split('\n');
+    let newsListStartLine = -1;
+    let newsListEndLine = -1;
+    
+    // 「## 本日のニュース一覧」セクションの開始と終了を検出
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].trim() === '## 本日のニュース一覧') {
+        newsListStartLine = i;
+      } else if (newsListStartLine !== -1 && newsListEndLine === -1) {
+        // 箇条書きリストの終了を検出（空行または次のセクション）
+        if (lines[i].trim() === '' || lines[i].trim().startsWith('#')) {
+          newsListEndLine = i;
+          break;
+        }
+      }
+    }
+    
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       const isLastLine = i === lines.length - 1;
@@ -474,6 +490,86 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       }
     }
     console.log('✓ 本文入力完了');
+
+    // 「## 本日のニュース一覧」セクションに目次を挿入
+    if (newsListStartLine !== -1) {
+      console.log('📋 目次を挿入中...');
+      
+      try {
+        // 本文全体のテキストを取得して「## 本日のニュース一覧」の位置を探す
+        const bodyText = await bodyBox.textContent();
+        const newsListHeaderIndex = bodyText.indexOf('本日のニュース一覧');
+        
+        if (newsListHeaderIndex !== -1) {
+          // 「## 本日のニュース一覧」の直後をクリック（改行の後）
+          await bodyBox.click();
+          await page.waitForTimeout(500);
+          
+          // Cmd+F（Mac）で検索を開く
+          const isMac = process.platform === 'darwin';
+          if (isMac) {
+            await page.keyboard.press('Meta+f');
+          } else {
+            await page.keyboard.press('Control+f');
+          }
+          await page.waitForTimeout(500);
+          
+          // 「本日のニュース一覧」を検索
+          await page.keyboard.type('本日のニュース一覧');
+          await page.waitForTimeout(500);
+          await page.keyboard.press('Enter');
+          await page.waitForTimeout(500);
+          
+          // 検索を閉じる
+          await page.keyboard.press('Escape');
+          await page.waitForTimeout(500);
+          
+          // カーソルが見出しにあるので、行末に移動してEnter
+          await page.keyboard.press('End');
+          await page.keyboard.press('Enter');
+          await page.waitForTimeout(500);
+          
+          // 「/」を入力してメニューを呼び出す
+          await page.keyboard.type('/');
+          await page.waitForTimeout(1000);
+          
+          // 「目次」メニュー項目を探してクリック
+          // 「もくじ」でも検索（ひらがな表記の可能性）
+          const tocMenuItem = page.locator('button:has-text("目次"), button:has-text("もくじ"), div:has-text("目次"), div:has-text("もくじ")').first();
+          await tocMenuItem.waitFor({ state: 'attached', timeout: 5000 });
+          await tocMenuItem.click({ force: true });
+          await page.waitForTimeout(2000);
+          console.log('✓ 目次を挿入しました');
+          
+          // 手動で入力した箇条書きリストを削除
+          // 目次の後の箇条書き行を選択して削除
+          console.log('🗑️  手動の箇条書きリストを削除中...');
+          
+          // 箇条書きの行数を計算
+          const listItemCount = newsListEndLine - newsListStartLine - 2; // 見出し行と空行を除く
+          
+          for (let i = 0; i < listItemCount; i++) {
+            // 次の行を選択
+            await page.keyboard.press('ArrowDown');
+            await page.keyboard.press('Home');
+            
+            // 行全体を選択（Shift+End）
+            await page.keyboard.down('Shift');
+            await page.keyboard.press('End');
+            await page.keyboard.up('Shift');
+            
+            // 削除
+            await page.keyboard.press('Backspace');
+            await page.waitForTimeout(100);
+          }
+          
+          console.log('✓ 箇条書きリストを削除しました');
+        }
+      } catch (e) {
+        console.log('⚠️  目次挿入エラー:', e.message);
+        console.log('手動で目次を挿入してください。');
+      }
+    }
 
     if (isPublish) {
       console.log('📤 公開処理を開始...');

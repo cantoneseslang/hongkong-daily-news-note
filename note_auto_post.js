@@ -529,41 +529,72 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           await page.keyboard.press('Enter');
           await page.waitForTimeout(500);
           
-          // 「/」を入力してメニューを呼び出す
-          await page.keyboard.type('/');
+          // 「+」マーク（メニューを開く）ボタンをクリック
+          const menuButton = page.locator('button[aria-label="メニューを開く"]');
+          await menuButton.waitFor({ state: 'visible', timeout: 5000 });
+          await menuButton.click();
           await page.waitForTimeout(1000);
+          console.log('✓ メニューを開きました');
           
-          // 「目次」メニュー項目を探してクリック
-          // 「もくじ」でも検索（ひらがな表記の可能性）
-          const tocMenuItem = page.locator('button:has-text("目次"), button:has-text("もくじ"), div:has-text("目次"), div:has-text("もくじ")').first();
-          await tocMenuItem.waitFor({ state: 'attached', timeout: 5000 });
-          await tocMenuItem.click({ force: true });
+          // 「目次」ボタンをクリック
+          const tocButton = page.locator('button#toc-setting');
+          await tocButton.waitFor({ state: 'visible', timeout: 5000 });
+          await tocButton.click();
           await page.waitForTimeout(2000);
           console.log('✓ 目次を挿入しました');
           
           // 手動で入力した箇条書きリストを削除
-          // 目次の後の箇条書き行を選択して削除
           console.log('🗑️  手動の箇条書きリストを削除中...');
           
-          // 箇条書きの行数を計算
-          const listItemCount = newsListEndLine - newsListStartLine - 2; // 見出し行と空行を除く
+          // 目次が挿入されたので、その次の行から箇条書きを削除
+          // 目次ブロックの後の最初の箇条書き行に移動
+          await page.keyboard.press('ArrowDown'); // 目次ブロックの次へ
+          await page.waitForTimeout(200);
           
-          for (let i = 0; i < listItemCount; i++) {
-            // 次の行を選択
-            await page.keyboard.press('ArrowDown');
+          // 次の見出し（###）が出現するまで行を削除
+          let deletedLines = 0;
+          const maxDelete = 50; // 安全のため最大削除行数を設定
+          
+          while (deletedLines < maxDelete) {
+            // 現在行のテキストを取得
             await page.keyboard.press('Home');
-            
-            // 行全体を選択（Shift+End）
             await page.keyboard.down('Shift');
             await page.keyboard.press('End');
             await page.keyboard.up('Shift');
+            await page.waitForTimeout(50);
             
-            // 削除
-            await page.keyboard.press('Backspace');
-            await page.waitForTimeout(100);
+            // 選択されたテキストをクリップボードにコピー
+            const isMac = process.platform === 'darwin';
+            if (isMac) {
+              await page.keyboard.press('Meta+c');
+            } else {
+              await page.keyboard.press('Control+c');
+            }
+            await page.waitForTimeout(50);
+            
+            // クリップボードから取得
+            const lineText = await page.evaluate(() => navigator.clipboard.readText());
+            
+            // 見出し（###）が出現したら終了
+            if (lineText.trim().startsWith('###')) {
+              await page.keyboard.press('Home'); // 選択解除
+              break;
+            }
+            
+            // 空行または箇条書き行の場合は削除
+            if (lineText.trim() === '' || lineText.trim().startsWith('-')) {
+              // 行全体を削除（選択状態のままBackspace）
+              await page.keyboard.press('Backspace');
+              await page.waitForTimeout(50);
+              deletedLines++;
+            } else {
+              // 想定外の内容なら終了
+              await page.keyboard.press('Home'); // 選択解除
+              break;
+            }
           }
           
-          console.log('✓ 箇条書きリストを削除しました');
+          console.log(`✓ ${deletedLines}行の箇条書きリストを削除しました`);
         }
       } catch (e) {
         console.log('⚠️  目次挿入エラー:', e.message);

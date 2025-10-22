@@ -536,12 +536,18 @@ def preprocess_news(news_list):
             # 共通キーワードの割合を計算
             if len(current_keywords) > 0 and len(seen_keywords) > 0:
                 common = current_keywords & seen_keywords
-                similarity = len(common) / min(len(current_keywords), len(seen_keywords))
                 
-                # 50%以上共通していたら重複とみなす
-                if similarity >= 0.5:
-                    is_duplicate = True
-                    break
+                # 主要キーワード（3文字以上）を重視
+                current_major = {k for k in current_keywords if len(k) >= 3}
+                seen_major = {k for k in seen_keywords if len(k) >= 3}
+                common_major = current_major & seen_major
+                
+                # 主要キーワードが2つ以上一致、かつ全体の類似度が70%以上なら重複
+                if len(common_major) >= 2:
+                    similarity = len(common) / min(len(current_keywords), len(seen_keywords))
+                    if similarity >= 0.7:
+                        is_duplicate = True
+                        break
         
         if not is_duplicate:
             seen_titles.append(title)

@@ -147,7 +147,7 @@ class GrokArticleGenerator:
                 self.api_url,
                 headers=headers,
                 json=payload,
-                timeout=120
+                timeout=300  # 120秒 → 300秒（5分）に延長
             )
             
             if response.status_code == 200:

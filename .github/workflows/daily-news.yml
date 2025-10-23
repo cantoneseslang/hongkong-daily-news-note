@@ -202,8 +202,9 @@ jobs:
           # 認証状態ファイルを作成
           if [ -n "$NOTE_AUTH_STATE" ]; then
             echo "🔑 認証状態を復元中..."
-            echo "$NOTE_AUTH_STATE" | base64 -d > /tmp/.note-state.json
+            echo "$NOTE_AUTH_STATE" | tr -d '\n' | base64 -d > /tmp/.note-state.json
             echo "✅ 認証状態を復元しました"
+            echo "📄 認証状態ファイルサイズ: $(wc -c < /tmp/.note-state.json) bytes"
           fi
           
           # note.com投稿を実行（失敗したらエラー）

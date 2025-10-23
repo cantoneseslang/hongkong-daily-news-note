@@ -167,8 +167,10 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
   }
   console.log(`本文: ${body.length}文字\n`);
 
+  // GitHub Actions環境ではheadless: true、ローカルではheadless: false
+  const isCI = process.env.CI === 'true';
   const browser = await chromium.launch({
-    headless: true,
+    headless: isCI,
     args: ['--lang=ja-JP', '--no-sandbox', '--disable-setuid-sandbox'],
   });
 

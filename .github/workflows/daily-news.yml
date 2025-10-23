@@ -6,8 +6,7 @@ on:
       - main
   schedule:
     # テスト実行（2025年10月23日のみ）
-    - cron: '48 6 23 10 *'  # UTC 06:48 = HKT 14:48
-    - cron: '52 6 23 10 *'  # UTC 06:52 = HKT 14:52
+    - cron: '55 6 23 10 *'  # UTC 06:55 = HKT 14:55
     # 通常実行: UTC 22:00 = HKT 6:00（翌日）
     - cron: '0 22 * * *'
   workflow_dispatch:  # 手動実行も可能

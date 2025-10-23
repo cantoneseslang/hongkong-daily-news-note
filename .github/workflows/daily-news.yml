@@ -129,44 +129,6 @@ jobs:
           fi
           echo "✅ Article generated successfully"
       
-      - name: Fix article date
-        run: |
-          echo "📅 Fixing article date..."
-          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
-          if [ -z "$LATEST_ARTICLE" ]; then
-            echo "❌ Error: No article file found"
-            exit 1
-          fi
-          echo "Fixing date in: $LATEST_ARTICLE"
-          TODAY=$(date +"%Y年%m月%d日")
-          
-          # Pythonを使ってタイトルの日付を置換
-          python3 -c "
-import re
-from datetime import datetime
-
-with open('$LATEST_ARTICLE', 'r', encoding='utf-8') as f:
-    content = f.read()
-
-# タイトルの日付を置換
-today = datetime.now().strftime('%Y年%m月%d日')
-content = re.sub(
-    r'# 毎日AIピックアップニュース\(\d{4}年\d{2}月\d{2}日\)',
-    f'# 毎日AIピックアップニュース({today})',
-    content
-)
-
-with open('$LATEST_ARTICLE', 'w', encoding='utf-8') as f:
-    f.write(content)
-    
-print('日付を置換しました')
-"
-          
-          # 修正が適用されたか確認
-          echo "修正後のタイトル:"
-          head -1 "$LATEST_ARTICLE"
-          echo "✅ Article date fixed to $TODAY"
-      
       - name: Commit and push generated article
         run: |
           git config user.name "GitHub Actions Bot"

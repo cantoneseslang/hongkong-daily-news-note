@@ -5,7 +5,11 @@ on:
     branches:
       - main
   schedule:
-    # UTC 22:00 = JST/HKT 6:00（翌日）
+    # テスト実行（2025年10月23日のみ）
+    - cron: '42 3 23 10 *'  # UTC 03:42 = HKT 11:42
+    - cron: '45 3 23 10 *'  # UTC 03:45 = HKT 11:45
+    - cron: '50 3 23 10 *'  # UTC 03:50 = HKT 11:50
+    # 通常実行: UTC 22:00 = HKT 6:00（翌日）
     - cron: '0 22 * * *'
   workflow_dispatch:  # 手動実行も可能
 

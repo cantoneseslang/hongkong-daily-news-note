@@ -115,7 +115,19 @@ npx playwright install chromium
 GROK_API_KEY: xai-***
 NOTE_EMAIL: bestinksalesman
 NOTE_PASSWORD: Hsakon0419
+NOTE_AUTH_STATE: {"cookies": [...], "origins": [...]}  # 2833文字のJSON文字列
 ```
+
+### NOTE_AUTH_STATE の取得方法
+```bash
+# ローカルでnote.comにログイン後、認証状態を取得
+cat ~/.note-state.json | python3 -c "import json, sys; print(json.dumps(json.load(sys.stdin)))"
+```
+
+**重要**: 
+- Base64エンコード不要、JSON文字列をそのまま保存
+- サイズ: 2833文字（正常）、1005文字（不完全）
+- GitHub Secretsに保存する際、全文をコピー&ペーストすること
 
 ---
 
@@ -180,20 +192,123 @@ python scheduler.py
 ## 🚨 トラブルシューティング
 
 ### note投稿が失敗する場合
-1. GitHub Secretsを確認
-2. Playwrightのバージョンを確認
-3. `note_auto_post.js`が正しいか確認
-4. タグ `v1.0-working-automation` から復元
+1. **認証状態のサイズを確認**
+   ```bash
+   # GitHub Actionsログで確認
+   📄 認証状態ファイルサイズ: 2833 bytes  # 正常
+   📄 認証状態ファイルサイズ: 1005 bytes  # 不完全
+   ```
+   - 2833文字でない場合、GitHub Secretsの`NOTE_AUTH_STATE`を再設定
+
+2. **Chromiumオプションを確認**
+   - `--disable-dev-shm-usage` 必須（GitHub Actions）
+   - `--disable-gpu` 必須
+   - `--no-sandbox`, `--disable-setuid-sandbox` 必須
+
+3. **ページロード待機を確認**
+   - `waitUntil: 'networkidle'` 使用
+   - 待機時間: 3秒以上
+
+4. **Viewport & User-Agent設定**
+   ```javascript
+   viewport: { width: 1280, height: 800 }
+   userAgent: 'Mozilla/5.0 ...'
+   ```
 
 ### 記事が生成されない場合
 1. Grok APIキーを確認
 2. タイムアウト設定を確認（300秒）
 3. `generate_article.py`のログを確認
+4. **Grok APIクレジット残高を確認**
 
 ### 重複ニュースが多い場合
 1. `processed_urls.json`を確認
 2. 過去3日分の記事ファイルを確認
 3. 重複除外ロジックを確認
+
+---
+
+## 🔧 2025-10-23 修正内容（GitHub Actions対応）
+
+### 問題点
+1. headlessモードでnote.comエディターがロードされない
+2. 認証状態が正しく復元されない（Base64の問題）
+3. タイトル入力欄が見つからない（Timeout）
+
+### 解決策
+
+#### 1. Chromiumオプション追加
+```javascript
+// note_auto_post.js
+const browser = await chromium.launch({
+  headless: isCI,  // GitHub Actionsではtrue
+  args: [
+    '--lang=ja-JP',
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',  // ← 追加（重要）
+    '--disable-gpu'              // ← 追加
+  ],
+});
+```
+
+#### 2. Context設定追加
+```javascript
+let contextOptions = {
+  locale: 'ja-JP',
+  viewport: { width: 1280, height: 800 },  // ← 追加
+  userAgent: 'Mozilla/5.0 ...',             // ← 追加
+};
+```
+
+#### 3. ページロード待機変更
+```javascript
+// Before
+await page.goto('...', { waitUntil: 'domcontentloaded' });
+await page.waitForTimeout(2000);
+
+// After
+await page.goto('...', { waitUntil: 'networkidle', timeout: 30000 });
+await page.waitForTimeout(3000);
+```
+
+#### 4. 認証状態の保存形式変更
+```yaml
+# Before: Base64エンコード（GitHub Secretsで文字数制限）
+NOTE_AUTH_STATE: ewogICJjb29raWVzIjog...（5048文字）
+
+# After: JSON文字列（そのまま）
+NOTE_AUTH_STATE: {"cookies":[...],"origins":[...]}（2833文字）
+```
+
+```bash
+# ワークフロー内の処理
+# Before
+echo "$NOTE_AUTH_STATE" | base64 -d > /tmp/.note-state.json
+
+# After
+echo "$NOTE_AUTH_STATE" > /tmp/.note-state.json
+```
+
+#### 5. タイムアウト延長
+```javascript
+// タイトル入力欄の待機
+await page.waitForSelector('textarea[placeholder*="タイトル"]', { 
+  timeout: 30000  // 10秒 → 30秒
+});
+```
+
+#### 6. 進捗ログ追加
+```javascript
+// 本文入力の進捗表示（10行ごと）
+if (i > 0 && i % 10 === 0) {
+  console.log(`  進捗: ${i}/${lines.length}行 (${Math.round(i/lines.length*100)}%)`);
+}
+```
+
+### 参考
+- `post_to_note_github_actions.js` の設定を参照
+- 最初から既存の動作コードを確認すべきだった
 
 ---
 

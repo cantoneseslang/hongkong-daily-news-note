@@ -613,6 +613,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
 
   } catch (error) {
     console.error('\n❌ エラー発生:', error.message);
+    console.error('スタックトレース:', error.stack);
     try {
       const errorPath = path.join(os.tmpdir(), `error-${Date.now()}.png`);
       await page.screenshot({ path: errorPath, fullPage: true });
@@ -620,6 +621,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     } catch (screenshotError) {
       console.log('スクリーンショットの保存に失敗しました');
     }
+    throw error; // エラーを再スロー
   } finally {
     await browser.close();
   }
@@ -633,4 +635,7 @@ const isPublish = process.argv[6] === '--publish' || process.argv[6] === '-p';
 
 console.log(`モード: ${isPublish ? '公開' : '下書き保存'}\n`);
 
-saveDraft(markdownPath, username, password, statePath, isPublish).catch(console.error);
+saveDraft(markdownPath, username, password, statePath, isPublish).catch(error => {
+  console.error('処理失敗:', error);
+  process.exit(1);
+});

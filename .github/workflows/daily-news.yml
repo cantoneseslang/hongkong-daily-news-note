@@ -197,10 +197,14 @@ jobs:
           fi
           
           echo "📄 Article: $LATEST_ARTICLE"
-          node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" || {
-            echo "⚠️ note.com投稿失敗（続行）"
-          }
-          echo "✅ note.com投稿ステップ完了"
+          
+          # note.com投稿を実行（失敗したらエラー）
+          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"; then
+            echo "✅ note.com投稿成功"
+          else
+            echo "❌ note.com投稿失敗"
+            exit 1
+          fi
       
       - name: Summary
         if: always()

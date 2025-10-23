@@ -397,6 +397,8 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       }
     }
     
+    console.log(`📝 本文を入力中... (全${lines.length}行)`);
+    
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       const isLastLine = i === lines.length - 1;
@@ -404,6 +406,11 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       // 目次を挿入した場合、最初の空行はスキップ
       if (i === 0 && tocInsertLine === 0 && !shouldInsertToc) {
         continue;
+      }
+      
+      // 進捗表示（10行ごと）
+      if (i > 0 && i % 10 === 0) {
+        console.log(`  進捗: ${i}/${lines.length}行 (${Math.round(i/lines.length*100)}%)`);
       }
 
       // 画像+リンク結合マークダウンを検出: [![alt](path)](url)

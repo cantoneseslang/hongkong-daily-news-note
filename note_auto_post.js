@@ -192,8 +192,8 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     page.setDefaultTimeout(30000);
 
     console.log('🌐 editor.note.com/new に移動中...');
-    await page.goto('https://editor.note.com/new', { waitUntil: 'domcontentloaded' });
-    await page.waitForTimeout(2000);
+    await page.goto('https://editor.note.com/new', { waitUntil: 'networkidle', timeout: 30000 });
+    await page.waitForTimeout(3000);
 
     // ログインページにリダイレクトされたかチェック
     const currentUrl = page.url();
@@ -241,12 +241,12 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
 
       // 新規記事作成ページに再度移動
       console.log('🌐 editor.note.com/new に再度移動中...');
-      await page.goto('https://editor.note.com/new', { waitUntil: 'domcontentloaded' });
-      await page.waitForTimeout(2000);
+      await page.goto('https://editor.note.com/new', { waitUntil: 'networkidle', timeout: 30000 });
+      await page.waitForTimeout(3000);
     }
 
     console.log('📋 タイトル入力中...');
-    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 10000 });
+    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
     await page.fill('textarea[placeholder*="タイトル"]', title);
     console.log('✓ タイトル入力完了');
 

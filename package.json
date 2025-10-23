@@ -14,7 +14,8 @@
     "note.com"
   ],
   "author": "cantoneseslang",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "playwright": "^1.40.0"
   }

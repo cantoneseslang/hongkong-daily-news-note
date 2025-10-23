@@ -205,7 +205,10 @@ git checkout v1.0-working-automation
 
 ## 📄 ライセンス
 
-MIT License
+**All Rights Reserved**
+
+このプロジェクトのコードは著作権で保護されています。  
+無断での使用、複製、配布、改変を禁じます。
 
 ---
 

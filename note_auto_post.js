@@ -171,13 +171,21 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
   const isCI = process.env.CI === 'true';
   const browser = await chromium.launch({
     headless: isCI,
-    args: ['--lang=ja-JP', '--no-sandbox', '--disable-setuid-sandbox'],
+    args: [
+      '--lang=ja-JP',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu'
+    ],
   });
 
   try {
     // 認証状態ファイルがあれば読み込む
     let contextOptions = {
       locale: 'ja-JP',
+      viewport: { width: 1280, height: 800 },
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     };
     
     if (existsSync(statePath)) {

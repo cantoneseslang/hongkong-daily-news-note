@@ -201,11 +201,9 @@ jobs:
           # 認証状態ファイルを作成
           if [ -n "$NOTE_AUTH_STATE" ]; then
             echo "🔑 認証状態を復元中..."
-            echo "$NOTE_AUTH_STATE" > /tmp/auth-base64.txt
-            python3 -c "import base64; content = open('/tmp/auth-base64.txt').read().strip(); open('/tmp/.note-state.json', 'wb').write(base64.b64decode(content))"
+            echo "$NOTE_AUTH_STATE" > /tmp/.note-state.json
             echo "✅ 認証状態を復元しました"
             echo "📄 認証状態ファイルサイズ: $(wc -c < /tmp/.note-state.json) bytes"
-            rm /tmp/auth-base64.txt
           fi
           
           # note.com投稿を実行（失敗したらエラー）

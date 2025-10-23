@@ -154,7 +154,10 @@ jobs:
               # コンフリクトが発生した場合、リモートを優先
               git reset --soft origin/main
               
-              # 記事ファイルを再度追加
+              # ワークフローファイルの変更を除外
+              git restore --staged .github/
+              
+              # 記事ファイルのみを再度追加
               git add daily-articles/hongkong-news_*.md
               
               # 変更があれば再コミット

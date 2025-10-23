@@ -141,25 +141,26 @@ jobs:
           TODAY=$(date +"%Y年%m月%d日")
           
           # Pythonを使ってタイトルの日付を置換
-          python3 << EOF
+          python3 -c "
 import re
-import sys
+from datetime import datetime
 
-with open("$LATEST_ARTICLE", 'r', encoding='utf-8') as f:
+with open('$LATEST_ARTICLE', 'r', encoding='utf-8') as f:
     content = f.read()
 
 # タイトルの日付を置換
+today = datetime.now().strftime('%Y年%m月%d日')
 content = re.sub(
     r'# 毎日AIピックアップニュース\(\d{4}年\d{2}月\d{2}日\)',
-    f'# 毎日AIピックアップニュース(${TODAY})',
+    f'# 毎日AIピックアップニュース({today})',
     content
 )
 
-with open("$LATEST_ARTICLE", 'w', encoding='utf-8') as f:
+with open('$LATEST_ARTICLE', 'w', encoding='utf-8') as f:
     f.write(content)
     
-print("日付を置換しました")
-EOF
+print('日付を置換しました')
+"
           
           # 修正が適用されたか確認
           echo "修正後のタイトル:"

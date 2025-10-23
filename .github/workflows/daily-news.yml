@@ -187,6 +187,7 @@ jobs:
         env:
           NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
           NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
+          NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
         run: |
           echo "📮 Posting to note.com..."
           LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
@@ -198,8 +199,15 @@ jobs:
           
           echo "📄 Article: $LATEST_ARTICLE"
           
+          # 認証状態ファイルを作成
+          if [ -n "$NOTE_AUTH_STATE" ]; then
+            echo "🔑 認証状態を復元中..."
+            echo "$NOTE_AUTH_STATE" | base64 -d > /tmp/.note-state.json
+            echo "✅ 認証状態を復元しました"
+          fi
+          
           # note.com投稿を実行（失敗したらエラー）
-          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD"; then
+          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json; then
             echo "✅ note.com投稿成功"
           else
             echo "❌ note.com投稿失敗"

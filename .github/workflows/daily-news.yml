@@ -135,7 +135,31 @@ jobs:
           fi
           echo "Fixing date in: $LATEST_ARTICLE"
           TODAY=$(date +"%Y年%m月%d日")
-          sed -i "s/# 毎日AIピックアップニュース([0-9]\{4\}年[0-9]\{2\}月[0-9]\{2\}日)/# 毎日AIピックアップニュース($TODAY)/" "$LATEST_ARTICLE"
+          
+          # Pythonを使ってタイトルの日付を置換
+          python3 << EOF
+import re
+import sys
+
+with open("$LATEST_ARTICLE", 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# タイトルの日付を置換
+content = re.sub(
+    r'# 毎日AIピックアップニュース\(\d{4}年\d{2}月\d{2}日\)',
+    f'# 毎日AIピックアップニュース(${TODAY})',
+    content
+)
+
+with open("$LATEST_ARTICLE", 'w', encoding='utf-8') as f:
+    f.write(content)
+    
+print("日付を置換しました")
+EOF
+          
+          # 修正が適用されたか確認
+          echo "修正後のタイトル:"
+          head -1 "$LATEST_ARTICLE"
           echo "✅ Article date fixed to $TODAY"
       
       - name: Commit and push generated article

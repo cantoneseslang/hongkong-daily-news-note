@@ -168,8 +168,8 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
   console.log(`本文: ${body.length}文字\n`);
 
   const browser = await chromium.launch({
-    headless: false,
-    args: ['--lang=ja-JP'],
+    headless: true,
+    args: ['--lang=ja-JP', '--no-sandbox', '--disable-setuid-sandbox'],
   });
 
   try {

@@ -1,0 +1,158 @@
+# Codex AI コード分析設定
+version: 1
+
+# 分析設定
+analysis:
+  # 分析タイプ
+  type: comprehensive
+  
+  # 対象言語
+  languages:
+    - python
+    - javascript
+    - typescript
+    - yaml
+    - markdown
+  
+  # 分析項目
+  categories:
+    # セキュリティ分析
+    security:
+      - "Vulnerability scanning"
+      - "Dependency analysis"
+      - "Secret detection"
+      - "Access control review"
+      - "Input validation"
+    
+    # パフォーマンス分析
+    performance:
+      - "Algorithm complexity"
+      - "Memory usage"
+      - "CPU usage"
+      - "Network efficiency"
+      - "Database optimization"
+    
+    # メンテナビリティ分析
+    maintainability:
+      - "Code complexity"
+      - "Documentation quality"
+      - "Test coverage"
+      - "Code duplication"
+      - "Technical debt"
+    
+    # 品質分析
+    quality:
+      - "Code style"
+      - "Best practices"
+      - "Design patterns"
+      - "Error handling"
+      - "Logging"
+
+# 除外パス
+exclude:
+  - "node_modules/**"
+  - "venv/**"
+  - ".git/**"
+  - "*.log"
+  - "*.tmp"
+  - "daily-articles/**"
+  - "logs/**"
+  - "screenshots/**"
+
+# インクルードパス
+include:
+  - "*.py"
+  - "*.js"
+  - "*.ts"
+  - "*.yml"
+  - "*.yaml"
+  - "*.md"
+  - ".github/workflows/**"
+
+# レポート設定
+reporting:
+  # レポート形式
+  format: detailed
+  
+  # 重要度フィルター
+  priority:
+    - "high"
+    - "critical"
+    - "medium"
+  
+  # 自動修正提案
+  autoFix: true
+  
+  # 学習モード
+  learning: true
+  
+  # トレンド分析
+  trends: true
+
+# 通知設定
+notifications:
+  # 分析完了通知
+  onComplete: true
+  
+  # 重要度の高い問題
+  onHighPriority: true
+  
+  # セキュリティ問題
+  onSecurityIssue: true
+  
+  # パフォーマンス問題
+  onPerformanceIssue: true
+
+# カスタムルール
+customRules:
+  # Python ルール
+  python:
+    - "Follow PEP 8 style guide"
+    - "Use type hints"
+    - "Handle exceptions properly"
+    - "Use f-strings for formatting"
+    - "Avoid global variables"
+    - "Use context managers"
+    - "Write docstrings"
+    - "Use list comprehensions"
+    - "Avoid deep nesting"
+    - "Use meaningful variable names"
+  
+  # JavaScript ルール
+  javascript:
+    - "Use const/let instead of var"
+    - "Use arrow functions"
+    - "Handle async/await properly"
+    - "Use modern ES6+ features"
+    - "Avoid callback hell"
+    - "Use proper error handling"
+    - "Use meaningful variable names"
+    - "Avoid deep nesting"
+    - "Use template literals"
+    - "Use destructuring"
+  
+  # セキュリティルール
+  security:
+    - "No hardcoded secrets"
+    - "Validate all inputs"
+    - "Use secure APIs"
+    - "Handle sensitive data properly"
+    - "Use HTTPS"
+    - "Implement proper authentication"
+    - "Use secure random"
+    - "Avoid SQL injection"
+    - "Prevent XSS"
+    - "Use CSRF protection"
+  
+  # パフォーマンスルール
+  performance:
+    - "Optimize database queries"
+    - "Use efficient algorithms"
+    - "Minimize memory usage"
+    - "Use caching"
+    - "Avoid blocking operations"
+    - "Use async operations"
+    - "Optimize images"
+    - "Minimize HTTP requests"
+    - "Use CDN"
+    - "Implement lazy loading"

@@ -1,0 +1,112 @@
+# CodeRabbit AI レビュー設定
+version: 1
+
+# レビュー設定
+review:
+  # レビュータイプ
+  type: full
+  
+  # 対象言語
+  languages:
+    - python
+    - javascript
+    - typescript
+    - yaml
+    - markdown
+  
+  # 最大ファイル数
+  maxFiles: 20
+  
+  # 最大行数
+  maxLines: 2000
+  
+  # レビューオプション
+  options:
+    # セキュリティレビュー
+    security: true
+    
+    # パフォーマンスレビュー
+    performance: true
+    
+    # メンテナビリティレビュー
+    maintainability: true
+    
+    # ベストプラクティス
+    bestPractices: true
+    
+    # コード品質
+    codeQuality: true
+
+# 除外パス
+exclude:
+  - "node_modules/**"
+  - "venv/**"
+  - ".git/**"
+  - "*.log"
+  - "*.tmp"
+  - "daily-articles/**"
+  - "logs/**"
+  - "screenshots/**"
+
+# インクルードパス
+include:
+  - "*.py"
+  - "*.js"
+  - "*.ts"
+  - "*.yml"
+  - "*.yaml"
+  - "*.md"
+  - ".github/workflows/**"
+
+# レビューコメント設定
+comments:
+  # コメントの詳細度
+  detail: high
+  
+  # 提案の種類
+  suggestions:
+    - refactor
+    - optimization
+    - security
+    - performance
+    - maintainability
+  
+  # 自動修正提案
+  autoFix: true
+  
+  # 学習モード
+  learning: true
+
+# 通知設定
+notifications:
+  # レビュー完了通知
+  onComplete: true
+  
+  # エラー通知
+  onError: true
+  
+  # 重要度の高い問題
+  onHighPriority: true
+
+# カスタムルール
+customRules:
+  # Python ルール
+  python:
+    - "Use type hints"
+    - "Follow PEP 8"
+    - "Use f-strings"
+    - "Handle exceptions properly"
+  
+  # JavaScript ルール
+  javascript:
+    - "Use const/let instead of var"
+    - "Use arrow functions"
+    - "Handle async/await properly"
+    - "Use modern ES6+ features"
+  
+  # セキュリティルール
+  security:
+    - "No hardcoded secrets"
+    - "Validate inputs"
+    - "Use secure APIs"
+    - "Handle sensitive data properly"

@@ -21,13 +21,68 @@ class GrokArticleGenerator:
         print("\n🤖 Grok APIで記事生成中...")
         print("=" * 60)
         
-        # ニュースデータを整形
-        news_text = self._format_news_for_prompt(news_data)
-        
         # 香港時間（HKT）で現在の日付を取得
         from datetime import datetime, timezone, timedelta
         hkt = timezone(timedelta(hours=8))  # UTC+8
         current_hkt_date = datetime.now(hkt)
+        
+        # 🚨 最重要チェック: 当日の定義と確認
+        print("=" * 60)
+        print("📅 当日定義の確認")
+        print("=" * 60)
+        print(f"現在時刻: {current_hkt_date.strftime('%Y年%m月%d日 %H:%M')} (HKT)")
+        print(f"記事生成対象日: {current_hkt_date.strftime('%Y年%m月%d日')}")
+        print(f"ファイル名: hongkong-news_{current_hkt_date.strftime('%Y-%m-%d')}.md")
+        print("=" * 60)
+        
+        # 🚨 第1段チェック: 当日のニュースが存在するか確認
+        print("🔍 第1段チェック: 当日ニュースの存在確認中...")
+        today_news = self._filter_today_news(news_data, current_hkt_date)
+        
+        if not today_news:
+            print("❌ 第1段チェック失敗: 当日のニュースが見つかりません")
+            print("   理由:")
+            print("   - RSSフィードに当日のニュースが含まれていない")
+            print("   - ニュースの日付が正しく解析されていない")
+            print("   - フィルタリングが厳しすぎる")
+            print(f"   総ニュース数: {len(news_data)}件")
+            print("   処理を中断します。")
+            return None
+        
+        print(f"✅ 第1段チェック通過: 当日ニュース {len(today_news)}件")
+        
+        # 🚨 第2段チェック: 過去記事との重複チェック
+        print("🔍 第2段チェック: 過去記事との重複確認中...")
+        unique_today_news = self._check_duplicate_with_past_articles(today_news, current_hkt_date)
+        
+        if not unique_today_news:
+            print("❌ 第2段チェック失敗: 重複除外後、当日ニュースが0件になりました")
+            print("   理由:")
+            print("   - 過去3日分の記事と全て重複している")
+            print("   - 同じニュースが複数ソースで報道されている")
+            print("   処理を中断します。")
+            return None
+        
+        print(f"✅ 第2段チェック通過: 重複除外後 {len(unique_today_news)}件")
+        
+        # 🚨 第3段チェック: 記事品質チェック
+        print("🔍 第3段チェック: 記事品質確認中...")
+        quality_news = self._check_article_quality(unique_today_news)
+        
+        if not quality_news:
+            print("❌ 第3段チェック失敗: 品質基準を満たすニュースがありません")
+            print("   理由:")
+            print("   - ニュースの内容が不十分")
+            print("   - 香港関連性が低い")
+            print("   - 文字数が不足している")
+            print("   処理を中断します。")
+            return None
+        
+        print(f"✅ 第3段チェック通過: 品質確認済み {len(quality_news)}件")
+        print("🎉 全3段チェック通過！記事生成を開始します。")
+        
+        # ニュースデータを整形（品質チェック済みのニュースを使用）
+        news_text = self._format_news_for_prompt(quality_news)
         
         # Grok APIへのプロンプト
         system_prompt = """あなたは香港のニュースを日本語に翻訳し、指定されたフォーマットで整形する翻訳者です。
@@ -310,6 +365,229 @@ Published: {news.get('published_at', 'N/A')}
                 weather_section += f"\n### 天気予報\n{translated_title}\n\n**引用元**: 香港天文台"
         
         return weather_section
+    
+    def _filter_today_news(self, news_data: List[Dict], current_date) -> List[Dict]:
+        """当日のニュースのみをフィルタリング"""
+        from datetime import datetime, timezone, timedelta
+        import re
+        
+        today_news = []
+        today_str = current_date.strftime('%Y-%m-%d')
+        
+        print(f"📊 ニュース日付分析開始")
+        print(f"   対象日: {today_str} ({current_date.strftime('%Y年%m月%d日')})")
+        print(f"   総ニュース数: {len(news_data)}件")
+        print("-" * 60)
+        
+        for i, news in enumerate(news_data):
+            published_at = news.get('published_at', '')
+            title = news.get('title', '')
+            
+            # 日付解析を試行
+            news_date = None
+            date_parse_method = ""
+            
+            # パターン1: ISO形式 (2025-10-24T08:30:00Z)
+            if 'T' in published_at:
+                try:
+                    # タイムゾーン情報を除去してパース
+                    date_part = published_at.split('T')[0]
+                    news_date = datetime.strptime(date_part, '%Y-%m-%d').date()
+                    date_parse_method = "ISO形式"
+                except:
+                    pass
+            
+            # パターン2: 日付のみ (2025-10-24)
+            elif re.match(r'\d{4}-\d{2}-\d{2}', published_at):
+                try:
+                    news_date = datetime.strptime(published_at, '%Y-%m-%d').date()
+                    date_parse_method = "日付のみ"
+                except:
+                    pass
+            
+            # パターン3: その他の形式
+            else:
+                # 日付らしき文字列を抽出
+                date_match = re.search(r'(\d{4}-\d{2}-\d{2})', published_at)
+                if date_match:
+                    try:
+                        news_date = datetime.strptime(date_match.group(1), '%Y-%m-%d').date()
+                        date_parse_method = "正規表現抽出"
+                    except:
+                        pass
+            
+            # 当日チェック
+            if news_date:
+                if news_date.strftime('%Y-%m-%d') == today_str:
+                    today_news.append(news)
+                    print(f"  ✅ {i+1:2d}. {title[:50]}... ({published_at}) → {date_parse_method}")
+                else:
+                    print(f"  ❌ {i+1:2d}. {title[:50]}... ({published_at}) → {news_date.strftime('%Y-%m-%d')} ({date_parse_method})")
+            else:
+                print(f"  ⚠️  {i+1:2d}. {title[:50]}... ({published_at}) → 日付解析失敗")
+        
+        print("-" * 60)
+        print(f"📈 当日ニュース: {len(today_news)}/{len(news_data)}件")
+        
+        if len(today_news) == 0:
+            print("🚨 警告: 当日のニュースが0件です！")
+            print("   考えられる原因:")
+            print("   1. RSSフィードが更新されていない")
+            print("   2. ニュースの日付形式が想定と異なる")
+            print("   3. 香港時間とニュース配信時間のズレ")
+            print("   4. フィルタリング条件が厳しすぎる")
+        
+        return today_news
+    
+    def _check_duplicate_with_past_articles(self, today_news: List[Dict], current_date) -> List[Dict]:
+        """過去記事との重複チェック（第2段チェック）"""
+        import os
+        import re
+        from datetime import datetime, timedelta
+        
+        print("🔍 過去記事との重複チェック開始...")
+        
+        # 過去3日分の記事ファイルをチェック
+        past_urls = set()
+        past_titles = []
+        
+        for days_ago in range(1, 4):
+            past_date = current_date - timedelta(days=days_ago)
+            past_file = f"daily-articles/hongkong-news_{past_date.strftime('%Y-%m-%d')}.md"
+            
+            if os.path.exists(past_file):
+                print(f"  📂 過去記事チェック: {past_file}")
+                try:
+                    with open(past_file, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        
+                        # URLを抽出（**リンク**: の後のURL）
+                        url_matches = re.findall(r'\*\*リンク\*\*:\s*(https?://[^\s]+)', content)
+                        past_urls.update(url_matches)
+                        
+                        # タイトルを抽出（### の後のタイトル）
+                        title_matches = re.findall(r'^### (.+)$', content, re.MULTILINE)
+                        past_titles.extend([t for t in title_matches if '天気' not in t and 'weather' not in t.lower()])
+                        
+                    print(f"    ✓ 既出URL: {len(url_matches)}件、既出タイトル: {len([t for t in title_matches if '天気' not in t])}件")
+                except Exception as e:
+                    print(f"    ⚠️  ファイル読み込みエラー: {e}")
+        
+        if past_urls:
+            print(f"📊 過去記事から合計 {len(past_urls)} 件のURLと {len(past_titles)} 件のタイトルを抽出")
+        
+        # 重複除外
+        unique_news = []
+        duplicate_count = 0
+        
+        for news in today_news:
+            url = news.get('url', '')
+            title = news.get('title', '')
+            
+            # URLで重複チェック
+            if url in past_urls:
+                duplicate_count += 1
+                print(f"  ❌ URL重複: {title[:50]}...")
+                continue
+            
+            # タイトルの類似性チェック
+            is_similar = False
+            for past_title in past_titles:
+                # タイトルを正規化して比較
+                def normalize_title(t):
+                    t = t.lower()
+                    t = re.sub(r'[^\w\s]', '', t)
+                    return set(t.split())
+                
+                title_words = normalize_title(title)
+                past_title_words = normalize_title(past_title)
+                
+                # 共通単語をチェック
+                common_words = title_words & past_title_words
+                
+                # 3単語以上共通 かつ 共通率が70%以上なら重複とみなす
+                if len(common_words) >= 3:
+                    similarity = len(common_words) / max(len(title_words), len(past_title_words), 1)
+                    if similarity >= 0.7:
+                        is_similar = True
+                        break
+            
+            if is_similar:
+                duplicate_count += 1
+                print(f"  ❌ タイトル重複: {title[:50]}...")
+                continue
+            
+            unique_news.append(news)
+            print(f"  ✅ 新規: {title[:50]}...")
+        
+        if duplicate_count > 0:
+            print(f"🚫 重複除外: {duplicate_count}件")
+        
+        print(f"📊 重複除外後: {len(today_news)} → {len(unique_news)}件")
+        return unique_news
+    
+    def _check_article_quality(self, news_list: List[Dict]) -> List[Dict]:
+        """記事品質チェック（第3段チェック）"""
+        print("🔍 記事品質チェック開始...")
+        
+        quality_news = []
+        
+        for i, news in enumerate(news_list):
+            title = news.get('title', '')
+            description = news.get('description', '')
+            full_content = news.get('full_content', '')
+            url = news.get('url', '')
+            
+            # 品質チェック項目
+            quality_score = 0
+            issues = []
+            
+            # 1. タイトルの長さチェック
+            if len(title) < 10:
+                issues.append("タイトルが短すぎる")
+            else:
+                quality_score += 1
+            
+            # 2. 内容の充実度チェック
+            content_length = len(full_content) if full_content else len(description)
+            if content_length < 100:
+                issues.append("内容が不十分")
+            else:
+                quality_score += 1
+            
+            # 3. 香港関連性チェック
+            hk_keywords = ['香港', 'hong kong', 'hk', '港', '九龍', '新界', '中環', '銅鑼灣', '尖沙咀']
+            text_to_check = (title + ' ' + description + ' ' + full_content).lower()
+            hk_related = any(keyword.lower() in text_to_check for keyword in hk_keywords)
+            
+            if not hk_related:
+                issues.append("香港関連性が低い")
+            else:
+                quality_score += 1
+            
+            # 4. URLの有効性チェック
+            if not url or not url.startswith('http'):
+                issues.append("URLが無効")
+            else:
+                quality_score += 1
+            
+            # 5. 広告記事チェック
+            ad_keywords = ['presented', 'sponsored', 'advertisement', '広告', 'スポンサー']
+            is_ad = any(keyword.lower() in text_to_check for keyword in ad_keywords)
+            
+            if is_ad:
+                issues.append("広告記事")
+                quality_score -= 1
+            
+            # 品質判定（3点以上で合格）
+            if quality_score >= 3:
+                quality_news.append(news)
+                print(f"  ✅ {i+1:2d}. {title[:50]}... (品質スコア: {quality_score}/4)")
+            else:
+                print(f"  ❌ {i+1:2d}. {title[:50]}... (品質スコア: {quality_score}/4) - {', '.join(issues)}")
+        
+        print(f"📊 品質チェック後: {len(news_list)} → {len(quality_news)}件")
+        return quality_news
     
     def _translate_weather_text(self, text: str) -> str:
         """天気情報のテキストを中国語・広東語から日本語に翻訳"""

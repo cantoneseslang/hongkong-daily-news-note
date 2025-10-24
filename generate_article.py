@@ -37,6 +37,8 @@ class GrokArticleGenerator:
         
         # 🚨 第1段チェック: 記事ピックアップ（日付認識パス）
         print("🔍 第1段チェック: 記事ピックアップ（日付認識）...")
+        print(f"📊 入力ニュース数: {len(news_data)}件")
+        
         today_news = self._filter_today_news(news_data, current_hkt_date)
         
         if not today_news:
@@ -50,6 +52,7 @@ class GrokArticleGenerator:
             return None
         
         print(f"✅ 第1段チェック通過: 当日ニュース {len(today_news)}件")
+        print(f"📈 フィルタリング結果: {len(news_data)} → {len(today_news)}件")
         
         # ニュースデータを整形
         news_text = self._format_news_for_prompt(today_news)
@@ -398,6 +401,56 @@ Published: {news.get('published_at', 'N/A')}
             print("   3. 香港時間とニュース配信時間のズレ")
             print("   4. フィルタリング条件が厳しすぎる")
             print(f"   昨日のニュースが{yesterday_count}件含まれている可能性があります")
+            print()
+            print("🔧 緊急対応: 日付フィルタリングを緩和します")
+            print("   過去24時間以内のニュースも含めて再試行...")
+            
+            # 緊急対応: 過去24時間以内のニュースも含める
+            from datetime import datetime, timedelta
+            yesterday_24h_ago = current_date - timedelta(hours=24)
+            yesterday_24h_str = yesterday_24h_ago.strftime('%Y-%m-%d')
+            
+            print(f"   緩和条件: {yesterday_24h_str}以降のニュースを含める")
+            
+            # 再フィルタリング（緩和版）
+            relaxed_news = []
+            for news in news_data:
+                published_at = news.get('published_at', '')
+                title = news.get('title', '')
+                
+                # 日付解析を試行
+                news_date = None
+                if 'T' in published_at:
+                    try:
+                        date_part = published_at.split('T')[0]
+                        news_date = datetime.strptime(date_part, '%Y-%m-%d').date()
+                    except:
+                        pass
+                elif re.match(r'\d{4}-\d{2}-\d{2}', published_at):
+                    try:
+                        news_date = datetime.strptime(published_at, '%Y-%m-%d').date()
+                    except:
+                        pass
+                else:
+                    date_match = re.search(r'(\d{4}-\d{2}-\d{2})', published_at)
+                    if date_match:
+                        try:
+                            news_date = datetime.strptime(date_match.group(1), '%Y-%m-%d').date()
+                        except:
+                            pass
+                
+                # 緩和条件: 過去24時間以内
+                if news_date and news_date >= yesterday_24h_ago.date():
+                    relaxed_news.append(news)
+            
+            if relaxed_news:
+                print(f"   ✅ 緩和フィルタリング成功: {len(relaxed_news)}件")
+                print("   ⚠️  注意: 過去24時間以内のニュースを含んでいます")
+                return relaxed_news
+            else:
+                print("   ❌ 緩和フィルタリングでも0件です")
+                print("   🚨 システムエラー: ニュース取得に問題があります")
+                return []
         
         return today_news
     

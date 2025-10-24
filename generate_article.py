@@ -35,8 +35,8 @@ class GrokArticleGenerator:
         print(f"ファイル名: hongkong-news_{current_hkt_date.strftime('%Y-%m-%d')}.md")
         print("=" * 60)
         
-        # 🚨 第1段チェック: 当日のニュースが存在するか確認
-        print("🔍 第1段チェック: 当日ニュースの存在確認中...")
+        # 🚨 第1段チェック: 記事ピックアップ（日付認識パス）
+        print("🔍 第1段チェック: 記事ピックアップ（日付認識）...")
         today_news = self._filter_today_news(news_data, current_hkt_date)
         
         if not today_news:
@@ -51,38 +51,8 @@ class GrokArticleGenerator:
         
         print(f"✅ 第1段チェック通過: 当日ニュース {len(today_news)}件")
         
-        # 🚨 第2段チェック: 過去記事との重複チェック
-        print("🔍 第2段チェック: 過去記事との重複確認中...")
-        unique_today_news = self._check_duplicate_with_past_articles(today_news, current_hkt_date)
-        
-        if not unique_today_news:
-            print("❌ 第2段チェック失敗: 重複除外後、当日ニュースが0件になりました")
-            print("   理由:")
-            print("   - 過去3日分の記事と全て重複している")
-            print("   - 同じニュースが複数ソースで報道されている")
-            print("   処理を中断します。")
-            return None
-        
-        print(f"✅ 第2段チェック通過: 重複除外後 {len(unique_today_news)}件")
-        
-        # 🚨 第3段チェック: 記事品質チェック
-        print("🔍 第3段チェック: 記事品質確認中...")
-        quality_news = self._check_article_quality(unique_today_news)
-        
-        if not quality_news:
-            print("❌ 第3段チェック失敗: 品質基準を満たすニュースがありません")
-            print("   理由:")
-            print("   - ニュースの内容が不十分")
-            print("   - 香港関連性が低い")
-            print("   - 文字数が不足している")
-            print("   処理を中断します。")
-            return None
-        
-        print(f"✅ 第3段チェック通過: 品質確認済み {len(quality_news)}件")
-        print("🎉 全3段チェック通過！記事生成を開始します。")
-        
-        # ニュースデータを整形（品質チェック済みのニュースを使用）
-        news_text = self._format_news_for_prompt(quality_news)
+        # ニュースデータを整形
+        news_text = self._format_news_for_prompt(today_news)
         
         # Grok APIへのプロンプト
         system_prompt = """あなたは香港のニュースを日本語に翻訳し、指定されたフォーマットで整形する翻訳者です。
@@ -216,71 +186,40 @@ class GrokArticleGenerator:
                 content = result['choices'][0]['message']['content']
                 print("✅ 記事生成完了")
                 
-                # JSONパース
-                try:
-                    import re
-                    
-                    # コードブロックを除去
-                    if '```json' in content:
-                        content = content.split('```json')[1].split('```')[0].strip()
-                    elif '```' in content:
-                        content = content.split('```')[1].split('```')[0].strip()
-                    
-                    # JSONとして最初の { から最後の } を抽出
-                    if '{' in content and '}' in content:
-                        start = content.find('{')
-                        end = content.rfind('}') + 1
-                        json_str = content[start:end]
-                        
-                        # 制御文字を完全に除去
-                        json_str = ''.join(char for char in json_str if ord(char) >= 32 or char in '\n\t')
-                        
-                        article = json.loads(json_str)
-                        return article
-                    else:
-                        raise json.JSONDecodeError("No JSON object found", content, 0)
-                        
-                except json.JSONDecodeError as e:
-                    print(f"⚠️  JSONパースエラー: {e}")
-                    print(f"   レスポンス内容: {content[:500]}...")
-                    print("   テキストから記事を抽出中...")
-                    
-                    # JSON形式を諦めて、テキストから抽出
-                    lines = content.split('\n')
-                    title_line = [l for l in lines if 'title' in l.lower() and ':' in l]
-                    if title_line:
-                        title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
-                    else:
-                        title = f"毎日AIピックアップニュース({current_hkt_date.strftime('%Y年%m月%d日')})"
-                    
-                    # テキストから記事を抽出
-                    lines = content.split('\n')
-                    title_line = [l for l in lines if 'title' in l.lower() and ':' in l]
-                    if title_line:
-                        title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
-                    else:
-                        title = f"毎日AIピックアップニュース({current_hkt_date.strftime('%Y年%m月%d日')})"
-                    
-                    # bodyからMarkdown記事を抽出
-                    body_start = content.find('"body":')
-                    if body_start != -1:
-                        body_start = content.find('"', body_start + 7) + 1
-                        body_end = content.rfind('"')
-                        if body_end > body_start:
-                            body = content[body_start:body_end]
-                            # JSONエスケープを解除
-                            body = body.replace('\\n', '\n').replace('\\"', '"').replace('\\/', '/')
-                        else:
-                            body = content
-                    else:
-                        body = content
-                    
-                    return {
-                        "title": title,
-                        "lead": "",
-                        "body": body,
-                        "tags": "香港,ニュース,最新,情報,アジア"
-                    }
+                # 🚨 第2段チェック: 記事生成後（日付認識パス）
+                print("🔍 第2段チェック: 記事生成後（日付認識）...")
+                article = self._parse_generated_article(content, current_hkt_date)
+                
+                if not article:
+                    print("❌ 第2段チェック失敗: 生成された記事の解析に失敗")
+                    print("   理由:")
+                    print("   - JSON形式が不正")
+                    print("   - 必須フィールドが不足")
+                    print("   - 記事内容が空")
+                    print("   処理を中断します。")
+                    return None
+                
+                print("✅ 第2段チェック通過: 記事解析成功")
+                
+                # 🚨 第3段チェック: タイトルが当日になっているか
+                print("🔍 第3段チェック: タイトル日付確認...")
+                title_date_check = self._check_title_date(article, current_hkt_date)
+                
+                if not title_date_check:
+                    print("❌ 第3段チェック失敗: タイトルの日付が当日ではありません")
+                    print("   理由:")
+                    print("   - 生成されたタイトルに当日の日付が含まれていない")
+                    print("   - 日付形式が正しくない")
+                    print("   - Grok APIが古い日付を生成した")
+                    print("   処理を中断します。")
+                    return None
+                
+                print("✅ 第3段チェック通過: タイトル日付確認成功")
+                print("🎉 全3段チェック通過！記事を保存します。")
+                
+                return article
+                
+                # 旧コードは削除（新しい3段チェックに置き換え済み）
             else:
                 print(f"❌ APIエラー: {response.status_code}")
                 print(f"   詳細: {response.text}")
@@ -588,6 +527,76 @@ Published: {news.get('published_at', 'N/A')}
         
         print(f"📊 品質チェック後: {len(news_list)} → {len(quality_news)}件")
         return quality_news
+    
+    def _parse_generated_article(self, content: str, current_date) -> Dict:
+        """生成された記事の解析（第2段チェック）"""
+        import re
+        import json
+        
+        print("  📝 生成された記事の解析中...")
+        
+        try:
+            # コードブロックを除去
+            if '```json' in content:
+                content = content.split('```json')[1].split('```')[0].strip()
+            elif '```' in content:
+                content = content.split('```')[1].split('```')[0].strip()
+            
+            # JSONとして最初の { から最後の } を抽出
+            if '{' in content and '}' in content:
+                start = content.find('{')
+                end = content.rfind('}') + 1
+                json_str = content[start:end]
+                
+                # 制御文字を完全に除去
+                json_str = ''.join(char for char in json_str if ord(char) >= 32 or char in '\n\t')
+                
+                article = json.loads(json_str)
+                
+                # 必須フィールドの存在確認
+                required_fields = ['title', 'body']
+                for field in required_fields:
+                    if field not in article or not article[field]:
+                        print(f"  ❌ 必須フィールド不足: {field}")
+                        return None
+                
+                print(f"  ✅ 記事解析成功: タイトル={article['title'][:50]}...")
+                return article
+            else:
+                print("  ❌ JSON形式が見つかりません")
+                return None
+                
+        except json.JSONDecodeError as e:
+            print(f"  ❌ JSON解析エラー: {e}")
+            return None
+        except Exception as e:
+            print(f"  ❌ 予期しないエラー: {e}")
+            return None
+    
+    def _check_title_date(self, article: Dict, current_date) -> bool:
+        """タイトルの日付確認（第3段チェック）"""
+        title = article.get('title', '')
+        expected_date = current_date.strftime('%Y年%m月%d日')
+        
+        print(f"  📅 タイトル日付確認:")
+        print(f"    生成されたタイトル: {title}")
+        print(f"    期待する日付: {expected_date}")
+        
+        # 日付パターンの確認
+        date_patterns = [
+            expected_date,  # 2025年10月24日
+            current_date.strftime('%Y年%m月%d日'),  # 念のため
+            current_date.strftime('%Y-%m-%d'),  # 2025-10-24
+            current_date.strftime('%m月%d日'),  # 10月24日
+        ]
+        
+        for pattern in date_patterns:
+            if pattern in title:
+                print(f"  ✅ 日付確認成功: '{pattern}' がタイトルに含まれています")
+                return True
+        
+        print(f"  ❌ 日付確認失敗: 期待する日付がタイトルに含まれていません")
+        return False
     
     def _translate_weather_text(self, text: str) -> str:
         """天気情報のテキストを中国語・広東語から日本語に翻訳"""

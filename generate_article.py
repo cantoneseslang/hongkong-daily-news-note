@@ -306,17 +306,23 @@ Published: {news.get('published_at', 'N/A')}
         return weather_section
     
     def _filter_today_news(self, news_data: List[Dict], current_date) -> List[Dict]:
-        """当日のニュースのみをフィルタリング"""
+        """当日のニュースのみを厳密にフィルタリング（昨日基準問題を解決）"""
         from datetime import datetime, timezone, timedelta
         import re
         
         today_news = []
         today_str = current_date.strftime('%Y-%m-%d')
+        yesterday_str = (current_date - timedelta(days=1)).strftime('%Y-%m-%d')
         
         print(f"📊 ニュース日付分析開始")
         print(f"   対象日: {today_str} ({current_date.strftime('%Y年%m月%d日')})")
+        print(f"   除外日: {yesterday_str} (昨日のニュースを除外)")
         print(f"   総ニュース数: {len(news_data)}件")
         print("-" * 60)
+        
+        yesterday_count = 0
+        today_count = 0
+        other_count = 0
         
         for i, news in enumerate(news_data):
             published_at = news.get('published_at', '')
@@ -355,18 +361,34 @@ Published: {news.get('published_at', 'N/A')}
                     except:
                         pass
             
-            # 当日チェック
+            # 厳密な日付チェック
             if news_date:
-                if news_date.strftime('%Y-%m-%d') == today_str:
+                news_date_str = news_date.strftime('%Y-%m-%d')
+                
+                if news_date_str == today_str:
+                    # 当日のニュース
                     today_news.append(news)
-                    print(f"  ✅ {i+1:2d}. {title[:50]}... ({published_at}) → {date_parse_method}")
+                    today_count += 1
+                    print(f"  ✅ {i+1:2d}. {title[:50]}... ({published_at}) → {date_parse_method} [当日]")
+                elif news_date_str == yesterday_str:
+                    # 昨日のニュース（除外）
+                    yesterday_count += 1
+                    print(f"  🚫 {i+1:2d}. {title[:50]}... ({published_at}) → {news_date_str} ({date_parse_method}) [昨日-除外]")
                 else:
-                    print(f"  ❌ {i+1:2d}. {title[:50]}... ({published_at}) → {news_date.strftime('%Y-%m-%d')} ({date_parse_method})")
+                    # その他の日付（除外）
+                    other_count += 1
+                    print(f"  ❌ {i+1:2d}. {title[:50]}... ({published_at}) → {news_date_str} ({date_parse_method}) [その他-除外]")
             else:
-                print(f"  ⚠️  {i+1:2d}. {title[:50]}... ({published_at}) → 日付解析失敗")
+                # 日付解析失敗（除外）
+                other_count += 1
+                print(f"  ⚠️  {i+1:2d}. {title[:50]}... ({published_at}) → 日付解析失敗 [除外]")
         
         print("-" * 60)
-        print(f"📈 当日ニュース: {len(today_news)}/{len(news_data)}件")
+        print(f"📈 日付別統計:")
+        print(f"   ✅ 当日ニュース: {today_count}件")
+        print(f"   🚫 昨日ニュース: {yesterday_count}件 (除外)")
+        print(f"   ❌ その他/解析失敗: {other_count}件 (除外)")
+        print(f"   📊 合計: {today_count + yesterday_count + other_count}件")
         
         if len(today_news) == 0:
             print("🚨 警告: 当日のニュースが0件です！")
@@ -375,6 +397,7 @@ Published: {news.get('published_at', 'N/A')}
             print("   2. ニュースの日付形式が想定と異なる")
             print("   3. 香港時間とニュース配信時間のズレ")
             print("   4. フィルタリング条件が厳しすぎる")
+            print(f"   昨日のニュースが{yesterday_count}件含まれている可能性があります")
         
         return today_news
     

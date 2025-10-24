@@ -1,0 +1,119 @@
+# Bugbot AI バグ検出設定
+version: 1
+
+# バグ検出設定
+detection:
+  # 検出レベル
+  level: medium
+  
+  # 対象言語
+  languages:
+    - python
+    - javascript
+    - typescript
+  
+  # 検出パターン
+  patterns:
+    # セキュリティバグ
+    security:
+      - "SQL injection"
+      - "XSS vulnerability"
+      - "CSRF vulnerability"
+      - "Hardcoded secrets"
+      - "Insecure random"
+    
+    # パフォーマンスバグ
+    performance:
+      - "Memory leak"
+      - "Infinite loop"
+      - "Inefficient algorithm"
+      - "Resource leak"
+      - "Blocking operation"
+    
+    # ロジックバグ
+    logic:
+      - "Null pointer"
+      - "Array bounds"
+      - "Type mismatch"
+      - "Logic error"
+      - "Race condition"
+    
+    # エラーハンドリング
+    errorHandling:
+      - "Unhandled exception"
+      - "Missing error handling"
+      - "Incorrect error handling"
+      - "Silent failure"
+      - "Resource cleanup"
+
+# 除外パス
+exclude:
+  - "node_modules/**"
+  - "venv/**"
+  - ".git/**"
+  - "*.log"
+  - "*.tmp"
+  - "daily-articles/**"
+  - "logs/**"
+  - "screenshots/**"
+
+# インクルードパス
+include:
+  - "*.py"
+  - "*.js"
+  - "*.ts"
+  - ".github/workflows/**"
+
+# バグレポート設定
+reporting:
+  # レポート形式
+  format: markdown
+  
+  # 重要度フィルター
+  severity:
+    - "high"
+    - "critical"
+    - "medium"
+  
+  # 自動修正提案
+  autoFix: true
+  
+  # 学習モード
+  learning: true
+
+# 通知設定
+notifications:
+  # バグ発見通知
+  onBugFound: true
+  
+  # 重要度の高いバグ
+  onHighSeverity: true
+  
+  # セキュリティバグ
+  onSecurityBug: true
+
+# カスタムルール
+customRules:
+  # Python ルール
+  python:
+    - "Check for unused imports"
+    - "Check for undefined variables"
+    - "Check for incorrect indentation"
+    - "Check for missing docstrings"
+    - "Check for hardcoded values"
+  
+  # JavaScript ルール
+  javascript:
+    - "Check for undefined variables"
+    - "Check for missing semicolons"
+    - "Check for incorrect async/await"
+    - "Check for memory leaks"
+    - "Check for event listener leaks"
+  
+  # セキュリティルール
+  security:
+    - "Check for SQL injection"
+    - "Check for XSS vulnerabilities"
+    - "Check for CSRF vulnerabilities"
+    - "Check for hardcoded secrets"
+    - "Check for insecure random"

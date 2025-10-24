@@ -24,6 +24,11 @@ class GrokArticleGenerator:
         # ニュースデータを整形
         news_text = self._format_news_for_prompt(news_data)
         
+        # 香港時間（HKT）で現在の日付を取得
+        from datetime import datetime, timezone, timedelta
+        hkt = timezone(timedelta(hours=8))  # UTC+8
+        current_hkt_date = datetime.now(hkt)
+        
         # Grok APIへのプロンプト
         system_prompt = """あなたは香港のニュースを日本語に翻訳し、指定されたフォーマットで整形する翻訳者です。
 
@@ -98,7 +103,7 @@ class GrokArticleGenerator:
 【出力形式】
 必ず以下のJSON形式で返してください。JSON以外の文字は一切含めないでください：
 {{
-  "title": "毎日AIピックアップニュース({datetime.now().strftime('%Y年%m月%d日')})",
+  "title": "毎日AIピックアップニュース({current_hkt_date.strftime('%Y年%m月%d日')})",
   "lead": "",
   "body": "上記フォーマットのMarkdown記事",
   "tags": "香港,ニュース,最新,情報,アジア"
@@ -106,7 +111,7 @@ class GrokArticleGenerator:
 
 【重要】JSON形式のみで回答し、他の説明文や追加テキストは一切含めないでください。"""
 
-        user_prompt = f"""以下は{datetime.now().strftime('%Y年%m月%d日')}の香港ニュースです。
+        user_prompt = f"""以下は{current_hkt_date.strftime('%Y年%m月%d日')}の香港ニュースです。
 これらの情報を元に、指定されたフォーマットで日本語記事を作成してください。
 
 【最重要】Full Contentの内容は絶対に短縮・要約せず、全文そのまま日本語に翻訳してください。
@@ -191,7 +196,7 @@ class GrokArticleGenerator:
                     if title_line:
                         title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
                     else:
-                        title = f"毎日AIスラングピックアップニュース({datetime.now().strftime('%Y年%m月%d日')})"
+                        title = f"毎日AIピックアップニュース({current_hkt_date.strftime('%Y年%m月%d日')})"
                     
                     # テキストから記事を抽出
                     lines = content.split('\n')
@@ -199,7 +204,7 @@ class GrokArticleGenerator:
                     if title_line:
                         title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
                     else:
-                        title = f"毎日AIスラングピックアップニュース({datetime.now().strftime('%Y年%m月%d日')})"
+                        title = f"毎日AIピックアップニュース({current_hkt_date.strftime('%Y年%m月%d日')})"
                     
                     # bodyからMarkdown記事を抽出
                     body_start = content.find('"body":')
@@ -381,7 +386,11 @@ Published: {news.get('published_at', 'N/A')}
     def save_article(self, article: Dict, weather_data: Dict = None, output_path: str = None) -> str:
         """生成した記事をMarkdown形式で保存"""
         if output_path is None:
-            timestamp = datetime.now().strftime('%Y-%m-%d')
+            # 香港時間（HKT）で現在の日付を取得
+            from datetime import datetime, timezone, timedelta
+            hkt = timezone(timedelta(hours=8))  # UTC+8
+            current_hkt_date = datetime.now(hkt)
+            timestamp = current_hkt_date.strftime('%Y-%m-%d')
             output_path = f"daily-articles/hongkong-news_{timestamp}.md"
         
         # 記事本文から重複を除外
@@ -405,6 +414,11 @@ Published: {news.get('published_at', 'N/A')}
             content_parts.append(article['lead'])
         content_parts.append(article['body'])
         
+        # 香港時間（HKT）で現在の日付を取得
+        from datetime import datetime, timezone, timedelta
+        hkt = timezone(timedelta(hours=8))  # UTC+8
+        current_hkt_date = datetime.now(hkt)
+        
         # Markdown生成
         content_str = '\n\n'.join(content_parts)
         # bodyの最初に改行を入れる（1行目が空行になり、ここに目次を挿入）
@@ -413,7 +427,7 @@ Published: {news.get('published_at', 'N/A')}
 {content_str}
 ---
 **タグ**: {article['tags']}
-**生成日時**: {datetime.now().strftime('%Y年%m月%d日 %H:%M')}
+**生成日時**: {current_hkt_date.strftime('%Y年%m月%d日 %H:%M')}
 """
         
         with open(output_path, 'w', encoding='utf-8') as f:

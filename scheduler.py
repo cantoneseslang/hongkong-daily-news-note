@@ -12,8 +12,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-# HKTタイムゾーン（UTC+8）
-HKT = timezone(timedelta(hours=8))
+# JSTタイムゾーン（UTC+9）
+JST = timezone(timedelta(hours=9))
 
 class NewsScheduler:
     def __init__(self, config_path: str = "config.json", schedule_time: str = "06:00"):
@@ -29,7 +29,7 @@ class NewsScheduler:
         """毎日実行するジョブ"""
         print("\n" + "=" * 70)
         print(f"🕐 香港ニュース自動投稿ジョブ開始")
-        print(f"⏰ 実行時刻: {datetime.now(HKT).strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"⏰ 実行時刻: {datetime.now(JST).strftime('%Y-%m-%d %H:%M:%S')}")
         print("=" * 70)
         
         try:
@@ -87,7 +87,7 @@ class NewsScheduler:
             with open(latest_article, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            today = datetime.now(HKT).strftime('%Y年%m月%d日')
+            today = datetime.now(JST).strftime('%Y年%m月%d日')
             # タイトルの日付を今日の日付に修正
             content = re.sub(
                 r'# 毎日AIピックアップニュース\(\d{4}年\d{2}月\d{2}日\)',
@@ -128,7 +128,7 @@ class NewsScheduler:
         print("\n🚀 香港ニュース自動投稿スケジューラー起動")
         print("=" * 70)
         print(f"⏰ 実行時刻: 毎日 {self.schedule_time}")
-        print(f"🌍 システムタイムゾーン: Asia/Hong_Kong")
+        print(f"🌍 システムタイムゾーン: Asia/Tokyo")
         print("=" * 70)
         
         if run_now:

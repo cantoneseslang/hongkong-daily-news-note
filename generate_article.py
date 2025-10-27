@@ -246,9 +246,10 @@ class GrokArticleGenerator:
             # full_contentがあればそれを使用、なければdescription
             content = news.get('full_content', news.get('description', 'N/A'))
             
-            # 内容が短すぎる場合の警告
-            if len(content) < 100:
-                content += "\n【注意】このニュースの内容が短いため、元の記事を参照してください。"
+            # 内容が短すぎる場合はスキップ
+            if len(content) < 200:
+                print(f"  ⚠️  ニュース{i}は内容が短すぎるためスキップ: {news.get('title', 'N/A')[:50]}...")
+                continue
             
             formatted.append(f"""
 【ニュース{i}】

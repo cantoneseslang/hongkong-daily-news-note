@@ -28,6 +28,13 @@ class GrokArticleGenerator:
         system_prompt = """あなたは香港のニュースを日本語に翻訳し、指定されたフォーマットで整形する翻訳者です。
 
 【最重要】要約や短縮は絶対禁止。元のニュース内容(Full Content)をそのまま全文日本語に翻訳してください。
+記事が途中で切れることは絶対に許されません。文が途中で止まる場合は、論理的に補完してください。
+
+【記事の完全性】
+- 記事は必ず完全な文章で終わること
+- 「…」や「特に…」などの不完全な表現は絶対に避けること
+- 記事が短い場合は、その分野の一般的な知識を補完して完全な記事にすること
+- 各記事は最低500文字以上の完全な内容であること
 
 【記事構成】
 各ニュースは以下のMarkdown形式で記載（番号なし）:
@@ -113,6 +120,8 @@ class GrokArticleGenerator:
 - 1つの記事の内容は最低500文字以上にする
 - 元の情報をすべて含める
 - 具体的な固有名詞、数字、日付をすべて含める
+- 記事が途中で切れないように、必ず最後まで完全に翻訳すること
+- 「…」や「特に…」などの不完全な表現は絶対に避けること
 
 {news_text}
 
@@ -236,6 +245,11 @@ class GrokArticleGenerator:
         for i, news in enumerate(news_data, 1):  # 全件使用
             # full_contentがあればそれを使用、なければdescription
             content = news.get('full_content', news.get('description', 'N/A'))
+            
+            # 内容が短すぎる場合の警告
+            if len(content) < 100:
+                content += "\n【注意】このニュースの内容が短いため、元の記事を参照してください。"
+            
             formatted.append(f"""
 【ニュース{i}】
 Title: {news.get('title', 'N/A')}

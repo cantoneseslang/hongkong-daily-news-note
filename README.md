@@ -129,7 +129,7 @@ python scheduler.py
 `.github/workflows/daily-news.yml`:
 ```yaml
 schedule:
-  - cron: '0 22 * * *'  # UTC 22:00 = JST 6:00
+  - cron: '0 22 * * *'  # UTC 22:00 = JST 07:00
 ```
 
 ### カテゴリーの調整

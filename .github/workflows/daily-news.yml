@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    # 通常実行: UTC 22:00 = JST 07:00（同日） = HKT 06:00（同日）
+    # 通常実行: UTC 22:00 = HKT 06:00（同日）
     - cron: '0 22 * * *'
   workflow_dispatch:  # 手動実行も可能
 
@@ -21,7 +21,7 @@ jobs:
   generate-daily-news:
     runs-on: ubuntu-latest
     env:
-      TZ: Asia/Tokyo  # JSTタイムゾーンを設定
+      TZ: Asia/Hong_Kong  # HKTタイムゾーンを設定
     
     steps:
       - name: Checkout repository
@@ -139,8 +139,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            # JSTタイムゾーンで日付を取得（UTC+9）
-            ARTICLE_DATE=$(TZ='Asia/Tokyo' date +"%Y-%m-%d")
+            # HKTタイムゾーンで日付を取得（UTC+8）
+            ARTICLE_DATE=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
             git commit -m "📰 Daily news: $ARTICLE_DATE [automated]"
             
             # プッシュ（コンフリクト時は自動解決）
@@ -163,8 +163,8 @@ jobs:
               
               # 変更があれば再コミット
               if ! git diff --staged --quiet; then
-                # JSTタイムゾーンで日付を再取得
-                ARTICLE_DATE=$(TZ='Asia/Tokyo' date +"%Y-%m-%d")
+                # HKTタイムゾーンで日付を再取得
+                ARTICLE_DATE=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
                 git commit -m "📰 Daily news: $ARTICLE_DATE [automated - resolved conflict]"
                 git push origin main
                 echo "✅ Conflict resolved and pushed"

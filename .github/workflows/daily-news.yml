@@ -206,9 +206,16 @@ jobs:
             echo "📄 認証状態ファイルサイズ: $(wc -c < /tmp/.note-state.json) bytes"
           fi
           
-          # note.com投稿を実行（失敗したらエラー）
-          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json; then
+          # note.com投稿を実行（公開モード）
+          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish; then
             echo "✅ note.com投稿成功"
+            
+            # 更新された認証状態をシークレットに保存（次の実行用）
+            if [ -f /tmp/.note-state.json ]; then
+              NEW_AUTH_STATE=$(cat /tmp/.note-state.json)
+              echo "💾 新しい認証状態を取得しました（手動でシークレットを更新してください）"
+              echo "📄 認証状態ファイルサイズ: $(wc -c < /tmp/.note-state.json) bytes"
+            fi
           else
             echo "❌ note.com投稿失敗"
             exit 1

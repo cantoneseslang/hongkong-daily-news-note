@@ -95,7 +95,17 @@ class RSSNewsAPI:
             # ギャンブル関連
             'horse racing', 'jockey', 'mark six', 'lottery',
             '競馬', '賽馬', '騎師', '六合彩', '賭博', '博彩', 'casino', 'gambling',
-            'boat racing', '競艇', 'betting'
+            'boat racing', '競艇', 'betting',
+            # 政治関連（不要）
+            '47人', '47 persons', '47 activists', 'democracy trial',
+            '刑期満了', 'prison term', 'sentence completion', 'prison release',
+            '民主派', 'democratic', 'democrats', 'pro-democracy',
+            '立法会選挙', 'legislative council election', 'legco election',
+            '国家安全公署', 'national security office', 'nsa', 'nsf', 'national security law',
+            '国安法', '国家安全法', 'national security', '国安公署',
+            # 政治犯罪関連（英語）
+            'jailed', 'prison', 'sentenced', 'conspiracy', 'overthrow', 'subversion',
+            '2019 protest', 'pro-democracy activist', 'political prisoner'
         ]
         
         for keyword in forbidden_keywords:
@@ -571,19 +581,46 @@ class RSSNewsAPI:
 
 if __name__ == "__main__":
     import json
+    from scrape_article import ArticleScraper
     
     rss_api = RSSNewsAPI()
     news = rss_api.fetch_all_rss()
     weather = rss_api.fetch_weather_info()
     
     if news:
+        # 全文取得処理を追加
+        print("\n📰 記事全文を取得中...")
+        print("=" * 60)
+        
+        scraper = ArticleScraper()
+        enriched_news = []
+        
+        for i, item in enumerate(news, 1):
+            print(f"\n[{i}/{len(news)}] {item['title'][:60]}...")
+            
+            # URLから全文を取得
+            full_content = scraper.scrape_article(item['url'])
+            
+            if full_content:
+                item['full_content'] = full_content
+                print(f"    ✅ {len(full_content)}文字取得")
+            else:
+                # 取得失敗時はdescriptionを使用
+                item['full_content'] = item.get('description', '')
+                print(f"    ⚠️  全文取得失敗、descriptionを使用")
+            
+            enriched_news.append(item)
+        
+        print("\n" + "=" * 60)
+        print(f"✅ 全文取得完了: {len(enriched_news)}件\n")
+        
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         output_path = f"daily-articles/rss_news_{timestamp}.json"
         
         data = {
             'fetch_time': datetime.now().isoformat(),
-            'total_count': len(news),
-            'news': news,
+            'total_count': len(enriched_news),
+            'news': enriched_news,
             'weather': weather
         }
         
@@ -594,9 +631,10 @@ if __name__ == "__main__":
         
         # サンプル表示
         print("\n📋 取得したニュース（最初の5件）:")
-        for i, item in enumerate(news[:5], 1):
+        for i, item in enumerate(enriched_news[:5], 1):
             print(f"\n{i}. {item['title']}")
             print(f"   ソース: {item['source']} ({item['api_source']})")
+            print(f"   全文: {len(item.get('full_content', ''))}文字")
         
         if weather:
             print("\n🌤️  天気情報も取得しました")

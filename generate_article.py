@@ -94,6 +94,7 @@ class GrokArticleGenerator:
 - 香港関連のニュースのみ選択（最大20件）
 - 重要度の高い順に並べる
 - 広告記事（presented, sponsored含むURL）は除外
+- **政治関連のニュースは絶対に選ばない**（47人事件、刑期満了、民主派、立法会選挙、国家安全公署、国安法などは除外）
 
 【出力形式】
 必ず以下のJSON形式で返してください。JSON以外の文字は一切含めないでください：
@@ -124,7 +125,36 @@ class GrokArticleGenerator:
 2. **例：「華懋タワー火災」など、同じ火災事件は1つだけ**
 3. 各記事は異なるトピック・事件である必要があります
 
-【重要】利用可能なニュースから**異なる事件・トピック**を必ず20件選び、記事を生成してください。20件を目標に、できるだけ多くの記事を生成してください。"""
+【重要】利用可能なニュースから**異なる事件・トピック**を必ず20件選び、記事を生成してください。20件を目標に、できるだけ多くの記事を生成してください。
+
+【除外すべき政治関連ニュース】
+以下のテーマを含むニュースは絶対に選ばないでください：
+- 47人事件、47 persons case、democracy trial
+- 刑期満了、prison release、sentence completion
+- 民主派、democratic party、pro-democracy
+- 立法会選挙、legislative council election、legco election
+- 国家安全公署、national security office、国安法
+- jailed for conspiracy (政治的事件での逮捕・判決)
+- 2019 protest related news
+
+【優先的に選ぶべきニュース】
+政治ニュースの代わりに、以下のカテゴリーのニュースを優先的に選んでください：
+- **芸能・カルチャー（最優先）**: 俳優、歌手、テレビ番組、番組終了、TVB、生日、婚紗、停播など
+- ビジネス・経済: 企業ニュース、IPO、市場動向
+- テクノロジー: AI、デジタルイノベーション
+- 健康・医療: 感染症、医療技術
+- スポーツ
+- 不動産
+- 教育
+- 社会イベント
+
+**重要な選択ガイドライン**:
+1. 提供されたニュースリストから、**芸能・カルチャーニュースを最低3-5件は必ず選んでください**
+2. 俳優名、番組名、TVB関連のニュースは積極的に選択してください
+3. 政治関連のニュースは完全に無視してください
+4. ビジネス、健康、テクノロジーのニュースも多く選んでください
+
+これらの政治関連のニュースは一切取り扱わず、特に芸能・カルチャーニュースを最優先に、ビジネス、テクノロジー、健康、文化、スポーツ、不動産、教育などのニュースを選択してください。"""
 
         # APIリクエスト
         headers = {
@@ -475,6 +505,20 @@ def preprocess_news(news_list):
             duplicate_count += 1
             continue
         
+        # 政治関連のニュースを除外
+        political_keywords = [
+            '47人', '47 persons', '47 activists', 'democracy trial',
+            '刑期満了', 'prison term', 'sentence completion', 'prison release',
+            '民主派', 'democratic', 'democrats', 'pro-democracy',
+            '立法会選挙', 'legislative council election', 'legco election',
+            '国家安全公署', 'national security office', 'nsa', 'nsf', 'national security law',
+            '国安法', '国家安全法', '国安公署'
+        ]
+        text_to_check = (title + ' ' + description + ' ' + news.get('full_content', '')).lower()
+        if any(keyword.lower() in text_to_check for keyword in political_keywords):
+            duplicate_count += 1
+            continue
+        
         # URLで重複チェック
         if url in past_urls:
             duplicate_count += 1
@@ -577,7 +621,8 @@ def preprocess_news(news_list):
             cat = '医療・健康'
         elif any(k in text for k in ['education', 'university', 'school', 'student', 'hostel', '教育', '大學', '學生']):
             cat = '教育'
-        elif any(k in text for k in ['art', 'culture', 'entertainment', 'exhibition', 'drama', '文化', '藝術', '展覽', '演出']):
+        elif any(k in text for k in ['art', 'culture', 'entertainment', 'exhibition', 'drama', '文化', '藝術', '展覽', '演出', 
+                                      'tvb', '生日', '婚紗', '停播', '節目', '電視', '明星', '演員', '生日', '封盤']):
             cat = 'カルチャー'
         elif any(k in text for k in ['weather', 'storm', 'typhoon', '天氣', '風暴', '颱風']):
             cat = '天気'
@@ -602,11 +647,18 @@ def preprocess_news(news_list):
     selected = []
     target_count = 30  # 30件に絞る（APIタイムアウト防止）
     
+    # カルチャーニュースを優先的に5件選ぶ
+    if 'カルチャー' in categorized and len(categorized['カルチャー']) > 0:
+        culture_count = min(5, len(categorized['カルチャー']))
+        for i in range(culture_count):
+            selected.append(categorized['カルチャー'].pop(0))
+        print(f"🎭 カルチャーニュース {culture_count}件を優先選択")
+    
     # カテゴリーごとの優先順位
     priority_cats = [
-        'ビジネス・経済', '不動産', 'テクノロジー', '医療・健康', 
-        '教育', 'カルチャー', '交通', '治安・犯罪', '事故・災害',
-        '政治・行政', '天気', '社会・その他'
+        'ビジネス・経済', 'テクノロジー', '医療・健康', 
+        '教育', '不動産', '交通', '治安・犯罪', '事故・災害',
+        '社会・その他', '天気', '政治・行政'
     ]
     
     # 各カテゴリーから選択

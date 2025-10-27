@@ -354,7 +354,7 @@ Published: {news.get('published_at', 'N/A')}
             return text  # エラーの場合は元のテキストを返す
     
     def remove_duplicate_articles(self, body: str) -> str:
-        """生成された記事本文から重複記事を除外"""
+        """生成された記事本文から重複記事と不完全記事を除外"""
         import re
         
         # ### で始まる記事を分割
@@ -365,15 +365,29 @@ Published: {news.get('published_at', 'N/A')}
             result = [articles[0]]
             seen_titles = set()
             duplicate_count = 0
+            incomplete_count = 0
             
             for article in articles[1:]:
                 # タイトルを抽出（最初の行）
                 lines = article.split('\n', 1)
                 if len(lines) > 0:
                     title = lines[0].strip()
+                    content = lines[1] if len(lines) > 1 else ""
                     
                     # タイトルの正規化（小文字化、記号除去）
                     normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+                    
+                    # 不完全な記事をチェック（「…」で終わる）
+                    if content.strip().endswith('…') or content.strip().endswith('...'):
+                        incomplete_count += 1
+                        print(f"  ⚠️  不完全な記事を除外: {title[:50]}...")
+                        continue
+                    
+                    # 記事が短すぎる場合も除外
+                    if len(content.strip()) < 200:
+                        incomplete_count += 1
+                        print(f"  ⚠️  短すぎる記事を除外: {title[:50]}...")
+                        continue
                     
                     # 重複チェック
                     if normalized_title not in seen_titles and normalized_title:
@@ -384,6 +398,8 @@ Published: {news.get('published_at', 'N/A')}
             
             if duplicate_count > 0:
                 print(f"🔄 重複記事を除外: {duplicate_count}件")
+            if incomplete_count > 0:
+                print(f"🚫 不完全記事を除外: {incomplete_count}件")
             
             # 再結合（見出しの前に空行を入れる）
             if len(result) > 1:

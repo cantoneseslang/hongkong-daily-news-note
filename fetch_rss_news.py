@@ -95,7 +95,14 @@ class RSSNewsAPI:
             # ギャンブル関連
             'horse racing', 'jockey', 'mark six', 'lottery',
             '競馬', '賽馬', '騎師', '六合彩', '賭博', '博彩', 'casino', 'gambling',
-            'boat racing', '競艇', 'betting'
+            'boat racing', '競艇', 'betting',
+            # デモ・政治関連（追加）
+            '47人案', '47人', 'democracy case', 'pro-democracy', 'anti-government',
+            'protests', 'demonstration', 'riot', '示威', '遊行', '示威遊行',
+            '2019 bomb', 'bomb plot', 'bomb attack', '爆弾計画', '爆弾攻撃',
+            'prisoner release', 'jailed', 'protest-related', 'political activist',
+            'election interference', '選舉干擾', '立法會選舉', 'legislative council election',
+            'national security', '國安公署', 'hong kong police', 'arrest warrant'
         ]
         
         for keyword in forbidden_keywords:

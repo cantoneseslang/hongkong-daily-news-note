@@ -137,7 +137,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            ARTICLE_DATE=$(date +"%Y-%m-%d")
+            # JSTタイムゾーンで日付を取得（UTC+9）
+            ARTICLE_DATE=$(TZ='Asia/Tokyo' date +"%Y-%m-%d")
             git commit -m "📰 Daily news: $ARTICLE_DATE [automated]"
             
             # プッシュ（コンフリクト時は自動解決）
@@ -160,6 +161,8 @@ jobs:
               
               # 変更があれば再コミット
               if ! git diff --staged --quiet; then
+                # JSTタイムゾーンで日付を再取得
+                ARTICLE_DATE=$(TZ='Asia/Tokyo' date +"%Y-%m-%d")
                 git commit -m "📰 Daily news: $ARTICLE_DATE [automated - resolved conflict]"
                 git push origin main
                 echo "✅ Conflict resolved and pushed"

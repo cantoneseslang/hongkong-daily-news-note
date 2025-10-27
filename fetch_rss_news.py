@@ -5,11 +5,14 @@ RSSフィードから香港ニュースを取得
 
 import feedparser
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Set
 import time
 import json
 from dateutil import parser as date_parser
+
+# JSTタイムゾーン（UTC+9）
+JST = timezone(timedelta(hours=9))
 
 class RSSNewsAPI:
     def __init__(self, history_file: str = 'daily-articles/processed_urls.json'):
@@ -56,10 +59,10 @@ class RSSNewsAPI:
         """処理済みURLを保存"""
         try:
             # 最近30日分のみ保持（メモリ節約）
-            cutoff_date = datetime.now() - timedelta(days=30)
+            cutoff_date = datetime.now(JST) - timedelta(days=30)
             
             data = {
-                'last_updated': datetime.now().isoformat(),
+                'last_updated': datetime.now(JST).isoformat(),
                 'urls': list(self.processed_urls)
             }
             
@@ -75,7 +78,7 @@ class RSSNewsAPI:
         
         try:
             pub_date = date_parser.parse(published_at)
-            now = datetime.now()
+            now = datetime.now(JST)
             
             # 過去48時間以内のニュースを含める（より多様なニュースを収集）
             time_diff = now - pub_date.replace(tzinfo=None)
@@ -614,11 +617,11 @@ if __name__ == "__main__":
         print("\n" + "=" * 60)
         print(f"✅ 全文取得完了: {len(enriched_news)}件\n")
         
-        timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+        timestamp = datetime.now(JST).strftime('%Y-%m-%d_%H-%M-%S')
         output_path = f"daily-articles/rss_news_{timestamp}.json"
         
         data = {
-            'fetch_time': datetime.now().isoformat(),
+            'fetch_time': datetime.now(JST).isoformat(),
             'total_count': len(enriched_news),
             'news': enriched_news,
             'weather': weather

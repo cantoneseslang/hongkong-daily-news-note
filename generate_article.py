@@ -6,8 +6,11 @@ Grok APIを使用して香港ニュースから日本語記事を生成
 
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict
+
+# JSTタイムゾーン（UTC+9）
+JST = timezone(timedelta(hours=9))
 
 class GrokArticleGenerator:
     def __init__(self, config_path: str = "config.json"):
@@ -99,7 +102,7 @@ class GrokArticleGenerator:
 【出力形式】
 必ず以下のJSON形式で返してください。JSON以外の文字は一切含めないでください：
 {{
-  "title": "毎日AIピックアップニュース({datetime.now().strftime('%Y年%m月%d日')})",
+  "title": "毎日AIピックアップニュース({datetime.now(JST).strftime('%Y年%m月%d日')})",
   "lead": "",
   "body": "上記フォーマットのMarkdown記事",
   "tags": "香港,ニュース,最新,情報,アジア"
@@ -107,7 +110,7 @@ class GrokArticleGenerator:
 
 【重要】JSON形式のみで回答し、他の説明文や追加テキストは一切含めないでください。"""
 
-        user_prompt = f"""以下は{datetime.now().strftime('%Y年%m月%d日')}の香港ニュースです。
+        user_prompt = f"""以下は{datetime.now(JST).strftime('%Y年%m月%d日')}の香港ニュースです。
 これらの情報を元に、指定されたフォーマットで日本語記事を作成してください。
 
 【最重要】Full Contentの内容は絶対に短縮・要約せず、全文そのまま日本語に翻訳してください。
@@ -221,7 +224,7 @@ class GrokArticleGenerator:
                     if title_line:
                         title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
                     else:
-                        title = f"毎日AIスラングピックアップニュース({datetime.now().strftime('%Y年%m月%d日')})"
+                        title = f"毎日AIスラングピックアップニュース({datetime.now(JST).strftime('%Y年%m月%d日')})"
                     
                     # テキストから記事を抽出
                     lines = content.split('\n')
@@ -229,7 +232,7 @@ class GrokArticleGenerator:
                     if title_line:
                         title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
                     else:
-                        title = f"毎日AIスラングピックアップニュース({datetime.now().strftime('%Y年%m月%d日')})"
+                        title = f"毎日AIスラングピックアップニュース({datetime.now(JST).strftime('%Y年%m月%d日')})"
                     
                     # bodyからMarkdown記事を抽出
                     body_start = content.find('"body":')
@@ -411,7 +414,7 @@ Published: {news.get('published_at', 'N/A')}
     def save_article(self, article: Dict, weather_data: Dict = None, output_path: str = None) -> str:
         """生成した記事をMarkdown形式で保存"""
         if output_path is None:
-            timestamp = datetime.now().strftime('%Y-%m-%d')
+            timestamp = datetime.now(JST).strftime('%Y-%m-%d')
             output_path = f"daily-articles/hongkong-news_{timestamp}.md"
         
         # 記事本文から重複を除外
@@ -443,7 +446,7 @@ Published: {news.get('published_at', 'N/A')}
 {content_str}
 ---
 **タグ**: {article['tags']}
-**生成日時**: {datetime.now().strftime('%Y年%m月%d日 %H:%M')}
+**生成日時**: {datetime.now(JST).strftime('%Y年%m月%d日 %H:%M')}
 """
         
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -465,7 +468,7 @@ def preprocess_news(news_list):
     
     # 過去3日分の記事ファイルをチェック
     for days_ago in range(1, 4):
-        past_date = datetime.now() - timedelta(days=days_ago)
+        past_date = datetime.now(JST) - timedelta(days=days_ago)
         past_file = f"daily-articles/hongkong-news_{past_date.strftime('%Y-%m-%d')}.md"
         
         if os.path.exists(past_file):

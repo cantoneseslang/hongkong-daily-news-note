@@ -28,13 +28,6 @@ class GrokArticleGenerator:
         system_prompt = """あなたは香港のニュースを日本語に翻訳し、指定されたフォーマットで整形する翻訳者です。
 
 【最重要】要約や短縮は絶対禁止。元のニュース内容(Full Content)をそのまま全文日本語に翻訳してください。
-記事が途中で切れることは絶対に許されません。文が途中で止まる場合は、論理的に補完してください。
-
-【記事の完全性】
-- 記事は必ず完全な文章で終わること
-- 「…」や「特に…」などの不完全な表現は絶対に避けること
-- 記事が短い場合は、その分野の一般的な知識を補完して完全な記事にすること
-- 各記事は最低500文字以上の完全な内容であること
 
 【記事構成】
 各ニュースは以下のMarkdown形式で記載（番号なし）:
@@ -98,7 +91,7 @@ class GrokArticleGenerator:
 - Full Contentの短縮・要約は絶対禁止
 - 元の情報をすべて含める
 - 文字数制限なし
-- 香港関連のニュースのみ選択（最大30件）
+- 香港関連のニュースのみ選択（最大20件）
 - 重要度の高い順に並べる
 - 広告記事（presented, sponsored含むURL）は除外
 
@@ -120,12 +113,10 @@ class GrokArticleGenerator:
 - 1つの記事の内容は最低500文字以上にする
 - 元の情報をすべて含める
 - 具体的な固有名詞、数字、日付をすべて含める
-- 記事が途中で切れないように、必ず最後まで完全に翻訳すること
-- 「…」や「特に…」などの不完全な表現は絶対に避けること
 
 {news_text}
 
-上記のニュースから香港関連のものを30件選び、指定されたフォーマットでJSON形式で出力してください。30件のニュース記事を必ず作成してください。
+上記のニュースから香港関連のものを20件選び、指定されたフォーマットでJSON形式で出力してください。20件のニュース記事を必ず作成してください。
 各ニュースの「内容」は元のFull Contentを全文翻訳してください（短縮禁止）。
 
 【最重要ルール：重複の排除】
@@ -245,12 +236,6 @@ class GrokArticleGenerator:
         for i, news in enumerate(news_data, 1):  # 全件使用
             # full_contentがあればそれを使用、なければdescription
             content = news.get('full_content', news.get('description', 'N/A'))
-            
-            # 内容が短すぎる場合はスキップ
-            if len(content) < 200:
-                print(f"  ⚠️  ニュース{i}は内容が短すぎるためスキップ: {news.get('title', 'N/A')[:50]}...")
-                continue
-            
             formatted.append(f"""
 【ニュース{i}】
 Title: {news.get('title', 'N/A')}
@@ -354,7 +339,7 @@ Published: {news.get('published_at', 'N/A')}
             return text  # エラーの場合は元のテキストを返す
     
     def remove_duplicate_articles(self, body: str) -> str:
-        """生成された記事本文から重複記事と不完全記事を除外"""
+        """生成された記事本文から重複記事を除外"""
         import re
         
         # ### で始まる記事を分割
@@ -365,29 +350,15 @@ Published: {news.get('published_at', 'N/A')}
             result = [articles[0]]
             seen_titles = set()
             duplicate_count = 0
-            incomplete_count = 0
             
             for article in articles[1:]:
                 # タイトルを抽出（最初の行）
                 lines = article.split('\n', 1)
                 if len(lines) > 0:
                     title = lines[0].strip()
-                    content = lines[1] if len(lines) > 1 else ""
                     
                     # タイトルの正規化（小文字化、記号除去）
                     normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-                    
-                    # 不完全な記事をチェック（「…」で終わる）
-                    if content.strip().endswith('…') or content.strip().endswith('...'):
-                        incomplete_count += 1
-                        print(f"  ⚠️  不完全な記事を除外: {title[:50]}...")
-                        continue
-                    
-                    # 記事が短すぎる場合も除外
-                    if len(content.strip()) < 200:
-                        incomplete_count += 1
-                        print(f"  ⚠️  短すぎる記事を除外: {title[:50]}...")
-                        continue
                     
                     # 重複チェック
                     if normalized_title not in seen_titles and normalized_title:
@@ -398,8 +369,6 @@ Published: {news.get('published_at', 'N/A')}
             
             if duplicate_count > 0:
                 print(f"🔄 重複記事を除外: {duplicate_count}件")
-            if incomplete_count > 0:
-                print(f"🚫 不完全記事を除外: {incomplete_count}件")
             
             # 再結合（見出しの前に空行を入れる）
             if len(result) > 1:
@@ -631,7 +600,7 @@ def preprocess_news(news_list):
     
     # 3. バランス選択（各カテゴリーから均等に選ぶ）
     selected = []
-    target_count = 50  # 50件に増加（より多くのニュースをカバー）
+    target_count = 30  # 30件に絞る（APIタイムアウト防止）
     
     # カテゴリーごとの優先順位
     priority_cats = [

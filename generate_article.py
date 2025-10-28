@@ -16,12 +16,32 @@ class GrokArticleGenerator:
     def __init__(self, config_path: str = "config.json"):
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
-        self.api_key = self.config['grok_api']['api_key']
-        self.api_url = self.config['grok_api']['api_url']
+        
+        # OpenAI GPT-4使用（優先）
+        if 'openai_api' in self.config:
+            self.api_key = self.config['openai_api']['api_key']
+            self.api_url = self.config['openai_api']['api_url']
+            self.use_openai = True
+        # Claude API（次候補）
+        elif 'claude_api' in self.config:
+            self.api_key = self.config['claude_api']['api_key']
+            self.api_url = self.config['claude_api']['api_url']
+            self.use_openai = False
+        # Grok API（フォールバック）
+        else:
+            self.api_key = self.config['grok_api']['api_key']
+            self.api_url = self.config['grok_api']['api_url']
+            self.use_openai = None
         
     def generate_article(self, news_data: List[Dict]) -> Dict:
-        """Grok APIで日本語記事を生成"""
-        print("\n🤖 Grok APIで記事生成中...")
+        """OpenAI GPT-4/Claude/Grok APIで日本語記事を生成"""
+        if self.use_openai is True:
+            api_name = "OpenAI GPT-4"
+        elif self.use_openai is False:
+            api_name = "Claude API"
+        else:
+            api_name = "Grok API"
+        print(f"\n🤖 {api_name}で記事生成中...")
         print("=" * 60)
         
         # ニュースデータを整形
@@ -173,28 +193,59 @@ class GrokArticleGenerator:
             "Authorization": f"Bearer {self.api_key}"
         }
         
-        payload = {
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            "model": "grok-2-latest",
-            "stream": False,
-            "temperature": 0.1  # 正確性を最優先
-        }
+        if self.use_openai is True:
+            # OpenAI GPT-4
+            payload = {
+                "model": "gpt-4o",
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                "temperature": 0.1,
+                "max_tokens": 16000
+            }
+            print("📤 OpenAI GPT-4にリクエスト送信中...")
+        elif self.use_openai is False:
+            # Claude API
+            headers["anthropic-version"] = "2023-06-01"
+            payload = {
+                "model": "claude-3-5-sonnet-20241022",
+                "max_tokens": 16000,
+                "system": system_prompt,
+                "messages": [
+                    {"role": "user", "content": user_prompt}
+                ]
+            }
+            print("📤 Claude APIにリクエスト送信中...")
+        else:
+            # Grok API
+            payload = {
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                "model": "grok-2-latest",
+                "stream": False,
+                "temperature": 0.1
+            }
+            print("📤 Grok APIにリクエスト送信中...")
         
         try:
-            print("📤 Grok APIにリクエスト送信中...")
             response = requests.post(
                 self.api_url,
                 headers=headers,
                 json=payload,
-                timeout=300  # 120秒 → 300秒（5分）に延長
+                timeout=300
             )
             
             if response.status_code == 200:
                 result = response.json()
-                content = result['choices'][0]['message']['content']
+                if self.use_openai is True:
+                    content = result['choices'][0]['message']['content']
+                elif self.use_openai is False:
+                    content = result['content'][0]['text']
+                else:
+                    content = result['choices'][0]['message']['content']
                 print("✅ 記事生成完了")
                 
                 # JSONパース

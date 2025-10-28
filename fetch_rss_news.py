@@ -99,6 +99,9 @@ class RSSNewsAPI:
             'horse racing', 'jockey', 'mark six', 'lottery',
             '競馬', '賽馬', '騎師', '六合彩', '賭博', '博彩', 'casino', 'gambling',
             'boat racing', '競艇', 'betting',
+            # 感染症関連（詳細記事は不要）
+            '基孔肯雅熱', 'chikungunya', '登革熱', 'dengue', '疫情', 'epidemic',
+            '確診', 'confirmed case', '輸入個案', '本地感染', 'local infection',
             # 政治関連（不要）
             '47人', '47 persons', '47 activists', 'democracy trial',
             '刑期満了', 'prison term', 'sentence completion', 'prison release',

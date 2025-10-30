@@ -486,6 +486,11 @@ URL: {url}
             else:
                 cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
 
+        # プレーンURL行をMarkdownリンクに正規化（クリック可能にする）
+        # 例: **リンク**: https://example.com → **リンク**: [https://example.com](https://example.com)
+        cleaned_body = re.sub(r'(\*\*リンク\*\*:\s*)(https?://\S+)', r'\1[\2](\2)', cleaned_body)
+        cleaned_body = re.sub(r'(リンク:\s*)(https?://\S+)', r'**リンク**: [\2](\2)', cleaned_body)
+
         # 連続重複する引用ブロックを1つに圧縮
         cleaned_body = re.sub(r'(\*\*引用元\*\*: .*?\n\*\*リンク\*\*: https?://\S+)\n+\1', r'\1', cleaned_body, flags=re.DOTALL)
 

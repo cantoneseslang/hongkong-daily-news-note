@@ -139,16 +139,53 @@ class RSSNewsAPI:
             'コートジボワール', 'ブラジル', 'リオデジャネイロ'
         ]
         
-        # 香港関連キーワードをチェック（より包括的に）
+        # 香港関連キーワードをチェック（2024-2025年最新版）
         hk_keywords = [
-            'hong kong', 'hongkong', 'hk', '香港', 'central', 'kowloon', 
-            'wan chai', 'mtr', '港', 'causeway bay', 'tai koo', 'admiralty',
-            'tsim sha tsui', 'victoria harbour', 'lantau', 'legco', 
-            'ce carrie lam', 'kwai chung', 'tin shui wai', 'tiu keng leng', 
-            'sha tin', '中環', '灣仔', '銅鑼灣', '太古', '金鐘', '尖沙咀',
-            '維多利亞港', '大嶼山', '立法會', '林鄭月娥', '葵涌', '天水圍',
-            '調景嶺', '沙田', '港鐵', '香港政府', '香港警察', '香港天文台',
-            'scmp', 'rthk', 'chinadaily', 'hket', 'the standard'
+            # 基本キーワード
+            'hong kong', 'hongkong', 'hk', '香港', '港',
+            
+            # 主要地区・地名
+            'central', 'kowloon', 'wan chai', 'causeway bay', 'tai koo', 'admiralty',
+            'tsim sha tsui', 'victoria harbour', 'lantau', 'kwai chung', 'tin shui wai', 
+            'tiu keng leng', 'sha tin', 'mong kok', 'yau ma tei', 'jordan', 'tai po',
+            '中環', '九龍', '灣仔', '銅鑼灣', '太古', '金鐘', '尖沙咀', '旺角',
+            '油麻地', '佐敦', '大埔', '葵涌', '天水圍', '調景嶺', '沙田',
+            '維多利亞港', '大嶼山', '青衣', '屯門', '元朗', '上水', '粉嶺',
+            
+            # 交通・インフラ
+            'mtr', '港鐵', 'hong kong international airport', '香港國際機場',
+            'hong kong tramways', '香港電車', 'star ferry', '天星小輪',
+            'hong kong zhuhai macau bridge', '港珠澳大橋', 'high speed rail', '高鐵',
+            
+            # 政治・行政（最新）
+            'legco', 'legislative council', '立法會', 'hksar', '香港特別行政區',
+            'john lee', '李家超', '行政長官', 'chief executive',
+            'hong kong government', '香港政府', 'hong kong police', '香港警察',
+            'hong kong observatory', '香港天文台', 'hong kong monetary authority', '金管局',
+            
+            # 経済・金融
+            'hkex', 'hong kong stock exchange', '香港交易所', 'hong kong dollar', '港幣',
+            'greater bay area', '粵港澳大灣區', 'hong kong finance', '香港金融',
+            
+            # 文化・観光
+            'm+ museum', '西九文化區', 'west kowloon cultural district', 'hong kong disneyland',
+            '香港迪士尼', 'ocean park', '海洋公園', 'hong kong arts festival', '香港藝術節',
+            'hong kong international film festival', '香港國際電影節',
+            
+            # 教育・大学
+            'university of hong kong', '香港大學', 'chinese university of hong kong', '香港中文大學',
+            'hong kong university of science and technology', '香港科技大學',
+            'city university of hong kong', '香港城市大學',
+            
+            # メディア・ニュースソース
+            'scmp', 'south china morning post', '南華早報', 'rthk', '香港電台',
+            'chinadaily', 'hket', 'the standard', 'ming pao', '明報',
+            'hong kong free press', 'hk01', 'now news', 'now新聞',
+            
+            # その他香港関連
+            'hong kong dollar', 'hkd', 'hong kong identity card', '香港身份證',
+            'hong kong passport', '香港護照', 'hong kong dollar', '港幣',
+            'hong kong housing authority', '香港房屋委員會', 'hong kong housing society', '香港房屋協會'
         ]
         has_hk = any(k in text for k in hk_keywords)
         

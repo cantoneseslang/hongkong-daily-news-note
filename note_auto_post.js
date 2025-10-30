@@ -483,17 +483,47 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
               await page.waitForTimeout(3000); // アップロード完了を待つ
               console.log(`✅ 画像をアップロード完了`);
               
-              // 画像がリンク付きの場合、簡易版でリンクを設定
+              // 画像がリンク付きの場合、リンクを設定
               if (linkUrl) {
-                console.log(`🔗 簡易版リンク設定中: ${linkUrl}`);
+                console.log(`🔗 リンクを設定中: ${linkUrl}`);
                 
-                // 画像アップロード後
-                await page.waitForTimeout(2000);
-                await page.keyboard.press('ArrowDown'); // 画像の下に移動
-                await page.keyboard.press('Enter');
-                await page.keyboard.type(linkUrl, { delay: 20 }); // URLを入力
-                await page.keyboard.press('Enter');
-                console.log(`✓ 簡易版リンク設定完了`);
+                try {
+                  // 挿入された画像を選択
+                  await page.waitForTimeout(1000);
+                  
+                  // 画像をクリックして選択
+                  const uploadedImage = page.locator('img').last();
+                  await uploadedImage.click();
+                  await page.waitForTimeout(500);
+                  
+                  // リンク設定ボタンを探してクリック
+                  const linkButton = page.locator('button[aria-label*="リンク"], button:has-text("リンク")').first();
+                  if (await linkButton.isVisible({ timeout: 2000 })) {
+                    await linkButton.click();
+                    await page.waitForTimeout(500);
+                    
+                    // リンクURLを入力
+                    const linkInput = page.locator('input[type="text"], input[type="url"]').last();
+                    await linkInput.fill(linkUrl);
+                    await page.waitForTimeout(500);
+                    
+                    // 確定ボタンをクリック
+                    const confirmButton = page.locator('button:has-text("確定"), button:has-text("OK"), button[type="submit"]').last();
+                    if (await confirmButton.isVisible({ timeout: 2000 })) {
+                      await confirmButton.click();
+                      await page.waitForTimeout(500);
+                      console.log(`✓ リンク設定完了`);
+                    } else {
+                      // Enterキーで確定
+                      await page.keyboard.press('Enter');
+                      console.log(`✓ リンク設定完了（Enter）`);
+                    }
+                  } else {
+                    console.log(`⚠️  リンクボタンが見つかりません。リンクなしで続行します。`);
+                  }
+                } catch (linkError) {
+                  console.log(`⚠️  リンク設定エラー: ${linkError.message}`);
+                }
               }
               
               // 画像の後に改行（カーソルを次の行に移動）

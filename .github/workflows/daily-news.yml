@@ -83,7 +83,12 @@ jobs:
           
           # 設定ファイルが正しく作成されたか確認（APIキーは表示しない）
           echo "✅ Config file created"
-          if grep -q "GROK_API_KEY" config.json; then
+          if grep -q "\"OPENAI_API_KEY\"" config.json; then
+            echo "⚠️  Warning: OPENAI_API_KEY secret may not be set"
+          else
+            echo "✅ OpenAI API key configured"
+          fi
+          if grep -q "\"GROK_API_KEY\"" config.json; then
             echo "⚠️  Warning: GROK_API_KEY secret may not be set"
           else
             echo "✅ Grok API key configured"

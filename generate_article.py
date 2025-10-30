@@ -362,9 +362,24 @@ URL: {url}
             r'新規会員登録.*?プレゼント'
         ]
         
+        # 不要なテキストパターン（AIが自動生成する不要なテキスト）
+        unwanted_patterns = [
+            r'### 次のニュースはありません。',
+            r'### 次のニュース.*?',
+            r'### 以上.*?',
+            r'### 終了.*?',
+            r'### 記事は以上です。',
+            r'### 以上が.*?ニュースです。',
+            r'### 以上で.*?ニュースを終了します。'
+        ]
+        
         # 広告コンテンツを除去
         cleaned_body = body
         for pattern in ad_patterns:
+            cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+        
+        # 不要なテキストを除去
+        for pattern in unwanted_patterns:
             cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
         
         # 連続する空行を1つに

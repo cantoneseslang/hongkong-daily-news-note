@@ -412,6 +412,22 @@ Published: {news.get('published_at', 'N/A')}
         
         return translated_text
     
+    def _generate_cantonese_section(self) -> str:
+        """広東語学習者向けの定型文を生成"""
+        return """## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。こちらもLEDのチャットbot形式で秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[![スラング先生公式LINE](../shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
+
+[![LINEでお問合せ](../shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+@https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
+    
     def remove_advertisement_content(self, body: str) -> str:
         """記事本文から広告・宣伝コンテンツを除去"""
         import re

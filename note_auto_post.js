@@ -466,9 +466,9 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           }
         } else {
           // ローカルパスの場合
-          const imageInfo = images.find(img => img.localPath === imagePath && img.hasLink);
-          if (imageInfo && existsSync(imageInfo.absolutePath)) {
-            actualImagePath = imageInfo.absolutePath;
+          const absolutePath = path.resolve(path.dirname(markdownPath), imagePath);
+          if (existsSync(absolutePath)) {
+            actualImagePath = absolutePath;
           }
         }
         

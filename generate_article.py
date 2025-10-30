@@ -138,7 +138,7 @@ class GrokArticleGenerator:
                 }],
                 "generationConfig": {
                     "temperature": 0.1,
-                    "maxOutputTokens": 16000
+                    "maxOutputTokens": 32000
                 }
             }
         else:
@@ -155,7 +155,7 @@ class GrokArticleGenerator:
                         {"role": "user", "content": f"{system_prompt}\n\n{user_prompt}"}
                     ],
                     "temperature": 0.1,
-                    "max_tokens": 16000
+                    "max_tokens": 32000
                 }
             else:  # Grok API
                 payload = {
@@ -165,7 +165,7 @@ class GrokArticleGenerator:
                         {"role": "user", "content": user_prompt}
                     ],
                     "temperature": 0.1,
-                    "max_tokens": 16000
+                    "max_tokens": 32000
                 }
         
         if self.use_gemini is True:
@@ -700,9 +700,9 @@ def preprocess_news(news_list):
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 3. バランス選択（優先順位に基づいて30-40件選択）
+    # 3. バランス選択（優先順位に基づいて20-25件選択）
     selected = []
-    target_count = 35  # 30-40件の中央値
+    target_count = 22  # 20-25件の中央値（API制限を考慮）
     
     # カテゴリーごとの優先順位（ユーザー指定順）
     priority_cats = [
@@ -721,23 +721,23 @@ def preprocess_news(news_list):
     # 各カテゴリーから優先順位に基づいて選択
     for cat in priority_cats:
         if cat in categorized and categorized[cat]:
-            # 各カテゴリーから最大何件取るかを計算
+            # 各カテゴリーから最大何件取るかを計算（API制限を考慮して調整）
             if cat == 'ビジネス・経済':
-                max_count = min(8, len(categorized[cat]))  # 1位: 8件
+                max_count = min(5, len(categorized[cat]))  # 1位: 5件
             elif cat == '社会・その他':
-                max_count = min(6, len(categorized[cat]))  # 2位: 6件
+                max_count = min(4, len(categorized[cat]))  # 2位: 4件
             elif cat == 'カルチャー':
-                max_count = min(5, len(categorized[cat]))  # 3位: 5件
+                max_count = min(3, len(categorized[cat]))  # 3位: 3件
             elif cat == '不動産':
-                max_count = min(4, len(categorized[cat]))  # 4位: 4件
+                max_count = min(3, len(categorized[cat]))  # 4位: 3件
             elif cat == '政治・行政':
-                max_count = min(3, len(categorized[cat]))  # 5位: 3件
+                max_count = min(2, len(categorized[cat]))  # 5位: 2件
             elif cat == '医療・健康':
-                max_count = min(3, len(categorized[cat]))  # 6位: 3件
+                max_count = min(2, len(categorized[cat]))  # 6位: 2件
             elif cat == '治安・犯罪':
                 max_count = min(2, len(categorized[cat]))  # 7位: 2件
             elif cat == 'テクノロジー':
-                max_count = min(3, len(categorized[cat]))  # 8位: 3件
+                max_count = min(1, len(categorized[cat]))  # 8位: 1件
             else:
                 max_count = min(1, len(categorized[cat]))  # 9-10位: 1件
             

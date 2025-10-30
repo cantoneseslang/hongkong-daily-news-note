@@ -480,10 +480,10 @@ URL: {url}
             (r'引用元:\s*([^*]+)\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
             # 引用元: SCMP*リンク: URL の形式を修正（スペースなし）
             (r'引用元:\s*([^*]+)\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
-            # 引用元: SCMPリンク: [URL](URL) → 2行
-            (r'引用元:\s*([^\s]+)リンク:\s*\[((?:https?|ftp)://[^\]]+)\]\(([^\)]+)\)', r'**引用元**: \1\n**リンク**: [\2](\3)'),
-            # 引用元とリンクが同一行（[]()付き・太字でない）
-            (r'引用元:\s*([^\n]+?)\s*リンク:\s*\[([^\]]+)\]\(([^\)]+)\)', r'**引用元**: \1\n**リンク**: [\2](\3)'),
+            # 引用元: SCMPリンク: [URL](URL) → 引用元行 + URL独立行
+            (r'引用元:\s*([^\s]+)リンク:\s*\[((?:https?|ftp)://[^\]]+)\]\(([^\)]+)\)', r'**引用元**: \1\n\n\3'),
+            # 引用元とリンクが同一行（[]()付き・太字でない）→ 引用元行 + URL独立行
+            (r'引用元:\s*([^\n]+?)\s*リンク:\s*\[([^\]]+)\]\(([^\)]+)\)', r'**引用元**: \1\n\n\3'),
             # 引用元: SCMP**リンク: URL の形式を修正（スペースなし）
             (r'引用元:\s*([^*]+)\*\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
             # 引用元: SCMP*リンク: URL の形式を修正（スペースなし）
@@ -523,17 +523,19 @@ URL: {url}
             else:
                 cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
 
-        # note側の自動リンク化に任せるため、Markdownリンク化は行わない
-        # 既存のMarkdownリンクをプレーンURLに戻す（**リンク**: [text](url) → **リンク**: url）
-        cleaned_body = re.sub(r'\*\*リンク\*\*:\s*\[([^\]]+)\]\([^\)]+\)', r'**リンク**: \1', cleaned_body)
-        # ラベル統一（先頭が「リンク:」なら太字ラベルに統一）
-        cleaned_body = re.sub(r'(?m)^リンク:\s*', '**リンク**: ', cleaned_body)
+        # note側の自動リンク化に任せるため、URLはプレーンで独立行にする
+        # **リンク**: [text](url) → 空行 + url
+        cleaned_body = re.sub(r'\*\*リンク\*\*:\s*\[[^\]]+\]\((https?://[^\)]+)\)', r'\n\n\1', cleaned_body)
+        # **リンク**: url → 空行 + url
+        cleaned_body = re.sub(r'\*\*リンク\*\*:\s*(https?://\S+)', r'\n\n\1', cleaned_body)
+        # リンク: url → 空行 + url
+        cleaned_body = re.sub(r'(?m)^リンク:\s*(https?://\S+)', r'\n\n\1', cleaned_body)
         
         # 行末の余分なスペースを除去（改行前の2スペースなど）
         cleaned_body = re.sub(r'[ \t]+$', '', cleaned_body, flags=re.MULTILINE)
 
-        # 連続重複する引用ブロックを1つに圧縮
-        cleaned_body = re.sub(r'(\*\*引用元\*\*: .*?\n\*\*リンク\*\*: https?://\S+)\n+\1', r'\1', cleaned_body, flags=re.DOTALL)
+        # 連続重複する引用ブロックを1つに圧縮（URL独立行対応）
+        cleaned_body = re.sub(r'(\*\*引用元\*\*: .*?\n+https?://\S+)\n+\1', r'\1', cleaned_body, flags=re.DOTALL)
 
         # 広東語学習セクションの重複行を1回に圧縮（画像リンク2種）
         cantonese_img1 = re.escape('[![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)')

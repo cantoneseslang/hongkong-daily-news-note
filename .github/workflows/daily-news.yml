@@ -98,6 +98,11 @@ jobs:
       - name: Generate article
         run: |
           echo "✍️  Generating article..."
+          
+          # 今日の日付を取得（HKTタイムゾーン）
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          echo "📅 Today's date (HKT): $TODAY"
+          
           LATEST_RSS=$(ls -t daily-articles/rss_news_*.json | head -1)
           if [ -z "$LATEST_RSS" ]; then
             echo "❌ Error: No RSS news file found"
@@ -118,14 +123,18 @@ jobs:
           echo "📂 Files in daily-articles:"
           ls -lh daily-articles/
           
-          # 記事ファイルが生成されたか確認
-          if ! ls daily-articles/hongkong-news_*.md 1> /dev/null 2>&1; then
-            echo "❌ Error: Article file not generated"
+          # 今日の日付の記事ファイルが生成されたか確認
+          EXPECTED_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          echo "🔍 Checking for today's article: $EXPECTED_ARTICLE"
+          
+          if [ ! -f "$EXPECTED_ARTICLE" ]; then
+            echo "❌ Error: Today's article file not generated: $EXPECTED_ARTICLE"
             echo "📋 Available files:"
             ls -la daily-articles/ || true
             exit 1
           fi
-          echo "✅ Article generated successfully"
+          
+          echo "✅ Today's article generated successfully: $EXPECTED_ARTICLE"
       
       - name: Commit and push generated article
         run: |
@@ -194,13 +203,22 @@ jobs:
           NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
         run: |
           echo "📮 Posting to note.com..."
-          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1)
           
-          if [ -z "$LATEST_ARTICLE" ]; then
-            echo "❌ Error: No article file found"
+          # 今日の日付を取得（HKTタイムゾーン）
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          echo "📅 Today's date (HKT): $TODAY"
+          
+          # 今日の日付の記事ファイルを確認
+          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          
+          if [ ! -f "$TODAY_ARTICLE" ]; then
+            echo "❌ Error: Today's article file not found: $TODAY_ARTICLE"
+            echo "📋 Available files:"
+            ls -lh daily-articles/ || true
             exit 1
           fi
           
+          LATEST_ARTICLE="$TODAY_ARTICLE"
           echo "📄 Article: $LATEST_ARTICLE"
           
           # 認証状態ファイルを作成
@@ -232,8 +250,17 @@ jobs:
           echo "=========================================="
           echo "🎉 Daily News Generation Complete"
           echo "=========================================="
-          LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1 || echo "None")
-          echo "📁 Article: $LATEST_ARTICLE"
-          echo "⏰ Execution time: $(date)"
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          if [ -f "$TODAY_ARTICLE" ]; then
+            echo "📁 Today's Article: $TODAY_ARTICLE"
+          else
+            echo "⚠️  Today's article not found: $TODAY_ARTICLE"
+            LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md 2>/dev/null | head -1 || echo "None")
+            echo "📁 Latest Article: $LATEST_ARTICLE"
+          fi
+          echo "📅 Date (HKT): $TODAY"
+          echo "⏰ Execution time (UTC): $(date -u)"
+          echo "⏰ Execution time (HKT): $(TZ='Asia/Hong_Kong' date)"
           echo "=========================================="
 

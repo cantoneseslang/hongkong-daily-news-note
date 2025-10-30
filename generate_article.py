@@ -17,21 +17,10 @@ class GrokArticleGenerator:
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
         
-        # OpenAI GPT-4使用（優先）
-        if 'openai_api' in self.config:
-            self.api_key = self.config['openai_api']['api_key']
-            self.api_url = self.config['openai_api']['api_url']
-            self.use_openai = True
-        # Claude API（次候補）
-        elif 'claude_api' in self.config:
-            self.api_key = self.config['claude_api']['api_key']
-            self.api_url = self.config['claude_api']['api_url']
-            self.use_openai = False
-        # Grok API（フォールバック）
-        else:
-            self.api_key = self.config['grok_api']['api_key']
-            self.api_url = self.config['grok_api']['api_url']
-            self.use_openai = None
+        # GPT-4 API使用（VPN接続済み）
+        self.api_key = self.config['openai_api']['api_key']
+        self.api_url = self.config['openai_api']['api_url']
+        self.use_openai = True
         
     def generate_article(self, news_data: List[Dict]) -> Dict:
         """OpenAI GPT-4/Claude/Grok APIで日本語記事を生成"""
@@ -47,88 +36,20 @@ class GrokArticleGenerator:
         # ニュースデータを整形
         news_text = self._format_news_for_prompt(news_data)
         
-        # Grok APIへのプロンプト
-        system_prompt = """あなたは香港のニュースを日本語に翻訳し、指定されたフォーマットで整形する翻訳者です。
+        # GPT-4 APIへのプロンプト
+        system_prompt = """ニュースを日本語に翻訳してJSON形式で返してください。
 
-【最重要】要約や短縮は絶対禁止。元のニュース内容(Full Content)をそのまま全文日本語に翻訳してください。
+翻訳ルール：
+- すべてのテキストを日本語に翻訳
+- 要約しない
 
-【記事構成】
-各ニュースは以下のMarkdown形式で記載（番号なし）:
-
-### [ニュースタイトル]
-
-[Full Contentを全文翻訳、段落は空白行で区切る]
-
-**引用元**: [source名], [日付]  
-**リンク**: [完全なURL]  
-**備考**: [重要性や日本との関連性を1文で]
-
----
-
-### [次のニュースタイトル]
-
-[Full Contentを全文翻訳]
-
-**引用元**: [source名], [日付]  
-**リンク**: [完全なURL]  
-**備考**: [重要性や日本との関連性を1文で]
-
-【出力例】
-### 香港立法会、ライドシェア規制法案可決
-
-香港の立法会は、ライドシェアサービスを規制する法案を可決しました。
-
-運輸局の陳美宝局長は、この法案が交通サービスを近代化すると述べました。
-
-ライドシェア事業者はライセンス取得が必要になります。
-
-**引用元**: SCMP, 2025年10月16日  
-**リンク**: https://www.scmp.com/...  
-**備考**: 交通政策の転機で即時性が高い。
-
----
-
-### 台湾で香港人観光客が強姦される事件後、公衆安全の改善を求めるアドボカシーグループ
-
-香港の観光客が昼間、台北駅で知人であり逃亡中の男によって強姦されたとされる事件後、アドボカシーグループは公衆安全と傍観者の介入の改善を求めています。
-
-**引用元**: SCMP, 2025年10月16日  
-**リンク**: https://www.scmp.com/...  
-**備考**: 香港人観光客の安全に関わる事件として注目される。
-
-【重要】
-- 番号（1. 2. など）は絶対に使用しない
-- 各ニュースのタイトルは「### タイトル名」形式で小見出しにする
-- ニュース間は「---」で区切る
-- 引用元、リンク、備考は「**項目名**:」形式で太字にする
-- Google Newsのリダイレクトリンク（news.google.com/rss/articles/...）は使用しない。元のソース（HK01、Yahoo等）の実リンクを使用すること
-
-【翻訳ルール】
-- 地名: 天水圍(ティン・シュイ・ワイ)、調景嶺(ティウ・ケン・レン)のように漢字+読み仮名
-- 人名: 李英華(Li Ying-wah)のように漢字+英語読み
-- 組織名: 廉政公署(ICAC)のように漢字+略称
-- 数字・金額: そのまま翻訳
-- 固有名詞: 原語を尊重
-
-【絶対に守ること】
-- Full Contentの短縮・要約は絶対禁止
-- 元の情報をすべて含める
-- 文字数制限なし
-- 香港関連のニュースのみ選択（最大20件）
-- 重要度の高い順に並べる
-- 広告記事（presented, sponsored含むURL）は除外
-- **政治関連のニュースは絶対に選ばない**（47人事件、刑期満了、民主派、立法会選挙、国家安全公署、国安法などは除外）
-
-【出力形式】
-必ず以下のJSON形式で返してください。JSON以外の文字は一切含めないでください：
-{{
-  "title": "毎日AIピックアップニュース({datetime.now(HKT).strftime('%Y年%m月%d日')})",
+出力形式：
+{
+  "title": "毎日AIピックアップニュース(2025年10月28日)",
   "lead": "",
-  "body": "上記フォーマットのMarkdown記事",
+  "body": "### タイトル\\n\\n本文\\n\\n**引用元**: ソース, 日付\\n**リンク**: URL\\n**備考**: 説明\\n\\n---\\n\\n### 次のニュース...",
   "tags": "香港,ニュース,最新,情報,アジア"
-}}
-
-【重要】JSON形式のみで回答し、他の説明文や追加テキストは一切含めないでください。"""
+}"""
 
         user_prompt = f"""以下は{datetime.now(HKT).strftime('%Y年%m月%d日')}の香港ニュースです。
 これらの情報を元に、指定されたフォーマットで日本語記事を作成してください。
@@ -191,48 +112,23 @@ class GrokArticleGenerator:
 
 これらの政治関連のニュースは一切取り扱わず、特に芸能・カルチャーニュースを最優先に、ビジネス、テクノロジー、健康、文化、スポーツ、不動産、教育などのニュースを選択してください。"""
 
-        # APIリクエスト
+        # GPT-4 APIリクエスト
         headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}"
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
         }
         
-        if self.use_openai is True:
-            # OpenAI GPT-4
-            payload = {
-                "model": "gpt-4o",
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ],
-                "temperature": 0.1,
-                "max_tokens": 16000
-            }
-            print("📤 OpenAI GPT-4にリクエスト送信中...")
-        elif self.use_openai is False:
-            # Claude API
-            headers["anthropic-version"] = "2023-06-01"
-            payload = {
-                "model": "claude-3-5-sonnet-20241022",
-                "max_tokens": 16000,
-                "system": system_prompt,
-                "messages": [
-                    {"role": "user", "content": user_prompt}
-                ]
-            }
-            print("📤 Claude APIにリクエスト送信中...")
-        else:
-            # Grok API
-            payload = {
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ],
-                "model": "grok-2-latest",
-                "stream": False,
-                "temperature": 0.1
-            }
-            print("📤 Grok APIにリクエスト送信中...")
+        payload = {
+            "model": "gpt-4o",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "temperature": 0.1,
+            "max_tokens": 16000
+        }
+        
+        print("📤 OpenAI GPT-4にリクエスト送信中...")
         
         try:
             response = requests.post(
@@ -244,23 +140,18 @@ class GrokArticleGenerator:
             
             if response.status_code == 200:
                 result = response.json()
-                if self.use_openai is True:
-                    content = result['choices'][0]['message']['content']
-                elif self.use_openai is False:
-                    content = result['content'][0]['text']
-                else:
-                    content = result['choices'][0]['message']['content']
+                content = result['choices'][0]['message']['content']
                 print("✅ 記事生成完了")
                 
                 # JSONパース
                 try:
-                    import re
-                    
                     # コードブロックを除去
-                    if '```json' in content:
-                        content = content.split('```json')[1].split('```')[0].strip()
-                    elif '```' in content:
-                        content = content.split('```')[1].split('```')[0].strip()
+                    if content.strip().startswith('```'):
+                        lines = content.split('\n')
+                        # 最初の```行をスキップ、最後の```行もスキップ
+                        start_line = 1 if len(lines) > 1 else 0
+                        end_line = len(lines) - 1 if len(lines) > 1 and lines[-1].strip() == '```' else len(lines)
+                        content = '\n'.join(lines[start_line:end_line]).strip()
                     
                     # JSONとして最初の { から最後の } を抽出
                     if '{' in content and '}' in content:
@@ -268,13 +159,13 @@ class GrokArticleGenerator:
                         end = content.rfind('}') + 1
                         json_str = content[start:end]
                         
-                        # 制御文字を完全に除去
-                        json_str = ''.join(char for char in json_str if ord(char) >= 32 or char in '\n\t')
+                        # 制御文字を除去
+                        json_str = ''.join(char for char in json_str if ord(char) >= 32 or char in '\n\t\r')
                         
                         article = json.loads(json_str)
                         return article
-                    else:
-                        raise json.JSONDecodeError("No JSON object found", content, 0)
+                    
+                    raise json.JSONDecodeError("No JSON object found", content, 0)
                         
                 except json.JSONDecodeError as e:
                     print(f"⚠️  JSONパースエラー: {e}")
@@ -282,34 +173,37 @@ class GrokArticleGenerator:
                     print("   テキストから記事を抽出中...")
                     
                     # JSON形式を諦めて、テキストから抽出
+                    # 最初にコードブロックを除去した content を使用
                     lines = content.split('\n')
                     title_line = [l for l in lines if 'title' in l.lower() and ':' in l]
                     if title_line:
                         title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
                     else:
-                        title = f"毎日AIスラングピックアップニュース({datetime.now(HKT).strftime('%Y年%m月%d日')})"
+                        title = f"毎日AIピックアップニュース({datetime.now(HKT).strftime('%Y年%m月%d日')})"
                     
-                    # テキストから記事を抽出
-                    lines = content.split('\n')
-                    title_line = [l for l in lines if 'title' in l.lower() and ':' in l]
-                    if title_line:
-                        title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
-                    else:
-                        title = f"毎日AIスラングピックアップニュース({datetime.now(HKT).strftime('%Y年%m月%d日')})"
-                    
-                    # bodyからMarkdown記事を抽出
+                    # bodyからMarkdown記事を抽出（改良版）
                     body_start = content.find('"body":')
                     if body_start != -1:
-                        body_start = content.find('"', body_start + 7) + 1
-                        body_end = content.rfind('"')
-                        if body_end > body_start:
-                            body = content[body_start:body_end]
-                            # JSONエスケープを解除
-                            body = body.replace('\\n', '\n').replace('\\"', '"').replace('\\/', '/')
+                        # "body": の後の最初の " を探す
+                        quote_start = content.find('"', body_start + 7)
+                        if quote_start != -1:
+                            # 次の " を探す（エスケープされた " は考慮）
+                            body_end = quote_start + 1
+                            while body_end < len(content):
+                                if content[body_end] == '"' and content[body_end - 1] != '\\':
+                                    break
+                                body_end += 1
+                            
+                            if body_end > quote_start + 1:
+                                body = content[quote_start + 1:body_end]
+                                # JSONエスケープを解除
+                                body = body.replace('\\n', '\n').replace('\\"', '"').replace('\\/', '/')
+                            else:
+                                body = ""
                         else:
-                            body = content
+                            body = ""
                     else:
-                        body = content
+                        body = ""
                     
                     return {
                         "title": title,
@@ -388,51 +282,15 @@ Published: {news.get('published_at', 'N/A')}
             title = forecast.get('title', 'N/A')
             desc = clean_weather_text(forecast.get('description', ''))
             
-            # タイトルを日本語に翻訳
-            translated_title = self._translate_weather_text(title)
-            
-            # 本文を日本語に翻訳
-            if desc and len(desc) < 1000:  # 長すぎる場合はスキップ
-                translated_desc = self._translate_weather_text(desc)
-                
-                # 改行なしで一行にまとめる
-                weather_section += f"\n### 天気予報\n{translated_title} {translated_desc}\n\n**引用元**: 香港天文台"
-            else:
-                weather_section += f"\n### 天気予報\n{translated_title}\n\n**引用元**: 香港天文台"
+            # 天気情報もGPT-4に翻訳させるため、プロンプトに含める
+            weather_section += f"\n### 天気予報\n[翻訳が必要: {title} {desc}]\n\n**引用元**: 香港天文台"
         
         return weather_section
     
     def _translate_weather_text(self, text: str) -> str:
-        """天気情報のテキストを中国語・広東語から日本語に翻訳"""
-        if not text or len(text.strip()) == 0:
-            return text
-        
-        try:
-            import requests
-            import json
-            
-            # Google Translate APIを使用して翻訳
-            url = "https://translate.googleapis.com/translate_a/single"
-            params = {
-                'client': 'gtx',
-                'sl': 'zh',  # 中国語から
-                'tl': 'ja',  # 日本語へ
-                'dt': 't',
-                'q': text
-            }
-            
-            response = requests.get(url, params=params, timeout=10)
-            if response.status_code == 200:
-                result = response.json()
-                if result and len(result) > 0 and len(result[0]) > 0:
-                    translated = ''.join([item[0] for item in result[0] if item[0]])
-                    return translated.strip()
-            
-            return text  # 翻訳に失敗した場合は元のテキストを返す
-            
-        except Exception as e:
-            print(f"⚠️  天気翻訳エラー: {e}")
-            return text  # エラーの場合は元のテキストを返す
+        """天気情報のテキストをそのまま返す（翻訳しない）"""
+        # GPT-4に翻訳を任せるため、天気テキストはそのまま返す
+        return text
     
     def remove_duplicate_articles(self, body: str) -> str:
         """生成された記事本文から重複記事を除外"""
@@ -453,11 +311,15 @@ Published: {news.get('published_at', 'N/A')}
                 if len(lines) > 0:
                     title = lines[0].strip()
                     
-                    # タイトルの正規化（小文字化、記号除去）
+                    # タイトルの正規化（より厳密な重複のみ除外）
                     normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+                    # 短すぎるタイトルは重複チェック対象外
+                    if len(normalized_title) < 10:
+                        result.append(article)
+                        continue
                     
-                    # 重複チェック
-                    if normalized_title not in seen_titles and normalized_title:
+                    # 重複チェック（完全一致のみ）
+                    if normalized_title not in seen_titles:
                         seen_titles.add(normalized_title)
                         result.append(article)
                     else:
@@ -480,7 +342,7 @@ Published: {news.get('published_at', 'N/A')}
             timestamp = datetime.now(HKT).strftime('%Y-%m-%d')
             output_path = f"daily-articles/hongkong-news_{timestamp}.md"
         
-        # 記事本文から重複を除外
+        # 記事本文から重複を除外（軽微な重複のみ）
         article['body'] = self.remove_duplicate_articles(article['body'])
         
         # 記事本文から区切り線を削除し、見出し前に空行を追加
@@ -711,7 +573,7 @@ def preprocess_news(news_list):
     
     # 3. バランス選択（各カテゴリーから均等に選ぶ）
     selected = []
-    target_count = 30  # 30件に絞る（APIタイムアウト防止）
+    target_count = 15  # 15件に絞る（APIタイムアウト防止）
     
     # カルチャーニュースを優先的に5件選ぶ
     if 'カルチャー' in categorized and len(categorized['カルチャー']) > 0:
@@ -745,12 +607,22 @@ def preprocess_news(news_list):
 
 if __name__ == "__main__":
     import sys
+    import os
     
     if len(sys.argv) < 2:
         print("使用方法: python generate_article.py <raw_news.json>")
         sys.exit(1)
     
+    # タイムゾーンをHKTに設定（環境変数から取得、なければHKT）
+    os.environ['TZ'] = os.environ.get('TZ', 'Asia/Hong_Kong')
+    
     news_file = sys.argv[1]
+    
+    # 今日の日付を表示
+    today = datetime.now(HKT).strftime('%Y-%m-%d')
+    print(f"\n📅 今日の日付 (HKT): {today}")
+    print(f"📅 今日の日付 (日本語): {datetime.now(HKT).strftime('%Y年%m月%d日')}")
+    print("=" * 60)
     
     # ニュースデータ読み込み
     with open(news_file, 'r', encoding='utf-8') as f:
@@ -771,10 +643,23 @@ if __name__ == "__main__":
         # 天気情報も取得（存在する場合）
         weather_data = data.get('weather', None)
         saved_path = generator.save_article(article, weather_data)
+        
+        # 保存されたファイルの日付を確認
+        expected_date = datetime.now(HKT).strftime('%Y-%m-%d')
+        file_date = saved_path.split('_')[-1].replace('.md', '')
+        
         print(f"\n✅ 記事生成完了！")
         print(f"📁 保存先: {saved_path}")
+        print(f"📅 ファイル日付: {file_date}")
+        print(f"📅 期待される日付: {expected_date}")
+        
+        if file_date != expected_date:
+            print(f"⚠️  警告: ファイル日付が期待される日付と一致しません！")
+            print(f"   ファイル: {file_date}, 期待: {expected_date}")
+        
         print(f"\n📝 タイトル: {article['title']}")
         if weather_data:
             print(f"🌤️  天気情報も追加しました")
     else:
         print("\n❌ 記事生成に失敗しました")
+        sys.exit(1)

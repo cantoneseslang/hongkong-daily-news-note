@@ -451,8 +451,16 @@ URL: {url}
             (r'引用元:\s*([^*]+)\*\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
             # 引用元: SCMP*リンク: URL の形式を修正（スペースなし）
             (r'引用元:\s*([^*]+)\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
-            # 引用元: SCMP*リンク: URL の形式を修正（スペースなし）
-            (r'引用元:\s*([^*]+)\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2')
+            # HTML段落で出力された引用情報をMarkdown2行に正規化
+            (r'<p[^>]*>\s*<strong>引用元</strong>:\s*([^<]+)<br\s*/?>\s*<strong>リンク</strong>:\s*(https?://[^\s<]+)\s*</p>', r'**引用元**: \1\n**リンク**: \2'),
+            # strongタグ混在の単行表記を正規化
+            (r'<strong>引用元</strong>:\s*([^<]+)\s*<strong>リンク</strong>:\s*(https?://[^\s<]+)', r'**引用元**: \1\n**リンク**: \2')
+        ]
+
+        # HTML残骸の削除（汎用）
+        html_cleanup_patterns = [
+            r'<p[^>]*>\s*</p>',
+            r'</?br\s*/?>',
         ]
         
         # 広告コンテンツを除去
@@ -467,6 +475,13 @@ URL: {url}
         # 引用元とリンクの表示を修正
         for pattern, replacement in fix_patterns:
             cleaned_body = re.sub(pattern, replacement, cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+
+        # 汎用HTMLタグの掃除（必要最小限）
+        for pattern in html_cleanup_patterns:
+            cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+
+        # 連続重複する引用ブロックを1つに圧縮
+        cleaned_body = re.sub(r'(\*\*引用元\*\*: .*?\n\*\*リンク\*\*: https?://\S+)\n+\1', r'\1', cleaned_body, flags=re.DOTALL)
         
         # 連続する空行を1つに
         cleaned_body = re.sub(r'\n{3,}', '\n\n', cleaned_body)

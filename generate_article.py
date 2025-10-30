@@ -384,6 +384,42 @@ Published: {news.get('published_at', 'N/A')}
         # GPT-4に翻訳を任せるため、天気テキストはそのまま返す
         return text
     
+    def remove_advertisement_content(self, body: str) -> str:
+        """記事本文から広告・宣伝コンテンツを除去"""
+        import re
+        
+        # 広告・宣伝のキーワードパターン
+        ad_patterns = [
+            r'最新の動画紹介：.*?【詳細と申し込み】',
+            r'TOPick.*?チャンネル.*?フォロー.*?見逃さないでください',
+            r'無料の.*?会員.*?今すぐ.*?ダウンロード',
+            r'会員新規募集.*?プレゼント.*?詳細：',
+            r'https://whatsapp\.com/channel/.*?',
+            r'https://onelink\.to/.*?',
+            r'https://event\.hket\.com/.*?',
+            r'【詳細と申し込み】',
+            r'申し込み受付中',
+            r'フォローして.*?見逃さないでください',
+            r'ダウンロード：.*?',
+            r'プレゼント.*?詳細：.*?',
+            r'🔔.*?フォロー',
+            r'無料.*?会員.*?参加しましょう',
+            r'新規会員登録.*?プレゼント'
+        ]
+        
+        # 広告コンテンツを除去
+        cleaned_body = body
+        for pattern in ad_patterns:
+            cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+        
+        # 連続する空行を1つに
+        cleaned_body = re.sub(r'\n{3,}', '\n\n', cleaned_body)
+        
+        # 先頭・末尾の空行を除去
+        cleaned_body = cleaned_body.strip()
+        
+        return cleaned_body
+    
     def remove_duplicate_articles(self, body: str) -> str:
         """生成された記事本文から重複記事を除外"""
         import re
@@ -434,7 +470,8 @@ Published: {news.get('published_at', 'N/A')}
             timestamp = datetime.now(HKT).strftime('%Y-%m-%d')
             output_path = f"daily-articles/hongkong-news_{timestamp}.md"
         
-        # 記事本文から重複を除外（軽微な重複のみ）
+        # 記事本文から広告コンテンツと重複を除外
+        article['body'] = self.remove_advertisement_content(article['body'])
         article['body'] = self.remove_duplicate_articles(article['body'])
         
         # 記事本文から区切り線を削除し、見出し前に空行を追加

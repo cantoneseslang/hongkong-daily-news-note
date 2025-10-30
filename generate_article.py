@@ -335,28 +335,9 @@ URL: {url}
             "下週初風勢頗大": "来週初めは風が強い"
         }
         
-        # 翻訳を適用（より包括的に）
+        # 翻訳を適用
         translated_text = text
-        
-        # まず完全一致で翻訳
         for chinese, japanese in weather_translations.items():
-            translated_text = translated_text.replace(chinese, japanese)
-        
-        # 残りの広東語パターンを強制的に翻訳
-        additional_patterns = {
-            "同時，": "また、",
-            "一道雲帶覆蓋華南沿岸。": "雲が華南沿岸を覆っています。",
-            "本港地區下午及今晚天氣預測:": "香港地区の午後と今夜の天気予報:",
-            "下午短暫時間有陽光。": "午後は短時間晴れ間。",
-            "今晚概ね曇り，時々小雨。": "今夜は概ね曇り、時々小雨。",
-            "吹和緩東至東北風，初時離岸風勢清勁。": "東から北東の風がやや強く吹く、初めは沖合いで風が強い。",
-            "今後の見通し:": "今後の見通し:",
-            "明日の日中は暑い。": "明日の日中は暑い。",
-            "週末は気温がやや下がり，天気は乾燥。": "週末は気温がやや下がり、天気は乾燥。",
-            "来週初めは風が強い。": "来週初めは風が強い。"
-        }
-        
-        for chinese, japanese in additional_patterns.items():
             translated_text = translated_text.replace(chinese, japanese)
         
         return translated_text

@@ -125,17 +125,31 @@ class RSSNewsAPI:
             'brazil', 'ecuador', 'kenya', 'afghanistan',
             'british', 'prince andrew', 'david attenborough',
             'myanmar', 'starlink',
+            'cuba', 'haiti', 'jamaica', 'hurricane', 'melissa',
+            'cote d\'ivoire', 'ivory coast', 'wattara', 'ouattara',
+            'rio de janeiro', 'drug', 'cartel', 'operation',
             '加薩', '以色列', '哈瑪斯', '巴勒斯坦',
             '烏克蘭', '俄羅斯', '澤連斯基',
             '金鐘獎', '陳偉霆', '台灣',
             'golden horse', 'taiwan election',
             'sudan', 'khartoum', '喀土穆', 'スーダン',
             'trump', 'oracle', 'amazon', 'exxonmobil',
-            'トランプ', '米国ビジネス', '米中'
+            'トランプ', '米国ビジネス', '米中',
+            'キューバ', 'ハイチ', 'ジャマイカ', 'ハリケーン',
+            'コートジボワール', 'ブラジル', 'リオデジャネイロ'
         ]
         
-        # タイトルのみでチェック（香港関連キーワードがあればOK）
-        hk_keywords = ['hong kong', 'hongkong', 'hk', '香港', 'central', 'kowloon', 'wan chai', 'mtr', '港']
+        # 香港関連キーワードをチェック（より包括的に）
+        hk_keywords = [
+            'hong kong', 'hongkong', 'hk', '香港', 'central', 'kowloon', 
+            'wan chai', 'mtr', '港', 'causeway bay', 'tai koo', 'admiralty',
+            'tsim sha tsui', 'victoria harbour', 'lantau', 'legco', 
+            'ce carrie lam', 'kwai chung', 'tin shui wai', 'tiu keng leng', 
+            'sha tin', '中環', '灣仔', '銅鑼灣', '太古', '金鐘', '尖沙咀',
+            '維多利亞港', '大嶼山', '立法會', '林鄭月娥', '葵涌', '天水圍',
+            '調景嶺', '沙田', '港鐵', '香港政府', '香港警察', '香港天文台',
+            'scmp', 'rthk', 'chinadaily', 'hket', 'the standard'
+        ]
         has_hk = any(k in text for k in hk_keywords)
         
         if not has_hk:

@@ -129,7 +129,9 @@ class HongKongNewsAPI:
         
         keywords = ['hong kong', 'hongkong', 'hk ', ' hk', 'kowloon', 'tsim sha tsui', 
                    'victoria harbour', 'lantau', 'mtr', 'legco', 'ce carrie lam',
-                   '香港', 'kwai chung', 'tin shui wai', 'tiu keng leng', 'sha tin']
+                   '香港', 'kwai chung', 'tin shui wai', 'tiu keng leng', 'sha tin',
+                   'central', 'wan chai', 'causeway bay', 'tai koo', 'admiralty',
+                   '中環', '灣仔', '銅鑼灣', '太古', '金鐘']
         
         text = f"{news.get('title', '')} {news.get('description', '')}".lower()
         

@@ -1,7 +1,32 @@
 import { chromium } from 'playwright';
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, unlinkSync } from 'fs';
 import * as path from 'path';
 import * as os from 'os';
+import https from 'https';
+import http from 'http';
+
+// リモート画像をダウンロードする関数
+async function downloadImage(url) {
+  return new Promise((resolve, reject) => {
+    const tempPath = path.join(os.tmpdir(), `temp-${Date.now()}-${Math.random().toString(36).substring(7)}.jpg`);
+    
+    const protocol = url.startsWith('https') ? https : http;
+    
+    protocol.get(url, (response) => {
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to download: ${response.statusCode}`));
+        return;
+      }
+      
+      const chunks = [];
+      response.on('data', (chunk) => chunks.push(chunk));
+      response.on('end', () => {
+        writeFileSync(tempPath, Buffer.concat(chunks));
+        resolve(tempPath);
+      });
+    }).on('error', reject);
+  });
+}
 
 // URLファイルを読み込む（オプショナル）
 function loadUrls() {
@@ -422,34 +447,118 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         
         console.log(`🔍 画像+リンク結合検出: ${imagePath} → ${linkUrl}`);
         
-        // ローカルパスの画像をアップロード
-        if (!imagePath.startsWith('http://') && !imagePath.startsWith('https://')) {
-          const imageInfo = images.find(img => img.localPath === imagePath && img.hasLink);
-          
-          if (imageInfo && existsSync(imageInfo.absolutePath)) {
-            console.log(`🖼️  画像+リンクを挿入中: ${imageInfo.absolutePath}`);
-            
-            // 画像をファイルアップロードで挿入（クリップボードの代わり）
-            const fileInput = await page.$('input[type="file"]');
-            if (fileInput) {
-              await fileInput.uploadFile(imageInfo.absolutePath);
-              console.log(`✅ 画像をファイルアップロードで挿入: ${imageInfo.absolutePath}`);
-            } else {
-              console.log(`⚠️  ファイルアップロード要素が見つかりません。画像をスキップします。`);
-            }
-            
-            await page.waitForTimeout(2000); // ファイルアップロードの処理時間を確保
-            console.log('✓ 画像挿入完了');
-            
-            // リンク設定をスキップ
-            console.log(`🔗 リンク設定をスキップ: ${linkUrl}`);
-            
-            // 画像の後に改行
+        let actualImagePath = null;
+        
+        // リモートURL画像の場合はダウンロード
+        if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+          console.log(`🌐 リモート画像をダウンロード中: ${imagePath}`);
+          try {
+            actualImagePath = await downloadImage(imagePath);
+            console.log(`✓ ダウンロード完了: ${actualImagePath}`);
+          } catch (error) {
+            console.log(`⚠️  ダウンロード失敗: ${error.message}`);
+            // ダウンロード失敗時はMarkdownをそのまま入力
+            await page.keyboard.type(line, { delay: 20 });
             if (!isLastLine) {
               await page.keyboard.press('Enter');
             }
             continue;
           }
+        } else {
+          // ローカルパスの場合
+          const imageInfo = images.find(img => img.localPath === imagePath && img.hasLink);
+          if (imageInfo && existsSync(imageInfo.absolutePath)) {
+            actualImagePath = imageInfo.absolutePath;
+          }
+        }
+        
+        if (actualImagePath && existsSync(actualImagePath)) {
+          console.log(`🖼️  画像+リンクを挿入中: ${actualImagePath}`);
+          
+          try {
+            // ファイルアップロード
+            const fileInput = await page.$('input[type="file"]');
+            if (fileInput) {
+              await fileInput.setInputFiles(actualImagePath);
+              await page.waitForTimeout(3000); // アップロード完了を待つ
+              console.log(`✅ 画像をアップロード完了`);
+              
+              // 画像がリンク付きの場合、リンクを設定
+              if (linkUrl) {
+                console.log(`🔗 リンクを設定中: ${linkUrl}`);
+                
+                try {
+                  // 挿入された画像を選択
+                  await page.waitForTimeout(1000);
+                  
+                  // 画像をクリックして選択
+                  const uploadedImage = page.locator('img').last();
+                  await uploadedImage.click();
+                  await page.waitForTimeout(500);
+                  
+                  // リンク設定ボタンを探してクリック
+                  const linkButton = page.locator('button[aria-label*="リンク"], button:has-text("リンク")').first();
+                  if (await linkButton.isVisible({ timeout: 2000 })) {
+                    await linkButton.click();
+                    await page.waitForTimeout(500);
+                    
+                    // リンクURLを入力
+                    const linkInput = page.locator('input[type="text"], input[type="url"]').last();
+                    await linkInput.fill(linkUrl);
+                    await page.waitForTimeout(500);
+                    
+                    // 確定ボタンをクリック
+                    const confirmButton = page.locator('button:has-text("確定"), button:has-text("OK"), button[type="submit"]').last();
+                    if (await confirmButton.isVisible({ timeout: 2000 })) {
+                      await confirmButton.click();
+                      await page.waitForTimeout(500);
+                      console.log(`✓ リンク設定完了`);
+                    } else {
+                      // Enterキーで確定
+                      await page.keyboard.press('Enter');
+                      console.log(`✓ リンク設定完了（Enter）`);
+                    }
+                  } else {
+                    console.log(`⚠️  リンクボタンが見つかりません。リンクなしで続行します。`);
+                  }
+                } catch (linkError) {
+                  console.log(`⚠️  リンク設定エラー: ${linkError.message}`);
+                }
+              }
+              
+              // 画像の後に改行（カーソルを次の行に移動）
+              await page.keyboard.press('ArrowDown'); // 画像の下に移動
+              await page.waitForTimeout(300);
+              
+            } else {
+              console.log(`⚠️  ファイルアップロード要素が見つかりません。`);
+            }
+          } catch (uploadError) {
+            console.log(`⚠️  画像アップロードエラー: ${uploadError.message}`);
+          }
+          
+          // リモート画像の一時ファイルを削除
+          if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+            try {
+              unlinkSync(actualImagePath);
+              console.log(`🗑️  一時ファイル削除: ${actualImagePath}`);
+            } catch (e) {
+              // 削除失敗は無視
+            }
+          }
+          
+          if (!isLastLine) {
+            await page.keyboard.press('Enter');
+          }
+          continue;
+        } else {
+          console.log(`⚠️  画像ファイルが見つかりません: ${imagePath}`);
+          // 画像が見つからない場合はMarkdownをそのまま入力
+          await page.keyboard.type(line, { delay: 20 });
+          if (!isLastLine) {
+            await page.keyboard.press('Enter');
+          }
+          continue;
         }
       }
 
@@ -459,34 +568,70 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         const imagePath = imageMatch[2];
         console.log(`🔍 画像マークダウン検出: ${imagePath}`);
         
-        // ローカルパスの画像をアップロード
-        if (!imagePath.startsWith('http://') && !imagePath.startsWith('https://')) {
-          const imageInfo = images.find(img => img.localPath === imagePath && !img.hasLink);
-          
-          if (imageInfo && existsSync(imageInfo.absolutePath)) {
-            console.log(`🖼️  画像を挿入中: ${imageInfo.absolutePath}`);
-            
-            const imageBuffer = readFileSync(imageInfo.absolutePath);
-            const base64Image = imageBuffer.toString('base64');
-            
-            // 画像をファイルアップロードで挿入（クリップボードの代わり）
-            const fileInput = await page.$('input[type="file"]');
-            if (fileInput) {
-              await fileInput.uploadFile(imageInfo.absolutePath);
-              console.log(`✅ 画像をファイルアップロードで挿入: ${imageInfo.absolutePath}`);
-            } else {
-              console.log(`⚠️  ファイルアップロード要素が見つかりません。画像をスキップします。`);
-            }
-            
-            await page.waitForTimeout(2000); // ファイルアップロードの処理時間を確保
-            console.log('✓ 画像挿入完了');
-            
-            // 画像の後に改行
+        let actualImagePath = null;
+        
+        // リモートURL画像の場合はダウンロード
+        if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+          console.log(`🌐 リモート画像をダウンロード中: ${imagePath}`);
+          try {
+            actualImagePath = await downloadImage(imagePath);
+            console.log(`✓ ダウンロード完了: ${actualImagePath}`);
+          } catch (error) {
+            console.log(`⚠️  ダウンロード失敗: ${error.message}`);
+            // ダウンロード失敗時はMarkdownをそのまま入力
+            await page.keyboard.type(line, { delay: 20 });
             if (!isLastLine) {
               await page.keyboard.press('Enter');
             }
             continue;
           }
+        } else {
+          // ローカルパスの場合
+          const imageInfo = images.find(img => img.localPath === imagePath && !img.hasLink);
+          if (imageInfo && existsSync(imageInfo.absolutePath)) {
+            actualImagePath = imageInfo.absolutePath;
+          }
+        }
+        
+        if (actualImagePath && existsSync(actualImagePath)) {
+          console.log(`🖼️  画像を挿入中: ${actualImagePath}`);
+          
+          try {
+            // ファイルアップロード
+            const fileInput = await page.$('input[type="file"]');
+            if (fileInput) {
+              await fileInput.setInputFiles(actualImagePath);
+              await page.waitForTimeout(3000); // アップロード完了を待つ
+              console.log(`✅ 画像をアップロード完了`);
+            } else {
+              console.log(`⚠️  ファイルアップロード要素が見つかりません。`);
+            }
+          } catch (uploadError) {
+            console.log(`⚠️  画像アップロードエラー: ${uploadError.message}`);
+          }
+          
+          // リモート画像の一時ファイルを削除
+          if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+            try {
+              unlinkSync(actualImagePath);
+              console.log(`🗑️  一時ファイル削除: ${actualImagePath}`);
+            } catch (e) {
+              // 削除失敗は無視
+            }
+          }
+          
+          if (!isLastLine) {
+            await page.keyboard.press('Enter');
+          }
+          continue;
+        } else {
+          console.log(`⚠️  画像ファイルが見つかりません: ${imagePath}`);
+          // 画像が見つからない場合はMarkdownをそのまま入力
+          await page.keyboard.type(line, { delay: 20 });
+          if (!isLastLine) {
+            await page.keyboard.press('Enter');
+          }
+          continue;
         }
       }
 

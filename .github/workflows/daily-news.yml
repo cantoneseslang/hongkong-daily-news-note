@@ -57,6 +57,10 @@ jobs:
               "api_key": "${{ secrets.GROK_API_KEY }}",
               "api_url": "https://api.x.ai/v1/chat/completions"
             },
+            "openai_api": {
+              "api_key": "${{ secrets.OPENAI_API_KEY }}",
+              "api_url": "https://api.openai.com/v1/chat/completions"
+            },
             "note": {
               "state_path": "/tmp/.note-state.json",
               "screenshot_dir": "/tmp/screenshots",

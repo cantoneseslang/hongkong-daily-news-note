@@ -663,37 +663,76 @@ def preprocess_news(news_list):
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 3. バランス選択（各カテゴリーから均等に選ぶ）
+    # 3. バランス選択（優先順位に基づいて30-40件選択）
     selected = []
-    target_count = 15  # 15件に絞る（APIタイムアウト防止）
+    target_count = 35  # 30-40件の中央値
     
-    # カルチャーニュースを優先的に5件選ぶ
-    if 'カルチャー' in categorized and len(categorized['カルチャー']) > 0:
-        culture_count = min(5, len(categorized['カルチャー']))
-        for i in range(culture_count):
-            selected.append(categorized['カルチャー'].pop(0))
-        print(f"🎭 カルチャーニュース {culture_count}件を優先選択")
-    
-    # カテゴリーごとの優先順位
+    # カテゴリーごとの優先順位（ユーザー指定順）
     priority_cats = [
-        'ビジネス・経済', 'テクノロジー', '医療・健康', 
-        '教育', '不動産', '交通', '治安・犯罪', '事故・災害',
-        '社会・その他', '天気', '政治・行政'
+        'ビジネス・経済',      # 1位: 46件
+        '社会・その他',        # 2位: 19件  
+        'カルチャー',          # 3位: 15件
+        '不動産',             # 4位: 13件
+        '政治・行政',          # 5位: 8件
+        '医療・健康',          # 6位: 3件
+        '治安・犯罪',          # 7位: 6件
+        'テクノロジー',        # 8位: 76件
+        '事故・災害',          # 9位: 1件
+        '交通'                # 10位: 1件
     ]
     
-    # 各カテゴリーから選択
-    while len(selected) < target_count:
-        added = False
+    # 各カテゴリーから優先順位に基づいて選択
+    for cat in priority_cats:
+        if cat in categorized and categorized[cat]:
+            # 各カテゴリーから最大何件取るかを計算
+            if cat == 'ビジネス・経済':
+                max_count = min(8, len(categorized[cat]))  # 1位: 8件
+            elif cat == '社会・その他':
+                max_count = min(6, len(categorized[cat]))  # 2位: 6件
+            elif cat == 'カルチャー':
+                max_count = min(5, len(categorized[cat]))  # 3位: 5件
+            elif cat == '不動産':
+                max_count = min(4, len(categorized[cat]))  # 4位: 4件
+            elif cat == '政治・行政':
+                max_count = min(3, len(categorized[cat]))  # 5位: 3件
+            elif cat == '医療・健康':
+                max_count = min(3, len(categorized[cat]))  # 6位: 3件
+            elif cat == '治安・犯罪':
+                max_count = min(2, len(categorized[cat]))  # 7位: 2件
+            elif cat == 'テクノロジー':
+                max_count = min(3, len(categorized[cat]))  # 8位: 3件
+            else:
+                max_count = min(1, len(categorized[cat]))  # 9-10位: 1件
+            
+            # 選択
+            for i in range(max_count):
+                if categorized[cat] and len(selected) < target_count:
+                    selected.append(categorized[cat].pop(0))
+            
+            if len(selected) >= target_count:
+                break
+    
+    # まだ足りない場合は残りのカテゴリーから追加
+    if len(selected) < target_count:
         for cat in priority_cats:
             if cat in categorized and categorized[cat]:
-                selected.append(categorized[cat].pop(0))
-                added = True
+                while categorized[cat] and len(selected) < target_count:
+                    selected.append(categorized[cat].pop(0))
                 if len(selected) >= target_count:
                     break
-        if not added:
-            break
     
-    print(f"\n✅ 選択完了: {len(selected)}件（バランス調整済み）")
+    print(f"\n✅ 選択完了: {len(selected)}件（優先順位調整済み）")
+    
+    # 選択されたニュースのカテゴリー別内訳を表示
+    selected_categories = defaultdict(int)
+    for news in selected:
+        category = news.get('category', '未分類')
+        selected_categories[category] += 1
+    
+    print("📊 選択されたニュースのカテゴリー別内訳:")
+    for cat in priority_cats:
+        if cat in selected_categories:
+            print(f"  {cat}: {selected_categories[cat]}件")
     
     return selected
 

@@ -314,13 +314,20 @@ URL: {url}
             "一股清勁的偏東氣流正影響廣東沿岸": "清涼な東風が広東沿岸に影響しています",
             "此外": "また",
             "一道雲帶正覆蓋華南沿岸": "雲が華南沿岸を覆っています",
+            "一道雲帶覆蓋華南沿岸": "雲が華南沿岸を覆っています",
             "本港地區今日天氣預測": "香港地区の今日の天気予報",
+            "本港地區下午及今晚天氣預測": "香港地区の午後と今夜の天気予報",
             "大致多雲": "概ね曇り",
             "有一兩陣微雨": "時々小雨",
             "日間短暫時間有陽光": "日中は短時間晴れ間",
+            "下午短暫時間有陽光": "午後は短時間晴れ間",
+            "今晚概ね曇り": "今夜は概ね曇り",
+            "時々小雨": "時々小雨",
             "最高氣溫約": "最高気温約",
             "度": "度",
             "吹和緩至清勁東至東北風": "東から北東の風がやや強く吹く",
+            "吹和緩東至東北風": "東から北東の風がやや強く吹く",
+            "初時離岸風勢清勁": "初めは沖合いで風が強い",
             "展望": "今後の見通し",
             "明日日間炎熱": "明日の日中は暑い",
             "週末期間氣溫稍為下降": "週末は気温がやや下がり",
@@ -343,11 +350,9 @@ URL: {url}
 
 (今現在400名以上の方に登録していただいております）
 
-[スラング先生公式LINE](https://line.me/R/ti/p/@298mwivr)
-![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)
+[![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
 
-[LINEでお問合せ](https://line.me/R/ti/p/@298mwivr)
-![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)
+[![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)
 
 ## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
 

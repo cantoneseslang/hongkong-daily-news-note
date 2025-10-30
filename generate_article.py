@@ -803,7 +803,15 @@ if __name__ == "__main__":
     
     print("=" * 60)
     
-    generator = GrokArticleGenerator()
+    # コンフィグパスの決定（優先順位: 環境変数CONFIG_PATH > config.local.json > config.json）
+    config_path = os.environ.get('CONFIG_PATH')
+    if not config_path:
+        if os.path.exists('config.local.json'):
+            config_path = 'config.local.json'
+        else:
+            config_path = 'config.json'
+
+    generator = GrokArticleGenerator(config_path)
     article = generator.generate_article(news_data)
     
     if article:

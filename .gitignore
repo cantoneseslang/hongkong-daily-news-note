@@ -1,3 +1,5 @@
+# Local-only config with secrets (do not commit)
+config.local.json
 # API Keys and Secrets
 config.json
 

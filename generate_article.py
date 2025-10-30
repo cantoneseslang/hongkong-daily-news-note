@@ -459,8 +459,10 @@ URL: {url}
 
         # HTML残骸の削除（汎用）
         html_cleanup_patterns = [
-            r'<p[^>]*>\s*</p>',
-            r'</?br\s*/?>',
+            r'<p[^>]*>\s*</p>',                 # 空のp
+            r'</?br\s*/?>',                    # brタグ
+            # [![...]](...) を包む p/span ハイライトを剥がす
+            r'<p[^>]*>\s*<span[^>]*>(\[!\[.*?\]\(.*?\)\]\(.*?\))\s*</span>\s*</p>'
         ]
         
         # 広告コンテンツを除去
@@ -478,10 +480,24 @@ URL: {url}
 
         # 汎用HTMLタグの掃除（必要最小限）
         for pattern in html_cleanup_patterns:
-            cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+            # ラッパー除去パターンには置換対象を残す
+            if '(' in pattern and '\\[!\\[' in pattern:
+                cleaned_body = re.sub(pattern, r'\1', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+            else:
+                cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
 
         # 連続重複する引用ブロックを1つに圧縮
         cleaned_body = re.sub(r'(\*\*引用元\*\*: .*?\n\*\*リンク\*\*: https?://\S+)\n+\1', r'\1', cleaned_body, flags=re.DOTALL)
+
+        # 広東語学習セクションの重複行を1回に圧縮（画像リンク2種）
+        cantonese_img1 = re.escape('[![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)')
+        cantonese_img2 = re.escape('[![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)')
+        cleaned_body = re.sub(fr'(?:{cantonese_img1})\n+(?:{cantonese_img1})', r'\g<0>'.replace('\\g<0>','\1'), cleaned_body)
+        cleaned_body = re.sub(fr'(?:{cantonese_img2})\n+(?:{cantonese_img2})', r'\g<0>'.replace('\\g<0>','\1'), cleaned_body)
+
+        # 上記のバックリファレンス生成が難しいため明示置換（2回以上の連続を1回へ）
+        cleaned_body = re.sub(fr'(?:{cantonese_img1})(?:\n+{cantonese_img1})+', r'[![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)', cleaned_body)
+        cleaned_body = re.sub(fr'(?:{cantonese_img2})(?:\n+{cantonese_img2})+', r'[![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)', cleaned_body)
         
         # 連続する空行を1つに
         cleaned_body = re.sub(r'\n{3,}', '\n\n', cleaned_body)

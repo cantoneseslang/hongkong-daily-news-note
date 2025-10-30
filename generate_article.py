@@ -17,16 +17,26 @@ class GrokArticleGenerator:
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
         
-        # GPT-4 API使用（VPN接続済み）
-        self.api_key = self.config['openai_api']['api_key']
-        self.api_url = self.config['openai_api']['api_url']
-        self.use_openai = True
+        # API選択（Gemini → Claude → Grok の順でフォールバック）
+        if 'gemini_api' in self.config and self.config['gemini_api'].get('api_key'):
+            self.api_key = self.config['gemini_api']['api_key']
+            self.api_url = self.config['gemini_api']['api_url']
+            self.use_gemini = True
+        elif 'claude_api' in self.config and self.config['claude_api'].get('api_key'):
+            self.api_key = self.config['claude_api']['api_key']
+            self.api_url = self.config['claude_api']['api_url']
+            self.use_gemini = False
+        else:
+            # Grok APIをデフォルト使用
+            self.api_key = self.config['grok_api']['api_key']
+            self.api_url = self.config['grok_api']['api_url']
+            self.use_gemini = None
         
     def generate_article(self, news_data: List[Dict]) -> Dict:
-        """OpenAI GPT-4/Claude/Grok APIで日本語記事を生成"""
-        if self.use_openai is True:
-            api_name = "OpenAI GPT-4"
-        elif self.use_openai is False:
+        """Gemini/Claude/Grok APIで日本語記事を生成"""
+        if self.use_gemini is True:
+            api_name = "Google Gemini"
+        elif self.use_gemini is False:
             api_name = "Claude API"
         else:
             api_name = "Grok API"
@@ -112,23 +122,56 @@ class GrokArticleGenerator:
 
 これらの政治関連のニュースは一切取り扱わず、特に芸能・カルチャーニュースを最優先に、ビジネス、テクノロジー、健康、文化、スポーツ、不動産、教育などのニュースを選択してください。"""
 
-        # GPT-4 APIリクエスト
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
+        # APIリクエスト（Gemini/Claude/Grok対応）
+        if self.use_gemini is True:
+            # Gemini API
+            headers = {
+                "Content-Type": "application/json"
+            }
+            payload = {
+                "contents": [{
+                    "parts": [{
+                        "text": f"{system_prompt}\n\n{user_prompt}"
+                    }]
+                }],
+                "generationConfig": {
+                    "temperature": 0.1,
+                    "maxOutputTokens": 16000
+                }
+            }
+        else:
+            # Claude/Grok API
+            headers = {
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json"
+            }
+            
+            if self.use_gemini is False:  # Claude API
+                payload = {
+                    "model": "claude-3-5-sonnet-20241022",
+                    "messages": [
+                        {"role": "user", "content": f"{system_prompt}\n\n{user_prompt}"}
+                    ],
+                    "temperature": 0.1,
+                    "max_tokens": 16000
+                }
+            else:  # Grok API
+                payload = {
+                    "model": "grok-beta",
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt}
+                    ],
+                    "temperature": 0.1,
+                    "max_tokens": 16000
+                }
         
-        payload = {
-            "model": "gpt-4o",
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            "temperature": 0.1,
-            "max_tokens": 16000
-        }
-        
-        print("📤 OpenAI GPT-4にリクエスト送信中...")
+        if self.use_gemini is True:
+            print("📤 Google Geminiにリクエスト送信中...")
+        elif self.use_gemini is False:
+            print("📤 Claude APIにリクエスト送信中...")
+        else:
+            print("📤 Grok APIにリクエスト送信中...")
         
         try:
             response = requests.post(
@@ -140,7 +183,17 @@ class GrokArticleGenerator:
             
             if response.status_code == 200:
                 result = response.json()
-                content = result['choices'][0]['message']['content']
+                
+                if self.use_gemini is True:
+                    # Gemini APIレスポンス
+                    content = result['candidates'][0]['content']['parts'][0]['text']
+                else:
+                    # Claude/Grok APIレスポンス
+                    if self.use_gemini is False:  # Claude API
+                        content = result['content'][0]['text']
+                    else:  # Grok API
+                        content = result['choices'][0]['message']['content']
+                
                 print("✅ 記事生成完了")
                 
                 # JSONパース
@@ -214,6 +267,12 @@ class GrokArticleGenerator:
             else:
                 print(f"❌ APIエラー: {response.status_code}")
                 print(f"   詳細: {response.text}")
+                
+                # OpenAI APIが地域制限の場合はGrok APIにフォールバック
+                if response.status_code == 403 and self.use_openai is True:
+                    print("🔄 OpenAI API地域制限のためGrok APIにフォールバック...")
+                    return self._fallback_to_grok(news_data)
+                
                 return None
                 
         except Exception as e:

@@ -61,6 +61,10 @@ jobs:
               "api_key": "${{ secrets.OPENAI_API_KEY }}",
               "api_url": "https://api.openai.com/v1/chat/completions"
             },
+            "gemini_api": {
+              "api_key": "${{ secrets.GEMINI_API_KEY }}",
+              "api_url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+            },
             "note": {
               "state_path": "/tmp/.note-state.json",
               "screenshot_dir": "/tmp/screenshots",
@@ -87,6 +91,11 @@ jobs:
             echo "⚠️  Warning: OPENAI_API_KEY secret may not be set"
           else
             echo "✅ OpenAI API key configured"
+          fi
+          if grep -q "\"GEMINI_API_KEY\"" config.json; then
+            echo "⚠️  Warning: GEMINI_API_KEY secret may not be set"
+          else
+            echo "✅ Gemini API key configured"
           fi
           if grep -q "\"GROK_API_KEY\"" config.json; then
             echo "⚠️  Warning: GROK_API_KEY secret may not be set"

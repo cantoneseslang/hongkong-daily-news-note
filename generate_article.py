@@ -296,7 +296,7 @@ URL: {url}
             
             if title and "現時並無警告生效" not in title and "酷熱天氣警告" not in title and "發出" not in title:
                 weather_section += f"\n### 天気警報{title}"
-                if desc and "現時並無警告生效" not in desc and "酷熱天氣警告" not in desc:
+                if desc and "現時並無警告生效" not in desc and "酷熱天気警告" not in desc:
                     weather_section += f"{desc}"
         
         # 地域天気予報のみ表示
@@ -486,10 +486,16 @@ URL: {url}
             else:
                 cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
 
-        # プレーンURL行をMarkdownリンクに正規化（クリック可能にする）
+        # プレーンURL行をMarkdownリンクに正規化（既に [URL](URL) の場合は除外）
         # 例: **リンク**: https://example.com → **リンク**: [https://example.com](https://example.com)
-        cleaned_body = re.sub(r'(\*\*リンク\*\*:\s*)(https?://\S+)', r'\1[\2](\2)', cleaned_body)
-        cleaned_body = re.sub(r'(リンク:\s*)(https?://\S+)', r'**リンク**: [\2](\2)', cleaned_body)
+        cleaned_body = re.sub(r'(\*\*リンク\*\*:\s*)(?!\[)(https?://\S+)', r'\1[\2](\2)', cleaned_body)
+        # 例: リンク: https://example.com → **リンク**: [https://example.com](https://example.com)
+        cleaned_body = re.sub(r'(^|\n)リンク:\s*(?!\[)(https?://\S+)', r'\1**リンク**: [\2](\2)', cleaned_body)
+        # 同一リンク行の重複を圧縮
+        cleaned_body = re.sub(r'(\*\*リンク\*\*: \[[^\]]+\]\([^\)]+\))\n+\1', r'\1', cleaned_body)
+        
+        # 行末の余分なスペースを除去（改行前の2スペースなど）
+        cleaned_body = re.sub(r'[ \t]+$', '', cleaned_body, flags=re.MULTILINE)
 
         # 連続重複する引用ブロックを1つに圧縮
         cleaned_body = re.sub(r'(\*\*引用元\*\*: .*?\n\*\*リンク\*\*: https?://\S+)\n+\1', r'\1', cleaned_body, flags=re.DOTALL)

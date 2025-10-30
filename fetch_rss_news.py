@@ -111,7 +111,11 @@ class RSSNewsAPI:
             '国安法', '国家安全法', 'national security', '国安公署',
             # 政治犯罪関連（英語）
             'jailed', 'prison', 'sentenced', 'conspiracy', 'overthrow', 'subversion',
-            '2019 protest', 'pro-democracy activist', 'political prisoner'
+            '2019 protest', 'pro-democracy activist', 'political prisoner',
+            # 広告・宣伝記事関連
+            'presented', 'sponsored', 'advertisement', 'advertorial', 'promotional',
+            '広告パートナー', '広告記事', 'スポンサー記事', 'PR記事', 'presented news',
+            'building stronger communities through sports'  # 具体的な広告記事タイトル
         ]
         
         for keyword in forbidden_keywords:

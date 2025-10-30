@@ -429,28 +429,16 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           if (imageInfo && existsSync(imageInfo.absolutePath)) {
             console.log(`🖼️  画像+リンクを挿入中: ${imageInfo.absolutePath}`);
             
-            // 画像をクリップボードにコピーしてペースト
-            const imageBuffer = readFileSync(imageInfo.absolutePath);
-            const base64Image = imageBuffer.toString('base64');
-            
-            await page.evaluate(async ({ base64 }) => {
-              const response = await fetch(`data:image/png;base64,${base64}`);
-              const blob = await response.blob();
-              const item = new ClipboardItem({ 'image/png': blob });
-              await navigator.clipboard.write([item]);
-            }, { base64: base64Image });
-            
-            await page.waitForTimeout(1000);
-            
-            // ペースト
-            const isMac = process.platform === 'darwin';
-            if (isMac) {
-              await page.keyboard.press('Meta+v');
+            // 画像をファイルアップロードで挿入（クリップボードの代わり）
+            const fileInput = await page.$('input[type="file"]');
+            if (fileInput) {
+              await fileInput.uploadFile(imageInfo.absolutePath);
+              console.log(`✅ 画像をファイルアップロードで挿入: ${imageInfo.absolutePath}`);
             } else {
-              await page.keyboard.press('Control+v');
+              console.log(`⚠️  ファイルアップロード要素が見つかりません。画像をスキップします。`);
             }
             
-            await page.waitForTimeout(3000);
+            await page.waitForTimeout(2000); // ファイルアップロードの処理時間を確保
             console.log('✓ 画像挿入完了');
             
             // リンク設定をスキップ
@@ -481,25 +469,16 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
             const imageBuffer = readFileSync(imageInfo.absolutePath);
             const base64Image = imageBuffer.toString('base64');
             
-            // クリップボードに画像を設定
-            await page.evaluate(async ({ base64 }) => {
-              const response = await fetch(`data:image/png;base64,${base64}`);
-              const blob = await response.blob();
-              const item = new ClipboardItem({ 'image/png': blob });
-              await navigator.clipboard.write([item]);
-            }, { base64: base64Image });
-            
-            await page.waitForTimeout(1000);
-            
-            // ペースト
-            const isMac = process.platform === 'darwin';
-            if (isMac) {
-              await page.keyboard.press('Meta+v');
+            // 画像をファイルアップロードで挿入（クリップボードの代わり）
+            const fileInput = await page.$('input[type="file"]');
+            if (fileInput) {
+              await fileInput.uploadFile(imageInfo.absolutePath);
+              console.log(`✅ 画像をファイルアップロードで挿入: ${imageInfo.absolutePath}`);
             } else {
-              await page.keyboard.press('Control+v');
+              console.log(`⚠️  ファイルアップロード要素が見つかりません。画像をスキップします。`);
             }
             
-            await page.waitForTimeout(3000);
+            await page.waitForTimeout(2000); // ファイルアップロードの処理時間を確保
             console.log('✓ 画像挿入完了');
             
             // 画像の後に改行

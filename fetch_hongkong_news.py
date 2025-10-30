@@ -127,48 +127,11 @@ class HongKongNewsAPI:
         if 'hongkongfp.com' in url:
             return False
         
-        keywords = [
-            # 基本キーワード
-            'hong kong', 'hongkong', 'hk', '香港', '港',
-            
-            # 主要地区・地名
-            'central', 'kowloon', 'wan chai', 'causeway bay', 'tai koo', 'admiralty',
-            'tsim sha tsui', 'victoria harbour', 'lantau', 'kwai chung', 'tin shui wai', 
-            'tiu keng leng', 'sha tin', 'mong kok', 'yau ma tei', 'jordan', 'tai po',
-            '中環', '九龍', '灣仔', '銅鑼灣', '太古', '金鐘', '尖沙咀', '旺角',
-            '油麻地', '佐敦', '大埔', '葵涌', '天水圍', '調景嶺', '沙田',
-            '維多利亞港', '大嶼山', '青衣', '屯門', '元朗', '上水', '粉嶺',
-            
-            # 交通・インフラ
-            'mtr', '港鐵', 'hong kong international airport', '香港國際機場',
-            'hong kong tramways', '香港電車', 'star ferry', '天星小輪',
-            'hong kong zhuhai macau bridge', '港珠澳大橋', 'high speed rail', '高鐵',
-            
-            # 政治・行政（最新）
-            'legco', 'legislative council', '立法會', 'hksar', '香港特別行政區',
-            'john lee', '李家超', '行政長官', 'chief executive',
-            'hong kong government', '香港政府', 'hong kong police', '香港警察',
-            'hong kong observatory', '香港天文台', 'hong kong monetary authority', '金管局',
-            
-            # 経済・金融
-            'hkex', 'hong kong stock exchange', '香港交易所', 'hong kong dollar', '港幣',
-            'greater bay area', '粵港澳大灣區', 'hong kong finance', '香港金融',
-            
-            # 文化・観光
-            'm+ museum', '西九文化區', 'west kowloon cultural district', 'hong kong disneyland',
-            '香港迪士尼', 'ocean park', '海洋公園', 'hong kong arts festival', '香港藝術節',
-            'hong kong international film festival', '香港國際電影節',
-            
-            # 教育・大学
-            'university of hong kong', '香港大學', 'chinese university of hong kong', '香港中文大學',
-            'hong kong university of science and technology', '香港科技大學',
-            'city university of hong kong', '香港城市大學',
-            
-            # メディア・ニュースソース
-            'scmp', 'south china morning post', '南華早報', 'rthk', '香港電台',
-            'chinadaily', 'hket', 'the standard', 'ming pao', '明報',
-            'hong kong free press', 'hk01', 'now news', 'now新聞'
-        ]
+        keywords = ['hong kong', 'hongkong', 'hk ', ' hk', 'kowloon', 'tsim sha tsui', 
+                   'victoria harbour', 'lantau', 'mtr', 'legco', 'ce carrie lam',
+                   '香港', 'kwai chung', 'tin shui wai', 'tiu keng leng', 'sha tin',
+                   'central', 'wan chai', 'causeway bay', 'tai koo', 'admiralty',
+                   '中環', '灣仔', '銅鑼灣', '太古', '金鐘']
         
         text = f"{news.get('title', '')} {news.get('description', '')}".lower()
         

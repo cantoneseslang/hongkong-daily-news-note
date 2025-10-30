@@ -305,104 +305,55 @@ URL: {url}
             title = forecast.get('title', 'N/A')
             desc = clean_weather_text(forecast.get('description', ''))
             
-            # 天気情報を日本語に翻訳
-            translated_title = self._translate_weather_text(title)
-            translated_desc = self._translate_weather_text(desc)
+            # 天気情報はLLMで一括日本語翻訳（辞書置換は使わない）
+            translated_title = self._llm_translate_text(title)
+            translated_desc = self._llm_translate_text(desc)
             weather_section += f"\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
         
         return weather_section
     
     def _translate_weather_text(self, text: str) -> str:
-        """天気情報の広東語を日本語に翻訳"""
+        """レガシー互換（未使用）。LLMベース翻訳に切替済み。"""
+        return self._llm_translate_text(text)
+
+    def _llm_translate_text(self, text: str) -> str:
+        """LLMで広東語/中文を自然な日本語に一発翻訳（日本語以外混在禁止）"""
         if not text:
             return ""
-        
-        # 広東語の天気情報を日本語に翻訳する辞書
-        weather_translations = {
-            "香港天文台於": "香港天文台が",
-            "發出之天氣報告": "発表した天気報告",
-            "一股清勁的偏東氣流正影響廣東沿岸": "清涼な東風が広東沿岸に影響しています",
-            "一股偏東氣流正影響廣東沿岸": "東よりの気流が広東沿岸に影響しています",
-            "此外": "また",
-            "一道雲帶正覆蓋華南沿岸": "雲が華南沿岸を覆っています",
-            "一道雲帶覆蓋華南沿岸": "雲が華南沿岸を覆っています",
-            "一道雲帶覆蓋華南": "雲が華南を覆っています",
-            "本港地區今日天氣預測": "香港地区の今日の天気予報",
-            "本港地區下午及今晚天氣預測": "香港地区の午後と今夜の天気予報",
-            "本港地區今晚及明日天氣預測": "香港地区の今夜と明日の天気予報",
-            "大致多雲": "概ね曇り",
-            "有一兩陣微雨": "時々小雨",
-            "日間短暫時間有陽光": "日中は短時間晴れ間",
-            "下午短暫時間有陽光": "午後は短時間晴れ間",
-            "日間部分時間有陽光": "日中はところどころ晴れ間",
-            "部分時間有陽光": "ところどころ晴れ間",
-            "今晚概ね曇り": "今夜は概ね曇り",
-            "時々小雨": "時々小雨",
-            "最高氣溫約": "最高気温約",
-            "度": "度",
-            "吹和緩至清勁東至東北風": "東から北東の風がやや強く吹く",
-            "吹和緩東至東北風": "東から北東の風がやや強く吹く",
-            "偏東氣流": "東寄りの気流",
-            "東北風": "北東の風",
-            "東風": "東の風",
-            "初時離岸風勢清勁": "初めは沖合いで風が強い",
-            "展望": "今後の見通し",
-            "明日日間炎熱": "明日の日中は暑い",
-            "週末期間氣溫稍為下降": "週末は気温がやや下がり",
-            "天氣乾燥": "天気は乾燥",
-            "下週初風勢頗大": "来週初めは風が強い"
-        }
-        
-        # 翻訳を適用（より包括的に）
-        translated_text = text
-        
-        # まず完全一致で翻訳
-        for chinese, japanese in weather_translations.items():
-            translated_text = translated_text.replace(chinese, japanese)
-        
-        # 残りの広東語パターンを強制的に翻訳
-        additional_patterns = {
-            "同時，": "また、",
-            "一道雲帶覆蓋華南沿岸。": "雲が華南沿岸を覆っています。",
-            "本港地區下午及今晚天氣預測:": "香港地区の午後と今夜の天気予報:",
-            "下午短暫時間有陽光。": "午後は短時間晴れ間。",
-            "今晚概ね曇り，時々小雨。": "今夜は概ね曇り、時々小雨。",
-            "吹和緩東至東北風，初時離岸風勢清勁。": "東から北東の風がやや強く吹く、初めは沖合いで風が強い。",
-            "今後の見通し:": "今後の見通し:",
-            "明日の日中は暑い。": "明日の日中は暑い。",
-            "週末は気温がやや下がり，天気は乾燥。": "週末は気温がやや下がり、天気は乾燥。",
-            "来週初めは風が強い。": "来週初めは風が強い。"
-        }
-        
-        for chinese, japanese in additional_patterns.items():
-            translated_text = translated_text.replace(chinese, japanese)
-
-        # 句読点・接続の正規化
-        translated_text = (
-            translated_text
-            .replace('，', '、')
-            .replace('：', ': ')
-            .replace('。', '。')
-            .replace('及', 'と')
+        prompt = (
+            "以下の広東語/中文テキストを自然な日本語に翻訳してください。"\
+            "記号や数値は保持し、日本語以外（中文の語彙・句読点・英語）が残らないように。\n\n" + text
         )
 
-        # よく残る語の置換
-        residual_map = {
-            '今晚': '今夜',
-            '明早': '明朝',
-            '市區': '市内',
-            '新界': '新界',  # 地名はそのまま
-            '最低氣溫約': '最低気温は約',
-            '最高氣溫約': '最高気温は約',
-            '炎熱': '暑い',
-        }
-        for k, v in residual_map.items():
-            translated_text = translated_text.replace(k, v)
-
-        # まだ中国語の漢字語が多く残る場合でも、日本語の文として読めるよう空白を整える
-        translated_text = re.sub(r'\s+', ' ', translated_text).strip()
-        
-        return translated_text
+        try:
+            if self.use_gemini is True:
+                headers = {"Content-Type": "application/json"}
+                api_url_with_key = f"{self.api_url}?key={self.api_key}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+                }
+                resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=60)
+                if resp.status_code == 200:
+                    txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
+                    return txt.strip()
+            else:
+                headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+                if self.use_gemini is False:
+                    payload = {"model": "claude-3-5-sonnet-20241022", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                else:
+                    payload = {"model": "grok-beta", "messages": [{"role": "system", "content": "Translate to natural Japanese only."}, {"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                resp = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
+                if resp.status_code == 200:
+                    if self.use_gemini is False:
+                        txt = resp.json()['content'][0]['text']
+                    else:
+                        txt = resp.json()['choices'][0]['message']['content']
+                    return txt.strip()
+        except Exception:
+            pass
+        # フォールバック: 原文を返却（少なくとも欠落しない）
+        return text
     
     def _generate_cantonese_section(self) -> str:
         """広東語学習者向けの定型文を生成"""

@@ -523,13 +523,11 @@ URL: {url}
             else:
                 cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
 
-        # プレーンURL行をMarkdownリンクに正規化（既に [URL](URL) の場合は除外）
-        # 例: **リンク**: https://example.com → **リンク**: [https://example.com](https://example.com)
-        cleaned_body = re.sub(r'(\*\*リンク\*\*:\s*)(?!\[)(https?://\S+)', r'\1[\2](\2)', cleaned_body)
-        # 例: リンク: https://example.com → **リンク**: [https://example.com](https://example.com)
-        cleaned_body = re.sub(r'(^|\n)リンク:\s*(?!\[)(https?://\S+)', r'\1**リンク**: [\2](\2)', cleaned_body)
-        # 同一リンク行の重複を圧縮
-        cleaned_body = re.sub(r'(\*\*リンク\*\*: \[[^\]]+\]\([^\)]+\))\n+\1', r'\1', cleaned_body)
+        # note側の自動リンク化に任せるため、Markdownリンク化は行わない
+        # 既存のMarkdownリンクをプレーンURLに戻す（**リンク**: [text](url) → **リンク**: url）
+        cleaned_body = re.sub(r'\*\*リンク\*\*:\s*\[([^\]]+)\]\([^\)]+\)', r'**リンク**: \1', cleaned_body)
+        # ラベル統一（先頭が「リンク:」なら太字ラベルに統一）
+        cleaned_body = re.sub(r'(?m)^リンク:\s*', '**リンク**: ', cleaned_body)
         
         # 行末の余分なスペースを除去（改行前の2スペースなど）
         cleaned_body = re.sub(r'[ \t]+$', '', cleaned_body, flags=re.MULTILINE)

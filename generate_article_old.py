@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-香港ニュース記事生成スクリプト（広東語学習セクション付き）
+Grok APIを使用して香港ニュースから日本語記事を生成
+※ 要約や短縮は一切行わず、元の情報をそのまま翻訳する
 """
 
-import json
 import requests
-import re
+import json
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict
 
@@ -46,36 +46,81 @@ class GrokArticleGenerator:
         # ニュースデータを整形
         news_text = self._format_news_for_prompt(news_data)
         
-        # システムプロンプト
-        system_prompt = """あなたは香港のニュースを日本語に翻訳し、記事を生成する専門家です。
+        # GPT-4 APIへのプロンプト
+        system_prompt = """ニュースを日本語に翻訳してJSON形式で返してください。
 
 翻訳ルール：
-- すべてのテキストを自然な日本語に翻訳
-- 香港の地名、人名、組織名は適切に翻訳
-- ニュースの内容を正確に伝える
-- 読みやすい記事形式で構成
+- すべてのテキストを日本語に翻訳
+- 要約しない
 
-記事構成：
-- 各ニュースを### 見出しで区切る
-- 内容を詳しく翻訳
-- 引用元、リンク、備考を適切に配置
-- 広告や宣伝文は除外
+出力形式：
+{
+  "title": "毎日AIピックアップニュース(2025年10月28日)",
+  "lead": "",
+  "body": "### タイトル\\n\\n本文\\n\\n**引用元**: ソース, 日付\\n**リンク**: URL\\n**備考**: 説明\\n\\n---\\n\\n### 次のニュース...",
+  "tags": "香港,ニュース,最新,情報,アジア"
+}"""
 
-重要：JSON形式ではなく、Markdown形式で記事を生成してください。"""
+        user_prompt = f"""以下は{datetime.now(HKT).strftime('%Y年%m月%d日')}の香港ニュースです。
+これらの情報を元に、指定されたフォーマットで日本語記事を作成してください。
 
-        # ユーザープロンプト
-        user_prompt = f"""以下の香港ニュースを日本語に翻訳し、記事として構成してください：
+【最重要】Full Contentの内容は絶対に短縮・要約せず、全文そのまま日本語に翻訳してください。
+
+【翻訳徹底指示】
+- 中国語・広東語の固有名詞や地名は必ず適切な日本語に翻訳する
+- 感染症名は正確な日本語医学用語を使用：
+  * 「基孔肯雅熱」→「チクングニア熱」（注：これらのニュースは除外される）
+  * 「登革熱」→「デング熱」
+- 地名は標準的なカタカナ表記：
+  * 「鳳徳邨」→「フェンタク村」（広東語読み）
+  * 「衛生防護センター」→「衛生防護センター」（職能名）
+- 専門用語は正確な日本語表記を使用し、医学・公衆衛生用語は特に注意
+- 引用や会話部分の中国語もすべて日本語に翻訳する
+- 【】内の中国語もすべて翻訳する
+- 1つの記事の内容は最低500文字以上にする
+- 元の情報をすべて含める
+- 具体的な固有名詞、数字、日付をすべて含める
 
 {news_text}
 
-記事の要件：
-1. 各ニュースを### 見出しで区切る
-2. 内容を詳しく翻訳
-3. 引用元、リンク、備考を適切に配置
-4. 広告や宣伝文は除外
-5. Markdown形式で出力
+上記のニュースから香港関連のものを20件選び、指定されたフォーマットでJSON形式で出力してください。20件のニュース記事を必ず作成してください。
+各ニュースの「内容」は元のFull Contentを全文翻訳してください（短縮禁止）。
 
-記事を生成してください："""
+【最重要ルール：重複の排除】
+1. **同じ事件・イベントについて、複数のソース（SCMP、RTHK、Yahoo等）から報道されている場合、最も詳細な1つだけを選択してください**
+2. **例：「華懋タワー火災」など、同じ火災事件は1つだけ**
+3. 各記事は異なるトピック・事件である必要があります
+
+【重要】利用可能なニュースから**異なる事件・トピック**を必ず20件選び、記事を生成してください。20件を目標に、できるだけ多くの記事を生成してください。
+
+【除外すべき政治関連ニュース】
+以下のテーマを含むニュースは絶対に選ばないでください：
+- 47人事件、47 persons case、democracy trial
+- 刑期満了、prison release、sentence completion
+- 民主派、democratic party、pro-democracy
+- 立法会選挙、legislative council election、legco election
+- 国家安全公署、national security office、国安法
+- jailed for conspiracy (政治的事件での逮捕・判決)
+- 2019 protest related news
+
+【優先的に選ぶべきニュース】
+政治ニュースの代わりに、以下のカテゴリーのニュースを優先的に選んでください：
+- **芸能・カルチャー（最優先）**: 俳優、歌手、テレビ番組、番組終了、TVB、生日、婚紗、停播など
+- ビジネス・経済: 企業ニュース、IPO、市場動向
+- テクノロジー: AI、デジタルイノベーション
+- 健康・医療: 感染症、医療技術
+- スポーツ
+- 不動産
+- 教育
+- 社会イベント
+
+**重要な選択ガイドライン**:
+1. 提供されたニュースリストから、**芸能・カルチャーニュースを最低3-5件は必ず選んでください**
+2. 俳優名、番組名、TVB関連のニュースは積極的に選択してください
+3. 政治関連のニュースは完全に無視してください
+4. ビジネス、健康、テクノロジーのニュースも多く選んでください
+
+これらの政治関連のニュースは一切取り扱わず、特に芸能・カルチャーニュースを最優先に、ビジネス、テクノロジー、健康、文化、スポーツ、不動産、教育などのニュースを選択してください。"""
 
         # APIリクエスト（Gemini/Claude/Grok対応）
         if self.use_gemini is True:
@@ -93,7 +138,7 @@ class GrokArticleGenerator:
                 }],
                 "generationConfig": {
                     "temperature": 0.1,
-                    "maxOutputTokens": 50000
+                    "maxOutputTokens": 32000
                 }
             }
         else:
@@ -110,7 +155,7 @@ class GrokArticleGenerator:
                         {"role": "user", "content": f"{system_prompt}\n\n{user_prompt}"}
                     ],
                     "temperature": 0.1,
-                    "max_tokens": 50000
+                    "max_tokens": 32000
                 }
             else:  # Grok API
                 payload = {
@@ -120,7 +165,7 @@ class GrokArticleGenerator:
                         {"role": "user", "content": user_prompt}
                     ],
                     "temperature": 0.1,
-                    "max_tokens": 50000
+                    "max_tokens": 32000
                 }
         
         if self.use_gemini is True:
@@ -155,9 +200,74 @@ class GrokArticleGenerator:
                 
                 print("✅ 記事生成完了")
                 
-                # 記事をパースして構造化
-                return self._parse_article_content(content)
-                
+                # JSONパース
+                try:
+                    # コードブロックを除去
+                    if content.strip().startswith('```'):
+                        lines = content.split('\n')
+                        # 最初の```行をスキップ、最後の```行もスキップ
+                        start_line = 1 if len(lines) > 1 else 0
+                        end_line = len(lines) - 1 if len(lines) > 1 and lines[-1].strip() == '```' else len(lines)
+                        content = '\n'.join(lines[start_line:end_line]).strip()
+                    
+                    # JSONとして最初の { から最後の } を抽出
+                    if '{' in content and '}' in content:
+                        start = content.find('{')
+                        end = content.rfind('}') + 1
+                        json_str = content[start:end]
+                        
+                        # 制御文字を除去
+                        json_str = ''.join(char for char in json_str if ord(char) >= 32 or char in '\n\t\r')
+                        
+                        article = json.loads(json_str)
+                        return article
+                    
+                    raise json.JSONDecodeError("No JSON object found", content, 0)
+                        
+                except json.JSONDecodeError as e:
+                    print(f"⚠️  JSONパースエラー: {e}")
+                    print(f"   レスポンス内容: {content[:500]}...")
+                    print("   テキストから記事を抽出中...")
+                    
+                    # JSON形式を諦めて、テキストから抽出
+                    # 最初にコードブロックを除去した content を使用
+                    lines = content.split('\n')
+                    title_line = [l for l in lines if 'title' in l.lower() and ':' in l]
+                    if title_line:
+                        title = title_line[0].split(':', 1)[1].strip().strip('"').strip(',').strip('"')
+                    else:
+                        title = f"毎日AIピックアップニュース({datetime.now(HKT).strftime('%Y年%m月%d日')})"
+                    
+                    # bodyからMarkdown記事を抽出（改良版）
+                    body_start = content.find('"body":')
+                    if body_start != -1:
+                        # "body": の後の最初の " を探す
+                        quote_start = content.find('"', body_start + 7)
+                        if quote_start != -1:
+                            # 次の " を探す（エスケープされた " は考慮）
+                            body_end = quote_start + 1
+                            while body_end < len(content):
+                                if content[body_end] == '"' and content[body_end - 1] != '\\':
+                                    break
+                                body_end += 1
+                            
+                            if body_end > quote_start + 1:
+                                body = content[quote_start + 1:body_end]
+                                # JSONエスケープを解除
+                                body = body.replace('\\n', '\n').replace('\\"', '"').replace('\\/', '/')
+                            else:
+                                body = ""
+                        else:
+                            body = ""
+                    else:
+                        body = ""
+                    
+                    return {
+                        "title": title,
+                        "lead": "",
+                        "body": body,
+                        "tags": "香港,ニュース,最新,情報,アジア"
+                    }
             else:
                 print(f"❌ APIエラー: {response.status_code}")
                 print(f"   詳細: {response.text}")
@@ -202,42 +312,21 @@ class GrokArticleGenerator:
         # 元のgenerate_articleメソッドを再帰呼び出し
         return self.generate_article(news_data)
     
-    def _parse_article_content(self, content: str) -> Dict:
-        """生成された記事コンテンツをパース"""
-        # タイトルを抽出（最初の行）
-        lines = content.split('\n')
-        title = lines[0].replace('#', '').strip() if lines else "香港ニュース"
-        
-        # 本文を抽出
-        body = content
-        
-        return {
-            "title": title,
-            "lead": "",
-            "body": body,
-            "tags": "香港,ニュース,最新,情報,アジア"
-        }
-    
     def _format_news_for_prompt(self, news_data: List[Dict]) -> str:
         """ニュースデータをプロンプト用に整形"""
         formatted = []
-        for i, news in enumerate(news_data, 1):
-            title = news.get('title', '')
-            description = news.get('description', '')
-            url = news.get('url', '')
-            source = news.get('source', '')
-            published = news.get('published', '')
-            
+        for i, news in enumerate(news_data, 1):  # 全件使用
+            # full_contentがあればそれを使用、なければdescription
+            content = news.get('full_content', news.get('description', 'N/A'))
             formatted.append(f"""
-ニュース {i}:
-タイトル: {title}
-内容: {description}
-URL: {url}
-ソース: {source}
-公開日時: {published}
+【ニュース{i}】
+Title: {news.get('title', 'N/A')}
+Full Content: {content}
+Source: {news.get('source', 'N/A')}
+URL: {news.get('url', 'N/A')}
+Published: {news.get('published_at', 'N/A')}
 """)
-        
-        return '\n'.join(formatted)
+        return "\n".join(formatted)
     
     def format_weather_info(self, weather_data: Dict) -> str:
         """天気情報をMarkdown形式に整形"""
@@ -260,11 +349,12 @@ URL: {url}
             for line in lines:
                 # 行内の連続する空白を1つに
                 line = re.sub(r'\s+', ' ', line).strip()
-                if line:
+                if line:  # 空行は除外
                     cleaned_lines.append(line)
-            return '\n'.join(cleaned_lines)
+            # 適切な改行で結合
+            return ' '.join(cleaned_lines)
         
-        weather_section = "## 本日の香港の天気\n"
+        weather_section = "## 本日の香港の天気"
         
         # 天気警報
         if 'weather_warning' in weather_data:
@@ -272,6 +362,7 @@ URL: {url}
             title = warning.get('title', 'N/A')
             desc = clean_weather_text(warning.get('description', ''))
             
+            # 天気警報を完全にフィルター（現時並無警告生效、酷熱天氣警告など）
             if title and "現時並無警告生效" not in title and "酷熱天氣警告" not in title and "發出" not in title:
                 weather_section += f"\n### 天気警報{title}"
                 if desc and "現時並無警告生效" not in desc and "酷熱天氣警告" not in desc:
@@ -306,8 +397,6 @@ URL: {url}
             "大致多雲": "概ね曇り",
             "有一兩陣微雨": "時々小雨",
             "日間短暫時間有陽光": "日中は短時間晴れ間",
-            "最高氣溫約": "最高気温約",
-            "度": "度",
             "吹和緩至清勁東至東北風": "東から北東の風がやや強く吹く",
             "展望": "今後の見通し",
             "明日日間炎熱": "明日の日中は暑い",
@@ -383,42 +472,41 @@ URL: {url}
         articles = re.split(r'\n### ', body)
         
         # 最初の要素は空または天気情報なのでそのまま保持
-        if not articles:
-            return body
+        if articles:
+            result = [articles[0]]
+            seen_titles = set()
+            duplicate_count = 0
+            
+            for article in articles[1:]:
+                # タイトルを抽出（最初の行）
+                lines = article.split('\n', 1)
+                if len(lines) > 0:
+                    title = lines[0].strip()
+                    
+                    # タイトルの正規化（より厳密な重複のみ除外）
+                    normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+                    # 短すぎるタイトルは重複チェック対象外
+                    if len(normalized_title) < 10:
+                        result.append(article)
+                        continue
+                    
+                    # 重複チェック（完全一致のみ）
+                    if normalized_title not in seen_titles:
+                        seen_titles.add(normalized_title)
+                        result.append(article)
+                    else:
+                        duplicate_count += 1
+            
+            if duplicate_count > 0:
+                print(f"🔄 重複記事を除外: {duplicate_count}件")
+            
+            # 再結合（見出しの前に空行を入れる）
+            if len(result) > 1:
+                return result[0] + '\n\n### ' + '\n\n### '.join(result[1:])
+            else:
+                return result[0]
         
-        result = [articles[0]]
-        seen_titles = set()
-        duplicate_count = 0
-        
-        # 各記事をチェック
-        for article in articles[1:]:
-            # タイトルを抽出（最初の行）
-            lines = article.split('\n', 1)
-            if len(lines) > 0:
-                title = lines[0].strip()
-                
-                # タイトルの正規化（より厳密な重複のみ除外）
-                normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-                # 短すぎるタイトルは重複チェック対象外
-                if len(normalized_title) < 10:
-                    result.append(article)
-                    continue
-                
-                # 重複チェック（完全一致のみ）
-                if normalized_title not in seen_titles:
-                    seen_titles.add(normalized_title)
-                    result.append(article)
-                else:
-                    duplicate_count += 1
-        
-        if duplicate_count > 0:
-            print(f"🔄 重複記事を除外: {duplicate_count}件")
-        
-        # 再結合（見出しの前に空行を入れる）
-        if len(result) > 1:
-            return result[0] + '\n\n### ' + '\n\n### '.join(result[1:])
-        else:
-            return result[0]
+        return body
     
     def save_article(self, article: Dict, weather_data: Dict = None, output_path: str = None) -> str:
         """生成した記事をMarkdown形式で保存"""
@@ -450,17 +538,11 @@ URL: {url}
         
         # Markdown生成
         content_str = '\n\n'.join(content_parts)
-        
-        # 広東語学習者向けの定型文を追加
-        cantonese_section = self._generate_cantonese_section()
-        
         # bodyの最初に改行を入れる（1行目が空行になり、ここに目次を挿入）
         markdown = f"""# {article['title']}
 
 {content_str}
-
-{cantonese_section}
-----
+---
 **タグ**: {article['tags']}
 **生成日時**: {datetime.now(HKT).strftime('%Y年%m月%d日 %H:%M')}
 """
@@ -524,14 +606,48 @@ def preprocess_news(news_list):
             duplicate_count += 1
             continue
         
-        # URL重複チェック
+        # 政治関連のニュースを除外
+        political_keywords = [
+            '47人', '47 persons', '47 activists', 'democracy trial',
+            '刑期満了', 'prison term', 'sentence completion', 'prison release',
+            '民主派', 'democratic', 'democrats', 'pro-democracy',
+            '立法会選挙', 'legislative council election', 'legco election',
+            '国家安全公署', 'national security office', 'nsa', 'nsf', 'national security law',
+            '国安法', '国家安全法', '国安公署'
+        ]
+        text_to_check = (title + ' ' + description + ' ' + news.get('full_content', '')).lower()
+        if any(keyword.lower() in text_to_check for keyword in political_keywords):
+            duplicate_count += 1
+            continue
+        
+        # URLで重複チェック
         if url in past_urls:
             duplicate_count += 1
             continue
         
-        # タイトル重複チェック（正規化）
-        normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-        if any(re.sub(r'[^\w\s]', '', past_title.lower()) == normalized_title for past_title in past_titles):
+        # タイトルの類似性チェック
+        is_similar = False
+        for past_title in past_titles:
+            # タイトルを正規化して比較
+            def normalize_title(t):
+                t = t.lower()
+                t = re.sub(r'[^\w\s]', '', t)
+                return set(t.split())
+            
+            title_words = normalize_title(title)
+            past_title_words = normalize_title(past_title)
+            
+            # 共通単語をチェック
+            common_words = title_words & past_title_words
+            
+            # 3単語以上共通 かつ 共通率が70%以上なら重複とみなす
+            if len(common_words) >= 3:
+                similarity = len(common_words) / max(len(title_words), len(past_title_words), 1)
+                if similarity >= 0.7:
+                    is_similar = True
+                    break
+        
+        if is_similar:
             duplicate_count += 1
             continue
         
@@ -542,65 +658,95 @@ def preprocess_news(news_list):
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     
-    # 1. 同日内重複除外
-    seen_titles = set()
+    # 1. タイトルの類似度による重複除外（強化版）
     unique_news = []
-    same_day_duplicates = 0
+    seen_titles = []
     
     for news in filtered_news:
-        title = news.get('title', '')
-        normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+        title = news['title']
         
-        if normalized_title not in seen_titles:
-            seen_titles.add(normalized_title)
+        # タイトルを単語に分割して正規化
+        def extract_keywords(text):
+            # 記号を除去して単語を抽出
+            words = re.sub(r'[^\w\s]', ' ', text).split()
+            # 2文字以上の単語のみ（ストップワードを除く）
+            stop_words = {'の', 'に', 'を', 'は', 'が', 'と', 'で', 'や', 'も', 'から', 'まで', 'a', 'an', 'the', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or'}
+            keywords = [w.lower() for w in words if len(w) >= 2 and w.lower() not in stop_words]
+            return set(keywords)
+        
+        current_keywords = extract_keywords(title)
+        
+        # 既存のタイトルと比較
+        is_duplicate = False
+        for seen_title in seen_titles:
+            seen_keywords = extract_keywords(seen_title)
+            
+            # 共通キーワードの割合を計算
+            if len(current_keywords) > 0 and len(seen_keywords) > 0:
+                common = current_keywords & seen_keywords
+                
+                # 主要キーワード（3文字以上）を重視
+                current_major = {k for k in current_keywords if len(k) >= 3}
+                seen_major = {k for k in seen_keywords if len(k) >= 3}
+                common_major = current_major & seen_major
+                
+                # 主要キーワードが2つ以上一致、かつ全体の類似度が70%以上なら重複
+                if len(common_major) >= 2:
+                    similarity = len(common) / min(len(current_keywords), len(seen_keywords))
+                    if similarity >= 0.7:
+                        is_duplicate = True
+                        break
+        
+        if not is_duplicate:
+            seen_titles.append(title)
             unique_news.append(news)
-        else:
-            same_day_duplicates += 1
     
-    if same_day_duplicates > 0:
-        print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
+    print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
     
     # 2. カテゴリー分類
     categorized = defaultdict(list)
     
     for news in unique_news:
-        title = news.get('title', '').lower()
-        description = news.get('description', '').lower()
-        content = f"{title} {description}"
+        title = news['title'].lower()
+        desc = news.get('description', '').lower()
+        text = title + ' ' + desc
         
         # カテゴリー判定
-        if any(keyword in content for keyword in ['ビジネス', '経済', '金融', '株式', '投資', 'business', 'economy', 'finance', 'stock', 'investment', 'ipo', '上場', '取引所', '銀行', '保険']):
-            category = 'ビジネス・経済'
-        elif any(keyword in content for keyword in ['テクノロジー', 'ai', '人工知能', 'ロボット', 'デジタル', 'アプリ', 'ソフトウェア', 'ハードウェア', 'technology', 'digital', 'app', 'software', 'hardware', 'スマートフォン', 'コンピューター']):
-            category = 'テクノロジー'
-        elif any(keyword in content for keyword in ['医療', '健康', '病院', '医師', '薬', '治療', 'medical', 'health', 'hospital', 'doctor', 'medicine', 'treatment', 'covid', 'コロナ', 'ワクチン']):
-            category = '医療・健康'
-        elif any(keyword in content for keyword in ['教育', '学校', '大学', '学生', '教師', 'education', 'school', 'university', 'student', 'teacher', '学習', '研究']):
-            category = '教育'
-        elif any(keyword in content for keyword in ['不動産', '住宅', 'マンション', '土地', '賃貸', 'real estate', 'property', 'housing', 'apartment', 'rent', '土地', '建物']):
-            category = '不動産'
-        elif any(keyword in content for keyword in ['交通', '電車', 'バス', 'タクシー', '空港', 'transport', 'train', 'bus', 'taxi', 'airport', 'mtr', '地下鉄', '路線']):
-            category = '交通'
-        elif any(keyword in content for keyword in ['犯罪', '逮捕', '警察', '裁判', '刑務所', 'crime', 'arrest', 'police', 'court', 'prison', '違法', '事件', '捜査']):
-            category = '治安・犯罪'
-        elif any(keyword in content for keyword in ['事故', '災害', '火事', '地震', '台風', 'accident', 'disaster', 'fire', 'earthquake', 'typhoon', '緊急', '救助']):
-            category = '事故・災害'
-        elif any(keyword in content for keyword in ['政治', '政府', '議員', '選挙', '政策', 'politics', 'government', 'minister', 'election', 'policy', '行政', '議会']):
-            category = '政治・行政'
-        elif any(keyword in content for keyword in ['文化', '芸能', 'スポーツ', '映画', '音楽', 'アート', 'culture', 'entertainment', 'sports', 'movie', 'music', 'art', 'イベント', '祭り', '伝統']):
-            category = 'カルチャー'
+        if any(k in text for k in ['business', 'economy', 'finance', 'market', 'stock', 'trade', 'yuan', 'dollar', '經濟', '財經', '股', '貿易']):
+            cat = 'ビジネス・経済'
+        elif any(k in text for k in ['property', 'housing', 'home', 'flat', 'homebuyer', '樓', '房屋', '物業']):
+            cat = '不動産'
+        elif any(k in text for k in ['tech', 'technology', 'ai', 'digital', 'robot', '科技', '機械人']):
+            cat = 'テクノロジー'
+        elif any(k in text for k in ['health', 'medical', 'hospital', 'doctor', '醫療', '健康', '醫院']):
+            cat = '医療・健康'
+        elif any(k in text for k in ['education', 'university', 'school', 'student', 'hostel', '教育', '大學', '學生']):
+            cat = '教育'
+        elif any(k in text for k in ['art', 'culture', 'entertainment', 'exhibition', 'drama', '文化', '藝術', '展覽', '演出', 
+                                      'tvb', '生日', '婚紗', '停播', '節目', '電視', '明星', '演員', '生日', '封盤']):
+            cat = 'カルチャー'
+        elif any(k in text for k in ['weather', 'storm', 'typhoon', '天氣', '風暴', '颱風']):
+            cat = '天気'
+        elif any(k in text for k in ['traffic', 'transport', 'car', 'road', '交通', '道路', '車']):
+            cat = '交通'
+        elif any(k in text for k in ['police', 'arrest', 'crime', 'vice', '警', '拘捕', '罪案']):
+            cat = '治安・犯罪'
+        elif any(k in text for k in ['fire', 'dead', 'accident', '火災', '死亡', '意外']):
+            cat = '事故・災害'
+        elif any(k in text for k in ['government', 'policy', 'election', 'official', '政府', '政策', '選舉', '官員']):
+            cat = '政治・行政'
         else:
-            category = '社会・その他'
+            cat = '社会・その他'
         
-        categorized[category].append(news)
+        categorized[cat].append(news)
     
     print(f"\n📋 カテゴリー別件数:")
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 3. バランス選択（優先順位に基づいて15-20件選択）
+    # 3. バランス選択（優先順位に基づいて20-25件選択）
     selected = []
-    target_count = 18  # 15-20件に調整（API制限を考慮）
+    target_count = 22  # 20-25件の中央値（API制限を考慮）
     
     # カテゴリーごとの優先順位（ユーザー指定順）
     priority_cats = [
@@ -621,19 +767,19 @@ def preprocess_news(news_list):
         if cat in categorized and categorized[cat]:
             # 各カテゴリーから最大何件取るかを計算（API制限を考慮して調整）
             if cat == 'ビジネス・経済':
-                max_count = min(4, len(categorized[cat]))  # 1位: 4件
+                max_count = min(5, len(categorized[cat]))  # 1位: 5件
             elif cat == '社会・その他':
-                max_count = min(3, len(categorized[cat]))  # 2位: 3件
+                max_count = min(4, len(categorized[cat]))  # 2位: 4件
             elif cat == 'カルチャー':
                 max_count = min(3, len(categorized[cat]))  # 3位: 3件
             elif cat == '不動産':
-                max_count = min(2, len(categorized[cat]))  # 4位: 2件
+                max_count = min(3, len(categorized[cat]))  # 4位: 3件
             elif cat == '政治・行政':
                 max_count = min(2, len(categorized[cat]))  # 5位: 2件
             elif cat == '医療・健康':
                 max_count = min(2, len(categorized[cat]))  # 6位: 2件
             elif cat == '治安・犯罪':
-                max_count = min(1, len(categorized[cat]))  # 7位: 1件
+                max_count = min(2, len(categorized[cat]))  # 7位: 2件
             elif cat == 'テクノロジー':
                 max_count = min(1, len(categorized[cat]))  # 8位: 1件
             else:

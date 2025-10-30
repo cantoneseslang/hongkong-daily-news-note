@@ -103,7 +103,7 @@ jobs:
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
           echo "📅 Today's date (HKT): $TODAY"
           
-          LATEST_RSS=$(ls -t daily-articles/rss_news_*.json | head -1)
+          LATEST_RSS=$(ls -t daily-articles/rss_news_*.json 2>/dev/null | head -1)
           if [ -z "$LATEST_RSS" ]; then
             echo "❌ Error: No RSS news file found"
             exit 1
@@ -111,17 +111,16 @@ jobs:
           echo "Using RSS file: $LATEST_RSS"
           
           # Pythonスクリプトを実行（エラー出力を表示）
-          set -e  # エラーで即座に停止
-          python -u generate_article.py "$LATEST_RSS" 2>&1 || {
+          if ! python -u generate_article.py "$LATEST_RSS" 2>&1; then
             echo "❌ Error: Article generation failed"
             echo "📂 Current files in daily-articles:"
             ls -lh daily-articles/ || true
             exit 1
-          }
+          fi
           
           # デバッグ: 生成されたファイルを確認
           echo "📂 Files in daily-articles:"
-          ls -lh daily-articles/
+          ls -lh daily-articles/ || true
           
           # 今日の日付の記事ファイルが生成されたか確認
           EXPECTED_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"

@@ -61,7 +61,12 @@ class GrokArticleGenerator:
 - 引用元、リンク、備考を適切に配置
 - 広告や宣伝文は除外
 
-重要：JSON形式ではなく、Markdown形式で記事を生成してください。"""
+引用情報の形式（重要）：
+- 引用元: **引用元**: ソース名
+- リンク: **リンク**: URL
+- 備考: **備考**: 説明（必要に応じて）
+
+重要：JSON形式ではなく、Markdown形式で記事を生成してください。引用元とリンクは必ず別々の行に記載し、**で囲んでください。"""
 
         # ユーザープロンプト
         user_prompt = f"""以下の香港ニュースを日本語に翻訳し、記事として構成してください：
@@ -74,6 +79,13 @@ class GrokArticleGenerator:
 3. 引用元、リンク、備考を適切に配置
 4. 広告や宣伝文は除外
 5. Markdown形式で出力
+
+引用情報の形式（重要）：
+- 引用元: **引用元**: ソース名（例：SCMP、RTHK等）
+- リンク: **リンク**: URL（完全なURL）
+- 備考: **備考**: 説明（必要に応じて）
+
+各ニュースの最後に必ず引用元とリンクを別々の行で記載してください。
 
 記事を生成してください："""
 
@@ -373,6 +385,16 @@ URL: {url}
             r'### 以上で.*?ニュースを終了します。'
         ]
         
+        # 引用元とリンクの表示を修正するパターン
+        fix_patterns = [
+            # 引用元とリンクが一行にまとまっている場合を修正
+            (r'\*\*引用元\*\*:\s*([^*]+)\*\*\*リンク\*\*:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
+            # 引用元とリンクが*で囲まれている場合を修正
+            (r'\*引用元:\s*([^*]+)\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2'),
+            # 引用元とリンクが*で囲まれている場合を修正（別パターン）
+            (r'\*引用元:\s*([^*]+)\*リンク:\s*([^\s]+)', r'**引用元**: \1\n**リンク**: \2')
+        ]
+        
         # 広告コンテンツを除去
         cleaned_body = body
         for pattern in ad_patterns:
@@ -381,6 +403,10 @@ URL: {url}
         # 不要なテキストを除去
         for pattern in unwanted_patterns:
             cleaned_body = re.sub(pattern, '', cleaned_body, flags=re.DOTALL | re.IGNORECASE)
+        
+        # 引用元とリンクの表示を修正
+        for pattern, replacement in fix_patterns:
+            cleaned_body = re.sub(pattern, replacement, cleaned_body, flags=re.DOTALL | re.IGNORECASE)
         
         # 連続する空行を1つに
         cleaned_body = re.sub(r'\n{3,}', '\n\n', cleaned_body)

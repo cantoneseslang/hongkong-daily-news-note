@@ -374,45 +374,15 @@ Published: {news.get('published_at', 'N/A')}
             title = forecast.get('title', 'N/A')
             desc = clean_weather_text(forecast.get('description', ''))
             
-            # 天気情報を日本語に翻訳
-            translated_title = self._translate_weather_text(title)
-            translated_desc = self._translate_weather_text(desc)
-            weather_section += f"\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
+            # 天気情報もGPT-4に翻訳させるため、プロンプトに含める
+            weather_section += f"\n### 天気予報\n[翻訳が必要: {title} {desc}]\n\n**引用元**: 香港天文台"
         
         return weather_section
     
     def _translate_weather_text(self, text: str) -> str:
-        """天気情報の広東語を日本語に翻訳"""
-        if not text:
-            return ""
-        
-        # 広東語の天気情報を日本語に翻訳する辞書
-        weather_translations = {
-            "香港天文台於": "香港天文台が",
-            "發出之天氣報告": "発表した天気報告",
-            "一股清勁的偏東氣流正影響廣東沿岸": "清涼な東風が広東沿岸に影響しています",
-            "此外": "また",
-            "一道廣闊雲帶正覆蓋華南沿岸及南海北部": "広範囲な雲が華南沿岸と南海北部を覆っています",
-            "本港地區今日天氣預測": "香港地区の今日の天気予報",
-            "大致多雲": "概ね曇り",
-            "有一兩陣微雨": "時々小雨",
-            "日間短暫時間有陽光": "日中は短時間晴れ間",
-            "最高氣溫約": "最高気温約",
-            "度": "度",
-            "吹和緩至清勁東至東北風": "東から北東の風がやや強く吹く",
-            "展望": "今後の見通し",
-            "明日日間炎熱": "明日の日中は暑い",
-            "週末期間氣溫稍為下降": "週末は気温がやや下がり",
-            "天氣乾燥": "天気は乾燥",
-            "下週初風勢頗大": "来週初めは風が強い"
-        }
-        
-        # 翻訳を適用
-        translated_text = text
-        for chinese, japanese in weather_translations.items():
-            translated_text = translated_text.replace(chinese, japanese)
-        
-        return translated_text
+        """天気情報のテキストをそのまま返す（翻訳しない）"""
+        # GPT-4に翻訳を任せるため、天気テキストはそのまま返す
+        return text
     
     def remove_duplicate_articles(self, body: str) -> str:
         """生成された記事本文から重複記事を除外"""

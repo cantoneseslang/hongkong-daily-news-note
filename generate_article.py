@@ -128,6 +128,8 @@ class GrokArticleGenerator:
             headers = {
                 "Content-Type": "application/json"
             }
+            # APIキーをURLパラメータに追加
+            api_url_with_key = f"{self.api_url}?key={self.api_key}"
             payload = {
                 "contents": [{
                     "parts": [{
@@ -174,8 +176,10 @@ class GrokArticleGenerator:
             print("📤 Grok APIにリクエスト送信中...")
         
         try:
+            # Gemini APIの場合はURLにAPIキーを追加
+            url = api_url_with_key if self.use_gemini is True else self.api_url
             response = requests.post(
-                self.api_url,
+                url,
                 headers=headers,
                 json=payload,
                 timeout=300
@@ -268,16 +272,45 @@ class GrokArticleGenerator:
                 print(f"❌ APIエラー: {response.status_code}")
                 print(f"   詳細: {response.text}")
                 
-                # OpenAI APIが地域制限の場合はGrok APIにフォールバック
-                if response.status_code == 403 and self.use_openai is True:
-                    print("🔄 OpenAI API地域制限のためGrok APIにフォールバック...")
+                # Gemini APIが地域制限の場合はGrok APIにフォールバック
+                if (response.status_code == 403 or response.status_code == 400) and self.use_gemini is True:
+                    print("🔄 Gemini API地域制限のためGrok APIにフォールバック...")
                     return self._fallback_to_grok(news_data)
+                
+                # Grok APIがクレジット切れの場合はClaude APIにフォールバック
+                if response.status_code == 429 and self.use_gemini is None:
+                    print("🔄 Grok APIクレジット切れのためClaude APIにフォールバック...")
+                    return self._fallback_to_claude(news_data)
                 
                 return None
                 
         except Exception as e:
             print(f"❌ 例外発生: {e}")
             return None
+    
+    def _fallback_to_grok(self, news_data: List[Dict]) -> Dict:
+        """Grok APIにフォールバック"""
+        print("🔄 Grok APIで記事生成中...")
+        
+        # Grok APIの設定
+        self.api_key = self.config['grok_api']['api_key']
+        self.api_url = self.config['grok_api']['api_url']
+        self.use_gemini = None
+        
+        # 元のgenerate_articleメソッドを再帰呼び出し
+        return self.generate_article(news_data)
+    
+    def _fallback_to_claude(self, news_data: List[Dict]) -> Dict:
+        """Claude APIにフォールバック"""
+        print("🔄 Claude APIで記事生成中...")
+        
+        # Claude APIの設定
+        self.api_key = self.config['claude_api']['api_key']
+        self.api_url = self.config['claude_api']['api_url']
+        self.use_gemini = False
+        
+        # 元のgenerate_articleメソッドを再帰呼び出し
+        return self.generate_article(news_data)
     
     def _format_news_for_prompt(self, news_data: List[Dict]) -> str:
         """ニュースデータをプロンプト用に整形"""

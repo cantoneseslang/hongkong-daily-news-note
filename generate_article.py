@@ -46,10 +46,6 @@ class GrokArticleGenerator:
         # ニュースデータを整形
         news_text = self._format_news_for_prompt(news_data)
         
-        # 今日の日付を取得（HKTタイムゾーン）
-        today_date = datetime.now(HKT).strftime('%Y年%m月%d日')
-        today_date_iso = datetime.now(HKT).strftime('%Y-%m-%d')
-        
         # システムプロンプト
         system_prompt = """あなたは香港のニュースを日本語に翻訳し、記事を生成する専門家です。
 
@@ -80,17 +76,14 @@ class GrokArticleGenerator:
         # ユーザープロンプト
         user_prompt = f"""以下の香港ニュースを日本語に翻訳し、記事として構成してください：
 
-【重要】今日の日付は {today_date}（{today_date_iso}）です。タイトルには必ず「毎日AIピックアップニュース({today_date})」という形式を使用してください。
-
 {news_text}
 
 記事の要件：
-1. タイトルは必ず「# 毎日AIピックアップニュース({today_date})」という形式で記載してください
-2. 各ニュースを### 見出しで区切る
-3. 内容を詳しく翻訳
-4. 引用元、リンク、備考を適切に配置
-5. 広告や宣伝文は除外
-6. Markdown形式で出力
+1. 各ニュースを### 見出しで区切る
+2. 内容を詳しく翻訳
+3. 引用元、リンク、備考を適切に配置
+4. 広告や宣伝文は除外
+5. Markdown形式で出力
 
 引用情報の形式（重要）：
 各ニュースの最後に必ず以下の形式で記載してください：

@@ -6,10 +6,13 @@
 
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict
 import time
+
+# HKTタイムゾーン（UTC+8）
+HKT = timezone(timedelta(hours=8))
 
 class HongKongNewsAPI:
     def __init__(self, config_path: str = "config.json"):
@@ -54,8 +57,8 @@ class HongKongNewsAPI:
         print("📰 World News API からニュース取得中...")
         url = "https://api.worldnewsapi.com/search-news"
         
-        yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
-        today = datetime.now().strftime('%Y-%m-%d')
+        yesterday = (datetime.now(HKT) - timedelta(days=1)).strftime('%Y-%m-%d')
+        today = datetime.now(HKT).strftime('%Y-%m-%d')
         
         params = {
             'api-key': self.api_keys['world_news_api'],
@@ -231,11 +234,11 @@ class HongKongNewsAPI:
     def save_raw_news(self, news: List[Dict], output_path: str = None):
         """取得したニュースをJSON形式で保存"""
         if output_path is None:
-            timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+            timestamp = datetime.now(HKT).strftime('%Y-%m-%d_%H-%M-%S')
             output_path = f"daily-articles/raw_news_{timestamp}.json"
         
         data = {
-            'fetch_time': datetime.now().isoformat(),
+            'fetch_time': datetime.now(HKT).isoformat(),
             'total_count': len(news),
             'news': news
         }

@@ -344,6 +344,8 @@ URL: {url}
                 if resp.status_code == 200:
                     txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
                     return txt.strip()
+                else:
+                    print(f"⚠️  天気翻訳エラー (Gemini): HTTP {resp.status_code}")
             else:
                 headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
                 if self.use_gemini is False:
@@ -357,9 +359,12 @@ URL: {url}
                     else:
                         txt = resp.json()['choices'][0]['message']['content']
                     return txt.strip()
-        except Exception:
-            pass
+                else:
+                    print(f"⚠️  天気翻訳エラー (Claude/Grok): HTTP {resp.status_code}")
+        except Exception as e:
+            print(f"⚠️  天気翻訳エラー (例外): {e}")
         # フォールバック: 原文を返却（少なくとも欠落しない）
+        print(f"⚠️  天気翻訳フォールバック: 原文を返却")
         return text
     
     def _generate_cantonese_section(self) -> str:

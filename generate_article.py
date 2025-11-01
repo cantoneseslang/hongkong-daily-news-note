@@ -237,8 +237,11 @@ class GrokArticleGenerator:
         lines = content.split('\n')
         title = lines[0].replace('#', '').strip() if lines else "香港ニュース"
         
-        # 本文を抽出
-        body = content
+        # 本文を抽出（タイトル行を除く）
+        if lines and lines[0].startswith('#'):
+            body = '\n'.join(lines[1:])
+        else:
+            body = content
         
         return {
             "title": title,

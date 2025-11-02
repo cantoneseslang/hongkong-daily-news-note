@@ -619,6 +619,54 @@ URL: {url}
         print(f"💾 記事を保存: {output_path}")
         return output_path
 
+def normalize_url(url: str) -> str:
+    """URLを正規化（クエリパラメータを除去してベースURLのみ抽出）"""
+    if not url:
+        return ""
+    try:
+        from urllib.parse import urlparse, urlunparse
+        parsed = urlparse(url)
+        # クエリパラメータとフラグメントを除去
+        normalized = urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
+        return normalized
+    except:
+        # パース失敗時は元のURLを返す
+        return url
+
+def calculate_title_similarity(title1: str, title2: str) -> float:
+    """2つのタイトルの類似度を計算（0.0-1.0）"""
+    import re
+    
+    def normalize_title(t):
+        # タイトルを正規化（小文字化、記号除去、単語分割）
+        t = t.lower()
+        t = re.sub(r'[^\w\s]', '', t)
+        return set(t.split())
+    
+    words1 = normalize_title(title1)
+    words2 = normalize_title(title2)
+    
+    if not words1 or not words2:
+        return 0.0
+    
+    # 共通単語の数
+    common_words = words1 & words2
+    if len(common_words) < 3:
+        return 0.0
+    
+    # Jaccard類似度（共通単語 / 全単語）
+    all_words = words1 | words2
+    similarity = len(common_words) / len(all_words) if all_words else 0.0
+    
+    # より厳密なチェック: 共通率が60%以上かつ、短い方のタイトルの70%以上が共通
+    min_length = min(len(words1), len(words2))
+    if min_length > 0:
+        coverage = len(common_words) / min_length
+        if similarity >= 0.6 and coverage >= 0.7:
+            return similarity
+    
+    return 0.0
+
 def preprocess_news(news_list):
     """ニュースの事前処理：重複除外、カテゴリー分類、バランス選択"""
     import re
@@ -627,11 +675,12 @@ def preprocess_news(news_list):
     from datetime import datetime, timedelta
     
     # 0. 過去の記事ファイルから既出ニュースを抽出
-    past_urls = set()
+    past_urls = set()  # 正規化されたURLのセット
+    past_urls_original = set()  # 元のURLも保持（抽出用）
     past_titles = []
     
-    # 過去3日分の記事ファイルをチェック
-    for days_ago in range(1, 4):
+    # 過去7日分の記事ファイルをチェック（3日→7日に延長）
+    for days_ago in range(1, 8):
         past_date = datetime.now(HKT) - timedelta(days=days_ago)
         past_file = f"daily-articles/hongkong-news_{past_date.strftime('%Y-%m-%d')}.md"
         
@@ -641,25 +690,45 @@ def preprocess_news(news_list):
                 with open(past_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                     
-                    # URLを抽出（**リンク**: の後のURL）
-                    url_matches = re.findall(r'\*\*リンク\*\*:\s*(https?://[^\s]+)', content)
-                    past_urls.update(url_matches)
+                    # URLを抽出（複数の形式に対応）
+                    # 形式1: **リンク**: https://...（同じ行）
+                    url_matches1 = re.findall(r'\*\*リンク\*\*:\s*(https?://[^\s\n]+)', content)
+                    # 形式2: **リンク**: の後の独立行のURL（改行後すぐのURL）
+                    url_matches2 = re.findall(r'\*\*リンク\*\*:[^\n]*\n+\n*(https?://[^\s\n]+)', content)
+                    # 形式3: **引用元**: の後の独立行のURL（最も一般的な形式、改行後にURLが来る）
+                    url_matches3 = re.findall(r'\*\*引用元\*\*:[^\n]+\n+\n*(https?://[^\s\n]+)', content)
+                    # 形式4: ### 見出しの後の段落で、**引用元**: または **リンク**: の直後に来る独立行のURL
+                    url_matches4 = re.findall(r'(?:\*\*引用元\*\*:|\*\*リンク\*\*:)[^\n]*(?:\n+)(https?://[^\s\n]+)', content)
+                    
+                    all_urls = url_matches1 + url_matches2 + url_matches3 + url_matches4
+                    # 重複を除去（同じURLが複数のパターンで抽出される可能性がある）
+                    all_urls = list(set(all_urls))
+                    for url in all_urls:
+                        # 元のURLも保持
+                        past_urls_original.add(url.strip())
+                        # 正規化したURLを追加
+                        normalized = normalize_url(url.strip())
+                        if normalized:
+                            past_urls.add(normalized)
                     
                     # タイトルを抽出（### の後のタイトル）
                     title_matches = re.findall(r'^### (.+)$', content, re.MULTILINE)
                     # 天気予報のタイトルは除外
-                    past_titles.extend([t for t in title_matches if '天気' not in t and 'weather' not in t.lower()])
+                    filtered_titles = [t for t in title_matches if '天気' not in t and 'weather' not in t.lower() and '天気予報' not in t]
+                    past_titles.extend(filtered_titles)
                     
-                print(f"  ✓ 既出URL: {len(url_matches)}件、既出タイトル: {len([t for t in title_matches if '天気' not in t])}件")
+                print(f"  ✓ 既出URL: {len(all_urls)}件（正規化後: {len(past_urls)}件）、既出タイトル: {len(filtered_titles)}件")
             except Exception as e:
                 print(f"  ⚠️  ファイル読み込みエラー: {e}")
     
     if past_urls:
-        print(f"🔍 過去記事から合計 {len(past_urls)} 件のURLと {len(past_titles)} 件のタイトルを抽出")
+        print(f"🔍 過去記事から合計 {len(past_urls_original)} 件のURL（正規化後: {len(past_urls)}件）と {len(past_titles)} 件のタイトルを抽出")
     
     # 過去記事との重複を除外
     filtered_news = []
     duplicate_count = 0
+    url_duplicate_count = 0
+    title_duplicate_count = 0
     
     for news in news_list:
         url = news.get('url', '')
@@ -667,46 +736,84 @@ def preprocess_news(news_list):
         description = news.get('description', '')
         
         # 天気関連のニュースを除外
-        weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度']
-        if any(keyword in title.lower() or keyword in title for keyword in weather_keywords):
+        weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度', 'tropical', 'storm', 'typhoon', '台風']
+        if any(keyword in title.lower() or keyword in description.lower() for keyword in weather_keywords):
             duplicate_count += 1
             continue
         
-        # URL重複チェック
-        if url in past_urls:
+        # URL重複チェック（正規化後のURLで比較）
+        normalized_url = normalize_url(url)
+        if normalized_url and normalized_url in past_urls:
+            url_duplicate_count += 1
             duplicate_count += 1
             continue
         
-        # タイトル重複チェック（正規化）
-        normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-        if any(re.sub(r'[^\w\s]', '', past_title.lower()) == normalized_title for past_title in past_titles):
+        # タイトル類似度チェック（類似度が0.6以上なら重複とみなす）
+        is_similar = False
+        for past_title in past_titles:
+            similarity = calculate_title_similarity(title, past_title)
+            if similarity >= 0.6:
+                is_similar = True
+                title_duplicate_count += 1
+                break
+        
+        if is_similar:
             duplicate_count += 1
             continue
         
         filtered_news.append(news)
     
     if duplicate_count > 0:
-        print(f"🚫 過去記事との重複除外: {duplicate_count}件")
+        print(f"🚫 過去記事との重複除外: {duplicate_count}件（URL重複: {url_duplicate_count}件、タイトル類似: {title_duplicate_count}件）")
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     
-    # 1. 同日内重複除外
-    seen_titles = set()
+    # 1. 同日内重複除外（URLとタイトルの両方でチェック）
+    seen_titles_normalized = set()  # 正規化されたタイトル（高速チェック用）
+    seen_titles_original = []  # 元のタイトル（類似度チェック用）
+    seen_urls = set()  # 正規化されたURLのセット
     unique_news = []
     same_day_duplicates = 0
+    same_day_url_duplicates = 0
+    same_day_title_duplicates = 0
     
     for news in filtered_news:
+        url = news.get('url', '')
         title = news.get('title', '')
         normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+        normalized_url = normalize_url(url)
         
-        if normalized_title not in seen_titles:
-            seen_titles.add(normalized_title)
-            unique_news.append(news)
-        else:
+        # URL重複チェック
+        is_url_duplicate = normalized_url and normalized_url in seen_urls
+        
+        # タイトル重複チェック（正規化後の完全一致）
+        is_title_duplicate = normalized_title in seen_titles_normalized
+        
+        # タイトル類似度チェックも実行（既に追加済みのニュースと比較）
+        if not is_title_duplicate:
+            for existing_title in seen_titles_original:
+                similarity = calculate_title_similarity(title, existing_title)
+                if similarity >= 0.6:
+                    is_title_duplicate = True
+                    break
+        
+        if is_url_duplicate or is_title_duplicate:
             same_day_duplicates += 1
+            if is_url_duplicate:
+                same_day_url_duplicates += 1
+            if is_title_duplicate:
+                same_day_title_duplicates += 1
+            continue
+        
+        # 重複なしの場合、リストに追加
+        unique_news.append(news)
+        seen_titles_normalized.add(normalized_title)
+        seen_titles_original.append(title)  # 元のタイトルも保持
+        if normalized_url:
+            seen_urls.add(normalized_url)
     
     if same_day_duplicates > 0:
-        print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
+        print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件（URL重複: {same_day_url_duplicates}件、タイトル類似: {same_day_title_duplicates}件）")
     
     # 2. カテゴリー分類
     categorized = defaultdict(list)

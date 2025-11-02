@@ -72,7 +72,7 @@ class RSSNewsAPI:
             print(f"⚠️  履歴ファイル保存エラー: {e}")
     
     def _is_today_news(self, published_at: str) -> bool:
-        """ニュースが過去24時間以内のものかチェック"""
+        """ニュースが過去24時間以内のものかチェック（重複防止のため24時間に戻す）"""
         if not published_at:
             return True  # 日付不明は含める
         
@@ -80,9 +80,9 @@ class RSSNewsAPI:
             pub_date = date_parser.parse(published_at)
             now = datetime.now(HKT)
             
-            # 過去48時間以内のニュースを含める（より多様なニュースを収集）
+            # 過去24時間以内のニュースのみを含める（48時間だと同じニュースが2日続けて取得される）
             time_diff = now - pub_date.replace(tzinfo=None)
-            return time_diff.total_seconds() <= 48 * 3600
+            return time_diff.total_seconds() <= 24 * 3600
         except:
             return True  # パース失敗は含める
     
@@ -201,29 +201,55 @@ class RSSNewsAPI:
         
         return False
     
+    def _normalize_url(self, url: str) -> str:
+        """URLを正規化（クエリパラメータを除去してベースURLのみ抽出）"""
+        if not url:
+            return ""
+        try:
+            from urllib.parse import urlparse, urlunparse
+            parsed = urlparse(url)
+            # クエリパラメータとフラグメントを除去
+            normalized = urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
+            return normalized
+        except:
+            return url
+    
     def _is_duplicate_content(self, title: str, existing_titles: List[str]) -> bool:
-        """タイトルの類似度をチェックして重複コンテンツかどうか判定"""
-        # タイトルを正規化（小文字化、記号除去）
+        """タイトルの類似度をチェックして重複コンテンツかどうか判定（改善版）"""
+        import re
+        
         def normalize_title(t):
-            import re
+            # タイトルを正規化（小文字化、記号除去、単語分割）
             t = t.lower()
-            # 記号と数字を除去
             t = re.sub(r'[^\w\s]', '', t)
             return set(t.split())
         
         title_words = normalize_title(title)
         
+        if not title_words:
+            return False
+        
         for existing in existing_titles:
             existing_words = normalize_title(existing)
+            
+            if not existing_words:
+                continue
             
             # 共通単語の数をチェック
             common_words = title_words & existing_words
             
-            # 3単語以上共通 かつ 共通率が60%以上なら重複とみなす
+            # 3単語以上共通が必要
             if len(common_words) >= 3:
-                similarity = len(common_words) / max(len(title_words), len(existing_words))
-                if similarity >= 0.6:
-                    return True
+                # Jaccard類似度（共通単語 / 全単語）
+                all_words = title_words | existing_words
+                similarity = len(common_words) / len(all_words) if all_words else 0.0
+                
+                # より厳密なチェック: 共通率が60%以上かつ、短い方のタイトルの70%以上が共通
+                min_length = min(len(title_words), len(existing_words))
+                if min_length > 0:
+                    coverage = len(common_words) / min_length
+                    if similarity >= 0.6 and coverage >= 0.7:
+                        return True
         
         return False
     
@@ -568,7 +594,10 @@ class RSSNewsAPI:
         
         all_news = []
         existing_titles = []
+        existing_urls = set()  # 正規化されたURLのセット
         duplicate_count = 0
+        url_duplicate_count = 0
+        title_duplicate_count = 0
         
         # 各RSSから取得（既存の関数）
         feeds_to_fetch = [
@@ -596,11 +625,27 @@ class RSSNewsAPI:
                 news_items = func(feed_info[1], feed_info[2], feed_info[1].startswith('hket'))
             
             for news in news_items:
-                if not self._is_duplicate_content(news['title'], existing_titles):
-                    all_news.append(news)
-                    existing_titles.append(news['title'])
-                else:
+                url = news.get('url', '')
+                title = news.get('title', '')
+                
+                # URL重複チェック（正規化後のURLで比較）
+                normalized_url = self._normalize_url(url)
+                if normalized_url and normalized_url in existing_urls:
+                    url_duplicate_count += 1
                     duplicate_count += 1
+                    continue
+                
+                # タイトル類似度チェック
+                if self._is_duplicate_content(title, existing_titles):
+                    title_duplicate_count += 1
+                    duplicate_count += 1
+                    continue
+                
+                # 重複なしの場合、リストに追加
+                all_news.append(news)
+                existing_titles.append(title)
+                if normalized_url:
+                    existing_urls.add(normalized_url)
             
             time.sleep(0.5)  # 1秒 → 0.5秒に短縮
         
@@ -609,7 +654,7 @@ class RSSNewsAPI:
         
         print("=" * 60)
         print(f"✅ 合計 {len(all_news)}件のニュースを取得")
-        print(f"🔄 重複除外: {duplicate_count}件")
+        print(f"🔄 重複除外: {duplicate_count}件（URL重複: {url_duplicate_count}件、タイトル類似: {title_duplicate_count}件）")
         print(f"📝 処理済みURL総数: {len(self.processed_urls)}件\n")
         
         return all_news

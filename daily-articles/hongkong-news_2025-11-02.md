@@ -3,161 +3,178 @@
 ## 本日の香港の天気
 
 ### 天気予報
-香港天文台が2025年11月02日05時45分に発表した天気報告
-北東季節風が華南沿岸に影響を及ぼしており、華東では気圧が上昇しています。この季節風は、今日の午後遅くには次第に東寄りの気流に取って代わられるでしょう。同時に、華南には雲の帯がかかっています。
+香港天文台が2025年11月02日10時45分に発表した天気報告
+華東の気圧が上昇しており、広東沿岸に影響を与える東寄りの気流は今日中に徐々に強まる見込みです。同時に、沿岸地域を覆う雲の帯はやや薄くなっています。
 
-午前5時現在、熱帯低気圧「海鷗」はマニラの東南東約1610キロメートルに位置しており、時速約22キロメートルで西北西へ進み、フィリピンの東の海域へ向かいながら次第に勢力を強める見込みです。また、南シナ海の中南部では、低気圧域が不安定な天気をもたらしています。
+午前10時現在、熱帯低気圧「海鷗（カイオウ）」はマニラの東南東約1490キロメートルに位置しています。西へ時速約22キロメートルで移動し、フィリピン東の海域へ向かい、徐々に勢力を強めるでしょう。また、南シナ海中南部では、低気圧が不安定な天候をもたらしています。
 
-香港の今日の天気予報：
-一時的に日差しがあるでしょう。日中は乾燥し、最高気温は約26度です。夜には一時的に小雨が降るでしょう。穏やかでやや強い東から北東の風が吹き、その後、沿岸部では時折強い風が吹くでしょう。
+香港地域の今日の天気予報：
+一時的に日差しがあるでしょう。日中は乾燥するでしょう。夜には一時的に小雨が降るでしょう。東から北東の風が穏やかに、時にはやや強く吹き、その後、沿岸部では時折強い風が吹くでしょう。
 
-見通し：今後1、2日は風がかなり強く、雲が多いでしょう。水曜日の朝は少し涼しく、日中は一部で日差しがあるでしょう。
+予報：
+今後1、2日は風がかなり強く、雲が多いでしょう。水曜日の朝はやや涼しく、日中は一時的に日差しがあるでしょう。
 
 **引用元**: 香港天文台
 
-### 香港の財界トップや地域社会が全国運動会の聖火リレーに準備
+### 富裕層の中国本土住民と欧米駐在員が香港の高級マンション賃貸市場を牽引
 
-香港では、全国運動会の聖火リレーの香港区間において、主要な企業リーダー、アスリート、少数民族グループのメンバーを含む62名が参加する予定であることが判明しました。参加者リストには、信和集団（Sino Group）会長のダリル・ン・ウィンコン（Daryl Ng Win Kong）氏、恒基兆業地産（Henderson Land Development）会長のマーティン・リー・カーシン（Martin Lee Ka-shing）氏、新鴻基地産（Sun Hung Kai Properties）執行役員のクォック・カイファイ（Adam Kwok Kai-fai）氏、周大福珠宝集団（Chow Tai Fook Jewellery Group）副会長のソニア・チェン・チーマン（Sonia Cheng Chi-man）氏といった財界の大物から、若者代表まで、多岐にわたる顔ぶれが揃っています。
+エージェントによると、香港の高級マンション賃貸契約件数は今年に入って引き続き増加しており、富裕層の中国本土住民と欧米駐在員からの需要が市場を押し上げている。これは、市内の株式市場の活況と、政府による富裕層投資家誘致の取り組みが背景にある。
+
+今年1月から9月までの9ヶ月間で、ザ・ピークとサザン・ディストリクトという香港の二大高級住宅地において、月額10万香港ドル（約12,870米ドル）以上の賃貸契約が168件成立した。これは2024年の同時期と比較して10％の増加となる。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/money/wealth/article/3331154/wealthy-mainland-chinese-western-expats-drive-hong-kongs-luxury-flat-rentals?utm_source=rss_feed
+
+### 香港の企業トップやコミュニティが全国運動会聖火リレーに準備
+
+サウスチャイナ・モーニング・ポストの調べによると、香港で開催される全国運動会聖火リレーの香港区間には、主要企業のトップ、アスリート、少数民族のメンバーを含む62名が参加する予定だ。
+
+参加者には、信和集団（Sino Group）会長のダリル・ン・ウィンコン（Daryl Ng Win Kong）氏、恒基兆業地産（Henderson Land Development）会長のマーティン・リー・カーシン（Martin Lee Ka-shing）氏、新鴻基地産（Sun Hung Kai Properties）執行役員のクォック・カイファイ（Adam Kwok Kai-fai）氏、周大福珠宝集団（Chow Tai Fook Jewellery Group）副会長のソニア・チェン・チーマン（Sonia Cheng Chi-man）氏といった財界の大物から、若者代表まで、多岐にわたる顔ぶれが名を連ねている。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3331156/businessmen-athletes-and-ethnic-minorities-unite-hong-kong-national-games-torch-relay?utm_source=rss_feed
 
-### ローズウッド香港が世界最高のホテルに選出、「秘伝のソース」が明らかに
+### ローズウッド香港が世界最高のホテルに選出、「秘訣」が明らかに
 
-香港の高級ホテルが、英国を拠点とする組織によって世界最高のホテルに選ばれました。この組織は最近、地元のバーを世界一にランク付けしたばかりです。この評価は、香港が高級観光において確固たる地位を築いていることを示すものだと、あるビジネスリーダーは土曜日に述べました。尖沙咀（チムサーチョイ）にあるローズウッド香港（Rosewood Hong Kong）は、「World’s 50 Best Hotels」の最新版でこの栄誉ある賞を獲得しました。ランキングは6大陸22都市を対象とし、800人の業界専門家が投票して決定されました。
+香港の高級ホテルが、最近地元のバーを世界一に選出した英国の組織によって「世界最高のホテル」に選ばれた。この評価について、あるビジネスリーダーは土曜日、香港が高級観光において確固たる地位を築いていることを示すものだと述べた。
+
+尖沙咀（チムサーチョイ）にあるローズウッド香港は、最新版の「世界のベスト50ホテル」でこの栄誉ある賞を獲得した。
+
+メディアおよびイベント関係者によると、このランキングは6大陸22都市を対象とし、800人の業界専門家が投票して決定された。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3331132/secret-sauce-revealed-rosewood-hong-kong-named-best-hotel-world?utm_source=rss_feed
 
-### 米中貿易停戦が香港の輸出業者に確実性と安堵をもたらす
+### ポール・チャン財政長官、ノーザン・メトロポリス計画の資金調達にイスラム債発行を検討
 
-最近の米中貿易交渉の進展を受け、香港の輸出業者は一斉に安堵のため息をつき、来年の事業計画に集中できると述べました。木曜日、中国の習近平国家主席と米国のドナルド・トランプ大統領は、緊張を緩和し、今後1年間、来年8月まで関税の一時停止など、いくつかの厄介な問題を棚上げすることで合意に達しました。この停戦により、米国が中国からの輸入品に課していた10％のいわゆる報復関税が…
+香港のポール・チャン（Paul Chan Mo-po）財政長官は、ノーザン・メトロポリス（Northern Metropolis）巨大プロジェクトの資金調達のため、費用対効果の高い選択肢である限り、イスラム債の発行を検討していると述べた。香港には、イスラム教の教義に則った金融活動のための確立された法的・規制的枠組みがあるためだという。
 
-**引用元**: SCMP
-
-https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3331113/china-us-trade-truce-offers-certainty-relief-hong-kong-exporters?utm_source=rss_feed
-
-### ハロウィーンで中環が賑わい、ナイトライフ事業者は好景気を期待
-
-金曜日の夜、香港の中環（セントラル）地区は、仮装した人々が通りにあふれ、蘭桂坊（ランカイフォン）に入ろうと押し寄せたため、交通が麻痺しました。市内の人気ナイトライフゾーンでは、昨年に比べて20～25％の事業拡大が見込まれています。多くの地元住民、外国人居住者、中国本土からの訪問者が、エイリアンやゾンビを含む人気ビデオゲームのキャラクターに扮するなど、様々な衣装を身につけていました。ある時には、カップルが…
+チャン長官は木曜日、リヤドで開催された今年のフューチャー・インベストメント・イニシアティブ・フォーラムへの訪問を締めくくる際にこの発言をした。彼の貿易代表団は、この訪問で5つの覚書（MOU）も締結した。
 
 **引用元**: SCMP
 
-https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3331055/hong-kongs-lan-kwai-fong-could-get-25-business-boost-halloween-allan-zeman?utm_source=rss_feed
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3330980/hong-kong-open-issuing-islamic-bonds-fund-northern-metropolis-paul-chan?utm_source=rss_feed
 
-### 「雲端対談」第三シリーズ第四回：巨湾技研の裴鋒総裁に独占インタビュー（上）
+### 習近平主席が小米スマホを贈呈、李在明大統領の「通信セキュリティは？」にユーモラスな返答で会場爆笑
 
-【Now新聞台】当社の普通話番組「雲端対談」の第三シリーズ第四回では、南沙（ナンシャー）を訪れ、巨湾技研（GAC Aion New Energy Technology）の裴鋒（ペイ・フォン）総裁に、世界初の超高速充電パワーバッテリー企業の研究開発と事業展開について話を聞きました。
-
-**引用元**: Yahoo News HK
-
-https://hk.news.yahoo.com/%E9%9B%B2%E7%AB%AF%E5%B0%8D%E8%AB%87-%E6%99%AE%E9%80%9A%E8%A9%B1%E7%AF%80%E7%9B%AE-%E7%AC%AC%E4%B8%89%E7%B3%BB%E5%88%97%E7%AC%AC%E5%9B%9B%E9%9B%86-%E5%B0%88%E8%A8%AA%E5%B7%A8%E7%81%A3%E6%8A%80%E7%A0%94%E7%B8%BD%E8%A3%BDB%E9%8B%92-%E4%B8%8A-111329648.html
-
-### 4つの巨大な空気注入式彫刻がビクトリアハーバーを巡回する最終日、多くの市民が観覧
-
-【Now新聞台】4つの巨大な空気注入式キャラクター彫刻が最終日を迎え、ビクトリアハーバーの両岸を巡回しました。主催者によると、過去の休日には1日あたり約10万人が訪れており、香港でさらに多くのイベントを検討するとのことです。数階建ての高さのキャラクターたちが巨大な浮き輪に乗って水上を泳ぎます。「LABUBU」、マクドナルドのグリマス、ドラえもん、そしてセサミストリートのエルモが一緒に出動し、ビクトリアハーバーの両岸を2周しました。見物するファンたちは準備万端で、自分の人形を飾り付け、肩に乗せて会場にやってきました。「ターゲット」が現れると、すぐに写真を撮るチャンスを逃しません。IP界の「古参」として、彼らは当然多くの人々に愛されています。ニコラスさんは「ドラえもんが好きです。青い色が好きだからというのもありますが、子供の頃から見ていたからです」と語りました。鄭さんは「私もドラえもんのファンです。せっかく来たので、彼らのグッズを買って、その場で使って写真を撮りました。巡回は場所が広いので人混みが分散されますが、皆がとても期待していて、とても楽しんでいるように見えました」と話しました。近年大人気のキャラクターにも多くのファンがおり、上海からわざわざ香港に来た人もいました。上海からの観光客である王さんは「何年も前から好きで、ずっと買っていますが、ますます手に入りにくくなっています。景色もとても良く、全体の雰囲気も素晴らしいです」と語りました。イベント中、主催者は「ちょっとしたサプライズ」として、3つのキャラクターがフェリーに乗って市民と交流する機会を設けました。主催者であるAllRightsReservedの創設者、林樹鑫（アラン・ラム）氏は、過去の日曜日と重陽節の祝日には1日あたり約10万人が来場したと述べました。「私たちは（以前は）半分以上が香港以外のプロジェクトでした」
+【Yahooニュース報道】中国の習近平国家主席は昨日（11月1日）、韓国の慶州で開催されたアジア太平洋経済協力会議（APEC）首脳会議後、韓国の李在明（イ・ジェミョン）大統領と会談し、両国首脳は贈り物を交換した。習近平主席は李在明大統領夫妻に小米（シャオミ）のフラッグシップ曲面スマートフォン2台と文房四宝を贈呈した。李大統領がスマートフォンの通信セキュリティについて尋ねると、習近平主席はユーモラスに「バックドアがあるかどうか、見てみてください」と答え、会場は爆笑に包まれた。この一幕は、習近平主席が公の場で珍しくリラックスした様子を見せた瞬間として注目されている。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E5%9B%9B%E5%80%8B%E5%B7%A8%E5%9E%8B%E5%85%85%E6%B0%A3%E9%9B%95%E5%A1%91%E6%9C%80%E5%BE%8C-%E6%97%A5%E7%B6%AD%E6%B8%AF%E5%B7%A1%E9%81%8A-%E5%90%B8%E5%BC%95%E4%B8%8D%E5%B0%91%E5%B8%82%E6%B0%91%E5%9C%8D%E8%A7%80-%E7%94%84%E7%85%92%E5%9F%B9%E5%A0%B1%E9%81%93-103129788.html
+https://hk.news.yahoo.com/%E7%BF%92%E8%BF%91%E5%B9%B3%E9%80%81%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F-%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%95%8F%E9%80%9A%E8%A8%8A%E4%BF%9D%E5%AE%89-%E7%BF%92%E8%BF%91%E5%B9%B3%E7%A5%9E%E5%9B%9E%E3%80%8C%E4%BD%A0%E7%9C%8B%E7%9C%8B%E6%9C%89%E6%B2%92%E6%9C%89%E5%BE%8C%E9%96%80%E3%80%8D%E5%BC%95%E5%85%A8%E5%A0%B4%E5%A4%A7%E7%AC%91%EF%B8%B1%E6%9C%89%E7%89%87%EF%B8%B1yahoo-023407284.html
 
-### 大埔三門仔で78歳の躉船作業員が海に転落し死亡
+### 屯門でミニバスと軽鉄が衝突、12人負傷
 
-大埔三門仔（タイポー・サムムンツァイ）の公共埠頭で産業事故が発生しました。78歳の躉船（はしけ）作業員が船から降りる際に足を踏み外し、海に転落したとみられています。意識不明の状態で那打素病院（ナーダッソー病院）に搬送されましたが、その後死亡が確認されました。関係者によると、この作業員は泳げなかったとのことです。事故は今日の午後12時47分に発生し、冼（シン）という姓の躉船作業員が船から海に落ちました。泳げないため、転落後に助けを求め、他の作業員によって救助されましたが、病院搬送後に死亡しました。この件は産業事故として捜査されており、警察は死因を特定するために検視を行う予定です。
-
-**引用元**: Yahoo News HK
-
-https://hk.news.yahoo.com/%E5%A4%A7%E5%9F%94%E4%B8%89%E9%96%80%E4%BB%9478%E6%AD%B2%E8%BA%89%E8%88%B9%E9%9B%9C%E5%B7%A5%E7%96%91-%E5%B7%AE%E9%8C%AF%E8%85%B3-%E5%A2%AE%E6%B5%B7-%E9%80%81%E9%99%A2%E5%BE%8C%E4%B8%8D%E6%B2%BB-102621558.html
-
-### デロイト中国、香港で1000人を雇用し6400万米ドルを投資へ
-
-デロイト中国（Deloitte China）は、今後4年間で香港において約1000人を雇用し、5億香港ドル（約6400万米ドル）を投資する計画です。これは、香港を地域の人材・イノベーションハブとしての役割を強化することを目的とした新たな取り組みの一環です。「香港LEAP」戦略と名付けられたこの取り組みは、フィンテック、資本市場運営、人工知能といった分野における同社の能力拡大に焦点を当てています。これらの分野は、香港の次の経済発展段階を推進する上で鍵となると見られています。
-
-**引用元**: SCMP
-
-https://www.scmp.com/business/china-business/article/3331081/deloitte-china-hire-1000-staff-invest-us64-million-hong-kong-over-next-4-years?utm_source=rss_feed
-
-### 香港は「アジアのヨットクラブ」への道を歩む。その実現は可能か？
-
-先日のある週末、香港の会員制ランタオヨットクラブ（Lantau Yacht Club）では、ロールス・ロイスのリムジン、高級時計ブランド「ジェイコブ＆コー（Jacob & Co）」のタイムピース、ドローン、ライブミュージックなどが用意され、富裕層のゲストを誘致するハイエンドなボートショーが開催されました。ランタオ島のリゾート地、ディスカバリーベイ（Discovery Bay）にあるこの私有ヨットクラブは、2020年に高級スーパーヨットをターゲットとする運営に再編した先駆者であり、148のウェットバースと関連施設を備えています。エグゼクティブ・バイスプレジデントのフランクリン・マック（Franklin Mak）氏は…
-
-**引用元**: SCMP
-
-https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3330963/hong-kong-has-set-course-join-yacht-club-asia-can-it-find-way?utm_source=rss_feed
-
-### タンザニア大統領選結果発表、現職ハッサン氏が高得票で当選
-
-（法新社ダルエスサラーム1日）タンザニアの選挙委員会は本日、現職のサミア・スルフ・ハッサン（Samia Suluhu Hassan）大統領が97.66%という高い得票率で大統領選挙に勝利したと発表しました。タンザニア選挙委員会委員長のジェイコブス・ムワンベンゲレ（Jacobs Mwambegele）氏は国営テレビを通じて、「私は革命党（Revolutionary Party, CCM）候補のハッサン氏がタンザニア連合共和国大統領に当選したことを宣言します」と述べました。
+屯門（Tuen Mun）でミニバスと軽鉄が衝突する事故が発生した。本日（2日）午前0時48分、青麟路（Tsing Lun Road）を落馬洲（Lok Ma Chau）方面へ走行していた44B系統のミニバスと、青麟路を屯門方面へ走行していた軽鉄が青麟路付近で衝突した。衝突後、軽鉄は前方に突進し脱線した。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E5%9D%A6%E5%B0%9A%E5%B0%BC%E4%BA%9E%E5%A4%A7%E9%81%B8%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-%E7%8F%BE%E4%BB%BB%E7%B8%BD%E7%B5%B1%E5%93%88%E5%B1%B1%E9%AB%98%E7%A5%A8%E7%95%B6%E9%81%B8-072003122.html
+https://hk.news.yahoo.com/%E5%B1%AF%E9%96%80%E5%B0%8F%E5%B7%B4%E8%BC%95%E9%90%B5%E7%9B%B8%E6%92%9E-12%E4%BA%BA%E5%8F%97%E5%82%B7-022404888.html
 
-### 土地収用は長期的な解決策となるか？
+### 雲端対談（普通話番組）第三シリーズ第四回 巨湾技研総裁 裴鋒氏インタビュー（上）
 
-香港特別行政区政府は、市内の住宅問題を解決するために土地収用を開始する予定です。一部の専門家は、これが住宅需要を満たすのに効果的だと述べていますが、他の専門家は、長期的な時間枠が大きな障害となると主張しています。オズワルド・チャン（Oswald Chan）が報告します。
-
-**引用元**: China Daily HK
-
-http://www.chinadaily.com.cn/hkedition/2019-11/29/content_37526396.htm
-
-### 区議会選挙結果から学ぶべき重要な教訓
-
-区議会選挙における親政府派の敗北は、全く予想外のことではありませんでした。ほとんどの香港市民が、過去6ヶ月間に「ブラックスーツ」によってかつて安全で秩序だった社会にもたらされた街頭暴力、財産破壊、交通妨害に反対しているという常識的な前提にもかかわらず、選挙前には、市民の40％が実際に彼らの無政府状態を支持しているという信頼できる世論調査がありました！このような逸脱した考え方では、何を期待できるでしょうか！
-
-**引用元**: China Daily HK
-
-http://www.chinadaily.com.cn/hkedition/2019-11/27/content_37525636.htm
-
-### 中国はあらゆる銀行危機に備えている
-
-最近の記事では、中国が間もなく銀行危機に直面すると警告しています。不良債権が中国の銀行を破綻させ、その衝撃が世界中に及ぶだろうと彼らは言います。しかし、これらの予測は中国政府の能力を見誤っています。PwCは2016年に中国の銀行に警告を発しました。差し迫った問題は公式データには現れていません。不良債権は報告された融資のわずか1.75％であり、国際基準から見ても妥当な数字です。アナリストは、この数字が問題を過小評価しているのではないかと懸念していますが、中国の銀行は…
-
-**引用元**: SCMP Lifestyle
-
-https://www.scmp.com/comment/insight-opinion/article/1959200/china-ready-any-banking-crisis-may-come?utm_source=rss_feed
-
-### 立法会選挙：土曜日に14件の立候補届を受理、累計148件に
-
-【Now新聞台】立法会選挙の立候補受付期間が始まって1週間以上が経過し、引き続き立候補者が登録しています。その中には、工程界（エンジニアリング部門）から2名が立候補しました。また、地区直接選挙では、九龍西（カオルーン・ウェスト）からさらに1名が立候補し、同区の累計立候補者数は4名となりました。立候補受付期間が始まって1週間以上が経過し、引き続き機能界別（職能別選挙区）から立候補者が登録しています。元土木工程署（Civil Engineering and Development Department）署長の卜国明（ポク・クォクミン）氏が工程界から立候補し、もう一人の立候補者は香港大学工学部副学部長の霍偉棟（フォク・ワイトン）氏です。両者とも、再選を目指さないと表明している工程界議員の盧偉国（ロー・ワイコク）氏の支持を受けています。立法会工程界立候補者の霍偉棟氏は「これまでの経験を活かし、エンジニアリング、イノベーション、そして新技術を通じて、新しいエンジニアリング専門家を育成し、この新技術でエンジニアリングをより高いレベルに引き上げたいと考えています」と述べました。立法会工程界立候補者の卜国明氏は「私はエンジニアリング界で40年以上勤務し、多くの政策策定や主要なエンジニアリングプロジェクトに携わってきました。2021年に引退する際には土木工程署長を務めており、政府の運営と業界の要求について深い理解を持っています」と述べました。また、商界（第二）（商業部門第二）では、中華総商会（Chinese General Chamber of Commerce）が常務会董の王紹基（ウォン・シウケイ）氏と副会長の姚祖輝（イウ・チョーファイ）氏の2名を擁立しました。立法会商界（第二）立候補者の姚祖輝氏は「伝統産業のアップグレードと転換、そして新興産業の育成を推進し、より多くの企業が香港に来るのを助けたいと考えています。二つ目は、中国本土の主要企業や国有企業が香港を通じて世界に進出するのを支援することです」と述べました。立法会商界（第二）立候補者の王紹基氏は「商会での人脈、友人、そして多くの先輩方からの承認を得て、今回の第8回立法会選挙の機会に、実践を通じて証明したいと考えています」と述べました。
+【Now新聞台】当社の普通話番組「雲端対談」の第三シリーズ第四回では、南沙（Nansha）を訪れ、巨湾技研（Guangzhou Greater Bay Technology）総裁の裴鋒（Pei Feng）氏に、世界初の超高速充電バッテリー企業の研究開発と事業展開について伺いました。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%89-%E5%91%A8%E5%85%AD%E6%8E%A5%E7%8D%B214%E4%BB%BD%E6%8F%90%E5%90%8D%E8%A1%A8%E6%A0%BC-%E7%B4%AF%E8%A8%88%E6%9C%89148%E4%BB%BD%E6%8F%90%E5%90%8D-111829953.html
+https://hk.news.yahoo.com/%E9%9B%B2%E7%AB%AF%E5%B0%8D%E8%AB%87-%E6%99%AE%E9%80%9A%E8%A9%B1%E7%AF%80%E7%9B%AE-%E7%AC%AC%E4%B8%89%E7%B3%BB%E5%88%97%E7%AC%AC%E5%9B%9B%E9%9B%86-%E5%B0%88%E8%A8%AA%E5%B7%A8%E7%81%A3%E6%8A%80%E7%A0%94%E7%B8%BD%E8%A3%81%E8%A3%B4%E9%8B%92-%E4%B8%8A-111329648.html
 
-### 中国と英国の警察、大規模な仮想通貨詐欺事件で資金回収のため協力
+### タンザニア大統領選挙結果発表、現職ハッサン氏が高得票で当選
 
-中国警察は、大規模な仮想通貨詐欺およびマネーロンダリング事件に関与した逃亡者と不正資金を追跡するため、英国の法執行機関と協力しています。しかし、専門家は被害者が損失を取り戻せる可能性は低いと見ています。声明によると、天津（ティエンジン）市の警察は、2014年から2017年の間にシンジケートによって行われた詐欺的な富裕層向けスキームに巻き込まれた12万8000人以上の中国人投資家が資金を取り戻せるよう、「あらゆる可能なことをしている」と述べています。
+（法新社ダルエスサラーム1日電）タンザニアの選挙委員会は本日、現職のサミア・スルフ・ハッサン（Samia Suluhu Hassan）大統領が97.66%という高得票率で大統領選挙に勝利したと発表した。タンザニア選挙委員会委員長のジェイコブス・ムワンベゲレ（Jacobs Mwambegele）氏は国営テレビを通じて、「革命党（Revolutionary Party, CCM）候補のハッサン氏がタンザニア連合共和国大統領に当選したことを宣言する」と述べた。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%9D%A6%E5%B0%9A%E5%B0%BC%E4%BA%9E%E5%A4%A7%E9%81%B8%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%9D-%E7%8F%BE%E4%BB%BB%E7%B8%BD%E7%B5%B1%E5%93%88%E5%B1%B1%E9%AB%98%E7%A5%A8%E7%95%B6%E9%81%B8-072003122.html
+
+### 立法会選挙最新情報：立候補者数148人に達し、范徐麗泰氏の息子が選挙委員界議席を争う
+
+立法会選挙の最新情報によると、立候補者数は合計148人に達した。その中には、元立法会主席である范徐麗泰（リタ・ファン）氏の息子が選挙委員界の議席を争う動きも含まれている。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMihgNBVV95cUxOcDdoSWtJZ0NNNkRMR0tXVm9DdjBxZWJtX3Nnd0Y4THpjdG1wNEQ3YVpBZTU3N3VqSVdwb1ZRZjNDTjVIX3JDZ1Y3UExNaGxPZ3VsOEF5QWhJTk8xbThodV9LSzNXd2p2S0xjeXlYck9KeTU5UUJKNXd4V00xVHJUMGFmb05GcXBzOHZUQmJ6QVNzQXh4dDUwMnpyWEFOcVJNYWs0X0JNSjY2VF84ajNPSS1fNnpmWXZwZ2J3eWp2NXhhQjlYekVjcDAwYkZOeGQ3ejVfeldPTGVkWEtmRHl6WWx1SWRfdG1mWDFzVktTVFRUTEtvNElSa0NGMUptSi1EVGE1d2JxSXZBZXV0VlY4bDg5MVNNNHZLRUNLZElwRWJEOFpBYi12bExBaGgwUmZVbzJHTnJEaXpyX21MTm84LUNMOF95bndrUXJSeUxuR2VyOHNfYWFVYVMzbkJXQVhpYjNSVTNFYy1WcTgybkE3Vl9OSHpNSzZBN0kyZFgtVjlTeF93QXc?oc=5
+
+### 「粤車南下」駐車場、本日より予約開始。初日の乗り換え駐車6時間帯が満車に
+
+【YAHOO HK - NEWS】「粤車南下（広東省からの自家用車が香港に乗り入れる制度）」の駐車場が本日より予約受付を開始した。初日には、乗り換え駐車の6つの時間帯がすでに満車となった。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi3wJBVV95cUxOYjFhWGF4cnJkVGRvamtQR0ZmMElSUmVGXzdzN3hUb0hfdlRrR3ZvUXFIeTgxSUZjTWNGVWdyaWNTcV9oS3RBVDJ2V1lTd2lnemhGVTV0ZWFob1ByX2VWZlVZTk5UYWluRlpnMkc0enNIR25rdE1UQ0xCc3FWX2VBOWRzc1RhNmRiUDVzbkN6R0llV3NWMjVyLUwxR0dYbk5xWE1FOFVxb3BpZ0R5ZVJCbmZwMGMzTHpSRXpIYktOS2ZhOVIxUzdXd2NoYmdsSEFoTjFiQjgzdjZnTThQbExObXBnTEJXUHJJNzdfSFh6N2w0NTIyekNYdHgwdTM4NFp5ZGdodUI4WG1kWWhDQmlkVXQtMXR5cDdRcVFHMFdzVEE2OU9BQUZmdy10c1hfc2VxdUV3ajlsdVpKVUQzUTJXaFBPU0NlTVJKWmpVbkxVN1ltSDdNeFZQT0FFcGprS28?oc=5
+
+### 米国政府機関閉鎖でSNAP給付が停止、食料配布所に長蛇の列
+
+米国全土で土曜日、政府機関閉鎖が続く中、連邦の補足的栄養支援プログラム（SNAP）による月々の給付が突然停止されたため、食料配布所やドライブスルー形式の食料配布イベントには、無料の食事や食料品を求める人々が長蛇の列を作った。
+
+ニューヨークのブロンクス区にあるワールド・オブ・ライフ・クリスチャン・フェローシップ・インターナショナル（World of Life Christian Fellowship International）の食料配布所には、通常より約200人多い人々が訪れた。多くは冬用の帽子やコートを身につけ、折りたたみ式のカートを押していた。
 
 **引用元**: SCMP Business
 
-https://www.scmp.com/tech/blockchain/article/3331111/china-uk-police-join-forces-recover-funds-massive-crypto-fraud?utm_source=rss_feed
+https://www.scmp.com/news/world/united-states-canada/article/3331202/snap-benefits-cut-during-us-shutdown-driving-long-lines-food-pantries?utm_source=rss_feed
 
-### 香港税関、1600万香港ドル相当のケタミンを押収し1人を逮捕
+### 全国運動会、香港で聖火リレー開始。黄鎮廷選手が第一走者
 
-香港税関は、本土の中国当局との共同作戦の一環として、ミニ倉庫に隠されていた1600万香港ドル（約200万米ドル）相当のケタミン35kg（77ポンド）を押収し、1人の男を逮捕しました。税関・消費税局（Customs and Excise Department）薬物捜査課の上級捜査官アンガス・リン（Angus Lin）氏は土曜日に、金曜日に49歳の男が逮捕されたことを明らかにしました。これは、捜査官が同じ受取人に送られた2つのケタミンとみられる荷物をミニ倉庫で発見した後のことです。
-
-**引用元**: SCMP
-
-https://www.scmp.com/news/hong-kong/law-and-crime/article/3331182/1-arrested-hong-kong-customs-seizes-hk16-million-suspected-ketamine?utm_source=rss_feed
-
-### 青朗公路で警察のバイクと乗用車が衝突、交通警察官が転倒
-
-青朗公路（チンロン・ハイウェイ）の九龍（カオルーン）方面で、今朝10時26分に交通事故が発生しました。警察のバイクと乗用車が衝突し、3人が負傷しました。交通警察官は一時、地面に倒れて救助を待っていました。オンラインの映像によると、交通警察官は地面に倒れて動かず、数人が驚いた表情で警察官を取り囲んでいました。警察のバイクは道路中央で横転し、部品が散乱していました。乗用車は後部がへこんでおり、警察が事故原因を調査中です。
+【Now新聞台】第15回全国運動会の聖火リレー式典が今朝、香港、広州、深圳、マカオで開催され、その後、各地域で聖火リレーが始まった。陳国基（エリック・チャン）行政長官代行は式典で、市民に今大会への積極的な参加を呼びかけ、選手たちを応援するために会場に足を運ぶよう促した。また、香港が効率的な大会運営能力だけでなく、スポーツを愛し情熱に満ちたサポーターの集団を持っていることを行動で証明すると述べた。文化体育観光局の羅淑佩（ラウ・スクプイ）局長が火種棒で聖火台に点火し、陳国基行政長官代行が聖火棒に点火した後、第一走者である香港卓球代表の黄鎮廷（ウォン・チュンティン）選手に手渡され、香港区間の聖火リレーが正式に開始された。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E9%9D%92%E6%9C%97%E5%85%AC%E8%B7%AF%E8%AD%A6%E6%96%B9%E9%9B%BB%E5%96%AE%E8%BB%8A%E8%88%87%E7%A7%81%E5%AE%B6%E8%BB%8A%E7%9B%B8%E6%92%9E-%E4%BA%A4%E9%80%9A%E8%AD%A6%E5%80%92%E5%9C%B0-065349718.html
+https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83-%E5%9B%9B%E5%9C%B0%E5%B1%95%E9%96%8B%E7%81%AB%E7%82%AC%E5%82%B3%E9%81%9E-%E9%BB%83%E9%8E%AE%E5%BB%B7%E6%8E%A5%E9%81%8E%E7%81%AB%E7%82%AC%E6%A3%92%E9%96%8B%E5%A7%8B%E9%A6%99%E6%B8%AF%E8%B3%BD%E5%8D%80%E6%8E%A5%E5%8A%9B-014629880.html
 
-### 香港の鰂魚涌の遊休海浜用地、プライベートエクイティ企業MBKが再開発へ
+### 甄志強氏が上海で死去、享年59歳。今年5月に入院治療、妻が訃報を突然発表
 
-香港の鰂魚涌（クォーリーベイ）にある巨大な海浜商業用地は、約20年間、破産した地元実業家によって遊休状態に置かれていましたが、ついに再開発される見込みです。現在の所有者であるマリン・リッチーズ（Marine Riches）は、ソウルを拠点とするプライベートエクイティグループMBKパートナーズ（MBK Partners）が過半数を所有しており、都市計画委員会（Town Planning Board）に敷地の計画変更を申請しました。この動きは、香港の小売部門と不動産市場の回復の兆しの中で行われました。マリン・リッチーズは複合用途開発を提案しています。
+【明報新聞網】元亜視（ATV）の俳優、甄志強（イエン・ジーキョン）氏が上海で死去した。享年59歳。今年5月に入院して治療を受けていたが、妻が突然訃報を発表した。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiwwNBVV95cUxQVW1vVm1hVGJTOWJ4cjFRT2JnclpiTjhoeklELVU4dk4wcTBEaXNQMmVDODJ3YmxoV2VnQ3BzZmRoOVZVZjNFaWlrVkd3ZmU2TVIzRzVWVm9JNE1DcDZqamdXOUs4RXNhQ1hEMVdjQTg4TndyZFFLdGlLU3FCa3JxdkVwcnNOQzB0QVp6REJ0VEFSSVJuOXZhcVRteElkVngtSFBYd1BMT2NxUWl0YXB4SlFmQkJzV1QxcjdvTkVWSDFhcFJaRkk3ZmhVYnhLRVA0U0R4WDJDYUU3Y3ZWT0hXVjRvaS1Ib0tGRVhkRTJYMl9UMkUxWEVDOEE4YlZGdHg4ZU5Eb0ZpaEpoaEtwaEdCQ3Zwb3k2YUM0MHVXbC03allVdWppNHdlNzNUWUZkMUt0aEVsSlJoMXdBRV85aS1MZ2l0OFNwMzMwYVI2Rm1RWG9IWTNYUVhES3NmbVc2eXVydWswa2JId1JRNGRINVU0djNCTWR4eDVvanZ0bk9DN3MxdTZleE5hNWJKSnZZUFR2ZmVxT0l1NnozN1FGWDZ0NHNTMHM3DhreG5PVF9VRjlFcU9MRVdOQzR2bjhnVHMwS0x3?oc=5
+
+### ガザでの3度の任務を終えた香港人看護師、イスラエルとパレスチナの戦争終結を願う
+
+10月10日午前3時、クリスタル・ソー（Krystal So）さんはガザ停戦合意のニュースを聞いた。この香港人看護師は、国境なき医師団（MSF）での3度目の派遣任務を終えたばかりだった。彼女の任務は7月下旬に始まり、10月中旬に終了した。ニュースが報じられてからわずか数時間後の午後、香港の[記事はここで途切れているが、文脈から戦争終結への願いが続くと思われる]。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/11/02/after-3-tours-in-gaza-hong-kong-nurse-wishes-for-end-to-israels-war-in-palestinian-territory/
+
+### 英国ケンブリッジシャーで列車内刃物襲撃、10人負傷9人重体。容疑者2人逮捕、テロ対策部門が捜査介入
+
+【Yahooニュース報道】イングランドのケンブリッジシャー（Cambridgeshire）を走行中の、ドンカスター（Doncaster）発ロンドン・キングス・クロス駅行きの列車内で深刻な刃物襲撃事件が発生し、10人が負傷、うち9人が重体となっている。警察は、この事件を「重大事案」と認定し、テロ対策部門が捜査に介入していると発表した。事件に関与した容疑者2人が逮捕されており、現時点での死亡報告はない。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E8%8B%B1%E5%9C%8B%E5%8A%8D%E6%A9%8B%E9%83%A1%E7%81%AB%E8%BB%8A%E6%8C%81%E5%88%80%E8%A5%B2%E6%93%8A-10-%E4%BA%BA%E5%8F%97%E5%82%B7-9-%E4%BA%BA%E5%8D%B1%E6%AE%86-%E5%85%A9%E7%96%91%E7%8A%AF%E8%A2%AB%E6%8D%95%E5%8F%8D%E6%81%90%E9%83%A8%E9%96%80%E4%BB%8B%E5%85%A5%E8%AA%BF%E6%9F%A5%EF%B8%B1yahoo-024721761.html
+
+### 全国運動会聖火リレー、香港のランドマークを巡り啓徳に到着
+
+全国運動会の聖火リレーは日曜日、香港区間で、主要企業のトップ、アスリート、少数民族のメンバーが街頭を走り、聖火を運んだ。
+
+2時間、10kmにわたるリレーは、タマー公園（Tamar Park）にある政府本部から始まり、中環（Central）を通過し、啓徳（Kai Tak）に到着した。
 
 **引用元**: SCMP
 
-https://www.scmp.com/business/article/3331006/idle-hong-kong-seafront-site-gets-new-lease-life-private-equity-firm-mbk-partners?utm_source=rss_feed
+https://www.scmp.com/news/hong-kong/society/article/3331197/flame-unity-burns-bright-national-games-torch-relay-hits-hong-kong-streets?utm_source=rss_feed
+
+### 屯門でミニバスと軽鉄が衝突脱線、12人負傷。ミニバス運転手は閉じ込められ、目撃者「なんてひどいんだ」
+
+屯門（Tuen Mun）でミニバスと軽鉄が衝突し脱線する事故が発生し、12人が負傷した。ミニバスの運転手は車内に閉じ込められた。目撃者の一人は「なんてひどいんだ」と語った。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMihgNBVV95cUxPa05ZYzBoM2ZZVUgyeHVLUWM5UjJtOWF1R2tBaVJBUDBHcXR5Z2IzNUMxdXZzako0UXNaNWJIaWcyaVZ1TGpPaHRDTVBnMXdHMmk2ZURlRE1zNW5NWTZ1bFBCdGFGcGthMm5heHJjNnpPaGZvTmxSOUtXMTRQaUhIQnNQSUZaRE9EY3NSdDJnTjFiRWhBWF9oNmNxSUpFZDIyTmE0VUtzY3Y1TVMxYWV4a0lSRnNRbVBCYzQzRW9QUEJsV09MeWdEQndURGozRFQwdGFVc1JaU291QTh0cGFDNmhXaV91U3U0S2RDUmdoWXBxQXBjaDYwTTV6NVdlX095cXB1VDhrLXdqRElSc0JpODZDS3NDbzhFLUsxMTdfaDBiZlZSTktTeDJNVFRCZ09qQUdPdzBFOTJKMTFsM1VSRTNwU3diWWNYM0dEOTNVZ0ZZcDZ3ZW9hc2FEeC11dm9WZmpfNFJBcXE0QjlybG53Z0U3b1hpSWxCTnljamViN2ZpRko4R3c?oc=5
+
+### Nexperiaの親会社Wingtech、半導体メーカーを巡る中蘭紛争の最中に新社長を任命
+
+Nexperiaの中国親会社であるWingtech Technologyは、オランダを拠点とする半導体メーカーの支配権を巡る中蘭間の紛争が続く中、コロンビア大学ロースクール卒業生で経験豊富な法務顧問であるソフィー・シェン・シンジア（Sophie Shen Xinjia）氏を社長に任命した。
+
+同社の上海証券取引所への提出書類によると、シェン氏の社長としての任期は、1月に発足し2028年1月までとなるWingtechの第12期取締役会と一致する。彼女は、これまで社長を務めていたチャン・チウホン（Zhang Qiuhong）氏の後任となる。
+
+**引用元**: SCMP Business
+
+https://www.scmp.com/tech/big-tech/article/3331180/nexperia-owner-wingtech-names-new-president-amid-sino-dutch-dispute-over-chipmaker?utm_source=rss_feed
 
 ## 広東語学習者向け情報
 
@@ -174,4 +191,4 @@ https://www.scmp.com/business/article/3331006/idle-hong-kong-seafront-site-gets-
 @https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
 ----
 **タグ**: 香港,ニュース,最新,情報,アジア
-**生成日時**: 2025年11月02日 06:08
+**生成日時**: 2025年11月02日 10:53

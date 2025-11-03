@@ -44,7 +44,11 @@ fi
 LATEST_ARTICLE=$(ls -t daily-articles/hongkong-news_*.md | head -1)
 echo "✅ 記事ファイル: $LATEST_ARTICLE" >> "$LOG_FILE"
 
-# 3. 日付の自動修正
+# 3. サニタイズ（重複・非香港記事の除去、天気検証）
+echo "🧹 サニタイズ実行..." >> "$LOG_FILE"
+python scripts/sanitize_article.py "$LATEST_ARTICLE" >> "$LOG_FILE" 2>&1
+
+# 4. 日付の自動修正
 echo "📅 記事タイトルの日付を修正..." >> "$LOG_FILE"
 TODAY=$(date +"%Y年%m月%d日")
 sed -i.bak "s/# 毎日AIピックアップニュース([0-9]\{4\}年[0-9]\{2\}月[0-9]\{2\}日)/# 毎日AIピックアップニュース($TODAY)/" "$LATEST_ARTICLE"

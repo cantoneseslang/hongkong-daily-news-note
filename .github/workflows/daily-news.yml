@@ -161,6 +161,13 @@ jobs:
           fi
           
           echo "✅ Today's article generated successfully: $EXPECTED_ARTICLE"
+
+      - name: Sanitize and validate article
+        run: |
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          echo "🧪 Sanitizing article: $ARTICLE"
+          python -u scripts/sanitize_article.py "$ARTICLE"
       
       - name: Commit and push generated article
         run: |

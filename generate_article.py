@@ -353,30 +353,31 @@ URL: {url}
                     cleaned_lines.append(line)
             return '\n'.join(cleaned_lines)
         
-        weather_section = "## 本日の香港の天気\n"
+        # 地域天気予報のみ処理
+        if 'weather_forecast' not in weather_data:
+            return ""
         
-        # 天気警報
-        if 'weather_warning' in weather_data:
-            warning = weather_data['weather_warning']
-            title = warning.get('title', 'N/A')
-            desc = clean_weather_text(warning.get('description', ''))
-            
-            if title and "現時並無警告生效" not in title and "酷熱天氣警告" not in title and "發出" not in title:
-                weather_section += f"\n### 天気警報{title}"
-                if desc and "現時並無警告生效" not in desc and "酷熱天気警告" not in desc:
-                    weather_section += f"{desc}"
+        forecast = weather_data['weather_forecast']
+        title = forecast.get('title', 'N/A')
+        desc = clean_weather_text(forecast.get('description', ''))
         
-        # 地域天気予報のみ表示
-        if 'weather_forecast' in weather_data:
-            forecast = weather_data['weather_forecast']
-            title = forecast.get('title', 'N/A')
-            desc = clean_weather_text(forecast.get('description', ''))
-            
-            # 天気情報はLLMで一括日本語翻訳（辞書置換は使わない）
-            translated_title = self._llm_translate_text(title)
-            translated_desc = self._llm_translate_text(desc)
-            weather_section += f"\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
+        # 天気情報はLLMで一括日本語翻訳（辞書置換は使わない）
+        translated_title = self._llm_translate_text(title)
+        translated_desc = self._llm_translate_text(desc)
         
+        # 【絶対必須】TitleまたはDescriptionのいずれかが失敗した場合は完全に空文字列を返す
+        # 「翻訳エラー」メッセージを記事に表示することは許されない
+        # 「## 本日の香港の天気」も含めて何も表示しない
+        # 両方とも成功した場合のみ天気予報セクションを返す（日本語に翻訳された記事を投稿する）
+        if '[翻訳エラー' in translated_title or '[翻訳エラー' in translated_desc:
+            return ""  # 翻訳失敗時は完全に空文字列を返す（何も表示しない）
+        
+        # 念のため、日本語性を再検証（API側の変化等に備えた二重防御）
+        if not self._is_japanese(translated_title) or not self._is_japanese(translated_desc):
+            return ""
+        
+        # 翻訳成功時のみ天気予報セクションを返す（ミッション：中国語を日本語に翻訳された記事を投稿）
+        weather_section = f"## 本日の香港の天気\n\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
         return weather_section
     
     def _translate_weather_text(self, text: str) -> str:
@@ -411,35 +412,86 @@ URL: {url}
             "記号や数値は保持し、日本語以外（中文の語彙・句読点・英語）が残らないように。\n\n" + text
         )
 
-        try:
-            if self.use_gemini is True:
-                headers = {"Content-Type": "application/json"}
-                api_url_with_key = f"{self.api_url}?key={self.api_key}"
-                payload = {
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
-                }
-                resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=60)
-                if resp.status_code == 200:
-                    txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
-                    return txt.strip()
-            else:
-                headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-                if self.use_gemini is False:
-                    payload = {"model": "claude-3-5-sonnet-20241022", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
-                else:
-                    payload = {"model": "grok-beta", "messages": [{"role": "system", "content": "Translate to natural Japanese only."}, {"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
-                resp = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
-                if resp.status_code == 200:
-                    if self.use_gemini is False:
-                        txt = resp.json()['content'][0]['text']
+        # 【絶対必須】フォールバック機構：Gemini → Claude → Grok の順で試行
+        # ミッション：翻訳を100%成功させる（いずれかのAPIで必ず成功させる）
+        # APIキーがあるAPIのみを優先順位順に追加
+        apis_to_try = []
+        
+        # 優先順位1: Gemini API（APIキーがある場合のみ）
+        if 'gemini_api' in self.config and self.config['gemini_api'].get('api_key') and self.config['gemini_api']['api_key'].strip():
+            apis_to_try.append(('gemini', self.config['gemini_api']['api_key'], 
+                               self.config['gemini_api']['api_url'], True))
+        
+        # 優先順位2: Claude API（APIキーがある場合のみ）
+        if 'claude_api' in self.config and self.config['claude_api'].get('api_key') and self.config['claude_api']['api_key'].strip():
+            apis_to_try.append(('claude', self.config['claude_api']['api_key'], 
+                               self.config['claude_api']['api_url'], False))
+        
+        # 優先順位3: Grok API（APIキーがある場合のみ）
+        if 'grok_api' in self.config and self.config['grok_api'].get('api_key') and self.config['grok_api']['api_key'].strip():
+            apis_to_try.append(('grok', self.config['grok_api']['api_key'], 
+                               self.config['grok_api']['api_url'], None))
+        
+        # 試行するAPIがない場合はエラー
+        if not apis_to_try:
+            print(f"❌ 有効なAPIキーがありません。翻訳できません。")
+            return "[翻訳エラー: 天気情報の翻訳に失敗しました]"
+        
+        # 各APIで順番に試行
+        for api_name, api_key, api_url, use_gemini_flag in apis_to_try:
+            if not api_key:
+                continue
+                
+            try:
+                if use_gemini_flag is True:
+                    headers = {"Content-Type": "application/json"}
+                    api_url_with_key = f"{api_url}?key={api_key}"
+                    payload = {
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+                    }
+                    resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=60)
+                    if resp.status_code == 200:
+                        txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
+                        translated = txt.strip()
+                        if self._is_japanese(translated):
+                            print(f"✅ 天気翻訳成功 ({api_name})")
+                            return translated
+                        else:
+                            print(f"⚠️  {api_name}翻訳結果が日本語として不十分。次のAPIを試行...")
+                            continue
                     else:
-                        txt = resp.json()['choices'][0]['message']['content']
-                    return txt.strip()
-        except Exception:
-            pass
-        # フォールバック: 原文を返却（少なくとも欠落しない）
-        return text
+                        print(f"⚠️  天気翻訳エラー ({api_name}): HTTP {resp.status_code}")
+                        continue
+                else:
+                    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+                    if use_gemini_flag is False:
+                        payload = {"model": "claude-3-5-sonnet-20241022", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                    else:
+                        payload = {"model": "grok-beta", "messages": [{"role": "system", "content": "Translate to natural Japanese only."}, {"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                    resp = requests.post(api_url, headers=headers, json=payload, timeout=60)
+                    if resp.status_code == 200:
+                        if use_gemini_flag is False:
+                            txt = resp.json()['content'][0]['text']
+                        else:
+                            txt = resp.json()['choices'][0]['message']['content']
+                        translated = txt.strip()
+                        if self._is_japanese(translated):
+                            print(f"✅ 天気翻訳成功 ({api_name})")
+                            return translated
+                        else:
+                            print(f"⚠️  {api_name}翻訳結果が日本語として不十分。次のAPIを試行...")
+                            continue
+                    else:
+                        print(f"⚠️  天気翻訳エラー ({api_name}): HTTP {resp.status_code}")
+                        continue
+            except Exception as e:
+                print(f"⚠️  天気翻訳エラー ({api_name}): {e}")
+                continue
+        
+        # すべてのAPIで失敗した場合
+        print(f"❌ すべてのAPIで天気翻訳が失敗しました。原文を返却しません。")
+        return "[翻訳エラー: 天気情報の翻訳に失敗しました]"
     
     # 【重要・変更禁止】広東語/中文検証関数
     # これらの関数を削除・無効化すると、翻訳失敗を検出できず広東語が残ります
@@ -449,6 +501,16 @@ URL: {url}
         # 繁体字・簡体字の範囲をチェック（Unicode範囲: \u4e00-\u9fff）
         chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
         return bool(chinese_pattern.search(text))
+    
+    def _is_japanese(self, text: str) -> bool:
+        """翻訳結果が日本語かどうかチェック（ひらがな・カタカナが11文字以上含まれているか）（変更禁止）"""
+        import re
+        # ひらがな（\u3040-\u309F）またはカタカナ（\u30A0-\u30FF）の文字数をカウント
+        hiragana_katakana_pattern = re.compile(r'[\u3040-\u309F\u30A0-\u30FF]')
+        matches = hiragana_katakana_pattern.findall(text)
+        count = len(matches)
+        # 11文字以上の場合のみ日本語と判定
+        return count >= 11
     
     def _is_already_japanese(self, text: str) -> bool:
         """テキストが既に日本語のみかチェック（広東語/中文が含まれていない）（変更禁止）"""
@@ -619,29 +681,58 @@ URL: {url}
             return body
         
         result = [articles[0]]
-        seen_titles = set()
+        seen_titles = []  # 類似度判定用に保持
+        seen_urls = set()  # 正規化URLの重複排除
         duplicate_count = 0
         
-        # 各記事をチェック
+        def _normalize_title(t: str) -> str:
+            return re.sub(r'[^\w\s]', '', t.lower()).strip()
+        
         for article in articles[1:]:
-            # タイトルを抽出（最初の行）
-            lines = article.split('\n', 1)
-            if len(lines) > 0:
-                title = lines[0].strip()
-                
-                # タイトルの正規化（より厳密な重複のみ除外）
-                normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-                # 短すぎるタイトルは重複チェック対象外
-                if len(normalized_title) < 10:
-                    result.append(article)
-                    continue
-                
-                # 重複チェック（完全一致のみ）
-                if normalized_title not in seen_titles:
-                    seen_titles.add(normalized_title)
-                    result.append(article)
-                else:
-                    duplicate_count += 1
+            lines = article.split('\n')
+            title = lines[0].strip() if lines else ''
+            norm_title = _normalize_title(title)
+            
+            # セクション内の最初の独立URL行を抽出
+            block = '### ' + article
+            url_match = re.search(r'(?m)^(https?://\S+)$', block)
+            if url_match:
+                from urllib.parse import urlparse, urlunparse
+                try:
+                    p = urlparse(url_match.group(1))
+                    norm_url = urlunparse((p.scheme, p.netloc, p.path, '', '', ''))
+                except Exception:
+                    norm_url = url_match.group(1)
+            else:
+                norm_url = None
+            
+            # URL重複で除外
+            if norm_url and norm_url in seen_urls:
+                duplicate_count += 1
+                continue
+            
+            # タイトルが短すぎる場合はそのまま許容
+            if len(norm_title) < 10:
+                result.append(article)
+                if norm_url:
+                    seen_urls.add(norm_url)
+                seen_titles.append(norm_title)
+                continue
+            
+            # 既存タイトルと類似度0.6以上なら重複として除外
+            is_dup = False
+            for st in seen_titles:
+                if calculate_title_similarity(norm_title, st) >= 0.6:
+                    is_dup = True
+                    break
+            if is_dup:
+                duplicate_count += 1
+                continue
+            
+            result.append(article)
+            seen_titles.append(norm_title)
+            if norm_url:
+                seen_urls.add(norm_url)
         
         if duplicate_count > 0:
             print(f"🔄 重複記事を除外: {duplicate_count}件")

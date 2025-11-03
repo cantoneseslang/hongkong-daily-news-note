@@ -1,45 +1,11 @@
 #!/usr/bin/env python3
 """
 香港ニュース記事生成スクリプト（広東語学習セクション付き）
-
-【絶対変更禁止警告】天気情報翻訳処理について
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚠️  ⚠️  ⚠️  緊急警告：このセクションは絶対に変更しないでください！⚠️  ⚠️  ⚠️
-
-このファイルには、天気情報の広東語/中文を日本語に翻訳する重要な処理が含まれています。
-このコードはGitHub Actionsで動作確認済みです。変更すると必ず問題が再発します。
-
-【絶対変更禁止セクション - 変更する場合は必ずユーザーに確認】
-- format_weather_info() メソッド
-- _llm_translate_text() メソッド  
-- _has_chinese_chars() メソッド
-- _is_already_japanese() メソッド
-
-【過去の問題履歴 - 何度も同じ問題が再発】
-- コードを「微調整」→ 毎回広東語混在問題が再発
-- デバッグログ追加 → 動作が変わる
-- フォールバック処理追加 → 複雑になり問題発生
-- エラーハンドリング変更 → 広東語が表示される
-
-【変更しようとしているAIアシスタントへ】
-このセクションを変更しようとしている場合：
-1. 変更を即座に中止してください
-2. ユーザーに確認を取ってください
-3. 「動作確認済みのコード」を変更する理由を明確に説明してください
-4. 変更が必要な場合でも、最小限の変更にとどめてください
-
-【必須機能（削除禁止）】
-1. リトライ処理（最大3回） - 削除すると一時的なAPIエラーで広東語が表示される
-2. 翻訳結果の検証処理（_has_chinese_chars） - 削除すると不完全な翻訳が通る
-3. エラーハンドリング（原文を返さない処理） - 削除すると広東語が記事に表示される
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 import json
 import requests
 import re
-import time
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict
 
@@ -305,31 +271,8 @@ URL: {url}
         
         return '\n'.join(formatted)
     
-    # ═══════════════════════════════════════════════════════════════════════════════
-    # 【重要・変更禁止】天気情報翻訳処理
-    # ═══════════════════════════════════════════════════════════════════════════════
-    # 
-    # 【警告】このセクションは絶対に変更・削除・コメントアウトしないでください！
-    # 
-    # 重要理由：
-    # 1. 広東語/中文の天気情報を日本語に翻訳する必須処理です
-    # 2. 過去に何度も問題が再発しており、この処理を変更すると必ず広東語が混在します
-    # 3. 翻訳失敗時に原文を返すと、記事に広東語がそのまま表示される致命的な問題が発生します
-    # 
-    # 変更履歴による問題の再発：
-    # - このコードを「微調整」すると、毎回広東語問題が再発しています
-    # - リトライ処理、検証処理、エラーハンドリングは必須です
-    # - フォールバックで原文を返す処理は絶対に追加しないでください
-    # 
-    # 変更が必要な場合：
-    # 1. 必ずこのコメント全体を読んでから変更してください
-    # 2. 変更前後で翻訳処理が確実に実行されることを確認してください
-    # 3. 広東語/中文の検証処理を削除しないでください
-    # 4. エラー時に原文を返す処理を追加しないでください
-    # 
-    # ═══════════════════════════════════════════════════════════════════════════════
     def format_weather_info(self, weather_data: Dict) -> str:
-        """天気情報をMarkdown形式に整形（変更禁止：広東語翻訳の必須処理）"""
+        """天気情報をMarkdown形式に整形"""
         if not weather_data:
             return ""
         
@@ -353,214 +296,79 @@ URL: {url}
                     cleaned_lines.append(line)
             return '\n'.join(cleaned_lines)
         
-        # 地域天気予報のみ処理
-        if 'weather_forecast' not in weather_data:
-            return ""
+        weather_section = "## 本日の香港の天気\n"
         
-        forecast = weather_data['weather_forecast']
-        title = forecast.get('title', 'N/A')
-        desc = clean_weather_text(forecast.get('description', ''))
+        # 天気警報
+        if 'weather_warning' in weather_data:
+            warning = weather_data['weather_warning']
+            title = warning.get('title', 'N/A')
+            desc = clean_weather_text(warning.get('description', ''))
+            
+            if title and "現時並無警告生效" not in title and "酷熱天氣警告" not in title and "發出" not in title:
+                weather_section += f"\n### 天気警報{title}"
+                if desc and "現時並無警告生效" not in desc and "酷熱天気警告" not in desc:
+                    weather_section += f"{desc}"
         
-        # 天気情報はLLMで一括日本語翻訳（辞書置換は使わない）
-        translated_title = self._llm_translate_text(title)
-        translated_desc = self._llm_translate_text(desc)
+        # 地域天気予報のみ表示
+        if 'weather_forecast' in weather_data:
+            forecast = weather_data['weather_forecast']
+            title = forecast.get('title', 'N/A')
+            desc = clean_weather_text(forecast.get('description', ''))
+            
+            # 天気情報はLLMで一括日本語翻訳（辞書置換は使わない）
+            translated_title = self._llm_translate_text(title)
+            translated_desc = self._llm_translate_text(desc)
+            weather_section += f"\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
         
-        # 【絶対必須】エラー表示は記事に出さない
-        if '[翻訳エラー' in translated_title or '[翻訳エラー' in translated_desc:
-            return ""
-
-        # Descriptionは厳格に日本語判定（失敗ならセクションごと非表示）
-        if not self._is_japanese(translated_desc):
-            return ""
-
-        # Titleは短文・漢字比率が高くても許容。弱い場合は安全な日本語タイトルに差し替え
-        if not self._is_japanese_title(translated_title):
-            translated_title = "香港天文台が発表した天気予報"
-        
-        # 翻訳成功時のみ天気予報セクションを返す（ミッション：中国語を日本語に翻訳された記事を投稿）
-        weather_section = f"## 本日の香港の天気\n\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
         return weather_section
     
     def _translate_weather_text(self, text: str) -> str:
         """レガシー互換（未使用）。LLMベース翻訳に切替済み。"""
         return self._llm_translate_text(text)
 
-    # ═══════════════════════════════════════════════════════════════════════════════
-    # 【重要・変更禁止】広東語/中文翻訳処理のコア関数
-    # ═══════════════════════════════════════════════════════════════════════════════
-    # 
-    # 【警告】この関数は絶対に変更・簡略化しないでください！
-    # 
-    # 重要ポイント：
-    # 1. リトライ処理（最大3回）は必須です
-    # 2. 翻訳結果の検証（_has_chinese_chars）は必須です
-    # 3. エラー時に原文を返す処理は絶対に追加しないでください
-    # 4. エラーメッセージを返すことで、広東語混在を防ぎます
-    # 
-    # 過去の問題：
-    # - リトライ処理を削除 → 翻訳失敗で広東語が残る
-    # - 検証処理を削除 → 不完全な翻訳が通る
-    # - エラー時に原文を返す → 必ず広東語が記事に表示される
-    # 
-    # ═══════════════════════════════════════════════════════════════════════════════
     def _llm_translate_text(self, text: str) -> str:
         """LLMで広東語/中文を自然な日本語に一発翻訳（日本語以外混在禁止）"""
         if not text:
             return ""
-        
         prompt = (
             "以下の広東語/中文テキストを自然な日本語に翻訳してください。"\
             "記号や数値は保持し、日本語以外（中文の語彙・句読点・英語）が残らないように。\n\n" + text
         )
 
-        # 【絶対必須】フォールバック機構：Gemini → Claude → Grok の順で試行
-        # ミッション：翻訳を100%成功させる（いずれかのAPIで必ず成功させる）
-        # APIキーがあるAPIのみを優先順位順に追加
-        apis_to_try = []
-        
-        # 優先順位1: Gemini API（APIキーがある場合のみ）
-        if 'gemini_api' in self.config and self.config['gemini_api'].get('api_key') and self.config['gemini_api']['api_key'].strip():
-            apis_to_try.append(('gemini', self.config['gemini_api']['api_key'], 
-                               self.config['gemini_api']['api_url'], True))
-        
-        # 優先順位2: Claude API（APIキーがある場合のみ）
-        if 'claude_api' in self.config and self.config['claude_api'].get('api_key') and self.config['claude_api']['api_key'].strip():
-            apis_to_try.append(('claude', self.config['claude_api']['api_key'], 
-                               self.config['claude_api']['api_url'], False))
-        
-        # 優先順位3: Grok API（APIキーがある場合のみ）
-        if 'grok_api' in self.config and self.config['grok_api'].get('api_key') and self.config['grok_api']['api_key'].strip():
-            apis_to_try.append(('grok', self.config['grok_api']['api_key'], 
-                               self.config['grok_api']['api_url'], None))
-        
-        # 試行するAPIがない場合はエラー
-        if not apis_to_try:
-            print(f"❌ 有効なAPIキーがありません。翻訳できません。")
-            return "[翻訳エラー: 天気情報の翻訳に失敗しました]"
-        
-        # 各APIで順番に試行
-        for api_name, api_key, api_url, use_gemini_flag in apis_to_try:
-            if not api_key:
-                continue
-                
-            try:
-                if use_gemini_flag is True:
-                    headers = {"Content-Type": "application/json"}
-                    api_url_with_key = f"{api_url}?key={api_key}"
-                    payload = {
-                        "contents": [{"parts": [{"text": prompt}]}],
-                        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
-                    }
-                    resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=60)
-                    if resp.status_code == 200:
-                        txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
-                        translated = txt.strip()
-                        if self._is_japanese(translated):
-                            print(f"✅ 天気翻訳成功 ({api_name})")
-                            return translated
-                        else:
-                            print(f"⚠️  {api_name}翻訳結果が日本語として不十分。次のAPIを試行...")
-                            continue
-                    else:
-                        print(f"⚠️  天気翻訳エラー ({api_name}): HTTP {resp.status_code}")
-                        continue
-                else:
-                    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-                    if use_gemini_flag is False:
-                        payload = {"model": "claude-3-5-sonnet-20241022", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
-                    else:
-                        payload = {"model": "grok-beta", "messages": [{"role": "system", "content": "Translate to natural Japanese only."}, {"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
-                    resp = requests.post(api_url, headers=headers, json=payload, timeout=60)
-                    if resp.status_code == 200:
-                        if use_gemini_flag is False:
-                            txt = resp.json()['content'][0]['text']
-                        else:
-                            txt = resp.json()['choices'][0]['message']['content']
-                        translated = txt.strip()
-                        if self._is_japanese(translated):
-                            print(f"✅ 天気翻訳成功 ({api_name})")
-                            return translated
-                        else:
-                            print(f"⚠️  {api_name}翻訳結果が日本語として不十分。次のAPIを試行...")
-                            continue
-                    else:
-                        print(f"⚠️  天気翻訳エラー ({api_name}): HTTP {resp.status_code}")
-                        continue
-            except Exception as e:
-                print(f"⚠️  天気翻訳エラー ({api_name}): {e}")
-                continue
-        
-        # すべてのAPIで失敗した場合 → 最終フォールバック（Google Translate 非公式エンドポイント）
         try:
-            print("🔄 最終フォールバック: Google Translateエンドポイントを使用")
-            translated = self._translate_via_google_translate(text)
-            if translated and self._is_japanese(translated):
-                print("✅ 天気翻訳成功 (google-translate-fallback)")
-                return translated
+            if self.use_gemini is True:
+                headers = {"Content-Type": "application/json"}
+                api_url_with_key = f"{self.api_url}?key={self.api_key}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+                }
+                resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=60)
+                if resp.status_code == 200:
+                    txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
+                    return txt.strip()
+                else:
+                    print(f"⚠️  天気翻訳エラー (Gemini): HTTP {resp.status_code}")
             else:
-                print("⚠️  google-translate-fallbackの結果が日本語として不十分")
+                headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+                if self.use_gemini is False:
+                    payload = {"model": "claude-3-5-sonnet-20241022", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                else:
+                    payload = {"model": "grok-beta", "messages": [{"role": "system", "content": "Translate to natural Japanese only."}, {"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                resp = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
+                if resp.status_code == 200:
+                    if self.use_gemini is False:
+                        txt = resp.json()['content'][0]['text']
+                    else:
+                        txt = resp.json()['choices'][0]['message']['content']
+                    return txt.strip()
+                else:
+                    print(f"⚠️  天気翻訳エラー (Claude/Grok): HTTP {resp.status_code}")
         except Exception as e:
-            print(f"⚠️  google-translate-fallback エラー: {e}")
-
-        print(f"❌ すべての翻訳手段で天気翻訳が失敗しました。原文を返却しません。")
-        return "[翻訳エラー: 天気情報の翻訳に失敗しました]"
-
-    def _translate_via_google_translate(self, text: str) -> str:
-        """Google Translateの非公式エンドポイントで簡易翻訳（キー不要・最終手段）"""
-        if not text:
-            return ""
-        import requests
-        import json as _json
-        url = "https://translate.googleapis.com/translate_a/single"
-        params = {
-            'client': 'gtx',
-            'sl': 'zh',   # 中国語→
-            'tl': 'ja',   # 日本語
-            'dt': 't',
-            'q': text,
-        }
-        resp = requests.get(url, params=params, timeout=15)
-        if resp.status_code != 200:
-            raise RuntimeError(f"HTTP {resp.status_code}")
-        data = resp.json()
-        # data[0] は [[訳文, 原文, ...], ...] 構造
-        if data and isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
-            parts = [seg[0] for seg in data[0] if seg and isinstance(seg, list) and seg[0]]
-            return ''.join(parts).strip()
-        return ""
-    
-    # 【重要・変更禁止】広東語/中文検証関数
-    # これらの関数を削除・無効化すると、翻訳失敗を検出できず広東語が残ります
-    def _has_chinese_chars(self, text: str) -> bool:
-        """テキストに広東語/中文文字が含まれているかチェック（変更禁止）"""
-        import re
-        # 繁体字・簡体字の範囲をチェック（Unicode範囲: \u4e00-\u9fff）
-        chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
-        return bool(chinese_pattern.search(text))
-    
-    def _is_japanese(self, text: str) -> bool:
-        """翻訳結果が日本語かどうかチェック（ひらがな・カタカナが11文字以上含まれているか）（変更禁止）"""
-        import re
-        # ひらがな（\u3040-\u309F）またはカタカナ（\u30A0-\u30FF）の文字数をカウント
-        hiragana_katakana_pattern = re.compile(r'[\u3040-\u309F\u30A0-\u30FF]')
-        matches = hiragana_katakana_pattern.findall(text)
-        count = len(matches)
-        # 11文字以上の場合のみ日本語と判定
-        return count >= 11
-    
-    def _is_japanese_title(self, text: str) -> bool:
-        """タイトル用の緩和判定：ひらがな/カタカナ1文字以上、または日本語キーワードを含む"""
-        if not text:
-            return False
-        import re
-        kana_count = len(re.findall(r'[\u3040-\u309F\u30A0-\u30FF]', text))
-        if kana_count >= 1:
-            return True
-        keywords = ['天気', '天気予報', '気象', '香港天文台', '予報', '天候']
-        return any(k in text for k in keywords)
-    def _is_already_japanese(self, text: str) -> bool:
-        """テキストが既に日本語のみかチェック（広東語/中文が含まれていない）（変更禁止）"""
-        return not self._has_chinese_chars(text)
+            print(f"⚠️  天気翻訳エラー (例外): {e}")
+        # フォールバック: 原文を返却（少なくとも欠落しない）
+        print(f"⚠️  天気翻訳フォールバック: 原文を返却")
+        return text
     
     def _generate_cantonese_section(self) -> str:
         """広東語学習者向けの定型文を生成（固定内容・変更禁止）"""
@@ -572,9 +380,9 @@ URL: {url}
 
 (今現在400名以上の方に登録していただいております）
 
-[![スラング先生公式LINE](shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
+[![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
 
-[![LINEでお問合せ](shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)
+[![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)
 
 ## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
 
@@ -727,58 +535,29 @@ URL: {url}
             return body
         
         result = [articles[0]]
-        seen_titles = []  # 類似度判定用に保持
-        seen_urls = set()  # 正規化URLの重複排除
+        seen_titles = set()
         duplicate_count = 0
         
-        def _normalize_title(t: str) -> str:
-            return re.sub(r'[^\w\s]', '', t.lower()).strip()
-        
+        # 各記事をチェック
         for article in articles[1:]:
-            lines = article.split('\n')
-            title = lines[0].strip() if lines else ''
-            norm_title = _normalize_title(title)
-            
-            # セクション内の最初の独立URL行を抽出
-            block = '### ' + article
-            url_match = re.search(r'(?m)^(https?://\S+)$', block)
-            if url_match:
-                from urllib.parse import urlparse, urlunparse
-                try:
-                    p = urlparse(url_match.group(1))
-                    norm_url = urlunparse((p.scheme, p.netloc, p.path, '', '', ''))
-                except Exception:
-                    norm_url = url_match.group(1)
-            else:
-                norm_url = None
-            
-            # URL重複で除外
-            if norm_url and norm_url in seen_urls:
-                duplicate_count += 1
-                continue
-            
-            # タイトルが短すぎる場合はそのまま許容
-            if len(norm_title) < 10:
-                result.append(article)
-                if norm_url:
-                    seen_urls.add(norm_url)
-                seen_titles.append(norm_title)
-                continue
-            
-            # 既存タイトルと類似度0.6以上なら重複として除外
-            is_dup = False
-            for st in seen_titles:
-                if calculate_title_similarity(norm_title, st) >= 0.6:
-                    is_dup = True
-                    break
-            if is_dup:
-                duplicate_count += 1
-                continue
-            
-            result.append(article)
-            seen_titles.append(norm_title)
-            if norm_url:
-                seen_urls.add(norm_url)
+            # タイトルを抽出（最初の行）
+            lines = article.split('\n', 1)
+            if len(lines) > 0:
+                title = lines[0].strip()
+                
+                # タイトルの正規化（より厳密な重複のみ除外）
+                normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+                # 短すぎるタイトルは重複チェック対象外
+                if len(normalized_title) < 10:
+                    result.append(article)
+                    continue
+                
+                # 重複チェック（完全一致のみ）
+                if normalized_title not in seen_titles:
+                    seen_titles.add(normalized_title)
+                    result.append(article)
+                else:
+                    duplicate_count += 1
         
         if duplicate_count > 0:
             print(f"🔄 重複記事を除外: {duplicate_count}件")
@@ -840,74 +619,6 @@ URL: {url}
         print(f"💾 記事を保存: {output_path}")
         return output_path
 
-def normalize_url(url: str) -> str:
-    """URLを正規化（クエリパラメータを除去してベースURLのみ抽出）"""
-    if not url:
-        return ""
-    try:
-        from urllib.parse import urlparse, urlunparse
-        parsed = urlparse(url)
-        # クエリパラメータとフラグメントを除去
-        normalized = urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
-        return normalized
-    except:
-        # パース失敗時は元のURLを返す
-        return url
-
-def calculate_title_similarity(title1: str, title2: str) -> float:
-    """2つのタイトルの類似度を計算（0.0-1.0）"""
-    import re
-    
-    def normalize_title(t):
-        # タイトルを正規化（小文字化、記号除去、単語分割）
-        t = t.lower()
-        t = re.sub(r'[^\w\s]', '', t)
-        return set(t.split())
-    
-    words1 = normalize_title(title1)
-    words2 = normalize_title(title2)
-    
-    if not words1 or not words2:
-        return 0.0
-    
-    # 共通単語の数
-    common_words = words1 & words2
-    if len(common_words) < 3:
-        return 0.0
-    
-    # Jaccard類似度（共通単語 / 全単語）
-    all_words = words1 | words2
-    similarity = len(common_words) / len(all_words) if all_words else 0.0
-    
-    # より厳密なチェック: 共通率が60%以上かつ、短い方のタイトルの70%以上が共通
-    min_length = min(len(words1), len(words2))
-    if min_length > 0:
-        coverage = len(common_words) / min_length
-        if similarity >= 0.6 and coverage >= 0.7:
-            return similarity
-    
-    return 0.0
-
-def normalize_title_for_similarity(text: str) -> str:
-    """日本語向けにタイトルを簡易正規化（英数字・ひらがな・カタカナ・漢字のみ残す）"""
-    import re
-    if not text:
-        return ""
-    text = text.lower()
-    # 記号・余分な空白を除去
-    text = re.sub(r'\s+', '', text)
-    text = re.sub(r'[^a-z0-9\u3040-\u30ff\u4e00-\u9fff]', '', text)
-    return text
-
-def title_similarity_char(a: str, b: str) -> float:
-    """文字ベース類似度（日本語向け）。SequenceMatcherを使用。"""
-    from difflib import SequenceMatcher
-    na = normalize_title_for_similarity(a)
-    nb = normalize_title_for_similarity(b)
-    if not na or not nb:
-        return 0.0
-    return SequenceMatcher(None, na, nb).ratio()
-
 def preprocess_news(news_list):
     """ニュースの事前処理：重複除外、カテゴリー分類、バランス選択"""
     import re
@@ -916,12 +627,11 @@ def preprocess_news(news_list):
     from datetime import datetime, timedelta
     
     # 0. 過去の記事ファイルから既出ニュースを抽出
-    past_urls = set()  # 正規化されたURLのセット
-    past_urls_original = set()  # 元のURLも保持（抽出用）
+    past_urls = set()
     past_titles = []
     
-    # 過去7日分の記事ファイルをチェック（3日→7日に延長）
-    for days_ago in range(1, 8):
+    # 過去3日分の記事ファイルをチェック
+    for days_ago in range(1, 4):
         past_date = datetime.now(HKT) - timedelta(days=days_ago)
         past_file = f"daily-articles/hongkong-news_{past_date.strftime('%Y-%m-%d')}.md"
         
@@ -931,253 +641,77 @@ def preprocess_news(news_list):
                 with open(past_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                     
-                    # URLを抽出（複数の形式に対応）
-                    # 形式1: **リンク**: https://...（同じ行）
-                    url_matches1 = re.findall(r'\*\*リンク\*\*:\s*(https?://[^\s\n]+)', content)
-                    # 形式2: **リンク**: の後の独立行のURL（改行後すぐのURL）
-                    url_matches2 = re.findall(r'\*\*リンク\*\*:[^\n]*\n+\n*(https?://[^\s\n]+)', content)
-                    # 形式3: **引用元**: の後の独立行のURL（最も一般的な形式、改行後にURLが来る）
-                    url_matches3 = re.findall(r'\*\*引用元\*\*:[^\n]+\n+\n*(https?://[^\s\n]+)', content)
-                    # 形式4: ### 見出しの後の段落で、**引用元**: または **リンク**: の直後に来る独立行のURL
-                    url_matches4 = re.findall(r'(?:\*\*引用元\*\*:|\*\*リンク\*\*:)[^\n]*(?:\n+)(https?://[^\s\n]+)', content)
-                    
-                    all_urls = url_matches1 + url_matches2 + url_matches3 + url_matches4
-                    # 重複を除去（同じURLが複数のパターンで抽出される可能性がある）
-                    all_urls = list(set(all_urls))
-                    for url in all_urls:
-                        # 元のURLも保持
-                        past_urls_original.add(url.strip())
-                        # 正規化したURLを追加
-                        normalized = normalize_url(url.strip())
-                        if normalized:
-                            past_urls.add(normalized)
+                    # URLを抽出（**リンク**: の後のURL）
+                    url_matches = re.findall(r'\*\*リンク\*\*:\s*(https?://[^\s]+)', content)
+                    past_urls.update(url_matches)
                     
                     # タイトルを抽出（### の後のタイトル）
                     title_matches = re.findall(r'^### (.+)$', content, re.MULTILINE)
                     # 天気予報のタイトルは除外
-                    filtered_titles = [t for t in title_matches if '天気' not in t and 'weather' not in t.lower() and '天気予報' not in t]
-                    past_titles.extend(filtered_titles)
+                    past_titles.extend([t for t in title_matches if '天気' not in t and 'weather' not in t.lower()])
                     
-                print(f"  ✓ 既出URL: {len(all_urls)}件（正規化後: {len(past_urls)}件）、既出タイトル: {len(filtered_titles)}件")
+                print(f"  ✓ 既出URL: {len(url_matches)}件、既出タイトル: {len([t for t in title_matches if '天気' not in t])}件")
             except Exception as e:
                 print(f"  ⚠️  ファイル読み込みエラー: {e}")
     
     if past_urls:
-        print(f"🔍 過去記事から合計 {len(past_urls_original)} 件のURL（正規化後: {len(past_urls)}件）と {len(past_titles)} 件のタイトルを抽出")
+        print(f"🔍 過去記事から合計 {len(past_urls)} 件のURLと {len(past_titles)} 件のタイトルを抽出")
     
     # 過去記事との重複を除外
     filtered_news = []
     duplicate_count = 0
-    url_duplicate_count = 0
-    title_duplicate_count = 0
     
     for news in news_list:
         url = news.get('url', '')
         title = news.get('title', '')
         description = news.get('description', '')
         
-        # 採用・募集記事は除外
-        recruit_keywords = [
-            '募集', '求人', '採用', '人材募集', '職種募集', 'キャリア', '採用情報', '採用のお知らせ',
-            '招聘', '招聘啟事', '職位空缺', '職缺', '徵才', '招募', '招賢納士',
-            'recruit', 'recruiting', 'recruitment', 'hiring', 'we are hiring', 'career', 'job opening', 'vacancies', 'vacancy'
-        ]
-        text_lower = (title + ' ' + description).lower()
-        if any(k in text_lower for k in [kw.lower() for kw in recruit_keywords]):
-            duplicate_count += 1
-            continue
-
         # 天気関連のニュースを除外
-        weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度', 'tropical', 'storm', 'typhoon', '台風']
-        if any(keyword in title.lower() or keyword in description.lower() for keyword in weather_keywords):
+        weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度']
+        if any(keyword in title.lower() or keyword in title for keyword in weather_keywords):
             duplicate_count += 1
             continue
         
-        # URL重複チェック（正規化後のURLで比較）
-        normalized_url = normalize_url(url)
-        if normalized_url and normalized_url in past_urls:
-            url_duplicate_count += 1
+        # URL重複チェック
+        if url in past_urls:
             duplicate_count += 1
             continue
         
-        # タイトル類似度チェック（類似度が0.6以上なら重複とみなす）
-        is_similar = False
-        for past_title in past_titles:
-            similarity = calculate_title_similarity(title, past_title)
-            if similarity >= 0.6:
-                is_similar = True
-                title_duplicate_count += 1
-                break
-        
-        if is_similar:
+        # タイトル重複チェック（正規化）
+        normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+        if any(re.sub(r'[^\w\s]', '', past_title.lower()) == normalized_title for past_title in past_titles):
             duplicate_count += 1
             continue
         
         filtered_news.append(news)
     
     if duplicate_count > 0:
-        print(f"🚫 過去記事との重複除外: {duplicate_count}件（URL重複: {url_duplicate_count}件、タイトル類似: {title_duplicate_count}件）")
+        print(f"🚫 過去記事との重複除外: {duplicate_count}件")
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     
-    # 1. 同日内重複除外（URLとタイトルの両方でチェック）
-    seen_titles_normalized = set()  # 正規化されたタイトル（高速チェック用）
-    seen_titles_original = []  # 元のタイトル（類似度チェック用）
-    seen_urls = set()  # 正規化されたURLのセット
+    # 1. 同日内重複除外
+    seen_titles = set()
     unique_news = []
     same_day_duplicates = 0
-    same_day_url_duplicates = 0
-    same_day_title_duplicates = 0
     
-    def is_hk_related_news(item):
-        title = item.get('title', '') or ''
-        description = item.get('description', '') or ''
-        url = item.get('url', '') or ''
-        source = item.get('source', '') or ''
-
-        text = f"{title} {description}".lower()
-        url_l = url.lower()
-        src_l = source.lower()
-
-        positive = [
-            'hong kong', 'hongkong', '香港', 'kowloon', '九龍', '新界', 'hksar', '尖沙咀', '灣仔', '中環', '旺角',
-            '香港天文台', 'hong kong observatory', 'mtr', '港鐵', 'hkex', '香港交易所'
-        ]
-        gba_terms = [
-            'greater bay area', 'gba', '粵港澳大灣區', '粤港澳大湾区', '大湾区', '珠三角',
-            'guangdong', 'shenzhen', 'dongguan', 'guangzhou', 'foshan', 'zhuhai', 'huizhou', 'zhongshan', 'jiangmen', 'zhaoqing',
-            '深圳', '深セン', '东莞', '東莞', '广州', '広州', '珠海', '佛山', '惠州', '中山', '江門', '江门', '肇慶', '肇庆'
-        ]
-
-        # 1) 強い肯定: 本文にHK/GBA語が含まれる
-        if any(p in text for p in positive) or any(t in text for t in gba_terms):
-            return True
-
-        # 2) URLでの肯定（香港/大湾区の明示的パス）
-        if any(seg in url_l for seg in ['/hong-kong', '/hongkong', '/news/hong-kong', '/greater-bay-area', '/gba/']):
-            return True
-
-        # 3) .hkドメインは候補。ただしGoogle Newsの中継URLは除外
-        try:
-            from urllib.parse import urlparse
-            host = urlparse(url_l).netloc
-        except Exception:
-            host = ''
-        if (host.endswith('.hk') or '.com.hk' in host) and 'news.google.' not in host:
-            return True
-
-        # 4) SCMPは香港パス必須（世界記事を除外）
-        if 'scmp' in src_l or 'scmp.com' in url_l:
-            return ('/hong-kong' in url_l) or ('/hongkong' in url_l) or ('/news/hong-kong' in url_l)
-
-        # 5) それ以外は香港性を確認できないため除外
-        return False
-
     for news in filtered_news:
-        url = news.get('url', '')
         title = news.get('title', '')
         normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-        normalized_url = normalize_url(url)
         
-        # 香港関連以外は除外（SCMPビジネス等の世界記事の混入を防ぐ）
-        if not is_hk_related_news(news):
+        if normalized_title not in seen_titles:
+            seen_titles.add(normalized_title)
+            unique_news.append(news)
+        else:
             same_day_duplicates += 1
-            continue
-
-        # URL重複チェック
-        is_url_duplicate = normalized_url and normalized_url in seen_urls
-        
-        # タイトル重複チェック（正規化後の完全一致）
-        is_title_duplicate = normalized_title in seen_titles_normalized
-        
-        # タイトル類似度チェックも実行（既に追加済みのニュースと比較）
-        if not is_title_duplicate:
-            for existing_title in seen_titles_original:
-                # 日本語向け：文字ベース類似を優先
-                similarity_char = title_similarity_char(title, existing_title)
-                if similarity_char >= 0.85:
-                    is_title_duplicate = True
-                    break
-                # 英語/単語ベースの場合の後方互換
-                similarity = calculate_title_similarity(title, existing_title)
-                if similarity >= 0.7:
-                    is_title_duplicate = True
-                    break
-        
-        if is_url_duplicate or is_title_duplicate:
-            same_day_duplicates += 1
-            if is_url_duplicate:
-                same_day_url_duplicates += 1
-            if is_title_duplicate:
-                same_day_title_duplicates += 1
-            continue
-        
-        # 重複なしの場合、リストに追加
-        unique_news.append(news)
-        seen_titles_normalized.add(normalized_title)
-        seen_titles_original.append(title)  # 元のタイトルも保持
-        if normalized_url:
-            seen_urls.add(normalized_url)
     
     if same_day_duplicates > 0:
-        print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件（URL重複: {same_day_url_duplicates}件、タイトル類似: {same_day_title_duplicates}件）")
+        print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
     
-    # 2. イベントレベルのクラスタリング（同一出来事を1本に統合）
-    def build_event_key(text: str) -> str:
-        t = (text or '').lower()
-        if any(k in t for k in ['全国運動会', '全国連動会', '全運會']):
-            if any(k in t for k in ['聖火', 'torch', '火炬']):
-                return 'event_ng_torch'
-            return 'event_ng_general'
-        if 'apec' in t:
-            return 'event_apec'
-        if any(k in t for k in ['転落', '墜落']) and any(k in t for k in ['建設', '工事', '現場', '足場']):
-            return 'event_construction_fall'
-        if any(k in t for k in ['粤車南下', '南下通車', '粵車']):
-            return 'event_yueche_southbound'
-        return ''
-
-    clustered = []
-    cluster_reprs = []  # (event_key, title_repr)
-    for item in unique_news:
-        title = item.get('title', '')
-        event_key = build_event_key(title)
-        joined = False
-        if event_key:
-            # 既存クラスタで同event_keyがあれば置換/採用
-            for idx, (ek, trepr) in enumerate(cluster_reprs):
-                if ek == event_key:
-                    prev = clustered[idx]
-                    prev_len = len(prev.get('full_content', prev.get('description', '')))
-                    curr_len = len(item.get('full_content', item.get('description', '')))
-                    if curr_len > prev_len:
-                        clustered[idx] = item
-                        cluster_reprs[idx] = (event_key, title)
-                    joined = True
-                    break
-        if joined:
-            continue
-        # 文字ベース類似度で近いクラスタに吸収
-        merged = False
-        for idx, (ek, trepr) in enumerate(cluster_reprs):
-            if title_similarity_char(title, trepr) >= 0.85:
-                prev = clustered[idx]
-                prev_len = len(prev.get('full_content', prev.get('description', '')))
-                curr_len = len(item.get('full_content', item.get('description', '')))
-                if curr_len > prev_len:
-                    clustered[idx] = item
-                    cluster_reprs[idx] = (ek or event_key, title)
-                merged = True
-                break
-        if not merged:
-            clustered.append(item)
-            cluster_reprs.append((event_key, title))
-    print(f"🧮 イベント統合: {len(unique_news)} → {len(clustered)}件（イベントキー/文字類似≥0.85）")
-
-    # 3. カテゴリー分類
+    # 2. カテゴリー分類
     categorized = defaultdict(list)
     
-    for news in clustered:
+    for news in unique_news:
         title = news.get('title', '').lower()
         description = news.get('description', '').lower()
         content = f"{title} {description}"
@@ -1212,18 +746,9 @@ def preprocess_news(news_list):
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 4. バランス選択（厳しめ1本/イベント + バラエティ確保 + 最低件数枠）
+    # 3. バランス選択（優先順位に基づいて15-20件選択）
     selected = []
-    target_count = 33  # ご指定: 合計33件
-    max_per_source = 6
-    per_source_counts = defaultdict(int)
-    # 最低件数枠
-    min_quota = {
-        'テクノロジー': 10,
-        'ビジネス・経済': 10,
-        'カルチャー': 8,
-        '社会・その他': 5,
-    }
+    target_count = 18  # 15-20件に調整（API制限を考慮）
     
     # カテゴリーごとの優先順位（ユーザー指定順）
     priority_cats = [
@@ -1239,82 +764,45 @@ def preprocess_news(news_list):
         '交通'                # 10位: 1件
     ]
     
-    # 4-1. 最低件数枠を優先充当（ソース上限・イベントキー制約を尊重）
-    quota_progress = defaultdict(int)
-    for cat, needed in min_quota.items():
-        if cat not in categorized or not categorized[cat]:
-            continue
-        for item in categorized[cat][:]:
-            if quota_progress[cat] >= needed:
-                break
-            if len(selected) >= target_count:
-                break
-            src = item.get('source', 'unknown')
-            if per_source_counts[src] >= max_per_source:
-                continue
-            event_key = build_event_key(item.get('title', ''))
-            if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
-                continue
-            selected.append(item)
-            per_source_counts[src] += 1
-            quota_progress[cat] += 1
-            categorized[cat].remove(item)
-
-    # 4-1b. まだ quota 未達のカテゴリがある場合、ソース上限を一時的に無視して充当
-    for cat, needed in min_quota.items():
-        if quota_progress[cat] >= needed:
-            continue
-        if cat not in categorized or not categorized[cat]:
-            continue
-        for item in categorized[cat][:]:
-            if quota_progress[cat] >= needed:
-                break
-            if len(selected) >= target_count:
-                break
-            event_key = build_event_key(item.get('title', ''))
-            if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
-                continue
-            selected.append(item)
-            # per_source_countsは加算するが、上限チェックはスキップしている
-            per_source_counts[item.get('source','unknown')] += 1
-            quota_progress[cat] += 1
-            categorized[cat].remove(item)
-
-    # 4-2. 余枠があれば優先順位順に充当（ソース上限を尊重）
+    # 各カテゴリーから優先順位に基づいて選択
     for cat in priority_cats:
-        if len(selected) >= target_count:
-            break
-        if cat not in categorized or not categorized[cat]:
-            continue
-        for item in categorized[cat][:]:
+        if cat in categorized and categorized[cat]:
+            # 各カテゴリーから最大何件取るかを計算（API制限を考慮して調整）
+            if cat == 'ビジネス・経済':
+                max_count = min(4, len(categorized[cat]))  # 1位: 4件
+            elif cat == '社会・その他':
+                max_count = min(3, len(categorized[cat]))  # 2位: 3件
+            elif cat == 'カルチャー':
+                max_count = min(3, len(categorized[cat]))  # 3位: 3件
+            elif cat == '不動産':
+                max_count = min(2, len(categorized[cat]))  # 4位: 2件
+            elif cat == '政治・行政':
+                max_count = min(2, len(categorized[cat]))  # 5位: 2件
+            elif cat == '医療・健康':
+                max_count = min(2, len(categorized[cat]))  # 6位: 2件
+            elif cat == '治安・犯罪':
+                max_count = min(1, len(categorized[cat]))  # 7位: 1件
+            elif cat == 'テクノロジー':
+                max_count = min(1, len(categorized[cat]))  # 8位: 1件
+            else:
+                max_count = min(1, len(categorized[cat]))  # 9-10位: 1件
+            
+            # 選択
+            for i in range(max_count):
+                if categorized[cat] and len(selected) < target_count:
+                    selected.append(categorized[cat].pop(0))
+            
             if len(selected) >= target_count:
                 break
-            src = item.get('source', 'unknown')
-            if per_source_counts[src] >= max_per_source:
-                continue
-            event_key = build_event_key(item.get('title', ''))
-            if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
-                continue
-            selected.append(item)
-            per_source_counts[src] += 1
-            categorized[cat].remove(item)
-
-    # 4-3. まだ足りなければ、上限を緩めて充当（イベントキー制約は維持）
+    
+    # まだ足りない場合は残りのカテゴリーから追加
     if len(selected) < target_count:
         for cat in priority_cats:
-            if len(selected) >= target_count:
-                break
-            if cat not in categorized or not categorized[cat]:
-                continue
-            for item in categorized[cat][:]:
+            if cat in categorized and categorized[cat]:
+                while categorized[cat] and len(selected) < target_count:
+                    selected.append(categorized[cat].pop(0))
                 if len(selected) >= target_count:
                     break
-                event_key = build_event_key(item.get('title', ''))
-                if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
-                    continue
-                selected.append(item)
-                per_source_counts[item.get('source','unknown')] += 1
-                categorized[cat].remove(item)
     
     print(f"\n✅ 選択完了: {len(selected)}件（優先順位調整済み）")
     
@@ -1397,4 +885,3 @@ if __name__ == "__main__":
     else:
         print("\n❌ 記事生成に失敗しました")
         sys.exit(1)
-

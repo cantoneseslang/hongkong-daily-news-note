@@ -111,14 +111,6 @@ def dedup_sections(markdown: str, sim_threshold: float = 0.9):
     for sec in rest:
         # Reattach header marker
         block = "### " + sec
-        # Title-only check for HK markers
-        first_nl = sec.find('\n')
-        title_text = (sec[:first_nl] if first_nl != -1 else sec).strip()
-        title_l = title_text.lower()
-        # Title-only check for HK markers
-        first_nl = sec.find('\n')
-        title_text = (sec[:first_nl] if first_nl != -1 else sec).strip()
-        title_l = title_text.lower()
         # Extract title (first line after '### ')
         lines = sec.split('\n')
         title = lines[0].strip() if lines else ""
@@ -151,96 +143,6 @@ def dedup_sections(markdown: str, sim_threshold: float = 0.9):
     return result.strip() + "\n"
 
 
-def filter_non_hk_sections(markdown: str) -> str:
-    """Remove sections that are not clearly Hong Kong/GBA related.
-
-    Heuristics:
-    - Keep if section text contains HK/GBA markers (JA/EN/ZH)
-    - Keep if URL path contains /hong-kong, /hongkong, /greater-bay-area, /gba/
-    - SCMP must have /hong-kong* in path
-    - Drop Google News relay URLs unless text has HK markers
-    """
-    hk_markers = [
-        'hong kong', 'hongkong', '香港', '九龍', '新界', '中環', '尖沙咀', '灣仔', '旺角',
-        'hksar', '香港天文台', '港鐵', 'mtr', 'hkex', '香港交易所'
-    ]
-    gba_markers = [
-        'greater bay area', 'gba', '粵港澳大灣區', '粤港澳大湾区', '大湾区', '珠三角',
-        '深圳', '深セン', '东莞', '東莞', '广州', '広州', '珠海', '佛山', '惠州', '中山', '江門', '江门', '肇慶', '肇庆',
-        'shenzhen', 'dongguan', 'guangzhou', 'foshan', 'zhuhai', 'huizhou', 'zhongshan', 'jiangmen', 'zhaoqing'
-    ]
-
-    import re
-    from urllib.parse import urlparse
-
-    parts = re.split(r"\n### ", markdown)
-    if len(parts) <= 1:
-        return markdown
-
-    preface = parts[0]
-    rest = parts[1:]
-    kept = []
-
-    for sec in rest:
-        block = "### " + sec
-        # Title-only check for HK markers (compute once)
-        _first_nl = sec.find('\n')
-        _title_text = (sec[:_first_nl] if _first_nl != -1 else sec).strip()
-        # Ignore trailing source suffix like " - Techritual 香港" or separators like "｜"
-        import re as _re
-        _title_core = _re.split(r"\s[-|｜]\s", _title_text)[0]
-        title_l = _title_core.lower()
-        # Use only the narrative part before citation for HK marker checks
-        citation_idx = block.find("**引用元**:")
-        narrative = block[:citation_idx] if citation_idx != -1 else block
-        # Remove font-labelled source hints and HTML tags to avoid false HK hits
-        narrative = re.sub(r"<font[^>]*>.*?</font>", "", narrative, flags=re.DOTALL|re.IGNORECASE)
-        narrative = re.sub(r"<[^>]+>", "", narrative)
-        text_l = narrative.lower()
-        # Extract first independent URL
-        m = re.search(r"(?m)^(https?://\S+)$", block)
-        if m:
-            url = m.group(1)
-        else:
-            # Fallback: extract first href URL inside HTML
-            m2 = re.search(r"href=\"(https?://[^\"\s]+)\"", block)
-            url = m2.group(1) if m2 else ''
-        host = urlparse(url).netloc.lower() if url else ''
-        path = urlparse(url).path.lower() if url else ''
-
-        # Prefer title-based HK detection to avoid false positives from link lists
-        has_hk = any(k in title_l for k in hk_markers) or any(k in title_l for k in gba_markers)
-        has_hk_path = any(seg in path for seg in ['/hong-kong', '/hongkong', '/greater-bay-area', '/gba/'])
-
-        # SCMP must have explicit hong-kong path
-        if 'scmp' in host and not has_hk_path:
-            continue
-
-        # Drop Google News relay unless content has HK markers
-        if 'news.google.' in host and not (has_hk or has_hk_path):
-            continue
-
-        # Default rule: keep only if we can confirm HK/GBA markers in title or path indicates HK
-        if not (has_hk or has_hk_path):
-            continue
-
-        kept.append(block.strip())
-
-    return preface.rstrip() + ("\n\n" if preface and kept else "") + "\n\n".join(kept) + "\n"
-
-
-def normalize_weather_heading(markdown: str) -> str:
-    """Flatten weather heading so it appears in ToC as top-level like other news.
-
-    Convert:
-      ## 本日の香港の天気\n\n### 天気予報\n...
-    to:
-      ### 天気予報（香港）\n...
-    """
-    pattern = r"## 本日の香港の天気\s*\n\s*### 天気予報"
-    return re.sub(pattern, "### 天気予報（香港）", markdown)
-
-
 def main():
     if len(sys.argv) < 2:
         print("Usage: sanitize_article.py <article.md>")
@@ -257,14 +159,8 @@ def main():
     # 1) Remove invalid weather block
     content = remove_invalid_weather_section(content)
 
-    # 1b) Normalize weather heading so it's a top-level section (###)
-    content = normalize_weather_heading(content)
-
     # 2) Deduplicate sections
     content = dedup_sections(content)
-
-    # 3) Remove non-HK sections
-    content = filter_non_hk_sections(content)
 
     if content != original:
         path.write_text(content, encoding='utf-8')

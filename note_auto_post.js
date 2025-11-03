@@ -377,6 +377,50 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     await bodyBox.click({ force: true });
 
     const lines = body.split('\n');
+    let tocInsertLine = -1;
+    let shouldInsertToc = false;
+    
+    // 一番最初の空行を検出（ここに目次を挿入）
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].trim() === '') {
+        tocInsertLine = i;
+        shouldInsertToc = true;
+        console.log(`✓ 目次挿入位置を${i}行目で検出（一番最初の空行）`);
+        break;
+      }
+    }
+    
+    // 最初の空行の場合、本文入力前に目次を挿入
+    if (shouldInsertToc && tocInsertLine === 0) {
+      console.log('📋 目次を挿入中（本文入力前）...');
+      
+      try {
+        // 現在カーソルは本文の最初の行（空行）にある
+        
+        // +ボタンをクリック（メニューを開く）
+        const menuButton = page.locator('button[aria-label="メニューを開く"]');
+        await menuButton.waitFor({ state: 'visible', timeout: 5000 });
+        await menuButton.click();
+        await page.waitForTimeout(1000);
+        console.log('✓ メニューを開きました');
+        
+        // 目次ボタンをクリック
+        const tocButton = page.locator('button:has-text("目次")');
+        await tocButton.waitFor({ state: 'visible', timeout: 5000 });
+        await tocButton.click();
+        await page.waitForTimeout(3000);
+        console.log('✓ 目次を挿入しました');
+        
+        // 目次の後に改行して、次の行に移動
+        await page.keyboard.press('Enter');
+        await page.waitForTimeout(500);
+        
+        shouldInsertToc = false; // 挿入済みフラグ
+      } catch (e) {
+        console.log('⚠️  目次挿入エラー:', e.message);
+        console.log('手動で目次を挿入してください。');
+      }
+    }
     
     console.log(`📝 本文を入力中... (全${lines.length}行)`);
     
@@ -384,7 +428,10 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       const line = lines[i];
       const isLastLine = i === lines.length - 1;
       
-      // （本文入力前の目次挿入は行わない）
+      // 目次を挿入した場合、最初の空行はスキップ
+      if (i === 0 && tocInsertLine === 0 && !shouldInsertToc) {
+        continue;
+      }
       
       // 進捗表示（10行ごと）
       if (i > 0 && i % 10 === 0) {
@@ -429,16 +476,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log(`🖼️  画像+リンクを挿入中: ${actualImagePath}`);
           
           try {
-            // 画像アップロードメニューを開く
-            const menuButton = page.locator('button[aria-label="メニューを開く"]').first();
-            await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-            await menuButton.click();
-            await page.waitForTimeout(500);
-            const uploadButton = page.locator('button:has-text("画像をアップロード")').first();
-            await uploadButton.waitFor({ state: 'visible', timeout: 5000 });
-            await uploadButton.click();
-            await page.waitForTimeout(500);
-
             // ファイルアップロード
             const fileInput = await page.$('input[type="file"]');
             if (fileInput) {
@@ -560,16 +597,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log(`🖼️  画像を挿入中: ${actualImagePath}`);
           
           try {
-            // 画像アップロードメニューを開く
-            const menuButton = page.locator('button[aria-label="メニューを開く"]').first();
-            await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-            await menuButton.click();
-            await page.waitForTimeout(500);
-            const uploadButton = page.locator('button:has-text("画像をアップロード")').first();
-            await uploadButton.waitFor({ state: 'visible', timeout: 5000 });
-            await uploadButton.click();
-            await page.waitForTimeout(500);
-
             // ファイルアップロード
             const fileInput = await page.$('input[type="file"]');
             if (fileInput) {
@@ -638,37 +665,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       }
     }
     console.log('✓ 本文入力完了');
-
-    // 本文入力後に目次を先頭へ挿入（ヘッディングを全て反映させるため）
-    try {
-      console.log('📋 目次を挿入中（本文入力後・先頭）...');
-      await page.evaluate(() => window.scrollTo(0, 0));
-      // 本文編集領域をフォーカスして先頭にキャレットを移動
-      const editorBox = page.locator('div[contenteditable="true"][role="textbox"]').first();
-      await editorBox.waitFor({ state: 'visible', timeout: 5000 });
-      await editorBox.click({ position: { x: 10, y: 10 } });
-      // Home/PageUpを複数回送って先頭へ
-      for (let k = 0; k < 5; k++) {
-        await page.keyboard.press('Home');
-        await page.keyboard.press('PageUp');
-      }
-      await page.waitForTimeout(500);
-
-      // メニューを開いて「目次」を挿入
-      const menuButtonTop = page.locator('button[aria-label="メニューを開く"]').first();
-      await menuButtonTop.waitFor({ state: 'visible', timeout: 5000 });
-      await menuButtonTop.click();
-      await page.waitForTimeout(500);
-      const tocButtonTop = page.locator('button:has-text("目次")').first();
-      await tocButtonTop.waitFor({ state: 'visible', timeout: 5000 });
-      await tocButtonTop.click();
-      await page.waitForTimeout(1500);
-      // 目次の直後に改行（以降本文先頭）
-      await page.keyboard.press('Enter');
-      console.log('✓ 目次を挿入しました');
-    } catch (e) {
-      console.log('⚠️  目次挿入エラー（本文後）:', e.message);
-    }
 
     if (isPublish) {
       console.log('📤 公開処理を開始...');

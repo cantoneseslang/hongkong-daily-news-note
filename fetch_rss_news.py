@@ -43,6 +43,40 @@ class RSSNewsAPI:
         self.history_file = history_file
         self.processed_urls = self._load_processed_urls()
     
+    def _is_hk_related(self, title: str, description: str, url: str, source_name: str = "") -> bool:
+        """香港関連かを厳格判定（タイトル/説明/URL/ソース）"""
+        text = f"{title} {description}".lower()
+        url_l = (url or "").lower()
+        source_l = (source_name or "").lower()
+
+        # 強い肯定条件
+        positive = [
+            'hong kong', 'hongkong', '香港', 'kowloon', '九龍', '新界', '香港特別行政區', 'hksar',
+            'tsim sha tsui', '尖沙咀', 'wan chai', '灣仔', 'central', '中環', 'mong kok', '旺角',
+            'rthk', 'hk01', 'hket', 'scmp', 'the standard', 'chinadaily', 'now新聞', 'now news',
+            'hong kong observatory', '香港天文台', 'hkex', '香港交易所', 'mtr', '港鐵'
+        ]
+        if any(p in text for p in positive):
+            return True
+
+        # URLでの肯定（ドメイン・パス）
+        url_positive = [
+            '/hong-kong', '/hongkong', '/news/hong-kong', '/category/hong-kong',
+            '.hk/', '.hk?', '.hk#'
+        ]
+        if any(u in url_l for u in url_positive):
+            return True
+
+        # ソース名での肯定（香港主要媒体）
+        if any(s in source_l for s in ['rthk', 'hk01', 'hket', 'the standard', 'chinadaily hk', 'yahoo news hk']):
+            return True
+
+        # SCMPはBusiness/Lifestyleなど世界記事が混ざるため、URLで香港パス必須
+        if 'scmp' in source_l or 'scmp.com' in url_l:
+            return ('/hong-kong' in url_l) or ('/hongkong' in url_l) or ('/news/hong-kong' in url_l)
+
+        return False
+
     def _load_processed_urls(self) -> Set[str]:
         """処理済みURLを読み込み"""
         try:
@@ -276,7 +310,12 @@ class RSSNewsAPI:
                 if self._is_forbidden_content(title, description):
                     filtered_count += 1
                     continue
-                
+
+                # 香港関連の厳格判定
+                if not self._is_hk_related(title, description, url, 'SCMP'):
+                    filtered_count += 1
+                    continue
+
                 news_list.append({
                     'title': title,
                     'description': description,
@@ -316,6 +355,10 @@ class RSSNewsAPI:
                 
                 # 禁止コンテンツフィルタリング
                 if self._is_forbidden_content(title, description):
+                    filtered_count += 1
+                    continue
+
+                if not self._is_hk_related(title, description, url, 'RTHK'):
                     filtered_count += 1
                     continue
                 
@@ -359,6 +402,10 @@ class RSSNewsAPI:
                 if self._is_forbidden_content(title, description):
                     filtered_count += 1
                     continue
+
+                if not self._is_hk_related(title, description, url, 'Yahoo News HK'):
+                    filtered_count += 1
+                    continue
                 
                 news_list.append({
                     'title': title,
@@ -397,6 +444,10 @@ class RSSNewsAPI:
                 
                 # 禁止コンテンツフィルタリング
                 if self._is_forbidden_content(title, description):
+                    filtered_count += 1
+                    continue
+
+                if not self._is_hk_related(title, description, url, 'Google News HK'):
                     filtered_count += 1
                     continue
                 
@@ -439,6 +490,10 @@ class RSSNewsAPI:
                 if self._is_forbidden_content(title, description):
                     filtered_count += 1
                     continue
+
+                if not self._is_hk_related(title, description, url, 'China Daily HK'):
+                    filtered_count += 1
+                    continue
                 
                 news_list.append({
                     'title': title,
@@ -477,6 +532,10 @@ class RSSNewsAPI:
                 
                 # 禁止コンテンツフィルタリング
                 if self._is_forbidden_content(title, description):
+                    filtered_count += 1
+                    continue
+
+                if not self._is_hk_related(title, description, url, 'Hong Kong Free Press'):
                     filtered_count += 1
                     continue
                 
@@ -520,6 +579,10 @@ class RSSNewsAPI:
                     
                     # 禁止コンテンツフィルタリング
                     if self._is_forbidden_content(title, description):
+                        filtered_count += 1
+                        continue
+
+                    if not self._is_hk_related(title, description, url, 'HKET'):
                         filtered_count += 1
                         continue
                     
@@ -568,6 +631,10 @@ class RSSNewsAPI:
                 
                 # 禁止コンテンツフィルタリング
                 if self._is_forbidden_content(title, description):
+                    filtered_count += 1
+                    continue
+
+                if not self._is_hk_related(title, description, url, source_name):
                     filtered_count += 1
                     continue
                 

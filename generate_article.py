@@ -365,16 +365,17 @@ URL: {url}
         translated_title = self._llm_translate_text(title)
         translated_desc = self._llm_translate_text(desc)
         
-        # 【絶対必須】TitleまたはDescriptionのいずれかが失敗した場合は完全に空文字列を返す
-        # 「翻訳エラー」メッセージを記事に表示することは許されない
-        # 「## 本日の香港の天気」も含めて何も表示しない
-        # 両方とも成功した場合のみ天気予報セクションを返す（日本語に翻訳された記事を投稿する）
+        # 【絶対必須】エラー表示は記事に出さない
         if '[翻訳エラー' in translated_title or '[翻訳エラー' in translated_desc:
-            return ""  # 翻訳失敗時は完全に空文字列を返す（何も表示しない）
-        
-        # 念のため、日本語性を再検証（API側の変化等に備えた二重防御）
-        if not self._is_japanese(translated_title) or not self._is_japanese(translated_desc):
             return ""
+
+        # Descriptionは厳格に日本語判定（失敗ならセクションごと非表示）
+        if not self._is_japanese(translated_desc):
+            return ""
+
+        # Titleは短文・漢字比率が高くても許容。弱い場合は安全な日本語タイトルに差し替え
+        if not self._is_japanese_title(translated_title):
+            translated_title = "香港天文台が発表した天気予報"
         
         # 翻訳成功時のみ天気予報セクションを返す（ミッション：中国語を日本語に翻訳された記事を投稿）
         weather_section = f"## 本日の香港の天気\n\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
@@ -512,6 +513,16 @@ URL: {url}
         # 11文字以上の場合のみ日本語と判定
         return count >= 11
     
+    def _is_japanese_title(self, text: str) -> bool:
+        """タイトル用の緩和判定：ひらがな/カタカナ1文字以上、または日本語キーワードを含む"""
+        if not text:
+            return False
+        import re
+        kana_count = len(re.findall(r'[\u3040-\u309F\u30A0-\u30FF]', text))
+        if kana_count >= 1:
+            return True
+        keywords = ['天気', '天気予報', '気象', '香港天文台', '予報', '天候']
+        return any(k in text for k in keywords)
     def _is_already_japanese(self, text: str) -> bool:
         """テキストが既に日本語のみかチェック（広東語/中文が含まれていない）（変更禁止）"""
         return not self._has_chinese_chars(text)
@@ -952,12 +963,36 @@ def preprocess_news(news_list):
     same_day_url_duplicates = 0
     same_day_title_duplicates = 0
     
+    def is_hk_related_news(item):
+        title = item.get('title', '').lower()
+        description = item.get('description', '').lower()
+        url = item.get('url', '').lower()
+        source = item.get('source', '').lower()
+        positive = [
+            'hong kong', 'hongkong', '香港', 'kowloon', '九龍', '新界', 'hksar', '尖沙咀', '灣仔', '中環', '旺角',
+            '香港天文台', 'hong kong observatory', 'mtr', '港鐵', 'hkex', '香港交易所'
+        ]
+        if any(p in (title + ' ' + description) for p in positive):
+            return True
+        if any(seg in url for seg in ['/hong-kong', '/hongkong', '/news/hong-kong']) or '.hk/' in url:
+            return True
+        if any(s in source for s in ['rthk', 'hk01', 'hket', 'the standard', 'chinadaily hk', 'yahoo news hk']):
+            return True
+        if 'scmp' in source or 'scmp.com' in url:
+            return ('/hong-kong' in url) or ('/hongkong' in url) or ('/news/hong-kong' in url)
+        return False
+
     for news in filtered_news:
         url = news.get('url', '')
         title = news.get('title', '')
         normalized_title = re.sub(r'[^\w\s]', '', title.lower())
         normalized_url = normalize_url(url)
         
+        # 香港関連以外は除外（SCMPビジネス等の世界記事の混入を防ぐ）
+        if not is_hk_related_news(news):
+            same_day_duplicates += 1
+            continue
+
         # URL重複チェック
         is_url_duplicate = normalized_url and normalized_url in seen_urls
         

@@ -1027,14 +1027,21 @@ def preprocess_news(news_list):
             'hong kong', 'hongkong', '香港', 'kowloon', '九龍', '新界', 'hksar', '尖沙咀', '灣仔', '中環', '旺角',
             '香港天文台', 'hong kong observatory', 'mtr', '港鐵', 'hkex', '香港交易所'
         ]
+        gba_terms = [
+            'greater bay area', 'gba', '粵港澳大灣區', '粤港澳大湾区', '大湾区', '珠三角',
+            'guangdong', 'shenzhen', 'dongguan', 'guangzhou', 'foshan', 'zhuhai', 'huizhou', 'zhongshan', 'jiangmen', 'zhaoqing',
+            '深圳', '深セン', '东莞', '東莞', '广州', '広州', '珠海', '佛山', '惠州', '中山', '江門', '江门', '肇慶', '肇庆'
+        ]
         if any(p in (title + ' ' + description) for p in positive):
             return True
-        if any(seg in url for seg in ['/hong-kong', '/hongkong', '/news/hong-kong']) or '.hk/' in url:
+        if any(seg in url for seg in ['/hong-kong', '/hongkong', '/news/hong-kong', '/greater-bay-area', '/gba/']) or '.hk/' in url:
             return True
         if any(s in source for s in ['rthk', 'hk01', 'hket', 'the standard', 'chinadaily hk', 'yahoo news hk']):
             return True
         if 'scmp' in source or 'scmp.com' in url:
             return ('/hong-kong' in url) or ('/hongkong' in url) or ('/news/hong-kong' in url)
+        if any(t in (title + ' ' + description) for t in gba_terms):
+            return True
         return False
 
     for news in filtered_news:
@@ -1176,11 +1183,18 @@ def preprocess_news(news_list):
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 4. バランス選択（厳しめ1本/イベント + バラエティ確保）
+    # 4. バランス選択（厳しめ1本/イベント + バラエティ確保 + 最低件数枠）
     selected = []
-    target_count = 18
+    target_count = 33  # ご指定: 合計33件
     max_per_source = 6
     per_source_counts = defaultdict(int)
+    # 最低件数枠
+    min_quota = {
+        'テクノロジー': 10,
+        'ビジネス・経済': 10,
+        'カルチャー': 8,
+        '社会・その他': 5,
+    }
     
     # カテゴリーごとの優先順位（ユーザー指定順）
     priority_cats = [
@@ -1196,25 +1210,48 @@ def preprocess_news(news_list):
         '交通'                # 10位: 1件
     ]
     
-    # 4-1. 各カテゴリーから最低1件ずつ（在庫があれば）
-    for cat in priority_cats:
-        if cat in categorized and categorized[cat]:
-            for item in categorized[cat][:]:
-                src = item.get('source', 'unknown')
-                if per_source_counts[src] >= max_per_source:
-                    continue
-                # 同一イベントキーは全体で1本に制限
-                event_key = build_event_key(item.get('title', ''))
-                if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
-                    continue
-                selected.append(item)
-                per_source_counts[src] += 1
-                categorized[cat].remove(item)
+    # 4-1. 最低件数枠を優先充当（ソース上限・イベントキー制約を尊重）
+    quota_progress = defaultdict(int)
+    for cat, needed in min_quota.items():
+        if cat not in categorized or not categorized[cat]:
+            continue
+        for item in categorized[cat][:]:
+            if quota_progress[cat] >= needed:
                 break
-        if len(selected) >= target_count:
-            break
+            if len(selected) >= target_count:
+                break
+            src = item.get('source', 'unknown')
+            if per_source_counts[src] >= max_per_source:
+                continue
+            event_key = build_event_key(item.get('title', ''))
+            if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
+                continue
+            selected.append(item)
+            per_source_counts[src] += 1
+            quota_progress[cat] += 1
+            categorized[cat].remove(item)
 
-    # 4-2. 優先順位に基づき残りを充当（ソース上限と在庫尊重）
+    # 4-1b. まだ quota 未達のカテゴリがある場合、ソース上限を一時的に無視して充当
+    for cat, needed in min_quota.items():
+        if quota_progress[cat] >= needed:
+            continue
+        if cat not in categorized or not categorized[cat]:
+            continue
+        for item in categorized[cat][:]:
+            if quota_progress[cat] >= needed:
+                break
+            if len(selected) >= target_count:
+                break
+            event_key = build_event_key(item.get('title', ''))
+            if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
+                continue
+            selected.append(item)
+            # per_source_countsは加算するが、上限チェックはスキップしている
+            per_source_counts[item.get('source','unknown')] += 1
+            quota_progress[cat] += 1
+            categorized[cat].remove(item)
+
+    # 4-2. 余枠があれば優先順位順に充当（ソース上限を尊重）
     for cat in priority_cats:
         if len(selected) >= target_count:
             break
@@ -1232,8 +1269,8 @@ def preprocess_news(news_list):
             selected.append(item)
             per_source_counts[src] += 1
             categorized[cat].remove(item)
-    
-    # 4-3. まだ足りない場合は残りから充当（ソース上限を維持）
+
+    # 4-3. まだ足りなければ、上限を緩めて充当（イベントキー制約は維持）
     if len(selected) < target_count:
         for cat in priority_cats:
             if len(selected) >= target_count:
@@ -1243,14 +1280,11 @@ def preprocess_news(news_list):
             for item in categorized[cat][:]:
                 if len(selected) >= target_count:
                     break
-                src = item.get('source', 'unknown')
-                if per_source_counts[src] >= max_per_source:
-                    continue
                 event_key = build_event_key(item.get('title', ''))
                 if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
                     continue
                 selected.append(item)
-                per_source_counts[src] += 1
+                per_source_counts[item.get('source','unknown')] += 1
                 categorized[cat].remove(item)
     
     print(f"\n✅ 選択完了: {len(selected)}件（優先順位調整済み）")

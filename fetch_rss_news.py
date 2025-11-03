@@ -67,6 +67,15 @@ class RSSNewsAPI:
         if any(u in url_l for u in url_positive):
             return True
 
+        # 粤港澳大湾区・広東省（深圳/東莞/広州/珠海/佛山/惠州/中山 等）を香港圏として許可
+        gba_terms = [
+            'greater bay area', 'gba', '粵港澳大灣區', '粤港澳大湾区', '大湾区', '珠三角',
+            'guangdong', 'shenzhen', 'dongguan', 'guangzhou', 'foshan', 'zhuhai', 'huizhou', 'zhongshan', 'jiangmen', 'zhaoqing',
+            '深圳', '深セン', '东莞', '東莞', '广州', '広州', '珠海', '佛山', '惠州', '中山', '江門', '江门', '肇慶', '肇庆'
+        ]
+        if any(t in text for t in gba_terms) or any(seg in url_l for seg in ['/greater-bay-area', '/gba/']):
+            return True
+
         # SCMPはBusiness/Lifestyleなど世界記事が混ざるため、URLで香港パス必須
         if 'scmp' in source_l or 'scmp.com' in url_l:
             return ('/hong-kong' in url_l) or ('/hongkong' in url_l) or ('/news/hong-kong' in url_l)

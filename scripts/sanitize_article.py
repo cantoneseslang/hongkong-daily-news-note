@@ -229,6 +229,18 @@ def filter_non_hk_sections(markdown: str) -> str:
     return preface.rstrip() + ("\n\n" if preface and kept else "") + "\n\n".join(kept) + "\n"
 
 
+def normalize_weather_heading(markdown: str) -> str:
+    """Flatten weather heading so it appears in ToC as top-level like other news.
+
+    Convert:
+      ## 本日の香港の天気\n\n### 天気予報\n...
+    to:
+      ### 天気予報（香港）\n...
+    """
+    pattern = r"## 本日の香港の天気\s*\n\s*### 天気予報"
+    return re.sub(pattern, "### 天気予報（香港）", markdown)
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: sanitize_article.py <article.md>")
@@ -244,6 +256,9 @@ def main():
 
     # 1) Remove invalid weather block
     content = remove_invalid_weather_section(content)
+
+    # 1b) Normalize weather heading so it's a top-level section (###)
+    content = normalize_weather_heading(content)
 
     # 2) Deduplicate sections
     content = dedup_sections(content)

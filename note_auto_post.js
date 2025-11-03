@@ -476,16 +476,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log(`🖼️  画像+リンクを挿入中: ${actualImagePath}`);
           
           try {
-            // 画像アップロードメニューを開く
-            const menuButton = page.locator('button[aria-label="メニューを開く"]').first();
-            await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-            await menuButton.click();
-            await page.waitForTimeout(500);
-            const uploadButton = page.locator('button:has-text("画像をアップロード")').first();
-            await uploadButton.waitFor({ state: 'visible', timeout: 5000 });
-            await uploadButton.click();
-            await page.waitForTimeout(500);
-
             // ファイルアップロード
             const fileInput = await page.$('input[type="file"]');
             if (fileInput) {
@@ -607,16 +597,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log(`🖼️  画像を挿入中: ${actualImagePath}`);
           
           try {
-            // 画像アップロードメニューを開く
-            const menuButton = page.locator('button[aria-label="メニューを開く"]').first();
-            await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-            await menuButton.click();
-            await page.waitForTimeout(500);
-            const uploadButton = page.locator('button:has-text("画像をアップロード")').first();
-            await uploadButton.waitFor({ state: 'visible', timeout: 5000 });
-            await uploadButton.click();
-            await page.waitForTimeout(500);
-
             // ファイルアップロード
             const fileInput = await page.$('input[type="file"]');
             if (fileInput) {

@@ -160,8 +160,14 @@ class RSSNewsAPI:
             '広告パートナー', '広告記事', 'スポンサー記事', 'PR記事', 'presented news',
             'building stronger communities through sports'  # 具体的な広告記事タイトル
         ]
+        # 採用・募集（求人/職缺/招聘/徵才）系は除外
+        recruit_keywords = [
+            'recruit', 'recruiting', 'recruitment', 'hiring', 'we are hiring', 'career', 'job opening', 'vacancies', 'vacancy',
+            '募集', '求人', '採用', '人材募集', '職種募集', 'キャリア', '採用情報', '採用のお知らせ',
+            '招聘', '招聘啟事', '職位空缺', '職缺', '徵才', '招募', '招賢納士'
+        ]
         
-        for keyword in forbidden_keywords:
+        for keyword in forbidden_keywords + recruit_keywords:
             if keyword.lower() in text:
                 return True
         

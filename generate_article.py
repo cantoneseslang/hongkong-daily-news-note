@@ -976,6 +976,17 @@ def preprocess_news(news_list):
         title = news.get('title', '')
         description = news.get('description', '')
         
+        # 採用・募集記事は除外
+        recruit_keywords = [
+            '募集', '求人', '採用', '人材募集', '職種募集', 'キャリア', '採用情報', '採用のお知らせ',
+            '招聘', '招聘啟事', '職位空缺', '職缺', '徵才', '招募', '招賢納士',
+            'recruit', 'recruiting', 'recruitment', 'hiring', 'we are hiring', 'career', 'job opening', 'vacancies', 'vacancy'
+        ]
+        text_lower = (title + ' ' + description).lower()
+        if any(k in text_lower for k in [kw.lower() for kw in recruit_keywords]):
+            duplicate_count += 1
+            continue
+
         # 天気関連のニュースを除外
         weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度', 'tropical', 'storm', 'typhoon', '台風']
         if any(keyword in title.lower() or keyword in description.lower() for keyword in weather_keywords):

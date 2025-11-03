@@ -490,9 +490,44 @@ URL: {url}
                 print(f"⚠️  天気翻訳エラー ({api_name}): {e}")
                 continue
         
-        # すべてのAPIで失敗した場合
-        print(f"❌ すべてのAPIで天気翻訳が失敗しました。原文を返却しません。")
+        # すべてのAPIで失敗した場合 → 最終フォールバック（Google Translate 非公式エンドポイント）
+        try:
+            print("🔄 最終フォールバック: Google Translateエンドポイントを使用")
+            translated = self._translate_via_google_translate(text)
+            if translated and self._is_japanese(translated):
+                print("✅ 天気翻訳成功 (google-translate-fallback)")
+                return translated
+            else:
+                print("⚠️  google-translate-fallbackの結果が日本語として不十分")
+        except Exception as e:
+            print(f"⚠️  google-translate-fallback エラー: {e}")
+
+        print(f"❌ すべての翻訳手段で天気翻訳が失敗しました。原文を返却しません。")
         return "[翻訳エラー: 天気情報の翻訳に失敗しました]"
+
+    def _translate_via_google_translate(self, text: str) -> str:
+        """Google Translateの非公式エンドポイントで簡易翻訳（キー不要・最終手段）"""
+        if not text:
+            return ""
+        import requests
+        import json as _json
+        url = "https://translate.googleapis.com/translate_a/single"
+        params = {
+            'client': 'gtx',
+            'sl': 'zh',   # 中国語→
+            'tl': 'ja',   # 日本語
+            'dt': 't',
+            'q': text,
+        }
+        resp = requests.get(url, params=params, timeout=15)
+        if resp.status_code != 200:
+            raise RuntimeError(f"HTTP {resp.status_code}")
+        data = resp.json()
+        # data[0] は [[訳文, 原文, ...], ...] 構造
+        if data and isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
+            parts = [seg[0] for seg in data[0] if seg and isinstance(seg, list) and seg[0]]
+            return ''.join(parts).strip()
+        return ""
     
     # 【重要・変更禁止】広東語/中文検証関数
     # これらの関数を削除・無効化すると、翻訳失敗を検出できず広東語が残ります
@@ -853,6 +888,26 @@ def calculate_title_similarity(title1: str, title2: str) -> float:
     
     return 0.0
 
+def normalize_title_for_similarity(text: str) -> str:
+    """日本語向けにタイトルを簡易正規化（英数字・ひらがな・カタカナ・漢字のみ残す）"""
+    import re
+    if not text:
+        return ""
+    text = text.lower()
+    # 記号・余分な空白を除去
+    text = re.sub(r'\s+', '', text)
+    text = re.sub(r'[^a-z0-9\u3040-\u30ff\u4e00-\u9fff]', '', text)
+    return text
+
+def title_similarity_char(a: str, b: str) -> float:
+    """文字ベース類似度（日本語向け）。SequenceMatcherを使用。"""
+    from difflib import SequenceMatcher
+    na = normalize_title_for_similarity(a)
+    nb = normalize_title_for_similarity(b)
+    if not na or not nb:
+        return 0.0
+    return SequenceMatcher(None, na, nb).ratio()
+
 def preprocess_news(news_list):
     """ニュースの事前処理：重複除外、カテゴリー分類、バランス選択"""
     import re
@@ -1002,8 +1057,14 @@ def preprocess_news(news_list):
         # タイトル類似度チェックも実行（既に追加済みのニュースと比較）
         if not is_title_duplicate:
             for existing_title in seen_titles_original:
+                # 日本語向け：文字ベース類似を優先
+                similarity_char = title_similarity_char(title, existing_title)
+                if similarity_char >= 0.85:
+                    is_title_duplicate = True
+                    break
+                # 英語/単語ベースの場合の後方互換
                 similarity = calculate_title_similarity(title, existing_title)
-                if similarity >= 0.6:
+                if similarity >= 0.7:
                     is_title_duplicate = True
                     break
         
@@ -1026,28 +1087,54 @@ def preprocess_news(news_list):
         print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件（URL重複: {same_day_url_duplicates}件、タイトル類似: {same_day_title_duplicates}件）")
     
     # 2. イベントレベルのクラスタリング（同一出来事を1本に統合）
+    def build_event_key(text: str) -> str:
+        t = (text or '').lower()
+        if any(k in t for k in ['全国運動会', '聖火リレー', 'torch relay']):
+            return 'event_national_games_torch'
+        if 'apec' in t:
+            return 'event_apec'
+        if any(k in t for k in ['転落', '墜落']) and any(k in t for k in ['建設', '工事', '現場', '足場']):
+            return 'event_construction_fall'
+        if any(k in t for k in ['粤車南下', '南下通車', '粵車']):
+            return 'event_yueche_southbound'
+        return ''
+
     clustered = []
-    cluster_titles = []
+    cluster_reprs = []  # (event_key, title_repr)
     for item in unique_news:
         title = item.get('title', '')
-        norm_title = re.sub(r'[^\w\s]', '', title.lower()).strip()
-        is_same_event = False
-        for ct in cluster_titles:
-            if calculate_title_similarity(norm_title, ct) >= 0.85:
-                is_same_event = True
+        event_key = build_event_key(title)
+        joined = False
+        if event_key:
+            # 既存クラスタで同event_keyがあれば置換/採用
+            for idx, (ek, trepr) in enumerate(cluster_reprs):
+                if ek == event_key:
+                    prev = clustered[idx]
+                    prev_len = len(prev.get('full_content', prev.get('description', '')))
+                    curr_len = len(item.get('full_content', item.get('description', '')))
+                    if curr_len > prev_len:
+                        clustered[idx] = item
+                        cluster_reprs[idx] = (event_key, title)
+                    joined = True
+                    break
+        if joined:
+            continue
+        # 文字ベース類似度で近いクラスタに吸収
+        merged = False
+        for idx, (ek, trepr) in enumerate(cluster_reprs):
+            if title_similarity_char(title, trepr) >= 0.85:
+                prev = clustered[idx]
+                prev_len = len(prev.get('full_content', prev.get('description', '')))
+                curr_len = len(item.get('full_content', item.get('description', '')))
+                if curr_len > prev_len:
+                    clustered[idx] = item
+                    cluster_reprs[idx] = (ek or event_key, title)
+                merged = True
                 break
-        if is_same_event:
-            # 代表の情報量で置換（より本文/説明が長い方を採用）
-            prev = clustered[-1]
-            prev_len = len(prev.get('full_content', prev.get('description', '')))
-            curr_len = len(item.get('full_content', item.get('description', '')))
-            if curr_len > prev_len:
-                clustered[-1] = item
-                cluster_titles[-1] = norm_title
-        else:
+        if not merged:
             clustered.append(item)
-            cluster_titles.append(norm_title)
-    print(f"🧮 イベント統合: {len(unique_news)} → {len(clustered)}件（タイトル類似≥0.85で1本化）")
+            cluster_reprs.append((event_key, title))
+    print(f"🧮 イベント統合: {len(unique_news)} → {len(clustered)}件（イベントキー/文字類似≥0.85）")
 
     # 3. カテゴリー分類
     categorized = defaultdict(list)

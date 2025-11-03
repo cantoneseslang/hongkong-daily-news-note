@@ -160,3 +160,5 @@ print(f"類似記事: {len(similar_titles)}件")
 print(f"新規記事（11/2のみ）: {len(new_articles)}件")
 print(f"重複率: {(len(same_titles) + len(similar_titles)) / len(articles_11_02) * 100:.1f}%")
 
+
+

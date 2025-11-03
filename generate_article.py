@@ -1025,10 +1025,34 @@ def preprocess_news(news_list):
     if same_day_duplicates > 0:
         print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件（URL重複: {same_day_url_duplicates}件、タイトル類似: {same_day_title_duplicates}件）")
     
-    # 2. カテゴリー分類
+    # 2. イベントレベルのクラスタリング（同一出来事を1本に統合）
+    clustered = []
+    cluster_titles = []
+    for item in unique_news:
+        title = item.get('title', '')
+        norm_title = re.sub(r'[^\w\s]', '', title.lower()).strip()
+        is_same_event = False
+        for ct in cluster_titles:
+            if calculate_title_similarity(norm_title, ct) >= 0.85:
+                is_same_event = True
+                break
+        if is_same_event:
+            # 代表の情報量で置換（より本文/説明が長い方を採用）
+            prev = clustered[-1]
+            prev_len = len(prev.get('full_content', prev.get('description', '')))
+            curr_len = len(item.get('full_content', item.get('description', '')))
+            if curr_len > prev_len:
+                clustered[-1] = item
+                cluster_titles[-1] = norm_title
+        else:
+            clustered.append(item)
+            cluster_titles.append(norm_title)
+    print(f"🧮 イベント統合: {len(unique_news)} → {len(clustered)}件（タイトル類似≥0.85で1本化）")
+
+    # 3. カテゴリー分類
     categorized = defaultdict(list)
     
-    for news in unique_news:
+    for news in clustered:
         title = news.get('title', '').lower()
         description = news.get('description', '').lower()
         content = f"{title} {description}"
@@ -1063,9 +1087,11 @@ def preprocess_news(news_list):
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 3. バランス選択（優先順位に基づいて15-20件選択）
+    # 4. バランス選択（厳しめ1本/イベント + バラエティ確保）
     selected = []
-    target_count = 18  # 15-20件に調整（API制限を考慮）
+    target_count = 18
+    max_per_source = 6
+    per_source_counts = defaultdict(int)
     
     # カテゴリーごとの優先順位（ユーザー指定順）
     priority_cats = [
@@ -1081,45 +1107,52 @@ def preprocess_news(news_list):
         '交通'                # 10位: 1件
     ]
     
-    # 各カテゴリーから優先順位に基づいて選択
+    # 4-1. 各カテゴリーから最低1件ずつ（在庫があれば）
     for cat in priority_cats:
         if cat in categorized and categorized[cat]:
-            # 各カテゴリーから最大何件取るかを計算（API制限を考慮して調整）
-            if cat == 'ビジネス・経済':
-                max_count = min(4, len(categorized[cat]))  # 1位: 4件
-            elif cat == '社会・その他':
-                max_count = min(3, len(categorized[cat]))  # 2位: 3件
-            elif cat == 'カルチャー':
-                max_count = min(3, len(categorized[cat]))  # 3位: 3件
-            elif cat == '不動産':
-                max_count = min(2, len(categorized[cat]))  # 4位: 2件
-            elif cat == '政治・行政':
-                max_count = min(2, len(categorized[cat]))  # 5位: 2件
-            elif cat == '医療・健康':
-                max_count = min(2, len(categorized[cat]))  # 6位: 2件
-            elif cat == '治安・犯罪':
-                max_count = min(1, len(categorized[cat]))  # 7位: 1件
-            elif cat == 'テクノロジー':
-                max_count = min(1, len(categorized[cat]))  # 8位: 1件
-            else:
-                max_count = min(1, len(categorized[cat]))  # 9-10位: 1件
-            
-            # 選択
-            for i in range(max_count):
-                if categorized[cat] and len(selected) < target_count:
-                    selected.append(categorized[cat].pop(0))
-            
+            for item in categorized[cat][:]:
+                src = item.get('source', 'unknown')
+                if per_source_counts[src] >= max_per_source:
+                    continue
+                selected.append(item)
+                per_source_counts[src] += 1
+                categorized[cat].remove(item)
+                break
+        if len(selected) >= target_count:
+            break
+
+    # 4-2. 優先順位に基づき残りを充当（ソース上限と在庫尊重）
+    for cat in priority_cats:
+        if len(selected) >= target_count:
+            break
+        if cat not in categorized or not categorized[cat]:
+            continue
+        for item in categorized[cat][:]:
             if len(selected) >= target_count:
                 break
+            src = item.get('source', 'unknown')
+            if per_source_counts[src] >= max_per_source:
+                continue
+            selected.append(item)
+            per_source_counts[src] += 1
+            categorized[cat].remove(item)
     
-    # まだ足りない場合は残りのカテゴリーから追加
+    # 4-3. まだ足りない場合は残りから充当（ソース上限を維持）
     if len(selected) < target_count:
         for cat in priority_cats:
-            if cat in categorized and categorized[cat]:
-                while categorized[cat] and len(selected) < target_count:
-                    selected.append(categorized[cat].pop(0))
+            if len(selected) >= target_count:
+                break
+            if cat not in categorized or not categorized[cat]:
+                continue
+            for item in categorized[cat][:]:
                 if len(selected) >= target_count:
                     break
+                src = item.get('source', 'unknown')
+                if per_source_counts[src] >= max_per_source:
+                    continue
+                selected.append(item)
+                per_source_counts[src] += 1
+                categorized[cat].remove(item)
     
     print(f"\n✅ 選択完了: {len(selected)}件（優先順位調整済み）")
     

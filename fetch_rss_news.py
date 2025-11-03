@@ -67,13 +67,13 @@ class RSSNewsAPI:
         if any(u in url_l for u in url_positive):
             return True
 
-        # ソース名での肯定（香港主要媒体）
-        if any(s in source_l for s in ['rthk', 'hk01', 'hket', 'the standard', 'chinadaily hk', 'yahoo news hk']):
-            return True
-
         # SCMPはBusiness/Lifestyleなど世界記事が混ざるため、URLで香港パス必須
         if 'scmp' in source_l or 'scmp.com' in url_l:
             return ('/hong-kong' in url_l) or ('/hongkong' in url_l) or ('/news/hong-kong' in url_l)
+
+        # Yahoo HKは世界記事が混ざるため、URLだけでは許可しない（本文/タイトルに香港系語が必要）
+        if 'yahoo' in url_l and 'hk.news.yahoo.com' in url_l:
+            return any(p in text for p in positive) or any(u in url_l for u in url_positive)
 
         return False
 

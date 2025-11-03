@@ -1089,8 +1089,10 @@ def preprocess_news(news_list):
     # 2. イベントレベルのクラスタリング（同一出来事を1本に統合）
     def build_event_key(text: str) -> str:
         t = (text or '').lower()
-        if any(k in t for k in ['全国運動会', '聖火リレー', 'torch relay']):
-            return 'event_national_games_torch'
+        if any(k in t for k in ['全国運動会', '全国連動会', '全運會']):
+            if any(k in t for k in ['聖火', 'torch', '火炬']):
+                return 'event_ng_torch'
+            return 'event_ng_general'
         if 'apec' in t:
             return 'event_apec'
         if any(k in t for k in ['転落', '墜落']) and any(k in t for k in ['建設', '工事', '現場', '足場']):
@@ -1201,6 +1203,10 @@ def preprocess_news(news_list):
                 src = item.get('source', 'unknown')
                 if per_source_counts[src] >= max_per_source:
                     continue
+                # 同一イベントキーは全体で1本に制限
+                event_key = build_event_key(item.get('title', ''))
+                if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
+                    continue
                 selected.append(item)
                 per_source_counts[src] += 1
                 categorized[cat].remove(item)
@@ -1220,6 +1226,9 @@ def preprocess_news(news_list):
             src = item.get('source', 'unknown')
             if per_source_counts[src] >= max_per_source:
                 continue
+            event_key = build_event_key(item.get('title', ''))
+            if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
+                continue
             selected.append(item)
             per_source_counts[src] += 1
             categorized[cat].remove(item)
@@ -1236,6 +1245,9 @@ def preprocess_news(news_list):
                     break
                 src = item.get('source', 'unknown')
                 if per_source_counts[src] >= max_per_source:
+                    continue
+                event_key = build_event_key(item.get('title', ''))
+                if event_key and any(build_event_key(sel.get('title','')) == event_key for sel in selected):
                     continue
                 selected.append(item)
                 per_source_counts[src] += 1

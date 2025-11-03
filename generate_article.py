@@ -1030,10 +1030,15 @@ def preprocess_news(news_list):
     same_day_title_duplicates = 0
     
     def is_hk_related_news(item):
-        title = item.get('title', '').lower()
-        description = item.get('description', '').lower()
-        url = item.get('url', '').lower()
-        source = item.get('source', '').lower()
+        title = item.get('title', '') or ''
+        description = item.get('description', '') or ''
+        url = item.get('url', '') or ''
+        source = item.get('source', '') or ''
+
+        text = f"{title} {description}".lower()
+        url_l = url.lower()
+        src_l = source.lower()
+
         positive = [
             'hong kong', 'hongkong', '香港', 'kowloon', '九龍', '新界', 'hksar', '尖沙咀', '灣仔', '中環', '旺角',
             '香港天文台', 'hong kong observatory', 'mtr', '港鐵', 'hkex', '香港交易所'
@@ -1043,16 +1048,29 @@ def preprocess_news(news_list):
             'guangdong', 'shenzhen', 'dongguan', 'guangzhou', 'foshan', 'zhuhai', 'huizhou', 'zhongshan', 'jiangmen', 'zhaoqing',
             '深圳', '深セン', '东莞', '東莞', '广州', '広州', '珠海', '佛山', '惠州', '中山', '江門', '江门', '肇慶', '肇庆'
         ]
-        if any(p in (title + ' ' + description) for p in positive):
+
+        # 1) 強い肯定: 本文にHK/GBA語が含まれる
+        if any(p in text for p in positive) or any(t in text for t in gba_terms):
             return True
-        if any(seg in url for seg in ['/hong-kong', '/hongkong', '/news/hong-kong', '/greater-bay-area', '/gba/']) or '.hk/' in url:
+
+        # 2) URLでの肯定（香港/大湾区の明示的パス）
+        if any(seg in url_l for seg in ['/hong-kong', '/hongkong', '/news/hong-kong', '/greater-bay-area', '/gba/']):
             return True
-        if any(s in source for s in ['rthk', 'hk01', 'hket', 'the standard', 'chinadaily hk', 'yahoo news hk']):
+
+        # 3) .hkドメインは候補。ただしGoogle Newsの中継URLは除外
+        try:
+            from urllib.parse import urlparse
+            host = urlparse(url_l).netloc
+        except Exception:
+            host = ''
+        if (host.endswith('.hk') or '.com.hk' in host) and 'news.google.' not in host:
             return True
-        if 'scmp' in source or 'scmp.com' in url:
-            return ('/hong-kong' in url) or ('/hongkong' in url) or ('/news/hong-kong' in url)
-        if any(t in (title + ' ' + description) for t in gba_terms):
-            return True
+
+        # 4) SCMPは香港パス必須（世界記事を除外）
+        if 'scmp' in src_l or 'scmp.com' in url_l:
+            return ('/hong-kong' in url_l) or ('/hongkong' in url_l) or ('/news/hong-kong' in url_l)
+
+        # 5) それ以外は香港性を確認できないため除外
         return False
 
     for news in filtered_news:

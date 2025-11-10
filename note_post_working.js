@@ -448,6 +448,38 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         continue;
       }
 
+      // テキストリンクマークダウンを検出: [label](url)
+      const textLinkMatch = line.match(/^\[([^\]]+)\]\((https?:\/\/[^\)]+)\)$/);
+      if (textLinkMatch) {
+        const label = textLinkMatch[1];
+        const linkUrl = textLinkMatch[2];
+
+        console.log(`🔗 テキストリンクを挿入中: ${label} → ${linkUrl}`);
+
+        await page.keyboard.type(label, { delay: 20 });
+        await page.waitForTimeout(200);
+
+        const isMac = process.platform === 'darwin';
+        if (isMac) {
+          await page.keyboard.press('Shift+Meta+ArrowLeft');
+        } else {
+          await page.keyboard.press('Shift+Home');
+        }
+        await page.waitForTimeout(150);
+
+        await page.evaluate((url) => {
+          document.execCommand('createLink', false, url);
+        }, linkUrl);
+        await page.waitForTimeout(200);
+
+        await page.keyboard.press('ArrowRight');
+
+        if (!isLastLine) {
+          await page.keyboard.press('Enter');
+        }
+        continue;
+      }
+
       // テキスト入力
       await page.keyboard.type(line, { delay: 20 });
 

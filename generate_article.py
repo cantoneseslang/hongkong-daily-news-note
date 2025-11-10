@@ -7,10 +7,109 @@ import json
 import requests
 import re
 from datetime import datetime, timedelta, timezone
-from typing import List, Dict
+from typing import List, Dict, Optional, Set
+from urllib.parse import urlparse, urlunparse
+
+try:
+    from dateutil import parser as dateutil_parser
+except ImportError:  # pragma: no cover - フォールバック用
+    dateutil_parser = None
 
 # HKTタイムゾーン（UTC+8）
 HKT = timezone(timedelta(hours=8))
+
+
+def normalize_title_words(title: str) -> Set[str]:
+    """タイトルを単語集合に正規化"""
+    if not title:
+        return set()
+    normalized = re.sub(r'[^\w\s]', ' ', title.lower())
+    words = {w for w in normalized.split() if len(w) > 1 or w.isdigit()}
+    return words
+
+
+def titles_are_similar(
+    words_a: Set[str],
+    words_b: Set[str],
+    *,
+    min_common: int = 2,
+    min_similarity: float = 0.5,
+    min_coverage: float = 0.6
+) -> bool:
+    """2つのタイトル語集合が十分に類似しているかを判定"""
+    if not words_a or not words_b:
+        return False
+
+    shortest_len = min(len(words_a), len(words_b))
+    dynamic_min_common = min_common
+    if shortest_len <= 4:
+        dynamic_min_common = max(2, shortest_len)
+
+    common_words = words_a & words_b
+    if len(common_words) < dynamic_min_common:
+        return False
+
+    all_words = words_a | words_b
+    similarity = len(common_words) / len(all_words) if all_words else 0.0
+    coverage = len(common_words) / shortest_len if shortest_len else 0.0
+
+    return similarity >= min_similarity and coverage >= min_coverage
+
+
+def is_similar_title_words(
+    words: Set[str],
+    existing_word_sets: List[Set[str]],
+    *,
+    min_common: int = 2,
+    min_similarity: float = 0.5,
+    min_coverage: float = 0.6
+) -> bool:
+    """既存タイトル集合との類似判定"""
+    for existing in existing_word_sets:
+        if titles_are_similar(
+            words,
+            existing,
+            min_common=min_common,
+            min_similarity=min_similarity,
+            min_coverage=min_coverage,
+        ):
+            return True
+    return False
+
+
+def normalize_url(url: str) -> str:
+    """URLを正規化（スキーム/ホスト/パスのみ）"""
+    if not url:
+        return ""
+    try:
+        parsed = urlparse(url)
+        normalized = urlunparse((parsed.scheme, parsed.netloc, parsed.path, "", "", ""))
+        return normalized
+    except Exception:
+        return url
+
+
+def parse_published_at(value: Optional[str]) -> Optional[datetime]:
+    """公開日時文字列をHKTタイムゾーンのdatetimeに変換"""
+    if not value:
+        return None
+
+    # 既にISO形式の場合を想定
+    try:
+        if dateutil_parser:
+            dt = dateutil_parser.parse(value)
+        else:
+            dt = datetime.fromisoformat(value)
+    except Exception:
+        return None
+
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+
+    try:
+        return dt.astimezone(HKT)
+    except Exception:
+        return dt
 
 class GrokArticleGenerator:
     def __init__(self, config_path: str = "config.json"):
@@ -273,7 +372,7 @@ URL: {url}
     
     def format_weather_info(self, weather_data: Dict) -> str:
         """天気情報をMarkdown形式に整形"""
-        if not weather_data:
+        if weather_data is None:
             return ""
         
         import re
@@ -297,20 +396,22 @@ URL: {url}
             return '\n'.join(cleaned_lines)
         
         weather_section = "## 本日の香港の天気\n"
+        has_content = False
         
         # 天気警報
-        if 'weather_warning' in weather_data:
+        if weather_data.get('weather_warning'):
             warning = weather_data['weather_warning']
             title = warning.get('title', 'N/A')
             desc = clean_weather_text(warning.get('description', ''))
             
             if title and "現時並無警告生效" not in title and "酷熱天氣警告" not in title and "發出" not in title:
-                weather_section += f"\n### 天気警報{title}"
+                weather_section += f"\n### 天気警報\n{title}\n"
                 if desc and "現時並無警告生效" not in desc and "酷熱天気警告" not in desc:
-                    weather_section += f"{desc}"
+                    weather_section += f"{desc}\n"
+                has_content = True
         
         # 地域天気予報のみ表示
-        if 'weather_forecast' in weather_data:
+        if weather_data.get('weather_forecast'):
             forecast = weather_data['weather_forecast']
             title = forecast.get('title', 'N/A')
             desc = clean_weather_text(forecast.get('description', ''))
@@ -319,6 +420,10 @@ URL: {url}
             translated_title = self._llm_translate_text(title)
             translated_desc = self._llm_translate_text(desc)
             weather_section += f"\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
+            has_content = True
+
+        if not has_content:
+            weather_section += "\n現在、天気情報を取得できませんでした。後ほど更新予定です。\n"
         
         return weather_section
     
@@ -535,7 +640,7 @@ URL: {url}
             return body
         
         result = [articles[0]]
-        seen_titles = set()
+        seen_title_words: List[Set[str]] = []
         duplicate_count = 0
         
         # 各記事をチェック
@@ -545,16 +650,14 @@ URL: {url}
             if len(lines) > 0:
                 title = lines[0].strip()
                 
-                # タイトルの正規化（より厳密な重複のみ除外）
-                normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-                # 短すぎるタイトルは重複チェック対象外
-                if len(normalized_title) < 10:
+                title_words = normalize_title_words(title)
+                # 語数が極端に少ない場合は重複チェックを緩める
+                if len(title_words) < 2:
                     result.append(article)
                     continue
                 
-                # 重複チェック（完全一致のみ）
-                if normalized_title not in seen_titles:
-                    seen_titles.add(normalized_title)
+                if not is_similar_title_words(title_words, seen_title_words):
+                    seen_title_words.append(title_words)
                     result.append(article)
                 else:
                     duplicate_count += 1
@@ -586,7 +689,7 @@ URL: {url}
         article['body'] = re.sub(r'([^\n])\n(###)', r'\1\n\n\2', article['body'])
         
         # 天気情報セクションを生成
-        weather_section = self.format_weather_info(weather_data) if weather_data else ""
+        weather_section = self.format_weather_info(weather_data) if weather_data is not None else ""
         
         # コンテンツ部分を組み立て（空のセクションは改行を挟まない）
         content_parts = []
@@ -628,9 +731,8 @@ def preprocess_news(news_list):
     
     # 0. 過去の記事ファイルから既出ニュースを抽出
     past_urls = set()
-    past_titles = []
+    past_title_words: List[Set[str]] = []
     
-    # 過去3日分の記事ファイルをチェック
     for days_ago in range(1, 4):
         past_date = datetime.now(HKT) - timedelta(days=days_ago)
         past_file = f"daily-articles/hongkong-news_{past_date.strftime('%Y-%m-%d')}.md"
@@ -641,23 +743,25 @@ def preprocess_news(news_list):
                 with open(past_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                     
-                    # URLを抽出（**リンク**: の後のURL）
                     url_matches = re.findall(r'\*\*リンク\*\*:\s*(https?://[^\s]+)', content)
-                    past_urls.update(url_matches)
+                    normalized_urls = {normalize_url(url) for url in url_matches if url}
+                    past_urls.update({u for u in normalized_urls if u})
                     
-                    # タイトルを抽出（### の後のタイトル）
                     title_matches = re.findall(r'^### (.+)$', content, re.MULTILINE)
-                    # 天気予報のタイトルは除外
-                    past_titles.extend([t for t in title_matches if '天気' not in t and 'weather' not in t.lower()])
+                    filtered_titles = [t for t in title_matches if '天気' not in t and 'weather' not in t.lower()]
+                    for t in filtered_titles:
+                        words = normalize_title_words(t)
+                        if words:
+                            past_title_words.append(words)
                     
-                print(f"  ✓ 既出URL: {len(url_matches)}件、既出タイトル: {len([t for t in title_matches if '天気' not in t])}件")
+                print(f"  ✓ 既出URL: {len(normalized_urls)}件、既出タイトル: {len(filtered_titles)}件")
             except Exception as e:
                 print(f"  ⚠️  ファイル読み込みエラー: {e}")
     
-    if past_urls:
-        print(f"🔍 過去記事から合計 {len(past_urls)} 件のURLと {len(past_titles)} 件のタイトルを抽出")
+    if past_urls or past_title_words:
+        print(f"🔍 過去記事から合計 {len(past_urls)} 件のURLと {len(past_title_words)} 件のタイトルを抽出")
     
-    # 過去記事との重複を除外
+    # 1. 初期フィルタリング（重複・天気記事除外）
     filtered_news = []
     duplicate_count = 0
     
@@ -665,21 +769,25 @@ def preprocess_news(news_list):
         url = news.get('url', '')
         title = news.get('title', '')
         description = news.get('description', '')
+        published_at = news.get('published_at') or news.get('published') or news.get('publishedAt')
         
-        # 天気関連のニュースを除外
+        normalized_url = normalize_url(url)
+        title_words = news.get('_title_words') or normalize_title_words(title)
+        news['_title_words'] = title_words
+        news['_normalized_url'] = normalized_url
+        news['_source'] = (news.get('source') or 'Unknown').strip() or 'Unknown'
+        news['_published_dt'] = parse_published_at(published_at)
+        
         weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度']
         if any(keyword in title.lower() or keyword in title for keyword in weather_keywords):
             duplicate_count += 1
             continue
         
-        # URL重複チェック
-        if url in past_urls:
+        if normalized_url and normalized_url in past_urls:
             duplicate_count += 1
             continue
         
-        # タイトル重複チェック（正規化）
-        normalized_title = re.sub(r'[^\w\s]', '', title.lower())
-        if any(re.sub(r'[^\w\s]', '', past_title.lower()) == normalized_title for past_title in past_titles):
+        if title_words and is_similar_title_words(title_words, past_title_words):
             duplicate_count += 1
             continue
         
@@ -690,33 +798,34 @@ def preprocess_news(news_list):
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     
-    # 1. 同日内重複除外
-    seen_titles = set()
+    # 2. 同日内重複除外
+    existing_title_words: List[Set[str]] = []
     unique_news = []
     same_day_duplicates = 0
     
     for news in filtered_news:
-        title = news.get('title', '')
-        normalized_title = re.sub(r'[^\w\s]', '', title.lower())
+        title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
+        news['_title_words'] = title_words
         
-        if normalized_title not in seen_titles:
-            seen_titles.add(normalized_title)
-            unique_news.append(news)
-        else:
+        if title_words and is_similar_title_words(title_words, existing_title_words):
             same_day_duplicates += 1
+            continue
+        
+        if title_words:
+            existing_title_words.append(title_words)
+        unique_news.append(news)
     
     if same_day_duplicates > 0:
         print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
     
-    # 2. カテゴリー分類
+    # 3. カテゴリー分類
     categorized = defaultdict(list)
     
     for news in unique_news:
-        title = news.get('title', '').lower()
-        description = news.get('description', '').lower()
-        content = f"{title} {description}"
+        title_text = news.get('title', '').lower()
+        description_text = news.get('description', '').lower()
+        content = f"{title_text} {description_text}"
         
-        # カテゴリー判定
         if any(keyword in content for keyword in ['ビジネス', '経済', '金融', '株式', '投資', 'business', 'economy', 'finance', 'stock', 'investment', 'ipo', '上場', '取引所', '銀行', '保険']):
             category = 'ビジネス・経済'
         elif any(keyword in content for keyword in ['テクノロジー', 'ai', '人工知能', 'ロボット', 'デジタル', 'アプリ', 'ソフトウェア', 'ハードウェア', 'technology', 'digital', 'app', 'software', 'hardware', 'スマートフォン', 'コンピューター']):
@@ -740,73 +849,108 @@ def preprocess_news(news_list):
         else:
             category = '社会・その他'
         
+        news['category'] = category
         categorized[category].append(news)
     
     print(f"\n📋 カテゴリー別件数:")
     for cat, items in sorted(categorized.items(), key=lambda x: -len(x[1])):
         print(f"  {cat}: {len(items)}件")
     
-    # 3. バランス選択（優先順位に基づいて15-20件選択）
-    selected = []
-    target_count = 18  # 15-20件に調整（API制限を考慮）
+    # 公開日時で各カテゴリをソート
+    for cat, items in categorized.items():
+        for item in items:
+            if '_title_words' not in item:
+                item['_title_words'] = normalize_title_words(item.get('title', ''))
+            if '_published_dt' not in item:
+                published_at = item.get('published_at') or item.get('published') or item.get('publishedAt')
+                item['_published_dt'] = parse_published_at(published_at)
+            if '_source' not in item:
+                item['_source'] = (item.get('source') or 'Unknown').strip() or 'Unknown'
+        categorized[cat] = sorted(
+            items,
+            key=lambda n: (n.get('_published_dt') is not None, n.get('_published_dt')),
+            reverse=True
+        )
     
-    # カテゴリーごとの優先順位（ユーザー指定順）
+    # 4. バランス選択（優先順位に基づいて15-20件選択）
+    selected = []
+    selected_ids = set()
+    selected_title_words: List[Set[str]] = []
+    source_usage = defaultdict(int)
+    target_count = 18
+    
     priority_cats = [
-        'ビジネス・経済',      # 1位: 46件
-        '社会・その他',        # 2位: 19件  
-        'カルチャー',          # 3位: 15件
-        '不動産',             # 4位: 13件
-        '政治・行政',          # 5位: 8件
-        '医療・健康',          # 6位: 3件
-        '治安・犯罪',          # 7位: 6件
-        'テクノロジー',        # 8位: 76件
-        '事故・災害',          # 9位: 1件
-        '交通'                # 10位: 1件
+        'ビジネス・経済',
+        '社会・その他',
+        'カルチャー',
+        '不動産',
+        '政治・行政',
+        '医療・健康',
+        '治安・犯罪',
+        'テクノロジー',
+        '事故・災害',
+        '交通'
     ]
     
-    # 各カテゴリーから優先順位に基づいて選択
-    for cat in priority_cats:
-        if cat in categorized and categorized[cat]:
-            # 各カテゴリーから最大何件取るかを計算（API制限を考慮して調整）
-            if cat == 'ビジネス・経済':
-                max_count = min(4, len(categorized[cat]))  # 1位: 4件
-            elif cat == '社会・その他':
-                max_count = min(3, len(categorized[cat]))  # 2位: 3件
-            elif cat == 'カルチャー':
-                max_count = min(3, len(categorized[cat]))  # 3位: 3件
-            elif cat == '不動産':
-                max_count = min(2, len(categorized[cat]))  # 4位: 2件
-            elif cat == '政治・行政':
-                max_count = min(2, len(categorized[cat]))  # 5位: 2件
-            elif cat == '医療・健康':
-                max_count = min(2, len(categorized[cat]))  # 6位: 2件
-            elif cat == '治安・犯罪':
-                max_count = min(1, len(categorized[cat]))  # 7位: 1件
-            elif cat == 'テクノロジー':
-                max_count = min(1, len(categorized[cat]))  # 8位: 1件
-            else:
-                max_count = min(1, len(categorized[cat]))  # 9-10位: 1件
-            
-            # 選択
-            for i in range(max_count):
-                if categorized[cat] and len(selected) < target_count:
-                    selected.append(categorized[cat].pop(0))
-            
-            if len(selected) >= target_count:
-                break
-    
-    # まだ足りない場合は残りのカテゴリーから追加
-    if len(selected) < target_count:
+    def select_by_priority(max_per_source: Optional[int]) -> None:
+        nonlocal selected
         for cat in priority_cats:
-            if cat in categorized and categorized[cat]:
-                while categorized[cat] and len(selected) < target_count:
-                    selected.append(categorized[cat].pop(0))
+            items = categorized.get(cat, [])
+            if not items:
+                continue
+            
+            if cat == 'ビジネス・経済':
+                max_count = 4
+            elif cat == '社会・その他':
+                max_count = 3
+            elif cat == 'カルチャー':
+                max_count = 3
+            elif cat == '不動産':
+                max_count = 2
+            elif cat == '政治・行政':
+                max_count = 2
+            elif cat == '医療・健康':
+                max_count = 2
+            elif cat == '治安・犯罪':
+                max_count = 1
+            elif cat == 'テクノロジー':
+                max_count = 1
+            else:
+                max_count = 1
+            max_count = min(max_count, len(items))
+            
+            picked = 0
+            for news in items:
+                if len(selected) >= target_count or picked >= max_count:
+                    break
+                if id(news) in selected_ids:
+                    continue
+                
+                source = news.get('_source', 'Unknown')
+                if max_per_source is not None and source_usage[source] >= max_per_source:
+                    continue
+                
+                title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
+                if title_words and is_similar_title_words(title_words, selected_title_words):
+                    continue
+                
+                selected.append(news)
+                selected_ids.add(id(news))
+                if title_words:
+                    selected_title_words.append(title_words)
+                source_usage[source] += 1
+                picked += 1
+                
                 if len(selected) >= target_count:
                     break
     
+    select_by_priority(max_per_source=2)
+    
+    if len(selected) < target_count:
+        select_by_priority(max_per_source=None)
+    
     print(f"\n✅ 選択完了: {len(selected)}件（優先順位調整済み）")
     
-    # 選択されたニュースのカテゴリー別内訳を表示
     selected_categories = defaultdict(int)
     for news in selected:
         category = news.get('category', '未分類')

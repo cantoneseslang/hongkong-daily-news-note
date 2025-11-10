@@ -284,21 +284,23 @@ class RSSNewsAPI:
             if not existing_words:
                 continue
             
-            # 共通単語の数をチェック
             common_words = title_words & existing_words
+            shortest_len = min(len(title_words), len(existing_words))
             
-            # 3単語以上共通が必要
-            if len(common_words) >= 3:
-                # Jaccard類似度（共通単語 / 全単語）
-                all_words = title_words | existing_words
-                similarity = len(common_words) / len(all_words) if all_words else 0.0
-                
-                # より厳密なチェック: 共通率が60%以上かつ、短い方のタイトルの70%以上が共通
-                min_length = min(len(title_words), len(existing_words))
-                if min_length > 0:
-                    coverage = len(common_words) / min_length
-                    if similarity >= 0.6 and coverage >= 0.7:
-                        return True
+            if shortest_len <= 4:
+                min_common = max(2, shortest_len)
+            else:
+                min_common = 2
+            
+            if len(common_words) < min_common:
+                continue
+            
+            all_words = title_words | existing_words
+            similarity = len(common_words) / len(all_words) if all_words else 0.0
+            coverage = len(common_words) / shortest_len if shortest_len else 0.0
+            
+            if similarity >= 0.5 and coverage >= 0.6:
+                return True
         
         return False
     

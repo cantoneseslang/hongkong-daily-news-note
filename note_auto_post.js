@@ -427,6 +427,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
       const isLastLine = i === lines.length - 1;
+      const isMac = process.platform === 'darwin';
       
       // 目次を挿入した場合、最初の空行はスキップ
       if (i === 0 && tocInsertLine === 0 && !shouldInsertToc) {
@@ -649,6 +650,78 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         
         if (!isLastLine) {
           await page.keyboard.press('Enter');
+        }
+        continue;
+      }
+
+      // テキストリンクマークダウンを検出し、noteのリンク機能で埋め込み
+      const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
+      let match;
+      let cursor = 0;
+      let handledLink = false;
+
+      while ((match = linkRegex.exec(line)) !== null) {
+        handledLink = true;
+
+        const beforeText = line.slice(cursor, match.index);
+        if (beforeText) {
+          await page.keyboard.type(beforeText, { delay: 20 });
+        }
+
+        const label = match[1];
+        const linkUrl = match[2];
+        console.log(`🔗 テキストリンクを挿入中: ${label} → ${linkUrl}`);
+
+        await page.keyboard.type(label, { delay: 20 });
+        await page.waitForTimeout(100);
+
+        // 入力したラベル分だけ選択
+        await page.keyboard.down('Shift');
+        for (let s = 0; s < label.length; s++) {
+          await page.keyboard.press('ArrowLeft');
+        }
+        await page.keyboard.up('Shift');
+        await page.waitForTimeout(100);
+
+        // リンク挿入ショートカットを実行
+        await page.keyboard.press(isMac ? 'Meta+K' : 'Control+K');
+        await page.waitForTimeout(200);
+
+        let linkApplied = false;
+        try {
+          const linkInput = page.locator('input[placeholder*="URL"], input[type="url"], input[aria-label*="URL"], div[role="dialog"] input');
+          await linkInput.waitFor({ state: 'visible', timeout: 2000 });
+          await linkInput.fill(linkUrl);
+          await page.waitForTimeout(100);
+          await page.keyboard.press('Enter');
+          linkApplied = true;
+        } catch (error) {
+          console.log('⚠️  リンク入力UIが見つからなかったためフォールバックします');
+        }
+
+        if (!linkApplied) {
+          await page.evaluate((url) => {
+            document.execCommand('createLink', false, url);
+          }, linkUrl);
+        }
+
+        await page.waitForTimeout(150);
+        await page.keyboard.press('ArrowRight');
+
+        cursor = match.index + match[0].length;
+      }
+
+      if (handledLink) {
+        const remainingText = line.slice(cursor);
+        if (remainingText) {
+          await page.keyboard.type(remainingText, { delay: 20 });
+        }
+
+        if (!isLastLine) {
+          await page.keyboard.press('Enter');
+          if (line.match(/^\d+\.\s/)) {
+            await page.waitForTimeout(50);
+          }
         }
         continue;
       }

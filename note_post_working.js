@@ -448,31 +448,69 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         continue;
       }
 
-      // テキストリンクマークダウンを検出: [label](url)
-      const textLinkMatch = line.match(/^\[([^\]]+)\]\((https?:\/\/[^\)]+)\)$/);
-      if (textLinkMatch) {
-        const label = textLinkMatch[1];
-        const linkUrl = textLinkMatch[2];
+      // テキストリンクマークダウンを検出し、実際のリンクに変換: [label](url)
+      const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
+      let match;
+      let cursor = 0;
+      let handledLink = false;
+      const isMac = process.platform === 'darwin';
 
+      while ((match = linkRegex.exec(line)) !== null) {
+        handledLink = true;
+
+        const beforeText = line.slice(cursor, match.index);
+        if (beforeText) {
+          await page.keyboard.type(beforeText, { delay: 20 });
+        }
+
+        const label = match[1];
+        const linkUrl = match[2];
         console.log(`🔗 テキストリンクを挿入中: ${label} → ${linkUrl}`);
 
         await page.keyboard.type(label, { delay: 20 });
-        await page.waitForTimeout(200);
+        await page.waitForTimeout(100);
 
-        const isMac = process.platform === 'darwin';
-        if (isMac) {
-          await page.keyboard.press('Shift+Meta+ArrowLeft');
-        } else {
-          await page.keyboard.press('Shift+Home');
+        // 入力したラベル分だけ選択
+        await page.keyboard.down('Shift');
+        for (let s = 0; s < label.length; s++) {
+          await page.keyboard.press('ArrowLeft');
         }
-        await page.waitForTimeout(150);
+        await page.keyboard.up('Shift');
+        await page.waitForTimeout(100);
 
-        await page.evaluate((url) => {
-          document.execCommand('createLink', false, url);
-        }, linkUrl);
+        // Noteのリンク挿入コマンドを実行
+        await page.keyboard.press(isMac ? 'Meta+K' : 'Control+K');
         await page.waitForTimeout(200);
 
+        let linkApplied = false;
+        try {
+          const linkInput = page.locator('input[placeholder*="URL"], input[type="url"], input[aria-label*="URL"], div[role="dialog"] input');
+          await linkInput.waitFor({ state: 'visible', timeout: 2000 });
+          await linkInput.fill(linkUrl);
+          await page.waitForTimeout(100);
+          await page.keyboard.press('Enter');
+          linkApplied = true;
+        } catch (err) {
+          console.log('⚠️  リンク入力UIが見つからなかったため、フォールバックで設定します');
+        }
+
+        if (!linkApplied) {
+          await page.evaluate((url) => {
+            document.execCommand('createLink', false, url);
+          }, linkUrl);
+        }
+
+        await page.waitForTimeout(150);
         await page.keyboard.press('ArrowRight');
+
+        cursor = match.index + match[0].length;
+      }
+
+      if (handledLink) {
+        const remainingText = line.slice(cursor);
+        if (remainingText) {
+          await page.keyboard.type(remainingText, { delay: 20 });
+        }
 
         if (!isLastLine) {
           await page.keyboard.press('Enter');

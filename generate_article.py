@@ -346,7 +346,7 @@ class GrokArticleGenerator:
             "title": title,
             "lead": "",
             "body": body,
-            "tags": "香港,ニュース,最新,情報,アジア"
+            "tags": "香港,広東語,廣東話,中国語ニュース,最新,情報,アジア"
         }
     
     def _format_news_for_prompt(self, news_data: List[Dict]) -> str:

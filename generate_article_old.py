@@ -58,7 +58,7 @@ class GrokArticleGenerator:
   "title": "毎日AIピックアップニュース(2025年10月28日)",
   "lead": "",
   "body": "### タイトル\\n\\n本文\\n\\n**引用元**: ソース, 日付\\n**リンク**: URL\\n**備考**: 説明\\n\\n---\\n\\n### 次のニュース...",
-  "tags": "香港,ニュース,最新,情報,アジア"
+  "tags": "香港,広東語,廣東話,中国語ニュース,最新,情報,アジア"
 }"""
 
         user_prompt = f"""以下は{datetime.now(HKT).strftime('%Y年%m月%d日')}の香港ニュースです。
@@ -266,7 +266,7 @@ class GrokArticleGenerator:
                         "title": title,
                         "lead": "",
                         "body": body,
-                        "tags": "香港,ニュース,最新,情報,アジア"
+                        "tags": "香港,広東語,廣東話,中国語ニュース,最新,情報,アジア"
                     }
             else:
                 print(f"❌ APIエラー: {response.status_code}")

@@ -420,6 +420,8 @@ Published: {news.get('published_at', 'N/A')}
 
 (今現在400名以上の方に登録していただいております）
 
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
 [![スラング先生公式LINE](../shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
 
 [![LINEでお問合せ](../shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)

@@ -485,6 +485,8 @@ URL: {url}
 
 (今現在400名以上の方に登録していただいております）
 
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
 [![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
 
 [![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)

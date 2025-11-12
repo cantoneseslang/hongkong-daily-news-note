@@ -487,13 +487,9 @@ URL: {url}
 
 [スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
 
-[![スラング先生公式LINE](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-img1.jpg)](https://line.me/R/ti/p/@298mwivr)
-
-[![LINEでお問合せ](https://raw.githubusercontent.com/cantoneseslang/hongkong-daily-news-note/main/shared/line-qr.png)](https://line.me/R/ti/p/@298mwivr)
-
 ## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
 
-@https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
     
     def remove_advertisement_content(self, body: str) -> str:
         """記事本文から広告・宣伝コンテンツを除去"""

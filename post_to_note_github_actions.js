@@ -241,16 +241,77 @@ async function postToNote(markdownPath, email, password) {
     }
     
     await bodyEditor.click();
-        await new Promise(resolve => setTimeout(resolve, 500));
-    
-    // 本文を小分けにして入力
-    const chunkSize = 3000;
-    for (let i = 0; i < body.length; i += chunkSize) {
-      const chunk = body.substring(i, Math.min(i + chunkSize, body.length));
-      await page.keyboard.type(chunk, { delay: 0 });
-      console.log(`   入力進捗: ${Math.min(i + chunkSize, body.length)}/${body.length}文字`);
-      await new Promise(resolve => setTimeout(resolve, 100));
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    const lines = body.split('\n');
+    const linkOnlyRegex = /^\[([^\]]+)\]\((https?:\/\/[^\)]+)\)$/;
+    const plainUrlRegex = /^https?:\/\/\S+$/;
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const isLastLine = i === lines.length - 1;
+
+      if (line.trim() === '') {
+        await page.keyboard.press('Enter');
+        continue;
+      }
+
+      if (plainUrlRegex.test(line.trim())) {
+        const urlText = line.trim();
+        await page.keyboard.type(urlText, { delay: 0 });
+        await new Promise(resolve => setTimeout(resolve, 200));
+        await page.keyboard.press('Enter');
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        console.log(`   入力進捗: ${i + 1}/${lines.length}行 (YouTube埋め込み)`);
+        continue;
+      }
+      const linkMatch = line.match(linkOnlyRegex);
+      if (linkMatch) {
+        const label = linkMatch[1];
+        const url = linkMatch[2];
+        await page.keyboard.type(label, { delay: 20 });
+        await new Promise(resolve => setTimeout(resolve, 50));
+        await page.evaluate(({ label, url }) => {
+          const selection = window.getSelection();
+          if (!selection || !selection.anchorNode) return;
+          let node = selection.anchorNode;
+          if (node.nodeType !== Node.TEXT_NODE && node.lastChild) {
+            node = node.lastChild;
+          }
+          if (!node || node.nodeType !== Node.TEXT_NODE) return;
+          const text = node.textContent || '';
+          if (!text.endsWith(label)) return;
+          const remaining = text.slice(0, -label.length);
+          const link = document.createElement('a');
+          link.textContent = label;
+          link.href = url;
+          link.target = '_blank';
+          link.rel = 'nofollow noopener';
+          const parent = node.parentNode;
+          if (!parent) return;
+          if (remaining) {
+            const remainNode = document.createTextNode(remaining);
+            parent.insertBefore(remainNode, node);
+          }
+          parent.insertBefore(link, node);
+          parent.removeChild(node);
+          const range = document.createRange();
+          range.setStartAfter(link);
+          range.collapse(true);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }, { label, url });
+        await new Promise(resolve => setTimeout(resolve, 100));
+      } else {
+        await page.keyboard.type(line, { delay: 0 });
+      }
+
+      if (!isLastLine) {
+        await page.keyboard.press('Enter');
+      }
+      console.log(`   入力進捗: ${i + 1}/${lines.length}行`);
     }
+
     console.log('✅ 本文入力完了');
     
     await new Promise(resolve => setTimeout(resolve, 2000));

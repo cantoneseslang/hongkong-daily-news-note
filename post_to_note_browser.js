@@ -132,8 +132,76 @@ async function saveDraft(markdownPath, username, password, statePath) {
     await page.waitForTimeout(2000);
     await bodyBox.click({ force: true });
 
-    // 本文を一括入力
-    await page.keyboard.type(body, { delay: 5 });
+    const lines = body.split('\n');
+    const linkOnlyRegex = /^\[([^\]]+)\]\((https?:\/\/[^\)]+)\)$/;
+    const plainUrlRegex = /^https?:\/\/\S+$/;
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const isLastLine = i === lines.length - 1;
+
+      if (line.trim() === '') {
+        await page.keyboard.press('Enter');
+        continue;
+      }
+
+      const linkMatch = line.match(linkOnlyRegex);
+      if (plainUrlRegex.test(line.trim())) {
+        const urlText = line.trim();
+        await page.keyboard.type(urlText, { delay: 5 });
+        await page.waitForTimeout(200);
+        await page.keyboard.press('Enter');
+        await page.waitForTimeout(1500);
+        if (!isLastLine) {
+          continue;
+        }
+        continue;
+      }
+      if (linkMatch) {
+        const label = linkMatch[1];
+        const url = linkMatch[2];
+        await page.keyboard.type(label, { delay: 20 });
+        await page.waitForTimeout(50);
+        await page.evaluate(({ label, url }) => {
+          const selection = window.getSelection();
+          if (!selection || !selection.anchorNode) return;
+          let node = selection.anchorNode;
+          if (node.nodeType !== Node.TEXT_NODE && node.lastChild) {
+            node = node.lastChild;
+          }
+          if (!node || node.nodeType !== Node.TEXT_NODE) return;
+          const text = node.textContent || '';
+          if (!text.endsWith(label)) return;
+          const remaining = text.slice(0, -label.length);
+          const link = document.createElement('a');
+          link.textContent = label;
+          link.href = url;
+          link.target = '_blank';
+          link.rel = 'nofollow noopener';
+          const parent = node.parentNode;
+          if (!parent) return;
+          if (remaining) {
+            const remainNode = document.createTextNode(remaining);
+            parent.insertBefore(remainNode, node);
+          }
+          parent.insertBefore(link, node);
+          parent.removeChild(node);
+          const range = document.createRange();
+          range.setStartAfter(link);
+          range.collapse(true);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }, { label, url });
+        await page.waitForTimeout(100);
+      } else {
+        await page.keyboard.type(line, { delay: 5 });
+      }
+
+      if (!isLastLine) {
+        await page.keyboard.press('Enter');
+      }
+    }
+
     console.log('✓ 本文入力完了');
 
     console.log('💾 下書き保存中...');

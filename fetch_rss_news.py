@@ -9,6 +9,7 @@ from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Set
 import time
 import json
+import re
 from dateutil import parser as date_parser
 
 # HKTタイムゾーン（UTC+8）
@@ -86,33 +87,69 @@ class RSSNewsAPI:
 
         return False
 
-    def _load_processed_urls(self) -> Set[str]:
-        """処理済みURLを読み込み"""
+    def _load_processed_urls(self) -> Dict[str, str]:
+        """処理済みURLを読み込み（URL → ISO日時）"""
         try:
             with open(self.history_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                return set(data.get('urls', []))
+                urls = data.get('urls', {})
+                if isinstance(urls, dict):
+                    return {self._normalize_url(k): v for k, v in urls.items()}
+                elif isinstance(urls, list):
+                    timestamp = data.get('last_updated') or datetime.now(HKT).isoformat()
+                    return {self._normalize_url(u): timestamp for u in urls if u}
+                else:
+                    return {}
         except FileNotFoundError:
-            return set()
+            return {}
         except Exception as e:
             print(f"⚠️  履歴ファイル読み込みエラー: {e}")
-            return set()
+            return {}
     
     def _save_processed_urls(self):
         """処理済みURLを保存"""
         try:
-            # 最近30日分のみ保持（メモリ節約）
-            cutoff_date = datetime.now(HKT) - timedelta(days=30)
-            
+            cutoff_date = datetime.now(HKT) - timedelta(days=60)
+            pruned = {}
+            for url, ts in self.processed_urls.items():
+                try:
+                    ts_dt = date_parser.parse(ts)
+                except Exception:
+                    ts_dt = datetime.now(HKT)
+                if ts_dt.replace(tzinfo=HKT) >= cutoff_date:
+                    pruned[url] = ts_dt.isoformat()
+            self.processed_urls = pruned
             data = {
                 'last_updated': datetime.now(HKT).isoformat(),
-                'urls': list(self.processed_urls)
+                'urls': pruned
             }
-            
             with open(self.history_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
         except Exception as e:
             print(f"⚠️  履歴ファイル保存エラー: {e}")
+
+    def _mark_url_as_processed(self, url: str):
+        normalized = self._normalize_url(url)
+        if not normalized:
+            return
+        self.processed_urls[normalized] = datetime.now(HKT).isoformat()
+
+    def _has_been_processed(self, url: str) -> bool:
+        normalized = self._normalize_url(url)
+        return normalized in self.processed_urls
+
+    def _is_url_too_old(self, url: str, max_age_years: int = 2) -> bool:
+        if not url:
+            return False
+        match = re.search(r'(20\d{2})', url)
+        if match:
+            try:
+                year = int(match.group(1))
+                current_year = datetime.now(HKT).year
+                return year < current_year - max_age_years
+            except ValueError:
+                return False
+        return False
     
     def _is_today_news(self, published_at: str) -> bool:
         """ニュースが過去24時間以内のものかチェック（重複防止のため24時間に戻す）"""
@@ -314,6 +351,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -343,7 +387,7 @@ class RSSNewsAPI:
                 })
                 
                 # 処理済みURLに追加
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -361,6 +405,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -388,7 +439,7 @@ class RSSNewsAPI:
                     'api_source': 'rss_rthk'
                 })
                 
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -406,6 +457,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -432,7 +490,7 @@ class RSSNewsAPI:
                     'source': 'Yahoo News HK',
                     'api_source': 'rss_yahoo_hk'
                 })
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -450,6 +508,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -476,7 +541,7 @@ class RSSNewsAPI:
                     'source': 'Google News HK',
                     'api_source': 'rss_google_news_hk'
                 })
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -494,6 +559,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -520,7 +592,7 @@ class RSSNewsAPI:
                     'source': 'China Daily HK',
                     'api_source': 'rss_chinadaily_hk'
                 })
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -538,6 +610,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -564,7 +643,7 @@ class RSSNewsAPI:
                     'source': 'Hong Kong Free Press',
                     'api_source': 'rss_hkfp'
                 })
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -585,6 +664,13 @@ class RSSNewsAPI:
                 
                 for entry in feed.entries[:50]:
                     url = entry.get('link', '')
+                    if self._has_been_processed(url):
+                        filtered_count += 1
+                        continue
+                    if self._is_url_too_old(url):
+                        filtered_count += 1
+                        self._mark_url_as_processed(url)
+                        continue
                     published_at = entry.get('published', entry.get('updated', ''))
                     title = entry.get('title', '')
                     description = entry.get('summary', entry.get('description', ''))
@@ -611,7 +697,7 @@ class RSSNewsAPI:
                         'source': 'HKET',
                         'api_source': 'rss_hket'
                     })
-                    self.processed_urls.add(url)
+                    self._mark_url_as_processed(url)
                 
                 print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
                 return news_list
@@ -637,6 +723,13 @@ class RSSNewsAPI:
             
             for entry in feed.entries[:50]:
                 url = entry.get('link', '')
+                if self._has_been_processed(url):
+                    filtered_count += 1
+                    continue
+                if self._is_url_too_old(url):
+                    filtered_count += 1
+                    self._mark_url_as_processed(url)
+                    continue
                 published_at = entry.get('published', entry.get('updated', ''))
                 title = entry.get('title', '')
                 description = entry.get('summary', entry.get('description', ''))
@@ -663,7 +756,7 @@ class RSSNewsAPI:
                     'source': source_name,
                     'api_source': feed_key
                 })
-                self.processed_urls.add(url)
+                self._mark_url_as_processed(url)
             
             print(f"  ✅ {len(news_list)}件取得（{filtered_count}件フィルタ済み）")
             return news_list
@@ -678,7 +771,7 @@ class RSSNewsAPI:
         
         all_news = []
         existing_titles = []
-        existing_urls = set()  # 正規化されたURLのセット
+        existing_urls = set(self.processed_urls.keys())  # 正規化されたURLのセット
         duplicate_count = 0
         url_duplicate_count = 0
         title_duplicate_count = 0

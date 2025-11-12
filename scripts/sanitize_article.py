@@ -162,6 +162,9 @@ def main():
     # 2) Deduplicate sections
     content = dedup_sections(content)
 
+    # 3) Collapse excessive blank lines
+    content = re.sub(r"\n{3,}", "\n\n", content)
+
     if content != original:
         path.write_text(content, encoding='utf-8')
         print(f"🧹 Sanitized: {path}")

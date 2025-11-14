@@ -4,6 +4,7 @@
 """
 
 import json
+import os
 import requests
 import re
 from datetime import datetime, timedelta, timezone
@@ -131,6 +132,12 @@ class GrokArticleGenerator:
             self.api_url = self.config['grok_api']['api_url']
             self.use_gemini = None
         
+        self.grok_model = (
+            self.config.get('grok_api', {}).get('model')
+            or os.environ.get('GROK_MODEL')
+            or 'grok-3'
+        )
+        
     def generate_article(self, news_data: List[Dict]) -> Dict:
         """Gemini/Claude/Grok APIで日本語記事を生成"""
         if self.use_gemini is True:
@@ -242,7 +249,7 @@ class GrokArticleGenerator:
                 }
             else:  # Grok API
                 payload = {
-                    "model": "grok-beta",
+                    "model": self.grok_model,
                     "messages": [
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt}
@@ -284,7 +291,9 @@ class GrokArticleGenerator:
                 print("✅ 記事生成完了")
                 
                 # 記事をパースして構造化
-                return self._parse_article_content(content)
+                article = self._parse_article_content(content)
+                article["body"] = self._ensure_section_count(article["body"], news_data)
+                return article
                 
             else:
                 print(f"❌ APIエラー: {response.status_code}")
@@ -314,6 +323,11 @@ class GrokArticleGenerator:
         self.api_key = self.config['grok_api']['api_key']
         self.api_url = self.config['grok_api']['api_url']
         self.use_gemini = None
+        self.grok_model = (
+            self.config.get('grok_api', {}).get('model')
+            or os.environ.get('GROK_MODEL')
+            or 'grok-3'
+        )
         
         # 元のgenerate_articleメソッドを再帰呼び出し
         return self.generate_article(news_data)
@@ -457,9 +471,22 @@ URL: {url}
             else:
                 headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
                 if self.use_gemini is False:
-                    payload = {"model": "claude-3-5-sonnet-20241022", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                    payload = {
+                        "model": "claude-3-5-sonnet-20241022",
+                        "messages": [{"role": "user", "content": prompt}],
+                        "temperature": 0.1,
+                        "max_tokens": 2048,
+                    }
                 else:
-                    payload = {"model": "grok-beta", "messages": [{"role": "system", "content": "Translate to natural Japanese only."}, {"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 2048}
+                    payload = {
+                        "model": self.grok_model,
+                        "messages": [
+                            {"role": "system", "content": "Translate to natural Japanese only."},
+                            {"role": "user", "content": prompt},
+                        ],
+                        "temperature": 0.1,
+                        "max_tokens": 2048,
+                    }
                 resp = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
                 if resp.status_code == 200:
                     if self.use_gemini is False:
@@ -474,6 +501,65 @@ URL: {url}
         # フォールバック: 原文を返却（少なくとも欠落しない）
         print(f"⚠️  天気翻訳フォールバック: 原文を返却")
         return text
+    
+    def _ensure_section_count(self, body: str, news_data: List[Dict]) -> str:
+        """生成された本文のニュース件数を検証し、足りなければフォールバック生成"""
+        expected_count = len(news_data)
+        if expected_count == 0:
+            return body
+
+        section_count = len(re.findall(r'(?m)^###\s', body))
+        if section_count >= expected_count:
+            return body
+
+        print(f"⚠️  記事数が不足: 期待 {expected_count} 件に対し {section_count} 件。フォールバック生成を実行します。")
+
+        # 既存本文の冒頭（最初の見出し以前）を保持
+        first_heading_index = body.find("### ")
+        prefix = body[:first_heading_index].strip() if first_heading_index > 0 else ""
+
+        fallback_body = self._build_sections_from_news(news_data)
+        fallback_sections = fallback_body.strip()
+
+        combined = []
+        if prefix:
+            combined.append(prefix)
+        combined.append(fallback_sections)
+
+        final_body = "\n\n".join(part for part in combined if part)
+        final_count = len(re.findall(r'(?m)^###\s', final_body))
+        if final_count < expected_count:
+            print(f"⚠️  フォールバック生成でも記事数が不足 ({final_count}/{expected_count})。")
+        else:
+            print(f"✅ フォールバック生成で {final_count} 件の記事を出力しました。")
+        return final_body
+
+    def _build_sections_from_news(self, news_data: List[Dict]) -> str:
+        """ニュースデータから確実に件数分のMarkdownセクションを生成"""
+        sections: List[str] = []
+        for idx, news in enumerate(news_data, 1):
+            source = news.get('_source') or news.get('source') or 'Unknown'
+            url = news.get('url', '').strip()
+
+            raw_title = (news.get('title') or f"ニュース {idx}").strip()
+            translated_title = self._llm_translate_text(raw_title).strip() or raw_title
+
+            summary_source = (news.get('full_content') or news.get('description') or "").strip()
+            if len(summary_source) > 1500:
+                summary_source = summary_source[:1500]
+            translated_summary = self._llm_translate_text(summary_source).strip() if summary_source else ""
+
+            section_lines = [f"### {translated_title}"]
+            if translated_summary:
+                section_lines.append(translated_summary)
+            if source:
+                section_lines.append(f"**引用元**: {source}")
+            if url:
+                section_lines.append(url)
+
+            sections.append("\n\n".join(section_lines).strip())
+
+        return "\n\n\n".join(sections)
     
     def _generate_cantonese_section(self) -> str:
         """広東語学習者向けの定型文を生成（固定内容・変更禁止）"""
@@ -874,58 +960,64 @@ def preprocess_news(news_list):
     selected = []
     selected_ids = set()
     selected_title_words: List[Set[str]] = []
+    category_counts = defaultdict(int)
     source_usage = defaultdict(int)
-    target_count = 18
+    
+    target_count = 30
+    max_per_source_initial = 2
+    fallback_category_limit = 3
+    category_limits = {
+        'ビジネス・経済': 6,
+        '社会・その他': 5,
+        'カルチャー': 4,
+        '政治・行政': 4,
+        'テクノロジー': 4,
+        '交通': 3,
+        '不動産': 3,
+        '事故・災害': 2,
+        '治安・犯罪': 2,
+        '医療・健康': 1,
+        '教育': 1,
+    }
     
     priority_cats = [
         'ビジネス・経済',
-        '社会・その他',
-        'カルチャー',
-        '不動産',
         '政治・行政',
-        '医療・健康',
-        '治安・犯罪',
+        '社会・その他',
         'テクノロジー',
+        '交通',
+        '不動産',
+        'カルチャー',
         '事故・災害',
-        '交通'
+        '治安・犯罪',
+        '医療・健康',
+        '教育'
     ]
     
-    def select_by_priority(max_per_source: Optional[int]) -> None:
+    ordered_categories = priority_cats + [
+        cat for cat in sorted(categorized.keys())
+        if cat not in priority_cats
+    ]
+    
+    def select_news(limit_source: bool, enforce_category_limit: bool, categories: List[str]) -> None:
         nonlocal selected
-        for cat in priority_cats:
+        for cat in categories:
             items = categorized.get(cat, [])
             if not items:
                 continue
-            
-            if cat == 'ビジネス・経済':
-                max_count = 4
-            elif cat == '社会・その他':
-                max_count = 3
-            elif cat == 'カルチャー':
-                max_count = 3
-            elif cat == '不動産':
-                max_count = 2
-            elif cat == '政治・行政':
-                max_count = 2
-            elif cat == '医療・健康':
-                max_count = 2
-            elif cat == '治安・犯罪':
-                max_count = 1
-            elif cat == 'テクノロジー':
-                max_count = 1
-            else:
-                max_count = 1
-            max_count = min(max_count, len(items))
-            
-            picked = 0
             for news in items:
-                if len(selected) >= target_count or picked >= max_count:
-                    break
+                if len(selected) >= target_count:
+                    return
                 if id(news) in selected_ids:
                     continue
                 
+                if enforce_category_limit:
+                    limit = category_limits.get(cat, fallback_category_limit)
+                    if category_counts[cat] >= limit:
+                        continue
+                
                 source = news.get('_source', 'Unknown')
-                if max_per_source is not None and source_usage[source] >= max_per_source:
+                if limit_source and source_usage[source] >= max_per_source_initial:
                     continue
                 
                 title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
@@ -936,18 +1028,23 @@ def preprocess_news(news_list):
                 selected_ids.add(id(news))
                 if title_words:
                     selected_title_words.append(title_words)
+                category_counts[cat] += 1
                 source_usage[source] += 1
-                picked += 1
-                
                 if len(selected) >= target_count:
-                    break
+                    return
     
-    select_by_priority(max_per_source=2)
+    # 1st pass: respect category limits and per-source cap
+    select_news(limit_source=True, enforce_category_limit=True, categories=ordered_categories)
     
+    # 2nd pass: relax source cap but keep category limits
     if len(selected) < target_count:
-        select_by_priority(max_per_source=None)
+        select_news(limit_source=False, enforce_category_limit=True, categories=ordered_categories)
     
-    print(f"\n✅ 選択完了: {len(selected)}件（優先順位調整済み）")
+    # Final pass: fill remaining slots without category limits
+    if len(selected) < target_count:
+        select_news(limit_source=False, enforce_category_limit=False, categories=ordered_categories)
+    
+    print(f"\n✅ 選択完了: {len(selected)}件（目標: {target_count}件）")
     
     selected_categories = defaultdict(int)
     for news in selected:
@@ -955,9 +1052,12 @@ def preprocess_news(news_list):
         selected_categories[category] += 1
     
     print("📊 選択されたニュースのカテゴリー別内訳:")
-    for cat in priority_cats:
-        if cat in selected_categories:
-            print(f"  {cat}: {selected_categories[cat]}件")
+    for cat, count in sorted(selected_categories.items(), key=lambda x: (-x[1], x[0])):
+        limit = category_limits.get(cat)
+        if limit is not None:
+            print(f"  {cat}: {count}件（上限: {limit}件）")
+        else:
+            print(f"  {cat}: {count}件")
     
     return selected
 

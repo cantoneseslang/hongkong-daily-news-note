@@ -360,7 +360,7 @@ class GrokArticleGenerator:
             "title": title,
             "lead": "",
             "body": body,
-            "tags": "香港,広東語,廣東話,中国語ニュース,最新,情報,アジア"
+            "tags": "香港,広東語,廣東話,広東語 ありがとう,広東語 あいさつ,広東語 中国語 違い,広東語 こんにちは,広東語 日常会話,広東語 一覧,広東語勉強,広東語 旅行"
         }
     
     def _format_news_for_prompt(self, news_data: List[Dict]) -> str:

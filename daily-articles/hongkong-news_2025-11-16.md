@@ -3,432 +3,282 @@
 ## 本日の香港の天気
 
 ### 天気予報
-香港天文台が2025年11月16日05時45分に発表した天気予報
-乾燥した東北季節風が広東沿岸に影響しています。
+香港天文台が2025年11月16日06時45分に発表した天気予報
+乾燥した北東の季節風が広東省沿岸に影響しています。
+
 香港の今日の天気予報：
-概ね晴れ。日中は乾燥し、市街地の最高気温は約27度、新界ではさらに1、2度高くなるでしょう。穏やかな東から北東の風が吹き、初めは沿岸部でやや強く吹くでしょう。
-予報：明日は概ね晴れで、日中は暖かく、夜には北風が次第に強まるでしょう。火曜日はかなり涼しくなるでしょう。水曜日は気温が13度、14度くらいまで下がるでしょう。
+概ね晴れでしょう。日中は乾燥し、市街地の最高気温は約27度、新界ではさらに1、2度高くなる見込みです。穏やかな東から北東の風が吹き、当初は沿岸部でやや強い風が吹くでしょう。
+
+今後の見通し：明日は概ね晴れ、日中は暖かく、夜には北風が次第に強まるでしょう。火曜日は大幅に涼しくなる見込みです。水曜日は気温が13、14度前後まで下がるでしょう。
 
 **引用元**: 香港天文台
 
-### Hong Kong sees lacklustre weekend property sales at Tuen Mun development
+### 屯門のマンション販売が低調、市場回復に陰り
 
-The Reserve at Gold Coast Bay sells only 14 flats of the 152 units on offer as of 6.30pm
-
-Only 14 flats, of the 152 units on offer, were sold as of 6.30pm, according to agents.
-
-Ninety-six of the 152 units were priced between HK$4.7 million and HK$8.6 million after discount, costing about HK$10,431 to HK$15,312 per square foot. The other 56 units were put up for sale by tender.
-
-The 14 flats that were sold consisted of two three-bedroom units and 12 two-bedroom flats, with a total value of nearly HK$100 million (US$12.9 million).
-
-The flats offered on Saturday were part of the 1,323 phase two units at the development.
+香港の屯門（Tuen Mun）にある「ザ・リザーブ・アット・ゴールドコースト・ベイ（The Reserve at Gold Coast Bay）」で土曜日に販売された最新の分譲マンションは、発売から3時間で提供されたユニットの1割にも満たない数しか売れず、低調な結果に終わりました。不動産仲介業者によると、午後6時半までに販売されたのは、提供された152戸のうちわずか14戸でした。ミッドランド・リアルティ（Midland Realty）のシニアディレクター、サミー・ポー・シウミン（Sammy Po Siu-ming）氏は「ほとんどが残りの在庫だ。販売は継続する」と述べています。今週末にデベロッパーのアーリー・ライト（Early Light）が提供した分譲物件は…
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/companies/article/3332937/hong-kong-sees-lacklustre-property-sales-tuen-mun-project-slowing-markets-recovery?utm_source=rss_feed
 
-### 保安局は、外務省が国民の訪日に関する注意喚起を行ったことを受け、海外渡航警報ウェブサイトの追加情報を更新したと発表した。
-    香港電台ニュースサイト
+### 保安局、外交部の日本渡航注意喚起を受け外遊警報ウェブページを更新
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE52STBKTjRIcU5SRzhodlluSkxodUpkZDlNTXZ6VTBhYTdpRi05ajBLRk5IUEswWEc5dG9UbjlDYmxYbmROTHlXV0wwSmNkY2RWWDJlWWQwdExjeElGRXU4VUtkdTRyNGRzWFFseTJHVQ?oc=5" target="_blank">保安局稱因應外交部就公民赴日提醒 更新外遊警示網頁附加資料</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台新聞網</font></li><li><a href="https://news.google.com/rss/articles/CBMizwJBVV95cUxPakl4Yy1xRWVRMlF0cEwtY05Ta21fdXIwOG5EUXRqRjg5cnRVUEdfLUNVckZkMTJ4eFlkMFVtS0lVSGtLa3k4QWUydFFfQzhzT3VYcmF6bzVyV2pPTHN5WGNnS2t0aDRvWko5MFNXTUgxZlkzWC02TnFsUFJ3bEk5blJJa3h4b1d3S0tqVm1iUzVuWkJfa29FWlNVWEwyR0hBcTAxT0l0TnFkM0g2am9QSEl2WEVWVGQwWEdtX3JMYUpsN05xbDBQZVpTS3prUUdTem81NUpZV3NIZXVsb2l0WVRwS1BCVEJubjMxMlE5ODJ3ZWRMZGZXTG55c2Vqd0RnMVprRG9GR2dXa0VtSjFsT1c5Y1pONHFWSjF5VkZ1c25OTkpiVVpYbXFpY3VJaTI3THNTcEo5TlpxS1VkTEowZFNXb2tXN1BmWjVaQWc3RQ?oc=5" target="_blank">中國提醒公民避免前往日本 赴日遊客考慮退改</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo 財經</font></li><li><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPczhDcWw5YUVqRHYyeU56b1N4eHltZnUzSE9lY0dKQ0dLYmQwNVdmeWFXNzl5cklyRzZtZ3g3Sl90LW1ZN2pmLUIwRjg1QnBsT2dCYnBaMkRTWEhueFVmZk1nUFdiZ1MxM2VROVN4Nm16YTdfbk1vWHcxZXFJR1VMaDBodXZfS0JzVVV5SmR4SjdReThLVnJKTnc0d3BZUXJ4NWRMS2xjNENEYVU?oc=5" target="_blank">多間航空公司宣布購買日本航線機票旅客可免費退改</a>&nbsp;&nbsp;<font color="#6f6f6f">AASTOCKS.com</font></li><li><a href="https://news.google.com/rss/articles/CBMipwNBVV95cUxPQTZuR1lPd2RDTlJYdzd4SlZ0aE1UMHRIMGlyT3pCNzMyMkFuZ3BPV2tlVXVLSmFEb2ZFYkdKYnNwYjRNc3RHbVFiMmJzWTUtTFdQRnB3THRVQXh0cVdGb0
+保安局は、外交部が中国国民の日本渡航に関する注意喚起を行ったことを受け、海外渡航警報ウェブページの追加情報を更新したと発表しました。
 
-**引用元**: Google News HK
+**引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE52STBKTjRIcU5SRzhodlluSkxodUpkZDlNTXZ6VTBhYTdpRi05ajBLRk5IUEswWEc5dG9UbjlDYmxYbmROTHlXV0wwSmNkY2RWWDJlWWQwdExjeElGRXU4VUtkdTRyNGRzWFFseTJHVQ?oc=5
 
-### 香港発の「ライオンロック」チップが、香港の半導体分野における地位を向上させる。
+### 香港出資の「ライオンロック」チップがデビュー、半導体分野での地位向上に貢献
 
-RISC-Vチップメーカーである上海拠点のStarFiveは、3月に香港投資公社から出資を受けました。
-
-香港が出資するあるチップスタートアップは金曜日、市のランドマークである獅子山（ライオンロック）にちなんで名付けられたプロセッサーを発表しました。この開発は、半導体業界における香港の地位を高めるものとなるでしょう。
-
-同社は金曜日、そのチップ
+香港が出資する半導体スタートアップ企業が金曜日、香港のランドマークであるライオンロック（獅子山）にちなんで名付けられたプロセッサを発表しました。この開発は、香港の半導体分野における地位を高めるものと期待されています。上海の半導体スタートアップ企業スターファイブ（StarFive）が開発したRISC-Vベースのデータセンター向けチップは、人工知能（AI）アプリケーションの計算能力に対する需要の急増を活用することを目指しています。スターファイブは3月に香港投資公社（HKIC）から非公開の投資を受けています。
 
 **引用元**: SCMP
 
 https://www.scmp.com/tech/tech-trends/article/3332852/hong-kong-backed-lion-rock-chip-debuts-boost-citys-semiconductor-standing?utm_source=rss_feed
 
-### 金價跌逾2% 市場料聯儲局下跌減息機率不足50% - 香港電台新聞網
+### 金価格が2%超下落、FRBの利下げ確率は50%未満と市場予測
 
-以下に翻訳します。
+金価格が2%以上下落しました。市場では、米連邦準備制度理事会（FRB）が利下げする確率は50%未満と見られています。
 
-1.  <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1mS016Nk94RWVGekpEcVBwZkhPN0NCOFRNek5HMTI1Sk5XYWdyZWdDTmstMUxERmYtT3ZYNlUxNlUzRDVDLWZ3SzU3SkUzODZJdXVTay0tTjItWmZ5dUpXR2c5R01LcEdHU181YzVnTQ?oc=5" target="_blank">金価格が2%超下落、市場はFRBの利下げ確率が50%未満と予想</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台ニュース</font>
-2.  <a href="https://news.google.com/rss/articles/CBMilwNBVV95cUxOUnVFdW9NRUhpX1JtSDlCMGp1X21KRE9PbzJ0OUMyb2hFZHNrZWswSklaQ2VfaFNKNFdBX3loU1U4UmpEQ2xzcEQ5OUdwVWVrNEtOaG5LMnhUSUxGV05zT1BvOU1waHY3amRKcGtJTy1NeGgxWGdUaEJmMUZEVXp6WmFKV3RKejNwWkR4NGpVcHFBbFoxOFpMUVBNR19nQkZ1ZzBqcHFzVEN6Q3ZNSHB2WUJidC1GbHZ3Q0N3NzBFT0taWFotU3dVYXptNm44WXhoNXhTTjl2dUJ0d19wTHRPSzJiYjRQSTd5TXF1UlJjbk5lN3pkb0pQVnVQU0Mxajk1QmhvOTBUck5qX2tWYnAzUTBHSWIxNkRCeTNsZF9vMkVseDFXSnNNQ20yMVNiLVJ5Z2xnOW84bi01cjZNV2FITGNNZjJCWURHYlRoeGtBUkxfSE00enZGRGpKM1RwdjhrWlA0SkFFcVN1NkRuekxFVnBxYThiTVc1d1FGbVFzNmUzZ1I0Y09QQkRRQ2ZBUURFaGFkaXVjWQ?oc=5" target="_blank">ウォール街のベテラン投資ディレクター：FRBは年末に利下げの可能性、来年の政策はハト派的</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahooファイナンス</font>
-3.  <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9iQVZQam5LN3RROHhmdDJaN0x1bmR3eEYxN3NjNHVJVEc0X1gwQWhpaU5kb1pzZHV6Vl9QMGtiTXhiUTc0T3hNTUpmc3lvSU1uSkdEbWROMkxjVXhSTG8weXFIZWFPdzFVMGVFeGxpTQ?oc=5" target="_blank">複数のFRB当局者、インフレは依然として高すぎるとの見方、労働市場に軟化の兆し</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台ニュース</font>
-4.  （翻訳対象の広東語/中国語テキストが提供されていないため、翻訳できません）
-
-**引用元**: Google News HK
+**引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE1mS016Nk94RWVGekpEcVBwZkhPN0NCOFRNek5HMTI1Sk5XYWdyZWdDTmstMUxERmYtT3ZYNlUxNlUzRDVDLWZ3SzU3SkUzODZJdXVTay0tTjItWmZ5dUpXR2c5R01LcEdHU181YzVnTQ?oc=5
 
-### 週刊レビュー | 第2部 - 話題まとめ (15.11.2025)
+### 今週のニュースまとめ：全国運動会開会式、米政府機関閉鎖終了、新フェリー就航
 
-【Now新聞台】今週の主なニュースです。
-
-*   第15回全国運動会が今夜、広州で華麗に開幕。
-*   トランプ氏、米国史上最長の連邦政府機関閉鎖を終結させる法案に署名。
-*   新フェリーで中環－西九龍間がわずか8分に。
+今週の主要ニュースは以下の通りです。今夜、広州（Guangzhou）で第15回全国運動会（National Games）の華やかな開会式が開催されました。トランプ大統領は、米国史上最長の連邦政府機関閉鎖を終わらせる法案に署名しました。新しいフェリーに乗れば、中環（Central）から西九龍（West Kowloon）までわずか8分で行けるようになります。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/weekly-reviu-part-two-story-100326739.html
 
-### 立法会選挙2025：民建連の李清霞氏、選挙討論会で突然体調不良となり病院へ搬送
+### 立法会選挙2025：民建聯の李清霞氏、選挙フォーラム中に体調不良で病院搬送
 
-立法會港島東地區直選論壇今午舉行，民建聯李清霞在開首介紹選舉政綱時，突然不適，其後暈倒，送院治理。
-
-政府舉行39場選舉論壇，唯獨是今日的港島東及港島西直選論壇在戶外舉行，在香港公園上演。當李清霞介紹政綱時突然不適，指「唔好意思」後大力喘氣，需要由民安隊扶上輪椅。她其後被送院治理。論壇一度暫停，主持人其後交代李清霞無法繼續參與論壇，但繼續舉行活動。
-
-參選港島東地區直選的有吳秋北(工聯會)、植潔玲(民建聯)、郭浩景(新民黨)、阮建中(自由黨)及李清霞(民建聯)。
-
-原文刊登於 AM730 https://www.am730.com.hk/本地/立法會選舉2025-民建聯李清霞選舉論壇突不適-送院治理/618795?utm_source=yahoorss&utm_medium=referral
+本日午後、立法会香港島東地区直接選挙フォーラムが開催されました。民主建港協進聯盟（民建聯）の李清霞（Lee Ching-ha）氏が冒頭で選挙公約を紹介している最中に突然体調を崩し、その後意識を失い、病院に搬送されました。フォーラムは続行されました。政府は39回の選挙フォーラムを開催していますが、今日の香港島東と香港島西の直接選挙フォーラムだけが屋外の香港公園（Hong Kong Park）で開催されました。李清霞氏が公約を紹介中に突然体調不良を訴え、「申し訳ありません」と言った後、激しく息を切らし、民安隊（Civil Aid Service）の助けを借りて車椅子に乗せられました。その後、彼女は病院に搬送されました。フォーラムは一時中断されました。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%892025-%E6%B0%91%E5%BB%BA%E8%81%AF%E6%9D%8E%E6%B8%85%E9%9C%9E%E9%81%B8%E8%88%89%E8%AB%96%E5%A3%87%E7%AA%81%E4%B8%8D%E9%81%A9-%E9%80%81%E9%99%A2%E6%B2%BB%E7%90%86-092903441.html
+https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%892025-%E6%B0%91%E5%BB%BA%E8%81%AF%E6%9D%8E%E6%B8%85%E9%9C%9E%E9%81%B8%E8%88%89%E8%AB%96%E5%A0%B4%E7%AA%81%E4%B8%8D%E9%81%A9-%E9%80%81%E9%99%A2%E6%B2%BB%E7%90%86-092903441.html
 
-### 香港は、「愛国者のみ」の立法会選挙の投票率向上を狙い、無料コンサートを開催する。
+### 香港政府、投票率向上へ「愛国者のみ」立法会選挙前夜に無料コンサート開催
 
-政府は、来る12月7日の立法会選挙を前に、投票を促す目的で無料コンサートを開催します。このコンサートは「Let's Vote, Together We Create the Future Gala」と題され、70組の歌手やアーティストが出演する予定です。会場は西九龍文化[中略]にあるAXA Wonderlandです。
+香港政府は、来る12月7日の立法会選挙の投票率向上を目指し、選挙前夜に無料コンサートを開催します。「投票しよう、共に未来を創造するガラ（Let’s Vote, Together We Create the Future Gala）」と題されたこのコンサートには、70組の歌手やアーティストが出演する予定で、西九龍文化地区（West Kowloon Cultural District）のAXAワンダーランド（AXA Wonderland）で開催されます。
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/14/hong-kong-to-hold-free-concert-to-boost-turnout-for-patriots-only-legislative-polls/
 
-### 香港の放送局が、政府が主催する選挙フォーラムを優先すると報じられている。
+### 香港の主要テレビ局、政府主催の選挙フォーラムに譲り独自の開催を中止
 
-香港政府が2025年11月12日に新界西北部地域選挙区の選挙フォーラムを開催する。写真：Kyle Lam/HKFP.
-
-香港の主要テレビ局3社は、12月に予定されていた「愛国者のみ」の立法会選挙に向けた選挙フォーラムの開催計画を中止し、政府主催のフォーラムに道を譲ったと報じられている。TVB、i-Cable、Now TVの3つのテレビ局は、伝統的に各立法会（LegCo）選挙に先立って選挙フォーラムを主催しているが、[...]
+香港の主要テレビ局3社が、12月の「愛国者のみ」の立法会選挙に向けた独自の選挙フォーラム開催計画を中止し、政府主催のフォーラムに道を譲ったと報じられています。TVB、i-Cable、Now TVの3チャンネルは、これまで立法会（LegCo）選挙の前に伝統的に選挙フォーラムを主催してきました。
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/13/hong-kong-broadcasters-give-way-to-govt-organised-election-forums-reports/
 
-### アーロン・ホーが全国大会男子サーブルで銀メダルを獲得。
+### アーロン・ホー選手、全国運動会男子サーブルで銀メダル獲得
 
-Hong Kong’s fencing team celebrated its second medal of the day at the National Games, as Aaron Ho secured a silver medal in the men’s individual sabre on Saturday.
+香港のフェンシングチームは、全国運動会（National Games）でこの日2つ目のメダルを獲得しました。アーロン・ホー（Aaron Ho、何思朗）選手が土曜日の男子個人サーブルで銀メダルを獲得しました。このメダルは、香港がこの種目で全国運動会史上最高の成績を収めたことを示します。
 
-This medal marks the city's best-ever performance in the event at these Games.
+30歳のホー選手は、チームメイトのロイス・チャン（Royce Chan、陳樂熹）選手、安徽省のウー・ジアシェン（Wu Jiasheng、呉嘉聖）選手、山東省のシュー・ハオジュン（Xu Haojun、徐浩鈞）選手、広東省のシュー・インミン（Xu Yingming、許英明）選手を含む一連の対戦相手を破り、大会を通じて粘り強いパフォーマンスを見せました。
 
-The 30-year-old put on a resilient display throughout the competition, defeating a series of opponents including his teammate Royce Chan, as well as Wu Jiasheng of Anhui, Shandong's Xu Haojun and Xu Yingming of Guangdong.
+金メダル決定戦では、世界ランキング79位のホー選手が山東省のウェイ・ジェンハオ（Wei Zhenhao、魏振豪）選手と対戦しました。ウェイ選手は、前進するよりも防御とカウンターアタックに焦点を当てた計算された戦略を採用しました。このアプローチは非常に効果的で、最初の休憩までに8-1と圧倒的なリードを築きました。
 
-In the gold medal match, Ho, who is ranked 79 in the world, faced a formidable challenge from Shandong’s Wei Zhenhao.
+休憩後、ホー選手は戦術を調整し、新たな攻撃を仕掛け、わずかに差を縮めました。しかし、ウェイ選手は冷静さを保ち、リードを維持し、最終的に15-7で勝利を収めました。
 
-Wei employed a well-calculated strategy, focusing on defence and counter-attacks rather than rushing forward.
+ホー選手は、全国運動会で香港特別行政区（SAR）初のフェンシング金メダル獲得を目指していたと語りました。「金メダルを獲得できなかったことに、正直少しがっかりしています。ヘッドコーチがいつも、全国運動会で初のフェンシング金メダルを獲得してブレイクスルーを達成したいと話していたので、少し申し訳なく感じています」と彼は述べました。「しかし残念ながら、決勝では良いパフォーマンスができず、金メダルを獲得できませんでした。しかし、今後数日間で、香港チームにはこの大会に向けて非常に懸命に準備してきた多くの選手がいます。彼らの成功を願っています。」
 
-This approach proved highly effective, allowing him to build a commanding 8-1 lead by the first break.
+表彰台は、ウェイ選手のチームメイトであるジュー・ペイジエ（Zhu Peijie、朱佩傑）選手が銅メダルを獲得して完成しました。
 
-After the interval, Ho adjusted his tactics and mounted a renewed offensive, and slightly closed the gap.
-
-However, Wei remained composed and steady, maintaining his lead to ultimately seal the victory with a score of 15-7.
-
-Ho said he was aiming to win the SAR's first fencing gold at the National Games.
-
-"I'm actually a bit upset that I couldn't win a gold medal. I feel a bit sorry because my head coach always talks about wanting us to achieve a breakthrough at the National Games and win our first fencing gold medal," he said.
-
-"But unfortunately, I didn't perform well in the final and couldn't win that gold medal.
-
-"But I know that in the upcoming days, our Hong Kong team will have
+ホー選手の銀メダル獲得は、チームメイトのケイリン・シエ（Kaylin Hsieh、佘繕妡）選手が女子個人エペで銅メダルを獲得したのと同じ日であり、今大会における香港フェンシングチームの好調なスタートを際立たせています。
 
 **引用元**: RTHK
 
 https://news.rthk.hk/rthk/en/component/k2/1831819-20251115.htm
 
-### アダム・マックが香港に、さらに水泳メダルをもたらしました。
+### アダム・マック選手、全国運動会競泳で香港に初の男子メダルをもたらす
 
-It was a landmark day for Hong Kong swimming at the National Games, as 19-year-old Adam Mak clinched a historic bronze medal in the men’s 200-metre breaststroke on Saturday.
+全国運動会（National Games）の競泳競技で、香港にとって歴史的な一日となりました。19歳のアダム・マック（Adam Mak、麥世霆）選手が土曜日の男子200メートル平泳ぎで歴史的な銅メダルを獲得しました。マック選手の表彰台入りは、この日2つ目の競泳メダルであり、香港男子競泳選手にとって全国運動会史上初のメダルとなります。
 
-Mak's podium finish marks the second swimming medal of the day and also the first-ever medal for a Hong Kong male swimmer at the Games.
+マック選手は、50メートル地点で5位と出遅れた後、勢いをつけ始めました。彼は着実に加速し、150メートル地点までに4位に浮上し、その後、見事な3位でフィニッシュしました。彼は2分9秒93のタイムで壁にタッチし、これは彼自身の香港記録を更新するものでした。上海のチン・ハイヤン（Qin Haiyang、覃海洋）選手が金メダルを獲得し、江蘇省のドン・ジーハオ（Dong Zhihao、董志豪）選手が銀メダルを獲得しました。
 
-The swimmer started to build momentum after a slower start that saw him in fifth position at the 50-metre mark.
+マック選手は、これまでのトレーニングがようやく実を結んだと語りました。「数ヶ月前に自己ベストを達成したばかりだったので、こんな短期間でさらに改善できたことをとても嬉しく思います。」
 
-He steadily accelerated, moving into fourth by the 150-metre mark before powering through to a spectacular third-place finish.
-
-He touched the wall with a time of two minutes and 9.93 seconds, which is faster than his own Hong Kong record.
-
-Shanghai's Qin Haiyang topped the podium, with Dong Zhihao of Jiangsu taking silver.
-
-Mak said his training has finally paid off.
-
-"I had only recently achieved my personal best time a few months ago, so I was very happy to see improvement in such a short time."
-
-There were also strong performances by other SAR swimmers.
-
-In the men's 50-metre freestyle, Ian Ho qualified for Sunday's final by clocking the second-fastest overall time of 22.24 seconds.
-
-His final is scheduled for 7.05pm.
-
-He is joined by Cindy Cheung, who secured the eighth and final spot in the women’s 200-metre backstroke final with a time of two minutes and 11.41 seconds.
-
-She will also compete for a medal on Sunday in the final at 7.10pm.
+他の香港特別行政区（SAR）の競泳選手も好成績を収めました。男子50メートル自由形では、イアン・ホー（Ian Ho、何甄陶）選手が22秒24の全体2位のタイムで日曜日の決勝に進出しました。彼の決勝は午後7時5分に予定されています。シンディ・チョン（Cindy Cheung、張心悅）選手も、女子200メートル背泳ぎ決勝で2分11秒41のタイムで8位に入り、最後の出場枠を獲得しました。彼女も日曜日の午後7時10分からの決勝でメダルを争います。
 
 **引用元**: RTHK
 
 https://news.rthk.hk/rthk/en/component/k2/1831815-20251115.htm
 
-### 中国のレアアースの躍進、福建空母の海軍における天才的成果：7つの注目点
+### 中国の希土類ブレークスルー、福建空母の海軍の天才：SCMPの7つのハイライト
 
-最近のASEAN首脳会議で話題になった出来事から、中国人宿泊客がホテルの部屋を水浸しにした件まで、SCMPの最近の報道から主な内容を抜粋してお届けします。
+今週の香港、中国本土、アジア地域、そしてそれ以外のニュースの中から、読者の共感を呼び、時事問題に光を当てた7つの記事を選びました。
 
-中国主導の科学者チームは、シダ植物の中から希土類元素を含む天然鉱物を発見したと発表しました。これは、高価値の希土類を抽出するための「グリーン循環モデル」を提供する世界初の発見であると、研究を主導した機関は述べています。研究者たちは、生きた植物におけるナノスケールモナザイトの発見が、「機能性希土類元素材料の直接回収に新たな可能性を開く」と述べました。
-
-北京は、台湾海峡における日本のいかなる軍事介入も「侵略行為」と見なされ、報復すると警告しました。これは、日本の高市早苗首相の台湾に関する発言を巡る外交摩擦における最新の展開となります。
-
-先週行われた福建の就役式典には、ごく一部の人民解放軍将校しか出席しませんでしたが、その中には馬偉明（Ma Weiming）海軍少将がいました。彼は、その技術的ブレークスルーによって、この空母を同種のものの中で最も先進的なものの一つにした人物です。
+1. 世界初、中国の科学者が生きた植物から希土類鉱物を発見
+中国主導の科学者チームは、シダ植物から希土類元素を含む天然鉱物を発見したと発表しました。これは世界初の発見であり、「グリーン…」
 
 **引用元**: SCMP Business
 
 https://www.scmp.com/news/world/article/3332721/chinas-rare-earths-breakthrough-fujian-carriers-naval-genius-scmps-7-highlights?utm_source=rss_feed
 
-### Bananas and beef: White House unveils Latin America trade deals
+### ホワイトハウス、中南米諸国との貿易協定を発表：バナナと牛肉の価格下落も
 
-アルゼンチン、グアテマラ、エクアドル、エルサルバドルは、一部の品目に対する関税軽減と引き換えに、米国製品に市場を開放することで合意しました。
-
-ホワイトハウスは木曜日、アルゼンチン、グアテマラ、エクアドル、エルサルバドルとの貿易協定を発表しました。これは、ドナルド・トランプ米大統領が世界中で広範な関税を課して以来、最新の合意となります。
-
-トランプ氏の2期目の政権下での生活費に対する不満が高まる中、バナナやコーヒーは、経済的に苦しい米国の消費者にとって価格が下落する可能性のある食料品の一部であると述べられました。
-
-ホワイトハウスによると、これら4カ国はいずれも南米と中米にある米国の裏庭とも言える地域に位置し、米国製品に市場を開放することに合意しました。その見返りとして、ワシントンは一部の品目に関税軽減を認めます。
-
-米政権高官は記者団に対し、「これらの合意は、均衡の取れた貿易を実現し、互恵関係を達成し、長期的には赤字を削減するのに役立つと信じています」と述べました。
-
-「コーヒー、ココア、バナナといった品目の価格には、いくつかの良い影響があるものと期待しています。」
-
-これらの合意は、トランプ政権に友好的な指導者たちに対する報奨でもあります。
+ホワイトハウスは木曜日、アルゼンチン、グアテマラ、エクアドル、エルサルバドルとの貿易協定を発表しました。これは、ドナルド・トランプ米大統領が世界中で広範な関税を課して以来の最新の合意となります。ホワイトハウスによると、トランプ大統領の2期目の政権下で生活費に対する不満が高まる中、バナナやコーヒーなどの食料品の価格が米国の消費者のために下がる可能性があるという。中南米にあるこれら4カ国は、米国製品に市場を開放することに合意しました。
 
 **引用元**: SCMP Business
 
 https://www.scmp.com/news/world/united-states-canada/article/3332715/bananas-and-beef-white-house-unveils-latin-america-trade-deals?utm_source=rss_feed
 
-### 米国株日誌｜ナスダック持ち直しも3週連続安、ダウ平均は2日で1,100ポイント安 - Yahoo ファイナンス
+### 米国株式市場日報：ナスダックは持ち直すも3週連続下落、ダウ平均は2日間で1,100ポイント安
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMi1AJBVV95cUxPcWVTalNGSm40Wm9ONFk0RUt3WHVpX3FxUUdiNm96bVA4eUNnemhrMFBaelFGOTNPem5ad0VGN1g0WnlCcHVTNm5yY2dRZ0pXcV9VR3lWc05EXzV6bGJVemcwS1NwMXBzRDFxdG1IeWN1eGFabTJSanl6ejU1NzhCMzVWVnRaT3pmWEY1VVhUbFVseGlqdHR6bURzQTV2RzlDd1ZYbDdkRzRpOXNTWFRvaUlNd2xlMWNnbDB4ZEQ1c1MyV01ZTUR2QTZ6VUU4bnE5RFFERWtjTkhFdFlfdTJwQWhJS3RoNTBZREJEQVZlcTM2d2duTm5PUlNTSEhwUl9UbU9Ld0tSejFVS1JzQXowRlZjWE5rZ3JjT1F0dXlqaEdCWGMtSVZfNzFBOWNhc25OUkl1T0VIdXpKeEFJMmNjV05XTlZRallSMktCNWJ0eVBCS3I5?oc=5" target="_blank">美股日誌｜納指回穩仍連跌三周 道指兩日挫1,100點</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo 財經</font></li><li><a href="https://news.google.com/rss/articles/CBMi8wJBVV95cUxNaExQbm5hSWw4Y3pJRzlkc3I4MDFaWU50LTAwdDUtV2pfQ2FXcmtfNzhQQ2NFZWQzTmhLLWFleUxkTFVQMDlXTUJVcl92N0x3VjdmSnV3c0ltSUdSYTlrSTNrQmJFY181MWd0Vy05bjBkd2ZpeXVESmdORWtieTI1Z1VGS2l2N25hYkdYQkJILWZTRkZNRVRiQ3NVb0NPXzlFQ19nZ2hteEw3Z0YtLTNYWERCbklYc1lKZU1vbGllSmpSQjhrODdEVFE4MVlDYWxOS29BZkFYVHkwdjJRb1A1eHZHMWNraUNCa2R1WlkxSUY1TzhSSFRoaGJ2aDRIVUlLbXE2ZllPZHFvYUNRR1JudVRPUTUzMXRlRnlrU0JXY19nUjBPeEJBYjhvOFBlZXRkSFVzRGZiaENzZm5EY3FZdEdEbzIxUVA0ZXpTWjRLUlAyNTVJQ2otRGsxdEhqbFN3cFhVNWZGUmRTQnB5MHN0ck5TQQ?oc=5" target="_blank">【Joe’s華爾街脈動】比特幣崩盤、AI股重挫，投資者湧向避險資產</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo 財經</font></li><li><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzhOZFRFV2NnVEp1Rm1td1kzMXdnNGJCVDJmS0FnY25lYldhU182bnk1U0Q4Zmw5eWZmMWM5MjNsSkROZnM3Mk15YVRhNE9BQWo4MWJKTkE5Zi0zazRYdUttMzl1MkozVHlPcGd6NGJzeWN1Wml
+米国株式市場日報によると、ナスダックは持ち直したものの3週連続で下落し、ダウ平均は2日間で1,100ポイント下落しました。
 
-**引用元**: Google News HK
+**引用元**: Yahoo 財經
 
 https://news.google.com/rss/articles/CBMi1AJBVV95cUxPcWVTalNGSm40Wm9ONFk0RUt3WHVpX3FxUUdiNm96bVA4eUNnemhrMFBaelFGOTNPem5ad0VGN1g0WnlCcHVTNm5yY2dRZ0pXcV9VR3lWc05EXzV6bGJVemcwS1NwMXBzRDFxdG1IeWN1eGFabTJSanl6ejU1NzhCMzVWVnRaT3pmWEY1VVhUbFVseGlqdHR6bURzQTV2RzlDd1ZYbDdkRzRpOXNTWFRvaUlNd2xlMWNnbDB4ZEQ1c1MyV01ZTUR2QTZ6VUU4bnE5RFFERWtjTkhFdFlfdTJwQWhJS3RoNTBZREJEQVZlcTM2d2duTm5PUlNTSEhwUl9UbU9Ld0tSejFVS1JzQXowRlZjWE5rZ3JjT1F0dXlqaEdCWGMtSVZfNzFBOWNhc25OUkl1T0VIdXpKeEFJMmNjV05XTlZRallSMktCNWJ0eVBCS3I5?oc=5
 
-### 「『シンガポール人実業家』がロマンス詐欺で香港人から260万香港ドルを詐取」
+### オランダ当局のNexperia発言に対し、中国商務部が「事実混同」と批判
 
-Police say case involving 52-year-old woman is among more than 40 online love scams recorded in past two weeks, with losses totalling HK$17 million
+オランダ当局者がNexperia（安世半導体）について発言したことに対し、中国商務部は「事実を混同し、白黒を逆転させている」と批判しました。
 
-Hong Kong police have recorded more than 40 cases of online romance scams in the past two weeks, including one of a 52-year-old woman who lost over HK$2.6 million (US$334,500) to a swindler posing as a “Singaporean businessman”.
+**引用元**: on.cc東網
 
-The force on Friday said the cases involved losses totalling over HK$17 million.
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmdvZFpUZWVaUnRYOVVrazJ1NjBNdFlBMndNenVjTHJmaE1lNzVZS0psaVhYNUJGWWdOTEgxbVR5YjJGdDNHOTBLZmgyOGRNRG5ONEtfbE1seEY5NHF6Q0tybFdBbFREc1V0MC1KcnNKX0V2TlU2YVpVMlVFRkltR2d0UzdTV0JnUENr?oc=5
 
-It added that more than 40 per cent of the victims were aged over 50.
+### 全国運動会女子100メートル自由形、香港のシボーン・ホーヒー選手が金メダル獲得（個人2冠）
 
-In a post on its CyberDefender Facebook page, the force said the 52-year-old woman met a man claiming to be a businessman from Singapore on WhatsApp.
-
-After chatting briefly through the app, they developed what the woman believed to be an intimate relationship.
-
-The scammer soon lured her into investing in a purported hotel project, promising high returns.
-
-**引用元**: SCMP
-
-https://www.scmp.com/news/hong-kong/law-and-crime/article/3332875/hong-kong-police-record-more-40-cases-online-romance-scams-2-weeks?utm_source=rss_feed
-
-### 全運会 女子100メートル自由形 香港代表の何詩蓓が金メダル
-
-【Now新聞台】全運會女子100米自由泳，港隊的何詩蓓奪得金牌，亦是個人今屆第二面。
-
-決賽8個泳手角逐，初賽和準決賽都以首名晉級的何詩蓓第四線出擊，反應時間0.69秒，初段已帶頭首名轉池領先0.25秒，兩年前在德國柏林游出52秒02打破亞洲紀錄，亦在奧運這個項目取得1銀1銅，何詩蓓由頭帶到尾，游出52秒89，繼早前200米自由泳後再奪1金。
-
-山東的楊浚瑄和江西的程玉潔分別得銀牌和銅牌，何詩蓓會在之後一日參加50米自由泳和蛙泳的初賽。
-
-#要聞
+【Now新聞台】全国運動会（National Games）女子100メートル自由形において、香港チームのシボーン・ホーヒー（Siobhan Haughey、何詩蓓）選手が金メダルを獲得し、今大会個人2つ目の金メダルとなりました。決勝には8人の選手が出場し、予選と準決勝をトップで通過したホーヒー選手は第4レーンからスタート。反応時間0.69秒で、序盤からリードを奪い、最初のターンで0.25秒差をつけてトップに立ちました。2年前にはドイツのベルリンで52秒02のアジア記録を樹立し、オリンピックでもこの種目で銀メダル1つ、銅メダル1つを獲得しているホーヒー選手は、最初から最後までリードを保ち、52秒89で泳ぎ切り、先の200メートル自由形に続き、再び金メダルを獲得しました。山東省のヤン・ジュンシュエン（Yang Junxuan、楊浚瑄）選手が銀メダル、江西省のチェン・ユージェ（Cheng Yujie、程玉潔）選手が銅メダルを獲得しました。ホーヒー選手は翌日、50メートル自由形と平泳ぎの予選に出場する予定です。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E5%A5%B3%E5%AD%90100%E7%B1%B3%E8%87%AA%E7%94%B1%E6%B3%B3-%E6%B8%AF%E9%9A%8A%E4%BD%95%E8%A9%A9%E8%93%93%E5%A5%AA%E9%87%91-113226998.html
 
-### 全国運動会フェンシング男子サーブル：何思朗、許英明を15対12で下し決勝進出
+### 全国運動会男子サーブル：香港のアーロン・ホー選手、許英明選手を破り決勝進出
 
-【Now新聞台】全運会男子サーブルで、香港チームの何思朗選手が広東省の許英明選手を破り、決勝に進出しました。
-
-画面左から右へ攻める何思朗選手は、決勝までの道のりでチームメイトの陳樂熹選手、安徽省の呉嘉聖選手、山東省の徐浩鈞選手を破ってきました。今回の広東省の許英明選手との試合では、序盤に4対1とリードしていました。
-
-サーブルのルールでは、腰から上が有効な攻撃範囲であり、他の剣種とは異なり、相手を突く以外に斬る（劈く）ことでも得点できます。何思朗選手は中盤で相手に逆転されたものの、すぐにリードを奪い返し、最終的に15対12で勝利し、決勝への出場権を獲得しました。
+【Now新聞台】全国運動会（National Games）男子サーブルにおいて、香港チームのアーロン・ホー（Aaron Ho、何思朗）選手が広東省のシュー・インミン（Xu Yingming、許英明）選手を15対12で破り、決勝に進出しました。画面左から右へ攻めるホー選手は、これまでの試合でチームメイトのチェン・ローヘイ（Chan Lok-hei、陳樂熹）選手、安徽省のウー・ジアシェン（Wu Jiasheng、呉嘉聖）選手、山東省のシュー・ハオジュン（Xu Haojun、徐浩鈞）選手を破って勝ち上がってきました。この試合では広東省のシュー・インミン選手と対戦し、序盤に4対1とリードしました。サーブルのルールでは、腰から上が有効な攻撃範囲であり、他の剣種とは異なり、突きだけでなく斬りでも得点できます。ホー選手は中盤で相手に逆転されましたが、すぐにリードを取り戻し、最終的に15対12で勝利し、決勝進出を決めました。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E7%94%B7%E5%AD%90%E4%BD%A9%E5%8A%8D-%E4%BD%95%E6%80%9D%E6%9C%9715%E6%AF%9412%E6%8C%AB%E8%A8%B1%E8%8B%B1%E6%98%8E%E5%85%A5%E6%B1%BA%E8%B3%BD-110126117.html
 
-### 全運会女子エペ：香港の佘繕妡、林声に敗れ銅メダル決定戦へ
+### 全国運動会女子エペ：香港のケイリン・シエ選手、準決勝で敗れ銅メダル決定戦へ
 
-【Nowニュース】全国運動会女子エペで、香港チームの佘繕妡（シャ・シンイン）選手は準決勝で敗退し、3位決定戦に回ることになった。
-
-画面右側の佘繕妡選手は福建省
+【Now新聞台】全国運動会（National Games）女子エペにおいて、香港チームのケイリン・シエ（Kaylin Hsieh、佘繕妡）選手が準決勝で敗退し、銅メダル決定戦に回りました。画面右側のシエ選手は福建省のリン・シェン（Lin Sheng、林聲）選手と対戦。第1ピリオドは互いにリードを奪い合い、3対3で第2ピリオドに入りました。リン選手は32強で別の香港代表であるジュー・ジアワン（Chu Ka-wang、朱嘉望）選手を破っています。5対5の同点後、リン選手が3連続でポイントを奪い、リードを広げました。シエ選手は追い上げ、攻撃を仕掛けて差を縮めようとしましたが、第3ピリオド終盤に再び3連続でポイントを失い、最終的に8対14で敗れ、準決勝で敗退し、銅メダル決定戦に回りました。彼女は今夜7時10分に銅メダルをかけて戦います。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E5%A5%B3%E5%AD%90%E9%87%8D%E5%8A%8D-%E6%B8%AF%E9%9A%8A%E4%BD%98%E7%B9%95%E5%A6%A1%E8%B2%A0%E6%9E%97%E8%81%B2%E8%90%BD%E5%85%A5%E9%8A%85%E7%89%8C%E6%88%B0-100726333.html
+https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E5%A5%B3%E5%AD%90%E9%87%8D%E5%8A%8D-%E6%B8%AF%E9%9A%8A%E4%BD%98%E7%B9%95%E5%A6%A4%E8%B2%A0%E6%9E%97%E8%81%B2%E8%90%BD%E5%85%A5%E9%8A%85%E7%89%8C%E6%88%B0-100726333.html
 
-### 全国運動会 女子エペ個人戦で、香港チームの佘繕妡がベスト8に進出
+### 全国運動会女子エペ個人戦：香港のケイリン・シエ選手が8強進出
 
-【Now新聞台】全運會女子重劍，港隊佘繕妡晉級8強。畫面右方主場出擊的佘繕妡，16強面對福建的鄭媛媛，首節雙方都因消極比賽被罰紅牌。第二節領先過3比1，但一度被追平，佘繕妡穩得住，第二節末段連取兩分，之後就帶到尾，沒再給對手得分機會，再連贏6劍，最終以12比4順利過關，會與遼寧余思涵爭入準決賽。 #要聞
+【Now新聞台】全国運動会（National Games）女子エペ個人戦において、香港チームのケイリン・シエ（Kaylin Hsieh、佘繕妡）選手が8強に進出しました。画面右側でホームコートの利を活かして戦うシエ選手は、16強で福建省のジェン・ユエンユエン（Zheng Yuanyuan、鄭媛媛）選手と対戦。第1ピリオドは両者とも消極的な試合でレッドカードを科されました。第2ピリオドでは3対1とリードしましたが、一時追いつかれました。しかし、シエ選手は落ち着いて第2ピリオド終盤に2ポイントを連取し、その後は相手に得点機会を与えず、さらに6ポイントを連取して最終的に12対4で順調に勝利し、準々決勝に進出しました。彼女は遼寧省のユー・スーハン（Yu Sihan、余思涵）選手と準決勝進出をかけて戦います。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E5%A5%B3%E5%AD%90%E9%87%8D%E5%8A%8D%E5%80%8B%E4%BA%BA%E8%B3%BD-%E6%B8%AF%E9%9A%8A%E4%BD%98%E7%B9%95%E5%A6%A1%E6%99%89%E7%B4%9A8%E5%BC%B7-072226260.html
+https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E5%A5%B3%E5%AD%90%E9%87%8D%E5%8A%8D%E5%80%8B%E4%BA%BA%E8%B3%BD-%E6%B8%AF%E9%9A%8A%E4%BD%98%E7%B9%95%E5%A6%A4%E6%99%89%E7%B4%9A8%E5%BC%B7-072226260.html
 
-### 全運會深港跨境馬拉松創歷史　何杰及張德順稱王封后(吳紀恩報道)
+### 全国運動会深港越境マラソンが歴史を刻む：何杰選手と張德順選手が男女優勝
 
-【Now新聞台】全運會馬拉松歷史性深港跨境舉行，寧夏的何杰及雲南的張德順分別贏得男女子組冠軍。
+【Now新聞台】全国運動会（National Games）のマラソンが、史上初めて深圳（Shenzhen）と香港をまたぐ形で開催され、寧夏回族自治区のホー・ジエ（He Jie、何杰）選手と雲南省のジャン・ダーシュン（Zhang Deshun、張德順）選手がそれぞれ男女の部で優勝しました。
 
-早上7時，男子組在深圳灣體育中心率先起步，沿路有群眾觀賽。跑約兩公里後，經深圳灣口岸進入香港，口岸旁邊有啦啦隊打氣。選手之後沿深圳灣公路大橋及港深西部公路跑至折返點，沿路返回終點，即是深圳灣體育中心，賽道全長42.195公里，香港段大約21公里。
+午前7時、男子の部が深圳湾体育中心（Shenzhen Bay Sports Centre）で先行してスタートし、沿道には多くの観客が声援を送りました。約2キロメートル走行後、深圳湾口岸（Shenzhen Bay Port）を経由して香港に入り、口岸の隣にはチアリーダーが応援していました。選手たちはその後、深圳湾公路大橋（Shenzhen Bay Highway Bridge）と港深西部公路（Hong Kong-Shenzhen Western Corridor）を走り、折り返し地点を経て、再び終点である深圳湾体育中心に戻るコースで、全長は42.195キロメートル、香港区間は約21キロメートルでした。
 
-來自寧夏的何杰在35公里後帶出，拋離其他跑手領放返終點，最終以兩小時12分07秒首先衝線贏得金牌。雲南的高鵬跑出個人今季最佳成績，慢7秒得亞軍；第三名是安徽的吳向東。港隊兩名代表，林穎璋排19，張耀樑第25名完成。
+寧夏回族自治区のホー・ジエ選手は35キロメートル過ぎからリードを奪い、他の選手を引き離して終点に到着。最終的に2時間12分07秒で最初にゴールし、金メダルを獲得しました。雲南省のガオ・ポン（Gao Peng、高鵬）選手は自己今季ベストタイムを記録し、7秒差で銀メダルを獲得。3位は安徽省のウー・シャンドン（Wu Xiangdong、呉向東）選手でした。香港チームの代表2名、ラム・インチョン（Lam Ying-cheung、林穎璋）選手は19位、チョン・イウリョン（Cheung Yiu-leung、張耀樑）選手は25位で完走しました。
 
-女子組鬥到30公里過外，3名跑手，河南路穎來自西藏，以個人身份參賽的次仁措姆，連同雲南的張德順發力帶出3頭車馬，最終張德順放甩兩名競爭對手帶返終點，贏次仁措姆5秒封后，路穎第三。港隊最好成績是羅映潮，排12，時間是兩小時39分23秒，屈旨盈及司徒兆殷，分別在25及27位。
-
-#要聞
+女子の部は30キロメートル過ぎまで、河南省のルー・イン（Lu Ying、路穎）選手、個人参加のチーレン・ツォム（Tsering Tsom、次仁措姆）選手（チベット自治区出身）、そして雲南省のジャン・ダーシュン選手の3人が先頭集団を形成。最終的にジャン・ダーシュン選手が他の2人を引き離してゴールし、チーレン・ツォム選手に5秒差をつけて優勝。ルー・イン選手が3位でした。香港チームの最高成績はロー・インチウ（Law Ying-chiu、羅映潮）選手の12位で、タイムは2時間39分23秒でした。クワット・ジーイン（Quat Tsz-ying、屈旨盈）選手とシトゥ・シウヤン（Szeto Siu-yan、司徒兆殷）選手はそれぞれ25位と27位でした。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/%E5%85%A8%E9%81%8B%E6%9C%83%E6%B7%B1%E6%B8%AF%E8%B7%A8%E5%A2%83%E9%A6%AC%E6%8B%89%E6%9D%BE%E5%89%B5%E6%AD%B7%E5%8F%B2-%E4%BD%95%E6%9D%B0%E5%8F%8A%E5%BC%B5%E5%BE%B7%E9%A0%86%E7%A8%B1%E7%8E%8B%E5%B0%81%E5%90%8E-%E5%90%B3%E7%B4%80%E6%81%A9%E5%A0%B1%E9%81%93-052226064.html
 
-### 葵涌駐車場で男性作業員が石膏ボードに圧死 労働局が調査を開始し、一時作業停止通知書を発行 - hk01.com
+### 葵涌の駐車場で男性作業員が石膏ボードに押しつぶされ死亡、労働局が調査開始し作業停止命令を発出
 
-1. <a href="https://news.google.com/rss/articles/CBMisANBVV95cUxQMWYwWS12TkE1Vm43WkJJbnE2RG8tNDFHS2RUWnktQWtTUjk0d2Rlb1NFUFlQR0poSnZKOFZrWEhNQ3N6WFdDUUpCRjh3WVVJcDV3WVMzSHk2Vm1CX0R0NlowR1h2dW1WTFEtY0dkZzVWcW5WVkJrOGs5X3B6Rmc3a2h0SXNrMzhwUlY2RlMtTXdFRkNqMlQwUjNRY3BsZ19Nc0p3SnZMN2o1X2xxQllNXzlyVDFDSkRuOWFuNVg4bWhmS3ZLSjNvZjhnejNoOFlacTh1ZHRKVUdMN2xMZjROcTJORXdrZF9EaUUwWTNjR0IyLWZFbG9FZ3M0a01wRzQzckVzSkViVGdhM3phel9DeHZoRGVfVzg2OXA5ZWp3WlBvdlBQcFNWdnNqM1NIQjhVVE9NblVKUXhSM25JLXpIajlMUWlxWWdaM1JoM3hJVEp2WGpoVDJFRWZkRjh0bVdWa3dnd1FzaXRPakFZM056LWtrQnRUaEVoV3FFZWpQdnRqWmpETXBvbGdvRHlDQ2hPbDVEMG9IUXBaT1lqRmFiTFFuM1NWem1Pd3ROdDNaYnQ?oc=5" target="_blank">葵涌の駐車場で男性作業員が石膏ボードに圧死、労働局が調査を開始し一時作業停止通知書を発行</a>&nbsp;&nbsp;<font color="#6f6f6f">hk01.com</font>
-2. <a href="https://news.google.com/rss/articles/CBMioAJBVV95cUxQZWkzelZmMllQZ0dUQlZ0R21vNGZpRWxxY2NVQW1RR0JIbFY1WW5yRWY2ZWlIY2kwRFMtQWtuY2ttZlVuaXVtbFJtdXFldWtXRDVNblg1YkxDNXl5XzNUMEdrN21mMzdXc0RvS2FmT1BpbnIzeDY5OEVmd19sVFJtdktQbGkzb0ZsLWVfU01YbGtpX0I3bk43VXJIaHR3SlJXUG1yLUlmRGJwdzF2dVlBcWpLTUVmcDh5UG0zWFptVV8yQk83WGhfU1VyQ0xyalJWTmk3REpOZXBUS1djYUhxblBoLS1FODVQcGVXMS1BYzdtTUJVb0JaR1NIQTJBWS01ZkxTbGFvR2FxTmpablBaZ2tmMFVqNGV2Q3NweS15aFA?oc=5" target="_blank">葵涌で男性作業員が石膏ボードに押しつぶされ意識不明、病院搬送後に死亡</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo News - HK</font>
-3. <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE4xSnN1Sk1ZZDBqXzl3ZGRZT1Q0QkJMNmgzRFFWZGVUV19DYmpLTkxLZGVGR0otcTZMUV9yazRYaVVTejRwNEJIQnJyOEtFdjZyTU9yTnpDa2Z4UVBYWFVYOHFoNjktNXVXTy1QNjlydw?
+葵涌（Kwai Chung）の駐車場で男性作業員が石膏ボードに押しつぶされて死亡した事故を受け、労働局（Labour Department）が調査を開始し、一時的な作業停止命令を発出しました。
 
-**引用元**: Google News HK
+**引用元**: hk01.com
 
 https://news.google.com/rss/articles/CBMisANBVV95cUxQMWYwWS12TkE1Vm43WkJJbnE2RG8tNDFHS2RUWnktQWtTUjk0d2Rlb1NFUFlQR0poSnZKOFZrWEhNQ3N6WFdDUUpCRjh3WVVJcDV3WVMzSHk2Vm1CX0R0NlowR1h2dW1WTFEtY0dkZzVWcW5WVkJrOGs5X3B6Rmc3a2h0SXNrMzhwUlY2RlMtTXdFRkNqMlQwUjNRY3BsZ19Nc0p3SnZMN2o1X2xxQllNXzlyVDFDSkRuOWFuNVg4bUhmS3ZLSjNvZjhnejNoOFlacTh1ZHRKVUdMN2xMZjROcTJORXdrZF9EaUUwWTNjR0IyLWZFbG9FZ3M0a01wRzQzckVzSkViVGdhM3phel9DeHZoRGVfVzg2OXA5ZWp3WlBvdlBQcFNWdnNqM1NIQjhVVE9NblVKUXhSM25JLXpIajlMUWlxWWdaM1JoM3hJVEp2WGpoVDJFRWZkRjh0bVdWa3dnd1FzaXRPakFZM056LWtrQnRUaEVoV3FFZWpQdnRqWmpETXBvbGdvRHlDQ2hPbDVEMG9IUXBaT1lqRmFiTFFuM1NWem1Pd3ROdDNaYnQ?oc=5
 
-### トランプ氏、一部農産品を対等関税リストから除外 - 香港電台ニュース
+### トランプ大統領、一部農産物を報復関税リストから除外
 
-以下に翻訳を示します。
+ドナルド・トランプ米大統領は、一部の農産物を報復関税リストから除外すると発表しました。
 
-1.  トランプ氏、一部農産物を報復関税リストから除外&nbsp;&nbsp;香港電台ニュース
-2.  トランプ氏、選挙での苦戦後に策を講じる 一部食品関税の削減を計画&nbsp;&nbsp;Yahooファイナンス
-3.  トランプ氏、選挙での苦戦後に策を講じる 一部食品関税の削減を計画
-
-**引用元**: Google News HK
+**引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTFBQdnZQTUZOdHNCTHQxMkxwVGVNU0F5X2xiN3JPenBJV3h1MlpzbW5mYkZqcG1xc1BraUdQY05aMHJNUi1KX2FMY044VzdGTUJsM21UYlk4WURUclZjUVlZUUhHazZVZ0dXYkc2enBGaw?oc=5
 
-### 「粵車南下」今日起實施 機管局「轉機停車場」啟用 - on.cc東網
+### 「粤車南下」が本日より実施、空港管理局の「乗り換え駐車場」も運用開始
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0NrR3c5d1pVSlBfdFA5NEdYR3dxNlJsdG5TMnZYRTFodUM1d19EN1NWYm1jOHFVXzEwSEZyZEUwLS1pdkVnV3Z5YmNra0VGenVfTDUxLWlLN0xPdkhuSm1ISU56NW9KWmZTcHZtNTM2NEtiaXBteW5SZzJhZThiOGhvQ1V4d1c0dlBz?oc=5" target="_blank">「粵車南下」今日起實施 機管局「轉機停車場」啟用</a>&nbsp;&nbsp;<font color="#6f6f6f">on.cc東網</font></li><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE82b09MWldMMUh6ZnFZekJ0WGMzMWQtUkRJa1E1NmNSX3EwQ1ZiUURTVVJlM0xnRXcyMlV0MzZkZmxIYkJWREZfNG1EOVJvZFVWenk2MmVvUWYyMjJhd0pJZURfYkI1bVZHVm0yY3hLVQ?oc=5" target="_blank">機管局「轉機停車場」今有逾40預約 陳美寶稱預約情況理想</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台新聞網</font></li><li><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFByemtrdUdmNWdDbzNJbUpEQU5XY0xYa0R6YzJWei1IQ1cxY21ZRmtpdFR4dm1kbHMxUVBDU0V2NzlaempRLTIyUkhqLVRIeDZ5TGY3eFdrNndzb19nZS1tSzdIa1dQMUt5ekpHLVlpY2R1YjJPcmFv?oc=5" target="_blank">專家：「粵車南下」與「港車北上」形成閉環灣區優質生活圈加速完善成型- 神州 - 香港文匯網</a>&nbsp;&nbsp;<font color="#6f6f6f">香港文匯網</font></li><li><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE41WDRkN0hfT2dzUDZvcXR0czBJMy0yYmw4eUF0RWw4ZWFvT1dnT1RnMWoyZmg1b3lfbEVfWDNYZjh1S3BGeDhSNDRqenFuQVJKdFF6OHhYN2lyc0FUVlgyUUJB?oc=5" target="_blank">粵車南下｜首批成功預約機場停車位廣東車主 零時起放行駛入</a>&nbsp;&nbsp;<font color="#6f6f6f">Now 新聞</font></li><li><a href="https://news.google.com/rss/articles/CBMiswNBVV95cUxPSW54VlR6NnNXVXhfeDFvQzF6OHFobENoeE9CanhFclNJazJfcm9XMnFnQTFCY3RIRk9FaHFKcUloY2lETmpXR2pfZURwMjY5bURXYXhEWVYzRU1ZV3ZaN1hYRmUxU1o0TERzY3BsTHBwYk
+「粤車南下（広東省車両の香港乗り入れ）」が本日より実施され、空港管理局（Airport Authority Hong Kong）の「乗り換え駐車場」が運用を開始しました。
 
-**引用元**: Google News HK
+**引用元**: on.cc東網
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0NrR3c5d1pVSlBfdFA5NEdYR3dxNlJsdG5TMnZYRTFodUM1d19EN1NWYm1jOHFVXzEwSEZyZEUwLS1pdkVnV3Z5YmNra0VGenVfTDUxLWlLN0xPdkhuSm1ISU56NW9KWmZTcHZtNTM2NEtiaXBteW5SZzJhZThiOGhvQ1V4d1c0dlBz?oc=5
 
-### 廉署拘3 人涉煽惑立法會選舉不投票或投白票︱傳置地內地大裁員涉住宅開發業務︱莊思敏再婚細10 歲男友｜11 月 14 日・Yahoo 晚報 - Yahoo News - HK
+### 廉政公署、立法会選挙での不投票・白票扇動容疑で3人を逮捕
 
-1. 廉政公署、立法会選挙での不投票・白票投じを扇動した疑いで3人を逮捕｜香港ランド、中国本土の住宅開発事業で大規模リストラか｜ジャクリーン・チョン、10歳年下の彼氏と再婚｜11月14日・Yahooイブニングニュース
-2. 立法会選挙｜廉政公署、投稿を転載し不投票や無効票を扇動した疑いで男女3人を逮捕
+廉政公署（ICAC）は、立法会選挙で投票しないよう、または白票を投じるよう扇動した疑いで3人を逮捕しました。また、ランド・ディベロップメント（置地）が中国本土で住宅開発事業に関連して大規模な人員削減を行っているとの報道があります。さらに、ジャクリーン・チョン（Jacqueline Chong、莊思敏）が10歳年下のボーイフレンドと再婚したことも報じられています。｜11月14日・Yahooイブニングニュース。
 
-**引用元**: Google News HK
+**引用元**: Yahoo News - HK
 
-https://news.google.com/rss/articles/CBMi0gVBVV95cUxNMGlXWVNBdlRNVExHZ1pBaGdTbk03V01wYU1lNG9yMl9YbFRWb2w3R0VYdFY0MUZUa2N6WHF1a0lKVmw2VDJ3ZzY5VFlkZXV1ZFBtTW5LNjZSUnB0R1BFVEplb0pJSGxIU2tybG1xaHVVZzZSWTVxXzRZNG1LM3J1LVZhTXVGbk8xczNFMXNWcm5KTXkzRFdrNm90MXVlSkMzTm5rMjhqUXZpY0tVZk5FYXJpMFE0blBHQy1JbHNjX2Ytek1VOWxRVUhNR0hvWUNkelZWNUtrX0dmQUhvS29PVTUySnV3MTdyTnRfeTNQY09ZSHFXR1NHQlZ5S1kxbHgycllwWVNxdi1WbEFrX3J6a2VhTl9RM1JDb2RBWWZDN3hyWTd0dEJlSnVlT2t6UWRZYnB3bHMyQzBfMzJGckc5MVhxeEhzM0poLWM4azRmNHhJZzAwd3puRnhfRkdQQUZKd0hSbHk3d3ZhOVdaWmtlR0tOS25oekJfb2R5Vi1DanpmVFRFVnhxMUZhdTdsYlViUG41SjV3Mng4ZWhMa0tDRTJ5a0pEU1FZRXRNdVFvNUJYTTdXRnEwMGU4SGFRN1p0QnY3Y2ItdWdDVHpZaVFMY0NEWUpIN096dlhWUHZHSE1GWlFqc3R6d1NYZlZMU0NzeFFMRTBIcXlZTjMzTlJpRFZ0eHVldmJhdU5oblFRRTJqT2ItbkthME9CdGpoTmJnQWxoTVpHRWZYWWFuNXN1SFdWNkRiZEFKdDJIdURzWFhYc1JUc2tsM0Q5VUpCLUFUa3NxTGxBa3BrRzQyQ2FqM21jQl9VUnNYcnI5Nlh6N09ESHZ5QlRJWWlPZnFGb3VFbjMwNU9NY1dhbnRVbGd0enlEMFdBRENjdFVjcUhwT0VFbmd5MXhnaHdlQVJNMGVsT1pNX0xnOWszbC1fdUVzdktDQU9ORFU3NG00REhuQW1odw?oc=5
+https://news.google.com/rss/articles/CBMi0gVBVV95cUxNMGlXWVNBdlRNVExHZ1pBaGdTbk03V01wYU1lNG9yMl9YbFRWb2w3R0VYdFY0MUZUa2N6WHF1a0lKVmw2VDJ3ZzY5VFlkZXV1ZFBtTW5LNjZSUnB0R1BFVEplb0pJSGxIU2tybG1xaHVVZzZSWTVxXzRZNG1LM3J1LVZhTXVGbk8xczNFMXNWcm5KTXkzRFdrNm90MXVlSkMzTm5rMjhqUXZpY0tVZk5FYXJpMFE0blBHQy1JbHNjX2Ytek1VOWxRVUhNR0hvWUNkelZWNUtrX0dmQUhvS29PVTUySnV3MTdyTnRfeTNQY09ZSHFXR1NHQlZ5S1kxbHgycllwWVNxdi1WbFFrX3J6a2VhTl9RM1JDb2RBWWZDN3hyWTd0dEJlSnVlT2t6UWRZYnB3bHMyQzBfMzJGckc5MVhxeEhzM0poLWM4azRmNHhJZzAwd3puRnhfRkdQQUZKd0hSbHk3d3ZhOVdaWmtlR0tOS25oekJfb2R5Vi1DanpmVFRFVnhxMUZhdTdsYlViUG41SjV3Mng4ZWhMa0tDRTJ5a0pEU1FZRXRNdVFvNUJYTTdXRnEwMGU4SGFRN1p0QnY3Y2ItdWdDVHpZaVFMY0NEWUpIN096dlhWUHZHSE1GWlFqc3R6d1NYZlZMU0NzeFFMRTBIcXlZTjMzTlJpRFZ0eHVldmJhdU5oblFRRTJqT2ItbkthME9CdGpoTmJnQWxoTVpHRWZYWWFuNXN1SFdWNkRiZEFKdDJIdURzWFhYc1JUc2tsM0Q5VUpCLUFUa3NxTGxBa3BrRzQyQ2FqM21jQl9VUnNYcnI5Nlh6N09ESHZ5QlRJWWlPZnFGb3VFbjMwNU9NY1dhbnRVbGd0enlEMFdBRENjdFVjcUhwT0VFbmd5MXhnaHdlQVJNMGVsT1pNX0xnOWszL191RVN2S0NBT05EVTczbTRESG5BbWh3?oc=5
 
-### 空港暢航路：シティバスA12が植え込みに衝突、18人負傷（速報）。64歳運転手を危険運転容疑で逮捕｜Yahooニュース
+### 空港の暢航路でシティバスA12が植え込みに衝突、18人負傷、運転手は危険運転容疑で逮捕
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMikgNBVV95cUxPVHFSSEZsTTRYOWlibi1MeGxQbjY3QnMzNFlNUVl2emtVMUJ6d2RFakJ6MGR4ZDRIRWJVbng0NFNTc3MxTnVocUlpQm9ZVlRKQl9SYTBOYWdZQUU2RjRGYm5yMC1RdlVaXzQycUdoam8zOXE4NUl2TkR5dzl5WEtKUDVBQXZUZ2o5WXZ0cFpkM29QdW95RlU1MUFqMzl5NFlXSGFRLU1vQmJlRkxZVGdlNEZIOWhyU2h6Z19XQ1MwckJ0SGdkQ0ZCWDk5cDNRNVFzYU5GbEpDVHZYMmpFYnV4djl1dEZCNzRpTl9scmdUSll6em1hT1FCNmV2SzhoYjZ5OVZSMkk2ZTd3dDE2cHBQSjNCcDAwWU5nY0sxb08wNmpVQXBfMXlhaW1hZi1Xckp5eXZlSUluXzNvTU1TMDRLYTNxSnV4X09FWXFrQ0RrdXlmUElscDJoTGM0UmRiMURWcDQ1WF9iLWQ2OWVaUl9kbWp0NFNSbjBEM2p2MHNGejJiTmRSTVkzWkMweUZZRFVpZnc?oc=5" target="_blank">空港の暢航路でシティバスA12が植え込みに衝突、速報で18人負傷、64歳の運転手が危険運転の疑いで逮捕</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahooニュース - 香港</font></li><li><a href="https://news.google.com/rss/articles/CBMim
+空港の暢航路（Cheong Hong Road）でシティバスA12が植え込みに衝突し、初期段階で18人が負傷しました。64歳の運転手は危険運転の疑いで逮捕されました。
 
-**引用元**: Google News HK
+**引用元**: Yahoo News - HK
 
 https://news.google.com/rss/articles/CBMikgNBVV95cUxPVHFSSEZsTTRYOWlibi1MeGxQbjY3QnMzNFlNUVl2emtVMUJ6d2RFakJ6MGR4ZDRIRWJVbng0NFNTc3MxTnVocUlpQm9ZVlRKQl9SYTBOYWdZQUU2RjRGYm5yMC1RdlVaXzQycUdoam8zOXE4NUl2TkR5dzl5WEtKUDVBQXZUZ2o5WXZ0cFpkM29QdW95RlU1MUFqMzl5NFlXSGFRLU1vQmJlRkxZVGdlNEZIOWhyU2h6Z19XQ1MwckJ0SGdkQ0ZCWDk5cDNRNVFzYU5GbEpDVHZYMmpFYnV4djl1dEZCNzRpTl9scmdUSll6em1hT1FCNmV2SzhoYjZ5OVZSMkk2ZTd3dDE2cHBQSjNCcDAwWU5nY0sxb08wNmpVQXBfMXlhaW1hZi1Xckp5eXZlSUluXzNvTU1TMDRLYTNxSnV4X09FWXFrQ0RrdXlmUElscDJoTGM0UmRiMURWcDQ1WF9iLWQ2OWVaUl9kbWp0NFNSbjBEM2p2MHNGejJiTmRSTVkzWkMweUZZRFVpZnc?oc=5
 
-### 全国運動会・フェンシング｜何思朗、男子サーブル個人戦で銀メダル獲得　香港フェンシング
+### リンダ・チョン、婚姻の危機報道を否定し夫を「110点満点」と絶賛
 
-以下に翻訳を示します。
+リンダ・チョン（Linda Chung、鍾嘉欣）は、自身の結婚生活に暗雲が立ち込めているとの報道を否定し、夫を110点満点だと絶賛しました。
 
-1.  全国運動会・フェンシング｜何思朗選手が男子サーブル個人戦で銀メダルを獲得、香港チームのサーブル種目では全国運動会史上初の銀メダル。香港チームはこの日、金1、銀1、銅3を獲得。
-2.  何思朗選手が銀メダルを獲得し、香港チームの男子サーブルで歴史的快挙を達成 - 香港文匯網
-3.  全国運動会・フェンシング｜何思朗選手が男子サーブル個人戦で銀メダルを獲得、香港チームのサーブル種目では全国運動会史上初の銀メダル。香港チームはこの日、金1、銀1、銅3を獲得。
-
-**引用元**: Google News HK
-
-https://news.google.com/rss/articles/CBMinwRBVV95cUxOZTdtaDFHN0ZTelZWS0tSbF95aW5XbThzWkZuMU1QYXNxSXhybnE1RVNOTUQ5X0R6SWtjM2VvZGQ1N3Z3WGlPTHhXYVc1UjRzcjc4NVFSMjZpSXdzdm5abFpxazRjcjFlVERNN3Nla3RUanoyaUExc2NybER4alNWNzZQb0FhNkJINkdDSWxNTVV2ZnIxdVM2TmhYamV4T0V6c2hacjdBMlFLVVN5bi0wZnJrV203SzRHZlRsR29OYWZVbUozWC1KRWJzcDZUdjk2ejRfTDhNUm80ZDZNcGNScDRoV01EcGw0MjNhRGZQRkdQQnVJUlNvQlphdkZXZWh4LU9VMU9pSUdfZDZWT2sxNzRldldFSVZRZG9NVGppWEtRbEQ5cS1xcmVRNUdNWTBxbW04eGpkdlpFNC12d28wallIWFpFNUVLZTd5Wm1UbzhzV1ptQm1vRmRnS3RQVUxlYjJTR2NuUlZXaEtVWmdIR0d3MFlZdGZQcm5OT29TYVBnNktRSmg4TEVfSjJzeVdLZlMtdW00aDhteUN5cTlGdEJtOVdMeS1ITTNaT1ZDaGVzb0FDcHBBM3g1MVVXcVZJclF0UFEwbllyajFucmpzdWdOODM3bFVzQUtoSzZoclhaWGV4aTJ6R0huQXo1ZVh6cG5TQkpGallRZWtnSDdyT0RwTElVTUNNYzYyUGpaVjVyREpXYzE5UW1ZZHRlYnM?oc=5
-
-### 鍾嘉欣（チョン・カーヤン）、夫婦関係の危機説を否定し、夫を100点満点中110点だと大絶賛 - Yahooニュース - 香港
-
-<ol><li><a href="https://news.google.com/rss/articles/CBMijAJBVV95cUxQQ28xSTlhY3NUaXl0a0I2b0dmUzZIYThBcmhxMUVGQl9va1dmVHBDTzB3YTJfVjh6NWltb3Bld1Q5czZXX1BfMTg4akRqOUplVWtyRlNjWjlnODdEU0RZcy1qSkduSE9fUXZqVUhIeFB0eXZNbU9UV2FtSTlUY0ZjYlN0aEJpR0MycjRaTDh3SF8zMzRmeXRGMk5DUlRCMS11cFJZeGJxcFZEUmpXWGp5Q1EyQl9GZ0RsMWYxQ0F1Zm9jNm5zcHdxcFNnSUxfN0M0RHBSQlhpZ1hKQTRSendGbExDRnRsc3gxOGxMRTBkRE5ma3piQ2F1RmRUWGIwTFdxRloyaUVGNGpyZ0w5?oc=5" target="_blank">鍾嘉欣否認婚姻亮紅燈 大讚老公110分</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo News - HK</font></li><li><a href="https://news.google.com/rss/articles/CBMihgRBVV95cUxNSG1ydFFMdFZXektGOVRhczYybWxuaTFZOGdraVplR1Q2QjRSUllKczljdXY3ZkRPRFpadG5aaUNvVHNpT0lSQmJDblk2TVYzcTY3dmppQS1BM0cxZFJZNGFmaEQyckNjUldWWlpDM0p0SzE0WnNCdXl3TTItRWVuZmtTRWNoRWRJRTNRS0JobzdtX09TQXJybzhHbUVPY3RpajZXTGRhdmlyTGNlSFo2eFp5bGYyQndFcEVJSDhSM1JiUGl2YnFzTm5fMTN3ZFJlZWU5aDViblFaZTlnU2NTdGhLSnBfamY3Zk1tZ181Y0hMVjR1LW05YmxQMFc0VW1ZZlMxcHYyS2plV1FVLTF2c0h6TVc3ckloWFdHSjN1dnI1NmJHVjZhQmZJeWljdUYtRmR5VmZwelBPOUdJWm9udXVuWk5xdlRhLUhBcXVGUDFuVXVHZ3lwRmM0amlHX1BveEI2bm5EV20zZUdjN0pyVnZmMTFoMnZGT2hFcUU0QU5kc0Zhck9lVGhXNERrSFZsbW9kbV92a3VYWWR3b0Nsdk1fbFIyMVJyRVdnSUljc01PN18xZjk5d1FfU2MtaDRoOV9wMl9CWTN2cFV1S0ZtdDAxaVVSdTZfeUdZYTVvekFUNFhVa0YzMlRlSFk1ZXZ1aVpwbW9ORjVqTG9weVEtMjd6aWlydw?oc=5" target="_blank">鍾嘉欣被瘋傳離婚兼起訴脊醫老公Jeremy？首公開回應認曾經歷風浪：好多人都未必能維持</a>&nbsp;&nbsp;<font color="#6f6f6f">星島頭條</font></li><li><a href="https://news.google.com/rss/articles/CBMizANBVV95cUxNRzE4bVhZZ3VaZ1J6S3lOVWFtM3BBTkVwTVpzLTRne
-
-**引用元**: Google News HK
+**引用元**: Yahoo News - HK
 
 https://news.google.com/rss/articles/CBMijAJBVV95cUxQQ28xSTlhY3NUaXl0a0I2b0dmUzZIYThBcmhxMUVGQl9va1dmVHBDTzB3YTJfVjh6NWltb3Bld1Q5czZXX1BfMTg4akRqOUplVWtyRlNjWjlnODdEU0RZcy1qSkduSE9fUXZqVUhIeFB0eXZNbU9UV2FtSTlUY0ZjYlN0aEJpR0MycjRaTDh3SF8zMzRmeXRGMk5DUlRCMS11cFJZeGJxcFZEUmpXWGp5Q1EyQl9GZ0RsMWYxQ0F1Zm9jNm5zcHdxcFNnSUxfN0M0RHBSQlhpZ1hKQTRSendGbExDRnRsc3gxOGxMRTBkRE5ma3piQ2F1RmRUWGIwTFdxRloyaUVGNGpyZ0w5?oc=5
 
-### 第15回大会：トライアスロンで銅メダル オスカー選手、香港の競技会場を世界最高レベルの一つと絶賛
+### 第15回全国運動会：シボーン・ホーヒー選手、女子100メートル自由形で金メダル獲得（個人2冠）
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5rWkIwTVdEQ2d3Znp4Q2RfTzc3VFF1d2FuSkVGQklnTVlnU0hsUy1qRmctZHJ4bmxCOGFwSElvTXFYWmR0YXdZMllNOUZZZFBSOVVVLWJ4MHVJY0lpWU0wdHdZS3Rib2FkaXg3eGtQMA?oc=5" target="_blank">十五運會｜三項鐵人摘銅 奧斯卡讚香港比賽場地全球最佳之一</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台新聞網</font></li><li><a href="https://news.google.com/rss/articles/CBMiogNBVV95cUxQR19KQjc5cGo0SVlHc01adFRURjhvM0NlNXlYUUdJdXJmaUZiUnprRi11S2t5YXpsRjZRcXhtbUVzdWdjY0JnTVU1VjM1QTVGaUNQc0k1S04yMGpRelVBWTBDckhCSXZYUm9SVUlXZVVhRFNRcnhZWHNJYUNjclNxVHRpbUNHbkxNTFk5NENhN01uUWxMR1JnaVVZdXNnekgxNURzTjR5SGVRNXE1cVE3THNyQVVlVWFHaUFfU2k0akNNMjRXSGhsRW1xdHVkSmF5c08wanBWTEt1QXQtYkxxMVE4V1h0NHpLVmZvRTdxenlfMWtxanFEOF9yeHVTNDNkYzJIQnpQM0dUS3NmSnFuNEsxd0sza2ZPX19CejZPV1g2ZEpLbk4yQnh3aEJGTGFORU9JNUxIX1pZaXc5eUxHRzBEak1haVRCOWJsRElYRF9Ebi12MWhzVVFQMzIzb3BBOVJ4eEE5eU5ENTVOd2czbHhrVDhEOVV5MmpCT1F6N21pajlOUjFZM2l2RWRiTUhiaERNRldmdGs4cG1leTE2M3VR?oc=5" target="_blank">全運會｜觀眾感謝奧斯卡奪銅為港爭光 冀明日更好發揮</a>&nbsp;&nbsp;<font color="#6f6f6f">news.tvb.com</font></li><li><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBaczVtVTd5aVZ0ZEZzckl3d1drZ3d3TmhWOEE3d2Zkc3hQMzRKYjJPcnhCVkJ1WmxMN01IdERFaU9GdTZtTmJSZTV0X3dzUnFjVXJuaGpoT3N2Q213WFhCZGxMT1lkV09kV3hnWUlBZlNPeU1FeVlr?oc=5" target="_blank">時隔16年港隊再奪牌奧斯卡鐵人三項攬銅- 要聞 - 香港文匯網</a>&nbsp;&nbsp;<font color="#6f6f6f">香港文匯網</font></li><li><a href="https://news.google.com/rss/articles/CBMi6gJBVV95cUxNbFNnYy1oY2d0bjcwQUt5VTZoM3VLcndPZWhQRmtqLTV3YlJUTkJOeHFmbjRfZGFWTlo5UzF
+第15回全国運動会（National Games）女子100メートル自由形において、シボーン・ホーヒー（Siobhan Haughey、何詩蓓）選手が金メダルを獲得し、個人2つ目の金メダルとなりました。
 
-**引用元**: Google News HK
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFA0QTBldnhBNGFXSjFEMDNfV1lHenpGWG5wenlhTEdqRVRRVjhOZzAtNGpiM2lPODBLUWJCTEJmVXRNNnc4WlRKYVMzUHFUcExjSWNQYy0tRTNwVDYzZWdoTHZYbWw3UEpHRkhndE5taw?oc=5
+
+### 第15回全国運動会：トライアスロンでオスカー・チェン選手が銅メダル、香港の競技会場を絶賛
+
+第15回全国運動会（National Games）のトライアスロンで銅メダルを獲得したオスカー・チェン（Oscar Coggins、奧斯卡）選手は、香港の競技会場が世界でも最高の場所の一つだと称賛しました。
+
+**引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE5rWkIwTVdEQ2d3Znp4Q2RfTzc3VFF1d2FuSkVGQklnTVlnU0hsUy1qRmctZHJ4bmxCOGFwSElvTXFYWmR0YXdZMllNOUZZZFBSOVVVLWJ4MHVJY0lpWU0wdHdZS3Rib2FkaXg3eGtQMA?oc=5
 
-### 立法会選挙：政府、地方選挙区フォーラム全10回を完了 曾国衛氏、候補者のやり取りは適切だったと評価
+### 立法会選挙：政府が地方選挙区フォーラム10回を完了、曾國衞局長は候補者間の適切な交流を評価
 
-【Now新聞台】政府完成十場地方選區論壇，其中兩場移師香港公園奧林匹克廣場進行的論壇均出現事故，包括器材因天氣熱導致故障，論壇一度需要暫停。政制及內地事務局局長曾國衞被問到有候選人不適送院，仍繼續論壇會否造成不公，他稱會聯絡候選人跟進。
-
-曾國衞：「論壇是進行當中，包括其他候選人、打氣團隊和現場觀眾都在這裡，這情況下我們決定繼續進行論壇，當然就候選人情況我們希望她身體健康，早日康復後，我們會與她商議或適當在重溫節目上補回適當時間，讓她交代政綱以至她的參選情況。」
-
-政府五日內完成十場地方選區論壇，曾國衞認為候選人之間的互動恰當，既有互相提問，亦能提出其個人觀點和意見，是達到政府的預期效果，以及加深選民對候選人的認識。
-
-2025立法會選舉候選人(地區直選)
-
-2025立法會選舉候選人(功能界別)
-
-2025立法會選舉候選人(選委會界別)
-
-#要聞
+【Now新聞台】政府は地方選挙区フォーラム10回を完了しました。そのうち2回は香港公園（Hong Kong Park）のオリンピック広場（Olympic Square）に場所を移して行われましたが、いずれも機器の故障（暑さによるもの）で一時中断されるなどの事故が発生しました。政制及內地事務局（Constitutional and Mainland Affairs Bureau）の曾國衞（Erick Tsang Kwok-wai）局長は、候補者が体調不良で病院に搬送されたにもかかわらずフォーラムが続行されたことが不公平ではないかとの質問に対し、候補者と連絡を取り、フォローアップすると述べました。曾局長は「フォーラムは進行中であり、他の候補者、応援団、そして現場の観客もそこにいました。この状況で、我々はフォーラムを続行することを決定しました。もちろん、候補者の状況については、彼女の健康回復を願っており、回復後には彼女と協議し、再放送番組で適切な時間を補填し、彼女が政綱や立候補状況を説明できるようにします」と述べました。政府は5日間で地方選挙区フォーラム10回を完了しました。曾局長は、候補者間の交流は適切であり、互いに質問し合い、個人の見解や意見を述べることができたため、政府の期待する効果を達成し、有権者の候補者に対する理解を深めることができたと評価しました。2025年立法会選挙候補者（地区直接選挙）、2025年立法会選挙候補者（機能別選挙区）、2025年立法会選挙候補者（選挙委員会選挙区）。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%89-%E6%94%BF%E5%BA%9C%E5%AE%8C%E6%88%90%E5%8D%81%E5%A0%B4%E5%9C%B0%E6%96%B9%E9%81%B8%E5%8D%80%E8%AB%96%E5%A3%87-%E6%9B%BE%E5%9C%8B%E8%A1%9E%E7%A8%B1%E5%80%99%E9%81%B8%E4%BA%BA%E4%BA%92%E5%8B%95%E6%81%B0%E7%95%B6-113826366.html
+https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%89-%E6%94%BF%E5%BA%9C%E5%AE%8C%E6%88%90%E5%8D%81%E5%A0%B4%E5%9C%B0%E6%96%B9%E9%81%B8%E5%8D%80%E8%AB%96%E5%A0%B4-%E6%9B%BE%E5%9C%8B%E8%A1%9B%E7%A8%B1%E5%80%99%E9%81%B8%E4%BA%BA%E4%BA%92%E5%8B%95%E6%81%B0%E7%95%B6-113826366.html
 
-### 立法会選挙：香港島西の5名の候補者が政府主催の選挙討論会に出席
+### 立法会選挙：香港島西の候補者5名が政府選挙フォーラムに出席、ウォーターフロントと離島開発を議論
 
-【Now新聞台】政府舉辦立法會選舉香港島西地方選區論壇，候選人都表達對發展海濱和離島的建議。
-
-政府於香港公園奧林匹克廣場舉辦港島西選區選舉論壇，是首次在戶外進行，一度因為機件故障暫停約10分鐘。
-
-港島西選區共有5人參選，當中3人是應屆立法會議員，選區範圍包括中西區、南區和離島區，候選人都表達對海濱和海島發展意見。
-
-立法會港島西候選人楊哲安：「很多地方沒有英文指示和服務他們的人不懂英語，所以我想問所有候選人，你會如何服務非華語居民和旅客？蘭桂坊在海濱可以想一想，但不能擾民。現在有新的『又蒲又不嘈』，稱為無聲派對，若沒有試過，可以去一去。」
-
-立法會港島西候選人陳學鋒：「說起『蒲』，我的經驗肯定沒有哲安那麼多。事實上，要令海濱長廊活化，的而且確需要有不同元素，『的士高』是可以有的、酒吧是可以有的，不同國籍的人士來到要服務，作為參與者都是可以有，所以歡迎我們的海濱多元化。」
-
-立法會港島西候選人陳家珮：「我自己都提過政府，是否可以在發展保育和旅遊時做平衡，例如南丫島經常有藍(綠)海龜出現，但政府只是懂得封沙灘。其實我們在南丫島可以做例如藍(綠)海龜研究中心，將旅遊賺回來的錢，投放在研究生態保育，做到相互平衡。」
-
-立法會港島西候選人黃秋萍：「我建議透過活化中環碼頭的設施，以擴展渡輪非票務收入，從而減輕營運商的財政壓力，幫助離島居民擺脫船費上漲所帶來的經濟壓力。這樣同時可提振海島經濟，釋放旅遊潛能，兼顧保護和發展。」
-
-立法會港島西候選人郭偉強：「街坊需要海濱長廊，既然是先打通後優化，現在優化就是要增加健體設施，無論老、中、青的選民都是跟我說同一番說話，希望我們的海濱更有活力。另外，我們在點亮離島建議書中提出要增加跳島接駁。」
-
-政府周六完成港島西及港島東地方選區論壇後，周日則會舉辦選舉委員會界別論壇。
-
-2025立法會選舉候選人(地區直選)
-
-2025立法會選舉候選人(功能界別)
-
-2025立法會選舉候選人(選委會界別)
-
-#要聞
+【Now新聞台】政府が主催する立法会選挙香港島西地方選挙区フォーラムが開催され、候補者たちはウォーターフロントと離島の開発に関する提案を表明しました。政府は香港公園（Hong Kong Park）のオリンピック広場（Olympic Square）で香港島西選挙区の選挙フォーラムを開催しました。これは初の屋外開催で、機器の故障により約10分間中断されました。香港島西選挙区には5人が立候補しており、そのうち3人は現職の立法会議員です。選挙区は中西区（Central and Western District）、南区（Southern District）、離島区（Islands District）を含み、候補者たちはウォーターフロントと離島の開発に関する意見を表明しました。立法会香港島西候補者の楊哲安（Jeremy Young）氏は、「多くの場所で英語の案内がなく、サービスを提供する人も英語が話せません。そこで、すべての候補者に質問したいのですが、非中国語話者の住民や観光客にどのようにサービスを提供しますか？蘭桂坊（Lan Kwai Fong）はウォーターフロントで検討できますが、住民に迷惑をかけてはいけません。今、『騒がしくないパーティー』と呼ばれるサイレントパーティーがあります。試したことがなければ、ぜひ行ってみてください」と述べました。立法会香港島西候補者の陳學鋒（Chan Hok-fung）氏は、「『パーティー』といえば、私の経験は哲安ほど多くありません。実際、ウォーターフロントプロムナードを活性化させるためには、さまざまな要素が必要です。『ディスコ』もあっていいし、バーもあっていい。さまざまな国籍の人々が訪れるので、サービスを提供する必要があります。参加者としても、そうした場所があってもいいので、ウォーターフロントの多様性を歓迎します」と述べました。立法会香港島西候補者の陳家珮（Judy Chan）氏は、「私自身も政府に、開発、保全、観光のバランスを取るべきではないかと提案しました。例えば、南丫島（Lamma Island）ではアオウミガメが頻繁に現れますが、政府はビーチを閉鎖することしか知りません。実際、南丫島ではアオウミガメ研究センターのようなものを作り、観光で得たお金を生態保全の研究に投資することで、相互に利益を得ることができます」と述べました。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%89-%E4%BA%94%E5%90%8D%E6%B8%AF%E5%B3%B6%E8%A5%BF%E5%80%99%E9%81%B8%E4%BA%BA%E5%87%BA%E5%B8%AD%E6%94%BF%E5%BA%9C%E9%81%B8%E8%88%89%E8%AB%96%E5%A3%87-%E5%AE%B9%E8%A3%95%E7%A4%BD%E5%A0%B1%E9%81%93-071226377.html
+https://hk.news.yahoo.com/%E7%AB%8B%E6%B3%95%E6%9C%83%E9%81%B8%E8%88%89-%E4%BA%94%E5%90%8D%E6%B8%AF%E5%B3%B6%E8%A5%BF%E5%80%99%E9%81%B8%E4%BA%BA%E5%87%BA%E5%B8%AD%E6%94%BF%E5%BA%9C%E9%81%B8%E8%88%89%E8%AB%96%E5%A0%B4-%E5%AE%B9%E8%A3%95%E7%A4%BE%E5%A0%B1%E9%81%93-071226377.html
 
-### 中国の80億米ドル規模のモバイルバッテリー大手Ankerが香港上場を目指す。
+### 香港警察、オンラインロマンス詐欺で40件以上の被害を記録：52歳女性が260万香港ドルを失う
 
-この計画は、米国の監視と相次ぐ製品リコールが続く中で発表された。
-
-同社によると、この措置は「同社のグローバル戦略をさらに推進」し、「総合的な競争力を向上させる」ことを目的としている。
-
-同社の年次報告書によると、2024年のAnkerの総売上高のうち、海外市場が96.4パーセント以上を占めた。
-
-Ankerの香港上場計画は、同社が国内外で複数回にわたる製品リコールを実施した後に発表された。
+香港警察は過去2週間で40件以上のオンラインロマンス詐欺事件を記録しました。その中には、「シンガポール人ビジネスマン」を装った詐欺師に260万香港ドル（約33万4500米ドル）以上を騙し取られた52歳の女性のケースも含まれます。警察は金曜日、これらの事件による被害総額が1700万香港ドルを超えると発表しました。また、被害者の40％以上が50歳以上であったと付け加えました。警察はサイバーディフェンダー（CyberDefender）のFacebookページへの投稿で、52歳の女性が「シンガポール人ビジネスマン」を名乗る男性と出会ったと述べました。
 
 **引用元**: SCMP
 
-https://www.scmp.com/business/banking-finance/article/3332655/chinas-us8-billion-power-bank-giant-anker-seeks-share-listing-hong-kong?utm_source=rss_feed
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3332875/hong-kong-police-record-more-40-cases-online-romance-scams-2-weeks?utm_source=rss_feed
 
 ## 広東語学習者向け情報
 
@@ -442,5 +292,5 @@ https://www.scmp.com/business/banking-finance/article/3332655/chinas-us8-billion
 
 https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
 ----
-**タグ**: 香港,広東語,廣東話,広東語 ありがとう,広東語 あいさつ,広東語 中国語 違い,広東語 こんにちは,広東語 日常会話,広東語 一覧,広東語勉強,広東語 旅行
-**生成日時**: 2025年11月16日 06:18
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2025年11月16日 07:18

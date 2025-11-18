@@ -3,18 +3,18 @@
 ## 本日の香港の天気
 
 ### 天気予報
-香港天文台が2025年11月19日05時45分に発表した天気報告
-強い北東の季節風が広東省沿岸に影響を及ぼしています。香港では、今朝の気温は昨日より8～10度低いところがほとんどです。同時に、広範囲の雲の帯が華南地方を覆っています。
+香港天文台が2025年11月19日午前6時45分に発表した天気予報
+強い北東モンスーンの影響で、香港では今朝、かなり涼しくなりました。午前6時現在、天文台は最低気温13.2度を記録し、これは今年の秋に入ってからの最低記録です。新界ではさらに1～2度低くなりました。また、広範囲の雲の帯が華南を覆っています。
 
-香港地域の今日の天気予報：
-概ね曇りで、初めは一時的に小雨が降るでしょう。朝の市街地はかなり涼しく、新界の一部地域では寒くなるでしょう。日中の最高気温は約17度で、非常に乾燥した天気となるでしょう。やや強い北寄りの風が吹き、沿岸部や高地では強風となるでしょう。その後、風は弱まる見込みです。
+香港地域の今日の天気予報:
+概ね曇りで、初めは一時的に小雨が降るでしょう。朝の市街地はかなり涼しく、新界の一部地域では寒くなる見込みです。日中の最高気温は約17度で、非常に乾燥するでしょう。やや強い北風が吹き、沿岸部や高地では強風となるでしょう。その後、風は弱まる見込みです。
 
-見通し：
-明日は概ね曇りで、朝はまだ涼しいでしょう。その後数日間は次第に晴れに変わり、日中は非常に乾燥するでしょう。気温は徐々に上昇しますが、昼夜の寒暖差はかなり大きくなる見込みです。
+見通し:
+明日は概ね曇りで、朝は引き続き涼しいでしょう。その後数日は次第に晴れに変わり、日中は非常に乾燥する見込みです。気温は徐々に上昇しますが、一日の気温差はかなり大きいでしょう。
 
 **引用元**: 香港天文台
 
-### チャイナケム、香港・荃湾の用地をUS$3億1800万で確保。
+### 華懋グループ、香港・荃湾の土地を3億1800万米ドルで取得
 
 Private developer outbids eight others for the site, which is expected to yield 780 flats
 
@@ -30,7 +30,7 @@ It also had 1.44 million sq ft of investment properties under construction and 2
 
 https://www.scmp.com/business/article/3333300/chinachem-secures-plot-hong-kongs-tsuen-wan-us318-million?utm_source=rss_feed
 
-### 来年、電気料金が2%超引き下げへ。
+### 来年、電気料金は2%以上引き下げられる見込みです。
 
 Hong Kong’s two power companies will slash their electricity charges by more than 2 percent starting in January.
 
@@ -58,7 +58,7 @@ HK Electric managing director Francis Cheng said that although fuel costs have c
 
 https://news.rthk.hk/rthk/en/component/k2/1832254-20251118.htm
 
-### 香港の失業率が3.8%に低下、企業と消費者の信頼感改善を受け
+### 企業景況感と消費者信頼感の改善に伴い、香港の失業率は3.8%に低下しました。
 
 But economists warn that improvements in the job market were driven by ‘golden week’ tourists and the lead-up to city’s peak winter season
 
@@ -78,39 +78,36 @@ The jobless rate between July and September was 3.9 per cent, an increase of 0.2
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3333281/hong-kong-unemployment-rate-dips-38-business-sentiment-improves?utm_source=rss_feed
 
-### 華懋が24.75億で荃灣の住宅地を落札、予想を上回る。
+### 華懋24.75億奪得荃灣住宅地 勝預期 - on.cc東網
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQVnZWS2NzNW5ITkstUUpybVlqeVZmTzdMamRCaEtWYzFXd1NjdUctLWxZNmJWRmxYR2luOWVhNVRiaHM2U3FhSWlySlQ5WFJQVEk3YjNqZDk4emtfdnN3aksyV1ctUVNVRjRlZzJwUk5vWFNtUEs5RWtGdXlDWGIwQ1NHS0hNbk1XSWVQM0Vaaw?oc=5" target="_blank">華懋24.75億奪得荃灣住宅地 勝預期</a>&nbsp;&nbsp;<font color="#6f6f6f">on.cc東網｜東方傳媒機構</font></li><li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQUi03cmFDY05uZHlDMHI5ekJUclkxUXVnaUFLb0UxendGNWdNdDNVdTUxTHF5RTM0M1drLVBHN0JEZV9RTkYzSGRaSGFjVkFCbGFVNl95R3lvOFZHM2VwWm5ZMzdXeU1UWUFtcFBWY2o0U2hUVVBpMURlSjNhVXhOamlWNWZ0ZGNWZm12bDVra0V2ZTJ0?oc=5" target="_blank">《港樓》華懋24.75億中標荃灣永順街與德士古道交界住宅地樓面呎價5,692元超預期上限財經新聞Financial News</a>&nbsp;&nbsp;<font color="#6f6f6f">AASTOCKS.com</font></li><li><a href="https://news.google.com/rss/articles/CBMijwNBVV95cUxNdXdsUzExc05IU2xnZnVLcC1HcHp2X2FBTGxwbFNBRUlBWjZSU05lNk5xbHZSM0xQTEQxaDZGUTJuaFM0aEc0YWxqVUdjRTFUYUtxMVV4a0F5T3M3QTdwbzdqQlp1ckdMLWxDbWd3b2pUSDRxYXEwYTVFejdRNDZHaS02XzczTGVhTFpPRkRac2RwX1p6NlJEMkNTTnVIbm8wRnVidVlveHlMTDVla055WDJHY2lCOUxHTU0zMmZmY1lPRkJzWVg5WDJBT0Y5aE9aT3JtcGZNZy1relVObThZYm9MX0RxaTJ6UWs3TGJfUXlfb1hpQkZweTZiaUFRZVRtVzF1dzF4TUxPNlFhc1g0TXIwTjJ6N3NlTGFCZ1dpZkppNkU5VzFkUVlTY0JJcjhEZWNicWdSRTVaejJFaTEzYWVxVDBiMVJiS1Q5bXY3SktTM2hvaVhUdE16UkxTZm1Ma21zX3RfcDFweThxNGFySEItUHI5YzJUV3dxOUJMX3ZBM3g1Qm1EdzhsUWlaMFU?oc=5" target="_blank">地皮開標｜華懋24.7億投得荃灣住宅地 每呎地價5692元高估值上限26%</a>&nbsp;&nbsp;<font color="#6f6f6f">地產站</font></li><li><a href="https://news.google.com/rs
+<ol><li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQVnZWS2NzNW5ITkstUUpybVlqeVZmTzdMamRCaEtWYzFXd1NjdUctLWxZNmJWRmxYR2luOWVhNVRiaHM2U3FhSWlySlQ5WFJQVEk3YjNqZDk4emtfdnN3aksyV1ctUVNVRjRlZzJwUk5vWFNtUEs5RWtGdXlDWGIwQ1NHS0hNbk1XSWVQM0Vaaw?oc=5" target="_blank">華懋24.75億奪得荃灣住宅地 勝預期</a>&nbsp;&nbsp;<font color="#6f6f6f">on.cc東網</font></li><li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQUi03cmFDY05uZHlDMHI5ekJUclkxUXVnaUFLb0UxendGNWdNdDNVdTUxTHF5RTM0M1drLVBHN0JEZV9RTkYzSGRaSGFjVkFCbGFVNl95R3lvOFZHM2VwWm5ZMzdXeU1UWUFtcFBWY2o0U2hUVVBpMURlSjNhVXhOamlWNWZ0ZGNWZm12bDVra0V2ZTJ0?oc=5" target="_blank">《港樓》華懋24.75億中標荃灣永順街與德士古道交界住宅地樓面呎價5,692元超預期上限財經新聞Financial News</a>&nbsp;&nbsp;<font color="#6f6f6f">AASTOCKS.com</font></li><li><a href="https://news.google.com/rss/articles/CBMijwNBVV95cUxNdXdsUzExc05IU2xnZnVLcC1HcHp2X2FBTGxwbFNBRUlBWjZSU05lNk5xbHZSM0xQTEQxaDZGUTJuaFM0aEc0YWxqVUdjRTFUYUtxMVV4a0F5T3M3QTdwbzdqQlp1ckdMLWxDbWd3b2pUSDRxYXEwYTVFejdRNDZHaS02XzczTGVhTFpPRkRac2RwX1p6NlJEMkNTTnVIbm8wRnVidVlveHlMTDVla055WDJHY2lCOUxHTU0zMmZmY1lPRkJzWVg5WDJBT0Y5aE9aT3JtcGZNZy1relVObThZYm9MX0RxaTJ6UWs3TGJfUXlfb1hpQkZweTZiaUFRZVRtVzF1dzF4TUxPNlFhc1g0TXIwTjJ6N3NlTGFCZ1dpZkppNkU5VzFkUVlTY0JJcjhEZWNicWdSRTVaejJFaTEzYWVxVDBiMVJiS1Q5bXY3SktTM2hvaVhUdE16UkxTZm1Ma21zX3RfcDFweThxNGFySEItUHI5YzJUV3dxOUJMX3ZBM3g1Qm1EdzhsUWlaMFU?oc=5" target="_blank">地皮開標｜華懋24.7億投得荃灣住宅地 每呎地價5692元高估值上限26%</a>&nbsp;&nbsp;<font color="#6f6f6f">地產站</font></li><li><a href="https://news.google.com/rss/artic
 
 **引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMijwFBVV95cUxQVnZWS2NzNW5ITkstUUpybVlqeVZmTzdMamRCaEtWYzFXd1NjdUctLWxZNmJWRmxYR2luOWVhNVRiaHM2U3FhSWlySlQ5WFJQVEk3YjNqZDk4emtfdnN3aksyV1ctUVNVRjRlZzJwUk5vWFNtUEs5RWtGdXlDWGIwQ1NHS0hNbk1XSWVQM0Vaaw?oc=5
 
-### 日本は、台湾情勢の緊張が高まる中、中国に滞在する自国民に対し、安全に関する注意喚起を行った。
+### 日本は、台湾を巡る対立が続く中、中国に滞在する自国民に対し、安全に関する注意喚起を行った。
 
-日本は、高市早苗首相の台湾に関する発言を巡る外交問題の最中、中国に滞在する自国民に対し、周囲に注意し、人混みを避けるよう警告した。この激化する対立により、すでに中国政府は中国国民に対し日本への渡航を避けるよう勧告しており、東京株式市場にも打撃を与えている。少なくとも2つの[&#8230;]
+日本は、高市早苗首相の台湾に関する発言を巡る外交問題の最中、中国に滞在する自国民に対し、周囲に注意し、人混みを避けるよう警告した。このエスカレートする対立により、すでに中国政府は中国国民に日本への渡航を避けるよう勧告しており、東京株式市場にも打撃を与えている。少なくとも2つの[&#8230;]
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/18/japan-warns-citizens-in-china-over-safety-amidst-taiwan-row/
 
-### 円が重要な心理的節目である155円を割り込み、日本の財務大臣が口先介入を強めた。（Yahoo財経）
+### 円が重要な心理的節目である155円を割り込み、日本の財務大臣が口先介入を強化した。ヤフーファイナンス
 
 以下に翻訳します。
 
-1.  円、重要な心理的節目155円を割り込む 日本財務大臣が口頭警告を強化
-    &nbsp;&nbsp;Yahoo!ファイナンス
-2.  植田和男氏：高市早苗氏は政策についていかなる要求もしていない
-    &nbsp;&nbsp;RTHKニュースサイト
-3.  高市早苗氏と日銀植田総裁が初の公式会談へ
-    &nbsp;&nbsp;AASTOCKS.com
-4.  （この項目はURLの一部であり、翻訳対象のテキストではありません。）
+1.  日本円が重要な心理的節目である155円を割り込み、日本の財務大臣が口頭での警告を強化 &nbsp;&nbsp;Yahooファイナンス
+2.  植田和男：高市早苗氏は政策に関して何の要求もしていない &nbsp;&nbsp;香港電台ニュースサイト
+3.  高市早苗氏と日銀総裁の植田和男氏が初の公式会談を開催 &nbsp;&nbsp;AASTOCKS.com
+4.  （翻訳対象のテキストがありません）
 
 **引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMi6wJBVV95cUxPN3ZBdVUwbDlMVDd6V0pLQ2hWM0VZaWlhajNFN01mUXFMWW5yZGhPczhsTHJLRnVlT0lnZmJLZ1BKZ0VteGlwQzVFZ0plN0t0OFpiTlRfTHZhTlVCdkZNYWFuY05Qd0wtamVJTmZ3RnlDMEtlZWR3NlRqNGdFejZOcUN5X1BmNVV3RWFVOFBVUDNXZmZBSGJSNko5WXRIcXZUQVpGa3lOYnE5S2s4VEpyZjk3N2ZzcVNsdmV4NTdUeEpqVFlfdG5tQnNWZnVxdnh3NEFuWkYyNGt5WHFiT0tFZlc0alZWNXZuYkM2T01wU1l3d3kzeGZIMnVmUC1oRVNJQWlDSWRZTUVVV29wc2N6MDcybjNsSHN6bDBVYkRiOWRzY250VFNES3ZMMlFxRHNhOENmVlpHbHJtVHFlUnBoOE5td2F0d0laekl5MEtZZ3doT3hOcGdVRUFFa1VDS0dlZ0FxOGkxMGMzRTg?oc=5
 
-### 岑浩輝は任期中2度目となる施政報告を発表し、マカオの永住者には一人当たり1万パタカが支給されます。
+### 岑浩輝氏が任期中2度目の施政報告を発表し、マカオの永住者に対し一人当たり1万元を支給する。
 
 【Now新聞台】澳門行政長官岑浩輝發表任內第2份施政報告，延續多項惠民措施，包括繼續現金分享計劃，向每名合資格永久居民發放1萬元，非永久居民每人6000元，結婚津貼就調升至4000元，配偶雙方可同時領取。
 
@@ -124,7 +121,7 @@ https://news.google.com/rss/articles/CBMi6wJBVV95cUxPN3ZBdVUwbDlMVDd6V0pLQ2hWM0V
 
 https://hk.news.yahoo.com/%E5%B2%91%E6%B5%A9%E8%BC%9D%E7%99%BC%E8%A1%A8%E4%BB%BB%E5%85%A7%E7%AC%AC%E4%BA%8C%E4%BB%BD%E6%96%BD%E6%94%BF%E5%A0%B1%E5%91%8A-%E6%B0%B8%E4%B9%85%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E6%AF%8F%E4%BA%BA%E6%B4%BE1%E8%90%AC%E5%85%83-111926139.html
 
-### 介護施設に3カ所の出張投票所を設置へ　孫玉菡氏：施設の運営には影響しない
+### 3つの施設に巡回投票所が設置される。孫玉菡氏は「施設の運営には影響しない」と述べた。
 
 【Now新聞台】政府向長者及殘疾人士支援中心提供兩萬元津貼，讓他們在立法會選舉當日協助長者等院友前往票站。勞工及福利局長孫玉菡稱，所有中心已回覆當日會參與。
 
@@ -138,37 +135,37 @@ https://hk.news.yahoo.com/%E5%B2%91%E6%B5%A9%E8%BC%9D%E7%99%BC%E8%A1%A8%E4%BB%BB
 
 https://hk.news.yahoo.com/%E5%B0%87%E8%A8%AD%E4%B8%89%E5%80%8B%E9%99%A2%E8%88%8D%E5%A4%96%E5%B1%95%E6%8A%95%E7%A5%A8%E7%AB%99-%E5%AD%AB%E7%8E%89%E8%8F%A1-%E4%B8%8D%E6%9C%83%E5%BD%B1%E9%9F%BF%E9%99%A2%E8%88%8D%E9%81%8B%E4%BD%9C-103926599.html
 
-### 香港は、「愛国者のみ」の立法会選挙の投票率向上を図るため、無料コンサートを開催する。
+### 香港は、「愛国者のみ」の立法会選挙の投票率向上を目的とした無料コンサートを開催する。
 
-政府は、来る12月7日の立法会選挙の前夜に、投票を促す目的で無料コンサートを開催する予定です。
+政府は、来る12月7日の立法会選挙前夜に、投票を促す目的で無料コンサートを開催する。
 
-「Let’s Vote, Together We Create the Future Gala」と題されたこのコンサートには、70人の歌手やアーティストが出演します。会場は西九龍文化区のAXAワンダーランドで、[...]
+「Let's Vote, Together We Create the Future Gala」と題されたこのコンサートには、70人の歌手とアーティストが出演する予定だ。会場は西九龍文化区のAXA Wonderlandとなる。
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/14/hong-kong-to-hold-free-concert-to-boost-turnout-for-patriots-only-legislative-polls/
 
-### 'Cargo plane engine full forward power after landing'
+### 貨物機は着陸後、エンジンを最大前進推力にした。
 
 独立調査機関は火曜日、先月空港で発生した死亡事故に関与した貨物機のエンジンの1基が、着陸後に最大前進推力まで急上昇したとする予備報告書を公表しました。
 
-エミレーツ航空の貨物機は10月20日未明に着陸後、滑走路を逸脱しました。同機は巡回車両に衝突し、その車両を海に押し込み、中にいた警備員2名を死亡させました。
+エミレーツ航空の貨物機は10月20日未明に着陸後、滑走路を逸脱しました。同機は巡回車両に衝突し、車両を海に押し込み、乗っていた警備員2名を死亡させました。
 
 運輸物流局傘下の航空事故調査機関（AAIA）による予備報告書によると、飛行データは、ボーイング747型貨物機の4番エンジンが着陸後に突然、最大前進推力まで急上昇したことを示していました。
 
-そのエンジンの逆推力装置（航空機を減速させるための装置）は、ドバイ出発前に作動不能であることが判明していましたが、これは現行の航空規制下で許容される状態でした。
+そのエンジンの逆推力装置（航空機を減速させるための装置）は、ドバイ出発前に作動不能であることが判明していましたが、これは現行の航空規制で許容される状態でした。
 
-他の3つのエンジンの逆推力装置は、航空機を減速させるために正常に作動しました。
+他の3つのエンジンの逆推力装置は正常に作動し、機体を減速させました。
 
 報告書はまた、その夜の天候は良好な視界で正常であり、航空管制と乗員間の交信は着陸直前まで円滑であったと述べています。
 
-調査官は、なぜそのエンジンが予期せず推力を上げたのかをまだ調べており、航空機の整備記録、乗員の資格、そして人為的ミスが
+調査官は、なぜそのエンジンが予期せず出力上昇したのかをまだ調べており、機体の整備記録、乗員の資格、そして人為的ミスが関与したかどうかを確認する予定です。
 
 **引用元**: RTHK
 
 https://news.rthk.hk/rthk/en/component/k2/1832287-20251118.htm
 
-### ロシアが攻勢を強め、トランプが後退する中、中国の台頭は明らかである。
+### ロシアが攻勢を強め、トランプが後退するにつれて、中国の台頭は明らかだ。
 
 Events in Busan and Pokrovsk show Beijing now occupying the position Nixon’s America once did in great power rivalry
 
@@ -186,33 +183,41 @@ Placed in the context of great power relations between the United States, Russia
 
 https://www.scmp.com/opinion/china-opinion/article/3332846/russia-advances-and-trump-retreats-chinas-ascendancy-clear?utm_source=rss_feed
 
-### 米国と中国が中央アジアに注目する中、ロシアは後れを取る。
+### 米国と中国が中央アジアに注目するにつれて、ロシアは影響力を失う。
 
-伝統的にロシアの地政学的勢力圏にあった地域が、米中間の新たな競争の場と化している。
+伝統的にロシアの地政学的勢力圏にあった地域が、米国と中国の新たな競争の舞台と化している。
 
-ロシアによるウクライナ侵攻の結果、モスクワは中央アジアにおける影響力の多くを失った。今後数ヶ月から数年のうちに、米国はこの戦略的に重要な地域での存在感を拡大すると予想されている。しかし、中国が地域の関係者と緊密な経済関係を築いていることを踏まえると、北京はワシントンの野心をどのように見ているのだろうか？
+ロシアによるウクライナ戦争の結果、モスクワは中央アジアにおける影響力の多くを失った。今後数ヶ月から数年のうちに、米国はこの戦略的に重要な地域での存在感を拡大すると予想されている。しかし、中国が地域の関係者と緊密な経済関係を築いていることを考えると、北京はワシントンの野心をどのように見ているのだろうか。
 
-西側メディアはホワイトハウスの首脳会談により注目したが、新疆ウイグル自治区の首都で開催されたフォーラムは、米国の中央アジアへの関与が強まる中でも、北京が後退するつもりはないことを示した。ウルムチでのイベントに続き、北京では「中国・中央アジア建設2025閣僚会議」が開催され、中国指導部がユーラシアにおける道路、橋、鉄道の建設を継続する計画を放棄する可能性は低いことを示唆している。
+西側メディアはホワイトハウスの首脳会談により注目したが、新疆ウイグル自治区の首都で開催されたフォーラムは、米国の中央アジアへの関与が強まる中でも、北京が後退するつもりがないことを示した。ウルムチでのイベントに続き、北京では「中国・中央アジア建設2025閣僚会議」が開催され、中国指導部がユーラシアにおける道路、橋、鉄道の建設を継続する計画を放棄する可能性は低いことを示唆している。
 
-長年にわたり、中国は「一帯一路」構想を通じてその存在感を高め、中央アジアの最大の貿易相手国および主要な投資源としての地位を確立してきた。トランプ氏がこの地域の国々をワシントンの勢力圏に引き込もうとする中、北京が手をこまねいて見ていることはほぼ確実になかろう。
-
-ウルムチと北京での会合は間違いなく事前に準備されていたものの、その開催時期は、中国が米国の動きを注意深く監視し、中央アジアにおける主要な大国としての役割を主張する意図があるという明確なシグナルを送った。
-
-11:00
-
-ロシアが中国の存在に好意的な姿勢を示すかもしれない理由
+長年にわたり、中国は「一帯一路」構想を通じてその存在感を高め、中央アジアの最大の貿易相手
 
 **引用元**: SCMP Business
 
 https://www.scmp.com/opinion/asia-opinion/article/3332544/us-and-china-turn-their-eyes-central-asia-russia-loses-out?utm_source=rss_feed
 
-### 李家超氏、ノーベル経済学賞受賞者と会談 経済やイノベーション・テクノロジーなどについて意見交換 - 香港電台ニュースサイト
+### 李家超、ノーベル経済学賞受賞者と会談 経済やイノベーションなどについて意見交換 - 香港電台ニュースサイト
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9teWJjY1ItM2Y4S2hWRGRaajJzZHhkV3BBYmlxc1c4b1loU29udjlrbUFZZUg4ZFFNSTk3M0Q3RnIyMDdoeHhoOXNpM0VFeklycjVKRUt4YVQwWlh4Sk1NMGpQdTRSbXVTTFV0Y0t6RQ?oc=5" target="_blank">李家超與諾貝爾經濟學獎得主會面 就經濟及創科等交流意見</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台新聞網</font></li><li><a href="https://news.google.com/rss/articles/CBMisANBVV95cUxPb0o5Xzl5YlkyTndzQ0ZXamhqbWctWWhUOHJQcHIwbzdZMVFoMkdReUExT2RSWndzeG1acWNVaGNGejB4V0RPUmVOM29KZ3pybkZ4QmhtTjVZdFh2Z0sxc1pNaVlxTEZUVnhEUURHYVptVEZVN3A4YlBMbjY0MFB6b3RPZ1lwdlVQeDBacjBaN3ZCTGE2WHM0VDM4NWRpV2pOSUU4Vll4WGRDUFhveEc5dksyVVBMelhhdThnVjk0NmdqR2xSQzZPOHZFWHNrS1UxYkFOeVpxc2tjYk5qdk5ZR01KWVkzTjJPbkpiTGlDVEkyckxGRzhIOEpnWFh5NXNQeEJNVDVwWldPWTlhLVdmekhqcjgyUXFqSy1WM2o0VWxHSGptV0M3dExfU3NwWWcxY2JUUXprQlJzOFZwQ05BREU5dHRIdTB3cUhHYm5YTzhpc2QzeE9tdWRnbU51V3MzMGVZNWNZNEhQZ2JJcngwYm1pa1VTZHU2V0FwbVRXRm1oYVp5c2FFMHZTNGhCZW00MFdxWDdTYm9aZXdiQlY2MUNyUTVvazRhaURRVFROX0I?oc=5" target="_blank">本地｜李家超稱國家有力帶動世界經濟發展 國際評價肯定本港優勢</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo 財經</font></li><li><a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxNUGxHaHBYY2h0S1lXTWphckJLZ0pvX0FkZDAycW9mWXk3aUtnaGlEZDl0ZUhNYXdBVDZudkR1bnAzWDlmMFVlM2RYVXBpemVPRE0zR2I2MmIxbjNWaEZJeW40S1dKZHRpMXNPMk02ejFaa0w4TkhEN1hObUQ4MVpNRUlkbUkwbmdHWHMyaDFidWVjWTIyRnhKYVRBQlViTjhhRk4zU21BTzdIdGlFNkx3ekNrOUM0S2FxUFdKc1V3ZzRxVDNXZ3ZHaFp0N0ViNG1IZ2YxRUZtMG1lRTNXQWIteDRBdlZTWDlzZjhXMjNHSFhDa1lpX1pnem5XbFNzQ3o4MFl0WmxvSnhBMVVKRkR4bHJKVmFRRlE5U3hvRzY4Rkd
+<ol><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9teWJjY1ItM2Y4S2hWRGRaajJzZHhkV3BBYmlxc1c4b1loU29udjlrbUFZZUg4ZFFNSTk3M0Q3RnIyMDdoeHhoOXNpM0VFeklycjVKRUt4YVQwWlh4Sk1NMGpQdTRSbXVTTFV0Y0t6RQ?oc=5" target="_blank">李家超與諾貝爾經濟學獎得主會面 就經濟及創科等交流意見</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台新聞網</font></li><li><a href="https://news.google.com/rss/articles/CBMi1ANBVV95cUxPOGs4RU1vXy1ZR3hkWnBVME1hZTYwSXZRMmpRa3R0cXE4VHN1M213VUZNeWd4U1ZCSjNZS3lLRVg3bWZ1TnV2VmJlR0JoUnpQeUV6cUpvYVBxTlBNaFowMnZNY3ZsM0xpa2tuSHhXcmpXMlhzYW9tQzJXanRUVE9wME95SFRBcmtIV2V2aE9RZm1QUlhZbW15ZFo2NEczclM0TzBPQjNXWG04Y09CX09FTGJiNkxkWlUzUXRpc3JjWmw2VEI4WVZJX3FkV1VsZVlMVWtLN0ZhdHd4SWZFcmQwb3llc0NlWDhCak5saTZCeG54VUF3dVVUekhoVmtXUHdsT254S0t1U2V2LUZOYzFqb2RLLUpZOUh1V294Z2U5c1RWLVdsLTVsNVM3cFFIa3BFT1RRVEJxT3RtVmk4a3VOVWVrdThIUEVncEtmYllLUjlJMzFzWGdhaGRFNldmdFI1S1VIS2FUSFZJZnlVUDlwSHNUY3M1ZHBQZy14QjBlUTNCYWV2M2VGeUZLT21vWjBENUtyS2lhdlhpUDBjRXdiME9GVlRTNlR0dFlPUGtUNHU3TzNjZUZrRXBfSUJWbTZEUHh6dmpsdFZZR19jVElBdTR6X0Q?oc=5" target="_blank">本地｜中國社科院秘書長趙志敏：如何保持獨特地位和優勢是香港重要使命</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo 財經</font></li><li><a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxNUGxHaHBYY2h0S1lXTWphckJLZ0pvX0FkZDAycW9mWXk3aUtnaGlEZDl0ZUhNYXdBVDZudkR1bnAzWDlmMFVlM2RYVXBpemVPRE0zR2I2MmIxbjNWaEZJeW40S1dKZHRpMXNPMk02ejFaa0w4TkhEN1hObUQ4MVpNRUlkbUkwbmdHWHMyaDFidWVjWTIyRnhKYVRBQlViTjhhRk4zU21BTzdIdGlFNkx3ekNrOUM0S2FxUFdKc1V3ZzRxVDNXZ3ZHaFp0N0ViNG1IZ2YxRUZtMG1lRTNXQWIteDRBdlZTWDlzZjhXMjNHSFhDa1lpX1pnem5X
 
 **引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE9teWJjY1ItM2Y4S2hWRGRaajJzZHhkV3BBYmlxc1c4b1loU29udjlrbUFZZUg4ZFFNSTk3M0Q3RnIyMDdoeHhoOXNpM0VFeklycjVKRUt4YVQwWlh4Sk1NMGpQdTRSbXVTTFV0Y0t6RQ?oc=5
+
+### 貨機墮海兩死︱死者胞姊質疑波音指引　容許引擎失靈照起飛：可以賴邊個？係咪賠返個細佬畀我？︱Yahoo
+
+【Yahoo新聞報道】阿聯酋航空公司貨機 EK9788 今年 10 月降落香港機場時墮海，導致兩名地勤職員死亡。民航意外調查機構昨（ 18 日）發佈初步報告。兩名死者家屬同日曾與民航調查機構會面。其中30歲死者的胞姐陳小姐接受《Yahoo新聞》查詢時表示，機構代表在會上引述報告指， 4 號發動機的反推裝置無法運作，惟對方未有提及該問題在起飛前已經發現，直至家屬再讀報告才知悉。「你明知出發前已經有問題，你確保唔到係咪要用 4 號引擎，都照畀佢起飛，咁一有事就死梗，可以賴邊個呢？係咪賠返個細佬畀我吖？唔係㗎嘛。」
+
+涉事貨機為波音747-481 BDSF型貨機。根據上述報告，貨機在從迪拜出發前，本身就帶有已記錄的技術故障。根據「最低設備清單」，飛機在簽派時，4 號發動機的反推裝置已經不運作 ，但該清單允許飛機在特定條件或限制下繼續運作，並獲運營商的民航監管當局接納採用。該清單根據飛機製造商，即波音公司的指引編製，並獲運營商的民航監管當局接納採用。
+
+陳小姐指出今次事件顯示飛機在僅符合最低起飛條件時運作，存在相當風險，「佢都有講波音公司接受只有三個引擎OK就可以起飛，但係咪就係造就今次事件發生囉？難保下一架飛機會唔會因為同樣情況出事，可能下次唔止死兩個，可能全架機罹難都唔出奇」。她質疑涉事公司和航空部門應否確定全機機件完全運作正常，方批准起飛，確保令同類慘劇永不再發生，「根本成件事可以避免」。
+
+她同時感謝多個部門自事發至今落力調查和配合，期望各方能繼續緊密合作，「唔好放過任何一個蛛絲馬跡，真係幫死者追回公道」。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E8%B2%A8%E6%A9%9F%E5%A2%AE%E6%B5%B7%E5%85%A9%E6%AD%BB%EF%B8%B1%E6%AD%BB%E8%80%85%E8%83%9E%E5%A7%8A%E8%B3%AA%E7%96%91%E6%B3%A2%E9%9F%B3%E6%8C%87%E5%BC%95-%E5%AE%B9%E8%A8%B1%E5%BC%95%E6%93%8E%E5%A4%B1%E9%9D%88%E7%85%A7%E8%B5%B7%E9%A3%9B%EF%BC%9A%E5%8F%AF%E4%BB%A5%E8%B3%B4%E9%82%8A%E5%80%8B%EF%BC%9F%E4%BF%82%E5%92%AA%E8%B3%A0%E8%BF%94%E5%80%8B%E7%B4%B0%E4%BD%AC%E7%95%80%E6%88%91%EF%BC%9F%EF%B8%B1yahoo-230007869.html
 
 ### 亞洲盃外圍賽︱破紀錄 4.7 萬球迷入場打氣　啟德紅海聲浪淹沒全場　港足雖敗猶榮︱多圖︱Yahoo
 
@@ -246,7 +251,7 @@ https://news.google.com/rss/articles/CBMib0FVX3lxTE9teWJjY1ItM2Y4S2hWRGRaajJzZHh
 
 https://hk.news.yahoo.com/%E4%BA%9E%E6%B4%B2%E7%9B%83%E5%A4%96%E5%9C%8D%E8%B3%BD%EF%B8%B1%E7%A0%B4%E7%B4%80%E9%8C%84-47-%E8%90%AC%E7%90%83%E8%BF%B7%E5%85%A5%E5%A0%B4%E6%89%93%E6%B0%A3-%E5%95%9F%E5%BE%B7%E7%B4%85%E6%B5%B7%E8%81%B2%E6%B5%AA%E6%B7%B9%E6%B2%92%E5%85%A8%E5%A0%B4-%E6%B8%AF%E8%B6%B3%E9%9B%96%E6%95%97%E7%8C%B6%E6%A6%AE%EF%B8%B1%E5%A4%9A%E5%9C%96%EF%B8%B1yahoo-143918903.html
 
-### 筋萎縮症の香港系移民の子孫、奮闘中に病死 米領事が追悼文：「彼女は数多くの障害者を勇気づけた」
+### 筋萎縮症の香港移民二世、奮闘中に病死 米領事が追悼文を公表：「彼女は多くの障がい者を勇気づけた」
 
 患有脊髓肌肉萎縮症的香港移民後代王美華，上周五（14 日）在美國三藩市醫院中病逝，享年 51 歲。她創立了一個名為「殘障能見計劃」的網上社群，鼓勵傷殘人士建立自信互助互勉。美國駐港領事館今日（18 日）發文哀悼，寄語王美華的奮發精神能繼續啟發後世。
 
@@ -268,7 +273,7 @@ https://hk.news.yahoo.com/%E4%BA%9E%E6%B4%B2%E7%9B%83%E5%A4%96%E5%9C%8D%E8%B3%BD
 
 https://hk.news.yahoo.com/%E8%82%8C%E8%90%8E%E6%B8%AF%E7%A7%BB%E6%B0%91%E5%BE%8C%E4%BB%A3%E5%A5%AE%E7%99%BC%E4%B8%AD%E7%97%85%E9%80%9D-%E7%BE%8E%E9%A0%98%E4%BA%8B%E7%99%BC%E6%96%87%E6%82%BC%E5%BF%B5%EF%BC%9A%E5%A5%B9%E9%BC%93%E8%88%9E%E7%84%A1%E6%95%B8%E6%AE%98%E7%96%BE%E4%BA%BA%E5%A3%AB-133939181.html
 
-### 科大擊敗理大、浸大籌辦新醫學院｜本港千萬富翁人口增至 39.5 萬人｜許紹雄出殯　契女佘詩曼哭腫雙眼 ｜11 月 18 日・Yahoo 晚報
+### 香港科技大学が理工大学と浸会大学を破り新医学部設立準備・香港の資産1000万香港ドル以上の富裕層が39.5万人に増加・許紹雄の葬儀で名付け子の佘詩曼が目を腫らす・11月18日・Yahoo
 
 晚安！今天是 11 月 18 日，星期二。受強烈東北季候風影響，今晚至明早天氣顯著轉涼，本港市區氣溫會逐步降至約 14 度，新界部分地區更會寒冷。明日日間多雲乾燥，最高約 17 度，吹清勁偏北風，紫外線指數預測約為 4 ，屬中等水平，大家記得添衣保暖兼多喝水。
 
@@ -294,60 +299,45 @@ https://hk.news.yahoo.com/%E8%82%8C%E8%90%8E%E6%B8%AF%E7%A7%BB%E6%B0%91%E5%BE%8C
 
 https://hk.news.yahoo.com/%E7%A7%91%E5%A4%A7%E6%93%8A%E6%95%97%E7%90%86%E5%A4%A7%E3%80%81%E6%B5%B8%E5%A4%A7%E7%B1%8C%E8%BE%A6%E6%96%B0%E9%86%AB%E5%AD%B8%E9%99%A2%EF%BD%9C%E6%9C%AC%E6%B8%AF%E5%8D%83%E8%90%AC%E5%AF%8C%E7%BF%81%E4%BA%BA%E5%8F%A3%E5%A2%9E%E8%87%B3-395-%E8%90%AC%E4%BA%BA%EF%BD%9C%E8%A8%B1%E7%B4%B9%E9%9B%84%E5%87%BA%E6%AE%AF-%E5%A5%91%E5%A5%B3%E4%BD%98%E8%A9%A9%E6%9B%BC%E5%93%AD%E8%85%AB%E9%9B%99%E7%9C%BC-%EF%BD%9C11-%E6%9C%88-18-%E6%97%A5%E3%83%BByahoo-%E6%99%9A%E5%A0%B1-131811193.html
 
-### 香港が全国運動会で17個のメダルを獲得し、過去最多の獲得数となりました。
+### 香港、全国運動会で過去最高の17メダル獲得
 
-香港の選手たちは、今大会の全国運動会でこれまでに17個のメダル（金メダル8個を含む）を獲得し、自転車競技と水泳でのさらなる勝利により、記録的な獲得数となりました。水泳選手のシボーン・ホーヒーは月曜日、50メートル自由形と50メートル平泳ぎの種目で2つの銅メダルを獲得し、今大会でのメダル獲得数を4個としました。
-[...]
+香港の選手たちは、これまでのところ全国運動会で17個のメダル（金8個を含む）を獲得し、自転車競技と水泳でのさらなる勝利により、過去最高の獲得数を記録しました。競泳選手のシボーン・ホーヒーは月曜日、50メートル自由形と50メートル平泳ぎで銅メダル2個を獲得し、これにより今大会でのメダル獲得数は4個となりました。[...]
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/18/record-haul-as-hong-kong-clinches-17-medals-at-national-games/
 
-### 香港對新加坡︱關鍵一役球迷砌 Tifo：「送港隊到亞洲盃」　港隊開場 15 分鐘即入一球　下半場被連入兩球決賽周夢碎︱Yahoo
+### 香港でのエミレーツ貨物機墜落事故、調査がエンジンサージを原因と指摘、2人死亡
 
-【Yahoo新聞報道】香港足球代表隊今晚在啟德體育園主場，迎戰亞洲盃外圍賽同組的新加坡隊。此役被視為港隊關鍵一役，若港隊獲勝，即可晉身2027年沙特阿拉伯亞洲盃決賽周。比賽開始前，兩大球迷組織同樣有籌備大型Tifo橫額為港隊打氣。與過往由布料繪製的巨型橫幅不同，球迷組織「香港力量」與「波台黐線佬」今次發起「色紙砌圖 Tifo」，球迷區每個座位均獲派發指定顏色的色紙，在特定時間舉起，共同拼砌出大型登機牌圖案以及「送港隊到亞洲盃」字樣。
+航空事故調査局の予備報告書を分析した専門家らは、航空機が着陸後に加速するのは異例だと述べている。
 
-開場約15分鐘，港隊即先拔頭籌以1比0領先，全場球迷呼聲震天。惟最終新加坡下半場連入兩球，最終1比2不敵新加坡。
+専門家によると、先月香港空港で滑走路を逸脱し海に突っ込み、警備員2人が死亡したエミレーツ航空の貨物機は、着陸後にエンジンの1つで「異常な」加速を経験していたことが、予備調査で判明した。
 
-大學生情侶無連位飛 分開坐撐港隊
+火曜日に航空事故調査局が発表した報告書を分析した2人の航空専門家は、着陸後に航空機が加速するのは異例だとザ・ポスト紙に語った。
 
-大學生Cyrus與女朋友Johanna放學後到場觀戰，兩人指今次門票相當「難撲」，最終兩人需要分開坐，但他們認為不減支持港隊的興致，「睇下有無得搵個位一齊企」。Cyrus指今仗是港隊重要一戰，「作為球迷，形勢樂唔樂觀都最緊要相信，每一場都好重要，如果全場我哋啟德4萬幾名球迷都努力撐，雖然對球員真係有好大嘅強心針」。Cyrus亦指最支持陳晉一，「佢係我師兄，有一齊踢過波」，希望可在今場交出亮麗成績。
+彼らは、原因は本格的な調査によって特定される必要があると述べた。
 
-「香港足球啲氣氛返晒嚟」
+ドバイ発エミレーツ航空9788便は、トルコの貨物チャーター航空会社ACT航空が運航しており、10月20日の着陸時に北滑走路を逸脱した。
 
-任先生偕太太到場觀戰。任圱生支持了香港足球30多年，「七幾年開始睇波，當年最鍾意尹志強，十幾年前就鍾意陳七」。問及2025最愛，任生就指「最鍾意安永佳」。對於有不少聲音指安永佳近期表現不佳，他指球員「狀態有高有低，我哋無論佢高定低，都會支持」，亦為近年「香港足球啲氣氛返晒嚟」感到高興。
+ボーイング747型貨物機は警備パトロールカーに衝突し、空港職員2人を死亡させた後、車両とともに滑走路沖の海に突っ込んだ。
 
-與任氏夫婦結伴到場的李太首次親身撐港隊，心情相當興奮，「難得大家都有嗰種香港心」，故亦提早入場「打吓氣」，一班朋友同高呼「一定繼續支持香港隊！香港加油！」
+エミレーツ航空機が香港の滑走路を逸脱、2人死亡
 
-新加坡球迷專程到港
+当局が火曜日に発表した報告書は、証拠収集の初期段階における事実調査結果を概説したものだが、事故原因は特定していない。
 
-至於客隊新加坡隊，今仗若能擊敗港隊，則有機會在小組中爭取到更有利的位置，維持爭奪最佳次名出線的可能性。來自新加坡的球迷阿勇和Harold昨日到港，今日到場觀賽支持新加坡隊後，明日就會返回新加坡，兩人帶備新加坡國旗到場打氣，行程總花費約500新加坡元（折合港幣約3000元）。問及為甚麼專誠來港觀戰，兩人笑言「因為我們是球迷，就是會支持新加坡隊，支持了30多年，從小就支持」，「當然希望新加坡贏啦！」
+**引用元**: SCMP
 
-在港讀書的新加坡留學生奕睿，與5位新加坡同學及一名法國同學到場。奕睿指由於他經新加坡網站購票，故撲飛不算困難，以前曾在港觀賞傑志賽事，「我猜新加坡會2：1贏」，他心情興奮，雖然球迷人數不如主場港隊，但「我一定會叫得很大聲的！」
+https://www.scmp.com/news/hong-kong/transport/article/3333311/probe-cites-engine-surge-emirates-cargo-plane-crash-killed-2-hong-kong?utm_source=rss_feed
 
-**引用元**: Yahoo News HK
+### 蘭桂坊が最優秀公衆トイレ金賞を受賞、西営盤街市など3つの公衆トイレは改善が急務 - on.cc東網
 
-https://hk.news.yahoo.com/%E9%A6%99%E6%B8%AF%E5%B0%8D%E6%96%B0%E5%8A%A0%E5%9D%A1%EF%B8%B1%E9%97%9C%E9%8D%B5%E4%B8%80%E5%BD%B9%E7%90%83%E8%BF%B7%E7%A0%8C-tifo%EF%BC%9A%E3%80%8C%E9%80%81%E6%B8%AF%E9%9A%8A%E5%88%B0%E4%BA%9E%E6%B4%B2%E7%9B%83%E3%80%8D-%E6%B8%AF%E9%9A%8A%E9%96%8B%E5%A0%B4-15-%E5%88%86%E9%90%98%E5%8D%B3%E5%85%A5%E4%B8%80%E7%90%83-%E4%B8%8B%E5%8D%8A%E5%A0%B4%E8%A2%AB%E9%80%A3%E5%85%A5%E5%85%A9%E7%90%83%E6%B1%BA%E8%B3%BD%E5%91%A8%E5%A4%A2%E7%A2%8E%EF%B8%B1yahoo-122236372.html
-
-### Apple iPhone 17、北米Wi-Fi性能テストで首位に - Techritual Hong Kong
-
-<a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CWlVVRGJhSkRSU0pUMUVscWlLMzlTY0NhaHNQalBZVS1JWXlvT3AzcjlfQVZoelRQOEpaQXE2ZEtQcERZSW53WktLbGpHLVVjcmFFZWlxYnE?oc=5" target="_blank">Apple iPhone 17、北米Wi-Fi性能テストで首位に</a>&nbsp;&nbsp;<font color="#6f6f6f">Techritual Hong Kong</font>
-
-**引用元**: Google News HK
-
-https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CWlVVRGJhSkRSU0pUMUVscWlLMzlTY0NhaHNQalBZVS1JWXlvT3AzcjlfQVZoelRQOEpaQXE2ZEtQcERZSW53WktLbGpHLVVjcmFFZWlxYnE?oc=5
-
-### 蘭桂坊が最優秀公衆トイレ金賞を受賞、西営盤街市など3つの公衆トイレは早急な改善が求められる
-
-以下に翻訳します。
-
-<ol><li><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaW1vTlI1d3Q1MU9jV3RTbVJYRHhockNjeFlNdEdqSXRJRnAwbUN3MnkyUnFoaEMyckNVbndzM09KTnNQWFJnM1lxcV9LNFlHLTBzZWJRQmZ0VGl6WU1oMGtnWHByNnlZMEl5NFVuUVJiQy1NNVlnOHFIZmoxUm02a1VVMllxRjBGLW5V?oc=5" target="_blank">蘭桂坊が最優秀公衆トイレ金賞を獲得、西営盤街市など3つの公衆トイレは早急な改善が必要</a>&nbsp;&nbsp;<font color="#6f6f6f">on.cc東網｜東方伝媒機構</font></li><li><a href="https://news.google.com/rss/articles/CBMirANBVV95cUxQRncxWEFWbUs0TnZDdUt3Q1RNajFSTFpTLW5FbEpCa1M2dkREN3NVZE5UeVQ4OGRSWEN2MFlHQTJvSTFJRjFmSzd5TGJxWk5PT3kwS3ljOHdlSHlSWUFHN0U1dnZuM1lNa2NPLWNhOWRpNlU0TnlkVzg5VGlTR0FFRkhHd3FidVkxMmR6YzgzN3lCemV5RzBPWmFDSWR0U2hNNFlEY2VlcDJLWE1RTW93LVMwR2JwV2dESDBkbnRqbW5NNUdpTDFTcHZXb01lYm1ocGhoMEtha1E0ZnBZT083cjNNSXQ3V1lLWWluUUZqckpIaHB2Vmg2UkJubzZIQkZNUjNpX09jdHZ0NDJVSU9Bb0JGVFNWcm9COHdLSklvNlhSUzhrNi1wcy0xd0prLXBONy1uTXhhcUlpR25uSmpENnFTNUt6dV9uM09pdGdSSFdTcXF2ZTZVVzk2cXg3X1YtUlliWTJ3QWtnVGwzYXQ0dFRSSmVNLUpXcUZ0cVRWVVBza1hBalRwblBkbkV4WTc1SDNmWE5ZTGdJUVBUWk9WdTFXdThFcTdsMkFCNw?oc=5" target="_blank">蘭桂坊の公衆トイレが年間最優秀公衆トイレに選出、九龍城道の公衆トイレが最も改善を要する</a>&nbsp;&nbsp;<font color="#6f6f6f">news.tvb.com</font></li><li><a href="https://news.google.com/rss/articles/CBMioANBVV95cUxQX3wJMmZYQkljX3kxOGl6MUx3YmRNdTZzWUQwa0JCZ1NMSVBrY3oyTU1PRXJJd1AzUXVCBg-LDnkdkdJyeWwxNTJFTHljQWN5Ym1wSWFWYmRWZEUtR2RDUzdoYmNTNEtScXdKTWwtR1pkZG9pcktIYTNScTk4QklXM0xGOVpMT05oYUNVX1dTLThIcnB5cWk2eHBvRmlzYXZuV2k
+<ol><li><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaW1vTlI1d3Q1MU9jV3RTbVJYRHhockNjeFlNdEdqSXRJRnAwbUN3MnkyUnFoaEMyckNVbndzM09KTnNQWFJnM1lxcV9LNFlHLTBzZWJRQmZ0VGl6WU1oMGtnWHByNnlZMEl5NFVuUVJiQy1NNVlnOHFIZmoxUm02a1VVMllxRjBGLW5V?oc=5" target="_blank">蘭桂坊奪最佳公廁金獎 西營盤街市等3公廁急待改善</a>&nbsp;&nbsp;<font color="#6f6f6f">on.cc東網</font></li><li><a href="https://news.google.com/rss/articles/CBMirANBVV95cUxQRncxWEFWbUs0TnZDdUt3Q1RNajFSTFpTLW5FbEpCa1M2dkREN3NVZE5UeVQ4OGRSWEN2MFlHQTJvSTFJRjFmSzd5TGJxWk5PT3kwS3ljOHdlSHlSWUFHN0U1dnZuM1lNa2NPLWNhOWRpNlU0TnlkVzg5VGlTR0FFRkhHd3FidVkxMmR6YzgzN3lCemV5RzBPWmFDSWR0U2hNNFlEY2VlcDJLWE1RTW93LVMwR2JwV2dESDBkbnRqbW5NNUdpTDFTcHZXb01lYm1ocGhoMEtha1E0ZnBZT083cjNNSXQ3V1lLWWluUUZqckpIaHB2Vmg2UkJubzZIQkZNUjNpX09jdHZ0NDJVSU9Bb0JGVFNWcm9COHdLSklvNlhSUzhrNi1wcy0xd0prLXBONy1uTXhhcUlpR25uSmpENnFTNUt6dV9uM09pdGdSSFdTcXF2ZTZVVzk2cXg3X1YtUlliWTJ3QWtnVGwzYXQ0dFRSSmVNLUpXcUZ0cVRWVVBza1hBalRwblBkbkV4WTc1SDNmWE5ZTGdJUVBUWk9WdTFXdThFcTdsMkFCNw?oc=5" target="_blank">蘭桂坊公廁被評為年度最佳公廁 九龍城道公廁最需要改善</a>&nbsp;&nbsp;<font color="#6f6f6f">news.tvb.com</font></li><li><a href="https://news.google.com/rss/articles/CBMioANBVV95cUxQX3dJMmZYQkljX3kxOGl6MUx3YmRNdTZzWUQwa0JCZ1NMSVBrY3oyTU1PRXJJd1AzUXVCZy1MRG5rZEpqeWwxNTJFTHljQWN5Ym1wSWFWYmRWZEUtR2RDUzdoYmNTNEtScXdKTWwtR1pkZG9pcktIYTNScTk4QklXM0xGOVpMT05oYUNVX1dTLThIcnB5cWk2eHBvRmlzYXZuV2kyeXhXYTROUkpFWk50OFpmbE5ieWN1VVhYbDR1S2I2Z2dwNUtxUUZNQ0d4RTB1MDJkYVJ5NXctMTlkT2hzUW9RdjgyQm9SRUxfVFNNbjdldWpaemF6VUJFakpYWDFFbWxaV2hTRFVxS
 
 **引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaW1vTlI1d3Q1MU9jV3RTbVJYRHhockNjeFlNdEdqSXRJRnAwbUN3MnkyUnFoaEMyckNVbndzM09KTnNQWFJnM1lxcV9LNFlHLTBzZWJRQmZ0VGl6WU1oMGtnWHByNnlZMEl5NFVuUVJiQy1NNVlnOHFIZmoxUm02a1VVMllxRjBGLW5V?oc=5
 
-### 貨物機墜落事故、暫定報告によると、航空機のエンジンが着陸後に加速を続けたとされている（梁柏晞の報道）
+### 貨物機が海に墜落した事故、予備報告によると航空機のエンジンが着陸後に加速し続けた（梁柏晞による報道）
 
 【Now新聞台】一架迪拜抵港貨機上月在機場滑出跑道，引致兩人死亡。民航意外調查機構發表初步報告指，飛機降落後其中一個發動機繼續加速，會調查事故是否涉及人為因素等。
 
@@ -369,79 +359,89 @@ https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaW1vTlI1d3Q1MU9jV3RTbVJYRHh
 
 https://hk.news.yahoo.com/%E8%B2%A8%E6%A9%9F%E5%A2%AE%E6%B5%B7%E4%BA%8B%E6%95%85-%E5%88%9D%E6%AD%A5%E5%A0%B1%E5%91%8A%E6%8C%87%E9%A3%9B%E6%A9%9F%E7%99%BC%E5%8B%95%E6%A9%9F%E9%99%8D%E8%90%BD%E5%BE%8C%E7%B9%BC%E7%BA%8C%E5%8A%A0%E9%80%9F-%E6%A2%81%E6%9F%8F%E6%99%9E%E5%A0%B1%E9%81%93-111126261.html
 
-### 第15回大会：李思穎選手、一大会で3冠達成、通算4個の金メダルで香港の全国運動会史上初の快挙！ - 香港文匯網
+### 第15回大会：李思穎選手が今大会で3冠、通算4つの金メダルを獲得し、香港の全国運動会で歴史を打ち立てる快挙！ - 香港文匯網
 
 以下に翻訳します。
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE8wU3FkZnN4QWdtQWpVcXZkcGxVMW4zQl9jc3JFZkl6Skw0dTZzQlJWN2JPdm92b2dQVTIyQ3FwcDVFLXZ1anZOSHN6YWdNUjU5RE93UkQxbno0eGoyd09PclRKWnB2WlhPRHlSRnpKQmlJM2g4blE0?oc=5" target="_blank">第15回全運会 | 李思穎、単一大会で3冠達成、累計4個の金メダルで香港の全運会史上初の快挙！</a>&nbsp;&nbsp;<font color="#6f6f6f">香港文匯網</font></li><li><a href="https://news.google.com/rss/articles/CBMisgRBVV95cUxOOFhOMTZVWGtZUEJtVEhTa05JZmlzQVNFZERjZDFuUjZwc1Y3YXREXzZLVHpOeWw3R01QWUlYdHlOeU4zQkR1R2JoeEt4aTR2QUtTUmpuREZSTW9Wb1dSRmdyZFA5NmdqQ1gyajVqdGw3ajR3YW1scG1mN1NUN1FmMmM0azJBR01DUHc1T3RxTzNoMDNPalFLN0FLTkY1LVdiS2JMSWh2RXN5WWJ6Zkx0QldrZTV3VWVEaVl4NXNVT2FDWG5CV3Vna1dLS0ZtWkpSdzZRX0ZsNW1zTjBjc1A1WHY5QVl2OUhhZTZ3TnkzWmY0emZDdDFJck5Jc28wYUt3YWZPYjR3dVhUa0ZVanlxemNhcl9Nb0NsVmZQUTdsTUVhR19KLWxXZExucFNDa1Q2ZFhSZGtpNC1XMVJJUXRqNEJxeXRFa3dxUzR6MW8tSDg3Unp2UUlrb2plbjE0WVBWUkhSSmxLOUFLTFdGcXBUeXlkTWoya3VaVGdBbFJDb1hEZGZkbkQ4dmExbUxPdGc2ZWR5c3k2TFRsNDU1TEw4NlBpWU9aalJWNEJMa1BXLXpaUXAyVGVwZFVBN3hFcHF0cGFwb2FjXzR2NTJTSHhSNEJYandOZnhiRGFDdXUxR0xpdkZEa2M2SkRXcnFDSEJYeG1sYk5aVm4tN2VxVnA2R1NQYkI5S3FrTzcxTGszNEJPNnZzSU5GeUtYY0J6a0ZFcm9RS2MtY1VnUUxPTFdHY1RB?oc=5" target="_blank">全運会・トラックサイクリング｜李思穎、全能種目で女王となり「三金皇后」に、累計4個の全運会金メダルで香港人初の快挙</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo! HKスポーツ</font></li><li><a href="https://news.google.com/rss/articles/CBMi9AJBVV95cUxPZy1pc0hxZE9jal9Fb2NsdUI3T3J2eGUxTFdGbzBWR0VwRGN6aENuaklrb3dHQnVzbmtZWHRYM25DN0NtUDB0R2h3SVZrdFZLbUlHQ2NfNnJ1SEx6aWMtSDZzeDdGbXpvY20xMnZyRDVUVFpjOFE4Y3dXXzdzdTRpMElReExWOTZBakE" target="_blank">全運会・トラックサイクリング｜
+<ol><li><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE8wU3FkZnN4QWdtQWpVcXZkcGxVMW4zQl9jc3JFZkl6Skw0dTZzQlJWN2JPdm92MkdQVTJRQ3FwcDVFLXZ1anZOSHN6YWdNUjU5RE93UkQxbno0eG
 
 **引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMid0FVX3lxTE8wU3FkZnN4QWdtQWpVcXZkcGxVMW4zQl9jc3JFZkl6Skw0dTZzQlJWN2JPdm92MkdQVTJRQ3FwcDVFLXZ1anZOSHN6YWdNUjU5RE93UkQxbno0eGoyd09PclRKWnB2WlhPRHlSRnpKQmlJM2g4blE0?oc=5
 
-### 立法會選舉2025｜愉景灣外籍男涉刑毀宣傳海報被捕 警強調對干擾選舉行為「零容忍」｜Yahoo - Yahoo News - HK
+### 新蒲崗のガジュマル群でネズミが横行　目撃者「ネズミだらけだった」　康文署、食環署は即日視察し発生源を調査へ
+
+【Yahoo新聞報道】鼠患問題不時都困擾市民。香港舞台劇演員梁景堯在threads上載一條新蒲崗寧遠街一棵老榕樹的短片，片中見十多隻老鼠空群而出，老鼠見拍片者走近也不懼人。梁不禁慨嘆「全部都係老鼠，點搞呀？」食物環境衞生署及康樂文化事務署回覆《Yahoo新聞》查詢時均稱，涉事地點非鼠患黑點，已即日派員視察。
+
+梁景堯周一（17日）在Threads上發影片，片中所見，一棵榕樹上有多隻老鼠出沒，一群從底部樹根奔走，有的沿著樹幹直衝樹冠，眾鼠見拍片人走近也沒有逃走。梁稱：「簡直是鼠患，黐線，全部都係老鼠，點搞呀？」他又留言稱：「我懷疑呢棵大樹可能有超過100隻老鼠喺上面住緊」。據影片所示，現場為新蒲崗彩虹道8號和寧遠街交界，巴士站旁的新蒲崗休憩處。網友見狀都紛紛留言討論，有人指整個新蒲崗都有很多老鼠，爬上樹都是第一次見。亦有人懷疑因為附近掘地進行工程令老鼠出逃，另覓巢穴。
+
+涉事地點非鼠患黑點
+
+食環署表示，事涉地點位於新蒲崗休憩處，屬康樂及文化事務署轄下的設施，由該署負責日常清潔和防治鼠患工作。周一（17日）派員到事涉地點視察，並向康文署人員提供防治鼠患技術建議，並會定期在事涉地點周邊的公眾地方進行防治鼠患工作，有需要會放置捕鼠器和鼠餌，以捕捉和毒殺老鼠。
+
+康文署：上周曾到上址防治蟲鼠
+
+康樂及文化事務署（康文署）則於周二（18日）覆稱，根據紀錄，最近一次於休憩處進行防治蟲鼠日期為本年11月12日。接到查詢後，署方已即時安排承辦商於11月17日到場進行詳細檢查及滅鼠工作；署方於同日聯同食環署到休憩處進行聯合視察，偵查鼠患源頭，就防治工作交換意見，並會持續進行聯合行動，檢視防治蟲鼠措施的成效。署方會繼續密切監察，亦會積極與相關政府部門聯絡及適切跟進，保持環境衞生。
+
+康文署強調一向重視轄下場地衞生情況，並嚴格執行防治蟲鼠工作。康文署以往就涉事地點未曾接獲市民投訴，但署方定期在休憩處安排承辦商每兩星期進行防治蟲鼠工作，包括放置捕鼠器、鼠藥餌盒及更換藥餌；署方也會安排清潔員工每日清除枯葉及垃圾，清潔花床，以及鼠患藏匿點和其來往通道等，加強環境衞生。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%96%B0%E8%92%B2%E5%B4%97%E8%80%81%E6%A6%95%E6%A8%B9%E7%BE%A4%E9%BC%A0%E6%A9%AB%E8%A1%8C-%E7%9B%AE%E6%93%8A%E8%80%85%EF%BC%9A%E5%85%A8%E9%83%A8%E9%83%BD%E4%BF%82%E8%80%81%E9%BC%A0-%E5%BA%B7%E6%96%87%E7%BD%B2%E3%80%81%E9%A3%9F%E7%92%B0%E7%BD%B2%EF%BC%9A%E5%8D%B3%E6%97%A5%E8%A6%96%E5%AF%9F%E5%81%B5%E6%9F%A5%E6%BA%90%E9%A0%AD%EF%B8%B1yahoo-230020478.html
+
+### 港足1:2不敵新加坡亞洲盃外圍賽出局 4.7萬人入場刷新紀錄 - 香港電台新聞網
 
 以下に翻訳します。
 
-1.  立法会選挙2025｜ディスカバリーベイで外国籍の男性が宣伝ポスターを器物損壊した疑いで逮捕、警察は選挙妨害行為に「ゼロトレランス」を強調｜Yahoo
-2.  警察が外国籍の男性1名を逮捕、ランタオ島地区内で8枚の選挙宣伝ポスターを破壊した疑い
-3.  警察が外国籍の男性1名を逮捕、ランタオ島地区内で8枚の選挙宣伝ポスターを破壊した疑い
+<ol><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFB3b2VhclY5bGY0RGJ4Y3M1NVVvQ2NjTVV2WUF2SWZubTluQ0F1RE83ZE5yUnFqZ2d6VTVYa0pxYnhINE9fUEJPbFNkUFFUYmRkMkxrWGs3LVBkcEZNQnhBYWtLaGF3V2VqejFqcE0zMA?oc=5" target="_blank">香港代表、シンガポールに1:2で敗れアジアカップ予選敗退 4.7万人の入場者数で新記録を樹立</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台ニュース</font></li><li><a href="https://news.google.com/rss/articles/CBMi3wJBVV95cUxOdlRiREIxaWZXTUNOMmdhVVcwY05wY1E4ZWJBZy1VMVlRbzRldjJlN2RWY3llYlpIQW5QZkVLdncyUngwU254SC1WdXdmREpPdVR5MU9QM21aSU1IMkQ4M3Z5c1hORjV6NHpYeDBoTmJBOFIzQjZyR3M4SlF0ZTI0UXhtN1h5a2F6LWV2eVY2U3VfMlI4UkcwV2hZSkc0UTBPX1FWb2RRUkY3NlcwWUpWbElNWHZFY094TlNyUnQ2WVVDMmhJVFJveHV2TzRDTE90VkxyQl9QcHlFQ1VsVGVOWU1WNnoyZHdzU25ybEhPN1djbGVpYmtNZ21OYzN0UmluczU5MWFGNWZtdk5SaUpyc29KR0NXTUNWRUVoNzFFWGVNcy0zMXlsQkptMGhkVjhXTHlEaXdYMUhpOFFKLVh5cHlOdkdSdC03MHpoNUU4cnN5Q3VJeWNXNnZpaE9QOFE?oc=5" target="_blank">アジアカップ予選｜ウェストウッド、予選敗退について謝罪を拒否。簡単に諦めないと自称し、サッカー協会からの支持を得られると語る</a>&nbsp;&nbsp;<font color="#6f6f6f">スポーツロード</font></li><li><a href="https://news.google.com/rss/articles/CBMilANBVV95cUxNX0ZkX
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFB3b0VhclY5bGY0RGJ4Y3M1NVVvQ2NjTVV2WUF2SWZubTluQ0F1RE83ZE5yUnFqZ2d6VTVYa0pxYnhINE9fUEJPbFNkUFFUYmRkMkxrWGs3LVBkcEZNQnhBYWtLaGF3V2VqejFqcE0zMA?oc=5
+
+### 「立法会選挙2025」ディスカバリーベイで外国人男性が宣伝ポスター損壊の疑いで逮捕、警察は選挙妨害行為に「ゼロトレランス」を強調 - Yahooニュース
+
+以下に翻訳を示します。
+
+1.  立法会選挙2025｜ディスカバリーベイで外国籍男性が選挙ポスター器物損壊の疑いで逮捕、警察は選挙妨害行為に「ゼロトレランス」を強調｜Yahoo
+2.  警察が外国籍男性を逮捕、ランタオ島地区内で8枚の選挙ポスターを破壊した疑い
+3.  （この項目は記事のURLの一部であり、翻訳対象のテキストではありません。）
 
 **引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMinARBVV95cUxQNVU2MEhTVlJJdXFmSEgxSG1mWlNOSjA0bzlpNGpLSEdwc0pYR1hIanFJTlpMS0RYa3R0S25nUWxWYjFiUm02UDRQb0cyeVJBakllLVppMVhoeHBkSnhVdkNjNlo1ZlZZbUI0RlFtMjBsLWZXa0t1Wnp1aE5fTjcwWmNWaVprcTVwWlRhN1U5SVpqaUF4bVBzcUJ0dERNSmNuTWdJb1FNb280bTdNM05FWVhfVGVnRDBWdzZ1MzZHdHdOZ3NGbFJ3NEpyaVZXUS04c1ZRTWZhRDZPVHFrUUkzSmFaT2hCOWc1OFQ0Qk5EYTlwV2hGOTNORXczTl9rVTBubjh5T3BlQnRob21KZWVSenJqa0k5SXFaTkFMUE44ZUxPZ2w5R2VGbG5pdWlQN2g2YXlmVmlJTHI1MmVpcDl3ZzQxVFJRbjBDVVpXeGNOYVkwLVN2Z3ItUFdsX2JLdFdqQmJmZjNRQl85WWRPWDIxOENXRGJyZHYzdGNIckxkcmE1WHJ1c1NxcjIxOXJaODNzNlBOZ1RiZVZEVTZuQjcwSDh3SUd4VThNTFhCWTRRQzBLNHBLa2JmS2lrLXZ0VXhNSTdsM19tZlphcTBkNkVLcXF3SXdKOUd1b056cEYySzRPcUxDRUVpbHhNN3BVbW5UemZVUVdoRzhQdjF0Sm1GbDJGTW9jMTBGTnhXUzlqTkxkVzFyNjFTNmlndDU?oc=5
 
-### ツタンカーメン像を含む250点のエジプトの工芸品が香港で展示される。
+### ご提示いただいたテキストは英語ですが、ご要望に応じて日本語に翻訳します。
 
-香港故宮文化博物館が主催するこの展覧会では、数千年前のミイラ、宝飾品、日用品も展示されます。
+ツタンカーメン像を含む250点のエジプトの工芸品が香港で展示されます。
 
-ツタンカーメンのそびえ立つ像、ミイラ、宝飾品など、250点のエジプトの歴史的遺物を展示する展覧会が、中東の国と中国が2026年に国交樹立70周年を祝う準備を進める中、木曜日に香港で開幕します。
+香港故宮文化博物館が主催する展覧会では、ミイラ、宝飾品、数千年前の日常品も展示されます。
 
-「古代エジプトの秘宝：エジプト博物館からの至宝」と題されたこの展覧会は、香港故宮文化博物館が主催し、古代文明の遺物としては市内で過去最大規模の展示となります。
+ツタンカーメンのそびえ立つ像、ミイラ、宝飾品を含む250点の歴史的なエジプトの遺物を展示する展覧会が、中東の国と中国が2026年に国交樹立70周年を祝う準備を進める中、木曜日に香港で開幕します。
 
-エジプト観光・考古省のヨムナ・エル＝バハル副大臣は、「これほど貴重でかけがえのないものを共有することは、信頼と信用、そして開放性のメッセージであり、強固で確固たる関係を築きたいという真の願いの表れです」と述べました。
+「古代エジプトの秘密：エジプト博物館からの至宝」と題されたこの展覧会は、香港故宮文化博物館が主催し、古代文明の遺物としては市内で最大規模の展示となります。
 
-「私たちは、エジプトの文化的遺産はエジプトだけのものではなく、全人類のものであると信じているため、その知識と文明の壮大さを他国と共有するために、私たちの文化的遺産を活用しています。」
+エジプト観光・考古省副大臣のヨムナ・エル＝バハル氏は、「これほど貴重でかけがえのないものを共有することは、信頼と信用、そして開放性のメッセージであり、強固で確固たる関係を築きたいという真の願いの表れです」と述べました。
 
-博物館のルイ・ン・チーワ館長は、9か月にわたる会期中に70万人の来場者を見込んでいると述べ、展示される250点の品々は、今年初めに上海で展示された700点の中から慎重に選ばれたものであることを強調しました。
+「私たちは、エジプトの文化遺産はエジプトだけのものではなく、全人類のものであると信じているため、私たちの文化遺産を活用して、文明の知識と壮大さを他国と共有しています。」
 
-ン館長は、「異例の動きとして、中国の習近平国家主席は、最近開館した大エジプト博物館（ギザ）を祝う書簡を送り、その中で上海での展覧会にも言及しました」と述べました。「ですから、エジプトにとってこれは素晴らしいことです。」
+博物館館長のルイ・ン・チーワー氏は、9ヶ月間の会期中に70万人の来場者を見込んでいると述べ、250点の展示品は今年初めに上海で展示された700点の中から慎重に選ばれたものであることを強調しました。
+
+「異例の動きとして、中国の習近平国家主席は、最近開館した大エジプト博物館（ギザ）を祝う書簡を送り、その中で上海での展覧会に言及しました」とン氏は述べました。「したがって、エジプトにとってこれは素晴らしいことです。」
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3333278/tutankhamun-statue-among-250-egyptian-artefacts-be-shown-hong-kong?utm_source=rss_feed
 
-### 立法會選擧2025｜疑發布投白票貼文 68歲本地男子被捕 涉煽動意圖及違選舉條例｜Yahoo - Yahoo News - HK
+### 香港の68歳男性が、『愛国者のみ』の選挙のボイコットを呼びかける『扇動的』とされる投稿の容疑で逮捕されました。
 
-以下に翻訳します。
-
-1.  立法会選挙2025｜白票投じるよう促す投稿の疑いで68歳地元男性を逮捕、扇動意図と選挙条例違反の疑い｜Yahoo
-2.  国家安全処、68歳男性を逮捕。SNSで選挙での不投票や白票投じるよう扇動した疑い
-3.  （この項目は記事タイトルではなく、翻訳対象外と判断しました。）
-
-**引用元**: Google News HK
-
-https://news.google.com/rss/articles/CBMi8ANBVV95cUxObHlMQ1BNTUFXdTBxano3TVcwVnJkNEQxZmxDMmhSVTFfS0VRRGVjc09zTGZITEV2Z0N0VmRjT3BPWVVwZFBoQU9uT3dXYk0zWnNpczczUmtxWUd1UXBFSk1abUIxZTZaZzdvdGVfRm5HZXZucndfaVVNRmk5RFp6MDdNcHlqWWxxbVFLdGNnTGgxUVZaNDQxVUw1RC12UG5mSWNCYzlrOVpNNFFRX0xXQVJxWi1mM1lRSU1vSEpsXzFrUkY3VUo4RGJLSGV6cDVmZUJacVdWX0ZtZ3Y0QU01bGFiUmpNSGFRUjhxUnV2QlhXYVhXaGpWRi1rOGpRbHBuYURsTlVzVE9nWXBOTHJERDFUS1NZWjZJVEI3dmdUUHRVYk1zclB0UG9jUDNPbjlabEFZVG9fMHFsMVFBbUVMbUgzb19MWGhrZmdlYVVEd3hsalF6Z3gtRXVoXzh3YXFoV2lSaVdVel9UeDczdldmWXktbHdacTM5anhZOE9RSVR2S2F1RUl2Vm9ndlRfUXBoOFNhal9GSVh5RUJoaTl2UlBfTlh2dTd5RnVaZ3pUWER5QjBTa2RENXkxWHdkWmtXT3NIS251anV6Q2UwRHdGWjZCemNhTWcybzJFN0VWTGlLcm9ObXVaMDQ1RXAtcXRV?oc=5
-
-### マカオで19年目の現金支給。岑浩輝が、対象となる永住者に、来年1万元を支給すると発表 - Yahooニュース - 香港
-
-以下に翻訳します。
-
-<ol><li><a href="https://news.google.com/rss/articles/CBMimANBVV95cUxQNml5MlFHMEQzM21ZaWsyOE9NUjVwbFl5aWtEU2VJYlR6OGZXVEp4UW41cndmN184bEV4enB4U2FhNXFuU3BPWW9VbXVFWjFsTHJnQ20tNFF0bHlpLWRQeTZSZUxWVThUbXJzcGdPOUVkZDBISkdaZF9qdV90aTdCMFIzQVg2OU5XRzNneUdYeU1DeDltWkxzal9BREdfV2UxWTlkYktnVXBaOGsydnMyd1c4TVkzczc1ZHZLNW9iZGFQZlludnk1QmZzN09uMzRlNENERnZsRE9sNDFHYmVzRGxDVmdqckNXWGdFb2VKNy1CQVR5cFN0Yn
-
-**引用元**: Google News HK
-
-https://news.google.com/rss/articles/CBMimANBVV95cUxQNml5MlFHMEQzM21ZaWsyOE9NUjVwbFl5aWtEU2VJYlR6OGZXVEp4UW41cndmN184bEV4enB4U2FhNXFuU3BPWW9VbXVFWjFsTHJnQ20tNFF0bHlpLWRQeTZSZUxWVThUbXJzcGdPOUVkZDBISkdaZF9qdV90aTdCMFIzQVg2OU5XRzNneUdYeU1DeDltWkxzal9BREdfV2UxWTlkYktnVXBaOGsydnMyd1c4TVkzczc1ZHZLNW9iZGFQZlludnk1QmZzN09uMzRlNENERnZsRE9sNDFHYmVzRGxDVmdqckNXWGdFb2VKNy1CQVR5cFN0YnNCcmRnVER6V2pmV2xnRzQ5ZmdHNGdwRE0xbmpYSzY2Yk11dUpvaFdtLTFTaWNjV0NGUnpZWi1hWUNfVUsxb0x0SHBRYlVKS1hNTE5tVkFwM002aUh1bHVET3JrZmN3Vkw1YTlpN1JDMHFxTUFWZTdHaGdTeUptV2pIaWd4dC1RZHhQZTBmZDR3OW1GdDNta1dFa0lFdmdZNEc1NHVzaWY?oc=5
-
-### 香港人の男（68）が、「愛国者のみ」の選挙のボイコットを呼びかける「扇動的」とされる投稿をした疑いで逮捕されました。
-
-香港の高齢男性が、「扇動的な」ソーシャルメディア投稿を公開し、今後行われる「愛国者のみ」の立法会（LegCo）選挙で投票しないよう人々に扇動した疑いで逮捕されました。この68歳の男性は、香港政府、司法、そして法に対する憎悪を扇動する投稿を共有していたソーシャルメディアアカウントの所有者です。 [...]
+香港の高齢男性が、「扇動的な」ソーシャルメディア投稿を公開し、来る「愛国者のみ」の立法会（LegCo）選挙で人々に投票しないよう扇動した疑いで逮捕されました。この68歳の男性は、香港政府、司法機関、そして法に対する憎悪を扇動する投稿を共有していたソーシャルメディアアカウントの所有者です[...]
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/18/hong-kong-man-68-arrested-over-alleged-seditious-posts-urging-boycott-of-patriots-only-elections/
 
-### 貨物機が海に墜落し2人死亡：初期調査で、離陸前に片方のエンジンが故障していることが判明、着陸後も「全速前進」で減速せず－Yahoo
+### 貨物機が海に墜落し2人死亡：初期調査、離陸前にエンジン1基の故障が判明、着陸後も「全速前進」で減速せず－Yahoo
 
 【Yahoo新聞報道】 阿聯酋航空公司貨機 EK9788 今年 10 月降落香港機場時從北跑道滑出並墮海，事件導致兩名地勤職員死亡。民航意外調查機構今日（ 18 日）發佈初步報告，發現貨機在起飛時，其 4 號發動機（即引擎）的反推裝置沒有運作，即其中一個減速功能失靈，當飛機降落時，該發動機更進一步處於「全速前進」狀態，導致其餘 3 個發動機即使開啟反推裝置，亦無法阻止飛機偏離跑道，最終墜入海中。
 
@@ -465,31 +465,34 @@ https://hongkongfp.com/2025/11/18/hong-kong-man-68-arrested-over-alleged-seditio
 
 https://hk.news.yahoo.com/%E8%B2%A8%E6%A9%9F%E5%A2%AE%E6%B5%B7%E5%85%A9%E6%AD%BB%EF%B8%B1%E5%88%9D%E6%AD%A5%E8%AA%BF%E6%9F%A5%EF%BC%9A%E8%B5%B7%E9%A3%9B%E5%89%8D%E5%BE%97%E6%82%89%E5%85%B6%E4%B8%AD%E4%B8%80%E5%80%8B%E5%BC%95%E6%93%8E%E5%A4%B1%E9%9D%88-%E9%99%8D%E8%90%BD%E5%BE%8C%E3%80%8C%E5%85%A8%E9%80%9F%E5%89%8D%E9%80%B2%E3%80%8D%E6%9C%AA%E6%B8%9B%E9%80%9F%EF%B8%B1yahoo-094242291.html
 
-### 香港の村で住宅火災、67歳男性が病院に搬送
+### 香港の村で家屋火災があり、67歳の男性が入院しました。
 
-日曜日の未明、坪崗村のトタン屋根の家で発生した火災は鎮火し、他の27人は負傷なく避難しました。
+Blaze at corrugated iron house in Ping Kong Village extinguished in early hours of Sunday, with 27 others evacuated without further injury
 
-日曜日の早朝、香港の村の家で火災が発生し、67歳の男性が負傷しました。これにより、27人の住民が避難しました。
+A 67-year-old man was injured after a fire broke out in a village house in Hong Kong early on Sunday morning, prompting the evacuation of 27 residents.
 
-警察は日曜日の午前3時18分に火災通報を受け、上水坪崗村のトタン屋根の家が火事になったとの報告でした。
+Police received the fire call at 3.18am on Sunday, reporting that a corrugated iron house in Ping Kong Village, Sheung Shui, had caught fire.
 
-オンラインで拡散された動画には、火が屋根全体に広がり、数枚のトタン板に及んでいる様子や、濃い煙が空に立ち上っている様子が映っていました。
+A video circulating online showed the fire spreading across the roof, spanning several corrugated iron sheets, with thick smoke billowing into the sky.
 
-その家の住人である67歳の羅（Lo）姓の男性は負傷し、沙田のプリンス・オブ・ウェールズ病院に搬送されました。さらに27人が安全な場所に避難しました。
+The resident of the house, a 67-year-old man surnamed Lo, was injured and transported to Prince of Wales Hospital in Sha Tin. A further 27 people were evacuated to safety.
 
-消防士はすぐに火災を鎮火しました。火災の原因は現在調査中ですが、警察は現時点では事件が犯罪行為に関与したことを示唆する証拠はないと述べています。
+Firefighters soon extinguished the blaze. The cause of the fire is currently under investigation, though police said there was as yet no evidence to suggest the case involved criminal activity.
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3332963/67-year-old-man-hospitalised-after-house-fire-hong-kong-village?utm_source=rss_feed
 
-### 香港科技大学が推薦を獲得し、香港で3番目の医学部の設立準備を進める。2028年には第一期生として50名の医学生が入学する予定。
+### 福建艦空母艦隊、初の（初めての）実兵訓練を完了 電磁カタパルトで多機種多数の戦闘機を発艦 (17:30) - 2025年11月18日 - 両岸 - 明報新聞網
 
-<ol><li><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1iUWNXUjBwdEFBSkwxWi1LNGRUeDJKV2JJRENJdWUwRU52UXdJLVhXbm95N3NoSkh0SWltVXZINUppYVpkLVNBLWNJYjd6UjRSVkU3U1RuSTdDOXJkcGI0cHkzSV9Md0ZBR0piYkVoclFOa1J0NDF2d3NB0gF_QVVfeXFMTTI1UFNCdDZ6elo1LWp6VUdHMHVBenhPSjBvRVg5SG9oczh0Z1Jjd1lyU3RrYVI5azJydDllci1SeWQ5cXUxVWlOQzNoXzJ0VGpxM2lwMHM3bmRaUDI3MFV5T0lOQkpTeWZYX0V1YTFXVFRISGd0SkEwc0t0aHlpTQ?oc=5" target="_blank">科大成功獲推薦 籌建香港第3間醫學院 2028 將有首批 50 名醫科生 - unwire.hk 香港</a>&nbsp;&nbsp;<font color="#6f6f6f">unwire.hk</font></li><li><a href="https://news.google.com/rss/articles/CBMiiwNBVV95cUxNaFBtMW16dk8zckVYR3FoZGd4TG9pX2t2NUF0QnROYXVXT19qLTFIZmZjZ0xEZHBhRjJ2MDEtZjZmaUVVaHRTUWQ5UjhXN2tKcHkzLWNMMmZ5R2pTV2JLMW1jRWlTUjRZMnlSMXdTVTBVeHR2RlpILW5PZDZMLVJpanFDek8tamhEek01bVp1NnhXbmd5UHpKTHdRNTRqU2xVWkotczdyRVpxTzZmVGlGMmxHYnlzNXpyd3B6bFJmdXRsNnBqUkNheUF6NUNfeGJUQXJlMG1VMmhUcmxfMl9xazdfRUxRQWthWTVOejRRc2Vfb0E1bVl0M08tTkVvcWs3dmFjblhENWs0Y1BlUG1SbThOQUdGQi1GbUYxSGI5VURJUTBHRWxXOVdFOTFiRGlFd3d3dzNkSHNYbGllQkl2TzRMMk5FTzN3TTZISUtReTZ5R3VVSVY3Vm5rMlR5UFBEM3NoV21WazUxSS1Ma1BJRHhjTVlkbTh3UW4waFMtNGp4SE1QUmdmeTl6Zw?oc=5" target="_blank">第三間醫學院｜政府敲定科大籌辦 首年學額50個 2028年入學</a>&nbsp;&nbsp;<font color="#6f6f6f">香港01</font></li><li><a href="https://news.google.com/rss/articles/CBMi6gNBVV95cUxNNHpjaGpmOG4tVjQ3MEc4c3BNSWNJSE9vS19SbGRBNjhTbDR2LVc3dXMtand1cUc0R1dyc1BpcW5kbXFVTzJ3NkhKY2xWMjF1YTBvMGVjazV6Qy1hSU5uV1AzZEJrTGlKb2ZxVmpQNGpEMUlaRUJKU29zRTBlMmVjbTBBU1Q1Q21wbFVRSHNTUGd2THNKWEdEWGZIRWpXSnd2OXQ1aTF0U
+1.  福建艦空母艦隊が初の実戦訓練を完了、電磁カタパルトで多種多様な戦闘機を発艦 (17:30) - 20251118 - 両岸 - 明報ニュース網
+2.  海軍福建艦が就役後初の海上実戦訓練を実施 - 香港電台ニュース網
+3.  【社説バイリンガルコラム】福建艦就役で海軍は三空母時代へ - 教育 - 香港文匯網
+4.  （翻訳対象のテキストがありません）
 
 **引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMiekFVX3lxTE1iUWNXUjBwdEFBSkwxWi1LNGRUeDJKV2JJRENJdWUwRU52UXdJLVhXbm95N3NoSkh0SWltVXZINUppYVpkLVNBLWNJYjd6UjRSVkU3U1RuSTdDOXJkcGI0cHkzSV9Md0ZBR0piYkVoclFOa1J0NDF2d3NB0gF_QVVfeXFMTTI1UFNCdDZ6elo1LWp6VUdHMHVBenhPSjBvRVg5SG9oczh0Z1Jjd1lyU3RrYVI5azJydDllci1SeWQ5cXUxVWlOQzNoXzJ0VGpxM2lwMHM3bmRaUDI3MFV5T0lOQkpTeWZYX0V1YTFXVFRISGd0SkEwc0t0aHlpTQ?oc=5
+https://news.google.com/rss/articles/CBMivANBVV95cUxPeWlra2FmWkhWQk90TUJYMnZ5QXNSUjRyVGV3aWROaEppSmpZMEtJckJvYW9tX3g3UC1uc0NfWHAtSkZvY0cwenZzaklieVVpOWI5LVI4NExNRWZKWDFHZzNuRE5FbUhZRm4tV0xRVTFSV20yc1BwYTFNUWdycUQtSy1UZUlNaEYxbFJNWXl6SnRHVkczX1RLY3hoNUwxZEZVN2NCaW8tR1Z4RnZZU0J4bHQyUk9EVjl4TFp5R3FfSzNKeEI1R0RaRGVJbjJ5NUhseEZQQ3dIT3U5Y3BmSlBmR3BTMUlkdXM0R3dqT0FrUHVsNUJSYTdBVy1haHE1eE5iUFRfMlQ4YUR0d2FxcEltQ05VVmZ1Sm1PZnpBS3lCdFZiYU5fSjNrVERIckp3OXhJNUllUDR1bFNKcUttMTZrekJIVkJPU3ExZWxxcGhYZXFvQmxPZzZCalZwNlJrTmVYdHoxYktsTEZjaC1rUmdfRURZSy1DemJXM2dHb0lwdjVFN3BMWG1fcHRIc1lHbEFZSDhEOTRwS0FqZG1McGRGM0tpTDNNNFdHLTZUdUJhWk5TR2dYZ0RyOUF4SVc?oc=5
 
 ## 広東語学習者向け情報
 
@@ -504,4 +507,4 @@ https://news.google.com/rss/articles/CBMiekFVX3lxTE1iUWNXUjBwdEFBSkwxWi1LNGRUeDJ
 https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
 ----
 **タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
-**生成日時**: 2025年11月19日 06:19
+**生成日時**: 2025年11月19日 07:16

@@ -431,9 +431,24 @@ URL: {url}
             desc = clean_weather_text(forecast.get('description', ''))
             
             # 天気情報はLLMで一括日本語翻訳（辞書置換は使わない）
-            translated_title = self._llm_translate_text(title)
-            translated_desc = self._llm_translate_text(desc)
-            weather_section += f"\n### 天気予報\n{translated_title}\n{translated_desc}\n\n**引用元**: 香港天文台"
+            # タイトルと本文を分けて翻訳
+            if title and title != 'N/A':
+                translated_title = self._llm_translate_text(title)
+            else:
+                translated_title = ""
+            
+            if desc:
+                translated_desc = self._llm_translate_text(desc)
+            else:
+                translated_desc = ""
+            
+            # 天気予報セクションを構築
+            weather_section += "\n### 天気予報\n"
+            if translated_title:
+                weather_section += f"{translated_title}\n\n"
+            if translated_desc:
+                weather_section += f"{translated_desc}\n"
+            weather_section += "\n**引用元**: 香港天文台"
             has_content = True
 
         if not has_content:
@@ -449,9 +464,39 @@ URL: {url}
         """LLMで広東語/中文を自然な日本語に一発翻訳（日本語以外混在禁止）"""
         if not text:
             return ""
+        
+        # テキストが長すぎる場合は分割して翻訳
+        max_chunk_length = 1000
+        if len(text) > max_chunk_length:
+            # 改行で分割
+            chunks = text.split('\n')
+            translated_chunks = []
+            current_chunk = ""
+            
+            for chunk in chunks:
+                if len(current_chunk) + len(chunk) > max_chunk_length:
+                    if current_chunk:
+                        translated_chunks.append(self._llm_translate_text(current_chunk))
+                    current_chunk = chunk
+                else:
+                    current_chunk += ("\n" if current_chunk else "") + chunk
+            
+            if current_chunk:
+                translated_chunks.append(self._llm_translate_text(current_chunk))
+            
+            return "\n".join(translated_chunks)
+        
         prompt = (
-            "以下の広東語/中文テキストを自然な日本語に翻訳してください。"\
-            "記号や数値は保持し、日本語以外（中文の語彙・句読点・英語）が残らないように。\n\n" + text
+            "以下の広東語/中文/英語テキストを完全に自然な日本語に翻訳してください。\n\n"
+            "【重要な翻訳ルール】\n"
+            "1. すべてのテキストを日本語に翻訳すること（英語、広東語、中国語が残らないように）\n"
+            "2. 数値、記号、日付、時刻はそのまま保持すること\n"
+            "3. 地名、人名、組織名は適切に日本語表記すること\n"
+            "4. 専門用語は適切な日本語訳を使用すること\n"
+            "5. 文章が途中で切れないよう、完全な文章として翻訳すること\n"
+            "6. 翻訳結果には日本語のみを含め、他の言語（英語、中国語、広東語）を一切含めないこと\n\n"
+            "原文:\n" + text + "\n\n"
+            "日本語訳:"
         )
 
         try:
@@ -460,14 +505,18 @@ URL: {url}
                 api_url_with_key = f"{self.api_url}?key={self.api_key}"
                 payload = {
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+                    "generationConfig": {"temperature": 0.1, "maxOutputTokens": 4096},
                 }
-                resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=60)
+                resp = requests.post(api_url_with_key, headers=headers, json=payload, timeout=120)
                 if resp.status_code == 200:
                     txt = resp.json()['candidates'][0]['content']['parts'][0]['text']
+                    # "日本語訳:" で始まる場合は除去
+                    if txt.startswith("日本語訳:"):
+                        txt = txt[6:].strip()
                     return txt.strip()
                 else:
                     print(f"⚠️  天気翻訳エラー (Gemini): HTTP {resp.status_code}")
+                    print(f"    レスポンス: {resp.text[:200]}")
             else:
                 headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
                 if self.use_gemini is False:
@@ -475,29 +524,35 @@ URL: {url}
                         "model": "claude-3-5-sonnet-20241022",
                         "messages": [{"role": "user", "content": prompt}],
                         "temperature": 0.1,
-                        "max_tokens": 2048,
+                        "max_tokens": 4096,
                     }
                 else:
                     payload = {
                         "model": self.grok_model,
                         "messages": [
-                            {"role": "system", "content": "Translate to natural Japanese only."},
+                            {"role": "system", "content": "あなたは優秀な翻訳者です。広東語、中国語、英語を完全に自然な日本語に翻訳してください。原文の言語が残らないように注意してください。"},
                             {"role": "user", "content": prompt},
                         ],
                         "temperature": 0.1,
-                        "max_tokens": 2048,
+                        "max_tokens": 4096,
                     }
-                resp = requests.post(self.api_url, headers=headers, json=payload, timeout=60)
+                resp = requests.post(self.api_url, headers=headers, json=payload, timeout=120)
                 if resp.status_code == 200:
                     if self.use_gemini is False:
                         txt = resp.json()['content'][0]['text']
                     else:
                         txt = resp.json()['choices'][0]['message']['content']
+                    # "日本語訳:" で始まる場合は除去
+                    if txt.startswith("日本語訳:"):
+                        txt = txt[6:].strip()
                     return txt.strip()
                 else:
                     print(f"⚠️  天気翻訳エラー (Claude/Grok): HTTP {resp.status_code}")
+                    print(f"    レスポンス: {resp.text[:200]}")
         except Exception as e:
             print(f"⚠️  天気翻訳エラー (例外): {e}")
+            import traceback
+            traceback.print_exc()
         # フォールバック: 原文を返却（少なくとも欠落しない）
         print(f"⚠️  天気翻訳フォールバック: 原文を返却")
         return text

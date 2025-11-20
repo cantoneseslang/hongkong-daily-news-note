@@ -90,6 +90,66 @@ def normalize_url(url: str) -> str:
         return url
 
 
+def get_recent_topics(days: int = 3) -> Dict[str, int]:
+    """過去N日間の頻出トピックを取得"""
+    from collections import Counter
+    
+    topic_counter = Counter()
+    today = datetime.now(HKT)
+    
+    # トピックキーワードパターン
+    topic_patterns = {
+        '全国運動会': [r'全国運動会|National Games|全運會|NG|national games'],
+        '立法会選挙': [r'立法会選挙|LegCo election|立法會選舉|district council'],
+        '施政報告': [r'施政報告|Policy Address|policy address'],
+        '失業率': [r'失業率|unemployment rate|jobless'],
+        'GDP': [r'GDP|経済成長|economic growth|gross domestic'],
+        'オリンピック': [r'オリンピック|Olympics|olympic'],
+        '台風': [r'台風|Typhoon|typhoon|tropical storm'],
+        '不動産価格': [r'不動産価格|property prices|housing prices|home prices'],
+    }
+    
+    for i in range(1, days + 1):
+        target_date = (today - timedelta(days=i)).strftime('%Y-%m-%d')
+        article_file = f'daily-articles/hongkong-news_{target_date}.md'
+        
+        if os.path.exists(article_file):
+            try:
+                with open(article_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                for topic, patterns in topic_patterns.items():
+                    for pattern in patterns:
+                        if re.search(pattern, content, re.IGNORECASE):
+                            topic_counter[topic] += 1
+                            break  # 1記事につき1回カウント
+            except Exception:
+                pass
+    
+    return dict(topic_counter)
+
+
+def is_overused_topic(title: str, description: str, recent_topics: Dict[str, int], threshold: int = 2) -> bool:
+    """タイトル/説明が過去N日間で頻出トピック（2回以上）に該当するか"""
+    content = f"{title} {description}".lower()
+    
+    for topic, count in recent_topics.items():
+        if count >= threshold:  # 過去3日間で2回以上出現
+            # トピックキーワードマッチング
+            if topic == '全国運動会':
+                if re.search(r'全国運動会|national games|全運會|ng\s', content, re.IGNORECASE):
+                    return True
+            elif topic == '立法会選挙':
+                if re.search(r'立法会選挙|legco election|立法會選舉|district council', content, re.IGNORECASE):
+                    return True
+            elif topic == '施政報告':
+                if re.search(r'施政報告|policy address', content, re.IGNORECASE):
+                    return True
+            # その他のトピックは厳しくチェックしない（経済指標等は重要）
+    
+    return False
+
+
 def parse_published_at(value: Optional[str]) -> Optional[datetime]:
     """公開日時文字列をHKTタイムゾーンのdatetimeに変換"""
     if not value:
@@ -900,9 +960,21 @@ def preprocess_news(news_list):
     if past_urls or past_title_words:
         print(f"🔍 過去記事から合計 {len(past_urls)} 件のURLと {len(past_title_words)} 件のタイトルを抽出")
     
-    # 1. 初期フィルタリング（重複・天気記事除外）
+    # 1. 初期フィルタリング（重複・天気記事・NGワード・トピック過剰・香港無関係記事を除外）
+    recent_topics = get_recent_topics(days=3)
+    
+    # 頻出トピック表示
+    if recent_topics:
+        print(f"\n📊 過去3日間の頻出トピック:")
+        for topic, count in sorted(recent_topics.items(), key=lambda x: -x[1]):
+            status = "⚠️ 過剰" if count >= 2 else "✅ 正常"
+            print(f"  {status} {topic}: {count}回")
+    
     filtered_news = []
     duplicate_count = 0
+    ng_word_count = 0
+    non_hk_count = 0
+    overused_topic_count = 0
     
     for news in news_list:
         url = news.get('url', '')
@@ -917,15 +989,45 @@ def preprocess_news(news_list):
         news['_source'] = (news.get('source') or 'Unknown').strip() or 'Unknown'
         news['_published_dt'] = parse_published_at(published_at)
         
+        # 天気記事除外
         weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度']
         if any(keyword in title.lower() or keyword in title for keyword in weather_keywords):
             duplicate_count += 1
             continue
         
+        # NGワード除外（全国運動会など）
+        ng_keywords = ['全国運動会', 'national games', '全運会', '全国運動']
+        content_lower = f"{title} {description}".lower()
+        if any(keyword.lower() in content_lower for keyword in ng_keywords):
+            ng_word_count += 1
+            continue
+        
+        # 過剰トピック除外
+        if is_overused_topic(title, description, recent_topics, threshold=2):
+            overused_topic_count += 1
+            continue
+        
+        # 香港関連度チェック
+        hk_keywords = [
+            '香港', 'hong kong', 'hk ', ' hk', 'hongkong',
+            '立法会', 'legco', '行政長官', '特区政府',
+            'mtr', '九龍', 'kowloon', '新界', 'new territories',
+            '香港島', 'hong kong island', '中環', 'central',
+            '大埔', 'tai po', '屯門', 'tuen mun', '観塘', 'kwun tong',
+            '旺角', 'mong kok', '尖沙咀', 'tsim sha tsui',
+            '灣仔', 'wan chai', 'wanchai', '銅鑼灣', 'causeway bay'
+        ]
+        is_hk_related = any(keyword in content_lower for keyword in hk_keywords)
+        if not is_hk_related:
+            non_hk_count += 1
+            continue
+        
+        # 重複URL除外
         if normalized_url and normalized_url in past_urls:
             duplicate_count += 1
             continue
         
+        # 重複タイトル除外
         if title_words and is_similar_title_words(title_words, past_title_words):
             duplicate_count += 1
             continue
@@ -934,6 +1036,12 @@ def preprocess_news(news_list):
     
     if duplicate_count > 0:
         print(f"🚫 過去記事との重複除外: {duplicate_count}件")
+    if ng_word_count > 0:
+        print(f"🚫 NGワード除外（全国運動会等）: {ng_word_count}件")
+    if overused_topic_count > 0:
+        print(f"🚫 過剰トピック除外: {overused_topic_count}件")
+    if non_hk_count > 0:
+        print(f"🚫 香港無関係記事除外: {non_hk_count}件")
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     
@@ -983,7 +1091,9 @@ def preprocess_news(news_list):
             category = '事故・災害'
         elif any(keyword in content for keyword in ['政治', '政府', '議員', '選挙', '政策', 'politics', 'government', 'minister', 'election', 'policy', '行政', '議会']):
             category = '政治・行政'
-        elif any(keyword in content for keyword in ['文化', '芸能', 'スポーツ', '映画', '音楽', 'アート', 'culture', 'entertainment', 'sports', 'movie', 'music', 'art', 'イベント', '祭り', '伝統']):
+        elif any(keyword in content for keyword in ['スポーツ', 'sports', '試合', '選手', 'メダル', '競技', 'フェンシング', '自転車', 'サッカー', 'バスケ', 'テニス', '水泳', 'match', 'athlete', 'medal', 'game']):
+            category = 'スポーツ'
+        elif any(keyword in content for keyword in ['文化', '芸能', '映画', '音楽', 'アート', 'culture', 'entertainment', 'movie', 'music', 'art', 'イベント', '祭り', '伝統', 'アーティスト', 'タレント']):
             category = 'カルチャー'
         else:
             category = '社会・その他'

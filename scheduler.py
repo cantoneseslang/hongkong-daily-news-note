@@ -90,8 +90,8 @@ class NewsScheduler:
             today = datetime.now(HKT).strftime('%Y年%m月%d日')
             # タイトルの日付を今日の日付に修正
             content = re.sub(
-                r'# 毎日AIピックアップニュース\(\d{4}年\d{2}月\d{2}日\)',
-                f'# 毎日AIピックアップニュース({today})',
+                r'# 毎日AI香港ピックアップニュース\(\d{4}年\d{2}月\d{2}日\)',
+                f'# 毎日AI香港ピックアップニュース({today})',
                 content
             )
             

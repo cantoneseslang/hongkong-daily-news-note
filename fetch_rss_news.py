@@ -25,7 +25,7 @@ class RSSNewsAPI:
             'rthk_news': 'https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml',
             'rthk_business': 'https://rthk.hk/rthk/news/rss/e_expressnews_ebusiness.xml',  # ビジネス
             'yahoo_hk': 'http://hk.news.yahoo.com/rss/hong-kong',
-            'google_news_hk': 'http://news.google.com.hk/news?pz=1&cf=all&ned=hk&hl=zh-TW&output=rss',
+            # 'google_news_hk': 'http://news.google.com.hk/news?pz=1&cf=all&ned=hk&hl=zh-TW&output=rss',  # ← 世界ニュースが混入するため無効化
             'chinadaily_hk': 'http://www.chinadaily.com.cn/rss/hk_rss.xml',
             'hkfp': 'https://www.hongkongfp.com/feed/',
             'hket_hk': 'https://www.hket.com/rss/hongkong',
@@ -784,7 +784,7 @@ class RSSNewsAPI:
             (self.fetch_rthk_rss, None, None),
             (self.fetch_generic_rss, 'rthk_business', 'RTHK Business'),
             (self.fetch_yahoo_rss, None, None),
-            (self.fetch_google_news_rss, None, None),
+            # (self.fetch_google_news_rss, None, None),  # ← 世界ニュースが混入するため無効化
             (self.fetch_chinadaily_rss, None, None),
             (self.fetch_hkfp_rss, None, None),
             (self.fetch_hket_rss, None, None),

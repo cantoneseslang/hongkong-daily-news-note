@@ -234,6 +234,7 @@ jobs:
           NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
           NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
           NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
+          NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
         run: |
           echo "📮 Posting to note.com..."
           
@@ -262,8 +263,13 @@ jobs:
             echo "📄 認証状態ファイルサイズ: $(wc -c < /tmp/.note-state.json) bytes"
           fi
           
-          # note.com投稿を実行（公開モード）
-          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish; then
+          # マガジン名を表示
+          if [ -n "$NOTE_MAGAZINE_NAME" ]; then
+            echo "📚 マガジン: $NOTE_MAGAZINE_NAME"
+          fi
+          
+          # note.com投稿を実行（公開モード + マガジン追加）
+          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME"; then
             echo "✅ note.com投稿成功"
             
             # 更新された認証状態をシークレットに保存（次の実行用）

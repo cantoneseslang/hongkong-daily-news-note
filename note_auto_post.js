@@ -172,7 +172,7 @@ function parseMarkdown(content) {
   };
 }
 
-async function saveDraft(markdownPath, username, password, statePath, isPublish = false) {
+async function saveDraft(markdownPath, username, password, statePath, isPublish = false, magazineName = null) {
   console.log('='.repeat(50));
   console.log(isPublish ? 'Note 自動ログイン & 公開ツール' : 'Note 自動ログイン & 下書き保存ツール');
   console.log('='.repeat(50));
@@ -762,6 +762,119 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         page.locator('button:has-text("投稿する")').first().waitFor({ state: 'visible', timeout: 10000 }).catch(() => {}),
       ]);
       
+      // マガジン選択（公開設定ページで、「投稿する」ボタンをクリックする前）
+      if (magazineName) {
+        console.log(`📚 マガジン「${magazineName}」に追加中...`);
+        try {
+          await page.waitForTimeout(2000);
+          
+          // マガジン選択UIを探す（複数のセレクターを試す）
+          let magazineSelected = false;
+          
+          // セレクター1: マガジン選択ボタン（「マガジンを選択」「マガジンに追加」など）
+          const magazineButtons = [
+            'button:has-text("マガジンを選択")',
+            'button:has-text("マガジンに追加")',
+            'button:has-text("マガジン")',
+            'button[aria-label*="マガジン"]',
+            'div[class*="magazine"] button',
+            'label:has-text("マガジン") + *',
+          ];
+          
+          for (const selector of magazineButtons) {
+            try {
+              const button = page.locator(selector).first();
+              if (await button.isVisible({ timeout: 2000 })) {
+                console.log(`✓ マガジンボタン発見: ${selector}`);
+                await button.click();
+                await page.waitForTimeout(1500);
+                
+                // クリック後にモーダルやドロップダウンが表示される
+                // マガジン名で検索
+                const searchInputs = [
+                  'input[type="text"]',
+                  'input[placeholder*="検索"]',
+                  'input[placeholder*="マガジン"]',
+                  'input[type="search"]',
+                ];
+                
+                for (const inputSelector of searchInputs) {
+                  try {
+                    const input = page.locator(inputSelector).first();
+                    if (await input.isVisible({ timeout: 1000 })) {
+                      await input.fill(magazineName);
+                      await page.waitForTimeout(1000);
+                      console.log(`✓ マガジン名で検索: ${magazineName}`);
+                      break;
+                    }
+                  } catch (e) {
+                    // 次のセレクターを試す
+                  }
+                }
+                
+                // マガジン名に一致する項目をクリック
+                const magazineItems = [
+                  `button:has-text("${magazineName}")`,
+                  `div:has-text("${magazineName}")`,
+                  `li:has-text("${magazineName}")`,
+                  `a:has-text("${magazineName}")`,
+                  `[role="option"]:has-text("${magazineName}")`,
+                ];
+                
+                for (const itemSelector of magazineItems) {
+                  try {
+                    const item = page.locator(itemSelector).first();
+                    if (await item.isVisible({ timeout: 2000 })) {
+                      await item.click();
+                      await page.waitForTimeout(1000);
+                      console.log(`✓ マガジン「${magazineName}」を選択しました`);
+                      magazineSelected = true;
+                      break;
+                    }
+                  } catch (e) {
+                    // 次のセレクターを試す
+                  }
+                }
+                
+                if (magazineSelected) {
+                  // モーダルを閉じる（Escキーまたは外側クリック）
+                  await page.keyboard.press('Escape');
+                  await page.waitForTimeout(500);
+                  break;
+                }
+              }
+            } catch (e) {
+              // 次のセレクターを試す
+              continue;
+            }
+          }
+          
+          // セレクター2: select要素の場合
+          if (!magazineSelected) {
+            try {
+              const selectElement = page.locator('select').first();
+              if (await selectElement.isVisible({ timeout: 2000 })) {
+                await selectElement.selectOption({ label: magazineName });
+                console.log(`✓ マガジン「${magazineName}」を選択しました（select要素）`);
+                magazineSelected = true;
+              }
+            } catch (e) {
+              // select要素がない場合は無視
+            }
+          }
+          
+          if (!magazineSelected) {
+            console.log(`⚠️  マガジン「${magazineName}」の選択に失敗しました`);
+            console.log('マガジンなしで続行します...');
+          }
+          
+          await page.waitForTimeout(1000);
+        } catch (error) {
+          console.log(`⚠️  マガジン選択エラー: ${error.message}`);
+          console.log('マガジンなしで続行します...');
+        }
+      }
+      
       // 「投稿する」ボタンをクリック
       console.log('📝 投稿中...');
       const publishBtn = page.locator('button:has-text("投稿する")').first();
@@ -841,15 +954,49 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
   }
 }
 
-const markdownPath = process.argv[2] || '/Users/sakonhiroki/Projects/test_note_article.md';
-const username = process.argv[3] || 'bestinksalesman';
-const password = process.argv[4] || 'Hsakon0419';
-const statePath = process.argv[5] || '/Users/sakonhiroki/.note-state.json';
-const isPublish = process.argv[6] === '--publish' || process.argv[6] === '-p';
+// コマンドライン引数の解析
+let markdownPath = null;
+let username = null;
+let password = null;
+let statePath = null;
+let isPublish = false;
+let magazineName = null;
 
-console.log(`モード: ${isPublish ? '公開' : '下書き保存'}\n`);
+for (let i = 2; i < process.argv.length; i++) {
+  const arg = process.argv[i];
+  if (arg === '--publish' || arg === '-p') {
+    isPublish = true;
+  } else if (arg === '--magazine' || arg === '-m') {
+    magazineName = process.argv[++i];
+  } else if (!markdownPath) {
+    markdownPath = arg;
+  } else if (!username) {
+    username = arg;
+  } else if (!password) {
+    password = arg;
+  } else if (!statePath) {
+    statePath = arg;
+  }
+}
 
-saveDraft(markdownPath, username, password, statePath, isPublish).catch(error => {
+// デフォルト値
+markdownPath = markdownPath || '/Users/sakonhiroki/Projects/test_note_article.md';
+username = username || 'bestinksalesman';
+password = password || 'Hsakon0419';
+statePath = statePath || '/Users/sakonhiroki/.note-state.json';
+
+// 環境変数からマガジン名を取得（優先）
+if (!magazineName && process.env.NOTE_MAGAZINE_NAME) {
+  magazineName = process.env.NOTE_MAGAZINE_NAME;
+}
+
+console.log(`モード: ${isPublish ? '公開' : '下書き保存'}`);
+if (magazineName) {
+  console.log(`マガジン: ${magazineName}`);
+}
+console.log('');
+
+saveDraft(markdownPath, username, password, statePath, isPublish, magazineName).catch(error => {
   console.error('処理失敗:', error);
   process.exit(1);
 });

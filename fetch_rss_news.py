@@ -776,19 +776,16 @@ class RSSNewsAPI:
         url_duplicate_count = 0
         title_duplicate_count = 0
         
-        # Phase 1: スクレイピング（一時的に無効化 - ローカルで動作確認できていないため）
-        # TODO: HK01、明報、am730のスクレイピングが動作することを確認してから有効化
-        print("\n📰 Phase 1: Webスクレイピング（一時的に無効化）")
+        # Phase 1: スクレイピング（HK01、明報、am730などRSSが存在しないサイト）
+        print("\n📰 Phase 1: Webスクレイピング")
         print("-" * 60)
-        print("⚠️  スクレイピングはローカルで動作確認できていないため、一時的に無効化しています")
-        print("   RSSフィードのみで取得を続行します...")
         scraped_news = []
+        scraped_added = 0
         
-        # スクレイピングを有効化する場合は以下のコメントを外す
-        # try:
-        #     from scrape_news_list import NewsListScraper
-        #     scraper = NewsListScraper()
-        #     scraped_news = scraper.fetch_all_news()
+        try:
+            from scrape_news_list import NewsListScraper
+            scraper = NewsListScraper()
+            scraped_news = scraper.fetch_all_news()
             
             # スクレイピング結果を追加
             for news in scraped_news:
@@ -825,19 +822,17 @@ class RSSNewsAPI:
                 })
                 existing_urls.add(normalized_url)
                 existing_titles.append(title)
+                scraped_added += 1
             
-            # scraped_added = len([n for n in all_news if n.get('api_source') == 'web_scraping'])
-            # print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {scraped_added}件追加")
-        # except ImportError as e:
-        #     print(f"⚠️  スクレイピングモジュールが見つかりません: {e}")
-        #     print("   RSSフィードのみで続行します...")
-        # except Exception as e:
-        #     print(f"⚠️  スクレイピング失敗: {e}")
-        #     import traceback
-        #     traceback.print_exc()
-        #     print("   RSSフィードのみで続行します...")
-        
-        print(f"✅ スクレイピング: 0件（無効化中）")
+            print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {scraped_added}件追加")
+        except ImportError as e:
+            print(f"⚠️  スクレイピングモジュールが見つかりません: {e}")
+            print("   RSSフィードのみで続行します...")
+        except Exception as e:
+            print(f"⚠️  スクレイピング失敗: {e}")
+            import traceback
+            traceback.print_exc()
+            print("   RSSフィードのみで続行します...")
         
         # Phase 2: RSSフィード（補完）
         print("\n📡 Phase 2: RSSフィード")

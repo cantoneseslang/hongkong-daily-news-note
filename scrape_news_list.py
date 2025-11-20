@@ -52,55 +52,193 @@ class NewsListScraper:
         news_list = []
         
         try:
+            # HK01の主要セクション（トップページとカテゴリページ）
             urls = [
-                'https://www.hk01.com/zone/1/港聞',  # 港聞
-                'https://www.hk01.com/channel/2/社會新聞',  # 社會新聞
-                'https://www.hk01.com/channel/310/政情',  # 政情
-                'https://www.hk01.com/channel/4/經濟',  # 經濟
+                'https://www.hk01.com/',  # トップページ
+                'https://www.hk01.com/zone/1',  # 港聞
+                'https://www.hk01.com/channel/310',  # 政情
+                'https://www.hk01.com/channel/4',  # 經濟
             ]
             
             if self.use_playwright:
                 with sync_playwright() as p:
                     browser = p.chromium.launch(headless=True)
-                    page = browser.new_page()
+                    context = browser.new_context(
+                        user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        viewport={'width': 1920, 'height': 1080}
+                    )
+                    page = context.new_page()
                     
                     for url in urls:
                         try:
                             print(f"  📄 {url} を読み込み中...")
                             page.goto(url, wait_until='domcontentloaded', timeout=60000)
-                            page.wait_for_timeout(5000)  # JavaScriptの実行を待つ
+                            page.wait_for_timeout(8000)  # JavaScriptの実行を待つ（8秒に増加）
                             
-                            # HK01の記事リンクを取得
-                            articles = page.query_selector_all('a[href*="/article/"]')
+                            # HK01はNext.jsのSPAで、記事データはJSONに埋め込まれている
+                            # ページ内のJSONデータから記事情報を抽出
+                            try:
+                                # __NEXT_DATA__スクリプトタグからJSONを取得
+                                json_script = page.query_selector('script#__NEXT_DATA__')
+                                if json_script:
+                                    json_text = json_script.inner_text()
+                                    import json as json_lib
+                                    data = json_lib.loads(json_text)
+                                    
+                                    # 記事データを抽出
+                                    articles_data = []
+                                    
+                                    # props.initialProps.pageProps.sections から記事を取得
+                                    def extract_articles_from_data(data_obj, articles_list):
+                                        """再帰的に記事データを抽出"""
+                                        if isinstance(data_obj, dict):
+                                            # 記事データのパターン1: data.articleId と data.canonicalUrl がある
+                                            if 'articleId' in data_obj and 'canonicalUrl' in data_obj:
+                                                article_url = data_obj.get('canonicalUrl', '')
+                                                article_title = data_obj.get('title', '')
+                                                article_id = data_obj.get('articleId', '')
+                                                
+                                                if article_url and ('/article/' in article_url or article_id):
+                                                    # URL正規化
+                                                    if article_url.startswith('/'):
+                                                        full_url = urljoin('https://www.hk01.com', article_url)
+                                                    elif article_url.startswith('http'):
+                                                        full_url = article_url.split('?')[0].split('#')[0]
+                                                    else:
+                                                        # articleIdからURLを構築
+                                                        full_url = f"https://www.hk01.com/article/{article_id}"
+                                                    
+                                                    if article_title and len(article_title) > 5:
+                                                        articles_list.append({
+                                                            'title': article_title,
+                                                            'url': full_url,
+                                                            'id': article_id
+                                                        })
+                                            else:
+                                                # 再帰的に探索
+                                                for key, value in data_obj.items():
+                                                    extract_articles_from_data(value, articles_list)
+                                        elif isinstance(data_obj, list):
+                                            for item in data_obj:
+                                                extract_articles_from_data(item, articles_list)
+                                    
+                                    # データ構造を探索
+                                    if 'props' in data:
+                                        extract_articles_from_data(data['props'], articles_data)
+                                    
+                                    print(f"    📰 JSONから {len(articles_data)}件の記事を抽出")
+                                    
+                                    # 記事データをnews_listに追加
+                                    for article_data in articles_data[:100]:  # 最大100件
+                                        # 重複チェック
+                                        if not any(n['url'] == article_data['url'] for n in news_list):
+                                            news_list.append({
+                                                'title': article_data['title'],
+                                                'url': article_data['url'],
+                                                'source': 'HK01',
+                                                'published_at': datetime.now(HKT).isoformat()
+                                            })
+                                    
+                                    if len(articles_data) > 0:
+                                        continue  # JSONから取得できたので、次のURLへ
+                            except Exception as e:
+                                print(f"    ⚠️  JSON抽出エラー: {e}")
                             
-                            for article in articles[:30]:
+                            # フォールバック: HTMLからリンクを取得
+                            print("    🔍 HTMLからリンクを取得中...")
+                            selectors = [
+                                'a[href*="/article/"]',
+                                'a[href^="/article/"]',
+                            ]
+                            
+                            articles = []
+                            for selector in selectors:
+                                found = page.query_selector_all(selector)
+                                if found:
+                                    articles.extend(found)
+                                    if len(articles) >= 50:
+                                        break
+                            
+                            print(f"    📰 HTMLリンク: {len(articles)}件")
+                            
+                            for article in articles[:100]:  # 最大100件まで
                                 try:
                                     href = article.get_attribute('href')
                                     if not href:
                                         continue
                                     
-                                    full_url = urljoin('https://www.hk01.com', href)
+                                    # articleを含むURLのみを対象（広告やJSファイルを除外）
+                                    if '/article/' not in href and 'article' not in href.lower():
+                                        continue
                                     
-                                    # タイトル取得
-                                    title_elem = article.query_selector('h2, h3, h4, .article-title')
-                                    if not title_elem:
-                                        title = article.inner_text().strip()
+                                    # JavaScriptファイルや広告URLを除外
+                                    if '/_next/' in href or 'omgt3.com' in href or 'clk.' in href or '.js' in href:
+                                        continue
+                                    
+                                    # URL正規化
+                                    if href.startswith('/'):
+                                        full_url = urljoin('https://www.hk01.com', href)
+                                    elif href.startswith('http'):
+                                        full_url = href
                                     else:
-                                        title = title_elem.inner_text().strip()
+                                        continue
                                     
-                                    if title and len(title) > 5:
+                                    # クエリパラメータを除去して正規化
+                                    full_url = full_url.split('?')[0].split('#')[0]
+                                    
+                                    # 重複チェック（URLベース）- 先にチェック
+                                    if any(n['url'] == full_url for n in news_list):
+                                        continue
+                                    
+                                    # タイトル取得（複数の方法を試す）
+                                    title = None
+                                    title_selectors = ['h2', 'h3', 'h4', '.title', '.article-title', '[class*="title"]', 'span', 'div']
+                                    
+                                    for title_sel in title_selectors:
+                                        try:
+                                            title_elem = article.query_selector(title_sel)
+                                            if title_elem:
+                                                title_text = title_elem.inner_text().strip()
+                                                if title_text and len(title_text) > 5:
+                                                    title = title_text
+                                                    break
+                                        except:
+                                            continue
+                                    
+                                    # セレクタで見つからない場合は、リンクのテキストを使用
+                                    if not title or len(title) <= 5:
+                                        try:
+                                            title = article.inner_text().strip()
+                                        except:
+                                            title = ''
+                                    
+                                    # タイトルが有効な場合のみ追加
+                                    if title and len(title) > 5 and len(title) < 300:
+                                        # 広告や不要なテキストを除外
+                                        if any(skip in title.lower() for skip in ['廣告', 'advertisement', '推廣', 'promotion', 'click here', 'javascript']):
+                                            continue
+                                        
                                         news_list.append({
                                             'title': title,
                                             'url': full_url,
                                             'source': 'HK01',
                                             'published_at': datetime.now(HKT).isoformat()
                                         })
-                                except Exception:
+                                        
+                                        # デバッグ: 最初の5件を表示
+                                        if len([n for n in news_list if n.get('source') == 'HK01']) <= 5:
+                                            print(f"      ✅ 取得: {title[:50]}... | {full_url}")
+                                except Exception as e:
+                                    # デバッグ: 最初のエラーのみ表示
+                                    if len(news_list) == 0:
+                                        print(f"      ⚠️  エラー: {e}")
                                     continue
                             
-                            time.sleep(1)
+                            time.sleep(2)  # リクエスト間隔を2秒に
                         except Exception as e:
                             print(f"  ⚠️  {url} でエラー: {e}")
+                            import traceback
+                            traceback.print_exc()
                             continue
                     
                     browser.close()

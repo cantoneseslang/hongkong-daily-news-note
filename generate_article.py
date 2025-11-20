@@ -1024,7 +1024,23 @@ def preprocess_news(news_list):
             overused_topic_count += 1
             continue
         
-        # 香港関連度チェック
+        # 香港関連度チェック（強化版）
+        # 1. 明らかに香港無関係の地域・国をブロック
+        non_hk_regions = [
+            'ウクライナ', 'ukraine', 'ゼレンスキー', 'zelensky',
+            'ロシア', 'russia', 'プーチン', 'putin',
+            'オランダ', 'netherlands', 'dutch',
+            '大分', '熊本', '福岡', '沖縄', '北海道',  # 日本の地方都市（東京以外）
+            'トルコ', 'turkey', 'エルドアン', 'erdogan',
+            'イスラエル', 'israel', 'パレスチナ', 'palestine',
+        ]
+        if any(region in content_lower or region in title.lower() for region in non_hk_regions):
+            # ただし、香港キーワードも含まれている場合は許可
+            if not any(keyword in content_lower for keyword in ['香港', 'hong kong', 'hongkong']):
+                non_hk_count += 1
+                continue
+        
+        # 2. 香港関連キーワードチェック
         hk_keywords = [
             '香港', 'hong kong', 'hk ', ' hk', 'hongkong',
             '立法会', 'legco', '行政長官', '特区政府',
@@ -1032,7 +1048,9 @@ def preprocess_news(news_list):
             '香港島', 'hong kong island', '中環', 'central',
             '大埔', 'tai po', '屯門', 'tuen mun', '観塘', 'kwun tong',
             '旺角', 'mong kok', '尖沙咀', 'tsim sha tsui',
-            '灣仔', 'wan chai', 'wanchai', '銅鑼灣', 'causeway bay'
+            '灣仔', 'wan chai', 'wanchai', '銅鑼灣', 'causeway bay',
+            'scmp', 'rthk', 'hkfp',  # 香港メディア
+            'bn(o)', 'bno',  # 香港人向け制度
         ]
         is_hk_related = any(keyword in content_lower for keyword in hk_keywords)
         if not is_hk_related:

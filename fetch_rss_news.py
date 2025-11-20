@@ -349,7 +349,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1
@@ -403,7 +403,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1
@@ -455,7 +455,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1
@@ -506,7 +506,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1
@@ -557,7 +557,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1
@@ -608,7 +608,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1
@@ -662,7 +662,7 @@ class RSSNewsAPI:
                 news_list = []
                 filtered_count = 0
                 
-                for entry in feed.entries[:50]:
+                for entry in feed.entries[:100]:  # 50 → 100に増加
                     url = entry.get('link', '')
                     if self._has_been_processed(url):
                         filtered_count += 1
@@ -721,7 +721,7 @@ class RSSNewsAPI:
             news_list = []
             filtered_count = 0
             
-            for entry in feed.entries[:50]:
+            for entry in feed.entries[:100]:  # 50 → 100に増加
                 url = entry.get('link', '')
                 if self._has_been_processed(url):
                     filtered_count += 1

@@ -820,11 +820,16 @@ class RSSNewsAPI:
                 existing_urls.add(normalized_url)
                 existing_titles.append(title)
             
-            print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {len([n for n in all_news if n.get('api_source') == 'web_scraping'])}件追加")
+            scraped_added = len([n for n in all_news if n.get('api_source') == 'web_scraping'])
+            print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {scraped_added}件追加")
+        except ImportError as e:
+            print(f"⚠️  スクレイピングモジュールが見つかりません: {e}")
+            print("   RSSフィードのみで続行します...")
         except Exception as e:
             print(f"⚠️  スクレイピング失敗: {e}")
             import traceback
             traceback.print_exc()
+            print("   RSSフィードのみで続行します...")
         
         # Phase 2: RSSフィード（補完）
         print("\n📡 Phase 2: RSSフィード")

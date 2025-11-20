@@ -26,6 +26,7 @@ class NewsListScraper:
         self.use_playwright = PLAYWRIGHT_AVAILABLE
         self.requests = None
         self.BeautifulSoup = None
+        self.session = None
         
         if not self.use_playwright:
             # フォールバック: requests + BeautifulSoup
@@ -66,8 +67,8 @@ class NewsListScraper:
                     for url in urls:
                         try:
                             print(f"  📄 {url} を読み込み中...")
-                            page.goto(url, wait_until='networkidle', timeout=30000)
-                            page.wait_for_timeout(3000)  # JavaScriptの実行を待つ
+                            page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                            page.wait_for_timeout(5000)  # JavaScriptの実行を待つ
                             
                             # HK01の記事リンクを取得
                             articles = page.query_selector_all('a[href*="/article/"]')
@@ -136,8 +137,8 @@ class NewsListScraper:
                     for url in urls:
                         try:
                             print(f"  📄 {url} を読み込み中...")
-                            page.goto(url, wait_until='networkidle', timeout=30000)
-                            page.wait_for_timeout(3000)
+                            page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                            page.wait_for_timeout(5000)
                             
                             articles = page.query_selector_all('a[href*="/pns/"]')
                             
@@ -194,8 +195,8 @@ class NewsListScraper:
                     for url in urls:
                         try:
                             print(f"  📄 {url} を読み込み中...")
-                            page.goto(url, wait_until='networkidle', timeout=30000)
-                            page.wait_for_timeout(3000)
+                            page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                            page.wait_for_timeout(5000)
                             
                             articles = page.query_selector_all('a[href*="/news/"]')
                             

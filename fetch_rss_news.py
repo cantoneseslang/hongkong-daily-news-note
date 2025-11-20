@@ -765,8 +765,8 @@ class RSSNewsAPI:
             return []
     
     def fetch_all_rss(self) -> List[Dict]:
-        """全RSSフィードからニュース取得"""
-        print("\n🚀 RSS フィードからニュース取得開始")
+        """全RSSフィードからニュース取得（スクレイピングも含む）"""
+        print("\n🚀 ニュース取得開始（RSS + スクレイピング）")
         print("=" * 60)
         
         all_news = []
@@ -775,6 +775,60 @@ class RSSNewsAPI:
         duplicate_count = 0
         url_duplicate_count = 0
         title_duplicate_count = 0
+        
+        # Phase 1: スクレイピング（優先）
+        print("\n📰 Phase 1: Webスクレイピング")
+        print("-" * 60)
+        try:
+            from scrape_news_list import NewsListScraper
+            scraper = NewsListScraper()
+            scraped_news = scraper.fetch_all_news()
+            
+            # スクレイピング結果を追加
+            for news in scraped_news:
+                url = news.get('url', '')
+                title = news.get('title', '')
+                normalized_url = self._normalize_url(url)
+                
+                # 重複チェック
+                if normalized_url and normalized_url in existing_urls:
+                    continue
+                if self._is_duplicate_content(title, existing_titles):
+                    continue
+                
+                # 日付フィルタリング
+                published_at = news.get('published_at', '')
+                if published_at and not self._is_today_news(published_at):
+                    continue
+                
+                # 禁止コンテンツフィルタリング
+                if self._is_forbidden_content(title, news.get('description', '')):
+                    continue
+                
+                # 香港関連度チェック
+                if not self._is_hk_related(title, news.get('description', ''), url, news.get('source', '')):
+                    continue
+                
+                all_news.append({
+                    'title': title,
+                    'description': news.get('description', title),
+                    'url': url,
+                    'published_at': published_at or datetime.now(HKT).isoformat(),
+                    'source': news.get('source', 'Scraped'),
+                    'api_source': 'web_scraping'
+                })
+                existing_urls.add(normalized_url)
+                existing_titles.append(title)
+            
+            print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {len([n for n in all_news if n.get('api_source') == 'web_scraping'])}件追加")
+        except Exception as e:
+            print(f"⚠️  スクレイピング失敗: {e}")
+            import traceback
+            traceback.print_exc()
+        
+        # Phase 2: RSSフィード（補完）
+        print("\n📡 Phase 2: RSSフィード")
+        print("-" * 60)
         
         # 各RSSから取得（既存の関数）
         feeds_to_fetch = [

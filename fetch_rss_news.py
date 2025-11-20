@@ -785,33 +785,54 @@ class RSSNewsAPI:
             scraped_news = scraper.fetch_all_news()
             
             # スクレイピング結果を追加
+            scraped_filtered = {
+                'total': len(scraped_news),
+                'duplicate_url': 0,
+                'duplicate_title': 0,
+                'old_date': 0,
+                'forbidden': 0,
+                'non_hk': 0,
+                'added': 0
+            }
+            
             for news in scraped_news:
                 url = news.get('url', '')
                 title = news.get('title', '')
+                if not title or len(title) < 5:
+                    continue
+                
                 normalized_url = self._normalize_url(url)
                 
                 # 重複チェック
                 if normalized_url and normalized_url in existing_urls:
+                    scraped_filtered['duplicate_url'] += 1
                     continue
                 if self._is_duplicate_content(title, existing_titles):
+                    scraped_filtered['duplicate_title'] += 1
                     continue
                 
-                # 日付フィルタリング
+                # 日付フィルタリング（スクレイピングは日付が不明な場合が多いので緩和）
                 published_at = news.get('published_at', '')
-                if published_at and not self._is_today_news(published_at):
-                    continue
+                if published_at:
+                    if not self._is_today_news(published_at):
+                        scraped_filtered['old_date'] += 1
+                        continue
+                # 日付が不明な場合は今日のニュースとして扱う
                 
                 # 禁止コンテンツフィルタリング
-                if self._is_forbidden_content(title, news.get('description', '')):
+                description = news.get('description', title)
+                if self._is_forbidden_content(title, description):
+                    scraped_filtered['forbidden'] += 1
                     continue
                 
                 # 香港関連度チェック
-                if not self._is_hk_related(title, news.get('description', ''), url, news.get('source', '')):
+                if not self._is_hk_related(title, description, url, news.get('source', '')):
+                    scraped_filtered['non_hk'] += 1
                     continue
                 
                 all_news.append({
                     'title': title,
-                    'description': news.get('description', title),
+                    'description': description,
                     'url': url,
                     'published_at': published_at or datetime.now(HKT).isoformat(),
                     'source': news.get('source', 'Scraped'),
@@ -819,9 +840,11 @@ class RSSNewsAPI:
                 })
                 existing_urls.add(normalized_url)
                 existing_titles.append(title)
+                scraped_filtered['added'] += 1
             
-            scraped_added = len([n for n in all_news if n.get('api_source') == 'web_scraping'])
-            print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {scraped_added}件追加")
+            print(f"✅ スクレイピング: {scraped_filtered['total']}件取得")
+            print(f"   - 追加: {scraped_filtered['added']}件")
+            print(f"   - 除外: 重複URL={scraped_filtered['duplicate_url']}, 重複タイトル={scraped_filtered['duplicate_title']}, 古い日付={scraped_filtered['old_date']}, 禁止={scraped_filtered['forbidden']}, 香港無関係={scraped_filtered['non_hk']}")
         except ImportError as e:
             print(f"⚠️  スクレイピングモジュールが見つかりません: {e}")
             print("   RSSフィードのみで続行します...")

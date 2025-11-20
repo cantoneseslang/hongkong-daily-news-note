@@ -1,0 +1,338 @@
+# 毎日AI香港ピックアップニュース(2025年11月21日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2025年11月21日05時45分に発表した天気報告
+
+乾燥した北東の季節風が広東省沿岸に影響を与えています。同時に、雲の帯がこの地域を覆っています。
+
+香港地区の今日の天気予報：
+概ね曇り。朝は肌寒いでしょう。日中は一部で日差しがあり、非常に乾燥するでしょう。最高気温は約22度です。風は穏やかな北から北東の風が吹き、初めは時折やや強く吹くでしょう。
+
+今後の見通し：今後数日間は晴れて乾燥し、日中は暖かくなるでしょう。昼夜の寒暖差がかなり大きくなる見込みです。
+
+**引用元**: 香港天文台
+
+### 中日摩擦：日本ツアーの問い合わせが2～3割減、旅行会社役員が発言
+
+【Now新聞台】外交部と香港保安局は、事態の進展を受けて相次いで海外渡航警戒情報を更新しました。香港の旅行会社によると、日本ツアーに関する問い合わせが約2～3割減少しているとのことです。キャセイパシフィック航空、香港エクスプレス、グレーターベイ航空はいずれも、旅行客に柔軟な対応を提供すると表明しています。
+
+多くの香港人が日本旅行を好んでいますが、最近の日中関係の悪化を受け、中国本土は国民に日本への渡航を避けるよう呼びかけ、香港保安局も在日香港人に対し、警戒を強め安全に注意するよう促しています。香港の旅行会社は、日本ツアーの問い合わせが約2～3割減少し、キャンセルや旅行先の変更に関する問い合わせも数件寄せられていると述べています。
+
+縦横遊の袁振寧（Yuen Chun-ning）常務取締役は、「毎日数件の問い合わせがあり、旅行先の変更や日程変更、あるいはキャンセルした場合の手数料や全額返金の手続きについて尋ねられます。保安局が渡航警戒レベルを赤色以上に引き上げるか、フライトがキャンセルされない限り、現時点では全てのツアーは通常通り出発します」と語りました。
+
+中国本土の複数の航空会社は、日本行きの航空券を予約した乗客に対し、払い戻しや変更の柔軟な対応を提供しています。キャセイパシフィック航空は、顧客が予約後に状況に応じて旅程を調整する必要があることを理解しており、最大限のサポートを提供すると述べています。香港エクスプレスは、外交部と香港政府が発する旅行勧告を注視しており、日本への渡航資格のある乗客には柔軟な対応を提供すると表明しました。グレーターベイ航空は、顧客の旅程変更の必要性を理解しており、柔軟に対応し適切な支援を提供し、払い戻し手数料を免除すると述べています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E4%B8%AD%E6%97%A5%E6%91%A9%E6%93%A6-%E8%A2%81%E6%8C%AF%E5%AF%A7-%E6%97%A5%E6%9C%AC%E5%9C%98%E5%A0%B1%E5%90%8D%E6%9F%A5%E8%A9%A2%E8%B7%8C%E5%85%A9%E8%87%B3%E4%B8%89%E6%88%90-%E9%AB%98%E8%A9%A9%E6%95%8F%E5%A0%B1%E9%81%93-101226098.html
+
+### 新世界発展、取締役再選で鄭家純会長が96.7%の賛成票を獲得
+
+新世界発展（00017）は昨日、年次株主総会を開催しました。取締役の再選投票結果によると、鄭家純（Cheng Kar-shun）会長は96.7%の賛成票を獲得し、反対票はわずか0.05%でした。一方、鄭志明（Cheng Chi-ming）非執行取締役は85.27%の賛成票にとどまり、反対票は14.73%に達しました。
+
+再選された他の2名の執行取締役のうち、戦略的助言を担当する何智恒（Ho Chi-hang）氏は97.79%の賛成票を、劉富強（Lau Fu-keung）最高財務責任者は98.94%の賛成票を獲得しました。再選対象の独立非執行取締役4名のうち、李聯偉（Li Luen-wai）氏が92.67%の賛成票を得た以外は、残りの3名はいずれも99%以上の賛成票を獲得しました。経営陣は昨日の株主総会後、メディアの取材に応じませんでした。
+
+**引用元**: Yahoo News HK
+
+https://hk.finance.yahoo.com/news/%E4%B8%AD%E7%92%B0%E8%A7%A3%E5%AF%86-%E6%96%B0%E4%B8%96%E7%95%8C%E9%87%8D%E9%81%B8%E8%91%A3%E4%BA%8B-%E9%84%AD%E5%AE%B6%E7%B4%94%E7%8D%B296-7-%E8%B4%8A%E6%88%90-180800010.html
+
+### 激昂した女性客がファッション店の透明ガラスドアに衝突、店員を罵倒 – ネットユーザーが面白い詳細を発見
+
+東涌（Tung Chung）のファッション店で、激昂した女性客が閉まっていた透明なガラスドアにぶつかり、店員を激しく罵倒する事件が発生しました。この出来事を目撃したネットユーザーは、ある面白い詳細を発見し、「常人には理解しがたい」と話題になっています。
+
+この女性客は、閉まっている透明なガラスドアに気づかずに衝突した後、「なぜ閉鎖の表示がないのか？私の邪魔をするな！」と店員に怒鳴りつけました。店員は冷静に対応し、その対応がネット上で称賛されています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMiuARBVV95cUxNUnJmTHdkWk52R2NPSDFMQjA3UjIwYUt2aTVWZVg4eXhDZW00MFdDeW9mbnZfT1paQnRMbEhJbUxvYXJlTlhERHpwZEM1cFFGTktrdkRIZENjaERwWlYyb2ctNEEzdlRwX3J4LWJJd0s5S0hZNWZxTThfTldYYUdZR05uWkh0WkROcERRaGk0WEpVb1ZEdmFYZEVScnM3RHF4VmpwUktmel96bDlCZm83ci1mZG9zemNBUW1UUGNGVjB1TFY1cEpsNklEVEp2YnpkTm5DQ3VqNlZOQzdLdVNzTHVrSERmTC1jWjhiZVdTVXNHZkMwUXhfU3RjWXRuTmVFSGxRUFVGWWZXVGV0SlhHcndtZGlfY3hBYmE0TDBjc0hVWDNyWlpLNGpHN1dWSXlBZFJ3RkZSczdyZnJTbnVNaXZlRGxIUVlTeWF1QlQxWVZPZjBMdXN2UjU1X2J5YlVaTmJveFNkV25QWGF2RzZpOVR3TWluSjN2SXpYTXMzVjRhNktMeHRXUG5fR0VucDktYVgzYXJKNmg5a1JERTVsam53WVlFNGljVGJIR0YzNjVTZ1U5S0hNVl9DWnV0WVhydzV2MVNCWmRSUGVTYmFtNF95Z1pYZmNUSW1IanZpcWFoWFE3ajZmQlVIU2hjSjdGVHYzbU9DYnp3X0liM0lpMlNhOHdFNDNSUlgtSlBBSlZuRkZYZXFScWpGbnBzU3dCR3M3ZmNRSFlhc3dpQkpwaV9FN1QxSW5h?oc=5
+
+### 高齢者向けテクノロジー博覧会が開幕：AI活用、介護食、健康モニタリングを無料で体験
+
+【明報新聞網】高齢者向けテクノロジー博覧会が開催され、AIアプリケーション、介護食、健康モニタリングケアなどを無料で体験できるイベントが始まりました。
+
+この博覧会では、200種類以上の製品が展示・販売・レンタルされており、伴侶ロボットのような感情交流が可能な製品も紹介されています。孫玉菡（Chris Sun）労働福祉局長は、香港が中国本土の優れた高齢者向けテクノロジー製品の窓口となり、海外の華人コミュニティに利益をもたらすことを期待していると述べました。博覧会は香港コンベンション＆エキシビションセンターで4日間開催されます。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMiwgNBVV95cUxOYzEybDhnWFhDVUItQXZFUXI5TnJRRHEzbEdtSXBneGRoMDlhWXllbExZbVB6eU5oNndYLWd2R21ReF9GOGV6NFhnM3pJTGhqOG45RDQ5ekQ3c21Fd21Fa1QxcHRxOGYwaU9pTTlRSmZvQVZ0c2ZFbDJDYl9ZMkV2aG9teFo4alhPM2NTX0tMREhTc0pHckh2WUZvcFAxLUNGaGVpSXBjN3VHYk9tN0RWUW5qMTU4UlhZYUVtSEtCUU1ydlA5a2NJemYtSkdwME1UOFkzR0RJU3V3QlFHTXhvNTV1YjQ2Y3NHNmRzTlBCZXBoT0dURnJYdXNQMnlmQ2Utb3lYcVBqS1VqQ1AzUzlSZm1wTk45enYtbmNqT1VhX09NWVRSdkJnVWZNNFk4SExYVjlpcDVEN0dLSnlKSU1tVlQwMmFySHRaTmZ1UHNTN1lIenBrSjFvaEN2dGFYQzJZR0ZBcjYzNjRQd0x1Y2ZKOHg2aTRWUU1DVk9aMnVDSnduZnYtYmNVeUZzUUhJeGxpWHp3YTAzTGRHd3g1UFp5c0pPdWJEVUM5Njd5OV9Cd2RBcXFBVzBGSXItaWlocTlwMWc?oc=5
+
+### 公営住宅の富裕層世帯に関する議論：資産制限、申告手続き、免除について
+
+香港高登討論区では、公営住宅の富裕層世帯に関する活発な議論が交わされています。美聯物業（Midland Realty）は、2025/2026年度の公営住宅富裕層世帯の所得・資産限度額、申告手続き、および免除に関する詳細なガイドを発表しました。
+
+特に注目されているのは、一人暮らしでありながら6人用の公営住宅に住む男性の事例です。この男性は4年半にわたり転居を希望していましたが、音沙汰がなく、来年には「富裕層世帯」と見なされ、家賃が1万香港ドルを超える可能性があると訴えています。住宅署（Housing Department）はこれに対し、本土の不動産が重点的な調査対象となるなど、申告における「隠れた落とし穴」を5つ指摘し、正確な申告の重要性を強調しています。
+
+**引用元**: 香港高登討論區
+
+https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vaktfNzJmZ2hNTElWN1BVVWxyeGMtMWp2ZWJBbWxxdmtHMmhtVTdVZXRaWmhQUVpmMG5GRWxDZXpERmdaajluSXJ4NzhfbGJrVHpsclNZTHlqU1JL0gFYQVVfeXFMTnkxWkdPQ3hLbDFueERqZlhGTEdsaUU4X29OeUJJeVg4ZVl3TEszVm1UZFBzV2hrWFZ5R2k0T0hXWkJIZXNRcllIeGQxN2xqYkpWSC1DbDFxdg?oc=5
+
+### 英国の最新のコミットメントにもかかわらず、香港人のためのBN(O)スキームの行方は不透明
+
+英国は、BN(O)ビザを持つ香港人へのコミットメントを再確認しましたが、ロンドンが「移民制度の最も重要な改革」と呼ぶものが、このスキームにどのように影響するかは依然として不明です。
+
+今週後半には、亡命希望者が英国に永住するまでの期間を現在の5年から20年に延長するという提案された変更について議論するための協議が発表される予定です。この変更は、BN(O)ビザを持つ香港人にも影響を及ぼす可能性があり、懸念が提起されています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3333222/britain-reaffirms-support-hongkongers-bno-visas-amid-sweeping-asylum-reforms?utm_source=rss_feed
+
+### 上水で乗客が祥華邨行きと告げるとタクシー運転手が「行かない」と拒否、乗車拒否で有罪となり2000香港ドルの罰金
+
+【香港01】上水（Sheung Shui）でタクシー運転手が乗客の祥華邨（Cheung Wah Estate）行きを拒否し、乗車拒否の罪で有罪となり、2000香港ドルの罰金が科されました。
+
+運転手は、台風8号警報下で第三者保険が適用されないため乗車を拒否したと主張しましたが、裁判官は、運転手が旗を倒さずに営業を続けていたことから、その主張は矛盾しており責任転嫁であると指摘しました。この判決は、乗車拒否に対する厳格な姿勢を示すものとなります。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxNc2x4T0R1Z0JPWEI4OE9pS05UU00wMGt4RkVSeDVNMU9hdXlWVkw5a2lURFlBUGRPNHF1QkUtaHlKRUxUQjRoZXRaMVJ4RV9XWnFEN1RpMk9xQjR3WnVjSHZqOVA4SUtMbmhyOVZZOTBzbTFxXzh5eDdJamxVdzhQVmdXSnJ2NEZUanM1ZHdDOExqSGZSckt4TkkyU1VPUjhfUlJyNmNxU2pmbFR2QUFZNzdWZzFjaEtXdldubG1mOFEtUmxWVzF6V1JUdTFjZFgwcTBhZUdWMm1jc3o5NlU3WnhYTU9LSUxydUozTjN0T21VUXgtemxGTjg4NkhfcDlReWNzUTM0WEpBN3B0NXc1Q3NKTmYwVmVDYTFSNXpjRjJLSTlza1hON0NiMjlMZnFtMjhlVVdzS19obmNyVlFLN2VrVUNlZ2VfQVBnSUJsckQ0RERfWHZLcWRHT281NGZUNV9mVHdNMllYSEhhckk0ZFcwdVNjbE5jRDNmUl9HSVBMMzBVRDQ1RnJpMDJXb2dJQVkwVzFqVXRkejlTc2YzYUxDZVRwbGF5bGFyamJ1MFUtUXc?oc=5
+
+### 中環海浜の旗艦プロジェクト「Central Yards」、空中庭園と私営大劇場を設置し2027年開業予定
+
+恆基地產（Henderson Land Development）は、中環海浜（Central Harbourfront）の旗艦プロジェクトを「Central Yards」と命名し、新たな文化商業生活区として「中環の景観を再構築する」と発表しました。プロジェクトの第一期は2027年に開業する予定です。
+
+このプロジェクトには、空中庭園と香港唯一の私営ブロードウェイ式大劇場が設けられ、より多くの国際的なトップレベルの芸術イベントを誘致することが期待されています。Central Yardsは、中環碼頭（Central Piers）と観覧車の隣に位置し、新たなランドマークとなるでしょう。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E4%B8%AD%E7%92%B0%E6%B5%B7%E6%BF%B1-central-yards-%E8%A8%AD%E7%A9%BA%E4%B8%AD%E8%8A%B1%E5%9C%92%E3%80%81%E7%A7%81%E7%87%9F%E5%A4%A7%E5%8A%87%E9%99%A2-%E6%96%992027%E5%B9%B4%E9%96%8B%E5%B9%95-%E6%AF%97%E9%84%B0%E4%B8%AD%E7%92%B0%E7%A2%BC%E9%A0%AD%E5%8F%8A%E6%91%A9%E5%A4%A9%E8%BC%AA-093743261.html
+
+### 新田科技城：生命科学、AI、先端産業に注力、孫東局長は年間GDPに2500億香港ドル以上の貢献を見込む
+
+【Now新聞台】政府は新田科技城（San Tin Technopole）のイノベーション・テクノロジー産業開発計画綱要を発表しました。この計画は、生命健康技術、人工知能（AI）、および先端産業の発展に焦点を当て、2期5段階で進められます。今後10年間で開発の初期配置が完了する見込みです。
+
+新田科技城は210ヘクタールの敷地を占め、河套港深創科園（Lok Ma Chau Loop Hong Kong-Shenzhen Innovation and Technology Park）の香港区に隣接しています。当局が提示した計画綱要では、科技城が将来的に産業別にゾーニングされ、北部の「河套ハブ」、中部で北環線支線洲頭駅に近い「洲頭ハブ」、南部の「麒麟ハブ」の3つのハブによって発展が推進されることが示されています。これら3つの開発帯は、多様な産業配置を通じて産業集積効果を生み出し、発展を牽引します。
+
+当局は、科技城全体を2期5段階で開発することを提案しています。第一期の最初の段階では、まず洲頭（Chau Tau）が開発され、サービスセンターが設置されます。次の段階では、河套創科園区に近い用地が開発され、3つの重点産業に中下流の拡張スペースが提供されます。第三段階では、河套と洲頭の間の総合開発用地が開発され、イノベーション・テクノロジー企業のオフィススペースや国際人材アパートなどが提供され、新田科技城の象徴的な総合機能エリアが形成されます。第四段階では、科技城の主要エリアが大規模に建設され、コンベンション＆エキシビション、ベンチャーキャピタルプラットフォーム、データセンター、物流施設、レジャー商業街などが提供されます。最後に、「戦略的空白段階」が開始され、将来の新たなテクノロジーのための開発スペースが確保されます。
+
+当局はすでに一部の関連する土地収用手続きを開始しており、第一期の最初の2段階は今年から建設が始まり、2030年に完了する予定です。第三および第四段階は2027年に開始され、8年間を要し、2035年以降に第二期が開始されます。政府は、新田科技城が毎年香港のGDPに少なくとも2500億香港ドルを貢献すると見込んでいます。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%96%B0%E7%94%B0%E7%A7%91%E6%8A%80%E5%9F%8E-%E8%81%9A%E7%84%A6%E7%94%9F%E5%91%BD%E7%A7%91%E6%8A%80%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%8A%E5%85%88%E9%80%B2%E7%94%A2%E6%A5%AD-%E5%AD%AB%E6%9D%B1-%E6%AF%8F%E5%B9%B4%E7%82%BA%E6%9C%AC%E6%B8%AFgdp-%E8%B2%A2%E7%8D%BB%E8%87%B3%E5%B0%912500%E5%84%84%E5%85%83-111226607.html
+
+### 鰂魚涌でシティバス2台が衝突、運転手1名が体調不良、北角方面の交通が阻害
+
+【on.cc東網】鰂魚涌（Quarry Bay）の英皇道（King's Road）で、シティバス2台が追突事故を起こしました。この事故により、運転手1名が体調不良を訴え、病院に搬送されました。また、乗客2名も軽傷を負いました。
+
+事故の影響で、北角（North Point）方面の交通が一時的に阻害され、西行きのトラムサービスも停止しました。現場に駆けつけた警察と救急隊が対応にあたり、事故原因の調査が進められています。
+
+**引用元**: on.cc東網｜東方傳媒機構
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNG5OZFBueU8wdlVHeHFrM0YyaWF6c1lMVjBtZEdGcm13OFZtakRFVTVKMWs3Y3BMdG1yUTB2T0szTGxrd2FESnZXekQ5YWxCZlpPQ0xOS001ZGtHOW5hLXdqRGZOcVczVFdWS190WXUwaXE4aEVYLXM3cXVQdExPV1FXVHRUY0RqQmdZ?oc=5
+
+### 香港エクスプレスが11名の見習いパイロットを採用、自動車教習所の教官が中年で夢を追い空へ
+
+【香港01】香港国際航空学院（Hong Kong International Aviation Academy）の第一期卒業生15名のうち、11名が香港エクスプレス（HK Express）に副操縦士として採用されました。
+
+この中には、42歳の元自動車教習所教官がいます。彼は80万香港ドルを投じてパイロット訓練課程を修了し、長年の夢であった空を飛ぶ仕事を実現しました。彼は「夢だった」と語り、中年になってからでも夢を追いかけることの重要性を示しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMihANBVV95cUxNWE5vTHJWM211cDN1bENTWi1WeWZvWXRYNjlkZWtLVUgtRkhJYmVOZGl4S0NGaGRjZS04d2FzX0w5WDhCdkNQVjNlVWZDLU9jZ0hZWVV3X3prM1pfUGxkMWFJajZsY3drbzJLM1dJeVI5cXctc1Vvd1FtcnNWYVh4Tm9EZ1hNNkJTeGN1TDhOV2VDcU43eVkwNmtUZUo1dXloU2dCTVVzUF9NQjEwMVpfZ0hxbFFLRjBZSEtpX2RORmV2VGx4cU1VMmRBSUp3bFB1T0x2a1lzOXJqRmZnSlpJZy1kQjdMY0lqVUZwU3YxQlJWRUNmU3NMbURna3Z6eE5TblJscUZSc2h4VjNGU08xWnhEejQ2Z29tdWpkYzg3TW5IamFtNG1jUjB1MHNnbDNMYVdka0pNN3NoejFnajZGbzZxSkJnWi1vN2xrYU5WaE00eXFVakQ0bUlTdkpJamR5VGxrb3BYUkhTQVl4RGlUQ1V0ZkxHZWtGYkxrV29WVnk1dEx5?oc=5
+
+### 香港ストリートマラソンが日曜朝に開催、複数箇所で道路閉鎖、70路線のバス・ミニバスに影響
+
+【Yahoo News - HK】「香港ストリートマラソン2025」が今週末の日曜日の朝に開催されます。これに伴い、複数箇所で道路が閉鎖され、70路線のバスとミニバスに影響が出ると発表されました。
+
+今年の大会では、チャンピオンライダーが中九龍繞道（Central Kowloon Route）の未開通区間を含む新しいコースに挑戦します。香港政府観光局（HKTB）と新鴻基地産（Sun Hung Kai Properties）が主催するこのイベントでは、西九芸術公園（West Kowloon Art Park）で無料のカーニバルも開催され、4つの新しいスポーツが体験できる予定です。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMi6wJBVV95cUxPNWh4S3p5ZmZ3TU5MV1dhbG9fbE94NHFKNF9GUjVjamFaS0pKUVEyVDU1aUFlRG56QlJRWlJrVkdvTk9zd0pVaWNNQlBQQTNLWDJSakpnamwwVnBRbmRpY05TdElOTTdTbzd0cU1Gem9HdTFUX09sdENjd3kzVlVMNjNfS3FhQW1KU2FCOEhiRWVRRnI5enFHOHF4QkVnMzdfSm5taDRnVVE5QWNLemlKaFk2TDVWZTlkaEowcjJBQjR3SDUwOU95YjJtYUxTYlJxYThRRENCUDhtR1JvYnRBenBQS2JaRXBuTkRwZzRRTTJnNktWTklxV25ObWRqZWpiX2FEcnZnMHpheE9Wa2FMbkxncy1CejBBZ0tyR085c01UbU5leTlreHlVWmhIU2pLVnpmX1NRS0FtRDN4RFNkZXdQbVIyR3RIdXhpamR3aG9zWnl6RnZyYVRUcTEtRW5UWFhacnVlNTNOM2M?oc=5
+
+### 世論調査で立法会選挙の投票意欲が高まる、広範な宣伝が奏功か
+
+【明報新聞網】広範な宣伝活動が功を奏し、世論調査で立法会選挙への投票意欲が高まっていることが示されました。
+
+嘉華集團（K. Wah Group）の呂耀東（Lui Che-woo）会長は、「賢明な人材を選出し、共に繁栄と安定を維持すべきだ」と述べました。また、安永中国（EY China）の陳凱（Chen Kai）会長兼大中華区CEOは、「議員チームは専門的な素養を持つべきだ」と強調しました。劉兆佳（Lau Siu-kai）氏は、新しい選挙制度が信頼を高め、若く専門的な候補者が議会の改革を促進し、香港の建設と国家への貢献をより良くすると指摘しています。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMiwANBVV95cUxPRnJFVk8zNTQwbkdMN2FTVFdaUVhqUUJyMlRYcHdSVkQ4QjJ2aVhtQWJRTmdmYURnTkVXM09zNHkxVjhvaEVJWlF2TzJaXzlWSDE2d191N2sta3p4SWJLaS1nWXFETEk0M1M3eUo0RTVYZm96VkVNakdDbHV6Vnp6SHJnZ19nMXBCYWk5NTA1ZmhQYy1hUldtbEhJNlZDZEFFVDlyZlZnU3ZWRkZubVk3Y3B5RWZFd2twV0stYWVWTWRuLTE5dmxjQnZkdDJRUG1XTmpWN01QY2hOdGxPT2hUeUlQbDh6d3dyajJnTDNESnFTN0NGS1VoZmlneHJwVEhCbnloYzBRLWI5VlY5V05ob3FkRTdiMlBRcHV5T096eXdDeTJxd0VvajlxSllrSVZaeW5NeVJjblg2M0RtYU5PWUJxS1RyaXhISzJMWEJ1MlF3RWthV1llUVBpRFp6QVFMRzNlaFNIcEx3QWN4R3E5d1hfczNzRkVaUFBaNnlVejVOY0pnY0VET1djSHlKLWRnVVp5VnhOVmphMVJ1WnR0SW9USS1pa2xDZ3FrS1JlN2hLTzBaVU8wMmdKNzBZUS15?oc=5
+
+### 貨物機墜落で2名死亡：犠牲者の姉がボーイングの指針に疑問「エンジン故障でも離陸を許すのか？誰の責任？弟を返してほしい」
+
+【Yahoo News - HK】香港国際空港（Hong Kong International Airport）で貨物機が滑走路を逸脱し海に墜落、2名の警備員が死亡した事故について、犠牲者の姉がボーイング（Boeing）の指針に疑問を呈しました。彼女は「エンジンが故障しても離陸を許すのか？誰の責任なのか？弟を返してほしい」と訴えました。
+
+専門家は、事故原因の調査には時間がかかるとの見方を示しており、部品の損傷か人為的要因かを含め、多角的な調査が必要だと述べています。当局の初期調査では、事故発生時に貨物機のエンジンの1つが加速し続けていたことが判明しており、当局はこの点に焦点を当てて調査を進めるとしています。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMi6wRBVV95cUxQckFYSnJZS0lweWNEYnBLcllraDVUZF9Tb3M0Ymc1OFFjNXFWSllkQngwSUlna3hDa1pLQTZONXBDWm5hanMtZmYtOVQtZkJQYVZqZXMwcHIyZENSQVVWVi1PMXdWX0dBbGNqNWdraU5mSkluaGEwMkxQLVBhOUxzbnpBU0taVENUcVE4YUFCRjVRMUhJc0hxWnZTQndUYm1hazQwSWhJdERDZnJMd0JQdWlNZ1A1VHhEeFhBdVRBMDhGYm94S0NHNXBGd1N6WW5xaGhMSzF4cjl1TUtzSmotN1I4WkNHVEpUQ2xwelpvLUhqbkhhcFZ0bmVKbmZwZG1OaXhxQm5sT1VGTjlDRmx3Y2VIMUhEcm5VUVItblRMNGFqMDJmZ3hySmR1UkhlT2lUd2RxcnNaeDlQc2pZc1VuR3lBeWF2RUdCX2pkRk1NNzhieEhRSk4wVThpdV9jVDU5MjRUNXR3elJJUUdIVTg4eVI1VXkzWFJtNXpVSzhYNnFPcUZIaExtUUJkWDFfSmd4SThMVmI0bE1PcTg1cWwtYTZfMXlfb1FIcXlPcXhJR1d4YVpmWFpPV2p1cDRGVGRQMWxZUWtFOXRRZ3pqeXhuQ1VhZjlkOVFWVXdwd0M3cl91d013TjdhM293d1AxSGhicFgzSEhHZWpDZUpNNmZFTlEzV1g2WTBZbURyQmZKaGRVdE1WQWNlcEtGbFdta0NPQ2JrX2V5ZF9TLWljTllPd2dKTHFXSkV6UVgzMS1PQzRlTW5PVE1OU0dKS0FKN1NMd3ZuakN1TnpkMkQzZ0RUZEowTDJGazl2U1Ew?oc=5
+
+### 火炭で52歳男性が襲撃され死亡、3名の男が殺人および殺人共謀で起訴、明日出廷
+
+【香港電台新聞網】火炭（Fo Tan）で52歳の男性が襲撃され死亡した事件で、警察は新たに3名の男を逮捕し、それぞれ殺人および殺人共謀の罪で起訴しました。彼らは明日、裁判所に出廷する予定です。
+
+この事件では、これまでに合計10名が逮捕されています。警察は、この事件が暴力団関連の殺人事件であると見ており、捜査を続けています。逮捕された3名のうち1名は、大埔公路（Tai Po Road）で現場検証に立ち会いました。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9MZUw2Q2kxbHVad3F4YWYxSlNtczZJRXk4S2RBcWVCaHRQOWlOU3phcy14c0VrdkJEd2RKa3FRT3N3QUxqb3lpZ1hqNWN1UGI5YWpQdXVyZXJmbkRjdVA5UzdycVo5a3lYZHJlQVdnOA?oc=5
+
+### 香港旅行注意！中国本土の女子学生が「ある行為」で5000香港ドルの罰金、嘆き「本土では自由にできるのに」
+
+【香港01】香港を訪れた中国本土の女子学生が、香港では違法とされる行為を行い、5000香港ドルの罰金を科されました。彼女は「本土では自由にできるのに」と不満を漏らしています。
+
+具体的な行為については記事に明記されていませんが、香港と中国本土では法律や習慣が異なるため、旅行者は現地の規則を事前に確認することが重要です。この事件は、文化や法制度の違いが引き起こすトラブルの一例として、香港を訪れる本土からの旅行者への注意喚起となっています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiogNBVV95cUxOazNVU3NoNGtDWVp5WGRnRnR4a1B0YVctTzNyU2R3b1doU0dIa1g2SmVrdDFydnRVZVlnUVRGcG5ZUUJjUzNBMUxKZllIaWd0a1pic2hQYTh3ZmRQVnJpMHRBX1pDWG1iUmx1d0JYV3dWZUFXYzA0VGVvRWc0THJrLVpSUTM5N2h6TWEwSTEwVmpLZjJ1YnEzbkdPV2IzNTR5UnY5eGxVU2o1MGJkSjg4dGlocFlkcUJqSXRYdkZUblhvR1dTZENyS1d1ZVQwMGtnZEd5eEwtUzF4MU1qeGQwd1Bva0JKd29GNUJvNFBndEliREhLTmJwcm51cm04V3AzWkxRTlA2OGRqNTdCY0ZoRjVPU3N1OG5UWW5RS2pNNnU3LWtUMkZJU2JGS0MwZjMxdk9PU21adVY3WS12REFZNjBZQVdYSDRnSHlPUzVrRGNXMTBMakNaVkdzaXM5Z01iUkxVcjRuM21oaTMwYVVweFBSMGtKMU9nd05UQ0phSVRROTg1Rng0b2dSbS1hR0wtRGdCN3R2ZUgxbkhGTjMwWHdR?oc=5
+
+### 太古城の水道水問題：黄恩諾氏がチームを率いて家庭訪問、給湯器修理員を派遣、住民は「安心してシャワーを浴びられる」
+
+【香港01】太古城（Taikoo Shing）で水道水の問題が発生し、住民から「黒い水が出る」との苦情が寄せられていました。これに対し、黄恩諾（Wong Yan-no）氏がチームを率いて家庭訪問を行い、給湯器の修理員を派遣しました。住民からは「これで安心してシャワーを浴びられる」と安堵の声が上がっています。
+
+水務署（Water Supplies Department）は、太古城の複数の建物の屋上貯水槽を洗浄し、水道メーターのフィルターも清掃したと発表しました。その結果、水質は大幅に改善され、基準を満たしているとのことです。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxOOUFRTDMwQlUxWEVsV0RSSDFwVmFJWnVwTWJtTjZ2WjZHLWFURGpfOGp0Qk1wYUQ2SjAtSlctb2VPbExRNTg5UDFfLU0yRl9vaXFRYVRzaFJBS2E2N0VWYXh3X2FQRW9kcDhtbnRBZmpTQkJOd0t3OS1pNzJDa1BSaXB1YmtqcnU4dEYzcFFraEdmVDhaM2xnZVhhbDhrOVFNd3hSN21acU9CR0owczdac0ZyRk5DdTZ1UUJiVm5BRVhoUWt0aG5VUElNZHpkdkJzcWpMTFVXVlFUa19VdllLdzVCVnRMeVVtcWZEVzJKZndyUnNlOFpkVmpPMnc1YlFBdDhvMF94TWNIS0EzdkdEeklzbzN4TDlDNmRwR1lJSWlkOE45eFlEVXJyYi00VDk0ZkdjcEhyUzNPZ1dHb2lnZWtHV1R0TVF3SjFsTGZTdXdrWHNFa2FNRWRiY2N3M1BYME9kbHY3VTdXWjQzLWFMUE9EZDk0NHVwOXV5dUlTYVJpb01nZ1Fmbk42VWwtbG4yX2lubndRVk9JTVpoVGJuN2xINW05ZXJnTmhrd0NDQzVnN0tIWnJONDVSVFgzUQ?oc=5
+
+### ドライブレコーダー映像：元朗でトラックがカーブ中に男性乗客が転落、車線に投げ出されるも幸い軽傷
+
+【on.cc東網】元朗（Yuen Long）で、トラックがカーブを曲がる際に男性乗客が車外に転落する衝撃的な瞬間がドライブレコーダーに捉えられました。映像には、後部座席のドアがロックされていなかったとみられるトラックがカーブを曲がる際、男性が車線に投げ出される様子が映っています。
+
+男性は地面に転がり落ちましたが、幸いにも軽傷で済みました。この事故は、車両の安全確認の重要性を改めて浮き彫りにしています。
+
+**引用元**: on.cc東網｜東方傳媒機構
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRkhfdGtpTE9xVEl4aFR3OElTRmxDNHphdTdjX1FTblh0MnEwMUxMS2xKWnZVelozYTBMU1RPcXhDYUNUaEJ1OFVIY1dYTkVidlJkS3NIMjN0RkJaWFNZUWlab3FqQmt4RmdybS1hV1pzVHRhVnNodWQ0dFJNVlZwdE16SGtSUnlsWHc4?oc=5
+
+### 中九龍繞道油麻地区間が来月開通、一時閉鎖されていた甘肅街の一部は来週土曜日に再開
+
+【香港電台新聞網】中九龍繞道（Central Kowloon Route）の油麻地（Yau Ma Tei）区間が12月に開通する予定です。これに伴い、建設のために一時閉鎖されていた甘肅街（Kansu Street）の一部が、来週土曜日（11月29日）の午前6時に再開されることが発表されました。
+
+この道路の再開により、油麻地周辺の交通状況が改善されることが期待されています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9Hc056RnV4eG04SjdIUmNGT0lMZGlCZnZnYmkxTXZrVTVGcjJVYkVxdl80WExjY2lBbFdleXRmUVFxX0IzSzlXS2dVOTZQSGFmNk9lMWNCTFdiang0bDI0bUtoTFo1anRtVlVmeFpJUQ?oc=5
+
+### 建設作業員がバーの女性ボクサーを監禁・強姦した容疑、弁護側は「性行為であり強姦ではない」と主張し無罪に
+
+【香港01】建設作業員の男が、バーの女性ボクサーを監禁し、ナイフで脅して強姦したとして起訴された事件で、陪審員は男を全ての罪状で無罪としました。
+
+被告の男は、女性との行為は「性行為であり、強姦ではない」と主張していました。裁判では、検察側が被告がナイフで被害者を脅したと指摘しましたが、陪審員は被告の弁護側の主張を認め、男は法廷で即時釈放されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPaFNDMXhxMVoydEswMms3RDBQUGdWQnkzNkZZcFBFQUxDZVhXeVAzM1ZpUVd2QVBvMEJrQWpqOThxRlVpZl95RVdfcnIyNHhYd0h0U1dpMTl0UFFuMGowMlpxcHJ1UXY4SHR0X1RiMmJhcUdqMmd3cnhGYlVGcUQ0Q3l6TENwaFM5ZmJEOEM5NzllOFlDQmhzTFVZV3pWMThEbERZMWJGZFlsVXo2ZTdTOHk3YXRzLXZQYzV5bWxHWW5zUHQtY0Y3OTZaam4tcTcxVlNyMU02bEtSWl9tOHgtcV9KVi1mUXFQcC1CT3RhbWlqc1EzemNyc3BVSENPQ1VvcHVpZjVadjNWb3ltRnNDdGd5UW5KTC13aWUtNkFGX1BzSFZmVGxlVGE2dV9jYXh4cFo4bUowcEQ3RUZBOHA3cVBqUFFlRUNfVm4yb0VBRlc2cmlSMlhPaGJfcmJnckl1WkxPN2l1VHRKZnBSQ0JCVTAxMS1neXdWTUpfb3FsWFgzQXdaenF4YlRsWUVJZDNoNkx1NVBCZjBtM1NBWHpITnZXSE55dERWOWFfc2RkR0FFenZua3BsWmZpekhJUQ?oc=5
+
+### 中国本土の保護者が司法妨害を認める、副校長への贈賄証拠を破棄
+
+【明報新聞網】中国本土の保護者が、息子の入学のために中学校の副校長に贈賄を試みた後、贈賄の証拠を破棄したとして司法妨害の罪を認め、有罪判決を待っています。
+
+この38歳の女性保護者は、副校長に個人的に連絡を取り、息子の入学を依頼しました。その後、贈賄の疑いが浮上し、警察の捜査が始まった際に、副校長からのメッセージを削除するよう求められ、これに応じたことで司法妨害の罪に問われました。彼女は罪を認め、来月判決が言い渡される予定です。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi0AJBVV95cUxObm5ydTFkcW5mT2Z3NWQ5M3JnaTFMTjQ2dkFSTHg0T0VZTWpLWFM4N1JGS0ZIQnVmSk43MWNUdTRTT2NQMlM2cGFCQTFKWFhzS2s2UTdxR18yYk85d25HRUpHZjZuT1lHQklHRHAxVXRwSmJqVXZmd0oyNTlSVEE2T0k3bUxaWHlGZXFBS0tfbnl5NkJVMXcxaHRmUVBUemV5dERVOFdWSmZuTW9QeVVseVFhUzljdE5rS1dfNVpaaU9QM3YzVFNlQWRBQXJTRWJiMUxtYXZzbFlxa01OU2ltMnV6UjNydUxmWXI5TTZqZ0RDWm1XYmh0NmtxV3piOU5CSUVQb1NIanY5Q1hxSWRqUXBUbzBZUl9BQzd1cVJYXzFmSmVFNE5YdzVLUnBHc2dOem1nQ3NQSlZLajRtX2duTXIxZnREa2FxeHRwZVFrb0c?oc=5
+
+### 覆面捜査で判明：雑貨店で密輸タバコが40香港ドルで取引
+
+【on.cc東網】税関が覆面捜査を行い、荃灣（Tsuen Wan）と葵芳（Kwai Fong）の3つの新聞スタンドと雑貨店で密輸タバコが販売されていることを発見しました。これらの店舗では、タバコ税以下の価格、例えば40香港ドルで密輸タバコが取引されていました。
+
+この捜査により、店主や販売員を含む3名の男女が逮捕されました。税関は、未納税タバコの販売に対する取り締まりを強化しており、今後も同様の違法行為に対して厳しく対処していく方針です。
+
+**引用元**: on.cc東網｜東方傳媒機構
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJOMjZtM1BBZ2NRX0tiaWVSU1dMUDRkTW1Zbkl0dzVjOXZxWkNIUkxfQ3R2SE1JOVdfSDhuYlZZaDc4MzJET2hNc0NTZXdLUnZ5YkszMEZWY2swRVk2TjdLRkNnTUNrUF9WZmRSeU1zSC1tbUtoV2M5bmFmbUlETE0xNzNSUlZfcWc0?oc=5
+
+### 廟宇文化祭が12月中旬に車公廟で開催、無料の無形文化遺産ワークショップや8つの古刹ガイドツアー、チェックインで景品も
+
+【Yahoo News - HK】「香港廟宇文化祭2025」が、12月13日から14日にかけて沙田（Sha Tin）の車公廟（Che Kung Temple）外で開催されます。このイベントでは、伝統文化を体験できる無料の無形文化遺産ワークショップが提供されるほか、8つの古刹を巡るガイドツアーも実施されます。
+
+参加者は、イベント会場や古刹で「チェックイン」することで、限定の景品と交換することができます。文化祭では、7層のボックスランタンの展示や、様々な伝統的なゲームの屋台も設けられ、市民は香港の豊かな廟宇文化に触れることができます。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMi2wRBVV95cUxOVFJXODNlLXV2MEZPRmFwY3dINUJUTlJ2aFVaUGExdVlybDB0eE1JODNUR2sxNGpFS081alBMdnN6djhLLWRWTWZyenhsYWh4TnpkcWFuS2J2OWI5c1U1cnRSWDZGV1dLc1hORzRTbjdDRHAxdmNCNzFCemZMTFU5VjJyeTdtLW0ycHYxaUhyWkVlcWNZT00xN0dBMWY1cXAzOXkyNHZsZnlXLTg5UUkxdDlUVlduVld4Q1ZyY3N3Y1FkSEcxZ1JRU18wU1FWMGpJemVNbGhkVl9mVTd1NmJPSFlpclRLaHBPbmoydUdiT3JrQXZqUktZM3dpczl2NldqUUdiLUlDcEVid1hwTklGN3p3bm85SE1TOTZuaDU4bVRWOGNBZExZa3ZleFE5djJPbTh1N3BQVFhwRHZxRHNwN3ZzWXA5cTZGcEd1a2RoVFR2N0VCX2dyYUVqMXNZbWpwdHh3VlhGRklhOVBkR0Z4YWZUbm5JQVNJb3BpRGQyS1dYb2J2bll2SGpma3dRb3lmVUZPdXQ2a1pPdjc4VnhtMkdaeXNKa2ZReFk4djVNczJlWmFXWm5KQnQtelhFOEM4U0RXbWxudTB0aHhiaVZocEhDYVE5WHktbVlhRFBFZThsdjhqblhuZlc4WnZ0a3BYVWliMFd1NUlCZ0dyNmtFTVBZMS13X0dDNUFvUUVHbnE4ZGZoTVVuT1l5VHNzaHB1ZjFCSHJVTENiRlFPLWxwUk5ycFBxSjVvMl9pNDhVVUNESjRKc2VRcG5lS2FiY183akZvcHR1cHoyYTQ?oc=5
+
+### 8名が虚偽の海外運転免許証で香港運転免許証の直接交付を申請したとして起訴
+
+【香港電台新聞網】廉政公署（ICAC）は、8名の非中国系男性が虚偽の海外運転免許証を使用して、試験免除で香港の運転免許証を不正に取得しようとしたとして起訴しました。彼らは明日（11月21日）に裁判所に出廷し、答弁を行う予定です。
+
+廉政公署の調査によると、これらの男性はパキスタン国籍で、虚偽のパキスタン運転免許証を運輸署（Transport Department）に提出し、香港の運転免許証の直接交付を申請したとされています。この行為は、虚偽の陳述を行い、公務員を欺いた罪に当たります。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE8xQlFsRlZBdWd2VFc4RlRGbklkUzBwWFVFQnAybUJqSUNpdWdOdjJjSE1MeGNWcE5WZi16QUR1VjgxMFZCWkY0VXl3MjcxaEh5Y1lLUFdyZlphZDAwcVdDN1hRUmFYTTBfNm9PN211dw?oc=5
+
+### 尖沙咀キンバリーロードの建設現場で中年男性作業員が突然倒れ、病院に搬送されるも死亡
+
+【香港01】尖沙咀（Tsim Sha Tsui）キンバリーロード（Kimberley Road）の建設現場で、泥水作業員の中年男性が作業中に突然意識を失い、倒れました。男性は昏睡状態で病院に搬送され、救命措置が施されましたが、残念ながら死亡が確認されました。
+
+警察は現場で初期調査を行い、男性の死因について詳しく調べています。現時点では、事件性はないとみられていますが、詳しい状況は引き続き調査中です。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiowNBVV95cUxPcGF3aHg0WU1NenA0Rm1nZk9sUWtuTTZGbXlKOTVsaUVuMmZDM0VRMU82dGY2TjBJQW83akJmdFFMa0wwTTRvUWNOUzZsMjBQdnVaYUVLU1V1MmZFRlM0cVVMSHhaZndvNmtlOGNFcGtRYmVfM0E2OHFNNlR0SXpYakVjaDY4WkNIM1VkWW5GUkp6NXFvRFZqc0twbzJ2MU1UeGxhN0RabS1OMkpqSzZSbnFwWnBFYWRmN0J5RGlOUHdjdVVnNk1wU2N0NUMyV2tGZGk0WlZITl9jS2FGdk5CNmNWN09qTXdDanRDbTNrLVN4eDdLcERNUVZsdjVyLXdvdGZDM1BSay15OTZLN1VRTU5XWTZXOHJoNVdhaUk0QTNIR2pRNERUUmZJcHNtZXhzRVF0WlFkcUNPb1J4VGZQM0U0WWRGV0QzWjdqRVRxcnVPb09tblJqUWFDaEJsVmJGcHAxZFNnWExuUmpOaUJzeUlwemM2THRsU0RMZm1FMkZNZWtwYkZLVWxqZnlkSGRTYzlLWHdoc3lzZ1JaZmdpMGRYYw?oc=5
+
+### 康楽園の3遺体強盗殺人事件の凶宅が再び競売不成立、評価額の4割引きでも買い手なし、代理店はさらなる値下げを検討
+
+【香港01】大埔（Tai Po）康楽園（Hong Lok Yuen）で発生した3遺体強盗殺人事件の凶宅が、評価額の4割引きにもかかわらず、再び競売で買い手がつかず不成立となりました。不動産代理店は、さらなる値下げを検討していると述べています。
+
+この物件は、過去に発生した悲劇的な事件の影響で、市場での需要が極めて低い状態が続いています。代理店は、買い手を見つけるために価格調整が必要であると考えています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPejdaV0hUY2ZjLWpIc1ZuNTlOTkFxOUMwa25lWkx6aWtEZndMdzlQcEViTG1BVzRxZ0NXaGhTdndCTzBZOGxrTS1GaTBZUjlvOHltc1M1a3pWX3ZZM2J2eGxIc3QtQktxRWg2UEhyOEtSZnVKcGJMZ292YnZkVktzdkVFaXVpUkNuazRtdXl3V1E0UEdVVjY2WmFuOEQtbVltR1RQUkhkNG9WME94UUJZOFAtNFJTRjdOMnh2Qi1HVTRDTlRsYklmQlpreG55bFNBODNybWlwTTdSRVZqcFc4MW9iZ3ZOaVVKbnhHTDROeGhXVERTY3BJdGpWWDF3cmI0aThqZFR1S1FrVDhQWXJwOTU2WDhtNWVvQWRBUTQ5WGJua3hwX0Y1Wkc2alZNZFhqZHZZemN5aWlsV1VQRGFhZkFrX2RlWmxqMUpOemZtMkVBWDRGaEZpcEU1bjVXeC1YM3F6b0hOZ2ljdUtqUzRBR2w3MGFmZ05UYU5uTmVMSDA0MFNRMXZuUlpmRWNVaWVPblEyTnNwbnN0c3otZTlnTkItcWV2TWg1QU5Jc1dYekprLWF3YXlJTHJualp6UQ?oc=5
+
+### 心筋梗塞治療の「ゴールデン120分」を活かす、プリンスオブウェールズ病院胸痛センターが来年第1四半期に稼働開始
+
+【on.cc東網】心筋梗塞の治療において「ゴールデン120分」と呼ばれる発症から治療開始までの重要な時間を最大限に活用するため、プリンスオブウェールズ病院（Prince of Wales Hospital）に胸痛センターが来年第1四半期に稼働を開始します。
+
+このセンターは、心筋梗塞患者の分流と診断を迅速化し、入院から手術までの時間をさらに短縮することを目指しています。これにより、患者はより早く適切な治療を受けられるようになり、救命率の向上と後遺症の軽減が期待されます。プリンスオブウェールズ病院は、瑪麗醫院（Queen Mary Hospital）に次いで、香港で2番目の胸痛センターとなります。
+
+**引用元**: on.cc東網｜東方傳媒機構
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX25JckpDb3daUmVxVUhpdnpNcUtNNHFqMEtQZVQ4cnQxWGZmOWctOGZ6SFM4cThlZFNHRkhyUTZjR3BURlo3QXhsVU1sSmdRNGZ0NWRXcUxvUy04aFZpZzE0cG5yRndkXzdfLTdiOEpVQzNYZGxsMXJNWUVBeU9uSlNVdG5nRU1HVXE4?oc=5
+
+### 44歳男性教師が大動脈解離手術後に心不全、緊急の心臓移植が必要、病院管理局が緊急呼びかけ
+
+【香港電台新聞網】44歳の男性教師が、大動脈解離の手術後に心不全に陥り、緊急の心臓移植が必要な危篤状態にあります。病院管理局（Hospital Authority）は、市民に対し、亡くなった親族の心臓提供を積極的に検討するよう緊急の呼びかけを行いました。
+
+この男性教師は「熙sir」として知られ、2人の娘を持つ父親です。彼の妻は、「娘たちが再び父親を抱きしめる機会を与えてくれる心ある人が現れることを願っています」と切実に訴えています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE5vX0p6OTd5aWR0dXBlOGttM19WdG0ta252TDM4eEI5LWhDRGpHYTRHb1dzWFJEWnFfT3hVWkswdFRiRGFHUXN1YkUwbmlaNExCNjRVblpFV1hPWnpodldWUTdwLVdwUDNsVHJfRkE5cw?oc=5
+
+### 香港政府観光局と新鴻基地産主催の香港サイクリングフェスティバルが11月30日開催、チャンピオンライダーが2つのトンネルと2つの橋の新コースに挑戦
+
+【on.cc東網】香港政府観光局（HKTB）と新鴻基地産（Sun Hung Kai Properties）が主催する「香港サイクリングフェスティバル2025」が、11月30日に開催されます。今年の大会では、チャンピオンライダーたちが2つのトンネルと2つの橋を通る新しいコースに挑戦します。
+
+イベントを盛り上げるため、香港政府観光局は西九芸術公園（West Kowloon Art Park）の大芝生広場で無料の「香港サイクリングフェスティバルカーニバル」も開催します。このカーニバルでは、4つの新しいスポーツを体験できるほか、港隊のコーチによるサイクリングのヒントも提供されます。フルマラソンとハーフマラソンのコースは、まだ開通していない中九龍繞道（Central Kowloon Route）の一部を通過します。
+
+**引用元**: on.cc東網｜東方傳媒機構
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWHVVblFpRXpva09hNWZ0STlaUnVEUnY1ckgxU2RlTGdUc2kwdE50M0tkMllkSnpQX3V4cHNBNFl1SVVjSUdPZV9hZk1nZ0xWcHItMVpxTkN4X1ZoaEUzN2V4bDRhcW5OeEFQbmc1T1hTb1FiallMaWhoYVBqWjNTLXpZTU5FTzd3SUZJ?oc=5
+
+### 1香港ドルで焼味を堪能！チェーンレストランが限定割引、丸ごと乳鳩/ローストガチョウ/清遠地鶏から選択可能
+
+【星島頭條】チェーンレストラン「多彩皇宮酒樓（Duo Cai Huang Gong Restaurant）」が、1香港ドルで焼味（ロースト料理）を楽しめる衝撃的な限定プロモーションを実施しています。この特別割引では、丸ごとの乳鳩（乳飲み鳩のロースト）、ローストガチョウ、清遠地鶏の中からお好みの焼味を選ぶことができます。
+
+また、この老舗レストランでは、19.8香港ドルのローストガチョウライスヌードルや、クリスピーBB鳩の限定割引も提供されています。30年にわたり午前3時から営業を続ける「多彩皇宮酒樓」は、その味とサービスで多くの顧客に愛されています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMilwNBVV95cUxObDNyaTlod0tTY3dtS3NfOC0xTHVLUlpmd1A3LTJGaE0tTEhjWUlsZHVZNDNHcENXUXo1cl9xSTRVOEdJY1I0VGlFTXJZTENtSmN6enpGWVl1eXg2MDVUcHBvQXpnTEFUWGVBTlkzTkNJWDI2YlNNRzZHT0ZDVXVmS0J6N1pHZ1BZTy1uTUdpc1JRYl9xY3dWeFVvZ3o4eDBaODNWX1JkTXota3UzeU1JQnFMbEU2dlpCemJIYlFkc3BudFEydU5hWUxaNGw0RUlHQUl4RDFhVXZ6Nm9nWUtFY1FGTmVMb0lUUkFvaTluWlkwT0JnMmhvWDlEcmFQNlFZM2xQU2FxZzFVV0o4QzU3R1A1T3lKQnhlXzh1M3RFZ3RKUTJwdGJtOWNrbVYtUFA1YmRIRGJ4MlRrRjFqOE9sczRDZWktVHlrSXV5S0didzRBdlBjOWJYcW9zZFNqYTZXbTRMbjVBWkQ0Q0ZQXzA0QWtCb3FoQV9BOVl4YXJEeHp3eHdrc3NmZWpjVmFyR1B4NlU0NUI0UQ?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2025年11月21日 06:09

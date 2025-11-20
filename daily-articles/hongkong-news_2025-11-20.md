@@ -3,64 +3,289 @@
 ## 本日の香港の天気
 
 ### 天気予報
-香港天文台が2025年11月20日11時45分に発表した天気報告
+香港天文台が2025年11月20日12時45分に発表した天気報告
 
-乾燥した東北季節風が広東沿岸に影響しています。同時に、雲の帯がその地域を覆っています。正午頃、香港の大部分の地域で相対湿度は約40パーセントを維持しました。
+乾燥した北東の季節風が広東省沿岸に影響しています。同時に、雲の帯が同地域を覆っています。正午頃、香港のほとんどの地域で相対湿度は40パーセント前後を維持しました。
 
-香港地域の午後と今夜の天気予報：
-概ね曇り。午後の一部時間帯は晴れ間があり、非常に乾燥するでしょう。穏やかな北寄りの風が吹き、当初は沖合でやや強い風が吹くでしょう。
+香港地域の午後と今夜の天気予報:
+概ね曇り。午後は一部晴れ間があり、非常に乾燥するでしょう。穏やかな北寄りの風が吹き、初めは沖合で風がやや強いでしょう。
 
-展望：明日の日中は次第に晴れ、気温は回復し、非常に乾燥した天気となるでしょう。その後数日間は日中暖かく、日中と夜間の気温差はかなり大きいでしょう。
+見通し:
+明日日中は次第に晴れ、気温が上がり、非常に乾燥した天気となるでしょう。その後数日間は日中暖かく、昼夜の寒暖差がかなり大きいでしょう。
 
 **引用元**: 香港天文台
 
-### 中国が再び日本産水産物の輸入を停止、香港は10都県からの輸入禁止を維持
+### キャセイパシフィック航空、日本行きフライトの予約に柔軟な対応を表明
 
-【19:00更新】香港環境・生態局は『am730』に対し、「日本の福島原発処理水排出を受け、2023年8月24日より、東京、福島、千葉、栃木、茨城、群馬、宮城、新潟、長野、埼玉の10都県を原産とする水産物、海塩、海藻食品の香港への輸入を禁止しており、関連する禁止措置は現在も維持されています」と回答しました。日本首相高市早苗氏の台湾に関する発言により、日中関係は再び緊張しています。
+キャセイパシフィック航空は、日本行きフライトの予約について、最大限柔軟な対応を行うと発表しました。これは、高市早苗首相の台湾に関する発言が中日関係の緊張を再燃させ、香港の旅行代理店で日本ツアーの問い合わせが2割減少するなど、旅行業界に影響が出ていることを受けての措置です。同社は、中日間の旅行状況を注視し、乗客に柔軟な対応を提供すると述べています。
+
+**引用元**: Yahoo 財經
+
+https://news.google.com/rss/articles/CBMikwJBVV95cUxQMnF3ZnhrRnEwYW5lbU5vblpvSE43X2JhRGF5RzRXRGhVN1VsajdEZWxSQVlhdGx0bG1jYUJYQWZrWDZxUU5SREFDeUJaYlEyRnFBTG1KMzZDTlZCU2xNQ3hfQmVHMDY4R0NzbkNKOXNWQUJTaE5aY0tsVHl2U3E2VmJZSDFnX2ZjLThTOGtFN2FxWjJIa0wzeWhFU2NDRmhxbEstWmxPRC1MZW5xbThSaHFEamNuM1Yzcm5FRUR1LVdWeXpOTWdsX3laQjBOcF94OFBDTFhqWEh3d3ZIQkhFYWxubFVXX2RxYmlINGg0eFlzQ2tlNkZQR3VWTm8xRVhvLUp2VWd3cFotMWtlUGdQaDhHWQ?oc=5
+
+### 太古城の水道水汚染問題、住民は沸かした水で入浴、高齢の母親は転居
+
+香港の太古城（タイクーシン）で水道水の汚染問題が報告されています。一部の住民は給湯器が詰まり、水を沸かして入浴せざるを得ない状況にあります。ある住民の高齢の母親は、この問題のため急遽転居しました。水務署（水資源局）は、太古城の貯水槽と水道メーターの洗浄を完了し、水質は著しく改善されたと発表しています。また、水道水から検出された黒い沈殿物はアスファルトであり、人体に無害であると説明しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxQR0xCWDRUdzRhOWFUZkRBNWx4aEtEdnFSUmZCNnFjRHNZZGR1NVBJN3ZBWTFEVm9RQk1RVGZIRGFTd1I5WWRLeGFlWkY4UVpFdzBwS1U1VWtxdEdCemZxMS1iRWJydDZVRlJaSmlDZVlqU09VbVNkQVRjaHJ2RHJkbXJlMDFNWlg3WHE0SjRhWDBFc1NLenk2ekhHSXFFSElJMy1MemZlYWhhX2pGeHBQa1RHaGpuck9hRkl3M3VRVTMtWG9BcHV5WHpoT01SOUg3TmtJQW5aY2F1ZmNLODJjc3lfMmUwZ19RbVVJeUVGZGQtMjkwT2xETmVoYzE2R2pRYUV4Vnp5by1OSEJwaWRXckxxdFo4X2c1ejR1SXJIdmRQVXBwS19VdnlBVzVUUGJ2a3ozOHZfVGZDNllxdkYyYWRodW5BSXFRQVRpTHdDTlNQTXF3dlZ1MXpKa204a1ZNd0R3TWUzclQ2SVV0NHRWcDdCMGNqbTZGb2Z5dml2MGV5Qlg1MHNCU29RdUVLOGwyRzlfQnJRdEdwX2JFZnhNQ0pkOEJfeGNLR3pUS3lQUHdYWHdzVnowNjl2ZTNOUQ?oc=5
+
+### たばこ税表示制度、新聞販売店協会が「スローガン的措置」と批判
+
+香港税関が開始したたばこ税表示制度の第2段階パイロットプログラムについて、新聞販売店協会は「スローガン的な措置に過ぎない」と疑問を呈しています。同協会は、参加しているたばこブランドの全てにラベルが貼られているわけではないと指摘し、より多くの主要ブランドを対象に含めるよう提言しています。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNckxCem5oQ0pJdlBfZWFDMlZaaml1M2JqSXFlcTdOSC10SEVKMmVRRUhVR3lWMDdjTWQybTgxOERXN18zR3dBQjJfelVvXzNhSWNLaVJTb2RnZXFNaHh4YXo1T0JSU1o2djMwV3hTM1RFTmxsOVhlcV9SMzAwVlhocVdTTExFdV85Zkkw?oc=5
+
+### 香港政府、米中経済・安全保障審査委員会の報告書を強く非難
+
+香港政府は、米中経済・安全保障審査委員会（USCC）が発表した報告書に対し、「事実に基づかず、偏見に満ちた言論」であるとして強く非難しました。外交部駐香港特別行政区特派員公署も、この報告書が「一国二制度」を中傷するものだと批判しています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1xOFZQbHRYODIzckloY1pxZTBqMjRISnBhbmJycWFhLXVsT01GUmFNUFA2TDAxTUV5bEdLa0hQQVMwb1JTMWN0Zi1URV9WODc2QTBKNV9RbXpnaGI0RkV1WVlmQjlEb3dEY3VLX002aw?oc=5
+
+### 中国、日本産水産物の輸入を再度停止 香港は10都県からの禁輸措置を維持
+
+日本の福島原発処理水放出を受け、中国は日本産水産物の輸入を再度停止しました。香港政府は、2023年8月24日から東京、福島、千葉、栃木、茨城、群馬、宮城、新潟、長野、埼玉の10都県からの水産物、海塩、海藻食品の輸入禁止措置を現在も維持していると発表しました。この措置は、高市早苗首相の台湾に関する発言により、中日関係が再び緊張している状況下で発表されました。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/%E6%97%A5%E5%AA%92-%E4%B8%AD%E5%9C%8B%E5%90%91%E6%97%A5%E6%96%B9%E9%80%9A%E5%A0%B1-%E6%9A%AB%E5%81%9C%E9%80%B2%E5%8F%A3%E6%97%A5%E6%9C%AC%E6%B0%B4%E7%94%A2%E5%93%81-044123479.html
 
-### 英国のBN(O)ビザスキーム、最新のコミットメントにもかかわらず不確実性が残る
+### BN(O)ビザ制度の将来、英国の移民制度改革で不透明に
 
-英国は、特別な移住経路を通じて「帰国」した香港人へのコミットメントを再確認しましたが、ロンドンが「最も重要な移民制度改革」と呼ぶ変更が、このスキームにどのように影響するかは依然として不明です。今週後半には、亡命希望者が英国に永住するまでの期間を現在の5年から20年に延長するという提案について協議が発表される予定です。しかし、懸念が提起されています...
+英国は、BN(O)ビザを通じて英国に移住した香港人へのコミットメントを再確認しましたが、英国が「最も重要な改革」と呼ぶ移民制度の変更が、この制度にどのように影響するかは依然として不明です。今週後半には、亡命希望者が英国に永住するまでの待機期間を現在の5年から20年に延長する提案について協議が発表される予定です。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/politics/article/3333222/britain-reaffirms-support-hongkongers-bno-visas-amid-sweeping-asylum-reforms?utm_source=rss_feed
 
-### 香港ストリートマラソンが日曜朝に開催、複数箇所で道路閉鎖、70のバス・ミニバス路線に影響
+### 香港街馬2025、日曜日に開催 未開通の中九龍繞道がコースに
 
-秋晴れの爽やかな季節、スポーツイベントが次々と開催されます。ケリー香港ストリートマラソン2025チャリティランが今週日曜日（23日）の朝に開催され、フルマラソンおよびハーフマラソンのランナーは、まだ開通していない中九龍バイパス（油麻地セクション）を走ることができます。香港島北部、九龍東部、将軍澳の複数箇所では、当日午前1時から段階的に一時的な特別交通・輸送規制が実施されます。道路閉鎖の影響により、56のバス路線と15のミニバス路線が段階的にルート変更、短縮、または停留所の移転を余儀なくされます。運輸局は、香港の多くの地域で...
-
-**引用元**: Yahoo News HK
-
-https://hk.news.yahoo.com/%E9%A6%99%E6%B8%AF%E8%A1%97%E9%A6%AC%E5%91%A8%E6%97%A5%E6%97%A9%E4%B8%8A%E9%96%8B%E8%B7%91%E8%A1%8C-%E5%A4%9A%E8%99%95%E5%B0%81%E8%B7%AF70%E5%B7%B4%E5%B0%8F%E5%B7%B4%E7%B7%9A%E5%8F%97%E5%BD%B1%E9%9F%BF-203037823.html
-
-### アジアカップ予選：シンガポール大臣が香港チームとファンを「馬鹿」と嘲笑、批判を受け謝罪
-
-アジアカップ予選第3ラウンドで、香港代表チームは火曜日（18日）に啓徳メインスタジアムでシンガポールと対戦し、1対2で敗れ、2027年アジアカップ決勝トーナメントへの進出を逃しました。オンラインで拡散された映像によると、シンガポール文化・地域・青年省代理大臣のデビッド・ネオ（梁振偉）氏が試合後、ロッカールームでシンガポールチームと祝賀している際に、香港のファンを「馬鹿」（idiots）と嘲笑し、香港代表選手も「馬鹿のようにプレーした」と発言しました。これに対し、周囲はすぐに騒然となりました。ネオ氏はその後、オンラインで発言を撤回し、「もっと敬意を示すべきだった」と謝罪しました。
+「嘉里香港街馬2025慈善ラン」が11月23日（日）の朝に開催されます。フルマラソンとハーフマラソンのランナーは、まだ開通していない中九龍繞道（セントラルカオルーンルート）の油麻地（ヤウマテイ）区間を走ることができます。当日は午前1時から、香港島北部、九龍東部、将軍澳（チョンクワンオウ）の広範囲で段階的に一時的な交通規制と公共交通機関の変更が実施されます。これにより、56路線のバスと15路線のミニバスが一時的に迂回、路線短縮、または停留所変更の措置を取ることになります。運輸署は、香港の多くの地域で交通渋滞が予想されると発表しています。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E4%BA%9E%E6%B4%B2%E7%9B%83%E5%A4%96%E5%9C%8D%E8%B3%BD%EF%BC%8E%E6%9C%89%E7%89%87%EF%B8%B1%E6%96%B0%E5%8A%A0%E5%9D%A1%E9%83%A8%E9%95%B7%E6%A2%AF%E6%8C%AF%E5%81%89%E8%B3%BD%E5%BE%8C%E5%98%B2%E6%B8%AF%E9%9A%8A%E5%8F%8A%E7%90%83%E8%BF%B7%E3%80%8C%E7%99%BD%E7%99%B癡%E3%80%8D-%E6%8D%B1%E8%BD%9F%E5%BE%8C%E6%80%A5%E8%87%B4%E6%AD%89%EF%BC%9A%E6%87%89%E8%A9%B2%E5%B1%95%E7%A4%BA%E6%9B%B4%E5%A4%9A%E5%B0%8A%E9%87%8D%EF%BD%9Cyahoo-013917978.html
+https://hk.news.yahoo.com/%E9%A6%99%E6%B8%AF%E8%A1%97%E9%A6%AC%E5%91%A8%E6%97%A5%E6%97%A9%E4%B8%8A%E9%96%8B%E8%B7%91%E8%A1%8C-%E5%A4%9A%E8%99%95%E5%B0%81%E8%B7%AF70%E5%B7%B4%E5%A3%AB%E5%B0%8F%E5%B7%B4%E7%B7%9A%E5%8F%97%E5%BD%B1%E9%9F%BF-203037823.html
 
-### プリンス・オブ・ウェールズ病院に香港で2番目の胸痛センターを設立、急性心筋梗塞の救命時間を短縮へ
+### シンガポール大臣、香港代表チームとファンを「白痴」と嘲笑し謝罪
 
-心臓病は香港で3番目に多い死因であり、特に急性心筋梗塞の患者は、治療の「ゴールデンタイム」を逃さないことが重要です。発症から120分以上経過して治療介入が行われた場合、死亡率が著しく上昇します。病院管理局は、プリンス・オブ・ウェールズ病院に香港で2番目となる胸痛センターを設立しました。これは、クイーン・メアリー病院に設置された最初の胸痛センターの経験を参考に、グリーンパスの導入や迅速な登録システムの構築など、標準化された治療プロセスを推進するものです。これにより、心臓発作が疑われる患者が病院に到着してから診断、手術に至るまでの時間を可能な限り短縮することを目指しており、来年には...
+アジアカップ予選の第3ラウンドで、香港代表チームは11月18日（火）に啓徳（カイタック）のホームスタジアムでシンガポールと対戦し、1対2で敗れ、2027年アジアカップ本大会への出場を逃しました。試合後、シンガポールの梁振偉（デビッド・ネオ）文化・コミュニティ・青年省代理大臣がロッカールームでシンガポールチームと祝賀している際に、香港のファンを「白痴（idiots）」、香港代表選手も「白痴のようにプレーした」と嘲笑する動画がインターネット上で拡散しました。この発言が批判を浴びた後、梁氏はオンラインで発言を撤回し、「もっと敬意を示すべきだった」と謝罪しました。
+
+**引用元**: Yahoo News - HK
+
+https://hk.news.yahoo.com/%E4%BA%9E%E6%B4%B2%E7%9B%83%E5%A4%96%E5%9C%8D%E8%B3%BD%EF%BC%8E%E6%9C%89%E7%89%87%EF%B8%B1%E6%96%B0%E5%8A%A0%E5%9D%A1%E9%83%A8%E9%95%B7%E6%A2%81%E6%8C%AF%E5%81%89%E8%B3%BD%E5%BE%8C%E5%98%B2%E6%B8%AF%E9%9A%8A%E5%8F%8A%E7%90%83%E8%BF%B7%E3%80%8C%E7%99%BD%E7%99%A1%E3%80%8D-%E6%8D%B1%E8%BD%9F%E5%BE%8C%E6%80%A5%E8%87%B4%E6%AD%89%EF%BC%9A%E6%87%89%E8%A9%B2%E5%B1%95%E7%A4%BA%E6%9B%B4%E5%A4%9A%E5%B0%8A%E9%87%8D%EF%BD%9Cyahoo-013917978.html
+
+### 威爾斯親王醫院に香港で2番目の胸痛センター開設、急性心筋梗塞の救命時間を短縮へ
+
+心臓病は香港で3番目に多い死因であり、特に急性心筋梗塞の患者は「黄金の救命時間」を逃さないことが重要です。発症から120分以上経過して治療介入が行われた場合、死亡率が著しく上昇します。病院管理局は、威爾斯親王醫院（プリンスオブウェールズ病院）に香港で2番目となる胸痛センターを開設しました。これは、瑪麗醫院（クイーンメアリー病院）に設置された最初の胸痛センターの経験を参考に、グリーンパス（迅速対応ルート）や迅速登録システムなどの標準化された治療プロセスを導入し、心臓発作が疑われる患者が病院に到着してから診断、手術に至るまでの時間を可能な限り短縮することを目指しています。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E5%A8%81%E9%99%A2%E8%A8%AD%E5%85%A8%E6%B8%AF%E7%AC%AC%E4%BA%8C%E9%96%93%E8%83%B8%E7%97%9B%E4%B8%AD%E5%BF%83-%E5%8A%A0%E5%BF%AB%E6%80%A5%E5%BF%83%E6%A2%97%E6%95%91%E6%B2%BB%E6%99%82%E9%96%93-203039877.html
+https://hk.news.yahoo.com/%E5%A8%81%E9%99%A2%E8%A8%AD%E5%85%A8%E6%B8%AF%E7%AC%AC%E4%BA%8C%E9%96%93%E8%83%B8%E7%97%9B%E4%B8%AD%E5%BF%83-%E5%8A%A0%E5%BF%AB%E6%80%A5%E6%80%A7%E5%BF%83%E6%A2%97%E6%95%91%E6%B2%BB%E6%99%82%E9%96%93-203039877.html
 
-### 香港の英語能力、4年連続で低下し世界ランキング39位に、マレーシアやフィリピンを下回る
+### 70代女性の死亡、専門家が病院の対応遅れを指摘
 
-世界最大規模の英語能力ランキング報告書であるEFエデュケーション・ファーストは昨日、「2025年EF英語能力指数」を発表しました。今年の香港の総合スコアはさらに538点に下落し、世界ランキングは39位に後退しました。これは4年連続の低下であり、「中級レベル」を維持するにとどまり、アジア地域の主要な競合相手に差をつけられています。この報告書は、2024年に世界123の国と地域、合計220万人の非英語圏の成人を対象としたテストデータを分析したものです。
+中国本土で体調を崩し香港に戻って受診後死亡した70代女性の死因について、専門家は病院が症状に十分注意を払わず、適切なコミュニケーションがあれば遅延を避けられた可能性があったと指摘しています。女性の家族は、北区医院（ノースディストリクト病院）が中国本土での診断報告を受け入れなかったため、検査が遅れたと主張しています。専門家は、診断の遅れが生存の機会に負の影響を与えたと証言しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxQaVBLUlU2bXhvN1pGbDdEM0pnNWZpU19JWExaWTY0azBDRHB6M0hIZjNpTXhlUDY0elhiUnNtaUJZZk9iUnB6LXE0T2lTbllXUTJVVFBDYWpMRHl5WWQ5RWNndEFXcGE4NEhhdExCdDRUMHo3M1ItZHBybS1iNEFWV1ZLaVM1aWx5UlU4cHliUVd6Z2s2WDZtTzloMlhfNVdJX1Z3S3E5TTJ4MldCdGVjR2hzTnVHaWpTdGZvV0JGRkpRdlBSc2V6T2gtMzkxZ3RsSmFmM0xZRmphekd3akwzWU9xc0dJYzlsR2hKWnpHWkczQnFiSmtHSU9abTF2TTNUSGZCcWUtWVB6SnVVbWRLQ2RiaUZpbkU1WUZBUmV5d05NazdvLVVzMXNRelVWcURzUllPVjByeFRjcnY2dXdLX1RBdlBtZGxpYlYzYk5QQlFDV0J3cjdvMlV0SlJuOFlQTEpjanJUMDhOcklJOVRIUURuVDlIWndRcEZ4NndIVGt4TjRfRFI2bG1vT040M2lYeWxGU25CQ1BKZlh0dTExbXBoT1pEM2xfbnB2RF9CQW03anE4Q3NDeFNVTW9NclJScjJ4blhFOVM?oc=5
+
+### 「K金大王」胡楚南氏、女性アシスタントへのわいせつ行為で禁固2週間
+
+「K金大王」として知られる81歳の胡楚南（フー・チョーナム）氏が、女性アシスタントへのわいせつ行為で有罪となり、2週間の禁固刑を言い渡されました。弁護側は保釈を認められ、上訴を待つことになります。裁判官は、胡氏が反省の態度を示していないと指摘しました。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXRZeWlxdW01ZVZYbEhJQ05UQ3ZSc3pTQ3Ixem9WbHhGcW5qUG52OTY0VjFIcmdJS2xUY3lyNkpFSm5lV3NaOVVsTFB6SDZSV0xnOVRmZVg0UzZLUjJvYUNnREdkR3BkUEtRRW1kYWY0MXpfT2JEYXY4R21fSDBPTzZINFk4Ny03NFY4?oc=5
+
+### AIウェアラブルデバイス、心臓の健康維持に貢献も高リスク層での利用率が低い課題
+
+AIを搭載したウェアラブルデバイスが心臓の健康維持に役立つことが示されていますが、心臓病のリスクが高い人々における利用率が低いことが調査で明らかになりました。専門家は、これらのデバイスの利点について、より多くの教育と支援が必要であると呼びかけています。
+
+**引用元**: unwire.hk
+
+https://news.google.com/rss/articles/CBMijAFBVV95cUxOQTF6ZHVSVUptazVNUDFxV0lQcHRrMXRpUGpPazhnQnV5Ql9IV1ZuengyTmtpdS1pWFR6REFOS09VaGQtSVF4UlhCZDItdHFVc3BhTzd2cDBvNzV6bTN6THlWZnV5VHRRTzYyQWxqUUpLVVNnd0tVSGJEdHlQTi1xLV9RbS1zTkJEQzFGZtIBkgFBVV95cUxOa0hfazVsZTBWT0h2N1lqZXY4UUVoWlVUZ1dTOE5feHhFQlNfd3lSUFZEUERoUVBXM3o1VFFkWHo5WHVLU0FlcjEzV2FtTGQxY09CNUtRSXNGUm56cHpYamJ4Q2VqU3JJNk1hSlNERUVmZlpIWDg1U004R2pQbklSZzZsWlNyYTRhV0cwMVBtVC1jZw?oc=5
+
+### 火炭殺人事件、中国本土から容疑者3人を引き渡し、逮捕者は計10人に
+
+今年3月に火炭（フォータン）で発生した殺人事件で、香港警察は中国本土の法執行機関から容疑者3人を受け入れました。これにより、この事件に関連する逮捕者は合計10人となりました。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE02bHgydmVrX2k1aFZUczd1OTgwOHAxU3cyTDlkWGhFb09Qb0ZySF9wS2VIajVOVTBlbV9jdXVtbU1ELWRsQkhoOExUM29ncG4tV2M2bXBnN3pVZWplLWVhVmFSMFJVVFp0YVV0R3R5MA?oc=5
+
+### チェーン米線店が高齢者向け新割引、長者咭・楽悠咭提示で米線8ドル割引または無料ドリンク
+
+チェーンの米線店が、高齢者向けの新たな割引サービスを開始しました。長者咭（高齢者カード）または楽悠咭（JoyYou Card）を提示すると、米線が8香港ドル割引になるか、無料ドリンクが提供されます。本日は「高齢者の日」にあたり、約3800の店舗が割引や特典を提供しています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMilwNBVV95cUxPdjd2R3dPRU1ad2hyYl91SG9pLURfS0otYXNLcWI3YVkxUm41T0lIcXpOSnNSUXIzQ0hHdkNCS2F6cV9TSi1qTWt1dVV3cVlkaWJEWG5HVnRHRExtRWd0b21EUVVLN0QtV211YVhRNzRCNlNyWTVHcTVobmdqcXJ4QTVBa1pHZzB6bjJTY1VFaEdvWEI5NElBZnkzaS1rWVM2ZjgyTlEyd2w3Wl9BYXh5Yi1DSmxpYXc1TVcyemNMTWlzZ0dkbmJudkJNZlVtRU1nNFNnMHRVTU1XY0pseUlMdG9rT1pBUHBqdElYZDlKd09TT1pUU1hfQ0lBZzFsX0JRSDlKOF9DTllGeF83a3RnMHFERDJ6ZVowUnhQbVVVVUlScmpaYnJMcEJtVlBENkpfekhyTThEYnVCaUpMb0o3cU04cWFHUURzNm9JZ19KMTRDeWRBSEdXSmYyTHhFQWJfV1c0Zk9IWEl6ekZEamEyY2s1aW1ULUJiMWIxUFZqZ2d2QXVKMWMxQWZLb00ybjJzcHJubXZVaw?oc=5
+
+### 香港自転車フェスティバル11月30日開催、チャンピオン選手が新コース「二隧二橋」に挑戦
+
+香港観光局と新鴻基地産（サンフンカイ・プロパティーズ）が主催する「香港自転車フェスティバル」が11月30日に開催されます。6000人以上の参加者が集まり、チャンピオン選手たちは「二隧二橋（2つのトンネルと2つの橋）」を含む新しいコースに挑戦します。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWHVVblFpRXpva09hNWZ0STlaUnVEUnY1ckgxU2RlTGdUc2kwdE50M0tkMllkSnpQX3V4cHNBNFl1SVVjSUdPZV9hZk1nZ0xWcHItMVpxTkN4X1ZoaEUzN2V4bDRhcW5OeEFQbmc1T1hTb1FiallMaWhoYVBqWjNTLXpZTU5FTzd3SUZJ?oc=5
+
+### 沙田亜公角街でミニバスと乗用車が衝突、バス停に乗り上げ7人負傷
+
+沙田（シャーティン）の亜公角街（アコンコックストリート）で、ミニバスが乗用車と正面衝突し、その後バス停に乗り上げてフェンスに衝突する事故が発生しました。この事故により、7人が負傷しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi7AJBVV95cUxNSE5neHFNZUwzcXFsY1AzcENXZGFsYUNLM3BILU85QVJJNnNWYm1fUHBGRkI2SXZwMDVPNmdTT0RFVkQ0NW9BWHZLQUlCMmR4eTFLUWdwSFJwdzdITE1pN0NwLVpERndadE1CSi1SVS1iNnJ3N1VOeDExWW9Ea2gySzB5N25PdUloV3Q3Unp4U2JOYTZHdFM2MGpoSUxUNmxPTFRzUUM5alg4M014TFNSdE5vbVJLeFhzWlR2U3hQWW02QXJ2SFNpd1dTWXkwM0ViNjU3a2ZteTNxMjZwdFQ4NGNvVXgyUXhIUDUzSFc4WVdZT2lXZ1FDVzBLeXNrN2c3TE9CbzhzamxnbGcySXhDeV9iR1lNNUZrQ2VlMHFoMjRCMVNzRnJIcHI5QkxIcTY0ZHNRSzdoY1JVN1dMeHJOa3N0cEtTazVXQ1d4a0dIdGNqTmpYOU9FWDZpallLbHhCQkZ4SHRMWk9Ebkwz?oc=5
+
+### ブラックフライデーセール2025、ホテル500ドル、航空券200ドル割引など
+
+ブラックフライデーセール2025が開催され、ホテルが500香港ドル、航空券が200香港ドル割引になるなど、様々な特典が提供されています。Trip.comでも、香港・マカオのホテル、チケット、交通機関に関するお得な情報が継続的に更新されています。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMirwFBVV95cUxOY0RBQVZZRENrVE9Mc2lzeTZKNGlFMDREN2c0a2pRdHNzOUdoNHlCX1lCajJmTlkyWTVaa0F4Q3FsaURNUHVidnlJZEstdThfWkNsNE9nUEFValNzUVI4RUl6UUxHcEROTVlMaTJOcEVtUjRpb3gxS1RheVlRSVBiNXY1SkNoa0ExYmUtYUxtU3JxVTN6eFkzZHBreThuXy1wa016TWVwbUJWM0hfbXFZ?oc=5
+
+### 貨物機墜落事故で2名死亡、犠牲者の姉がボーイング社のガイドラインに疑問
+
+貨物機墜落事故で2名が死亡した件で、犠牲者の姉はボーイング社のガイドラインがエンジン故障時でも離陸を許可していることに疑問を呈し、「誰を責めればいいのか？弟を返してくれるのか？」と訴えました。予備調査では飛行プロセスは正常だったとされていますが、推力レバーの制御不能の可能性も調査中であり、専門家は人為的要因の有無についても調査が必要だと述べています。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMi6wRBVV95cUxQckFYSnJZS0lweWNEYnBLcllraDVUZF9Tb3M0Ymc1OFFjNXFWSllkQngwSUlna3hDa1pLQTZONXBDWm5hanMtZmYtOVQtZkJQYVZqZXMwcHIyZENSQVVWVi1PMXdWX0dBbGNqNWdraU5mSkluaGEwMkxQLVBhOUxzbnpBU0taVENUcVE4YUFCRjVRMUhJc0hxWnZTQndUYm1hazQwSWhJdERDZnJMd0JQdWlNZ1A1VHhEeFhBdVRBMDhGYm94S0NHNXBGd1N6WW5xaGhMSzF4cjl1TUtzSmotN1I4WkNHVEpUQ2xwelpvLUhqbkhhcFZ0bmVKbmZwZG1OaXhxQm5sT1VGTjlDRmx3Y2VIMUhEcm5VUVItblRMNGFqMDJmZ3hySmR1UkhlT2lUd2RxcnNaeDlQc2pZc1VuR3lBeWF2RUdCX2pkRk1NNzhieEhRSk4wVThpdV9jVDU5MjRUNXR3elJJUUdIVTg4eVI1VXkzWFJtNXpVSzhYNnFPcUZIaExtUUJkWDFfSmd4SThMVmI0bE1PcTg1cWwtYTZfMXlfb1FIcXlPcXhJR1d4YVpmWFpPV2p1cDRGVGRQMWxZUWtFOXRRZ3pqeXhuQ1VhZjlkOVFWVXdwd0M3cl91d013TjdhM293d1AxSGhicFgzSEhHZWpDZUpNNmZFTlEzV1g2WTBZbURyQmZKaGRVdE1WQWNlcEtGbFdta0NPQ2JrX2V5ZF9TLWljTllPd2dKTHFXSkV6UVgzMS1PQzRlTW5PVE1OU0dKS0FKN1NMd3ZuakN1TnpkMkQzZ0RUZEowTDJGazl2U1Ew?oc=5
+
+### 香港旅行の注意点：中国本土の女子学生が5000ドルの罰金、「本土では自由にできるのに」と不満
+
+中国本土の女子学生が香港で特定の行為をしたため、5000香港ドルの罰金を科されました。彼女は「本土では自由にできることなのに」と不満を漏らしており、香港と中国本土の法規制の違いに注意を促す事例となっています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiogNBVV95cUxOazNVU3NoNGtDWVp5WGRnRnR4a1B0YVctTzNyU2R3b1doU0dIa1g2SmVrdDFydnRVZVlnUVRGcG5ZUUJjUzNBMUxKZllIaWd0a1pic2hQYTh3ZmRQVnJpMHRBX1pDWG1iUmx1d0JYV3dWZUFXYzA0VGVvRWc0THJrLVpSUTM5N2h6TWEwSTEwVmpLZjJ1YnEzbkdPV2IzNTR5UnY5eGxVU2o1MGJkSjg4dGlocFlkcUJqSXRYdkZUblhvR1dTZENyS1d1ZVQwMGtnZEd5eEwtUzF4MU1qeGQwd1Bva0JKd29GNUJvNFBndEliREhLTmJwcm51cm04V3AzWkxRTlA2OGRqNTdCY0ZoRjVPU3N1OG5UWW5RS2pNNnU3LWtUMkZJU2JGS0MwZjMxdk9PU21adVY3WS12REFZNjBZQVdYSDRnSHlPUzVrRGNXMTBMakNaVkdzaXM5Z01iUkxVcjRuM21oaTMwYVVweFBSMGtKMU9nd05UQ0phSVRROTg1Rng0b2dSbS1hR0wtRGdCN3R2ZUgxbkhGTjMwWHdR?oc=5
+
+### 廟宇文化節が12月中旬に車公廟外で開催、無料の無形文化遺産ワークショップやガイドツアー
+
+12月中旬に沙田（シャーティン）の車公廟（チェーコンミュウ）外で「廟宇文化節（寺院文化フェスティバル）」が開催されます。このイベントでは、無料の無形文化遺産ワークショップや、8つの歴史的寺院でのガイドツアーが提供されます。来場者は「打卡（チェックイン）」することで記念品と交換できます。香港故宮文化博物館でも「古埃及文明大展」が開催され、エジプト当局はアジアからの観光客誘致に期待を寄せています。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMi2wRBVV95cUxOVFJXODNlLXV2MEZPRmFwY3dINUJUTlJ2aFVaUGExdVlybDB0eE1JODNUR2sxNGpFS081alBMdnN6djhLLWRWTWZyenhsYWh4TnpkcWFuS2J2OWI5c1U1cnRSWDZGV1dLc1hORzRTbjdDRHAxdmNCNzFCemZMTFU5VjJyeTdtLW0ycHYxaUhyWkVlcWNZT00xN0dBMWY1cXAzOXkyNHZsZnlXLTg5UUkxdDlUVlduVld4Q1ZyY3N3Y1FkSEcxZ1JRU18wU1FWMGpJemVNbGhkVl9mVTd1NmJPSFlpclRLaHBPbmoydUdiT3JrQXZqUktZM3dpczl2NldqUUdiLUlDcEVid1hwTklGN3p3bm85SE1TOTZuaDU4bVRWOGNBZExZa3ZleFE5djJPbTh1N3BQVFhwRHZxRHNwN3ZzWXA5cTZGcEd1a2RoVFR2N0VCX2dyYUVqMXNZbWpwdHh3VlhGRklhOVBkR0Z4YWZUbm5JQVNJb3BpRGQyS1dYb2J2bll2SGpma3dRb3lmVUZPdXQ2a1pPdjc4VnhtMkdaeXNKa2ZReFk4djVNczJlWmFXWm5KQnQtelhFOEM4U0RXbWxudTB0aHhiaVZocEhDYVE5WHktbVlhRFBFZThsdjhqblhuZlc4WnZ0a3BYVWliMFd1NUlCZ0dyNmtFTVBZMS13X0dDNUFvUUVHbnE4ZGZoTVVuT1l5VHNzaHB1ZjFCSHJVTENiRlFPLWxwUk5ycFBxSjVvMl9pNDhVVUNESjRKc2VRcG5lS2FiY183akZvcHR1cHoyYTQ?oc=5
+
+### 虚偽の海外運転免許証で香港免許取得を試みた8人が起訴
+
+8人の男性が、虚偽の海外運転免許証を使用して、試験なしで香港の運転免許証を直接取得しようとしたとして起訴されました。彼らはパキスタン人男性で、偽造されたパキスタン運転免許証を運輸署に提出した疑いが持たれています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE8xQlFsRlZBdWd2VFc4RlRGbklkUzBwWFVFQnAybUJqSUNpdWdOdjJjSE1MeGNWcE5WZi16QUR1VjgxMFZCWkY0VXl3MjcxaEh5Y1lLUFdyZlphZDAwcVdDN1hRUmFYTTBfNm9PN211dw?oc=5
+
+### 尖沙咀の建設現場で中年男性作業員が倒れ死亡、警察が原因を調査中
+
+尖沙咀（チムサーチョイ）の金巴利道（キンバリーロード）にある建設現場で、中年男性作業員が作業中に突然意識を失い倒れました。病院に搬送され救命措置が施されましたが、死亡が確認されました。警察は現在、死因を詳しく調査しています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiowNBVV95cUxPcGF3aHg0WU1NenA0Rm1nZk9sUWtuTTZGbXlKOTVsaUVuMmZDM0VRMU82dGY2TjBJQW83akJmdFFMa0wwTTRvUWNOUzZsMjBQdnVaYUVLU1V1MmZFRlM0cVVMSHhaZndvNmtlOGNFcGtRYmVfM0E2OHFNNlR0SXpYakVjaDY4WkNIM1VkWW5GUkp6NXFvRFZqc0twbzJ2MU1UeGxhN0RabS1OMkpqSzZSbnFwWnBFYWRmN0J5RGlOUHdjdVVnNk1wU2N0NUMyV2tGZGk0WlZITl9jS2FGdk5CNmNWN09qTXdDanRDbTNrLVN4eDdLcERNUVZsdjVyLXdvdGZDM1BSay15OTZLN1VRTU5XWTZXOHJoNVdhaUk0QTNIR2pRNERUUmZJcHNtZXhzRVF0WlFkcUNPb1J4VGZQM0U0WWRGV0QzWjdqRVRxcnVPb09tblJqUWFDaEJsVmJGcHAxZFNnWExuUmpOaUJzeUlwemM2THRsU0RMZm1FMkZNZWtwYkZLVWxqZnlkSGRTYzlLWHdoc3lzZ1JaZmdpMGRYYw?oc=5
+
+### 建設作業員、バーの女性ボクサーへの監禁・強姦容疑で無罪判決
+
+建設作業員がバーの女性ボクサーを監禁し、強姦したとして起訴された事件で、被告は「性行為であり、強姦ではない」と主張しました。陪審員は全ての罪状で無罪を言い渡し、被告は即時釈放されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPaFNDMXhxMVoydEswMms3RDBQUGdWQnkzNkZZcFBFQUxDZVhXeVAzM1ZpUVd2QVBvMEJrQWpqOThxRlVpZl95RVdfcnIyNHhYd0h0U1dpMTl0UFFuMGowMlpxcHJ1UXY4SHR0X1RiMmJhcUdqMmd3cnhGYlVGcUQ0Q3l6TENwaFM5ZmJEOEM5NzllOFlDQmhzTFVZV3pWMThEbERZMWJGZFlsVXo2ZTdTOHk3YXRzLXZQYzV5bWxHWW5zUHQtY0Y3OTZaam4tcTcxVlNyMU02bEtSWl9tOHgtcV9KVi1mUXFQcC1CT3RhbWlqc1EzemNyc3BVSENPQ1VvcHVpZjVadjNWb3ltRnNDdGd5UW5KTC13aWUtNkFGX1BzSFZmVGxlVGE2dV9jYXh4cFo4bUowcEQ3RUZBOHA3cVBqUFFlRUNfVm4yb0VBRlc2cmlSMlhPaGJfcmJnckl1WkxPN2l1VHRKZnBSQ0JCVTAxMS1neXdWTUpfb3FsWFgzQXdaenF4YlRsWUVJZDNoNkx1NVBCZjBtM1NBWHpITnZXSE55dERWOWFfc2RkR0FFenZua3BsWmZpekhJUQ?oc=5
+
+### 康樂園の殺人事件現場となった事故物件、評価額の4割引きでも買い手つかず
+
+康樂園（コンロクユン）で発生した3人殺害強盗事件の現場となった「凶宅（事故物件）」が、再び競売で落札されませんでした。評価額の4割引きという価格にもかかわらず買い手がつかず、不動産代理店はさらなる値下げを検討していると報じられています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPejdaV0hUY2ZjLWpIc1ZuNTlOTkFxOUMwa25lWkx6aWtEZndMdzlQcEViTG1BVzRxZ0NXaGhTdndCTzBZOGxrTS1GaTBZUjlvOHltc1M1a3pWX3ZZM2J2eGxIc3QtQktxRWg2UEhyOEtSZnVKcGJMZ292YnZkVktzdkVFaXVpUkNuazRtdXl3V1E0UEdVVjY2WmFuOEQtbVltR1RQUkhkNG9WME94UUJZOFAtNFJTRjdOMnh2Qi1HVTRDTlRsYklmQlpreG55bFNBODNybWlwTTdSRVZqcFc4MW9iZ3ZOaVVKbnhHTDROeGhXVERTY3BJdGpWWDF3cmI0aThqZFR1S1FrVDhQWXJwOTU2WDhtNWVvQWRBUTQ5WGJua3hwX0Y1Wkc2alZNZFhqZHZZemN5aWlsV1VQRGFhZkFrX2RlWmxqMUpOemZtMkVBWDRGaEZpcEU1bjVXeC1YM3F6b0hOZ2ljdUtqUzRBR2w3MGFmZ05UYU5uTmVMSDA0MFNRMXZuUlpmRWNVaWVPblEyTnNwbnN0c3otZTlnTkItcWV2TWg1QU5Jc1dYekprLWF3YXlJTHJualp6UQ?oc=5
+
+### 50代香港人男性が妻を亡くし、子供も遺言もなし 移民した甥が遺産分割を主張
+
+50代の香港人男性が妻を亡くし、子供もおらず、遺言も残さなかった場合、移民した甥が遺産分割を主張するケースについて、香港の相続法がどのように規定しているかを解説する記事が掲載されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxPcDVpaGFPc0NsMHlCY1RFNXZHTy1yNlFKbUZ2aXUxZ2MyMURNR3I4WXlaMGZ3QzNiODg0QmJVQjBPNkgxVzJsWVVfdkNuaEFOanlacS14MUVXdnpyTnVMLWJPR24xcEtWaF9SbjNGX0dWQXlFMndtTHhCTlZuc3dFdEtKRkdvdzlCS21CQnZBbmxSTmJKUk53MTFnS2habWhQSEg1N3AtVExLNE9OQlUzcW9pbnB1TTU3cTEyNTlVS2ROTTVYUVptVk0yOWhBUG91OXBKRzV3UTJhWFdVb0VkRkM2dmJTYWFWa0hSVU1uc0pFUEh0UTFscV9ldXJVSWo3bHllaXAtdGpHbjY2Q0NxcElPNlpRWEdGbkxqTUFsSE4wd3RIWVJPTVZxc181bmdZYml3QUlaWDBUWm9LWHFGTTRfXzJKTV9PdHAtN09zRWxPM01BYUNHYkd2Vy1odFVJR2lzQ09KaHFabXppRmZKeVoxT1l2T1JMUV91NVJBMDk5UWwwZ0JfaE9RcTdtU3FFdzN3eWlLVmJNbXc?oc=5
+
+### 旺角の路上で薬物中毒の男2人が職務質問を受け、176万ドル相当の薬物を所持し現行犯逮捕
+
+旺角（モンコック）の路上で、薬物中毒の男2人が警察官による職務質問を受けました。その場で176万香港ドル相当の薬物を所持していたことが判明し、現行犯逮捕されました。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMimgJBVV95cUxPTXhIemY2bVpWd0xReVN3RWZaZTdtUGYtUHRyMndsRHBVTF9kNTM4cnNaa3RZdnBNZmV0NVJad3BoUTlsVjJUVGZ3RDl0V2c3MXRsR2t5RU0zaC10b1o2YkZjREp1dFQ0bkNRS1dUZnl5Z2ZVamZmanJVeTdKbDMxYWpjT0wzbndBU0VyYXZXOUJqQjR0RWJ5N0tETDRFY0xVa3N2c0VKN2c0UEI0SW1rX1FqSmstMEotVDdUdzJ1S1dwelE2cTJFa2NTWV9VNnNDdjJaTHkzX09RRlJFa2JsbURxQlNVNTRqcy1mcjdaNWt6eFhFenliMXg2TWdzN1B6ZTB0UDc4TVRvT1l0WTR0N012c2MxaUZtQ3c?oc=5
+
+### チェーン飲茶レストランで1ドル焼き物料理の限定割引、乳鳩や焼きガチョウなど
+
+チェーンの飲茶レストランで、1香港ドルという衝撃的な価格で焼き物料理が楽しめる期間限定の割引が提供されています。対象となるのは、乳鳩（乳飲み鳩のロースト）、焼きガチョウ、清遠地鶏（チンユエン・ウォーキングチキン）などです。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMilwNBVV95cUxObDNyaTlod0tTY3dtS3NfOC0xTHVLUlpmd1A3LTJGaE0tTEhjWUlsZHVZNDNHcENXUXo1cl9xSTRVOEdJY1I0VGlFTXJZTENtSmN6enpGWVl1eXg2MDVUcHBvQXpnTEFUWGVBTlkzTkNJWDI2YlNNRzZHT0ZDVXVmS0J6N1pHZ1BZTy1uTUdpc1JRYl9xY3dWeFVvZ3o4eDBaODNWX1JkTXota3UzeU1JQnFMbEU2dlpCemJIYlFkc3BudFEydU5hWUxaNGw0RUlHQUl4RDFhVXZ6Nm9nWUtFY1FGTmVMb0lUUkFvaTluWlkwT0JnMmhvWDlEcmFQNlFZM2xQU2FxZzFVV0o4QzU3R1A1T3lKQnhlXzh1M3RFZ3RKUTJwdGJtOWNrbVYtUFA1YmRIRGJ4MlRrRjFqOE9sczRDZWktVHlrSXV5S0didzRBdlBjOWJYcW9zZFNqYTZXbTRMbjVBWkQ0Q0ZQXzA0QWtCb3FoQV9BOVl4YXJEeHp3eHdrc3NmZWpjVmFyR1B4NlU0NUI0UQ?oc=5
+
+### 大角咀で乳児虐待死事件、世話を任された夫婦に懲役刑
+
+大角咀（タイコックチョイ）で生後2ヶ月半の男児を虐待死させたとして、世話を任されていた夫婦が過失致死と児童虐待の罪で有罪判決を受けました。夫は懲役7年、妻は38ヶ月（3年2ヶ月）の禁固刑を言い渡されました。夫婦は男児を9日間虐待し、暴言を吐いたり、熱風ドライヤーを吹き付けたりしていたと報じられています。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMivgJBVV95cUxPeUdZdTJrRVdNaWRTcm56MENOamRQMDZzRzlyQzI1MnNrcG9RVlBncWluWlREWnhVQXhwT1lKMElqQ1BrQWp1OFo3ZVJlRTludUd0dmJxZlBwWWl5STZ6YzllbXhYU0NFQjl1N3NLZjJhbWdnRUo4MnRDbk9JRndmQnZWVjNhanVYSVdnOHJNU1ROMjQ1ME5jbGVvLVpXT2pVcTVPN3d2eDREOEFJWTZtR1dDYkY1cWw3QUFxWGF5djBWSUg2T2VOT04ycDFRalQ0QUJJYm4tb0hWeE5YdmpOVnFxcHk0N0ZTaVp4Tmx5M2dZY0xtWHlmWDRqWFRzdHVaOGRqcS1WRDdHVVN4Rm5KbTlpRjVrQ01aa2lTeWJwN0tUcUZ5Zm1SN1k0b0ZmenhleFV1YjFKM0hhb281bnc?oc=5
+
+### 「古埃及文明大展」が香港故宮文化博物館で開幕、ミイラ棺など250点展示
+
+「古埃及文明大展」が11月20日から香港故宮文化博物館で一般公開されます。この展覧会では、ミイラの棺やその他の貴重な文物を含む約250点が展示され、ミイラ製作過程の再現や、ブラインドボックス形式の限定グッズも販売されます。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiqwNBVV95cUxQQXJPNGpGZ3d3cXpKYVo1SXZ4aG5pWTJEOTRiS042Mm1WTEZLTmRBWTRVNlZBRlAtblhrdGhHRklQM2NiMFNlbHItSEMwUUdDM2RwWTYySlBPdDEzZXlDd3gzNF8xekU4anFyZWtsZER0eTBJNFdOYVF1QS16Ykd1NXdJT0EyYVdqbG5ya2MwalFyZDVUOWUyZVRLTWxUZzFfUVc5WXk0ZzlwQXIyRWhvVEdqYnVTVXpFM0FQeG5Vc1piRFRTRlRmN1pjV0dqeXNkOFVBSHhkYUw5VS03N2k3c2M1TTBOT2VYdlY0M0xLY3V0aFd4VXFldXhReGFnMEotNnJVVzhrZHY5X2hmOG1qRWpndlRQOUZISnJhUFI3X2NnYUgxVkNuS0N6Tk94ZWY5SHFxY3VybDM4VXV0MUJkcTkybG1oSG90VUJ5eEtyaFRCclNDLUE5WTlYVVFhMXdvX2k1a3ZMU1RNNmljU1lJUVd3eHZWNHFSdjNhdWJXeVdHLUV2WXFrdmc2TzdGRkk1QkNyZndScGNmanhkQUswUFhtMEEya0lfczVF?oc=5
+
+### 香港の英語能力、4年連続で低下し世界39位に マレーシアやフィリピンを下回る
+
+EF Education Firstが発表した「2025年度EF英語能力指数」によると、香港の英語能力は総スコアが538点にさらに低下し、世界ランキングで39位に後退しました。これは4年連続の低下であり、「中級レベル」にとどまっています。アジア地域では、マレーシアやフィリピンといった主要な競合国に劣る結果となりました。この報告書は、2024年に世界123の国と地域で実施された、非英語を母語とする成人220万人のテストデータを分析したものです。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E6%B8%AF%E8%8B%B1%E8%AA%9E%E6%B0%B4%E5%B9%B3%E9%80%A3%E8%B7%9D4%E5%B9%B4-%E5%85%A8%E7%90%83%E6%8E%92%E5%90%8D39%E9%81%B8%E9%A6%AC%E5%9C%8B%E8%8F%B2%E5%BE%8B%E8%B3%93-203040818.html
+https://hk.news.yahoo.com/%E6%B8%AF%E8%8B%B1%E8%AA%9E%E6%B0%B4%E5%B9%B3%E9%80%A3%E8%B7%8C4%E5%B9%B4-%E5%85%A8%E7%90%83%E6%8E%92%E5%90%8D39%E9%81%9C%E9%A6%AC%E5%9C%8B%E8%8F%B2%E5%BE%8B%E8%B3%93-203040818.html
+
+### 消費者委員会、屋外機能ジャケット16製品をテスト 最安値599ドルの製品が高価ブランドに匹敵
+
+消費者委員会は、16種類の屋外機能ジャケット（ウィンドブレーカー）をテストした結果を発表しました。そのうち12製品が4つ星以上の高評価を獲得し、最も安価な599香港ドルの製品が、4500香港ドルの高価なブランドに匹敵する性能を示したことが明らかになりました。
+
+**引用元**: 香港經濟日報HKET
+
+https://news.google.com/rss/articles/CBMiiARBVV95cUxNR3VaMkY3VHVkWmVyVzYwNFlITFdaZDVEam5vWlp5QnBibGlRT25ackFQNjBvOEptUlNrX1VkTzMwNHBiZW04R3ljSXctdHc0Y1VQNFBJSFBaX2FMalpHOVk1b3hxTGxwbElUa1JKRXFuTklhYUFoR0w5Q3NIUVg1V1pVMm1DQkhnTnY0TVBKRUdmUkp2NFdOaGZxNlJYSkpIVDdzbjg5QUNZdkhuNHhid0pwYm9lTXJoZmgwZXFSLVpsRHU2S1ZkN3VaWThxYlllRnlPUEx6SEJYOTBiYzlleWRLWE9MNUNnOXM2NmhBY2RweDBfdTl0YklXZkZGYTBKdmREenYxY2s5UW5VZktoZnB4dmJELUZwZHVTZEE1MDRBaUtPbjJEREF1LUpROG9SYWVnYUJraTRPbm5ueDNnX0s1R0VzRmludlZNaVlNZ1UtYWh5d2ZzOXM1ZTRPeVlQTXNCbkhsYUV0ZW5NQmNEbFdablJXWmJLRUVrY3dxRnFpOUJleFA5Wkp5dmhrVXlmWk5kY1NGU0ozR0wxMFVMcVJyLWNOUEJGTzZuVExUczViOXRvSUpGZ2t1clVuNWpsSGVlUXZ6M2tDMlJvUVB4S3UyeUV6OHNBcGZ2MWxIX2JjdC1LMHZGMGNmVENFc2RGTUFrQmpjNGlPRFN0LTZyZ19kSkVHRGxZ?oc=5
+
+### 蘭桂坊の公衆トイレが「最優秀公衆トイレ金賞」を受賞、3箇所は早急な改善が必要
+
+「2025年公衆トイレ選挙」において、中環（セントラル）の蘭桂坊（ランカイフォン）公衆トイレが「最優秀公衆トイレ金賞」を受賞しました。一方で、西営盤（サイインプン）街市（市場）など3箇所の公衆トイレは、早急な改善が必要であると指摘されました。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaW1vTlI1d3Q1MU9jV3RTbVJYRHhockNjeFlNdEdqSXRJRnAwbUN3MnkyUnFoaEMyckNVbndzM09KTnNQWFJnM1lxcV9LNFlHLTBzZWJRQmZ0VGl6WU1oMGtnWHByNnlZMEl5NFVuUVJiQy1NNVlnOHFIZmoxUm02a1VVMllxRjBGLW5V?oc=5
+
+### 柴湾で自転車の危険な車線変更動画が拡散、女性ドライバー激怒、ネットユーザーも批判
+
+柴湾（チャイワン）で、自転車が危険な車線変更を行う動画がインターネット上で拡散し、これを見た女性ドライバーが激怒する様子が報じられました。ネットユーザーからは「自己中心的で、自分も他人も危険にさらす行為だ」と批判の声が上がっています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiqANBVV95cUxNalYzN3E1SkRSRHlVdFVBb2RSOW1UaU1sck0tYmM2Z1NOY3pYV0JaSHJZNGtRWTlCUUp6Nm8xNG9YTk51cWktamVlY2k0amVNb3hyYXBncVUwb1phME5oeGs1WUFuLVRqMEl3NFp5am5icGFKbGhiY0w2UDJ6X3pta3ExYzg1QmdHYjQ5cmkxMnpGeXRNcTRSdUZTOGdsRXJfaVRaZmluSy1tRE8wNmdQcGJYSGRCUkMxdTBpZm9DV0RiVkdjanJkbWI2d0JMT2FiRzFwYWNpSVdvWjdPTFFwd1pIVDIySEF0a0FiNkZQUUh0VnhZaGUwVi1qSWhkeGtDdEpNYlI4VG0wb1FLckFQak8wc3VnSkowTlhQdTVBb3FlVkVFT2JiUGNZbG5vYkt5V0FQUUN4TG5LcEZRWWxtQTlzelUwYTc3OFJva2I4RmxpVVlNbEwxa0xFbVIyT19TWTU1b0VMb0t6NllKTlE0YXFtbVlxNGhSN0ktMTIxQVFUWDBHc3FlOVh0YTVpc2hlZ2RkTncxMHp6T3dsM0xZS2hlOTg1UURZ?oc=5
+
+### 大埔で自転車を押していた男性がトラックに轢かれ死亡、妻と親族が悲痛な面持ちで遺体確認
+
+大埔（タイポー）で、自転車を押して歩いていた50代の男性が軽型トラックに轢かれる事故が発生し、男性は病院に搬送されましたが死亡が確認されました。男性の妻と親族は、悲しみに暮れながら遺体を確認しました。20歳のP牌（仮免許）ドライバーが危険運転の疑いで逮捕されています。
+
+**引用元**: Yahoo News - HK
+
+https://news.google.com/rss/articles/CBMiuAJBVV95cUxPVHVKRVV1TVpFdnNOb0tyVW9GWmw0Zzl0REVlTENIejJldU81dUJPWUlfVk1VSXJlTkV6dmwyZ1o5MkwtajR3UzdJX0dUWWJPZFNCVTBSWTd4NW1RSV85U01RNDdiRlI3T0JTNEhDQmVSalFfX3N5OE1QNzZ5U0g0d0VOQlZlYzhqaWQ0Zk8tN29hN0JHd0NualJnejZrb2NOUFNTQ3hTTVJmOEptbm16cFJXa2Fjc1Zqb3l0TENRUUJrM3RnZS1YMmJLUlpKYjlmc2NsT2pkczJXNGFvTHcwdzZGQ3RxUEtiLWVKc1ZaNGsxOVZ6MW9QTlpLMVdlaTlHMnZBdG9oMGt6Rks1QlFoUXpSZGR3ODJvTXoxWGdMeGk1M2pTQ2x6ajRPWl9UMWMyTG1iNjMxaEg?oc=5
 
 ## 広東語学習者向け情報
 
@@ -75,4 +300,4 @@ https://hk.news.yahoo.com/%E6%B8%AF%E8%8B%B1%E8%AA%9E%E6%B0%B4%E5%B9%B3%E9%80%A3
 https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
 ----
 **タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
-**生成日時**: 2025年11月20日 12:18
+**生成日時**: 2025年11月20日 12:52

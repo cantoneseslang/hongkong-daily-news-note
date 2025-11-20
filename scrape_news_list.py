@@ -24,19 +24,26 @@ except ImportError:
 class NewsListScraper:
     def __init__(self):
         self.use_playwright = PLAYWRIGHT_AVAILABLE
+        self.requests = None
+        self.BeautifulSoup = None
+        
         if not self.use_playwright:
             # フォールバック: requests + BeautifulSoup
-            import requests
-            from bs4 import BeautifulSoup
-            self.requests = requests
-            self.BeautifulSoup = BeautifulSoup
-            self.headers = {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.9,zh-HK;q=0.8,zh;q=0.7',
-            }
-            self.session = requests.Session()
-            self.session.headers.update(self.headers)
+            try:
+                import requests
+                from bs4 import BeautifulSoup
+                self.requests = requests
+                self.BeautifulSoup = BeautifulSoup
+                self.headers = {
+                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.9,zh-HK;q=0.8,zh;q=0.7',
+                }
+                self.session = requests.Session()
+                self.session.headers.update(self.headers)
+            except ImportError:
+                print("⚠️  requests/BeautifulSoup also not available")
+                self.session = None
     
     def scrape_scmp_hongkong(self) -> List[Dict]:
         """SCMP 香港ニュースセクションから取得"""
@@ -95,7 +102,7 @@ class NewsListScraper:
                             continue
                     
                     browser.close()
-            else:
+            elif self.session:
                 # フォールバック: requests
                 for url in urls:
                     try:
@@ -189,7 +196,7 @@ class NewsListScraper:
                             continue
                     
                     browser.close()
-            else:
+            elif self.session:
                 # フォールバック
                 for url in urls:
                     try:
@@ -275,7 +282,7 @@ class NewsListScraper:
                         print(f"  ⚠️  {url} でエラー: {e}")
                     
                     browser.close()
-            else:
+            elif self.session:
                 # フォールバック
                 try:
                     response = self.session.get(url, timeout=10)

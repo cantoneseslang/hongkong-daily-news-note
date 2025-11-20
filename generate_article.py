@@ -1163,21 +1163,22 @@ def preprocess_news(news_list):
     category_counts = defaultdict(int)
     source_usage = defaultdict(int)
     
-    target_count = 30
-    max_per_source_initial = 2
-    fallback_category_limit = 3
+    target_count = 40  # 30 → 40に増加
+    max_per_source_initial = 4  # 2 → 4に増加（各ソースから最大4件）
+    fallback_category_limit = 5  # 3 → 5に増加
     category_limits = {
-        'ビジネス・経済': 6,
-        '社会・その他': 5,
-        'カルチャー': 4,
-        '政治・行政': 4,
-        'テクノロジー': 4,
-        '交通': 3,
-        '不動産': 3,
-        '事故・災害': 2,
-        '治安・犯罪': 2,
-        '医療・健康': 1,
-        '教育': 1,
+        'ビジネス・経済': 8,  # 6 → 8に増加
+        '社会・その他': 7,  # 5 → 7に増加
+        'カルチャー': 5,  # 4 → 5に増加
+        '政治・行政': 6,  # 4 → 6に増加
+        'テクノロジー': 5,  # 4 → 5に増加
+        '交通': 4,  # 3 → 4に増加
+        '不動産': 4,  # 3 → 4に増加
+        '事故・災害': 3,  # 2 → 3に増加
+        '治安・犯罪': 3,  # 2 → 3に増加
+        '医療・健康': 2,  # 1 → 2に増加
+        '教育': 2,  # 1 → 2に増加
+        'スポーツ': 2,  # 追加
     }
     
     priority_cats = [

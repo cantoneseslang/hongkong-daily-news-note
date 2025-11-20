@@ -92,62 +92,79 @@ def normalize_url(url: str) -> str:
 
 def get_recent_topics(days: int = 3) -> Dict[str, int]:
     """過去N日間の頻出トピックを取得"""
-    from collections import Counter
-    
-    topic_counter = Counter()
-    today = datetime.now(HKT)
-    
-    # トピックキーワードパターン
-    topic_patterns = {
-        '全国運動会': [r'全国運動会|National Games|全運會|NG|national games'],
-        '立法会選挙': [r'立法会選挙|LegCo election|立法會選舉|district council'],
-        '施政報告': [r'施政報告|Policy Address|policy address'],
-        '失業率': [r'失業率|unemployment rate|jobless'],
-        'GDP': [r'GDP|経済成長|economic growth|gross domestic'],
-        'オリンピック': [r'オリンピック|Olympics|olympic'],
-        '台風': [r'台風|Typhoon|typhoon|tropical storm'],
-        '不動産価格': [r'不動産価格|property prices|housing prices|home prices'],
-    }
-    
-    for i in range(1, days + 1):
-        target_date = (today - timedelta(days=i)).strftime('%Y-%m-%d')
-        article_file = f'daily-articles/hongkong-news_{target_date}.md'
+    try:
+        from collections import Counter
         
-        if os.path.exists(article_file):
-            try:
-                with open(article_file, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                
-                for topic, patterns in topic_patterns.items():
-                    for pattern in patterns:
-                        if re.search(pattern, content, re.IGNORECASE):
-                            topic_counter[topic] += 1
-                            break  # 1記事につき1回カウント
-            except Exception:
-                pass
-    
-    return dict(topic_counter)
+        topic_counter = Counter()
+        today = datetime.now(HKT)
+        
+        # トピックキーワードパターン
+        topic_patterns = {
+            '全国運動会': [r'全国運動会|National Games|全運會|NG|national games'],
+            '立法会選挙': [r'立法会選挙|LegCo election|立法會選舉|district council'],
+            '施政報告': [r'施政報告|Policy Address|policy address'],
+            '失業率': [r'失業率|unemployment rate|jobless'],
+            'GDP': [r'GDP|経済成長|economic growth|gross domestic'],
+            'オリンピック': [r'オリンピック|Olympics|olympic'],
+            '台風': [r'台風|Typhoon|typhoon|tropical storm'],
+            '不動産価格': [r'不動産価格|property prices|housing prices|home prices'],
+        }
+        
+        for i in range(1, days + 1):
+            target_date = (today - timedelta(days=i)).strftime('%Y-%m-%d')
+            article_file = f'daily-articles/hongkong-news_{target_date}.md'
+            
+            if os.path.exists(article_file):
+                try:
+                    with open(article_file, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    
+                    for topic, patterns in topic_patterns.items():
+                        for pattern in patterns:
+                            try:
+                                if re.search(pattern, content, re.IGNORECASE):
+                                    topic_counter[topic] += 1
+                                    break  # 1記事につき1回カウント
+                            except Exception:
+                                pass
+                except Exception:
+                    pass
+        
+        return dict(topic_counter)
+    except Exception:
+        # エラー時は空の辞書を返す
+        return {}
 
 
 def is_overused_topic(title: str, description: str, recent_topics: Dict[str, int], threshold: int = 2) -> bool:
     """タイトル/説明が過去N日間で頻出トピック（2回以上）に該当するか"""
-    content = f"{title} {description}".lower()
-    
-    for topic, count in recent_topics.items():
-        if count >= threshold:  # 過去3日間で2回以上出現
-            # トピックキーワードマッチング
-            if topic == '全国運動会':
-                if re.search(r'全国運動会|national games|全運會|ng\s', content, re.IGNORECASE):
-                    return True
-            elif topic == '立法会選挙':
-                if re.search(r'立法会選挙|legco election|立法會選舉|district council', content, re.IGNORECASE):
-                    return True
-            elif topic == '施政報告':
-                if re.search(r'施政報告|policy address', content, re.IGNORECASE):
-                    return True
-            # その他のトピックは厳しくチェックしない（経済指標等は重要）
-    
-    return False
+    try:
+        if not recent_topics:
+            return False
+        
+        content = f"{title} {description}".lower()
+        
+        for topic, count in recent_topics.items():
+            if count >= threshold:  # 過去3日間で2回以上出現
+                # トピックキーワードマッチング
+                try:
+                    if topic == '全国運動会':
+                        if re.search(r'全国運動会|national games|全運會|ng\s', content, re.IGNORECASE):
+                            return True
+                    elif topic == '立法会選挙':
+                        if re.search(r'立法会選挙|legco election|立法會選舉|district council', content, re.IGNORECASE):
+                            return True
+                    elif topic == '施政報告':
+                        if re.search(r'施政報告|policy address', content, re.IGNORECASE):
+                            return True
+                    # その他のトピックは厳しくチェックしない（経済指標等は重要）
+                except Exception:
+                    pass
+        
+        return False
+    except Exception:
+        # エラー時は過剰トピックではないと判定
+        return False
 
 
 def parse_published_at(value: Optional[str]) -> Optional[datetime]:

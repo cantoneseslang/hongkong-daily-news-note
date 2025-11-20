@@ -45,6 +45,194 @@ class NewsListScraper:
                 print("⚠️  requests/BeautifulSoup also not available")
                 self.session = None
     
+    def scrape_hk01(self) -> List[Dict]:
+        """HK01（香港01）から取得 - RSSが存在しないためスクレイピング"""
+        print("\n📰 HK01 からスクレイピング中...")
+        news_list = []
+        
+        try:
+            urls = [
+                'https://www.hk01.com/zone/1/港聞',  # 港聞
+                'https://www.hk01.com/channel/2/社會新聞',  # 社會新聞
+                'https://www.hk01.com/channel/310/政情',  # 政情
+                'https://www.hk01.com/channel/4/經濟',  # 經濟
+            ]
+            
+            if self.use_playwright:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    page = browser.new_page()
+                    
+                    for url in urls:
+                        try:
+                            print(f"  📄 {url} を読み込み中...")
+                            page.goto(url, wait_until='networkidle', timeout=30000)
+                            page.wait_for_timeout(3000)  # JavaScriptの実行を待つ
+                            
+                            # HK01の記事リンクを取得
+                            articles = page.query_selector_all('a[href*="/article/"]')
+                            
+                            for article in articles[:30]:
+                                try:
+                                    href = article.get_attribute('href')
+                                    if not href:
+                                        continue
+                                    
+                                    full_url = urljoin('https://www.hk01.com', href)
+                                    
+                                    # タイトル取得
+                                    title_elem = article.query_selector('h2, h3, h4, .article-title')
+                                    if not title_elem:
+                                        title = article.inner_text().strip()
+                                    else:
+                                        title = title_elem.inner_text().strip()
+                                    
+                                    if title and len(title) > 5:
+                                        news_list.append({
+                                            'title': title,
+                                            'url': full_url,
+                                            'source': 'HK01',
+                                            'published_at': datetime.now(HKT).isoformat()
+                                        })
+                                except Exception:
+                                    continue
+                            
+                            time.sleep(1)
+                        except Exception as e:
+                            print(f"  ⚠️  {url} でエラー: {e}")
+                            continue
+                    
+                    browser.close()
+            else:
+                # フォールバック（requestsでは取得困難）
+                print("  ⚠️  HK01はJavaScriptで動的生成されるため、Playwrightが必要です")
+            
+            unique_news = self._deduplicate_by_url(news_list)
+            print(f"  ✅ {len(unique_news)}件取得")
+            return unique_news
+            
+        except Exception as e:
+            print(f"  ❌ エラー: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+    
+    def scrape_mingpao(self) -> List[Dict]:
+        """明報（Ming Pao）から取得 - RSSが存在しないためスクレイピング"""
+        print("\n📰 明報 からスクレイピング中...")
+        news_list = []
+        
+        try:
+            urls = [
+                'https://news.mingpao.com/pns/港聞',
+                'https://news.mingpao.com/pns/要聞',
+            ]
+            
+            if self.use_playwright:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    page = browser.new_page()
+                    
+                    for url in urls:
+                        try:
+                            print(f"  📄 {url} を読み込み中...")
+                            page.goto(url, wait_until='networkidle', timeout=30000)
+                            page.wait_for_timeout(3000)
+                            
+                            articles = page.query_selector_all('a[href*="/pns/"]')
+                            
+                            for article in articles[:30]:
+                                try:
+                                    href = article.get_attribute('href')
+                                    if not href or '/article/' not in href:
+                                        continue
+                                    
+                                    full_url = urljoin('https://news.mingpao.com', href)
+                                    title = article.inner_text().strip()
+                                    
+                                    if title and len(title) > 5:
+                                        news_list.append({
+                                            'title': title,
+                                            'url': full_url,
+                                            'source': '明報',
+                                            'published_at': datetime.now(HKT).isoformat()
+                                        })
+                                except Exception:
+                                    continue
+                            
+                            time.sleep(1)
+                        except Exception as e:
+                            print(f"  ⚠️  {url} でエラー: {e}")
+                            continue
+                    
+                    browser.close()
+            
+            unique_news = self._deduplicate_by_url(news_list)
+            print(f"  ✅ {len(unique_news)}件取得")
+            return unique_news
+            
+        except Exception as e:
+            print(f"  ❌ エラー: {e}")
+            return []
+    
+    def scrape_am730(self) -> List[Dict]:
+        """am730から取得 - RSSが存在しないためスクレイピング"""
+        print("\n📰 am730 からスクレイピング中...")
+        news_list = []
+        
+        try:
+            urls = [
+                'https://www.am730.com.hk/news',
+                'https://www.am730.com.hk/news/local',
+            ]
+            
+            if self.use_playwright:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    page = browser.new_page()
+                    
+                    for url in urls:
+                        try:
+                            print(f"  📄 {url} を読み込み中...")
+                            page.goto(url, wait_until='networkidle', timeout=30000)
+                            page.wait_for_timeout(3000)
+                            
+                            articles = page.query_selector_all('a[href*="/news/"]')
+                            
+                            for article in articles[:30]:
+                                try:
+                                    href = article.get_attribute('href')
+                                    if not href or '/news/' not in href:
+                                        continue
+                                    
+                                    full_url = urljoin('https://www.am730.com.hk', href)
+                                    title = article.inner_text().strip()
+                                    
+                                    if title and len(title) > 5:
+                                        news_list.append({
+                                            'title': title,
+                                            'url': full_url,
+                                            'source': 'am730',
+                                            'published_at': datetime.now(HKT).isoformat()
+                                        })
+                                except Exception:
+                                    continue
+                            
+                            time.sleep(1)
+                        except Exception as e:
+                            print(f"  ⚠️  {url} でエラー: {e}")
+                            continue
+                    
+                    browser.close()
+            
+            unique_news = self._deduplicate_by_url(news_list)
+            print(f"  ✅ {len(unique_news)}件取得")
+            return unique_news
+            
+        except Exception as e:
+            print(f"  ❌ エラー: {e}")
+            return []
+    
     def scrape_scmp_hongkong(self) -> List[Dict]:
         """SCMP 香港ニュースセクションから取得"""
         print("\n📰 SCMP Hong Kong からスクレイピング中...")
@@ -346,11 +534,12 @@ class NewsListScraper:
         
         all_news = []
         
-        # 各サイトから取得
+        # 各サイトから取得（RSSが存在しない、または取得できないサイトのみ）
         scrapers = [
-            self.scrape_scmp_hongkong,
-            self.scrape_thestandard,
-            self.scrape_rthk_news,
+            self.scrape_hk01,  # HK01 - RSSが存在しない
+            self.scrape_mingpao,  # 明報 - RSSが存在しない
+            self.scrape_am730,  # am730 - RSSが存在しない
+            # SCMP, The Standard, RTHKはRSSで取得済みのため除外
         ]
         
         for scraper in scrapers:

@@ -22,11 +22,13 @@ except ImportError:
     print("⚠️  Playwright not available, falling back to requests")
 
 class NewsListScraper:
-    def __init__(self):
+    def __init__(self, fetch_content: bool = False, translate_content: bool = False):
         self.use_playwright = PLAYWRIGHT_AVAILABLE
         self.requests = None
         self.BeautifulSoup = None
         self.session = None
+        self.fetch_content = fetch_content  # 記事本文を取得するか
+        self.translate_content = translate_content  # 記事本文を翻訳するか
         
         if not self.use_playwright:
             # フォールバック: requests + BeautifulSoup
@@ -55,9 +57,9 @@ class NewsListScraper:
             # HK01の主要セクション（トップページとカテゴリページ）
             urls = [
                 'https://www.hk01.com/',  # トップページ
-                'https://www.hk01.com/zone/1',  # 港聞
-                'https://www.hk01.com/channel/310',  # 政情
-                'https://www.hk01.com/channel/4',  # 經濟
+                'https://www.hk01.com/zone/1/%E6%B8%AF%E8%81%9E',  # 港聞（URLエンコード版）
+                'https://www.hk01.com/channel/310/%E6%94%BF%E6%83%85',  # 政情（URLエンコード版）
+                'https://www.hk01.com/channel/4/%E7%B6%93%E6%BF%9F',  # 經濟（URLエンコード版）
             ]
             
             if self.use_playwright:
@@ -247,6 +249,11 @@ class NewsListScraper:
                 print("  ⚠️  HK01はJavaScriptで動的生成されるため、Playwrightが必要です")
             
             unique_news = self._deduplicate_by_url(news_list)
+            
+            # 記事本文を取得（オプション）
+            if self.fetch_content and self.use_playwright:
+                unique_news = self._enrich_with_content(unique_news)
+            
             print(f"  ✅ {len(unique_news)}件取得")
             return unique_news
             
@@ -255,6 +262,155 @@ class NewsListScraper:
             import traceback
             traceback.print_exc()
             return []
+    
+    def _get_article_content(self, url: str, max_length: int = 500) -> str:
+        """記事の本文の最初の部分を取得"""
+        if not self.use_playwright:
+            return ""
+        
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                context = browser.new_context(
+                    user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    viewport={'width': 1920, 'height': 1080}
+                )
+                page = context.new_page()
+                
+                try:
+                    page.goto(url, wait_until='domcontentloaded', timeout=30000)
+                    page.wait_for_timeout(3000)
+                    
+                    # JSONデータから記事本文を取得
+                    json_script = page.query_selector('script#__NEXT_DATA__')
+                    if json_script:
+                        json_text = json_script.inner_text()
+                        import json as json_lib
+                        data = json_lib.loads(json_text)
+                        
+                        # 記事本文を探す
+                        def find_content(data_obj, depth=0):
+                            if depth > 15:
+                                return None
+                            
+                            if isinstance(data_obj, dict):
+                                # 記事本文の可能性があるキーを探す
+                                for key in ['content', 'body', 'text', 'articleContent', 'bodyText', 'description', 'summary']:
+                                    if key in data_obj:
+                                        value = data_obj[key]
+                                        if isinstance(value, str) and len(value) > 50:
+                                            return value
+                                
+                                # 再帰的に探索
+                                for value in data_obj.values():
+                                    result = find_content(value, depth + 1)
+                                    if result:
+                                        return result
+                            
+                            elif isinstance(data_obj, list):
+                                for item in data_obj:
+                                    result = find_content(item, depth + 1)
+                                    if result:
+                                        return result
+                            
+                            return None
+                        
+                        content = find_content(data)
+                        
+                        if content and len(content) > 50:
+                            # 最初のmax_length文字を返す
+                            return content[:max_length]
+                    
+                    # HTMLから取得を試す
+                    html = page.content()
+                    if self.BeautifulSoup:
+                        soup = self.BeautifulSoup(html, 'html.parser')
+                        
+                        # 記事本文のセレクターを試す
+                        selectors = [
+                            'div[class*="article-content"]',
+                            'div[class*="content"]',
+                            'article',
+                            'div[class*="body"]',
+                            'div[class*="text"]',
+                            'p'
+                        ]
+                        
+                        for selector in selectors:
+                            elements = soup.select(selector)
+                            if elements:
+                                text = ' '.join([e.get_text().strip() for e in elements[:5]])  # 最初の5要素
+                                if len(text) > 50:
+                                    return text[:max_length]
+                
+                finally:
+                    browser.close()
+        
+        except Exception as e:
+            # エラーは無視（本文取得はオプション）
+            pass
+        
+        return ""
+    
+    def _translate_text(self, text: str) -> str:
+        """テキストを日本語に翻訳（簡易版）"""
+        if not text or not self.translate_content:
+            return ""
+        
+        try:
+            # generate_article.pyの翻訳機能を再利用
+            import sys
+            import os
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            
+            from generate_article import ArticleGenerator
+            generator = ArticleGenerator()
+            
+            # 最初の300文字だけを翻訳（コスト削減）
+            text_to_translate = text[:300]
+            translated = generator._llm_translate_text(text_to_translate, max_output_tokens=200)
+            
+            return translated if translated else ""
+        except Exception as e:
+            # 翻訳失敗は無視
+            return ""
+    
+    def _enrich_with_content(self, news_list: List[Dict]) -> List[Dict]:
+        """記事リストに本文と翻訳を追加"""
+        if not news_list:
+            return news_list
+        
+        print(f"\n  📄 記事本文を取得中（{len(news_list)}件）...")
+        enriched = []
+        
+        for i, news in enumerate(news_list, 1):
+            url = news.get('url', '')
+            if not url or 'hk01.com' not in url:
+                enriched.append(news)
+                continue
+            
+            # 本文取得
+            content = self._get_article_content(url, max_length=500)
+            if content:
+                news['description'] = content
+                
+                # 翻訳（オプション）
+                if self.translate_content:
+                    translated = self._translate_text(content)
+                    if translated:
+                        news['description_ja'] = translated
+            
+            enriched.append(news)
+            
+            # 進捗表示（10件ごと）
+            if i % 10 == 0:
+                print(f"    📄 {i}/{len(news_list)}件処理完了...")
+            
+            # レート制限対策
+            time.sleep(0.5)
+        
+        print(f"  ✅ 本文取得完了: {len([n for n in enriched if n.get('description')])}件")
+        return enriched
     
     def scrape_mingpao(self) -> List[Dict]:
         """明報（Ming Pao）から取得 - RSSが存在しないためスクレイピング"""
@@ -567,6 +723,160 @@ class NewsListScraper:
             traceback.print_exc()
             return []
     
+    def scrape_google_news_hk(self) -> List[Dict]:
+        """Google News HKから取得 - 24時間以内の記事を全て取得"""
+        print("\n📰 Google News HK からスクレイピング中...")
+        news_list = []
+        
+        try:
+            # Google News HKのトピックページ
+            url = 'https://news.google.com/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE5vTmpRU0JYcG9MVWhMS0FBUAE?hl=zh-HK&gl=HK&ceid=HK:zh-Hant'
+            
+            if self.use_playwright:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    context = browser.new_context(
+                        user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        viewport={'width': 1920, 'height': 1080}
+                    )
+                    page = context.new_page()
+                    
+                    try:
+                        print(f"  📄 {url} を読み込み中...")
+                        page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                        page.wait_for_timeout(5000)  # JavaScriptの実行を待つ
+                        
+                        # ページをスクロールして全ての記事を読み込む
+                        for i in range(5):  # 5回スクロール
+                            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                            page.wait_for_timeout(2000)
+                        
+                        # 記事リンクを取得（複数のセレクターを試す）
+                        article_links = []
+                        
+                        # セレクター1: articleタグ内のリンク
+                        articles = page.query_selector_all('article a')
+                        article_links.extend(articles)
+                        
+                        # セレクター2: 特定のクラス名を持つリンク
+                        if not article_links:
+                            articles = page.query_selector_all('a[href*="/articles/"]')
+                            article_links.extend(articles)
+                        
+                        print(f"    📰 {len(article_links)}件のリンクを発見")
+                        
+                        # articleタグから直接取得する方が確実
+                        articles = page.query_selector_all('article')
+                        print(f"    📰 {len(articles)}件の記事を発見")
+                        
+                        seen_urls = set()
+                        for article in articles:
+                            try:
+                                # リンクを取得
+                                link = article.query_selector('a[href*="/read/"]')
+                                if not link:
+                                    continue
+                                
+                                href = link.get_attribute('href')
+                                if not href:
+                                    continue
+                                
+                                # Google Newsのリンクを正規化
+                                if href.startswith('./'):
+                                    full_url = f"https://news.google.com{href[1:]}"
+                                elif href.startswith('/'):
+                                    full_url = f"https://news.google.com{href}"
+                                elif href.startswith('http'):
+                                    full_url = href.split('?')[0].split('#')[0]
+                                else:
+                                    continue
+                                
+                                # 重複チェック
+                                if full_url in seen_urls:
+                                    continue
+                                seen_urls.add(full_url)
+                                
+                                # 記事全体のテキストを取得
+                                all_text = article.inner_text().strip()
+                                
+                                # テキストからタイトルを抽出
+                                # パターン: ソース名\n更多\nタイトル\n時刻
+                                lines = [line.strip() for line in all_text.split('\n') if line.strip()]
+                                
+                                title = None
+                                published_at = datetime.now(HKT).isoformat()
+                                
+                                # "更多"の後の行がタイトルである可能性が高い
+                                for i, line in enumerate(lines):
+                                    if line == '更多' and i + 1 < len(lines):
+                                        title = lines[i + 1]
+                                        break
+                                
+                                # タイトルが見つからない場合、長い行をタイトルとして使用
+                                if not title or len(title) < 10:
+                                    for line in lines:
+                                        if len(line) > 20 and '小時前' not in line and '分鐘前' not in line and '天前' not in line:
+                                            title = line
+                                            break
+                                
+                                # 時刻を抽出して24時間以内かチェック
+                                is_within_24h = False
+                                published_at = datetime.now(HKT).isoformat()
+                                
+                                for line in lines:
+                                    if '分鐘前' in line or '小時前' in line or '天前' in line:
+                                        # 時刻を解析
+                                        try:
+                                            match = re.search(r'(\d+)', line)
+                                            if match:
+                                                num = int(match.group(1))
+                                                
+                                                if '分鐘前' in line:
+                                                    # 分単位
+                                                    if num <= 1440:  # 24時間 = 1440分
+                                                        pub_date = datetime.now(HKT) - timedelta(minutes=num)
+                                                        published_at = pub_date.isoformat()
+                                                        is_within_24h = True
+                                                elif '小時前' in line:
+                                                    # 時間単位
+                                                    if num <= 24:
+                                                        pub_date = datetime.now(HKT) - timedelta(hours=num)
+                                                        published_at = pub_date.isoformat()
+                                                        is_within_24h = True
+                                                elif '天前' in line:
+                                                    # 日単位 - 24時間以内のみ
+                                                    if num == 0:
+                                                        is_within_24h = True
+                                        except:
+                                            pass
+                                        break
+                                
+                                # 24時間以内の記事のみを追加
+                                if title and len(title) > 10 and is_within_24h:
+                                    news_list.append({
+                                        'title': title,
+                                        'url': full_url,
+                                        'source': 'Google News HK',
+                                        'published_at': published_at
+                                    })
+                            except Exception as e:
+                                continue
+                        
+                    finally:
+                        browser.close()
+            else:
+                print("  ⚠️  Google NewsはJavaScriptで動的生成されるため、Playwrightが必要です")
+            
+            unique_news = self._deduplicate_by_url(news_list)
+            print(f"  ✅ {len(unique_news)}件取得")
+            return unique_news
+            
+        except Exception as e:
+            print(f"  ❌ エラー: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+    
     def scrape_rthk_news(self) -> List[Dict]:
         """RTHK English News から取得"""
         print("\n📰 RTHK News からスクレイピング中...")
@@ -675,6 +985,7 @@ class NewsListScraper:
         
         # 各サイトから取得（RSSが存在しない、または取得できないサイトのみ）
         scrapers = [
+            self.scrape_google_news_hk,  # Google News HK - 24時間以内の記事を全て取得
             self.scrape_hk01,  # HK01 - RSSが存在しない
             self.scrape_mingpao,  # 明報 - RSSが存在しない
             self.scrape_am730,  # am730 - RSSが存在しない
@@ -701,7 +1012,9 @@ class NewsListScraper:
         # 現在時刻とソース統計を追加
         result = []
         for news in unique_news:
-            news['description'] = news.get('title', '')  # 後で全文取得で上書き
+            # descriptionが既に設定されている場合は上書きしない
+            if 'description' not in news or not news.get('description'):
+                news['description'] = news.get('title', '')
             news['api_source'] = 'web_scraping'
             result.append(news)
         
@@ -709,8 +1022,13 @@ class NewsListScraper:
 
 if __name__ == "__main__":
     import json
+    import sys
     
-    scraper = NewsListScraper()
+    # コマンドライン引数でオプションを制御
+    fetch_content = '--content' in sys.argv or '--full' in sys.argv
+    translate_content = '--translate' in sys.argv
+    
+    scraper = NewsListScraper(fetch_content=fetch_content, translate_content=translate_content)
     news_list = scraper.fetch_all_news()
     
     if news_list:

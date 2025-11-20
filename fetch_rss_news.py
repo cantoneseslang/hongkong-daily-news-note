@@ -25,7 +25,7 @@ class RSSNewsAPI:
             'rthk_news': 'https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml',
             'rthk_business': 'https://rthk.hk/rthk/news/rss/e_expressnews_ebusiness.xml',  # ビジネス
             'yahoo_hk': 'http://hk.news.yahoo.com/rss/hong-kong',
-            # 'google_news_hk': 'http://news.google.com.hk/news?pz=1&cf=all&ned=hk&hl=zh-TW&output=rss',  # ← 世界ニュースが混入するため無効化
+            'google_news_hk': 'https://news.google.com/rss/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE5vTmpRU0JYcG9MVWhMS0FBUAE?hl=zh-HK&gl=HK&ceid=HK:zh-Hant',  # 香港トピック（24時間以内フィルタリング適用）
             'chinadaily_hk': 'http://www.chinadaily.com.cn/rss/hk_rss.xml',
             'hkfp': 'https://www.hongkongfp.com/feed/',
             'hket_hk': 'https://www.hket.com/rss/hongkong',
@@ -84,6 +84,17 @@ class RSSNewsAPI:
         # Yahoo HKは世界記事が混ざるため、URLだけでは許可しない（本文/タイトルに香港系語が必要）
         if 'yahoo' in url_l and 'hk.news.yahoo.com' in url_l:
             return any(p in text for p in positive) or any(u in url_l for u in url_positive)
+        
+        # HK01の「即時國際」セクションは香港と無関係な国際ニュースが多いため、厳格にチェック
+        if 'hk01.com' in url_l and ('即時國際' in url or '/channel/19' in url_l or '即時國際' in url_l):
+            # 香港関連キーワードがタイトル/説明に含まれている場合のみ許可
+            if not any(p in text for p in positive):
+                return False
+        
+        # HK01の「國際分析」セクションも同様に厳格にチェック
+        if 'hk01.com' in url_l and ('國際分析' in url or '國際分析' in url_l):
+            if not any(p in text for p in positive):
+                return False
 
         return False
 
@@ -179,6 +190,8 @@ class RSSNewsAPI:
             'horse racing', 'jockey', 'mark six', 'lottery',
             '競馬', '賽馬', '騎師', '六合彩', '賭博', '博彩', 'casino', 'gambling',
             'boat racing', '競艇', 'betting',
+            # 全運会関連（NGワード）
+            '全国運動会', '全運會', '全运会', 'national games', '全運', '全运',
             # 感染症関連（詳細記事は不要）
             '基孔肯雅熱', 'chikungunya', '登革熱', 'dengue', '疫情', 'epidemic',
             '確診', 'confirmed case', '輸入個案', '本地感染', 'local infection',
@@ -209,6 +222,7 @@ class RSSNewsAPI:
                 return True
         
         # 香港無関係の国際ニュース（タイトルで判定）
+        # 注意: 香港関連キーワード（港隊、香港チームなど）が含まれている場合は除外しない
         non_hk_keywords = [
             'gaza', 'israel', 'hamas', 'rafah', 'palestine',
             'iran', 'ukraine', 'russia', 'zelensky',
@@ -218,7 +232,7 @@ class RSSNewsAPI:
             'cuba', 'haiti', 'jamaica', 'hurricane', 'melissa',
             'cote d\'ivoire', 'ivory coast', 'wattara', 'ouattara',
             'rio de janeiro', 'drug', 'cartel', 'operation',
-            '加薩', '以色列', '哈瑪斯', '巴勒斯坦',
+            '加薩', '以色列', '哈瑪ス', '巴勒斯坦',
             '烏克蘭', '俄羅斯', '澤連斯基',
             '金鐘獎', '陳偉霆', '台灣',
             'golden horse', 'taiwan election',
@@ -226,8 +240,20 @@ class RSSNewsAPI:
             'trump', 'oracle', 'amazon', 'exxonmobil',
             'トランプ', '米国ビジネス', '米中',
             'キューバ', 'ハイチ', 'ジャマイカ', 'ハリケーン',
-            'コートジボワール', 'ブラジル', 'リオデジャネイロ'
+            'コートジボワール', 'ブラジル', 'リオデジャネイロ',
+            # 日本関連（香港と無関係なもの）
+            '日本愛知', '愛知縣', 'aichi', '高市早苗', '中日緊張', '中日関係', 'sino-japanese',
+            '日本経済', 'japan economy', '日本政治', 'japan politics',
+            # シンガポール関連（香港チームが含まれていない場合のみ）
+            # 注意: 「港隊」「香港チーム」が含まれている場合は除外しない
+            # 中国の国際ニュース（香港と無関係なもの）
+            '中國既強烈反擊', '中國正預備日本', '亞洲版烏克蘭'
         ]
+        
+        # 香港関連キーワードが含まれている場合は除外しない
+        hk_related_in_title = any(kw in text for kw in ['港隊', '香港隊', '港隊', 'hong kong team', 'hk team', '香港チーム'])
+        if hk_related_in_title:
+            return False
         
         # 香港関連キーワードをチェック（2024-2025年最新版）
         hk_keywords = [
@@ -529,9 +555,22 @@ class RSSNewsAPI:
                     filtered_count += 1
                     continue
 
+                # Google News HKからの記事はより厳格な香港関連チェックを適用
                 if not self._is_hk_related(title, description, url, 'Google News HK'):
                     filtered_count += 1
                     continue
+                
+                # 24時間以内の記事のみ（追加チェック）
+                if published_at:
+                    try:
+                        pub_date = date_parser.parse(published_at)
+                        now = datetime.now(HKT)
+                        time_diff = now - pub_date.replace(tzinfo=None)
+                        if time_diff.total_seconds() > 24 * 3600:
+                            filtered_count += 1
+                            continue
+                    except:
+                        pass  # パース失敗は含める
                 
                 news_list.append({
                     'title': title,
@@ -846,7 +885,7 @@ class RSSNewsAPI:
             (self.fetch_rthk_rss, None, None),
             (self.fetch_generic_rss, 'rthk_business', 'RTHK Business'),
             (self.fetch_yahoo_rss, None, None),
-            # (self.fetch_google_news_rss, None, None),  # ← 世界ニュースが混入するため無効化
+            (self.fetch_google_news_rss, None, None),  # 香港トピック（24時間以内フィルタリング適用）
             (self.fetch_chinadaily_rss, None, None),
             (self.fetch_hkfp_rss, None, None),
             (self.fetch_hket_rss, None, None),

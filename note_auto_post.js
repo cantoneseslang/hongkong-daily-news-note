@@ -319,18 +319,35 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           
           // 見出し画像ボタンを探してクリック（複数のセレクターを試す）
           let thumbnailButton = null;
+          
+          // まず、ページのスクリーンショットを取得してデバッグ（GitHub Actions環境ではスキップ）
+          if (!process.env.CI) {
+            try {
+              await page.screenshot({ path: '/tmp/note-editor-before-thumbnail.png', fullPage: false });
+              console.log('📸 デバッグ用スクリーンショット保存: /tmp/note-editor-before-thumbnail.png');
+            } catch (e) {
+              console.log('⚠️  スクリーンショット取得エラー:', e.message);
+            }
+          }
+          
           const buttonSelectors = [
             'button[aria-label="画像を追加"]',
             'button[aria-label*="画像"]',
             'button:has-text("画像")',
+            'button:has-text("画像を追加")',
             'div[class*="thumbnail"] button',
             'div[class*="header"] button[aria-label*="画像"]',
             'button[class*="image"]',
             'button[class*="add-image"]',
             'div[class*="title"] + div button',
             'div[class*="editor-header"] button',
+            // より具体的なセレクターを追加
+            'div[data-testid*="thumbnail"] button',
+            'div[data-testid*="image"] button',
+            '[role="button"][aria-label*="画像"]',
           ];
           
+          console.log('🔍 見出し画像ボタンを探しています...');
           for (const selector of buttonSelectors) {
             try {
               const button = page.locator(selector).first();
@@ -340,22 +357,47 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
                 break;
               }
             } catch (e) {
+              // エラーは無視して次のセレクターを試す
               continue;
             }
           }
           
           if (!thumbnailButton) {
-            // タイトル入力欄の上にある画像追加アイコンを探す
-            console.log('タイトル上の画像追加アイコンを探しています...');
-            const titleArea = page.locator('textarea[placeholder*="タイトル"]').first();
-            if (await titleArea.isVisible({ timeout: 2000 })) {
-              // タイトル入力欄の親要素から画像追加ボタンを探す
-              const parentElement = titleArea.locator('..');
-              const imageButton = parentElement.locator('button, div[role="button"]').first();
-              if (await imageButton.isVisible({ timeout: 2000 })) {
-                thumbnailButton = imageButton;
-                console.log('✓ タイトル上の画像追加ボタンを発見');
+            // タイトル入力欄の周辺を詳しく探す
+            console.log('タイトル入力欄の周辺を詳しく探しています...');
+            try {
+              const titleArea = page.locator('textarea[placeholder*="タイトル"]').first();
+              if (await titleArea.isVisible({ timeout: 2000 })) {
+                // タイトル入力欄の親要素から画像追加ボタンを探す
+                const parentElement = titleArea.locator('..');
+                const imageButton = parentElement.locator('button, div[role="button"], [aria-label*="画像"]').first();
+                if (await imageButton.isVisible({ timeout: 2000 })) {
+                  thumbnailButton = imageButton;
+                  console.log('✓ タイトル上の画像追加ボタンを発見');
+                }
               }
+              
+              // タイトル入力欄の前にある要素を探す
+              if (!thumbnailButton) {
+                const titleAreaRect = await titleArea.boundingBox();
+                if (titleAreaRect) {
+                  // タイトル入力欄の上にあるボタンを探す
+                  const buttonsAbove = await page.locator('button').all();
+                  for (const btn of buttonsAbove) {
+                    const btnRect = await btn.boundingBox();
+                    if (btnRect && btnRect.y < titleAreaRect.y && btnRect.y > titleAreaRect.y - 100) {
+                      const ariaLabel = await btn.getAttribute('aria-label');
+                      if (ariaLabel && (ariaLabel.includes('画像') || ariaLabel.includes('image'))) {
+                        thumbnailButton = btn;
+                        console.log('✓ タイトル上の画像ボタンを発見（位置ベース）');
+                        break;
+                      }
+                    }
+                  }
+                }
+              }
+            } catch (e) {
+              console.log('⚠️  タイトル周辺の検索エラー:', e.message);
             }
           }
           

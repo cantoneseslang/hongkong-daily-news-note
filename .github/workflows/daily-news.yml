@@ -163,6 +163,20 @@ jobs:
           fi
           
           echo "✅ Today's article generated successfully: $EXPECTED_ARTICLE"
+          
+          # 画像ファイルの生成確認
+          echo "🖼️  画像ファイルの生成確認:"
+          mkdir -p images
+          IMAGE_COUNT=$(ls -1 images/article-header-*.png 2>/dev/null | wc -l)
+          echo "   生成された画像ファイル数: $IMAGE_COUNT"
+          if [ "$IMAGE_COUNT" -gt 0 ]; then
+            echo "   ✅ 画像ファイルが生成されました:"
+            ls -lh images/article-header-*.png | tail -3
+          else
+            echo "   ⚠️  画像ファイルが生成されていません"
+            echo "   📂 imagesディレクトリの内容:"
+            ls -la images/ 2>/dev/null || echo "   imagesディレクトリが存在しません"
+          fi
 
       - name: Sanitize and validate article
         run: |
@@ -180,7 +194,13 @@ jobs:
           git add daily-articles/hongkong-news_*.md
           # 画像ファイルも追加（存在する場合）
           mkdir -p images
-          git add images/article-header-*.png 2>/dev/null || true
+          echo "🖼️  コミット前の画像ファイル確認:"
+          ls -lh images/article-header-*.png 2>/dev/null || echo "   ⚠️  画像ファイルが見つかりません"
+          git add images/article-header-*.png 2>/dev/null || echo "   ⚠️  画像ファイルのgit addに失敗"
+          
+          # ステージングされたファイルを確認
+          echo "📋 ステージングされたファイル:"
+          git diff --staged --name-only | head -10
           
           # 変更があればコミット
           if git diff --staged --quiet; then

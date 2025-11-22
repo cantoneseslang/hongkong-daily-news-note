@@ -176,8 +176,11 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           
-          # 生成された記事ファイルのみコミット
+          # 生成された記事ファイルと画像ファイルをコミット
           git add daily-articles/hongkong-news_*.md
+          # 画像ファイルも追加（存在する場合）
+          mkdir -p images
+          git add images/article-header-*.png 2>/dev/null || true
           
           # 変更があればコミット
           if git diff --staged --quiet; then

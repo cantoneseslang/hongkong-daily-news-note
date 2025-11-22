@@ -191,6 +191,7 @@ def parse_published_at(value: Optional[str]) -> Optional[datetime]:
 
 class GrokArticleGenerator:
     def __init__(self, config_path: str = "config.json"):
+        self.config_path = config_path
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = json.load(f)
         

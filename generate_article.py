@@ -921,8 +921,21 @@ https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
         # 広東語学習者向けの定型文を追加
         cantonese_section = self._generate_cantonese_section()
         
+        # 見出し画像を生成
+        thumbnail_path = self._generate_thumbnail_image()
+        
+        # front matterにthumbnailを追加
+        front_matter = ""
+        if thumbnail_path:
+            front_matter = f"""---
+title: {article['title']}
+thumbnail: {thumbnail_path}
+---
+
+"""
+        
         # bodyの最初に改行を入れる（1行目が空行になり、ここに目次を挿入）
-        markdown = f"""# {article['title']}
+        markdown = f"""{front_matter}# {article['title']}
 
 {content_str}
 
@@ -936,7 +949,95 @@ https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
             f.write(markdown)
         
         print(f"💾 記事を保存: {output_path}")
+        if thumbnail_path:
+            print(f"🖼️  見出し画像: {thumbnail_path}")
         return output_path
+    
+    def _generate_thumbnail_image(self) -> str:
+        """見出し画像を生成して一時保存"""
+        try:
+            # generate_thumbnail.pyをインポート
+            import sys
+            import os
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            
+            from generate_thumbnail import generate_thumbnail_for_article
+            
+            # 固定プロンプトを使用
+            prompt = """Ultra-realistic outdoor news reporting scene, 4K resolution.
+
+Location: A real street in Hong Kong during daytime.
+
+Tall buildings and dense urban scenery around, with signage, traffic, people in the background naturally blurred with shallow depth of field.
+
+Humidity and soft daylight typical of Hong Kong.
+
+Foreground: Two young Japanese news anchors standing side by side outdoors, real human appearance,smiling lightly and facing the camera.
+
+Both anchors hold handheld reporter microphones with foam windscreens.
+
+4. Foreground: Two young Japanese news anchors standing side by side with smile expressions, facing the camera, enlarged to dominate the foreground; 
+
+the man on the left has short black hair, 
+
+wearing a milky brown suit, light blue shirt, and light orange tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light yellow  blouse and sky blue skirt.
+
+Behind the anchors:
+
+A Hong Kong-style old neon signboard displaying the Japanese text "香 港 新 聞" mounted on a building exterior.
+
+Features:
+
+slightly weathered, retro Hong Kong neon sign.glowing red & pink neon tubes with uneven flicker.metal frame with rust, aged acrylic.moody neon bloom but still realistic and photographic
+
+Cameraman & crew visible:
+
+A professional camera crew is clearly visible in the shot:
+
+A camera operator using a shoulder-mounted broadcast camera filming the anchors
+
+A boom mic operator partially visible
+
+Cables, light reflectors, or small equipment cases around them
+
+Everything must look 100% real and documentary-style, not staged studio lighting.
+
+Ticker bar overlay:
+
+At the bottom of the image, a news-style headline ticker in white Japanese text:
+
+"中日摩擦：日本ツアーの問い合わせが2～3割減、旅行会社役員が発言"
+
+Small bottom-right text:
+
+"HK NEWS 2025 11 21" in clean black English font.
+
+Style:
+
+Realistic outdoor news reportage.
+
+Handheld-camera feeling, shallow depth of field, natural lighting.
+
+Contrast between the cool urban daylight and the warm red/pink neon sign.
+
+Shot with a full-frame DSLR, 35mm or 50mm lens.
+
+No anime, no illustration, no cartoon, no CGI — pure real-life photography."""
+            
+            # 画像を生成
+            thumbnail_path = generate_thumbnail_for_article(
+                prompt=prompt,
+                config_path=self.config_path,
+                output_dir="images"
+            )
+            
+            return thumbnail_path if thumbnail_path else ""
+            
+        except Exception as e:
+            print(f"⚠️  見出し画像生成エラー: {e}")
+            import traceback
+            traceback.print_exc()
+            return ""
 
 def preprocess_news(news_list):
     """ニュースの事前処理：重複除外、カテゴリー分類、バランス選択"""

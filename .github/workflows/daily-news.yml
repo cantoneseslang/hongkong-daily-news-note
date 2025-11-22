@@ -329,7 +329,7 @@ jobs:
   retry-daily-news:
     runs-on: ubuntu-latest
     needs: generate-daily-news
-    if: failure() && github.event_name != 'workflow_dispatch' && github.run_attempt == 1  # 手動実行時と2回目以降はリトライしない
+    if: needs.generate-daily-news.result == 'failure' && github.event_name != 'workflow_dispatch'  # メインジョブが失敗した場合のみ、手動実行時は除く
     env:
       TZ: Asia/Hong_Kong
       RETRY_COUNT: 1  # リトライ回数を記録

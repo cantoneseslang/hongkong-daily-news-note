@@ -1,6 +1,6 @@
 ---
 title: 毎日AI香港ピックアップニュース(2025年11月22日)
-thumbnail: images/article-header-20251122_180317.png
+thumbnail: images/article-header-20251122_185245.png
 ---
 
 # 毎日AI香港ピックアップニュース(2025年11月22日)
@@ -8,269 +8,278 @@ thumbnail: images/article-header-20251122_180317.png
 ## 本日の香港の天気
 
 ### 天気予報
-香港天文台が2025年11月22日17時45分に発出した天気報告
+香港天文台が2025年11月22日18時45分に発表した天気報告
 
-乾燥した北東季節風が華南に広く晴れた天気をもたらしています。香港では、午後のほとんどの地域で相対湿度が50パーセント以下でした。
-
-香港域内の今夜から明日の天気予報：
-概ね晴れるでしょう。明日の朝の市街地の最低気温は約19度、新界ではさらに数度低くなるでしょう。日中は乾燥し、最高気温は約25度でしょう。穏やかな北東の風が吹くでしょう。
-
-週間予報：来週も晴れて乾燥した天気が続き、昼夜の寒暖差がかなり大きいでしょう。月曜日は日中暖かいでしょう。来週半ばは朝晩涼しいでしょう。
+乾燥した北東季節風が華南地方に概ね晴れた天気をもたらしています。
+香港地域の今晩と明日の天気予報：
+概ね晴れるでしょう。明日の朝の市街地の最低気温は約19度、新界ではさらに数度低くなる見込みです。日中は乾燥し、最高気温は約25度でしょう。穏やかな北東の風が吹くでしょう。
+週間予報：来週は引き続き晴れて乾燥し、日中と夜間の気温差がかなり大きくなるでしょう。月曜日の日中は暖かいでしょう。来週半ばは朝晩涼しくなる見込みです。
 
 **引用元**: 香港天文台
 
-### 来年半ばから、対象となる高齢者は社会福祉局の援助金を中国本土の口座に直接送金可能に
+### 資格のある高齢者、来年半ばから社会福祉局の援助金を中国本土の口座に直接送金可能に
 
-来年半ばより、香港の社会福祉局（Social Welfare Department）が提供する援助金を受け取る資格のある高齢者は、その援助金を中国本土の銀行口座に直接送金できるようになります。この「国境を越えた現金援助支給制度」は、広東省や福建省で老後を過ごす香港の高齢者の利便性を高めることを目的としています。中国銀行（香港）や中国工商銀行（アジア）などの指定銀行がこの制度をサポートし、高齢者の国境を越えた金融の相互接続を促進します。
+来年半ばより、資格のある高齢者は社会福祉局からの援助金を中国本土の口座に直接送金できるようになります。この「越境現金援助支給制度」は、広東省や福建省で暮らす香港の高齢者が対象で、中国銀行（香港）などの指定銀行を通じて援助金を受け取ることが可能になります。この制度は、越境での高齢者支援における金融の相互接続を促進し、受給者からは時間、労力、費用を節約できる人道的な政策だと評価されています。中国工商銀行（アジア）も社会福祉局と協力覚書を締結し、香港の高齢者が越境で援助金を受け取る際の利便性向上を図っています。
 
 **引用元**: on.cc東網
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ25xX00wMXZ2Y3A2RXNieEE4RVdyMnRydTVMMWZPTkM3NnhaYm8xTXVDLWlzSUo1bVJKa3U2TWxGdEJiQllTVGlEV1J5b1FwUmxlMExTNVdfcWp4OGFlb1ZJamNpLXBWeGE0dV9nUjFOSFg0ZzJ4MVZuc1FZVV9aU3FuZlcxS0JIZk8w?oc=5
 
-### 英国移住後に香港へUターンした会社員、生活への不適応を訴え「自由気ままな生活が恋しい」
+### 日本の男性デュオ「ゆず」、来月のアジアツアー（香港・上海・台北）を中止
 
-移民生活は誰もが思い通りにいくわけではなく、経済的な理由、生活への適応度、家族などの要因から香港へのUターンを検討する人もいます。最近、英国から香港に戻り3ヶ月間働いている香港人がThreadsに投稿し、仕事の厳しさから3つの問題に直面していること、そして英国での「自由気ままな生活」が恋しいと不満を漏らしました。
+日本の男性デュオ「ゆず」は、来月予定されていた香港、上海、台北でのアジアツアーを中止すると発表しました。ゆずは来月3日に香港、6日に上海、8日に台北で、6年ぶりとなるアジアツアーコンサートを開催する予定でしたが、主催者は本日、「避けられない様々な要因」により、全ての公演を中止せざるを得ないと発表しました。ファンには理解を求めており、払い戻し方法は後日発表されるとのことです。一部のファンは、ゆずの公式ソーシャルメディアアカウントに、公演中止が日中関係の緊張と関連しているのではないかとのコメントを寄せています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/yuzu-%E6%97%A5%E6%9C%AC%E7%B5%84%E5%90%88-%E6%9F%9A%E5%AD%90-%E5%8F%96%E6%B6%88%E4%B8%8B%E6%9C%88%E6%B8%AF%E6%BB%AC%E5%8F%B0%E5%B7%A1%E6%BC%94-%E7%A8%B1%E5%9B%A0-101021698.html
+
+### 英国移住後に香港へ戻った会社員、生活への不適応と仕事の厳しさを訴える
+
+移民生活は誰もが順風満帆というわけではなく、経済的な理由、生活への適応度、家族などの要因から香港への帰国を検討する人もいます。最近、英国から香港に戻って3ヶ月になる会社員がThreadsに投稿し、仕事の厳しさから3つの大きな問題に直面していると訴え、英国での「気ままな生活」を懐かしんでいると語りました。
 
 **引用元**: HKET
 
 https://topick.hket.com/article/4039237
 
-### 西環で仮免許テスラとバイクが衝突、バイク運転手は意識不明の重体で病院へ搬送
+### サイワン（西環）で仮免許のテスラ車とオートバイが衝突、オートバイ運転手が意識不明の重体で搬送
 
-西環（サイワン）で、仮免許（P牌）をつけたテスラ車とバイクが衝突する事故が発生しました。この事故により、バイクの運転手は意識不明の重体で病院に搬送され、緊急治療を受けています。事故の原因については現在調査中です。
+サイワン（西環）で、仮免許（Pプレート）を付けたテスラ車とオートバイが衝突する事故が発生しました。この事故により、オートバイの運転手は意識不明の重体で病院に搬送され、救命措置を受けています。
 
-**引用元**: Yahoo News HK
+**引用元**: Yahoo News - HK
 
-https://news.google.com/rss/articles/CBMiwAJBVV95cUxQOGcwaHBzMjJGOEI5c1lIUEZrdTM5T0hvMmFKVFhpWHBUSHI5VzB0M21tMExydzJzRm80N1F6ajFtZ1JMNmtBUDg5SFdrQVQ0cEQ5SmJTUVdfdTFfb3RadWZncjJRYUYzeGdkXzd0Rm5VWjFkZmJPUVNBRVJhZ0xadVpsNm9rRFdpamlLWnExZ3k4NVVQN2ZxVzJKRU5QNW9xaU00YVhMX2JVZDdwSGVadEpScExUaG5CUFJRdXVvenY2VjhXQ1RZTWRWTTdFZlRiRDI5Yy1ZU0p4cUN4bUhjWVVES1BVbDA3Wmk5MmxuRjVNLW5XUFVmVjNwMlQ1OVF4eV94Y3lsWmYzV3pxbHk2bVltd1pIeHNaXzlmMkliSGpyN3pRT1JmTFdPWGtsRXdaY3k4cW15aWtiZHJ1Qnh3Qw?oc=5
+https://news.google.com/rss/articles/CBMiwAJBVV95cUxQOGcwaHBzMjJGOEI5c1lIUEZrdTM5T0hvMmFKVFhpWHBUSHI5VzB0bTNtMExydzJzRm80N1F6ajFtZ1JMNmtBUDg5SFdrQVQ0cEQ5SmJTUVdfdTFfb3RadWZncjJRYUYzeGdkXzd0Rm5VWjFkZmJPUVNBRVJhZ0xadVpsNm9rRFdpamlLWnExZ3k4NVVQN2ZxVzJKRU5QNW9xaU00YVhMX2JVZDdwSGVadEpScExUaE5CUFJRdXVvenY2VjhXQ1RZTWRWTTdFZlRiRDI5Yy1ZU0p4cUN4bUhjWVVES1BVbDA3Wmk5MmxuRjVNLW5XUFVmVjNwMlQ1OVF4eV94Y3lsWmYzV3pxbHk2bVltd1pIeHNaXzlmMkliSGpyN3pRT1JmTFdPWGtsRXdaY3k4cW15aWtiZHJ1Qnh3Qw?oc=5
 
 ### 台湾、日中間の対立の中、日本産食品の輸入制限を全て解除
 
-台湾は金曜日、日本産食品に対する全ての輸入制限を解除しました。これは、中国が日本の新首相との対立を理由に日本からの購入を停止すると報じられた後、東京への支持を示す新たな動きです。台北政府は、2011年の東日本大震災の被災地とその周辺の5つの日本の地域からの食品輸入に対し、全面的な禁止措置を課していました。
+台湾は金曜日、日本からの食品輸入制限を全て解除しました。これは、中国が日本の新首相との対立を理由に日本からの購入を停止すると報じられた後、東京へのさらなる支持を示す動きです。台北政府は、2011年の福島第一原発事故とその周辺の5つの地域からの食品輸入に対し、全面的な禁止措置を課していました。
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2025/11/21/taiwan-lifts-all-restrictions-on-japanese-food-imports-amidst-beijing-tokyo-row/
 
-### ナイジェリアのカトリック学校で武装集団が学生を誘拐、1週間で2度目の襲撃
+### ナイジェリアのカトリック系学校で武装集団が学生を誘拐、1週間で2度目の襲撃
 
-ナイジェリア中部で武装集団がカトリック学校から多数の生徒を誘拐したと、警察と政府関係者が金曜日に発表しました。これは1週間足らずで2度目の同様の事件です。
-この学校での誘拐事件と、週初めに発生した教会への襲撃は、ドナルド・トランプ米大統領がナイジェリアのキリスト教徒に対する標的型殺害と称する行為に対し、軍事行動をちらつかせた数週間後に発生しました。ナイジェリア政府はこの見方を否定しています。
-ナイジャー州政府は、誘拐された生徒の数や詳細については明らかにしていません。
+ナイジェリア中部で、武装集団がカトリック系学校から多数の学生を誘拐したと、警察と政府関係者が金曜日に発表しました。これは1週間足らずで2度目の同様の事件です。今回の学校での誘拐と、週初めに発生した教会への襲撃は、ドナルド・トランプ米大統領が、ナイジェリアのキリスト教徒に対する標的型殺害と称する事態に対し、軍事行動を警告してから数週間後に発生しました。ナイジェリア政府はこの見方を否定しています。ナイジャー州政府は、この件について言及しました。
 
 **引用元**: SCMP Business
 
 https://www.scmp.com/news/world/africa/article/3333717/nigerian-catholic-school-pupils-abducted-gunmen-second-attack-week?utm_source=rss_feed
 
-### 警察車両が60代男性をひき殺した事故で、男性警官が不注意運転で起訴、来年1月に再審
+### 警察の乗用車が60代の男性をひき殺した事故、男性警察官が不注意運転で起訴され来年1月に再審理
 
-警察の乗用車が60代の男性をひき殺した事故で、男性警官が不注意運転の罪で起訴されました。この事件は来年1月に再審理される予定です。事故の詳細や、警官が起訴された具体的な状況については、今後の裁判で明らかにされる見込みです。
+警察の乗用車が60代のベトナム人男性をひき殺した事故で、男性警察官が不注意運転の罪で起訴されました。この事件は来年1月29日に再審理される予定です。
 
-**引用元**: Yahoo News HK
+**引用元**: Yahoo News - HK
 
-https://news.google.com/rss/articles/CBMigwNBVV95cUxQU0d5UXk1NWQ3TS1BbFJ0d05KakpDRTRuMmRKN3ZGZXJnZnJRRGRCM2Q2MGJQYjhqam1oSWxJaUpLNGI3SGxxYVBMcFpLN2Y2b1BjNGRpSDNrLVJMUmRKTnMwVS1xT2ZwRElaRHVyOWRYLWZqMk43N2IwLXFjNXQzRjFrdUN0WkU5RmppYXh5cEUzazVuWlh2S251Ym9OeWVfRm02ZVNjNzIwSzF1cTl3Ujk2WmNSRkdwVnZBOWp0VWtvTGp3ZHdJb2pKbGJWeVhNYVFUYkR1U0RjOVVya3Y1SE50eUwzZzN4WC1yVmJrTjJ6ZjdNeEpXU0xaV0xxM0VTWEllOHZYeDJEWUYzWjdFNFl3VnZoME9ZR25tb3lXWF9RRnU3YkVjRDFrMEdmWksyNzhqMS1BNVU3TVpvdWZXVFNjMmFyVmQ1dUxyaWhIelM3SnUwNUZaekdMLWc5QjJveHMxaVpULVNOSEVlWlBfajhYNkRES01WZElZa0ktcUc0c3M?oc=5
+https://news.google.com/rss/articles/CBMigwNBVV95cUxQU0d5UXk1NWQ3TS1BbFJ0d05KakpDRTRuMmRKN3ZGZXJnZnJRRGRCM2Q2MGJQYjhqam1oSWxJaUpLNGI3SGxxYVBMcFpLN2Y2b1BjNGRpSDNrLVJMUmRKTnMwVS1xT2ZwRElaRHVyOWRYLWZqMk43N2IwLXFjNXQzRjFrdUN0WkU5RmppYXh5cEUzazVuWlh2S251Ym9OeWVfRm02ZVNjNzIwSzF1aTl3Ujk2WmNSRkdwVnZBOWp0VWtvTGp3ZHdJb2pKbGJWeVhNYVFUYkR1U0RjOVVya3Y1SE50eUwzZzN4WC1yVmJrTjJ6ZjdNeEpXU0xaV0xxM0VTWEllOHZYeDJEWUYzWjdFNFl3VnZoME9ZR25tb3lXWF9RRnU3YkVjRDFrMEdmWksyNzhqMS1BNVU3TVpvdWZXVFNjMmFyVmQ1dUxyaWhIelM3SnUwNUZaekdMLWc5QjJveHMxaVpULVNOSEVlWlBfajhYNkRES01WZElZa0ktcUc0c3M?oc=5
 
-### 西貢の汚水処理施設で作業員が機械に巻き込まれ首を絞められ負傷、意識不明の重体で病院へ搬送
+### サイクン（西貢）で男性作業員が汚水槽に閉じ込められ、意識不明の重体で搬送
 
-西貢（サイゴン）の汚水処理施設で作業中の男性作業員が、衣服が機械に巻き込まれ首を絞められる事故に遭いました。作業員は意識不明の重体で病院に搬送され、緊急治療を受けています。この事故は、機電設備の設置作業中に発生したと報じられています。
+サイクン（西貢）の汚水処理施設建設現場で、男性作業員が汚水槽内で作業中に衣服が機械に巻き込まれ、首を締め付けられて負傷しました。男性は救出されましたが意識不明の重体で、病院に搬送され治療を受けています。労働者権利団体は、業界に対し、安全対策の見直しと改善を速やかに行うよう呼びかけています。
 
-**引用元**: 香港01
+**引用元**: Yahoo News - HK
 
-https://news.google.com/rss/articles/CBMipANBVV95cUxNS2pGd01WZ2Y3ZVVhbEtsa3FxcnBCSTl3Y1JfdC0xUDE4REJNa3JkWjNlR0ZkY0FETVZsNkJ2djd3Z0ZIWHB1NldyWHZpYXBsRngzaUJKbG1mY3owTEY4aEw1QWw0aW1GNURzdFd1MUZkWFNjd09LZk8zOWViQWVSbnR3YlU2SHZxVGk5TkFCTHp5a2UtZXhZZm9WWnZkbXFtQVpxaU5ZRWFrN0dGTVFUQ3dQTWJlWURQTFJRU3hlRVV6NEVrNFdwZmtrSXV0aFl0ZFMtdnpwdVNENFNJNzI3ZmgtRWN5c1BCQ0I5cUo2bjBZTGhuQ0lnLXliVnNvMzZQTmg2UmM3TTVLdldqU3RtaFpwTHI0d2o2Uk1aWnVDVXYzTlpVNG9SeHIyTVYzUloyekRHbUpfT1MtTFdHQjQ1NHRzU1A4Ny1XUVFNWjRTR0trZ3NEbHl3MzVUMFlxaE9IR2xkNm5MQkg5VzJkZ1I2WGlyRjhpX3hjUG02a2ZLYjUxd2JfcWdmXzZvY19wNkpCRG92amZSWGZHUmViSVlBS0RaWEM?oc=5
+https://news.google.com/rss/articles/CBMikwJBVV95cUxPWWhZM3ZXbURvSXZjb3Rtbms1UjdIRTN6Ulh4YlU4LTJIWEpsMkljSjQ0R1BrelRCSUE1d1IxY1ZpeTBSWVdZWUFxZmlGLXVfRUdUNFg3NF9icGh0dTVwSDYzZzVtUDRlODVCREo3cDZ0LVlVWF9jbTBSM0ROTU5LLUdSeTg4NG9DaW5vMGp3NWNGVVBGNl9CVHRoVEFDSkxGa0MyQV9nY2tlSGdiVktQMm9TZHVmYndsQnZETUFrUS0xdk5kZUhLbGs4bG9nandMMGRya2NkZGxsZjF6dENlM21TN2tsZmQ4Z3lObW41T204b1hGNDJadHNNamJsU0R5YjlEaU9lOHRYVXBZMXNQZGZnMA?oc=5
 
-### 世界最大の「ゴッホピカチュウ」カードウォールが登場、陳智思氏「香港独自の強み」と評価
+### 世界最大の「ゴッホピカチュウ」カードウォールが香港に登場、バーナード・チャン氏が香港の強みを強調
 
-香港最大のコレクターズカードイベント「Grade10 Festival」が本日湾仔（ワンチャイ）で開幕しました。2日間の展示会には23,000人以上の来場者が見込まれています。会場には、世界初となる「ゴッホピカチュウ」のカードウォールが設置され、400枚以上の「グレーフェルトハットピカチュウ」PSA 10カードで構成されており、総額は約500万香港ドルに上ります。国内外から120以上の出展者が参加しています。西九文化区（West Kowloon Cultural District）の会長であり、団結香港基金（Our Hong Kong Foundation）の会長でもある陳智思（バーナード・チャン）氏は、香港の収集カードの売買と関連インフラが健全であり、これが香港独自の強みであると述べました。
+香港で最大規模のトレーディングカードイベント「Grade10 Festival」が本日ワンチャイ（湾仔）で開幕しました。2日間の開催で、23,000人以上の来場者が見込まれています。会場には、世界で初めて公開される「ゴッホピカチュウ」のカードウォールが設置され、400枚以上の「グレーフェルトハットピカチュウ」PSA 10評価カードで構成されており、総額は約500万香港ドルに上ります。国内外から120以上の出展者が参加しています。西九文化区主席兼団結香港基金主席のバーナード・チャン（陳智思）氏は、トレーディングカードの売買・収集に関する健全なエコシステムが香港独自の強みとなっていると述べました。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/%E5%85%A8%E7%90%83%E6%9C%80%E5%A4%A7-%E6%A2%B5%E9%AB%98%E6%AF%94%E5%8D%A1%E8%B6%85-%E5%8D%A1%E7%89%86%E5%87%BA%E7%8F%BE-%E9%99%B3%E6%99%BA%E6%80%9D-%E8%B2%B7%E8%B3%A3%E8%97%8F%E5%8D%A1%E9%85%8D%E5%A5%97%E5%81%A5%E5%85%A8%E6%88%90%E9%A6%99%E6%B8%AF%E7%8D%A8%E6%9C%89%E5%84%AA%E5%8B%A2-084635638.html
 
-### 歴史博物館で窃盗事件、展示品の上着と帽子が盗まれる
+### チムサーチョイ（尖沙咀）の歴史博物館で展示品が盗難
 
-尖沙咀（チムサーチョイ）の歴史博物館で窃盗事件が発生しました。職員が、展示されていた上着と帽子がなくなっているのを発見し、警察に通報しました。警察は現在、事件を捜査しています。康楽及文化事務署（Leisure and Cultural Services Department）がメディアの問い合わせに回答したところによると、職員は昨日午後、「香港多面体」展覧シリーズ：「萍寄金山—香港とカリフォルニアの華僑生活」展覧会内で、上着と帽子のシーン小道具がなくなっていることに気づきました。職員はすぐに監視カメラの映像を確認し、警察に助けを求めました。展示室には文化財は置かれていませんでした。
-
-**引用元**: Yahoo News HK
-
-https://hk.news.yahoo.com/%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%E9%81%87%E7%AB%A5-%E4%B8%8A%E8%A1%A3%E5%8F%8A%E5%B8%BD%E5%AD%90%E5%B1%95%E5%93%81%E8%A2%AB%E7%9B%97-032651035.html
-
-### 教育局、安全確保のため来月の日本への教員・生徒交流団派遣を中止
-
-【Now新聞台】最近の日中関係の緊張を受け、教育局は香港の教員・生徒代表団が来月開催される「21世紀東アジア青少年大交流計画」への参加を取りやめることを確認しました。
-この計画に参加予定だった香港代表団は、中学生16名と教師2名で構成され、来月7日から13日まで日本を訪問する予定でした。教育局は、日本における中国国民への襲撃事件が増加傾向にあることを鑑み、教員と生徒の安全を確保するため、慎重な検討の結果、今年の計画への参加を取りやめることを決定したと述べました。日本の鳥取県知事が、来月半ばに地元の学校の教員と生徒が香港の学校と交流する予定だったが、香港の学校から活動中止の連絡があったと述べたことに対し、教育局は個別のケースについてはコメントしないとし、学校が対外交流活動を行う際には、様々な状況に応じて活動の調整を適切に行うことができると回答しました。
+チムサーチョイ（尖沙咀）の歴史博物館で窃盗事件が発生しました。職員が、展示品の上着と帽子がなくなっていることに気づき、警察に通報しました。レジャー・文化サービス部によると、職員が昨日午後、「香港多面体」展覧シリーズ：「金山に寄せる萍（うきくさ）—香港とカリフォルニアの華僑生活」展覧会内で、場面の小道具である上着と帽子がなくなっているのを発見しました。職員はすぐに監視カメラの映像を確認し、警察に助けを求めました。展示室には文化財は置かれていませんでした。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E6%95%99%E8%82%B2%E5%B1%80%E7%82%BA%E7%A2%BA%E4%BF%9D%E5%AE%89%E5%85%A8-%E5%8F%96%E6%B6%88%E4%B8%8B%E6%9C%88%E5%B8%AB%E7%94%9F%E5%9C%98%E8%B3%B4%E6%97%A5%E4%BA%A4%E6%B5%81-090621764.html
+https://hk.news.yahoo.com/%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%E9%81%87%E7%AB%8A-%E4%B8%8A%E8%A1%A3%E5%8F%8A%E5%B8%BD%E5%AD%90%E5%B1%95%E5%93%81%E8%A2%AB%E7%9B%97-032651035.html
 
-### 教育局：香港代表団が「21世紀東アジア青少年大交流計画」を辞退、中学生は来月日本へ交流予定だった
+### 教育局、安全確保のため来月予定の教員・学生団の日本への交流訪問を中止
 
-日本の高市早苗首相の台湾に関する発言が日中関係の緊張を引き起こしています。香港教育局は、香港代表団が今年の「21世紀東アジア青少年大交流計画」への参加を辞退し、来月予定されていた中学生の日本への交流が中止されることを発表しました。
-教育局によって選抜された教員・生徒代表団は、来月7日から13日まで日本を訪問し、「21世紀東アジア青少年大交流計画」に参加する予定でした。教育局は、日本における中国国民への襲撃事件が増加傾向にあることを鑑み、教員と生徒の安全を確保するため、慎重な検討の結果、参加を辞退することを決定したと述べました。
+教育局は、安全確保のため、来月開催される「21世紀東アジア青少年大交流計画」への香港の教員・学生代表団の参加を取りやめると発表しました。この代表団は中学生16名と教師2名で構成され、来月7日から13日まで日本を訪問する予定でした。教育局は、日本における中国国民への襲撃事件が増加傾向にあることを鑑み、教員と学生の安全を確保するため、慎重な検討の結果、今年の計画への参加を取りやめることを決定したと述べています。また、鳥取県知事が、来月中旬に地元の学校の教員と学生が香港の学校と交流する予定だったが、香港の学校から活動中止の連絡があったと述べたことに対し、教育局は個別の事案についてはコメントしないとし、学校は対外交流活動を行う際、様々な状況に応じて活動内容を適切に調整できると回答しました。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E6%95%99%E8%82%B2%E5%B1%80-%E9%A6%99%E6%B8%AF%E4%BB%A3%E8%A1%A8%E5%9C%98%E9%80%80%E5%87%BA-21%E4%B8%96%E7%B4%80%E6%9D%B1%E4%BA%9E%E9%9D%92%E5%B0%91%E5%B9%B4%E5%A4%A7%E4%BA%A4%E6%B5%81%E8%A8%88%E5%8A%83-%E4%B8%AD%E5%AD%B8%E7%94%9F%E5%8E%9F%E5%AE%9A%E4%B8%8B%E6%9C%88%E5%88%B0%E6%97%A5%E6%9C%AC%E4%BA%A4%E6%B5%81-054811964.html
+https://hk.news.yahoo.com/%E6%95%99%E8%82%B2%E5%B1%80%E7%82%BA%E7%A2%BA%E4%BF%9D%E5%AE%89%E5%85%A8-%E5%8F%96%E6%B6%88%E4%B8%8B%E6%9C%88%E5%B8%AB%E7%94%9F%E5%9C%98%E8%B5%B4%E6%97%A5%E4%BA%A4%E6%B5%81-090621764.html
 
-### 将軍澳の路傍で恐ろしい白骨が発見、少なくとも10個が散乱、ネットユーザーがその由来を推測
+### チョンクワンオー（将軍澳）の道路脇で恐ろしい白骨が発見され、ネットユーザーがその由来を推測
 
-将軍澳（チョンクワンオー）の路傍で、少なくとも10個の白骨が散乱しているのが発見され、恐怖を呼びました。この発見に対し、ネットユーザーたちはその骨の由来について様々な推測を巡らせています。警察が現場で調査を行っており、詳細な情報はまだ発表されていません。
+チョンクワンオー（将軍澳）の道路脇で、少なくとも10個の恐ろしい白骨が散乱しているのが発見されました。この発見はネット上で話題となり、多くのネットユーザーが詳細を分析し、これらの骨の由来について様々な推測を繰り広げています。
 
 **引用元**: 星島頭條
 
-https://news.google.com/rss/articles/CBMixANBVV95cUxQd0hhS2NNOGdvUmlwOW1FeUxOWTdBa18tVGpLM01qZkxzeFcyXzdJRGkwbE1XV1V5UTNRdzE2RE1ESnlhRkhaenI4ZTlwdFowaGJLTm1YaWFnXzFhUGh4TmFBTjdONGphcmNqblU5V2RoS3ZBb05hdnN1eE1qMUUtY1VVeUVuMlhVZFZmSm9WZkR1NnZqS1AwOW9DazdNYnBrSlFXcFVMMW5yZjV6SFBXQk9lMFhUVzJnOGtSRmQ1YXZNV2JaMVZ3bEFkNEN3SnBGYmxrRGt6RkFySEdCSUo4em5wcGE5czZEMk15TWEyeHMwcHNQQkUzTGdyMGtXWVNqYmFtRXBmTVl0VzAySGZWYVU1MGptUmlzNi0yUTVfNUp6OXQzYnI3WUNDSTFpSzlHRjFNdUtPT3R0cmtmd1RhZk9vOVFTcy1UQnppV1BYWHM3czBKeGxiblJ5RzdOanR0SVlpSDdUSE44WEdGbmtrVXVTWmlkemIyQUkxOHdQM1E5bTdXVk10RzhYM2ZEd0FDel9wb3dtVlkxVTNyTGpnVTE1X0JjaVRsZ2JqcWZuT082SjJoRk1YYmNHOEJKQWNLTXNPYw?oc=5
+https://news.google.com/rss/articles/CBMixANBVV95cUxQd0hhS2NNOGdvUmlwOW1FeUxOWTdBa18tVGpLM01qZkxzeFcyXzdJRGkwbE1XV1V5UTNRdzE2RE1ESnlhRkhaenI4ZTlwdFowaGJLTm1YaWFnXzFhUGh4TmFBTjdONGphcmNqblU5V2RoS3ZBb05hdnN1eE1qMUUtY1VVeUVuMlhVZFZmSm9WZkR1NnZqS1AwOW9DazdNYnBrSlFXcFVMMW5yZjV6SFBXQk9lMFhUVzJnOGtSRmQ1YXZNV2JaMVZ3bEFkNEN3SnBGYmxrRGt6RkFySEdCSUo4em5wcGE5czZEMk15TWEyeHMwcHNQQkUzTGdyMGtXWVNqYmFtRXBmTVl0VzAySGZWYVU1MGptUmlzNi0yUTVfNUp6OXQzYnI3WUNDSTFpSzlHRjFNdUtPT3R0cmtmd1RhZk9vOVFTcy1UQnppV1BYWHM3czBKeGxiblJ5RzdOanR0SVlpSDdUSE44WEdGbmtrVXVTWmlkemIyQUkxOHdQM1E5bTdXVk10RzhYM2ZEdwFDel9wb3dtVlkxVTNyTGpnVTE1X0JjaVRsZzJqcWZuT082SjJoRk1YYmNHOEJKQWNLTXNPYw?oc=5
 
-### 将軍澳道で6台の玉突き事故、11人が負傷、事故原因は調査中
+### チョンクワンオーロード（将軍澳道）で6台の車が玉突き衝突、11人が負傷し事故原因は調査中
 
-将軍澳道（チョンクワンオー・ロード）で6台の車両が絡む玉突き事故が発生し、11人が負傷しました。負傷者は軽傷で病院に搬送されましたが、事故の原因については現在も調査が続けられています。この事故により、観塘（クントン）方面への交通が一時的に混雑しました。
+チョンクワンオーロード（将軍澳道）で6台の車が玉突き衝突する事故が発生し、11人が負傷しました。負傷者は軽傷で病院に搬送されましたが、事故の原因は現在調査中です。この事故により、観塘（クントン）方面への交通が渋滞しました。
 
 **引用元**: on.cc東網
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHM2WVR5QUNCZUtnT1hpUmhBNjhJVTVPT21mYjBJT1NZWGxvUVdJcWQxTDJXcEZYZmw1TDhnVGwtNFlwQ1MzMThyZGhyZTJpdk5JVkd3Z0VlQnZxVXd6cDVXOVFUZG90Mi1KbTJqN1JSOFQ0VTRsSlBhTm9CcVE5SnRDNUFCSTF3Ym1R?oc=5
 
-### 香港ストリートマラソンが明日開催、港九および将軍澳で段階的な一時的道路閉鎖を実施
+### 香港ストリートマラソンが明日開催、香港島、九龍、将軍澳で段階的な一時的道路閉鎖を実施
 
-香港ストリートマラソンが明日開催されます。これに伴い、香港島、九龍、および将軍澳（チョンクワンオー）の多くの地域で、段階的な一時的道路閉鎖が実施される予定です。参加者および一般市民は、交通規制に注意し、公共交通機関の利用を検討するよう呼びかけられています。
+香港ストリートマラソンが明日開催されます。これに伴い、香港島、九龍、およびチョンクワンオー（将軍澳）の複数箇所で、段階的に一時的な道路閉鎖措置が実施されます。ランナーは、まだ開通していない中央九龍バイパスを通過する予定です。大会主催者は、ランナーが誤って余分な距離を走らないよう、指示を強化すると発表しています。
 
 **引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTFBMZWg5a3ZvS2VhSFVWS0lxaExUVm1uTHN2Z0pOdnZqX0hTYjMwZDd6bEVfRTJYN1lWOTZ6MzBzSWJibUN3N0ttM1BpWEV6MC14V2stakROUUp0blJNYmRzUUdLN1R3cV96aE5SZmNpMA?oc=5
 
-### 軽鉄の早朝便で3人家族が不正乗車、MTR職員は夜明け前から出動？当事者の一言がネットで大炎上
+### ライトレール早朝便で3人家族が不正乗車、MTR職員の夜明け前からの出動が明らかに。当事者の一言がネット上で激しい非難を浴びる
 
-軽鉄（ライトレール）の早朝便で、3人家族が不正乗車しているところをMTR職員に発見されました。MTR職員は夜明け前から出動していたのでしょうか？この家族の一人が発した一言が、ネット上で大きな批判を浴びています。詳細については、不正乗車が発覚した際の状況や、その発言の内容が注目されています。
+ライトレールの早朝便で、3人家族が不正乗車しているのが発覚しました。MTR職員は夜明け前から出動し、不正乗車を取り締まっていたとのことです。この件で、当事者の一言がネット上で激しい非難を浴びています。ネットユーザーからは「社畜か奴隷か」といった声が上がり、多くの共感を呼んでいます。
 
 **引用元**: UHK 港生活
 
 https://news.google.com/rss/articles/CBMi-wNBVV95cUxOV2xZWjdBWVJIYVF3UHE3S1VTLWNIczMtRlRBay1qSkYxb1NmS2JzRUlHeFVSRzdhaEY4RnNWZmdXNUJYeFpYTGhYb1RrZ3g5UTBWbDI3OUxvM0xOdHk2R0ZwMjFEdWRSR3ZQLU9fTWVsRVdWTk5wRXhSSXl5V2wyTHFQQTR3TTgwa1ZvemRXek9ydFBZaDE5UXhCbG9mYWFBZUYyNTZCNUdaVllQM3Y5d0MzWndHelcydFY2UUNuMDF2T2k4RkxLZ3I2b2lfYzhXM0NEUVY5S3JsU3JpV3Vnbm5HdzZ2NGNUMWhvdllDa0dGNS1SVFZLbUFISkFZaDlpQ0tWdUhDaDhCbHpNbEpmMXhNMUs5SWFJZ2JJZDkzX2dxWUFYOFU2SEM0T0tuaEYtdjBPT0RPYTlDazd0SG1Ud0I5UW1vNGtPZlhnenZuTFJGN1BBQ0phaUZSTmNHSXZvd1FmcjlYWm5oVXNZZGlJOXJNVXRJZ2duOHFoNUFYX2JxVWRrSGxLdTZSbUVSeDhEWTZ6aU1NekVpZ1hCU096Nzdtc2VMeExPaUo4YnNWMXY3QjFNb1B5d0RlS2ZTVkpnWWdYVnhnNzF0RVJYNWRKaTU0LVh4OFRNS2VWU0FqUGxDalRTcGc3V3VEaXVkdFJ3N09PeXg3Z2lzcmc?oc=5
 
-### シティバス、クルーズ船客向けオープンバス観光路線を運行、2日間で500人が利用
+### シティバス、クルーズ船客向けオープンバス観光路線を運行開始、2日間で500人が利用
 
-シティバス（Citybus）は、クルーズ船の乗客を対象としたオープンバス観光路線「H20」を運行開始しました。この路線は啓徳（カイタック）クルーズターミナルから出発し、尖沙咀（チムサーチョイ）方面へ向かいます。運行開始から2日間で約500人の乗客が利用し、好評を博しています。週末には子供向けの無料乗車キャンペーンも実施され、海岸沿いの景色を楽しむことができます。
+シティバスは、カイタック（啓徳）クルーズターミナルからチムサーチョイ（尖沙咀）へ向かうクルーズ船客向けのオープンバス観光路線「H20」を運行開始しました。この路線は、運行開始から2日間で約500人のクルーズ船客を運びました。シティバスは、オープンバス路線の周年記念として、土曜日には子供向けの無料海岸ツアーも実施しています。
 
 **引用元**: 明報新聞網
 
 https://news.google.com/rss/articles/CBMi8wJBVV95cUxOaHBlTHpmcVh4N1d3WGpONkJ3SlpjUE5ya3VkdTJWNXBpY216OExRYlRaZzVFX2JOcFl3cmlMVndQcFg1YVlwQUQzWXNEUlhrMThuMmpWalRfajYxMTduaHhtbGhHUGhGbGk0Qml3TUNyOUFHVnlMdzRMdGsweFk4aXVqZ1NCa1ZzLWoyQ3BISlQ0c25aUkFEX0UwNTIzZ0tOR25qR210VnlnYXpiTFYtZDZ6bVBvaXM1SWZuTkc0NWhGOGs2MzVCWTNGdmxKS3dnN1pZcDNna3htUElKT3Z1QW1GMTFXU1VBdG9NVmZrcGNncHhVekJKN3FMN1p6Q2tQVjB2OVdsMTczQVVYVTBXaGtTREtFX0tlbkw3NjJiaWdwQVNzUmJIMzl1SUM4RWxFV1pmUFBHNDdBRDdlY1FUNEVpTWxLTF8wdFJBY3BZRXVDSndVemhqdEN4NjJ0RGFtTi1MODBFQWlhc25JVDZNLWxQbw?oc=5
 
-### 湾仔で70代女性が店舗で窃盗容疑で調べられ、カッターナイフ所持で武器所持の疑いも
+### ワンチャイ（湾仔）で70代の女性が店内で窃盗を疑われ、カッターナイフを取り出し武器所持の疑いで逮捕
 
-湾仔（ワンチャイ）で、70代の女性が店舗内で窃盗を働いた疑いで店員に呼び止められました。女性は身分証明書を提示する際にカッターナイフを取り出したため、警察官に制圧され、武器所持の疑いで逮捕されました。警察は現場に駆けつけ、女性を拘束しました。
+ワンチャイ（湾仔）で、70代の女性が店内で窃盗を疑われ、店員に呼び止められました。女性は激高し、カッターナイフを取り出して振り回したため、警察官5人に取り囲まれ、武器所持の疑いで逮捕されました。女性は身分証明書を取り出す際にカッターナイフを見せたとも報じられています。
 
 **引用元**: on.cc東網
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOG5qd3JTcURubVB3WFAycU5MaDFMRDhKV2tHRTlEdGVobUo2WTRZUzB0eWlwVnViODlnOUQzaU1jWURITzl3RTJ5X3pSMzdzeGlUem45blZ3UGQ5ZVBqNXdUcHBGZlBfRzRWMVVCbF9VR0FFWkg1NkItZWNLaWRmS3JMaXhaR3U3blpv?oc=5
 
-### 「持ち帰れる」古代エジプト文明展
+### 香港故宮文化博物館で「持ち帰れる」古エジプト文明展が開催
 
-香港故宮文化博物館で開催されている「古代エジプト文明展」は、来場者がその魅力を「持ち帰れる」ような体験を提供しています。この展覧会では、彫像やミイラの棺など、250点に及ぶ貴重な文物が展示されており、4つの主要なテーマに沿って古代エジプトの神秘と歴史が紹介されています。特に、ミイラに関する興味深い知識も学ぶことができます。
+香港故宮文化博物館で「持ち帰れる」古エジプト文明展が開催されています。この展示では、4つの主要なテーマに沿って、ミイラに関する興味深い知識などが紹介されています。開展初週末には多くの来場者が訪れ、入場まで1時間以上待つ人もいたため、一部で払い戻しを求める声も上がりました。また、ファラオのミステリーボックスも人気を集めています。
 
 **引用元**: 明報新聞網
 
 https://news.google.com/rss/articles/CBMikwJBVV95cUxONlJBYXZXTVEwUTV0dVhUaXJIV0xsT0tFbksyMVFXNnlZUzNnc1V0Rmp3QVhqMFpGZk01aVVhUmtOS2s0azBUdDdHaXRxX05VcW1oc0tDRnpUS3dhQUpTZ050dnZfN2s4dzRGMDR3c2FMaVg0ZXlGc1plTWk5dVI1aGJ1QnA1XzRhTDQydEVhMmZpVEJwMk4ySmtiSjgwQUI5NFcyR1NSclQ5VTdvcE5hVXMyYUlBX1N5bnAyUHRIYThKcllSTHlUVXRCWEE4djVXbW41Uk43U3h5cXBCZUluMEhzWDZ2U1RZYzlDSHVYU084cjlLTWR1T3MxTUNlUkhZNDhMVDRrMVpFbzFGUVROTlBiQQ?oc=5
 
-### ビクトリアハーバー横断水泳大会が湾仔で開幕、何詩蓓選手が女子組で2位を獲得
+### アバディーン（香港仔）で失踪していた男性が発見される
 
-ビクトリアハーバー横断水泳大会が湾仔（ワンチャイ）で開幕し、香港の女子水泳選手、何詩蓓（シボーン・ホーヒー）が女子組で2位を獲得しました。文化体育観光局の羅淑佩（ロー・スクプイ）局長が湾仔金紫荊広場の公共埠頭でレースの開始を告げ、競技組の男子選手が最初にスタートし、その後、赤と黒の水着を着た何詩蓓選手を含む女子選手が続きました。この大会には、競争組の他にレジャー組も設けられており、両組とも約1キロメートルを泳いで尖沙咀（チムサーチョイ）の星光大道（アベニュー・オブ・スターズ）を目指します。何詩蓓選手は、今回が初めてのオープンウォータースイミングであり、海で泳ぐのも初めてだと述べ、貴重な経験を積むことができたと語りました。時間があれば来年も挑戦したいと意欲を見せています。
+数日前にアバディーン（香港仔）で失踪していた男性が、無事に発見されました。
 
-**引用元**: Yahoo News HK
+**引用元**: 香港電台新聞網
 
-https://news.google.com/rss/articles/CBMiuAJBVV95cUxNbnQtNmhFcW1tbTRlY21PbU9QNjRNTDRWMzRoNkQ3TjNWMlJJVWZaXzZ5cEt4dEdXNWhGMkppY042M1FFdThFSnVSbXJUV1V3SHB4Y3lzR3JRTFg5eG9LNW5xS3FfR01ZenV6YXhKc3I4NEZpVnJWUlRnXy1jNDZ5Q3FNeGczZEV5alY1NUhmTThuaFhYa3Fsd3NJUWdULVhFazYtVjdBMVlpODRseFNGbnVrZW43YXMtOVozWG9ZSG9Td3R0MU5iVGpTNHAza0Rka1dHclNJRmZLT2M3ZnJlVVYyTU85akdvM1NvSDFfempMVVNKdkxFMk14cGNmQWZ0cjRjRnJtWF9aNldYZkR0bWRpTUpGbXc0YUg0YjN3NTg4RmFXcWFWam1UV0Y4M19UaVJOUmJ4UGk?oc=5
+https://news.google.com/rss/articles/CBMib0FVX3lxTFBCNGo2azRDTUdkZUdrQWpMVnNhWjZaQUVGQThCLWt0Q19qRWo1VWcwVW5IdDBIQTUwcWIyTTBrSWdscUkwT3FQSXNmbF83ejlDNDhjeG9SbmR6Mk1ISTRnMm9JaGxjdGRrZUJrUHQzOA?oc=5
 
-### MTRで倒れた女性、意識を取り戻し病院搬送を拒否「仕事を続けなければならない」の一言にネットが共感
+### MTR内で女性が倒れるも「仕事を続けなければならない」と病院搬送を拒否、ネット上で共感の声
 
-MTR（香港鉄路）の車内で女性が倒れましたが、意識を取り戻した後、病院への搬送を拒否しました。彼女が発した「仕事を続けなければならない」という一言は、多くのネットユーザーの共感を呼び、「社畜か奴隷か」といった議論が巻き起こっています。この出来事は、香港の労働文化における過酷な現実を浮き彫りにしました。
+MTR内で女性が倒れる事態が発生しましたが、意識を取り戻した後、病院への搬送を拒否し「仕事を続けなければならない」と語りました。この女性の一言はネット上で多くの共感を呼び、「社畜か奴隷か」といった議論が巻き起こっています。
 
 **引用元**: 香港01
 
-https://news.google.com/rss/articles/CBMiqANBVV95cUxNUFBUOWhPLWtGQWMzYXJxV1E3eDhWaGU4OGoxd1pBUWt3Y0k5UTM1RXp2QXZ1Zmp1c3JzQUZ3RUc1MUxWeVMwdi1GRjU3dXJWYngxdVNRYzVsZEFmTGFhamlRUExhRUtBLVl6V3RPaGFRTXphSmlmdFNTXzctdU0yY25MMnU0SDFWclJ3RTFmaTBKWWZPc1B4V1VlUGRKQUlnNVV6ejF6aF9oZVhLYVQteTdEa0pVRzZnT1hTNk1sZ3A4T1JnOVFmQnVfci05ZmtwVlBXUEJ5aWthVTlSRmMxYnZvZTRTWUNQYzZKdEhCdGtGTVNKNFRPRFNuZHIzV09zcUluSXdFY000MHdsS1lLLTdwenhnR1pUODhqSkREd3JuajdTeUF6WUJ6dHRkb25Lb3hRb2Zqdm9Xd245YXM5RGpZMHg1U2xTdlRvRGxJODRKZ2ZpUVdMbWppU0hfQktqVkhyUHNCcTFjb3JBRTF6NEJ3RmNnS2FZbml1a2h1cmh1RFpWRFZTQkowQkF3d0pmOVNsNTQtNWYxSXJkY0pCX3pmMW5UbDRM?oc=5
+https://news.google.com/rss/articles/CBMiqANBVV95cUxNUFBUOWhPLWtGQWMzYXJxV1E3eDhWaGU4OGoxd1pBUWt3Y0k5UTM1RXp2QXZ1Zmp1c3JzQUZ3RUc1MUxWeVMwdi1GRjU3dXJWYngxdVNRYzVsZEFmTGFhamlRUExhRUtBLVl6V3RPaGFRTXphSmlmdFNTXzctdU0yY25MMnU0SDFWclJ3RTFmaTBKWWZPc1B4V1VlUGRKQUlnNVV6ejF6aF9oYVhLYVQteTdEa0pVRzZnT1hTNk1sZ3A4T1JnOVFmQnVfci05ZmtwVlBXUEJ5aWthVTlSRmMxYnZvZTRTWUNQYzZKdEhCdGtGTVNKNFRPRFNuZHIzV09zcUluSXdFY000MHdsS1lLLTdwenhnR1pUODhqSkREd3JuajdTeUF6WUJ6dHRkb25Lb3hRb2Zqdm9Xd245YXM5RGpZMHg1U2xTdlRvRGxJODRKZ2ZpUVdMbWppU0hfQktqVkhyUHNCcTFjb3JBRTF6NEJ3RmNnS2FZbml1a2h1cmh1RFpWRFZTQkowQkF3d0pmOVNsNTQtNWYxSXJkY0pCX3pmMW5UbDRM?oc=5
 
-### 荃湾の焼臘店でテイクアウト弁当を食べた13人が食中毒の疑い、2人が入院
+### チュンワン（荃灣）の焼臘店でテイクアウト弁当を食べた13人が食中毒の疑い、2人が入院
 
-荃湾（チュンワン）にある焼臘店（ローストミート店）のテイクアウト弁当を食べた13人が、食中毒の疑いで体調不良を訴えました。そのうち2人は入院が必要となりました。彼らは叉焼飯（チャーシューライス）や叉焼鶏飯（チャーシューチキンライス）などを食べた後、下痢などの症状を呈したと報じられています。衛生当局が調査を進めています。
+チュンワン（荃灣）にある「好運明記焼臘家」のテイクアウト弁当を食べた13人が食中毒の疑いで、うち2人が入院しています。彼らはチャーシューライスやチャーシューチキンライスなどを食べた後、下痢などの症状を訴えました。病院管理局は、市民に対し食品衛生に注意するよう呼びかけています。
 
 **引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE5RWHEtNC1reHBGc01nVXhsbFhtdVZrckNmMk5xdE1Hd1AwbDdSOFN6OVl1WFBoTGdOdVd0RjJHNFNHdU1rZHhhNmdCSEpuV3FELUcwNDdYczFIMi0zNmlhOFI2VXlkbm13b0xvZzA1aw?oc=5
 
-### 紅磡の海で女性が転落、ワトソンズのCEOが勇敢にも飛び込んで救助、オランダから出張中のヒーローに
+### ホンハム（紅磡）の海辺で女性が転落、ワトソンズのCEOが勇敢に救助し英雄に
 
-紅磡（ホンハム）の海辺で女性が海に転落する事故が発生しました。その場に居合わせたワトソンズ（屈臣氏）のヨーロッパ地域CEOが、勇敢にも海に飛び込み、女性を救助しました。このCEOはオランダから香港に出張中であり、その行動は「救助の英雄」として称賛されています。この美談は、多くの人々に感動を与えました。
+ホンハム（紅磡）の海辺で女性が海に転落する事故が発生しました。その場に居合わせたワトソンズのヨーロッパ地域担当高層幹部が、勇敢にも海に飛び込んで女性を救助しました。オランダから香港に出張中だった彼は、この行動により「救助の英雄」として称賛されています。ワトソンズのCEOも彼を「英雄」と讃えました。
 
-**引用元**: Yahoo News HK
+**引用元**: Yahoo News - HK
 
 https://news.google.com/rss/articles/CBMiqARBVV95cUxOLTJCWG4tV3RHNjhBdGV2ZlBIdkREQWpNU2hxOW4yemhlczJzVDcxakRmUzNCWnJMeUxLTFFaWEdQSktnbDhvLWlKNXdLWG1HaXkxS1F0X3ZVVU1Bd05rcUdWVVhzYXJRd05hQWMxc2dUQV9WcUZZeXpxUU5vRG1SWlZORHY0dXRTTUp5MzlLVEpoaHBkX1BSc3pSMjd4S0ZhU0dUTExkWWNLQWpoaEFWV2M0aVJIRVBlLWpjb1FBS3g2Mk1KdGwzUG1DdC1Id2V6T3VVNVRPU1dFcklEMkJzV2xYMjZpUlpsczN4M2FmWlpTQlR5QTJENlJXcDZkdWJhSDd3Z0FjTnB5VTk2MHNHcXd1RWd0aXM2V2UyUHdUWGVIVGtiU3g1Y2lLTWROZkJYY0MtamJhaG1EYm1ybW5abVFJNTd5N1k4VFFra3hidzZhclJZejY5Y2MxYmdsMmtScTktRWNVcWNUT2NXaDJOTE8zQkw4THFtR2tYSkVqdzdwTmk4dENXQnpsMTJFSURkZ19zLUY1N1VzNEFmcXJjOFJZU2RTVUdRYjN5NXNPNWppb3VfdzJIcmhHWFFiQUwtRnR2c1JuWlFyRXdMLTk4UjZmTU1UTTJKMnJKY09UUmVWdDk4Q3JaeGR0WGhydHhkbm10RGtHeW52Z08xNUltVWprTFR1SG9RVkNOalREa1pYT1RKMzQzVXVqZjhZOTU3anB5WnlsVVM?oc=5
 
-### ダイヤモンドヒル活水公園が開園、ブルース・リー・トレイルや故ジョー・ホン旧居を設置、市民から好評
+### ダイヤモンドヒル（鑽石山）活水公園がオープン、ブルース・リー・トレイルや故ジョージ・ラム（喬宏）の旧居を設置
 
-ダイヤモンドヒル（鑽石山）に活水公園（Living Water Park）がオープンしました。この公園には、ブルース・リー・トレイルや、故映画スターであるジョー・ホン（喬宏）の旧居が再建され、市民からは懐かしさを感じさせる場所として好評を得ています。公園は、大磡村（タイホムチョン）の機関銃陣地など、複数の歴史的建造物を復元しており、市民は軍事遺跡を探索したり、映画スターの旧居を訪れたりすることができます。
+ダイヤモンドヒル（鑽石山）の活水公園がオープンし、市民に開放されました。この公園には、ブルース・リー・トレイルや、故映画スターであるジョージ・ラム（喬宏）の旧居が再建され、多くの市民から懐かしむ声が上がっています。また、タイホン村の機関銃トーチカなど、軍事遺跡も訪れることができます。
 
 **引用元**: 香港01
 
 https://news.google.com/rss/articles/CBMipgNBVV95cUxPNXUzOUhuNzFSV0IzbGJNNHRZcHU3NVNPWjFFMkEtQU5vbU5zWlc4TWY0LXcyZVRudDE0WklFa2EyMnVWQ2hIVHAweWcwNHg5TG5GSV9NSmtBbDhpd2hHOGc5bDNvOUJiV2ltMVN1cFFXTTJteThjbzRkWlFva0JHTHdfRWh1bFNacU1xRXZzZnpxLTl3Q2hyeDlJbnRXZmlSbVVBVFJlN2pjU2RhWW9lUGxmR3E0OHFwdDNLWTZORWdpbHZtYVpady1CcEhHRUJ4YkZScV9HeXowX0ZnLXoxN2RoZXJHdTd1SmlpTUVrMzlnTll0NmQ4cjNKdGc3bkZ6cEsycUZSYjZyRE5JRkNtNlVXWlBVNGNSZ2dScUVmNGxCZ2tvWVpOcHBCcUgwY1lWY0hUMTNJYkpEQkkwSjVCYUliQ1c4MUdiakZWZ1labFNVRTRPa2FBbEwzNmVlVUdVMFVVaGtqWUllOE1JMTE0VWNUZ09tR1poM09TVnloaEpfd2U1SC16NG4xZDdkZC1JMWpneTBuajVNc05CNk1EQjVNWE1SUQ?oc=5
 
-### 女性副校長補佐、SOGOスーパーマーケットで3500香港ドル相当の商品を窃盗容疑で逮捕、調味料や健康食品など
+### 女性の副校長補佐、SOGOスーパーマーケットで3500香港ドル相当の商品を盗んだ疑いで逮捕
 
-ある中学校の女性副校長補佐が、銅鑼湾（コーズウェイベイ）のSOGOスーパーマーケットで約3500香港ドル相当の商品を盗んだ疑いで逮捕されました。盗まれた商品には、調味料や健康食品などが含まれていると報じられています。彼女は保釈され、来年1月に再審理される予定です。この事件は、被告の身元が注目を集めています。
-
-**引用元**: 香港01
-
-https://news.google.com/rss/articles/CBMiogNBVV95cUxQYVlyVHBGUTA5Y1JoV3pJZVNVMEhUc2kxM1BEMzZObm9KbnhmZXhmVDFxM2EzbXd3OW9JY29scFRTcW5VRjZlTnJGTV90WU9xYXVuRmI2LVotT3B5NXJSVEZVWGNzREs4RUt1V2hzQkw5c0FIWnI2QTdDTUV1NVRST3dTelFaNERiV2dMUzY1QXAxa19pVjU4dVBqWkJuX2NmLWR0VndSWE5fUklGOWxjZE9qc0pISUhyRW5wOTlEbkNpeS1vcUJMZkZ1emVkSUtSdGlJZ25yY01iRVFiLXltVG1EU2tJaTNSVDVMNkdBSURaTUNoa1hzRXRLazVoN09MQnVvQ2Z4TTRITDlSMHZFTHhzR0ZnWXE5SUNxN2VnRERfdWl2XzlNX3NQZUpuQkpCVEJIVlpkM3o4aGhySUNHQmhBOWpjdkpRMVltX1dXaWczVWV5elpNMFA0cVRxU1Nsc2dRLUplUlFWSmtYSFRwVEpyNm9fV1lIbWZFVWsyNFBJQkZtU0ZkVUtwaWtsb0o2M3owdWJKS21kb2x4U2xuenhn?oc=5
-
-### 啓徳の足場崩落事故で2人死亡、現場監督と作業員が過失致死罪で起訴、労働権益会が業界に警鐘
-
-昨年啓徳（カイタック）で発生した足場崩落事故で2人の女性作業員が死亡した件について、警察は過失致死事件として捜査を進め、現場監督と足場作業員の男性2人を逮捕しました。彼らは本日午前中に起訴され、それぞれ30万香港ドルの保釈金で保釈されました。労働権益会（工權會）は、この事件が業界全体に警鐘を鳴らすものだと指摘しています。
+コーズウェイベイ（銅鑼湾）のSOGOスーパーマーケットで、女性の副校長補佐が約3500香港ドル相当の商品（調味料や健康食品など）を盗んだ疑いで逮捕されました。彼女は保釈され、来年1月に再審理される予定です。被告の身元は注目を集めています。
 
 **引用元**: 香港01
 
-https://news.google.com/rss/articles/CBMimwNBVV95cUxPcEpwc2xWSUxCRU5UaDlVd051NllyQTRGb2lhN19mYnY4aGpiUFJ3ZjIyUEQ4SDcxWm14aVBDczBkaU5FSTByRTFqOUx2LTZlaHNOeTRwU0M1bUt0T2otQWoxSHpRcThJVndQa2ZocFlweTVscHhqcTlCWFdvWlNHejBpMDRybWtFeUMtZUJURS1hRzlDY3U3eTlFMmJ4bnRUZENCQVl3WnFWMDc0MHlrVHRGMWRnS3RiaHhqZFJtU3VFcWhOUWNjUmZwMmZWdmxnSWpCLTdUUjgyOC12LVZhWmxjOThPSmpGSDVkOHVHb0VZRG9DTmNxLUk4bHZlSmg1OG5Zb1NGWEhvTW5MMi1LZl9tLUNSVFg1a2tHMl9NcjgzeXVyNDNDaTRaVFpXeVZ2VWNRS1B2S3BjUHBkQXdKUko1TGJ2blc4cTFNMV9rN1NHLTlESEhrc2xPMFhMM0NMQ1E4UmJlblp2QmVOQTNZTk91bEFtbVFib0lCNkJtcVR3SXBvblRJS1l0T2ZsWFVxaXRKS0NpNFg0VlE?oc=5
+https://news.google.com/rss/articles/CBMiogNBVV95cUxQYVlyVHBGUTA5Y1JoV3pJZVNVMEhUc2kxM1BEMzZObm9KbnhmZXhmVDFxM2EzbXd3OW9JY29scFRTcW5VRjZlTnJGTV90WU9xYXVuRmI2LVotT3B5NXJSVEZVWGNzREs4RUt1V2hzQkw5c0FIWnI2QTdDTUV1NVRST3dTelFaNERiV2dMUzY1QXAxa19pVjU4dVBqWkJuX2NmLWR0VndSWE5fUklGOWxjZE9qc0pISUhyRW5wOTlEbkNpeS1vcUJMZkZ1emVkSUtSdGlJZ25yY01iRVFiLXltVG1EU2tJaTNSVDVMNkdBSURaTUNoa1hzRXRLazVoN09MQnVvQ2Z4TTRITDlSMHZFTHhzR0ZnWXE5SUNxN2VnRERfdWl2XzlNX3NQZUpuQkpCVEJIVlpkM3o4aGhySUNHQmhBOWpjdkpRMVltX1dXaUczVWV5elpNMFA0cVRxU1Nsc2dRLUplUlFWSmtYSFRwVEpyNm9fV1lIbWZFVWsyNFBJQkZtU0ZkVUtwaWtsb0o2M3owdWJKS21kb2x4U2xuenhn?oc=5
 
-### 入国管理局、不法就労者34人と雇用主を逮捕、解雇された外国人メイドが香港に潜伏し日給500香港ドルで就労
+### カイタック（啓徳）足場崩落事故で2人死亡、現場監督と作業員が過失致死罪で起訴。労働者権利団体は業界への警鐘と指摘
 
-入国管理局は、新界南（ニューテリトリーズサウス）地域で実施された不法就労者および売春婦の一斉取り締まり作戦で、不法就労者34人（うち外国人メイド24人）と雇用主8人を逮捕しました。調査により、解雇されたり契約が早期終了したりした外国人メイドが、香港に不法滞在して不法就労に従事しており、日給が最高500香港ドルに達することもあったことが明らかになりました。彼らは主に皿洗いや清掃などの仕事をしていました。今回の作戦では、偽の難民を含む20人の男女が逮捕されました。
+昨年カイタック（啓徳）で発生した足場崩落事故で2人の女性作業員が死亡した件で、警察は過失致死罪として捜査を進め、現場監督と足場作業員の男性2人を逮捕しました。彼らは本日午前中に起訴され、それぞれ30万香港ドルの保釈金で保釈されました。労働者権利団体は、この事件は業界全体への警鐘であり、安全対策の徹底と改善を速やかに行うべきだと指摘しています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxPcEpwc2xWSUxCRU5UaDlVd051NllyQTRGb2lhN19mYnY4aGpiUFJ3ZjIyUEQ4SDcxWm14aVBDczBkaU5FSTByRTFqOUx2LTZlaHNOeTRwU0M1bUt0T2otQWoxSHpRcThJVndQa2ZocFlweTVscHhqcTlCWFdvWlNHejBpMDRybWtFeUMtZUJURS1hRzlDY3U3eTlFMmJ4bnRUZENCQVl3WnFWMDc0MHlrVHRGMWRnS3RiaHhqZFJtU3VFcWhOUWNjUmZwMmZWdmxnSWpCLTdUUjgyOC12LVZhWmxjOThPSmpGSDVkOHVHb0VZRG9DTmNxLUk4bHZlSmY1OG5Zb1NGWEhvTW5MMi1LZl9tLUNSVFg1a2tHMl9NcjgzeXVyNDNDaTRaVFpXeVZ2VWNRS1B2S3BjcHBkQXdKUko1TGJ2blc4cTFNMV9rN1NHLTlESEhrc2xPMFhMM0NMQ1E4UmJlblp2QmVOQTNZTk91bEFtbVFib0lCNkJtcVR3SXBvblRJS1l0T2ZsWFVxaXRKS0NpNFg0VlE?oc=5
+
+### 入境事務処、34人の不法就労者と雇用主を逮捕。解雇された外国人メイドが香港に潜伏し、日給500香港ドルで不法就労していたことが判明
+
+入境事務処は、新界南地域で実施した不法就労者と売春婦の一斉取り締まりで、34人の不法就労者と8人の雇用主を逮捕しました。逮捕された不法就労者の中には、解雇された後も香港に潜伏して不法就労を続けていた外国人メイドが多数含まれており、彼らは皿洗いや清掃などの仕事で日給が最高500香港ドルに達することもあったと報じられています。一部の不法就労者は、偽装難民として香港に滞在していました。
 
 **引用元**: 香港01
 
 https://news.google.com/rss/articles/CBMilANBVV95cUxNSEhjTURnQjBzV1VDMUpTaEsyQU1fNkFzV0NURGFkRGtGUlI5MGozNzNCLWZFeWFLMm15VEhROFp5NDNIVDNjR0lTdjh3cFFReTZXTmQwTU56ZHZfRnpqY0hVZVpGQjVMa3hCZnlqQVJUV3B2OFo1ckVBcV90c09ISGZseTdOODB0RXFDeUZzZENKQlJDMUV5bUllSDRHVEFFVnFINlo4aHVDbnlGZjY5ak1hcmJWZHAxc2RPSnVXdzN2S3A2ek5zay1TRG8wZU9ZUUtNa2kwOTlBeEFObXFQaHB4SUhiVDhIOG1oZnNKMUF3Unlmb1dkMnp2VTFsUm9EakpENVFDenNfN21Kdm9FaklvbnFaamdlYlE4MG9CVVhJZExJS1FPUWY2N0hHRUlBSjBGRHNIRXZsc2RLa3ZXOW84eUhVWEY5eXNuZDRPNjA0Um1VeTNSTzMzLW92WUZqZ3pRTlNEWGFzc3gtbUtJN1pDZnZzb2w5cU9fem4wUGNpbVRTV2pxN0tiT2lSLVJQZGNqZg?oc=5
 
-### 国務院、尹宗華氏の中央人民政府駐香港特別行政区連絡弁公室副主任の職務を解任
+### 国務院、尹宗華氏の中央人民政府駐香港特別行政区連絡弁公室（中聯弁）副主任の職務を解任
 
-国務院は、尹宗華（イン・ツォンファ）氏の中央人民政府駐香港特別行政区連絡弁公室（中聯辦）副主任の職務を解任しました。この人事異動に関する詳細な理由は現時点では明らかにされていません。
+国務院は、尹宗華（イン・ツォンホワ）氏の中央人民政府駐香港特別行政区連絡弁公室（中聯弁）副主任の職務を解任しました。
 
 **引用元**: 香港電台新聞網
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTFB0NnZIN1pwVlc2MW1JVXFTVnJWT3U1blpSXzJ2ZEJxUFQtRDVnd0Q0VGd1WVVTZUQ1SVlQMmNJU1pFNEdYeFpsaHQyd1hSTFhsVHFwRWdVRVhWRmlUM3FTV1g3b2M3UjQ4dG9xWUVlNA?oc=5
 
-### 友人をナイフで刺して死亡させた建設作業員、過失致死罪で有罪、懲役10年の判決
+### 友人をナイフで刺して死に至らしめた建設作業員、過失致死罪で懲役10年の判決
 
-友人をナイフで刺して死亡させた建設作業員の男性が、過失致死罪で有罪となり、懲役10年の判決を言い渡されました。裁判官は、被告が事件後にナイフを拭いて元の場所に戻したことや、被害者が友人ではなかったと主張した供述の多くが虚偽であると指摘し、事故ではなかったと判断しました。この事件は、彩虹邨（チョイホンチュン）で発生し、60代の被告は、友人が自宅で麻薬を使用していることに不満を抱き、ナイフを取り出したと供述していました。
+チョイホン・エステート（彩虹邨）で、友人をナイフで刺して死に至らしめた建設作業員の男性が、過失致死罪で有罪となり、懲役10年の判決を言い渡されました。裁判官は、被告が通報前にナイフを拭いて元の場所に戻したことや、被害者が友人ではなかったと主張したことに対し、供述の多くが虚偽であると指摘しました。被告は、友人が自宅で麻薬を使用することに不満を抱き、ナイフを取り出したことが事件につながったと主張していましたが、裁判官は、被害者が身を乗り出してナイフに当たったという被告の主張は全く根拠がなく、決して偶発的な事故ではなかったと述べました。
 
-**引用元**: Yahoo News HK
+**引用元**: Yahoo News - HK
 
 https://news.google.com/rss/articles/CBMisAJBVV95cUxPS21YNFR1OVZ4WTNQVjZ2dGRXeWZmSHgweU9nMXQxcklDMzhld1pLaHItQjFibXBodXhGdWlRdWxGc1pvV0ZXQXBVbTBfTmdRNkVHMWxJUElRSnktb2d0WEIwUXJzQlZqMVlBUy13Z1pBdkFfc2RnNWhhTFVvdkhjelpublBRYU14ZVpOVDZ4RXhRWGY2VGxLXzRzNDBQXzItazRJNV9WZUM0M1Q3UlRkcmo2aV9qcjhkR3NDNUZaR2lEZEdFWnJqcDU1ZngtMFh3blBTdXpkU2M4N1VLTTlycUxIZG9DXzRodTRpLWdwZWRtVWtmWVF2Y3JyVkpRWUlvWkhNR2V2LWZEMnoxM1didERfOWNhSjMxbEJ2dERTelNwQ3RkdjVZcVJsR05OeUNn?oc=5
 
-### 臨臨（ラムラム）事件、実父と継母に終身刑、133箇所の傷が最も痛ましい
+### 臨臨（ラムラム）ちゃん虐待死事件、実父と継母に終身刑。133か所の傷跡が最も痛ましい
 
-臨臨（ラムラム）事件において、実父と継母が終身刑を言い渡されました。被害者の体に残された133箇所の傷は、最も痛ましい証拠として挙げられています。この事件では、生後2ヶ月半の男児がミルクを喉に詰まらせて死亡し、その前に虐待を受けていたことが明らかになりました。養育を委託されていた夫婦は過失致死と児童虐待の罪を認め、それぞれ懲役7年と3年2ヶ月の判決を受けました。裁判では、夫婦が男児を繰り返し叩いたり、熱風ドライヤーを当てたり、哺乳瓶やタオルを口に詰めたりしていたことが明らかにされました。
+臨臨（ラムラム）ちゃん虐待死事件で、残忍な実父と継母に対し、終身刑が言い渡されました。この事件では、生後2ヶ月半の男児が9日間にわたる虐待の末に死亡し、その体には133か所もの傷跡が確認され、最も痛ましいと報じられています。託児していた夫婦は、男児を叩いたり、ヘアドライヤーで熱風を浴びせ続けたり、哺乳瓶やタオルを口に押し込んだりするなどの虐待行為を繰り返していました。夫婦は過失致死と児童虐待の罪を認め、それぞれ懲役7年と3年2ヶ月の判決を受けました。
 
 **引用元**: on.cc東網
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR0IyaDNwY2VOQ0xUdHgxV0c3Z3FSV3ZEUWVra3RRZ2dzamZSNUpuV1owbHZEczdyRi02eFVuU3lLUmwtUFNDWDFaUXdGaVRhNWFFTkdtMUJ3VTVLaW5hUExzbVpZckxlYXBVbTN1Yy1VelJNdk9MbG1rcl9mNHlhUHE0cGR1OEgtRVQ4?oc=5
 
-### 44歳男性教師の余肇熙氏が重度の心不全で緊急心臓移植を必要、病院管理局が臓器提供を呼びかけ
+### スタンレー刑務所（赤柱監獄）で24歳の男性受刑者が焼身自殺を図り、胴体と両足に火傷を負い公立病院に搬送
 
-44歳の男性教師、余肇熙（ユー・シウヘイ）氏が重度の心不全に陥り、緊急の心臓移植を必要としています。病院管理局（Hospital Authority）は、市民に対し、亡くなった親族の心臓提供を積極的に検討するよう緊急に呼びかけています。余氏は大動脈解離の手術後、心不全となり集中治療室に入院しており、妻は2人の娘が再び父親を抱きしめる機会を与えてほしいと、善意ある人々に助けを求めています。
+スタンレー刑務所（赤柱監獄）で、24歳の勾留中の男性受刑者が焼身自殺を図る事件が発生しました。男性は独房内で物品に火をつけ自焚を試みましたが、懲教職員がすぐに発見し、火を消し止めて応急処置を行いました。男性は意識を保っていましたが、胴体と両足に火傷を負い、公立病院に搬送され治療を受けています。事件は本日午前5時19分に発生しました。懲教署は、当直職員が発見後すぐに支援を要請し、消火活動と応急処置を行ったと発表しています。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTUZzVkRNb1JwNHNWT2xKejlxSlFVU2EyV3Y1WGlBaWh4M3Nzc0tyRkd6ZnA5Ykd3THA1WGJOUFMwWnptQWtwRGtIRFBHRHB3Sk1MNXVqNVNTY2ZxS2VQTEp5SjY3NDdIVFoxdm0tSW1UV3A1SExxZy0tU0RtaEF5RVl3X1FYdWFDYmVB?oc=5
+
+### 教育局、日本の高市早苗首相の台湾に関する発言による日中関係の緊張を受け、香港代表団の日本交流計画を中止
+
+日本の高市早苗首相の台湾に関する発言が日中関係の緊張を引き起こしていることを受け、香港教育局は、来月予定されていた「21世紀東アジア青少年大交流計画」への香港代表団の参加を取りやめると発表しました。教育局が選抜した教員・学生代表団は、来月7日から13日まで日本を訪問する予定でした。教育局は、日本における中国国民への襲撃事件が増加傾向にあることを鑑み、教員と学生の安全を確保するため、慎重な検討の結果、今年の計画への参加を取りやめることを決定したと述べています。
 
 **引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%95%99%E8%82%B2%E5%B1%80-%E9%A6%99%E6%B8%AF%E4%BB%A3%E8%A1%A8%E5%9C%98%E9%80%80%E5%87%BA-21%E4%B8%96%E7%B4%80%E6%9D%B1%E4%BA%9E%E9%9D%92%E5%B0%91%E5%B9%B4%E5%A4%A7%E4%BA%A4%E6%B5%81%E8%A8%88%E5%8A%83-%E4%B8%AD%E5%AD%B8%E7%94%9F%E5%8E%9F%E5%AE%9A%E4%B8%8B%E6%9C%88%E5%88%B0%E6%97%A5%E6%9C%AC%E4%BA%A4%E6%B5%81-054811964.html
+
+### 44歳の男性教師、余肇熙氏が重度の心不全で緊急の心臓移植を必要。病院管理局が市民に心臓提供を呼びかけ
+
+44歳の男性教師、余肇熙（ユー・シウヘイ）氏が重度の心不全に陥り、緊急の心臓移植を必要としています。彼は大動脈解離の手術後、心不全を発症し、集中治療室（ICU）に入院しています。病院管理局は、市民に対し、亡くなった親族の心臓提供を積極的に検討するよう緊急の呼びかけを行っています。余氏の妻は、2人の娘が再び父親を抱きしめる機会を与えてほしいと、心臓提供を懇願しています。
+
+**引用元**: Yahoo News - HK
 
 https://news.google.com/rss/articles/CBMijwRBVV95cUxQTHdvU19HeFBXU3FIcmdkWkx4WDMyMEZzamtPY2tQVEZuODlZc29nSERLc1ltR0hTd3pwTlJ4bTl0WXlpSE9Zb3p3bmNuMFVtcmFTNm80NlRKRGtTaG9BTjA3ZENTVEloSkxsSmZzSndvbVZkVWVlUDdUa1ZqREgtU0JHMkdlNkkwRjRyUTh0bTFWdEJMZHY4Q3JUb2szTVZiT2FSUzQxTGdEY2s1Z1lGVl9xZkpuemE4cXRMbHlhQk54enlfYWVaUm4zSXZiZU1CMHFsQy02TE1ETkg3Tks0UnI4a2x1cHVoWnc4MDJPeUZuRHR3dFUyR09hTmV1R2UwdlhYdVlXRlo5Z0h2d3FYVDFrWG1saC1yay1qZTZnTlo1YXEtdDFoTUpwQWlITFk4QmRjOW5mQ0tYdjVmWHg3MHRMd3FhaGJ0OGxYWHFnV0RGam43YzdpT21BdlprOFR4WFdhVVJFb3ZidVlFaElzT1h1LVYtUTVCX1NodkdCbi1RZkxCYUNUYTZqbkdYY1VxV0U4d29TX2U5djU4YnN5YmdiLVZSeUI0VE93bEgxTC05OW0xYXhkTW84dVN6ZWU4SEU3OHB5MXV3N2VFcXNtSGlnSC0zaVFxdDJydzJkWTZFWWxlZ2FqWW4zZExoYUNMeGl1Z0lwYmVnQ25nbk1fd21lUlVjM1M0THNsZHBrSQ?oc=5
 
-### ビクトリアハーバー横断水泳大会に3700人以上が参加、水泳協会は1万人への増加を期待
+### ビクトリアハーバー横断水泳大会に3700人以上が参加、水泳協会は将来的に参加者1万人を目指す
 
-【Now新聞台】ビクトリアハーバー横断水泳大会の主催者である水泳協会は、将来的に参加者数を1万人にまで増やしたいと期待しています。救命士が不足する場合は、中国本土からの協力を検討するとのことです。
-参加者たちは入念な準備運動を行い、ゼッケンを体に書き込み、気合を入れてビクトリアハーバー横断水泳大会に臨みました。上海からの観光客である許さんは、「とても嬉しいです。ビクトリアハーバーで泳ぐ機会は他にないでしょうから」と語りました。参加者の陳さんは、「本当に驚きました。数日前はとても寒かったので、この寒さが続くと思っていましたが、今日は穏やかな良い天気でした」と述べました。しかし、誰もがそう思っていたわけではないようです。ある選手は「今日はとても寒かった」と話しました。文化体育観光局の羅淑佩局長は、スタート地点である湾仔金紫荊広場の公共埠頭でレースの開始を告げました。まず競技組が出発し、約1キロメートルを泳いで尖沙咀の星光大道を目指します。競争のプレッシャーを避けたい人は、レジャー組に参加できます。レジャー組の参加者Eugeneさんは、「一番きつかったのは最後の区間でした。本当に最後の力を振り絞って泳ぎました。とても疲れていましたが、耐え抜きました」と語りました。深圳からの観光客である劉さんは、「昨年も申し込んでいましたが、台風で中止になったので、今年は必ずこの悔しさを晴らしたいと思い、わざわざ来ました」と話しました。レジャー組は年齢層が広く、最低年齢の12歳になったばかりのNesterさんも参加しました。Nesterさんは、「今日の波は少し高く、たくさんの叔父さんたちが泳いでいたので、時々ぶつかりそうになり、少し外側を泳がなければなりませんでした」と述べました。足が不自由な人でも、自分自身に挑戦することを妨げませんでした。参加者の黄さんは、「自分の能力でできることは、やり遂げます。将来できなくなった時に振り返って、できるのにやらなかったら後悔するだろうと思ったからです」と語りました。
+ビクトリアハーバー横断水泳大会が開催され、3700人以上が参加しました。水泳協会は、将来的に参加者を1万人に増やしたいと希望しており、救命士が不足する場合は中国本土からの借り入れも検討するとのことです。文化・スポーツ・観光局のロザンナ・ロー（羅淑佩）局長がワンチャイ（湾仔）のゴールデンバウヒニア広場公共埠頭で競技開始の合図を鳴らしました。競技部門の選手たちは約1キロメートルを泳ぎ、チムサーチョイ（尖沙咀）のアベニュー・オブ・スターズを目指します。レジャー部門の参加者は年齢層が広く、12歳の最低年齢に達したばかりの選手もいました。参加者からは、波が大きかったり、他の選手との接触があったりしたという声も聞かれましたが、多くの人がこのユニークな体験を楽しんでいました。
 
 **引用元**: Yahoo News HK
 
-https://hk.news.yahoo.com/%E7%B6%AD%E6%B8%AF%E6%B8%A1%E6%B5%B7%E6%B3%B3%E9%80%BE3700%E4%BA%BA%E5%8F%83%E8%88%87-%E6%B3%B3%E7%B8%BD%E5%86%87%E5%8F%AF%E5%A2%9E%E8%87%B31%E8%90%AC%E4%BA%BA-%E9%99%B3%E4%BD%A9%E5%BD%A4%E5%A0%B1%E9%81%93-050921188.html
+https://hk.news.yahoo.com/%E7%B6%AD%E6%B8%AF%E6%B8%A1%E6%B5%B7%E6%B3%B3%E9%80%BE3700%E4%BA%BA%E5%8F%83%E8%88%87-%E6%B3%B3%E7%B8%BD%E5%86%8D%E5%8F%AF%E5%A2%9E%E8%87%B31%E8%90%AC%E4%BA%BA-%E9%99%B3%E4%BD%A9%E5%BD%A4%E5%A0%B1%E9%81%93-050921188.html
 
 ## 広東語学習者向け情報
 
@@ -285,4 +294,4 @@ https://hk.news.yahoo.com/%E7%B6%AD%E6%B8%AF%E6%B8%A1%E6%B5%B7%E6%B3%B3%E9%80%BE
 https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
 ----
 **タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
-**生成日時**: 2025年11月22日 18:03
+**生成日時**: 2025年11月22日 18:52

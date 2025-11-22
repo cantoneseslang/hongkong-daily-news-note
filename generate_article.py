@@ -546,22 +546,41 @@ URL: {url}
         # テキストが長すぎる場合は分割して翻訳
         max_chunk_length = 1000
         if len(text) > max_chunk_length:
-            # 改行で分割
-            chunks = text.split('\n')
-            translated_chunks = []
-            current_chunk = ""
+            # まず改行で分割を試み、さらに長すぎる行は固定長で分割する
+            def split_into_chunks(raw: str) -> List[str]:
+                chunks: List[str] = []
+                buffer = ""
+                
+                for line in raw.split('\n'):
+                    # 行自体が長すぎる場合は固定長で分割
+                    while len(line) > max_chunk_length:
+                        chunks.append(line[:max_chunk_length])
+                        line = line[max_chunk_length:]
+                    
+                    tentative = (buffer + "\n" + line) if buffer else line
+                    if len(tentative) > max_chunk_length and buffer:
+                        chunks.append(buffer)
+                        buffer = line
+                    else:
+                        buffer = tentative
+                
+                if buffer:
+                    chunks.append(buffer)
+                
+                # 念のため固定長での再分割（改行が全く無いテキストにも対応）
+                normalized: List[str] = []
+                for chunk in chunks:
+                    if len(chunk) <= max_chunk_length:
+                        normalized.append(chunk)
+                    else:
+                        for i in range(0, len(chunk), max_chunk_length):
+                            normalized.append(chunk[i:i + max_chunk_length])
+                return normalized
             
-            for chunk in chunks:
-                if len(current_chunk) + len(chunk) > max_chunk_length:
-                    if current_chunk:
-                        translated_chunks.append(self._llm_translate_text(current_chunk))
-                    current_chunk = chunk
-                else:
-                    current_chunk += ("\n" if current_chunk else "") + chunk
-            
-            if current_chunk:
-                translated_chunks.append(self._llm_translate_text(current_chunk))
-            
+            translated_chunks = [
+                self._llm_translate_text(chunk)
+                for chunk in split_into_chunks(text)
+            ]
             return "\n".join(translated_chunks)
         
         prompt = (

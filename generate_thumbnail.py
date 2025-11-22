@@ -20,7 +20,7 @@ except ImportError:
 
 def generate_image_with_gemini_imagen(prompt: str, api_key: str, output_path: str) -> bool:
     """
-    Google Imagen 4 APIを使用して画像を生成（google-generativeaiライブラリを使用）
+    Gemini 2.5 Pro Image (Nano Banana Pro)を使用して画像を生成
     
     Args:
         prompt: 画像生成プロンプト
@@ -35,37 +35,165 @@ def generate_image_with_gemini_imagen(prompt: str, api_key: str, output_path: st
             print("❌ google-generativeaiモジュールが必要です")
             return False
         
-        print("🎨 Google Imagen 4 APIで画像生成中...")
+        print("🎨 Gemini 2.5 Pro Image (Nano Banana Pro)で画像生成中...")
         
         # Gemini APIを設定
         genai.configure(api_key=api_key)
         
-        # Imagen 4モデルを使用
-        model = genai.GenerativeModel('imagen-4.0-generate-001')
+        # 利用可能なモデルを確認
+        print("📋 利用可能なモデルを確認中...")
+        try:
+            models = genai.list_models()
+            image_models = [m.name for m in models if 'image' in m.name.lower() or 'imagen' in m.name.lower()]
+            if image_models:
+                print(f"   画像生成モデル: {image_models[:5]}")
+            else:
+                print("   ⚠️  画像生成モデルが見つかりませんでした")
+        except Exception as e:
+            print(f"   ⚠️  モデルリスト取得エラー: {e}")
         
-        print("📤 リクエスト送信中...")
-        response = model.generate_images(
-            prompt=prompt,
-            number_of_images=1,
-            aspect_ratio="1:1"
-        )
+        # 画像生成専用APIを使用（Imagen 4またはGemini 2.5 Flash Image）
+        # まずImagen 4を試し、失敗した場合はGemini 2.5 Flash Imageを使用
+        model_id = "imagen-4.0-generate-preview-06-06"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateImages?key={api_key}"
         
-        if response and len(response.images) > 0:
-            # 画像を保存
-            image = response.images[0]
+        headers = {
+            "Content-Type": "application/json"
+        }
+        
+        # プロンプトを結合
+        full_prompt = f"{prompt}\n\nスタイル: リアル, 高解像度, 4K, 写真品質"
+        
+        payload = {
+            "prompt": full_prompt,
+            "numberOfImages": 1,
+            "aspectRatio": "1:1"
+        }
+        
+        print("📤 Imagen 4 API経由でリクエスト送信中...")
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
+        
+        if response.status_code == 200:
+            result = response.json()
+            print(f"✅ APIレスポンス取得成功")
+            
+            # 画像データを取得
+            if 'generatedImages' in result and len(result['generatedImages']) > 0:
+                image_data = result['generatedImages'][0].get('imageBytes')
+                
+                if image_data:
+                    # base64デコードして保存
+                    image_bytes = base64.b64decode(image_data)
+                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                    with open(output_path, 'wb') as f:
+                        f.write(image_bytes)
+                    
+                    print(f"✅ 画像を保存しました: {output_path}")
+                    return True
+                elif 'imageUrl' in result['generatedImages'][0]:
+                    # URLから画像をダウンロード
+                    image_url = result['generatedImages'][0]['imageUrl']
+                    print(f"📥 画像をダウンロード中: {image_url}")
+                    img_response = requests.get(image_url, timeout=30)
+                    
+                    if img_response.status_code == 200:
+                        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                        with open(output_path, 'wb') as f:
+                            f.write(img_response.content)
+                        print(f"✅ 画像を保存しました: {output_path}")
+                        return True
+                    else:
+                        print(f"❌ 画像ダウンロードエラー: HTTP {img_response.status_code}")
+                        return False
+                else:
+                    print(f"❌ 画像データが見つかりませんでした")
+                    print(f"   レスポンス: {json.dumps(result, indent=2, ensure_ascii=False)[:500]}")
+                    return False
+            else:
+                print(f"❌ 生成された画像が見つかりませんでした")
+                print(f"   レスポンス: {json.dumps(result, indent=2, ensure_ascii=False)[:500]}")
+                return False
+        else:
+            print(f"❌ Imagen APIエラー: HTTP {response.status_code}")
+            print(f"   レスポンス: {response.text[:500]}")
+            # Gemini 2.5 Flash Imageにフォールバック
+            print("🔄 Imagen 4失敗、Gemini 2.5 Flash Imageにフォールバック...")
+            return _generate_image_with_gemini_flash_image(prompt, api_key, output_path)
+            
+    except Exception as e:
+        print(f"❌ Gemini画像生成エラー: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+def _generate_image_with_gemini_flash_image(prompt: str, api_key: str, output_path: str) -> bool:
+    """
+    Gemini 2.5 Flash Imageを使用して画像を生成（フォールバック用）
+    """
+    try:
+        print("🎨 Gemini 2.5 Flash Imageで画像生成中...")
+        
+        model_id = "gemini-2.5-flash-image"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={api_key}"
+        
+        headers = {
+            "Content-Type": "application/json"
+        }
+        
+        full_prompt = f"{prompt}\n\nスタイル: リアル, 高解像度, 4K, 写真品質"
+        
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": full_prompt
+                }]
+            }]
+        }
+        
+        print("📤 REST API経由でリクエスト送信中...")
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
+        
+        if response.status_code == 200:
+            result = response.json()
+            
+            # 画像データを取得
+            if 'candidates' in result and len(result['candidates']) > 0:
+                candidate = result['candidates'][0]
+                if 'content' in candidate and 'parts' in candidate['content']:
+                    for part in candidate['content']['parts']:
+                        if 'inlineData' in part:
+                            image_data = part['inlineData']['data']
+                            image_bytes = base64.b64decode(image_data)
+                            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                            with open(output_path, 'wb') as f:
+                                f.write(image_bytes)
+                            print(f"✅ 画像を保存しました: {output_path}")
+                            return True
+            
+            print(f"❌ 画像データが見つかりませんでした")
+            return False
+        else:
+            print(f"❌ Gemini Flash Image APIエラー: HTTP {response.status_code}")
+            return False
+    except Exception as e:
+        print(f"❌ Gemini Flash Image画像生成エラー: {e}")
+        return False
+        
+        # 画像の保存
+        if response.parts:
+            image = response.parts[0].image
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            
-            # PIL Imageとして保存
             image.save(output_path)
-            
             print(f"✅ 画像を保存しました: {output_path}")
             return True
         else:
             print("❌ 画像が生成されませんでした")
+            if hasattr(response, 'prompt_feedback'):
+                print(f"   フィードバック: {response.prompt_feedback}")
             return False
             
     except Exception as e:
-        print(f"❌ Imagen画像生成エラー: {e}")
+        print(f"❌ Gemini画像生成エラー: {e}")
         import traceback
         traceback.print_exc()
         return False

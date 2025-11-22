@@ -306,15 +306,18 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     if (thumbnail) {
       const resolvedMarkdownPath = path.resolve(markdownPath);
       const articleDir = path.dirname(resolvedMarkdownPath);
+      const cleanedThumbnail = thumbnail.replace(/^\.?\//, '');
       const candidates = [
-        path.resolve(articleDir, thumbnail),
-        path.resolve(process.cwd(), thumbnail)
+        path.resolve(articleDir, cleanedThumbnail),
+        path.resolve(process.cwd(), cleanedThumbnail),
+        path.resolve(process.cwd(), 'daily-articles', cleanedThumbnail),
+        path.resolve(process.cwd(), '..', cleanedThumbnail)
       ];
       const thumbnailPath = candidates.find((candidate) => existsSync(candidate));
       
       if (thumbnailPath) {
         console.log('🖼️  見出し画像を設定中（タイトルの上）...');
-        
+        console.log(`   使用ファイル: ${thumbnailPath}`);
         try {
           // ページが完全に読み込まれるまで待機
           await page.waitForTimeout(3000);

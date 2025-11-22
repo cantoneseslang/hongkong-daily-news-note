@@ -302,12 +302,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       await page.waitForTimeout(3000);
     }
 
-    console.log('📋 タイトル入力中...');
-    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
-    await page.fill('textarea[placeholder*="タイトル"]', title);
-    console.log('✓ タイトル入力完了');
-
-    // 見出し画像を設定（本文入力の前）
+    // 見出し画像を設定（タイトル入力の前）
     if (thumbnail) {
       const thumbnailPath = path.resolve(path.dirname(markdownPath), thumbnail);
       
@@ -365,8 +360,15 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log('⚠️  見出し画像設定エラー:', error.message);
           console.log('見出し画像なしで続行します...');
         }
+      } else {
+        console.log(`⚠️  見出し画像ファイルが見つかりません: ${thumbnailPath}`);
       }
     }
+
+    console.log('📋 タイトル入力中...');
+    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
+    await page.fill('textarea[placeholder*="タイトル"]', title);
+    console.log('✓ タイトル入力完了');
 
     console.log('📝 本文入力中...');
     

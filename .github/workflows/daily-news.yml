@@ -18,6 +18,7 @@ permissions:
   contents: write  # リポジトリへの書き込み権限
 
 jobs:
+  # メインジョブ: 記事生成と投稿
   generate-daily-news:
     runs-on: ubuntu-latest
     env:
@@ -321,5 +322,214 @@ jobs:
           echo "📅 Date (HKT): $TODAY"
           echo "⏰ Execution time (UTC): $(date -u)"
           echo "⏰ Execution time (HKT): $(TZ='Asia/Hong_Kong' date)"
+          echo "=========================================="
+  
+  # リトライジョブ: メインジョブが失敗した場合に1回だけ実行
+  retry-daily-news:
+    runs-on: ubuntu-latest
+    needs: generate-daily-news
+    if: failure() && github.event_name != 'workflow_dispatch'  # 手動実行時はリトライしない
+    env:
+      TZ: Asia/Hong_Kong
+      RETRY_COUNT: 1  # リトライ回数を記録
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Create config.json from secrets
+        run: |
+          cat > config.json << EOF
+          {
+            "news_api": {
+              "api_key": "${{ secrets.NEWS_API_KEY }}"
+            },
+            "world_news_api": {
+              "api_key": "${{ secrets.WORLD_NEWS_API_KEY }}"
+            },
+            "newsdata_io": {
+              "api_key": "${{ secrets.NEWSDATA_IO_API_KEY }}"
+            },
+            "grok_api": {
+              "api_key": "${{ secrets.GROK_API_KEY }}",
+              "api_url": "https://api.x.ai/v1/chat/completions"
+            },
+            "openai_api": {
+              "api_key": "${{ secrets.OPENAI_API_KEY }}",
+              "api_url": "https://api.openai.com/v1/chat/completions"
+            },
+            "gemini_api": {
+              "api_key": "${{ secrets.GEMINI_API_KEY }}",
+              "api_url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+            },
+            "claude_api": {
+              "api_key": "${{ secrets.CLAUDE_API_KEY }}",
+              "api_url": "https://api.anthropic.com/v1/messages"
+            },
+            "note": {
+              "state_path": "/tmp/.note-state.json",
+              "screenshot_dir": "/tmp/screenshots",
+              "timeout": 180000
+            },
+            "news_sources": {
+              "preferred": [
+                "scmp.com",
+                "thestandard.com.hk",
+                "news.rthk.hk",
+                "chinadailyhk.com",
+                "hk01.com"
+              ],
+              "excluded": [
+                "hongkongfp.com"
+              ]
+            }
+          }
+          EOF
+          echo "✅ Config file created"
+      
+      - name: Create necessary directories
+        run: |
+          mkdir -p daily-articles
+          mkdir -p logs
+      
+      - name: Fetch RSS news (Retry)
+        run: |
+          echo "🔄 Retry: Fetching RSS news..."
+          python fetch_rss_news.py
+      
+      - name: Generate article (Retry)
+        run: |
+          echo "🔄 Retry: Generating article..."
+          
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          echo "📅 Today's date (HKT): $TODAY"
+          
+          LATEST_RSS=$(ls -t daily-articles/rss_news_*.json 2>/dev/null | head -1)
+          if [ -z "$LATEST_RSS" ]; then
+            echo "❌ Error: No RSS news file found"
+            exit 1
+          fi
+          echo "Using RSS file: $LATEST_RSS"
+          
+          if ! python -u generate_article.py "$LATEST_RSS" 2>&1; then
+            echo "❌ Error: Article generation failed"
+            exit 1
+          fi
+          
+          EXPECTED_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          if [ ! -f "$EXPECTED_ARTICLE" ]; then
+            echo "❌ Error: Today's article file not generated: $EXPECTED_ARTICLE"
+            exit 1
+          fi
+          
+          echo "✅ Retry: Article generated successfully"
+      
+      - name: Sanitize and validate article (Retry)
+        run: |
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          echo "🔄 Retry: Sanitizing article..."
+          python -u scripts/sanitize_article.py "$ARTICLE"
+      
+      - name: Commit and push generated article (Retry)
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          git add daily-articles/hongkong-news_*.md
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            ARTICLE_DATE=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+            git commit -m "📰 Daily news: $ARTICLE_DATE [automated - retry]"
+            
+            if git push origin main; then
+              echo "✅ Retry: Article committed and pushed"
+            else
+              git fetch origin main
+              git reset --soft origin/main
+              git restore --staged .github/
+              git add daily-articles/hongkong-news_*.md
+              
+              if ! git diff --staged --quiet; then
+                ARTICLE_DATE=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+                git commit -m "📰 Daily news: $ARTICLE_DATE [automated - retry resolved conflict]"
+                git push origin main
+              fi
+            fi
+          fi
+      
+      - name: Setup Node.js for note.com posting (Retry)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install Playwright (Retry)
+        run: |
+          echo "🔄 Retry: Installing Playwright..."
+          npm install
+          npx playwright install chromium
+      
+      - name: Post to note.com (Retry)
+        env:
+          NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
+          NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
+          NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
+          NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
+        run: |
+          echo "🔄 Retry: Posting to note.com..."
+          
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          
+          if [ ! -f "$TODAY_ARTICLE" ]; then
+            echo "❌ Error: Today's article file not found: $TODAY_ARTICLE"
+            exit 1
+          fi
+          
+          if [ -n "$NOTE_AUTH_STATE" ]; then
+            echo "$NOTE_AUTH_STATE" > /tmp/.note-state.json
+          fi
+          
+          set +e
+          node note_auto_post.js "$TODAY_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME"
+          POST_EXIT_CODE=$?
+          set -e
+          
+          if [ $POST_EXIT_CODE -eq 0 ]; then
+            echo "✅ Retry: note.com投稿成功"
+          else
+            echo "❌ Retry: note.com投稿失敗（終了コード: $POST_EXIT_CODE）"
+            echo "⚠️  リトライ後も投稿に失敗しました"
+          fi
+      
+      - name: Retry Summary
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "🔄 Retry Job Complete"
+          echo "=========================================="
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          if [ -f "$TODAY_ARTICLE" ]; then
+            echo "✅ Retry: Article generated successfully"
+          else
+            echo "❌ Retry: Article generation failed"
+          fi
           echo "=========================================="
 

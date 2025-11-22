@@ -83,3 +83,4 @@ if __name__ == "__main__":
         status = "⚠️ 過剰" if count >= 3 else "✅ 正常"
         print(f"  {status} {topic}: {count}回")
 
+

@@ -1,0 +1,40 @@
+📅 今日の日付 (HKT): 2025-11-19
+============================================================
+📦 既存記事をバックアップ: daily-articles/hongkong-news_2025-11-19.md.backup.20251119_103639
+🔧 仮想環境をアクティベート
+
+📰 ステップ1: ニュース取得
+============================================================
+
+🚀 香港ニュース取得開始
+============================================================
+📰 NewsData.io からニュース取得中...
+📰 World News API からニュース取得中...
+📰 News API からニュース取得中...
+  ✅ 0件取得
+  ✅ 10件取得
+  ✅ 10件取得
+============================================================
+✅ 合計 20件のニュースを取得
+📊 重複除去後: 20件
+🇭🇰 香港関連: 13件
+
+💾 ニュースを保存: daily-articles/raw_news_2025-11-19_10-36-40.json
+
+✅ 取得完了！
+📁 保存先: daily-articles/raw_news_2025-11-19_10-36-40.json
+
+📋 取得したニュース（最初の3件）:
+
+1. In blow to Trump, US court tosses redrawn Texas election map
+   ソース: World News API (world_news_api)
+   URL: https://www.scmp.com/news/world/united-states-canada/article/3333323/blow-trump-us-court-tosses-redrawn-texas-election-map?module=latest&pgtype=homepage
+
+2. In blow to Trump, US court tosses redrawn Texas election map
+   ソース: World News API (world_news_api)
+   URL: https://www.scmp.com/news/world/united-states-canada/article/3333323/blow-trump-us-court-tosses-redrawn-texas-election-map?module=top_story&pgtype=homepage
+
+3. CATL’s stellar run and record premium come up against doubling of stock supply
+   ソース: World News API (world_news_api)
+   URL: https://www.scmp.com/business/china-business/article/3333244/catls-stellar-run-and-record-premium-come-against-doubling-stock-supply?module=top_story&pgtype=homepage
+❌ エラー: raw_news_2025-11-19.json が見つかりません

@@ -375,18 +375,104 @@ def generate_image_with_dalle(prompt: str, openai_api_key: str, output_path: str
         traceback.print_exc()
         return False
 
-def generate_thumbnail_for_article(prompt: str, config_path: str = "config.json", output_dir: str = "images") -> str:
+def build_thumbnail_prompt(date_str: str, first_news_title: str, outfit_pattern: str) -> str:
+    """
+    見出し画像生成用のプロンプトを構築
+    
+    Args:
+        date_str: 日付文字列（例: "2025 11 23"）
+        first_news_title: 最初のニュースタイトル
+        outfit_pattern: キャスターの服装パターン
+    
+    Returns:
+        プロンプト文字列
+    """
+    prompt = f"""Ultra-realistic outdoor news reporting scene, 4K resolution.
+
+Location: A real street in Hong Kong during daytime.
+
+Tall buildings and dense urban scenery around, with signage, traffic, people in the background naturally blurred with shallow depth of field.
+
+Humidity and soft daylight typical of Hong Kong.
+
+Foreground:
+
+Two young Japanese news anchors standing side by side outdoors, real human appearance,smiling lightly and facing the camera.
+
+Both anchors hold handheld reporter microphones with foam windscreens.
+
+4. Foreground: Two young Japanese news anchors standing side by side with smile expressions, facing the camera, enlarged to dominate the foreground; 
+
+the man on the left has short black hair, 
+
+{outfit_pattern}
+
+Behind the anchors:
+
+A Hong Kong-style old neon signboard displaying the Japanese text "香 港 新 聞" mounted on a building exterior.
+
+Features:
+
+slightly weathered, retro Hong Kong neon sign.glowing red & pink neon tubes with uneven flicker.metal frame with rust, aged acrylic.moody neon bloom but still realistic and photographic
+
+Cameraman & crew visible:
+
+A professional camera crew is clearly visible in the shot:
+
+A camera operator using a shoulder-mounted broadcast camera filming the anchors
+
+A boom mic operator partially visible
+
+Cables, light reflectors, or small equipment cases around them
+
+Everything must look 100% real and documentary-style, not staged studio lighting.
+
+Ticker bar overlay:
+
+At the bottom of the image, a news-style headline ticker in white Japanese text:
+
+"{first_news_title}"
+
+Small bottom-right text:
+
+"HK NEWS {date_str}" in clean black English font.
+
+Style:
+
+Realistic outdoor news reportage.
+
+Handheld-camera feeling, shallow depth of field, natural lighting.
+
+Contrast between the cool urban daylight and the warm red/pink neon sign.
+
+Shot with a full-frame DSLR, 35mm or 50mm lens.
+
+No anime, no illustration, no cartoon, no CGI — pure real-life photography."""
+    return prompt
+
+def generate_thumbnail_for_article(prompt: str = None, config_path: str = "config.json", output_dir: str = "images", date_str: str = None, first_news_title: str = None, outfit_pattern: str = None) -> str:
     """
     記事用の見出し画像を生成
     
     Args:
-        prompt: 画像生成プロンプト
+        prompt: 画像生成プロンプト（指定されていない場合はdate_str, first_news_title, outfit_patternから生成）
         config_path: 設定ファイルのパス
         output_dir: 出力ディレクトリ
+        date_str: 日付文字列（例: "2025 11 23"）
+        first_news_title: 最初のニュースタイトル
+        outfit_pattern: キャスターの服装パターン
     
     Returns:
         生成された画像のパス（失敗した場合は空文字列）
     """
+    # プロンプトが指定されていない場合は構築
+    if prompt is None:
+        if date_str and first_news_title and outfit_pattern:
+            prompt = build_thumbnail_prompt(date_str, first_news_title, outfit_pattern)
+        else:
+            print("❌ エラー: プロンプトまたはdate_str, first_news_title, outfit_patternが必要です")
+            return ""
+    
     # 設定ファイルを読み込み
     with open(config_path, 'r', encoding='utf-8') as f:
         config = json.load(f)
@@ -438,72 +524,23 @@ def generate_thumbnail_for_article(prompt: str, config_path: str = "config.json"
         return ""
 
 if __name__ == "__main__":
-    # テスト用のプロンプト
-    test_prompt = """Ultra-realistic outdoor news reporting scene, 4K resolution.
-
-Location: A real street in Hong Kong during daytime.
-
-Tall buildings and dense urban scenery around, with signage, traffic, people in the background naturally blurred with shallow depth of field.
-
-Humidity and soft daylight typical of Hong Kong.
-
-Foreground: Two young Japanese news anchors standing side by side outdoors, real human appearance,smiling lightly and facing the camera.
-
-Both anchors hold handheld reporter microphones with foam windscreens.
-
-4. Foreground: Two young Japanese news anchors standing side by side with smile expressions, facing the camera, enlarged to dominate the foreground; 
-
-the man on the left has short black hair, 
-
-wearing a milky brown suit, light blue shirt, and light orange tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light yellow  blouse and sky blue skirt.
-
-Behind the anchors:
-
-A Hong Kong-style old neon signboard displaying the Japanese text "香 港 新 聞" mounted on a building exterior.
-
-Features:
-
-slightly weathered, retro Hong Kong neon sign.glowing red & pink neon tubes with uneven flicker.metal frame with rust, aged acrylic.moody neon bloom but still realistic and photographic
-
-Cameraman & crew visible:
-
-A professional camera crew is clearly visible in the shot:
-
-A camera operator using a shoulder-mounted broadcast camera filming the anchors
-
-A boom mic operator partially visible
-
-Cables, light reflectors, or small equipment cases around them
-
-Everything must look 100% real and documentary-style, not staged studio lighting.
-
-Ticker bar overlay:
-
-At the bottom of the image, a news-style headline ticker in white Japanese text:
-
-"中日摩擦：日本ツアーの問い合わせが2～3割減、旅行会社役員が発言"
-
-Small bottom-right text:
-
-"HK NEWS 2025 11 21" in clean black English font.
-
-Style:
-
-Realistic outdoor news reportage.
-
-Handheld-camera feeling, shallow depth of field, natural lighting.
-
-Contrast between the cool urban daylight and the warm red/pink neon sign.
-
-Shot with a full-frame DSLR, 35mm or 50mm lens.
-
-No anime, no illustration, no cartoon, no CGI — pure real-life photography."""
+    # テスト用のパラメータ
+    from datetime import datetime
+    
+    today = datetime.now()
+    test_date = f"{today.year} {today.month} {today.day}"
+    test_title = "テストニュースタイトル"
+    test_outfit = "wearing a dark brown suit, light gray shirt, and brown tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light blue blouse and brown skirt."
     
     print("=" * 60)
     print("🎨 見出し画像生成テスト")
     print("=" * 60)
     
-    result_path = generate_thumbnail_for_article(test_prompt)
+    result_path = generate_thumbnail_for_article(
+        date_str=test_date,
+        first_news_title=test_title,
+        outfit_pattern=test_outfit
+    )
     
     if result_path:
         print(f"\n✅ 画像生成成功: {result_path}")

@@ -922,8 +922,8 @@ https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
         # 広東語学習者向けの定型文を追加
         cantonese_section = self._generate_cantonese_section()
         
-        # 見出し画像を生成
-        thumbnail_path = self._generate_thumbnail_image()
+        # 見出し画像を生成（記事本文を渡して最初のニュースタイトルを抽出）
+        thumbnail_path = self._generate_thumbnail_image(article_body=article['body'])
         
         # front matterにthumbnailを追加
         front_matter = ""
@@ -954,7 +954,75 @@ thumbnail: {thumbnail_path}
             print(f"🖼️  見出し画像: {thumbnail_path}")
         return output_path
     
-    def _generate_thumbnail_image(self) -> str:
+    def _extract_first_news_title(self, article_body: str) -> str:
+        """記事本文から最初のニュースタイトル（天気予報の次）を抽出"""
+        import re
+        
+        # 天気セクションをスキップ
+        weather_pattern = r'##\s*本日の香港の天気.*?(?=\n###|\n##|$)'
+        body_after_weather = re.sub(weather_pattern, '', article_body, flags=re.DOTALL)
+        
+        # 最初の ### で始まる見出しを探す
+        match = re.search(r'###\s+(.+?)(?=\n|$)', body_after_weather)
+        if match:
+            title = match.group(1).strip()
+            # 見出しからリンクや余分な文字を除去
+            title = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', title)  # Markdownリンクを除去
+            title = title.strip()
+            return title
+        
+        # フォールバック: 最初の見出しが見つからない場合
+        return "香港ニュース"
+    
+    def _get_outfit_pattern(self) -> str:
+        """前日と異なる服装パターンを選択"""
+        import random
+        import json
+        from pathlib import Path
+        
+        # 10パターンの服装
+        outfit_patterns = [
+            "wearing a dark brown suit, light brown shirt, and dark navy tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light orange blouse and brown skirt.",
+            "wearing a dark brown suit, pale green shirt, and light brown tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light sky blue blouse and light brown skirt.",
+            "wearing a navy blue suit, blue shirt, and light yellow tie; the woman on the right has shoulder-length brown hair with pony tail, wearing a milly yellow blouse and light gray skirt.",
+            "wearing a dark brown suit, light gray shirt, and brown tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light blue blouse and brown skirt.",
+            "wearing a dark blue suit, milky white shirt, and deep blue tie; the woman on the right has shoulder-length brown hair with pony tail, wearing a mily white blouse and light gray skirt.",
+            "wearing a milky brown suit, light blue shirt, and light orange tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light yellow blouse and sky blue skirt.",
+            "wearing a dark blue suit, light sky blue shirt, and light yellow tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light blue blouse and light white skirt.",
+            "wearing a dark navy blue suit, blue shirt, and orange tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a pink blouse and light white skirt.",
+            "wearing a dark navy blue suit, white shirt, and glay tie; the woman on the right has shoulder-length brown hair with bangs, wearing a white blouse and light glay skirt.",
+            "wearing a dark navy blue suit, white shirt, and blue tie; the woman on the right has shoulder-length brown hair with bangs, wearing a white blouse and dark skirt.",
+        ]
+        
+        # 前日の服装パターンを読み込む
+        history_file = Path("thumbnail_outfit_history.json")
+        last_outfit_index = None
+        
+        if history_file.exists():
+            try:
+                with open(history_file, 'r', encoding='utf-8') as f:
+                    history = json.load(f)
+                    last_outfit_index = history.get('last_outfit_index')
+            except Exception as e:
+                print(f"⚠️  服装履歴読み込みエラー: {e}")
+        
+        # 前日と異なるパターンを選択
+        if last_outfit_index is not None:
+            available_indices = [i for i in range(len(outfit_patterns)) if i != last_outfit_index]
+            selected_index = random.choice(available_indices)
+        else:
+            selected_index = random.randint(0, len(outfit_patterns) - 1)
+        
+        # 選択したパターンを保存
+        try:
+            with open(history_file, 'w', encoding='utf-8') as f:
+                json.dump({'last_outfit_index': selected_index}, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"⚠️  服装履歴保存エラー: {e}")
+        
+        return outfit_patterns[selected_index]
+    
+    def _generate_thumbnail_image(self, article_body: str = None) -> str:
         """見出し画像を生成して一時保存"""
         try:
             # generate_thumbnail.pyをインポート
@@ -964,72 +1032,34 @@ thumbnail: {thumbnail_path}
             
             from generate_thumbnail import generate_thumbnail_for_article
             
-            # 固定プロンプトを使用
-            prompt = """Ultra-realistic outdoor news reporting scene, 4K resolution.
-
-Location: A real street in Hong Kong during daytime.
-
-Tall buildings and dense urban scenery around, with signage, traffic, people in the background naturally blurred with shallow depth of field.
-
-Humidity and soft daylight typical of Hong Kong.
-
-Foreground: Two young Japanese news anchors standing side by side outdoors, real human appearance,smiling lightly and facing the camera.
-
-Both anchors hold handheld reporter microphones with foam windscreens.
-
-4. Foreground: Two young Japanese news anchors standing side by side with smile expressions, facing the camera, enlarged to dominate the foreground; 
-
-the man on the left has short black hair, 
-
-wearing a milky brown suit, light blue shirt, and light orange tie; the woman on the right has shoulder-length brown hair with pony tail wearing the glasses, wearing a light yellow  blouse and sky blue skirt.
-
-Behind the anchors:
-
-A Hong Kong-style old neon signboard displaying the Japanese text "香 港 新 聞" mounted on a building exterior.
-
-Features:
-
-slightly weathered, retro Hong Kong neon sign.glowing red & pink neon tubes with uneven flicker.metal frame with rust, aged acrylic.moody neon bloom but still realistic and photographic
-
-Cameraman & crew visible:
-
-A professional camera crew is clearly visible in the shot:
-
-A camera operator using a shoulder-mounted broadcast camera filming the anchors
-
-A boom mic operator partially visible
-
-Cables, light reflectors, or small equipment cases around them
-
-Everything must look 100% real and documentary-style, not staged studio lighting.
-
-Ticker bar overlay:
-
-At the bottom of the image, a news-style headline ticker in white Japanese text:
-
-"中日摩擦：日本ツアーの問い合わせが2～3割減、旅行会社役員が発言"
-
-Small bottom-right text:
-
-"HK NEWS 2025 11 21" in clean black English font.
-
-Style:
-
-Realistic outdoor news reportage.
-
-Handheld-camera feeling, shallow depth of field, natural lighting.
-
-Contrast between the cool urban daylight and the warm red/pink neon sign.
-
-Shot with a full-frame DSLR, 35mm or 50mm lens.
-
-No anime, no illustration, no cartoon, no CGI — pure real-life photography."""
+            # 日付を取得（例: "2025 11 23"）
+            today = datetime.now(HKT)
+            # 月と日から先頭の0を除去
+            month = str(today.month)
+            day = str(today.day)
+            date_str = f"{today.year} {month} {day}"
+            
+            # 最初のニュースタイトルを抽出
+            if article_body:
+                first_news_title = self._extract_first_news_title(article_body)
+            else:
+                first_news_title = "香港ニュース"
+            
+            # 服装パターンを取得
+            outfit_pattern = self._get_outfit_pattern()
+            
+            print(f"🎨 見出し画像生成パラメータ:")
+            print(f"   日付: {date_str}")
+            print(f"   最初のニュース: {first_news_title[:50]}...")
+            print(f"   服装パターン: {outfit_pattern[:50]}...")
             
             # 画像を生成
             thumbnail_path = generate_thumbnail_for_article(
-                prompt=prompt,
                 config_path=self.config_path,
-                output_dir="images"
+                output_dir="images",
+                date_str=date_str,
+                first_news_title=first_news_title,
+                outfit_pattern=outfit_pattern
             )
             
             return thumbnail_path if thumbnail_path else ""

@@ -958,18 +958,24 @@ thumbnail: {thumbnail_path}
         """記事本文から最初のニュースタイトル（天気予報の次）を抽出"""
         import re
         
-        # 天気セクションをスキップ
-        weather_pattern = r'##\s*本日の香港の天気.*?(?=\n###|\n##|$)'
+        # 天気セクション全体をスキップ（## 本日の香港の天気から次の##または###まで）
+        # 天気セクション内の「### 天気予報」も含めてスキップ
+        weather_pattern = r'##\s*本日の香港の天気.*?(?=\n###\s+(?!天気予報)|\n##|$)'
         body_after_weather = re.sub(weather_pattern, '', article_body, flags=re.DOTALL)
         
-        # 最初の ### で始まる見出しを探す
-        match = re.search(r'###\s+(.+?)(?=\n|$)', body_after_weather)
-        if match:
-            title = match.group(1).strip()
-            # 見出しからリンクや余分な文字を除去
-            title = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', title)  # Markdownリンクを除去
-            title = title.strip()
-            return title
+        # リード文セクションもスキップ（もしあれば）
+        # 最初の ### で始まる見出しを探す（「天気予報」以外）
+        lines = body_after_weather.split('\n')
+        for line in lines:
+            line = line.strip()
+            # ### で始まり、「天気予報」でない見出しを探す
+            if line.startswith('###') and '天気予報' not in line:
+                title = line.replace('###', '').strip()
+                # 見出しからリンクや余分な文字を除去
+                title = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', title)  # Markdownリンクを除去
+                title = title.strip()
+                if title:
+                    return title
         
         # フォールバック: 最初の見出しが見つからない場合
         return "香港ニュース"

@@ -304,9 +304,15 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
 
     // 見出し画像を設定（タイトル入力の前）
     if (thumbnail) {
-      const thumbnailPath = path.resolve(path.dirname(markdownPath), thumbnail);
+      const resolvedMarkdownPath = path.resolve(markdownPath);
+      const articleDir = path.dirname(resolvedMarkdownPath);
+      const candidates = [
+        path.resolve(articleDir, thumbnail),
+        path.resolve(process.cwd(), thumbnail)
+      ];
+      const thumbnailPath = candidates.find((candidate) => existsSync(candidate));
       
-      if (existsSync(thumbnailPath)) {
+      if (thumbnailPath) {
         console.log('🖼️  見出し画像を設定中（タイトルの上）...');
         
         try {
@@ -527,7 +533,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log('見出し画像なしで続行します...');
         }
       } else {
-        console.log(`⚠️  見出し画像ファイルが見つかりません: ${thumbnailPath}`);
+        console.log(`⚠️  見出し画像ファイルが見つかりません: ${candidates.join(', ')}`);
       }
     }
 

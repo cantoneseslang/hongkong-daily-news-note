@@ -239,33 +239,57 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       
       // メールアドレスまたはnoteIDを入力
       console.log('ID入力欄を探しています...');
-      const emailInput = await page.locator('input[placeholder*="note ID"], input[placeholder*="mail"]').first();
-      await emailInput.waitFor({ state: 'visible', timeout: 10000 });
-      await emailInput.click();
-      await page.waitForTimeout(500);
-      await emailInput.type(username, { delay: 100 });
-      console.log('✓ ID入力完了');
-      await page.waitForTimeout(1000);
+      try {
+        const emailInput = await page.locator('input[placeholder*="note ID"], input[placeholder*="mail"]').first();
+        await emailInput.waitFor({ state: 'visible', timeout: 15000 });
+        await emailInput.click();
+        await page.waitForTimeout(500);
+        await emailInput.type(username, { delay: 100 });
+        console.log('✓ ID入力完了');
+        await page.waitForTimeout(1000);
+      } catch (error) {
+        console.log(`❌ ID入力エラー: ${error.message}`);
+        throw error;
+      }
 
       // パスワードを入力
       console.log('パスワード入力欄を探しています...');
-      const passwordInput = await page.locator('input[type="password"]').first();
-      await passwordInput.waitFor({ state: 'visible', timeout: 10000 });
-      await passwordInput.click();
-      await page.waitForTimeout(500);
-      await passwordInput.type(password, { delay: 100 });
-      console.log('✓ パスワード入力完了');
-      await page.waitForTimeout(1000);
+      try {
+        const passwordInput = await page.locator('input[type="password"]').first();
+        await passwordInput.waitFor({ state: 'visible', timeout: 15000 });
+        await passwordInput.click();
+        await page.waitForTimeout(500);
+        await passwordInput.type(password, { delay: 100 });
+        console.log('✓ パスワード入力完了');
+        await page.waitForTimeout(1000);
+      } catch (error) {
+        console.log(`❌ パスワード入力エラー: ${error.message}`);
+        throw error;
+      }
 
       // ログインボタンをクリック
       console.log('ログインボタンを探しています...');
-      const loginButton = await page.locator('button[type="submit"], button:has-text("ログイン")').first();
-      await loginButton.waitFor({ state: 'visible', timeout: 10000 });
-      await loginButton.click();
-      console.log('✓ ログインボタンをクリック');
+      try {
+        const loginButton = await page.locator('button[type="submit"], button:has-text("ログイン")').first();
+        await loginButton.waitFor({ state: 'visible', timeout: 15000 });
+        await loginButton.click();
+        console.log('✓ ログインボタンをクリック');
+      } catch (error) {
+        console.log(`❌ ログインボタンクリックエラー: ${error.message}`);
+        throw error;
+      }
       
-      // ログイン完了を待機
+      // ログイン完了を待機（リダイレクトを待つ）
+      console.log('ログイン完了を待機中...');
       await page.waitForTimeout(5000);
+      
+      // ログイン成功を確認（ログインページからリダイレクトされたか）
+      const afterLoginUrl = page.url();
+      console.log(`📍 ログイン後のURL: ${afterLoginUrl}`);
+      if (afterLoginUrl.includes('/login')) {
+        console.log('⚠️  まだログインページにいます。追加の待機時間を設けます...');
+        await page.waitForTimeout(5000);
+      }
       
       // 認証状態を保存
       const storageState = await context.storageState();
@@ -766,7 +790,16 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       if (magazineName) {
         console.log(`📚 マガジン「${magazineName}」に追加中...`);
         try {
-          await page.waitForTimeout(2000);
+          // 公開設定ページが完全に読み込まれるまで待機
+          await page.waitForTimeout(3000);
+          
+          // ページのURLを確認（デバッグ用）
+          const currentUrl = page.url();
+          console.log(`📍 現在のURL: ${currentUrl}`);
+          
+          if (!currentUrl.includes('/publish') && !currentUrl.includes('/editor')) {
+            console.log(`⚠️  公開設定ページではない可能性があります。マガジン選択をスキップします。`);
+          } else {
           
           // マガジン選択UIを探す（複数のセレクターを試す）
           let magazineSelected = false;
@@ -863,15 +896,18 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
             }
           }
           
-          if (!magazineSelected) {
-            console.log(`⚠️  マガジン「${magazineName}」の選択に失敗しました`);
-            console.log('マガジンなしで続行します...');
+            if (!magazineSelected) {
+              console.log(`⚠️  マガジン「${magazineName}」の選択に失敗しました`);
+              console.log('マガジンなしで続行します...');
+            }
           }
           
           await page.waitForTimeout(1000);
         } catch (error) {
           console.log(`⚠️  マガジン選択エラー: ${error.message}`);
+          console.log(`エラースタック: ${error.stack}`);
           console.log('マガジンなしで続行します...');
+          // エラーが発生しても処理を続行（致命的なエラーではない）
         }
       }
       

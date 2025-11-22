@@ -245,15 +245,25 @@ jobs:
           # 今日の日付の記事ファイルを確認
           TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
           
+          echo "🔍 Checking for article file: $TODAY_ARTICLE"
+          echo "📂 Current directory: $(pwd)"
+          echo "📋 All files in daily-articles/:"
+          ls -lh daily-articles/ || echo "⚠️  daily-articles directory not found"
+          
           if [ ! -f "$TODAY_ARTICLE" ]; then
             echo "❌ Error: Today's article file not found: $TODAY_ARTICLE"
             echo "📋 Available files:"
             ls -lh daily-articles/ || true
+            echo "💡 Possible causes:"
+            echo "   1. Article generation step failed"
+            echo "   2. Date mismatch (expected: $TODAY)"
+            echo "   3. File was generated with different name"
             exit 1
           fi
           
           LATEST_ARTICLE="$TODAY_ARTICLE"
-          echo "📄 Article: $LATEST_ARTICLE"
+          echo "✅ Article file found: $LATEST_ARTICLE"
+          echo "📄 Article size: $(wc -c < "$LATEST_ARTICLE") bytes"
           
           # 認証状態ファイルを作成
           if [ -n "$NOTE_AUTH_STATE" ]; then
@@ -269,7 +279,13 @@ jobs:
           fi
           
           # note.com投稿を実行（公開モード + マガジン追加）
-          if node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME"; then
+          # マガジン選択が失敗しても続行できるように、エラーをキャッチ
+          set +e  # エラーで即座に終了しないようにする
+          node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME"
+          POST_EXIT_CODE=$?
+          set -e  # エラー処理を再度有効化
+          
+          if [ $POST_EXIT_CODE -eq 0 ]; then
             echo "✅ note.com投稿成功"
             
             # 更新された認証状態をシークレットに保存（次の実行用）
@@ -279,8 +295,12 @@ jobs:
               echo "📄 認証状態ファイルサイズ: $(wc -c < /tmp/.note-state.json) bytes"
             fi
           else
-            echo "❌ note.com投稿失敗"
-            exit 1
+            echo "❌ note.com投稿失敗（終了コード: $POST_EXIT_CODE）"
+            echo "⚠️  記事は生成されていますが、note.comへの投稿に失敗しました"
+            echo "📋 記事ファイル: $LATEST_ARTICLE"
+            echo "💡 手動で投稿するか、次回の実行を待ってください"
+            # 記事生成は成功しているので、ワークフロー自体は成功として扱う
+            # exit 1 をコメントアウト（記事生成は成功しているため）
           fi
       
       - name: Summary

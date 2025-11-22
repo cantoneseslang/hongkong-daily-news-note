@@ -360,50 +360,124 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           }
           
           if (thumbnailButton) {
+            console.log('見出し画像ボタンをクリック中...');
             await thumbnailButton.click();
-            await page.waitForTimeout(1000);
+            await page.waitForTimeout(2000);
+            
+            // ファイル入力要素を直接探す（モーダルが開く前でも）
+            let fileInput = null;
+            const fileInputSelectors = [
+              'input[type="file"]',
+              'input[accept*="image"]',
+              'input[accept*="png"]',
+              'input[accept*="jpg"]',
+            ];
+            
+            for (const selector of fileInputSelectors) {
+              try {
+                const input = page.locator(selector).first();
+                if (await input.isVisible({ timeout: 2000 })) {
+                  fileInput = input;
+                  console.log(`✓ ファイル入力要素発見: ${selector}`);
+                  break;
+                }
+              } catch (e) {
+                continue;
+              }
+            }
+            
+            // ファイル入力要素が見つからない場合は、モーダルを待つ
+            if (!fileInput) {
+              console.log('ファイル入力要素を待機中...');
+              await page.waitForTimeout(2000);
+              
+              // 「画像をアップロード」ボタンをクリック
+              try {
+                const uploadButton = page.locator('button:has-text("画像をアップロード"), button:has-text("アップロード")').first();
+                if (await uploadButton.isVisible({ timeout: 3000 })) {
+                  console.log('「画像をアップロード」ボタンをクリック中...');
+                  await uploadButton.click();
+                  await page.waitForTimeout(2000);
+                }
+              } catch (e) {
+                console.log('「画像をアップロード」ボタンが見つかりませんでした（スキップ）');
+              }
+              
+              // ファイル入力要素を再度探す
+              fileInput = page.locator('input[type="file"]').first();
+              await fileInput.waitFor({ state: 'visible', timeout: 5000 });
+            }
+            
+            // ファイルを設定
+            console.log(`画像ファイルを設定中: ${thumbnailPath}`);
+            await fileInput.setInputFiles(thumbnailPath);
+            console.log('✓ ファイル設定完了');
+            await page.waitForTimeout(3000);
+            
+            // アップロード完了を待つ（画像が表示されるまで）
+            console.log('画像のアップロード完了を待機中...');
+            await page.waitForTimeout(5000);
+            
+            // クロップモーダル内の保存ボタンをクリック
+            console.log('クロップモーダル内の保存ボタンを待っています...');
+            await page.waitForTimeout(2000);
+            
+            try {
+              // クロップモーダル内の保存ボタンを探す（複数のセレクターを試す）
+              const saveButtonSelectors = [
+                '.CropModal__overlay button:has-text("保存")',
+                '.ReactModal__Overlay button:has-text("保存")',
+                'button:has-text("保存")',
+                'button:has-text("確定")',
+                'button[type="submit"]',
+              ];
+              
+              let saveButton = null;
+              for (const selector of saveButtonSelectors) {
+                try {
+                  const button = page.locator(selector).last();
+                  if (await button.isVisible({ timeout: 2000 })) {
+                    saveButton = button;
+                    console.log(`✓ 保存ボタン発見: ${selector}`);
+                    break;
+                  }
+                } catch (e) {
+                  continue;
+                }
+              }
+              
+              if (saveButton) {
+                console.log('クロップモーダルの保存ボタンをクリックしています...');
+                await saveButton.click();
+                await page.waitForTimeout(2000);
+                console.log('✓ クロップモーダルの保存ボタンをクリックしました');
+              } else {
+                console.log('⚠️  保存ボタンが見つかりませんでした（Enterキーで試行）');
+                await page.keyboard.press('Enter');
+                await page.waitForTimeout(1000);
+              }
+            } catch (e) {
+              console.log('⚠️  保存ボタンクリックエラー:', e.message);
+              // Enterキーで試行
+              await page.keyboard.press('Enter');
+              await page.waitForTimeout(1000);
+            }
+            
+            // モーダルが閉じるまで待つ
+            await page.waitForTimeout(2000);
+            
+            // 画像が設定されたか確認
+            const imageElements = await page.locator('img').count();
+            if (imageElements > 0) {
+              console.log(`✓ 画像が設定されました（${imageElements}個の画像要素を検出）`);
+            } else {
+              console.log('⚠️  画像要素が見つかりませんでした');
+            }
+            
+            console.log('✓ 見出し画像設定完了');
           } else {
             throw new Error('見出し画像ボタンが見つかりませんでした');
           }
-          
-          // 「画像をアップロード」ボタンをクリック
-          const uploadButton = page.locator('button:has-text("画像をアップロード")').first();
-          await uploadButton.waitFor({ state: 'visible', timeout: 5000 });
-          await uploadButton.click();
-          await page.waitForTimeout(1000);
-          
-          // ファイル入力要素を探してファイルを設定
-          const fileInput = page.locator('input[type="file"]').first();
-          await fileInput.setInputFiles(thumbnailPath);
-          await page.waitForTimeout(2000);
-          
-          // アップロード完了を待つ
-          await page.waitForTimeout(3000);
-          
-          // クロップモーダル内の保存ボタンをクリック
-          console.log('クロップモーダル内の保存ボタンを待っています...');
-          await page.waitForTimeout(3000);
-          
-          try {
-            // クロップモーダル内の保存ボタンを探す
-            const cropModalSaveButton = page.locator('.CropModal__overlay button:has-text("保存"), .ReactModal__Overlay button:has-text("保存")').last();
-            await cropModalSaveButton.waitFor({ state: 'visible', timeout: 5000 });
-            console.log('クロップモーダルの保存ボタンをクリックしています...');
-            await cropModalSaveButton.click();
-            await page.waitForTimeout(2000);
-            console.log('✓ クロップモーダルの保存ボタンをクリックしました');
-          } catch (e) {
-            console.log('⚠️  保存ボタンが見つかりませんでした:', e.message);
-          }
-          
-          // ファイル参照ウィンドウが開いていたらEscで閉じる
-          console.log('ファイル参照ウィンドウを閉じています...');
-          await page.waitForTimeout(1000);
-          await page.keyboard.press('Escape');
-          await page.waitForTimeout(1000);
-          console.log('✓ ファイル参照ウィンドウを閉じました');
-          
-          console.log('✓ 見出し画像設定完了');
         } catch (error) {
           console.log('⚠️  見出し画像設定エラー:', error.message);
           console.log('見出し画像なしで続行します...');

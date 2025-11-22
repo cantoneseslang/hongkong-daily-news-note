@@ -205,8 +205,9 @@ jobs:
               # ワークフローファイルの変更を除外
               git restore --staged .github/
               
-              # 記事ファイルのみを再度追加
+              # 記事ファイルと画像ファイルを再度追加
               git add daily-articles/hongkong-news_*.md
+              git add images/article-header-*.png 2>/dev/null || true
               
               # 変更があれば再コミット
               if ! git diff --staged --quiet; then
@@ -269,6 +270,26 @@ jobs:
           LATEST_ARTICLE="$TODAY_ARTICLE"
           echo "✅ Article file found: $LATEST_ARTICLE"
           echo "📄 Article size: $(wc -c < "$LATEST_ARTICLE") bytes"
+          
+          # 画像ファイルの存在確認
+          echo "🖼️  画像ファイルの確認:"
+          mkdir -p images
+          ls -lh images/article-header-*.png 2>/dev/null || echo "⚠️  画像ファイルが見つかりません"
+          
+          # 記事ファイル内のthumbnailパスを確認
+          if grep -q "thumbnail:" "$LATEST_ARTICLE"; then
+            THUMBNAIL_PATH=$(grep "thumbnail:" "$LATEST_ARTICLE" | sed 's/.*thumbnail: *//' | tr -d '"' | tr -d "'" | head -1)
+            echo "📋 記事内のthumbnailパス: $THUMBNAIL_PATH"
+            if [ -f "$THUMBNAIL_PATH" ]; then
+              echo "✅ 画像ファイルが存在します: $THUMBNAIL_PATH ($(ls -lh "$THUMBNAIL_PATH" | awk '{print $5}'))"
+            else
+              echo "⚠️  画像ファイルが見つかりません: $THUMBNAIL_PATH"
+              echo "📂 現在のディレクトリ構造:"
+              find . -name "*.png" -type f 2>/dev/null | head -10 || echo "PNGファイルが見つかりません"
+            fi
+          else
+            echo "⚠️  記事ファイルにthumbnailパスが見つかりません"
+          fi
           
           # 認証状態ファイルを作成
           if [ -n "$NOTE_AUTH_STATE" ]; then

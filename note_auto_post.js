@@ -307,16 +307,64 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       const thumbnailPath = path.resolve(path.dirname(markdownPath), thumbnail);
       
       if (existsSync(thumbnailPath)) {
-        console.log('🖼️  見出し画像を設定中...');
+        console.log('🖼️  見出し画像を設定中（タイトルの上）...');
         
         try {
-          await page.waitForTimeout(2000);
+          // ページが完全に読み込まれるまで待機
+          await page.waitForTimeout(3000);
           
-          // 見出し画像ボタンを探してクリック
-          const thumbnailButton = page.locator('button[aria-label="画像を追加"]').first();
-          await thumbnailButton.waitFor({ state: 'visible', timeout: 5000 });
-          await thumbnailButton.click();
+          // タイトル入力欄が表示されるまで待つ
+          await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
           await page.waitForTimeout(1000);
+          
+          // 見出し画像ボタンを探してクリック（複数のセレクターを試す）
+          let thumbnailButton = null;
+          const buttonSelectors = [
+            'button[aria-label="画像を追加"]',
+            'button[aria-label*="画像"]',
+            'button:has-text("画像")',
+            'div[class*="thumbnail"] button',
+            'div[class*="header"] button[aria-label*="画像"]',
+            'button[class*="image"]',
+            'button[class*="add-image"]',
+            'div[class*="title"] + div button',
+            'div[class*="editor-header"] button',
+          ];
+          
+          for (const selector of buttonSelectors) {
+            try {
+              const button = page.locator(selector).first();
+              if (await button.isVisible({ timeout: 2000 })) {
+                console.log(`✓ 見出し画像ボタン発見: ${selector}`);
+                thumbnailButton = button;
+                break;
+              }
+            } catch (e) {
+              continue;
+            }
+          }
+          
+          if (!thumbnailButton) {
+            // タイトル入力欄の上にある画像追加アイコンを探す
+            console.log('タイトル上の画像追加アイコンを探しています...');
+            const titleArea = page.locator('textarea[placeholder*="タイトル"]').first();
+            if (await titleArea.isVisible({ timeout: 2000 })) {
+              // タイトル入力欄の親要素から画像追加ボタンを探す
+              const parentElement = titleArea.locator('..');
+              const imageButton = parentElement.locator('button, div[role="button"]').first();
+              if (await imageButton.isVisible({ timeout: 2000 })) {
+                thumbnailButton = imageButton;
+                console.log('✓ タイトル上の画像追加ボタンを発見');
+              }
+            }
+          }
+          
+          if (thumbnailButton) {
+            await thumbnailButton.click();
+            await page.waitForTimeout(1000);
+          } else {
+            throw new Error('見出し画像ボタンが見つかりませんでした');
+          }
           
           // 「画像をアップロード」ボタンをクリック
           const uploadButton = page.locator('button:has-text("画像をアップロード")').first();

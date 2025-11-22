@@ -320,14 +320,16 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           // 見出し画像ボタンを探してクリック（複数のセレクターを試す）
           let thumbnailButton = null;
           
-          // まず、ページのスクリーンショットを取得してデバッグ（GitHub Actions環境ではスキップ）
-          if (!process.env.CI) {
-            try {
-              await page.screenshot({ path: '/tmp/note-editor-before-thumbnail.png', fullPage: false });
-              console.log('📸 デバッグ用スクリーンショット保存: /tmp/note-editor-before-thumbnail.png');
-            } catch (e) {
-              console.log('⚠️  スクリーンショット取得エラー:', e.message);
+          // まず、ページのスクリーンショットを取得してデバッグ（エラーは無視）
+          try {
+            if (!process.env.CI) {
+              const screenshotPath = path.join(os.tmpdir(), `note-editor-before-thumbnail-${Date.now()}.png`);
+              await page.screenshot({ path: screenshotPath, fullPage: false });
+              console.log(`📸 デバッグ用スクリーンショット保存: ${screenshotPath}`);
             }
+          } catch (e) {
+            // スクリーンショットエラーは無視して続行
+            console.log('⚠️  スクリーンショット取得エラー（続行）:', e.message);
           }
           
           const buttonSelectors = [

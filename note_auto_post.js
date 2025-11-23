@@ -308,12 +308,18 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       const articleDir = path.dirname(resolvedMarkdownPath);
       const cleanedThumbnail = thumbnail.replace(/^\.?\//, '');
       const candidates = [
-        path.resolve(articleDir, cleanedThumbnail),
         path.resolve(process.cwd(), cleanedThumbnail),
+        path.resolve(articleDir, cleanedThumbnail),
         path.resolve(process.cwd(), 'daily-articles', cleanedThumbnail),
         path.resolve(process.cwd(), '..', cleanedThumbnail)
       ];
-      const thumbnailPath = candidates.find((candidate) => existsSync(candidate));
+      
+      console.log('🧭 見出し画像の候補パスをチェック:');
+      const thumbnailPath = candidates.find((candidate) => {
+        const exists = existsSync(candidate);
+        console.log(`   - ${candidate} ${exists ? '✓' : '✗'}`);
+        return exists;
+      });
       
       if (thumbnailPath) {
         console.log('🖼️  見出し画像を設定中（タイトルの上）...');
@@ -536,7 +542,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           console.log('見出し画像なしで続行します...');
         }
       } else {
-        console.log(`⚠️  見出し画像ファイルが見つかりません: ${candidates.join(', ')}`);
+        console.log('⚠️  見出し画像ファイルがいずれの候補パスにも存在しませんでした');
       }
     }
 

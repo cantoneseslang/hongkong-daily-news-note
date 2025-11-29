@@ -107,6 +107,66 @@ function extractImages(markdown, baseDir) {
   return images;
 }
 
+async function refreshTableOfContents(page, bodyHasHeadings) {
+  if (!bodyHasHeadings) {
+    console.log('ℹ️  見出しがないため目次をスキップします');
+    return;
+  }
+
+  try {
+    const existingToc = page.locator('table-of-contents');
+    const existingCount = await existingToc.count();
+    if (existingCount > 0) {
+      console.log(`🧹 既存の目次を削除しています (${existingCount}件)`);
+      for (let i = existingCount - 1; i >= 0; i--) {
+        const tocBlock = existingToc.nth(i);
+        try {
+          await tocBlock.click({ timeout: 2000 });
+          await page.waitForTimeout(300);
+          await page.keyboard.press('Delete');
+          await page.waitForTimeout(300);
+        } catch (innerError) {
+          console.log(`⚠️  目次削除に失敗: ${innerError.message}`);
+        }
+      }
+    }
+
+    console.log('📋 目次を挿入中（本文入力後）...');
+    const bodyBox = page.locator('div[contenteditable="true"][role="textbox"]').first();
+    await bodyBox.click({ force: true });
+
+    const isMac = process.platform === 'darwin';
+    const goTopShortcut = isMac ? 'Meta+ArrowUp' : 'Control+Home';
+
+    await page.keyboard.press(goTopShortcut);
+    await page.waitForTimeout(300);
+
+    // 空行を挿入してブロックメニューを利用しやすくする
+    await page.keyboard.press('Enter');
+    await page.waitForTimeout(200);
+    await page.keyboard.press('ArrowUp');
+    await page.waitForTimeout(200);
+
+    const menuButton = page.locator('button[aria-label="メニューを開く"]').first();
+    await menuButton.waitFor({ state: 'visible', timeout: 5000 });
+    await menuButton.click();
+    await page.waitForTimeout(500);
+    console.log('✓ メニューを開きました');
+
+    const tocButton = page.locator('button:has-text("目次")').first();
+    await tocButton.waitFor({ state: 'visible', timeout: 5000 });
+    await tocButton.click();
+    await page.waitForTimeout(2000);
+    console.log('✓ 目次を挿入しました');
+
+    // 目次の直後に本文が始まるように改行を追加
+    await page.keyboard.press('Enter');
+    await page.waitForTimeout(300);
+  } catch (error) {
+    console.log('⚠️  目次更新エラー:', error.message);
+  }
+}
+
 function parseMarkdown(content) {
   const lines = content.split('\n');
   let title = '';
@@ -584,50 +644,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     await bodyBox.click({ force: true });
 
     const lines = body.split('\n');
-    let tocInsertLine = -1;
-    let shouldInsertToc = false;
-    
-    // 一番最初の空行を検出（ここに目次を挿入）
-    for (let i = 0; i < lines.length; i++) {
-      if (lines[i].trim() === '') {
-        tocInsertLine = i;
-        shouldInsertToc = true;
-        console.log(`✓ 目次挿入位置を${i}行目で検出（一番最初の空行）`);
-        break;
-      }
-    }
-    
-    // 最初の空行の場合、本文入力前に目次を挿入
-    if (shouldInsertToc && tocInsertLine === 0) {
-      console.log('📋 目次を挿入中（本文入力前）...');
-      
-      try {
-        // 現在カーソルは本文の最初の行（空行）にある
-        
-        // +ボタンをクリック（メニューを開く）
-        const menuButton = page.locator('button[aria-label="メニューを開く"]');
-        await menuButton.waitFor({ state: 'visible', timeout: 5000 });
-        await menuButton.click();
-        await page.waitForTimeout(1000);
-        console.log('✓ メニューを開きました');
-        
-        // 目次ボタンをクリック
-        const tocButton = page.locator('button:has-text("目次")');
-        await tocButton.waitFor({ state: 'visible', timeout: 5000 });
-        await tocButton.click();
-        await page.waitForTimeout(3000);
-        console.log('✓ 目次を挿入しました');
-        
-        // 目次の後に改行して、次の行に移動
-        await page.keyboard.press('Enter');
-        await page.waitForTimeout(500);
-        
-        shouldInsertToc = false; // 挿入済みフラグ
-      } catch (e) {
-        console.log('⚠️  目次挿入エラー:', e.message);
-        console.log('手動で目次を挿入してください。');
-      }
-    }
+    const hasHeadings = lines.some(line => line.trim().startsWith('### '));
     
     console.log(`📝 本文を入力中... (全${lines.length}行)`);
     
@@ -635,11 +652,6 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       const line = lines[i];
       const isLastLine = i === lines.length - 1;
       const isMac = process.platform === 'darwin';
-      
-      // 目次を挿入した場合、最初の空行はスキップ
-      if (i === 0 && tocInsertLine === 0 && !shouldInsertToc) {
-        continue;
-      }
       
       // 進捗表示（10行ごと）
       if (i > 0 && i % 10 === 0) {
@@ -944,6 +956,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         }
       }
     }
+    await refreshTableOfContents(page, hasHeadings);
     console.log('✓ 本文入力完了');
 
     if (isPublish) {

@@ -1244,7 +1244,10 @@ def preprocess_news(news_list):
             continue
         
         # NGワード除外（全国運動会など）
-        ng_keywords = ['全国運動会', 'national games', '全運会', '全国運動']
+        ng_keywords = [
+            '全国運動会', 'national games', '全運会', '全国運動',
+            '宏福苑', '宏福苑火災', '宏福苑火災現場', '香港赤十字会', '大埔宏福苑火災',
+        ]
         content_lower = f"{title} {description}".lower()
         if any(keyword.lower() in content_lower for keyword in ng_keywords):
             ng_word_count += 1

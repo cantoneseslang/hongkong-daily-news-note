@@ -209,21 +209,19 @@ def is_overused_topic(title: str, description: str, recent_topics: Dict[str, int
         content = f"{title} {description}".lower()
         
         for topic, count in recent_topics.items():
-            if count >= threshold:  # 過去3日間で2回以上出現
-                # トピックキーワードマッチング
-                try:
-                    if topic == '全国運動会':
-                        if re.search(r'全国運動会|national games|全運會|ng\s', content, re.IGNORECASE):
-                            return True
-                    elif topic == '立法会選挙':
-                        if re.search(r'立法会選挙|legco election|立法會選舉|district council', content, re.IGNORECASE):
-                            return True
-                    elif topic == '施政報告':
-                        if re.search(r'施政報告|policy address', content, re.IGNORECASE):
-                            return True
-                    # その他のトピックは厳しくチェックしない（経済指標等は重要）
-                except Exception:
-                    pass
+            try:
+                if topic == '全国運動会' and count >= threshold:
+                    if re.search(r'全国運動会|national games|全運會|\bng\b', content, re.IGNORECASE):
+                        return True
+                elif topic == '立法会選挙' and count >= (threshold + 2):
+                    # 過度に排除しないため閾値を引き上げ
+                    if re.search(r'立法会選挙|legco election|立法會選舉|district council', content, re.IGNORECASE):
+                        return True
+                elif topic == '施政報告' and count >= (threshold + 1):
+                    if re.search(r'施政報告|policy address', content, re.IGNORECASE):
+                        return True
+            except Exception:
+                continue
         
         return False
     except Exception:
@@ -1409,15 +1407,8 @@ def preprocess_news(news_list):
         )
     
     # 4. バランス選択（優先順位に基づいて15-20件選択）
-    selected = []
-    selected_ids = set()
-    selected_title_words: List[Set[str]] = []
-    category_counts = defaultdict(int)
-    source_usage = defaultdict(int)
-    topic_usage = defaultdict(int)
-    topic_exceeded = defaultdict(int)
-    
     target_count = 100
+    min_desired_articles = 30
     max_per_source_initial = 4
     fallback_category_limit = 10
     category_limits = {
@@ -1454,15 +1445,22 @@ def preprocess_news(news_list):
         if cat not in priority_cats
     ]
     
-    def select_news(limit_source: bool, enforce_category_limit: bool, categories: List[str]) -> None:
-        nonlocal selected
-        for cat in categories:
+    def run_selection(*, topic_cap: Optional[int], limit_source: bool, enforce_category_limit: bool):
+        local_selected: List[Dict] = []
+        selected_ids = set()
+        selected_title_words_local: List[Set[str]] = []
+        category_counts = defaultdict(int)
+        source_usage = defaultdict(int)
+        topic_usage = defaultdict(int)
+        topic_exceeded = defaultdict(int)
+        
+        for cat in ordered_categories:
             items = categorized.get(cat, [])
             if not items:
                 continue
             for news in items:
-                if len(selected) >= target_count:
-                    return
+                if len(local_selected) >= target_count:
+                    break
                 if id(news) in selected_ids:
                     continue
                 
@@ -1476,39 +1474,58 @@ def preprocess_news(news_list):
                     continue
                 
                 title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
-                if title_words and is_similar_title_words(title_words, selected_title_words):
+                if title_words and is_similar_title_words(title_words, selected_title_words_local):
                     continue
                 
                 topic_key = news.get('_topic_key')
-                if topic_key:
-                    topic_limit = 4
-                    if topic_usage[topic_key] >= topic_limit:
+                if topic_cap is not None and topic_key:
+                    if topic_usage[topic_key] >= topic_cap:
                         topic_exceeded[topic_key] += 1
                         continue
                 
-                selected.append(news)
+                local_selected.append(news)
                 selected_ids.add(id(news))
                 if title_words:
-                    selected_title_words.append(title_words)
+                    selected_title_words_local.append(title_words)
                 category_counts[cat] += 1
                 source_usage[source] += 1
                 if topic_key:
                     topic_usage[topic_key] += 1
-                if len(selected) >= target_count:
-                    return
+        return {
+            'selected': local_selected,
+            'category_counts': category_counts,
+            'source_usage': source_usage,
+            'topic_usage': topic_usage,
+            'topic_exceeded': topic_exceeded,
+            'topic_cap': topic_cap,
+            'limit_source': limit_source,
+            'enforce_category_limit': enforce_category_limit,
+        }
     
-    # 1st pass: respect category limits and per-source cap
-    select_news(limit_source=True, enforce_category_limit=True, categories=ordered_categories)
+    selection_strategies = [
+        {'topic_cap': 4, 'limit_source': True, 'enforce_category_limit': True},
+        {'topic_cap': 8, 'limit_source': False, 'enforce_category_limit': True},
+        {'topic_cap': None, 'limit_source': False, 'enforce_category_limit': False},
+    ]
     
-    # 2nd pass: relax source cap but keep category limits
-    if len(selected) < target_count:
-        select_news(limit_source=False, enforce_category_limit=True, categories=ordered_categories)
+    selection_result = None
+    for attempt, strategy in enumerate(selection_strategies, start=1):
+        selection_result = run_selection(**strategy)
+        selected = selection_result['selected']
+        if len(selected) >= min_desired_articles or attempt == len(selection_strategies):
+            if len(selected) < min_desired_articles and attempt < len(selection_strategies):
+                print(f"⚠️  ニュース件数が {len(selected)} 件と少ないため、抽出条件を緩和します（次の戦略を適用）")
+            break
+        print(f"⚠️  ニュース件数が {len(selected)} 件と少ないため、抽出条件を緩和します（現在の戦略: topic_cap={strategy['topic_cap']}）")
     
-    # Final pass: fill remaining slots without category limits
-    if len(selected) < target_count:
-        select_news(limit_source=False, enforce_category_limit=False, categories=ordered_categories)
+    selected = selection_result['selected']
+    topic_exceeded = selection_result['topic_exceeded']
     
     print(f"\n✅ 選択完了: {len(selected)}件（目標: {target_count}件）")
+    if selection_result['topic_cap'] is not None:
+        print(f"ℹ️  適用トピック上限: {selection_result['topic_cap']}件/トピック")
+    else:
+        print("ℹ️  トピック上限は適用されていません（最終戦略）")
     
     selected_categories = defaultdict(int)
     for news in selected:

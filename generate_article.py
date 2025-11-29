@@ -46,6 +46,41 @@ def title_similarity_chars(a: str, b: str) -> float:
     return SequenceMatcher(None, a, b).ratio()
 
 
+def _contains_keyword(text: str, keywords: List[str]) -> bool:
+    if not text:
+        return False
+    lowered = text.lower()
+    for kw in keywords:
+        if kw in text or kw in lowered:
+            return True
+    return False
+
+
+def is_japan_related(title: str, description: str, url: str = "") -> bool:
+    combined = f"{title} {description} {url}"
+    keywords = [
+        '日本', 'japan', '日本企業', '日本ブランド', '日本食', '和食', '寿司', 'ラーメン',
+        '居酒屋', '和菓子', '抹茶', 'japanese', 'tokyo', 'osaka', 'kyoto',
+        '無印良品', 'muji', 'ユニクロ', 'unqlo', 'uniqlo', 'ローソン', 'セブンイレブン',
+        'ファミリーマート', 'すき家', '吉野家', 'くら寿司', 'はま寿司', '松屋', 'モスバーガー',
+        'サントリー', 'キリン', 'アサヒ', '日経', '伊勢丹', '高島屋', 'パナソニック',
+        'ソニー', '任天堂', 'トヨタ', 'ホンダ', '日産', 'ラーメン', '唐揚げ', '和牛'
+    ]
+    return _contains_keyword(combined, keywords)
+
+
+def is_gba_related(title: str, description: str, url: str = "") -> bool:
+    combined = f"{title} {description} {url}"
+    keywords = [
+        '大湾区', '大灣區', '粤港澳', '粵港澳', '粤港澳大湾区', '粵港澳大灣區', '珠三角',
+        '広東省', '廣東省', '深セン', '深圳', 'shenzhen', 'guangdong', 'dongguan',
+        '中山', '珠海', 'zhuhai', '前海', '南沙', '横琴', 'hong kong-zhuhai-macao bridge',
+        'greater bay area', 'gba', '湾区経済', '湾区', '灣區', '佛山', 'foshan', '惠州',
+        'huizhou', '江門', 'jiangmen', '肇慶', 'zhaoqing'
+    ]
+    return _contains_keyword(combined, keywords)
+
+
 def titles_are_similar(
     words_a: Set[str],
     words_b: Set[str],
@@ -1234,6 +1269,8 @@ def preprocess_news(news_list):
         news['_normalized_url'] = normalized_url
         news['_source'] = (news.get('source') or 'Unknown').strip() or 'Unknown'
         news['_published_dt'] = parse_published_at(published_at)
+        news['_japan_related'] = is_japan_related(title, description, url)
+        news['_gba_related'] = is_gba_related(title, description, url)
         
         # 天気記事除外
         weather_keywords = ['気温', '天気', '天文台', '気象', '天候', 'temperature', 'weather', 'observatory', 'forecast', '℃', '度']
@@ -1329,10 +1366,17 @@ def preprocess_news(news_list):
     same_day_duplicates = 0
     
     for news in filtered_news:
+        title = news.get('title', '')
+        description = news.get('description', '')
+        url = news.get('url', '')
         title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
         news['_title_words'] = title_words
         title_chars = news.get('_title_chars') or normalize_title_chars(news.get('title', ''))
         news['_title_chars'] = title_chars
+        if '_japan_related' not in news:
+            news['_japan_related'] = is_japan_related(title, description, url)
+        if '_gba_related' not in news:
+            news['_gba_related'] = is_gba_related(title, description, url)
         
         if title_words and is_similar_title_words(title_words, existing_title_words):
             same_day_duplicates += 1
@@ -1448,7 +1492,40 @@ def preprocess_news(news_list):
         if cat not in priority_cats
     ]
     
-    def run_selection(*, topic_cap: Optional[int], limit_source: bool, enforce_category_limit: bool):
+    priority_requirements = [
+        ('_japan_related', 2, '日本関連ニュース'),
+        ('_gba_related', 2, '大湾区関連ニュース'),
+    ]
+    mandatory_news: List[Dict] = []
+    mandatory_summary = []
+    mandatory_ids = set()
+    for flag, minimum, label in priority_requirements:
+        group = [n for n in unique_news if n.get(flag)]
+        group = sorted(
+            group,
+            key=lambda n: n.get('_published_dt') or datetime.min,
+            reverse=True
+        )
+        if not group:
+            continue
+        selected_group = []
+        for item in group:
+            if id(item) in mandatory_ids:
+                continue
+            selected_group.append(item)
+            mandatory_ids.add(id(item))
+            if len(selected_group) >= minimum:
+                break
+        if selected_group:
+            mandatory_news.extend(selected_group)
+            mandatory_summary.append((label, len(selected_group)))
+    
+    if mandatory_summary:
+        print("\n⭐ 優先的に確保したトピック:")
+        for label, count in mandatory_summary:
+            print(f"  {label}: {count}件")
+    
+    def run_selection(*, topic_cap: Optional[int], limit_source: bool, enforce_category_limit: bool, preselected: Optional[List[Dict]] = None):
         local_selected: List[Dict] = []
         selected_ids = set()
         selected_title_words_local: List[Set[str]] = []
@@ -1456,6 +1533,23 @@ def preprocess_news(news_list):
         source_usage = defaultdict(int)
         topic_usage = defaultdict(int)
         topic_exceeded = defaultdict(int)
+        
+        preselected = preselected or []
+        for news in preselected:
+            if id(news) in selected_ids:
+                continue
+            local_selected.append(news)
+            selected_ids.add(id(news))
+            title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
+            if title_words:
+                selected_title_words_local.append(title_words)
+            category = news.get('category', '未分類')
+            category_counts[category] += 1
+            source = news.get('_source', 'Unknown')
+            source_usage[source] += 1
+            topic_key = news.get('_topic_key')
+            if topic_key:
+                topic_usage[topic_key] += 1
         
         for cat in ordered_categories:
             items = categorized.get(cat, [])
@@ -1513,7 +1607,7 @@ def preprocess_news(news_list):
     
     selection_result = None
     for attempt, strategy in enumerate(selection_strategies, start=1):
-        selection_result = run_selection(**strategy)
+        selection_result = run_selection(**strategy, preselected=mandatory_news)
         selected = selection_result['selected']
         if len(selected) >= min_desired_articles or attempt == len(selection_strategies):
             if len(selected) < min_desired_articles and attempt < len(selection_strategies):

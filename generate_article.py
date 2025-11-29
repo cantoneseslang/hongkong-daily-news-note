@@ -29,6 +29,23 @@ def normalize_title_words(title: str) -> Set[str]:
     return words
 
 
+def normalize_title_chars(title: str) -> str:
+    """タイトルを文字単位で正規化（CJK重複検出用）"""
+    if not title:
+        return ""
+    cleaned = re.sub(r'\s+', '', title.lower())
+    cleaned = re.sub(r'[^\w\u4e00-\u9fff]', '', cleaned)
+    return cleaned
+
+
+def title_similarity_chars(a: str, b: str) -> float:
+    """文字列ベースの類似度（SequenceMatcher）"""
+    if not a or not b:
+        return 0.0
+    from difflib import SequenceMatcher
+    return SequenceMatcher(None, a, b).ratio()
+
+
 def titles_are_similar(
     words_a: Set[str],
     words_b: Set[str],
@@ -88,6 +105,53 @@ def normalize_url(url: str) -> str:
         return normalized
     except Exception:
         return url
+
+
+TOPIC_STOPWORDS = {
+    '香港', '政府', '香港政府', '香港警察', '政府本部', '最新', '速報', '天気', '天氣',
+    'ニュース', '報道', '中国', '特区政府', '行政長官', '立法会', '香港立法会',
+    '火災', '火事', '事故', '香港電台', '香港電台ニュース', '香港天文台'
+}
+
+
+def derive_topic_key(title: str) -> Optional[str]:
+    """タイトルから主要トピック語を抽出（CJK優先）"""
+    if not title:
+        return None
+
+    cjk_matches = re.findall(r'[\u4e00-\u9fff]{2,}', title)
+    candidates = []
+    for match in cjk_matches:
+        if len(match) < 2:
+            continue
+        if any(sw == match for sw in TOPIC_STOPWORDS):
+            continue
+        if all(sw not in match for sw in TOPIC_STOPWORDS):
+            candidates.append(match)
+        else:
+            # stopwordを除いた部分を候補にする
+            cleaned = match
+            for sw in TOPIC_STOPWORDS:
+                cleaned = cleaned.replace(sw, '')
+            cleaned = cleaned.strip()
+            if len(cleaned) >= 2 and cleaned not in TOPIC_STOPWORDS:
+                candidates.append(cleaned)
+
+    if candidates:
+        # 最長文字列を優先
+        return max(candidates, key=len)
+
+    # 英語系の固有名詞を抽出
+    english_candidates = re.findall(r'[A-Za-z][A-Za-z\s\-\']{3,}', title)
+    english_candidates = [
+        re.sub(r'\s+', ' ', cand.strip()).lower()
+        for cand in english_candidates
+        if cand.strip().lower() not in TOPIC_STOPWORDS
+    ]
+    if english_candidates:
+        return max(english_candidates, key=len)
+
+    return None
 
 
 def get_recent_topics(days: int = 3) -> Dict[str, int]:
@@ -1105,6 +1169,7 @@ def preprocess_news(news_list):
     # 0. 過去の記事ファイルから既出ニュースを抽出
     past_urls = set()
     past_title_words: List[Set[str]] = []
+    past_title_chars: List[str] = []
     
     for days_ago in range(1, 4):
         past_date = datetime.now(HKT) - timedelta(days=days_ago)
@@ -1126,6 +1191,9 @@ def preprocess_news(news_list):
                         words = normalize_title_words(t)
                         if words:
                             past_title_words.append(words)
+                        chars = normalize_title_chars(t)
+                        if chars:
+                            past_title_chars.append(chars)
                     
                 print(f"  ✓ 既出URL: {len(normalized_urls)}件、既出タイトル: {len(filtered_titles)}件")
             except Exception as e:
@@ -1159,6 +1227,12 @@ def preprocess_news(news_list):
         normalized_url = normalize_url(url)
         title_words = news.get('_title_words') or normalize_title_words(title)
         news['_title_words'] = title_words
+        title_chars = news.get('_title_chars') or normalize_title_chars(title)
+        news['_title_chars'] = title_chars
+        if '_topic_key' not in news:
+            topic_key = derive_topic_key(title)
+            if topic_key:
+                news['_topic_key'] = topic_key
         news['_normalized_url'] = normalized_url
         news['_source'] = (news.get('source') or 'Unknown').strip() or 'Unknown'
         news['_published_dt'] = parse_published_at(published_at)
@@ -1220,7 +1294,14 @@ def preprocess_news(news_list):
             continue
         
         # 重複タイトル除外
+        title_chars = news.get('_title_chars')
         if title_words and is_similar_title_words(title_words, past_title_words):
+            duplicate_count += 1
+            continue
+        if title_chars and any(
+            title_similarity_chars(title_chars, past_chars) >= 0.88
+            for past_chars in past_title_chars
+        ):
             duplicate_count += 1
             continue
         
@@ -1239,19 +1320,30 @@ def preprocess_news(news_list):
     
     # 2. 同日内重複除外
     existing_title_words: List[Set[str]] = []
+    existing_title_chars: List[str] = []
     unique_news = []
     same_day_duplicates = 0
     
     for news in filtered_news:
         title_words = news.get('_title_words') or normalize_title_words(news.get('title', ''))
         news['_title_words'] = title_words
+        title_chars = news.get('_title_chars') or normalize_title_chars(news.get('title', ''))
+        news['_title_chars'] = title_chars
         
         if title_words and is_similar_title_words(title_words, existing_title_words):
+            same_day_duplicates += 1
+            continue
+        if title_chars and any(
+            title_similarity_chars(title_chars, existing_chars) >= 0.9
+            for existing_chars in existing_title_chars
+        ):
             same_day_duplicates += 1
             continue
         
         if title_words:
             existing_title_words.append(title_words)
+        if title_chars:
+            existing_title_chars.append(title_chars)
         unique_news.append(news)
     
     if same_day_duplicates > 0:
@@ -1319,6 +1411,8 @@ def preprocess_news(news_list):
     selected_title_words: List[Set[str]] = []
     category_counts = defaultdict(int)
     source_usage = defaultdict(int)
+    topic_usage = defaultdict(int)
+    topic_exceeded = defaultdict(int)
     
     target_count = 100
     max_per_source_initial = 4
@@ -1382,12 +1476,21 @@ def preprocess_news(news_list):
                 if title_words and is_similar_title_words(title_words, selected_title_words):
                     continue
                 
+                topic_key = news.get('_topic_key')
+                if topic_key:
+                    topic_limit = 4
+                    if topic_usage[topic_key] >= topic_limit:
+                        topic_exceeded[topic_key] += 1
+                        continue
+                
                 selected.append(news)
                 selected_ids.add(id(news))
                 if title_words:
                     selected_title_words.append(title_words)
                 category_counts[cat] += 1
                 source_usage[source] += 1
+                if topic_key:
+                    topic_usage[topic_key] += 1
                 if len(selected) >= target_count:
                     return
     
@@ -1416,6 +1519,11 @@ def preprocess_news(news_list):
             print(f"  {cat}: {count}件（上限: {limit}件）")
         else:
             print(f"  {cat}: {count}件")
+    
+    if topic_exceeded:
+        print("\n⚠️  トピック上限により除外された件数:")
+        for topic, count in sorted(topic_exceeded.items(), key=lambda x: -x[1]):
+            print(f"  {topic}: {count}件")
     
     return selected
 

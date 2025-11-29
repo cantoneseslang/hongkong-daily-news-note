@@ -1245,6 +1245,9 @@ def preprocess_news(news_list):
         ng_keywords = [
             '全国運動会', 'national games', '全運会', '全国運動',
             '宏福苑', '宏福苑火災', '宏福苑火災現場', '香港赤十字会', '大埔宏福苑火災',
+            '火災', '大火', '火災後', '火災現場', '火災で', '火災に', '火事', '大規模火災',
+            'fire ', ' fire', 'fire-', 'fire:', 'fire.', 'fire,',
+            'fatal blaze', 'blaze', 'inferno', 'conflagration'
         ]
         content_lower = f"{title} {description}".lower()
         if any(keyword.lower() in content_lower for keyword in ng_keywords):

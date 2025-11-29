@@ -81,6 +81,17 @@ def is_gba_related(title: str, description: str, url: str = "") -> bool:
     return _contains_keyword(combined, keywords)
 
 
+def is_fire_related(title: str, description: str) -> bool:
+    text = f"{title} {description}".lower()
+    fire_keywords = [
+        '火災', '火事', '火災後', '火災で', '火災に', '火災現場', '火災報', '火災避難',
+        '大火', '火災死亡', '火災関連', '火災救助', '火災発生', '火災被害',
+        'fire ', ' fire', 'fire-', 'fire:', 'fire.', 'fire,', 'firefighters', 'blaze',
+        'inferno', 'conflagration'
+    ]
+    return any(kw in text for kw in fire_keywords)
+
+
 def titles_are_similar(
     words_a: Set[str],
     words_b: Set[str],
@@ -1246,6 +1257,9 @@ def preprocess_news(news_list):
             print(f"  {status} {topic}: {count}回")
     
     filtered_news = []
+    fire_candidates: List[Dict] = []
+    fire_limit = 2
+    fire_overflow_count = 0
     duplicate_count = 0
     ng_word_count = 0
     non_hk_count = 0
@@ -1279,16 +1293,20 @@ def preprocess_news(news_list):
             continue
         
         # NGワード除外（全国運動会など）
-        ng_keywords = [
+        always_ng_keywords = [
             '全国運動会', 'national games', '全運会', '全国運動',
             '宏福苑', '宏福苑火災', '宏福苑火災現場', '香港赤十字会', '大埔宏福苑火災',
-            '火災', '大火', '火災後', '火災現場', '火災で', '火災に', '火事', '大規模火災',
-            'fire ', ' fire', 'fire-', 'fire:', 'fire.', 'fire,',
-            'fatal blaze', 'blaze', 'inferno', 'conflagration'
         ]
         content_lower = f"{title} {description}".lower()
-        if any(keyword.lower() in content_lower for keyword in ng_keywords):
+        if any(keyword.lower() in content_lower for keyword in always_ng_keywords):
             ng_word_count += 1
+            continue
+        
+        if is_fire_related(title, description):
+            if len(fire_candidates) < fire_limit:
+                fire_candidates.append(news)
+            else:
+                fire_overflow_count += 1
             continue
         
         # 過剰トピック除外
@@ -1356,6 +1374,12 @@ def preprocess_news(news_list):
         print(f"🚫 過剰トピック除外: {overused_topic_count}件")
     if non_hk_count > 0:
         print(f"🚫 香港無関係記事除外: {non_hk_count}件")
+    
+    if fire_candidates:
+        filtered_news.extend(fire_candidates)
+        print(f"🔥 火災関連ニュースを {len(fire_candidates)}件確保（追加除外 {fire_overflow_count}件）")
+    elif fire_overflow_count > 0:
+        print(f"🔥 火災関連ニュースは除外されました（候補 {fire_overflow_count}件）")
     
     print(f"📊 フィルタ後: {len(news_list)} → {len(filtered_news)}件")
     

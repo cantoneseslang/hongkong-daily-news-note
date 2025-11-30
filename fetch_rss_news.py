@@ -208,7 +208,23 @@ class RSSNewsAPI:
             # 広告・宣伝記事関連
             'presented', 'sponsored', 'advertisement', 'advertorial', 'promotional',
             '広告パートナー', '広告記事', 'スポンサー記事', 'PR記事', 'presented news',
-            'building stronger communities through sports'  # 具体的な広告記事タイトル
+            'building stronger communities through sports',  # 具体的な広告記事タイトル
+            # 火災関連（宏福苑大火など同じニュースが繰り返し取得されるため除外）
+            '宏福苑', 'wang fuk court', 'wang fuk', 'kwong fuk', '大埔大火', '大埔火災', 'tai po fire',
+            '宏福苑大火', '宏福苑火災', '大火', 'deadly fire', 'fire-ravaged', 'hong kong fire',
+            'fire climbs', 'death toll', 'mourning period', 'fire displaced',
+            'fire survivor', 'blaze', 'inferno', '死裡逃生', '受困', '火警',
+            '捐款', 'donation', '援助基金', 'relief fund', '受災', 'disaster relief',
+            'fire victims', 'fire identification', '身元確認', '追悼期間',
+            'fire teaches', 'relief aid', 'relief booth', '救援物資',
+            # 性犯罪関連（同じニュースが繰り返し取得されるため除外）
+            'sexual crime', '性犯罪', 'consent reform', '同意の新たな基準',
+            'reforming hong kong approach sexual crimes', 'new test consent',
+            # エアバス関連（重複が多いため一時的に除外）
+            'airbus a320', 'エアバスa320', 'a320 software', 'a320型機',
+            'emergency grounding', '緊急運航停止', '約6000機',
+            '空中巴士', 'airbus', 'a320', '停飛', 'grounding', '客機軟件',
+            '香港快運', 'hk express'
         ]
         # 採用・募集（求人/職缺/招聘/徵才）系は除外
         recruit_keywords = [
@@ -319,41 +335,85 @@ class RSSNewsAPI:
             return ""
         try:
             from urllib.parse import urlparse, urlunparse
+            # Google News のリダイレクトURLを元のURLに変換
+            if 'news.google.com/read/' in url or 'news.google.com/rss/articles/' in url:
+                # Google News の場合は完全なURLをそのまま使う（パラメータ込み）
+                return url.split('?')[0]  # クエリパラメータのみ除去
+            
             parsed = urlparse(url)
             # クエリパラメータとフラグメントを除去
             normalized = urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
-            return normalized
+            # 末尾のスラッシュを統一
+            if normalized.endswith('/'):
+                normalized = normalized[:-1]
+            return normalized.lower()  # 大文字小文字を統一
         except:
             return url
     
     def _is_duplicate_content(self, title: str, existing_titles: List[str]) -> bool:
-        """タイトルの類似度をチェックして重複コンテンツかどうか判定（改善版）"""
+        """タイトルの類似度をチェックして重複コンテンツかどうか判定（強化版）"""
         import re
         
         def normalize_title(t):
             # タイトルを正規化（小文字化、記号除去、単語分割）
             t = t.lower()
-            t = re.sub(r'[^\w\s]', '', t)
+            # 中国語・日本語の句読点も除去
+            t = re.sub(r'[^\w\s\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ff]', ' ', t)
+            # 連続する空白を1つに
+            t = re.sub(r'\s+', ' ', t).strip()
             return set(t.split())
         
+        def get_key_phrases(t):
+            """タイトルから重要なフレーズを抽出"""
+            t_lower = t.lower()
+            # 特定の重要キーワードを抽出
+            keywords = []
+            # 航空会社・飛行機関連
+            if 'airbus' in t_lower or 'エアバス' in t_lower:
+                keywords.append('airbus')
+            if 'a320' in t_lower or 'a320' in t_lower:
+                keywords.append('a320')
+            # 性犯罪関連
+            if 'sexual crime' in t_lower or '性犯罪' in t_lower:
+                keywords.append('sexual_crime')
+            if 'consent' in t_lower or '同意' in t_lower:
+                keywords.append('consent')
+            # 火災関連
+            if 'wang fuk' in t_lower or '宏福苑' in t_lower:
+                keywords.append('wang_fuk')
+            if 'fire' in t_lower or '火災' in t_lower or '大火' in t_lower:
+                keywords.append('fire')
+            return keywords
+        
         title_words = normalize_title(title)
+        title_phrases = get_key_phrases(title)
         
         if not title_words:
             return False
         
         for existing in existing_titles:
             existing_words = normalize_title(existing)
+            existing_phrases = get_key_phrases(existing)
             
             if not existing_words:
                 continue
             
+            # キーフレーズが2つ以上一致したら重複とみなす
+            if len(title_phrases) >= 2 and len(existing_phrases) >= 2:
+                common_phrases = set(title_phrases) & set(existing_phrases)
+                if len(common_phrases) >= 2:
+                    return True
+            
             common_words = title_words & existing_words
             shortest_len = min(len(title_words), len(existing_words))
             
-            if shortest_len <= 4:
-                min_common = max(2, shortest_len)
+            # 最小共通語数の条件を厳しく
+            if shortest_len <= 3:
+                min_common = shortest_len  # 短いタイトルは全単語一致が必要
+            elif shortest_len <= 6:
+                min_common = max(3, int(shortest_len * 0.7))  # 70%以上一致
             else:
-                min_common = 2
+                min_common = max(4, int(shortest_len * 0.6))  # 60%以上一致
             
             if len(common_words) < min_common:
                 continue
@@ -362,7 +422,8 @@ class RSSNewsAPI:
             similarity = len(common_words) / len(all_words) if all_words else 0.0
             coverage = len(common_words) / shortest_len if shortest_len else 0.0
             
-            if similarity >= 0.5 and coverage >= 0.6:
+            # 類似度の閾値を厳しく（0.5 → 0.4、0.6 → 0.5に変更）
+            if similarity >= 0.4 and coverage >= 0.5:
                 return True
         
         return False

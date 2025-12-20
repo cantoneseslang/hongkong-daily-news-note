@@ -1,0 +1,359 @@
+---
+title: 毎日AI香港ピックアップニュース(2025年12月21日)
+thumbnail: images/article-header-20251221_060833.png
+---
+
+# 毎日AI香港ピックアップニュース(2025年12月21日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2025年12月21日05時45分に発表した天気報告
+
+東北季節風の補充が、広東省沿岸に徐々に影響を与えています。
+
+香港の今日の天気予報：
+概ね晴れで乾燥するでしょう。日中は暖かく、市街地の最高気温は約25度、新界ではさらに1、2度高くなるでしょう。穏やかな東北の風が吹き、その後、沿岸部や高地では風が時々強く吹くでしょう。
+
+展望：月曜日と火曜日の初めは風が強まり、気温はやや下がるでしょう。水曜日は日中暖かいでしょう。クリスマス休暇は朝晩涼しく、日中は乾燥するでしょう。
+
+**引用元**: 香港天文台
+
+### 中国のヒートポンプ技術、東京が台湾への姿勢を北京に明確化：SCMPの7つの注目点
+
+今週、香港、中国本土、アジア地域、そしてそれ以外の地域で読者の関心を集め、時事問題に光を当てた7つのニュースをSCMPが選定しました。
+1. 中国の超高温ヒートポンプ技術の画期的な進歩は、太陽光による鉱石溶解への道を開く
+1世紀以上にわたり、低品位の熱を高温度の産業エネルギーに効率的に集中させるという夢は、頑固な制約に縛られてきました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/world/article/3336982/chinas-heat-pump-tech-tokyo-clarifies-taiwan-stance-beijing-scmps-7-highlights?utm_source=rss_feed
+
+### 香港で両替所職員が10億円強奪、容疑者1名逮捕
+
+香港警察は、武装した男4人が両替所の職員から10億円（約640万米ドル）を強奪した事件で、容疑者1名を逮捕しました。
+警察によると、木曜日の午前9時6分、上環のグランドミレニアムプラザ近く、クイーンズロード・セントラル181番地で、職員が同僚と共に約5000万香港ドル相当の日本円を強奪されたとの通報を受けました。
+刃物を持った4人の強盗は、犯行後、クイーンズロード・セントラルを西方向へ逃走しました。
+警察は後に車を発見しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3336860/1-arrested-after-currency-exchange-staff-robbed-1-billion-japanese-yen-hong-kong?utm_source=rss_feed
+
+### 中国本土のドライバー700人以上が香港への乗り入れ制度に申請
+
+火曜日から始まる新しい制度に基づき、700人以上の中国本土のドライバーが香港の市街地への乗り入れを申請しました。交通当局は、この政策で乗り入れる車両が交通状況を悪化させることはないと強調しています。
+香港運輸署は木曜日、これらの中国本土の自動車所有者は、11月23日に広東省当局が実施した抽選で当選した1,700人のうちの700人以上であると発表しました。
+「現在の予約枠は100台に設定されています…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3336872/over-700-mainland-chinese-drivers-apply-enter-hong-kong-under-travel-scheme?utm_source=rss_feed
+
+### 偽造身分証で積金易を欺き180万香港ドルを窃盗、同手口で銀行口座開設しマネーロンダリング、警察が5人を逮捕
+
+偽造身分証を使って積金易（eMPF）プラットフォームから3人の口座から合計180万香港ドルを盗み出し、同じ手口で銀行口座を開設してマネーロンダリングを行ったとして、警察は5人を逮捕しました。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMiugNBVV95cUxOakNna093a3pSaENCc2lpRkJvSFM4U1ZKUnR4Rm9Zcll1ZXZnU0dWZ29yX3ZxVFhuX0dYOUlxajN6R05ZUVlqTFFHY0MwX3NkMG5QbVhrOVJ3cXVOcEEzNjJVT2NhcnF0M3cyaGtCU3lEQTBrUGV4Z1RONm5wc01yeGV2UnNDdTdZcUVzZl9OZVBWQU81QnI0ZHJxOXZUVEJhVkwtdWlqMkhMdFBZWUcwdVBlSDU0NjYteDFka1FlSVpJVmVJSDkwUTZiM3BqS3NId3RlODlCQW1WWjJkQ1dKVFRlLUdjc2xESkVsZFg3VUZ2Z2g1WTd0a19KUlh4SXhGdjZ5RjBYajlQNW1YcURWYXlZTlVCZThhX0NjNklqMk5VQmhGZXhzQzRmdUdMdGNvbWtRT196LW4yeTEzYi1MRG9EdldhU01KSFowazdKUExjanhqZDNpZW9DdE9lM2V0MVJwY0ZjS1ZXcktxYk5SN2RWeTAzOW5KSEdXOEF1LV9scnp5SjVzVUZaNXlRdlgxSDhNS3FPbUdmSHJ2QWI2T0dOMnRvMkwzbkJRRk5yWmpSMGtVZGcweENB?oc=5
+
+### 中国のAI・半導体スタートアップ、香港上場計画で世界の投資家を誘致
+
+中国の人工知能（AI）企業や半導体メーカーが、資金調達のために香港に目を向けており、グラフィックス・プロセッシング・ユニット（GPU）開発企業のMoore Threads TechnologyとMetaX Integrated Circuitsの中国本土での華々しいデビューに続き、世界の投資家の関心を試しています。
+香港証券取引所（HKEX）によると、GigaDevice Semiconductorは上場審査を通過し、香港での新規株式公開（IPO）に一歩近づきました。同社は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3337055/tech-pivot-chinese-ai-chip-start-ups-court-global-investors-hong-kong-listing-plans?utm_source=rss_feed
+
+### 将軍澳第137区および第132区の埋め立て工事が承認、約40ヘクタールを開発し5万戸の住宅を建設
+
+将軍澳（チョンクワンオー）の第137区および第132区における埋め立て工事が承認されました。これにより、約40ヘクタールの土地が開発され、5万戸の住宅が建設される予定です。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimANBVV95cUxNOVNwVGtyOVNRU2hFT3hVelZKMzVtY21pWnNvOEV0dGY2NEY2akpUUlpLc0FPNWZCclZJYmxWMzFRWnBLN1dNdEpJVUlVY1Y5cTl5ZmRUT1NFYUR5WXhLdW41YmotM3doWFlqYVI0S0VqY3VtUHo5YVVuRWlDZVVmXzE0SGtKSTFsV3FuNUVDTHN6Tlpyb3R5cklPb2VPc0p6eW9ROVgwcEt1am1DUFhtTm94YUVmSWVUQjVJOXNxZDUzei1XTDR6MGFWSXcxTDYxU0pXT043d09rQXVOUG42c0I4Q1RvVDZwNW9Ka3pnRjJhNi1kb1FVVXV1YXdlYjRucGRDdFhCVFBwN3VoNjctbkNrMl95ektQUU9ZS0ktMDY2ZDI5Y0l3dGgxeEpNem5BTEo2WUlJdFdfWjFTcXB4M1VLdUs0Q2F3X0o4YXd1S01VdGNZODRLc0tMRmd1ZWpFalFCSnM1T1FILWlnaU1JZjVQdWczUTRHMktIWUlVUkotV01SRkU1S013YmlreXFwWlZXZ3ZoS3Y?oc=5
+
+### エリオール・グループ、香港の航空機解体産業向け技術者訓練を開始
+
+香港初の航空機解体事業を立ち上げる計画のフランスの航空サービス会社エリオール・グループは、地元技術者向けの訓練プログラムを開始するにあたり、減税などの措置で新産業を支援するよう政府に要請しました。
+デリシュブール・グループの子会社であるエリオール・グループは、来年第3四半期までに香港で航空機の解体、部品保管、処理、リサイクルに必要な土地を確保できると楽観的な見方を示しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3336799/elior-group-begins-training-technicians-hong-kongs-aircraft-disassembly-industry?utm_source=rss_feed
+
+### BNO：英国が永住権要件厳格化を計画、労働党議員34名が20万人のBNO香港人への遡及適用をしないよう共同声明
+
+英国がBNO（英国海外市民）保持者の永住権要件を厳格化する計画に対し、労働党議員34名が共同声明を発表し、既に英国に移住した20万人ものBNO香港人には遡及適用しないよう求めました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimgNBVV95cUxNWDViNkd2YjB4ZVR2WFhZNXoxMTVKZjlMd3YxcFdwWjN4R0dET3ZBZ082MFBleksyUG9BUFY3cThUSkxhTkVZUVd0ZHRCZFR3ZjJTdkNvalhBX0hHWWo1M0RHRmlvTW45bDJ4TmJRM2FoTVNucVdtRFMxSlU5am1sYU1pb2hMcDhydGcxR3NES2UyZTllYUs2NlplMUhRS2RVRXh3eGtQdGJRVnFKQ2xtRXdDTHFNMktCYU1NTXBfNDFFel9UajZrWldQallfNklRTXZ0MWhMVUtJYlVMQWhGam16aWt3MVAySElYbEEzY2pBOHBpekFHZ0NDaE92SnRycmVWREV5YzY5ZzFnN1h1dmZ3R0FUSFRYZnFjSWdTOTJWWVZ6VVp5X01ZVGJtX3NIVlg5Qmg3dkUtQjlhM21JOVpwOGZvcFNUNkZRSjZVT2xNVXpCNjc4WmVnc0tKRWFNeDR3a2FRUGljYkgwZTd3RlQ2cjRiUVlkeTNHaUU5R3luMlhVMWdPWGNOeTJpM0lTRFNaWDZ4aFlQQQ?oc=5
+
+### 香港の次期議員、政策策定における政府とのさらなる意見交換を要求
+
+香港の次期議員らは、木曜日に開催された初の意見交換会を歓迎し、政府が立法府との関係を重視している証拠だと述べ、政策策定前に政府高官とのさらなる意見交換を求めました。
+新しく選出された90人の議員のうち約70人が、3人の長官や他の局長を含む政府高官との1時間半の意見交換に参加しました。議論は、行政と立法府の関係、そして香港経済の2つのテーマに焦点を当てました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3336874/hong-kong-lawmakers-elect-call-more-exchanges-government-policymaking?utm_source=rss_feed
+
+### 米軍、米国人3名殺害への報復としてシリアのIS目標70ヶ所以上を攻撃
+
+（ワシントンAFP）米軍は本日、シリアでイスラム国（IS）の70以上の目標を攻撃しました。これは、米国人3名が殺害されたことへの報復です。米国中央司令部（US Central Command）は声明で、米軍が「シリア中部各地で、戦闘機、攻撃ヘリコプター、砲兵を使用し、70以上の目標を攻撃した」と述べました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E7%BE%8E%E8%BB%8D%E5%A0%B1%E5%BE%A93%E5%90%8D%E7%BE%8E%E5%9C%8B%E4%BA%BA%E9%81%87%E5%AE%B3-%E6%89%93%E6%93%8A%E6%95%98%E5%88%A9%E4%BA%9E70%E5%A4%9A%E5%80%8Bis%E7%9B%AE%E6%A8%99-060502366.html
+
+### 香港での高速カーチェイス後、乗客が車から投げ出され3人逮捕
+
+香港北部で劇的な高速カーチェイスの末、車から容疑者1名が投げ出され、3人が逮捕されました。オンラインに投稿されたドライブレコーダーの映像には、追跡中に容疑者1名が車両から落下する様子が映っていました。
+土曜日の情報筋によると、新界の上水（ションスイ）で、車の運転手と2人の乗客が薬物関連を含む複数の容疑で逮捕されました。
+追跡は、午前9時頃、上水の新昌街（サンチョンガイ）に駐車されていた車両に運転手が衝突した直後に始まりました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3337199/passenger-flung-car-3-arrested-after-high-speed-chase-hong-kong?utm_source=rss_feed
+
+### 香港MTR、南港島線7.5km延伸計画にゴーサイン
+
+香港の主要な意思決定機関が土曜日に更新された設計案を承認したことを受け、香港の鉄道大手MTRコーポレーションは南港島線西段の延伸計画を進めるよう要請されました。建設は2034年までに完了する見込みです。
+運輸物流局は、行政会議が政府に対し、10年以上前に初めて提案された同路線の西側延伸プロジェクトをMTRコーポレーションに進めるよう要請する承認を与えたと発表しました。
+この7.5km（4.7マイル）の路線は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3337189/hong-kongs-mtr-corp-gets-green-light-plan-75km-south-island-line-extension?utm_source=rss_feed
+
+### 香港スタンレーで乗用車が対向バスと衝突、7人負傷
+
+香港のスタンレーで、運転手が乗用車の制御を失い、対向バスと衝突した事故で、7人が負傷し病院に搬送されました。
+警察は土曜日、午後12時44分にスタンレー・ビレッジ・ロード32番地で事故の通報を受けたと発表しました。
+男性バス運転手は首の痛みを訴え、乗客4人（女性3人、男性1人）は顔に怪我を負いましたが、全員意識があり、柴湾（チャイワン）のパメラ・ユード・ネザーソール東区病院に搬送されたと警察は述べました。運転手と…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3337178/7-injured-car-collides-oncoming-bus-hong-kong?utm_source=rss_feed
+
+### 香港、住民が漢方か西洋医学かを選択する際の指針を提供へ
+
+香港の保健当局は、漢方開発のための新しい青写真に基づき、漢方が西洋医学よりも効果的であると考えられる症状を特定し、住民が漢方治療を受けるべき時期について指針を提供します。
+漢方開発委員会のヴィンセント・チョン・チーホー委員長は土曜日、市内の約1万人の漢方医のうち、政府の電子医療記録プラットフォームであるeHealthを利用しているのはわずか9％であると述べました。当局は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3337172/chinese-or-western-medicine-hong-kong-help-residents-decide?utm_source=rss_feed
+
+### オペレーション・サンタクロース：香港ディズニーランドがチャリティ活動を支援し魔法を広げる
+
+香港ディズニーランドは、2019年から続くパートナーシップを拡大し、市内のコミュニティにホリデーの温かさを届けるための毎年恒例の募金活動に参加しました。
+SCMPと公共放送RTHKが1988年に共同で設立した「オペレーション・サンタクロース（OSC）」は、社会の様々な分野でつながりを築く支援者を募っています。
+ディズニーランドは、創造的な商品、ゲストの参加、スタッフの関与を組み合わせて参加しています。
+2019年に初めて導入された「ホリデー・ウィッシュ・ポストカード」は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3337167/operation-santa-claus-hong-kong-disneyland-spreads-magic-support-charity-drive?utm_source=rss_feed
+
+### 漢方病院で熱意が沸き立つ
+
+香港初の伝統漢方病院の最高経営責任者は土曜日、12月11日に将軍澳（チョンクワンオー）で開院して以来、患者から非常に熱心な反応を受けていると述べました。
+RTHKのラジオ番組で、ビアン・チャオシャン氏は、補助金付きの一般診療所は2月10日まで予約でいっぱいであり、専門診療所と私立診療所には限られた時間枠しか残っていないと語りました。
+「専門診療所はほぼ90％埋まっています…1日平均約200人の患者を診ています。開院初日には219人の患者が診察を受けました」と彼は述べました。
+「一般的に言って、最初の段階は慣らし運転期間です。異なるチームの医師がお互いに適応する必要があります。これは医師と看護師、そして伝統漢方と西洋医学にも当てはまります。」
+ビアン氏は、病院は徐々に人員とサービス枠を増やしていくと述べ、地元の大学にある3つの漢方学校の学生に研修の場も提供すると付け加えました。
+同じ番組で、漢方開発委員会のヴィンセント・チョン委員長は、彼の部署がより多くの人々に漢方の利用を促進したいと述べました。
+新たに発表された漢方開発の青写真の下で、政府は漢方が「明確な利点を示す」病気のリストを作成する予定です。
+チョン氏は、病院管理局がすでに特定の分野で伝統漢方と西洋医学を統合していると述べました。
+「いつ伝統漢方から助けを求めるべきか、いつ西洋医学に相談するのが良いかについて、国民を導く必要があります」と彼は述べました。「このリストを作成しなければ、国民にどのように説明すればよいかわかりません。」
+この青写真には、漢方医の間でeHealth（医師が患者の健康記録にアクセスできる政府開発システム）の利用を促進することも含まれています。
+チョン氏は、市内の1万人の漢方医のうち、現在eHealthシステムを使用しているのはわずか9％であると述べました。
+彼は、保健局が独自の電子医療記録システムを使用している医師がeHealthに接続できるように補助金を出す計画であると付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1836868-20251220.htm
+
+### なぜ香港人はカナダの永住権取得プログラムでこれほど長く待たされているのか？
+
+香港人のセシリアさんは、海外で永住権を取得する最も安価で簡単な方法だと信じて、2023年にカナダに移住しました。
+プライバシーの懸念からファーストネームで呼ばれることを希望した32歳の彼女は、近年数万人の香港人が都市を離れた移住の波の一部でした。
+彼女は、2021年に移住した友人の経験に基づき、昨年4月に永住権申請を提出した後、わずか6ヶ月で待つことを予想していました。
+しかし、それ以上に…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3337117/why-are-hongkongers-waiting-so-long-under-canadas-pathway-residency?utm_source=rss_feed
+
+### 港珠澳大橋の路面で鉄板剥落の疑い、複数の乗用車がパンク
+
+港珠澳大橋の路面で鉄板が剥がれ落ちた疑いがあり、複数の乗用車がその上を走行してパンクしました。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFBHeHNJUGRqX3BNYjgzSkh0bjFQSUZyY29RTzRQMzlsZFZVeUpxcmg5T0pKRk9QMzdaamtjaTQ4N1RWV0VETlhQd0Y0MjlMcU90ZFMwWVdXUlhYV1VUck54Y05wYmJ3Mk1hUEowUlBYRQ?oc=5
+
+### 南港島線西段：政府がMTRに計画・設計を依頼、8駅を2034年までに完成目標
+
+政府は香港鉄路有限公司（MTR）に対し、南港島線西段の計画と設計を依頼しました。この延伸計画では8つの新駅が建設され、目標として2034年までに完成する予定です。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiqwNBVV95cUxOR21LZWNtbVBpWXhMTGxYUXFJeExmWXlnTW1vVVVnbUR0cjJaM3U0aVB4dFc2NmhSaFl6WXJ4Q1lEbzhvdGN3SkwxRm1uVk1laGZKMEpHY0pnZnNlZ1hhVmQzVFMtWmpXVlVhcGllQzVQTEhNNDNNcmdYRkg5V0ZzcjRTRmVyWkdoRXJmTEhUdGJ4MGhzQTl6X1luVmdwU083UjJIWHotc1VmRU9INFpsdjJ0Sk1haWtsZ2JjNk1iRU1Jc3VRNDR3b3RZdk9TaWFEOFZxQ3dBTjBMMEJYZ09KVWR3cjk3ZDVMcUdwc3JXYVpCVktET0poYVRkM3pEUG9aWklDMVdzaU96anlPTk1STUpzOGxqTm0yUzJIdEhmZnEwV3JmUkNoVHZyQlJhMG5KcjhyVFF1NGZ6SGhfb1BIZmtMR0g1LXRkdVpSUEJrMXNJNGFKLVJ2YU10TS01d3ZONjhWV29OXy1aSWJOcjhXUzdmdFVYMTFfSEIxOGN5ZmRGcjVpaVdIRXFjYV9iT01GVm1yRTVHbi1jREpWZF81QlJzbEgxNHJhNmdV?oc=5
+
+### 大棠の紅葉：大欖郊野公園の楓香林で土曜日にガイドツアー、「紅葉指数」は毎週金曜日に更新
+
+大棠（タイトン）の紅葉シーズンが到来しました。大欖郊野公園（タイラムカントリーパーク）の楓香林（フォンホンラム）では、土曜日にガイドツアーが開催されます。また、「紅葉指数」が毎週金曜日に更新され、紅葉の見頃情報が提供されます。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi5gRBVV95cUxPcVBBcFlsQVBKdlhwUEFhMzUzRnl3c0lCQkFzU25QbjZjeTBGaXhHUkNra0NtZE5ya0FjTGhjRi1qUkdNTzFWbzVaRDdLYnZpNHpyVWp3bXJMczB2RlFuNDVUNmMtM21Ld3dsakhLQjJ6OTItRmVrTVR3Wi00QndtZFIxS29ocURRVEtFZW9YQl95Ym91Yy1ZNUxMZHpCd1dGaXljb0FtcWJRRFllZ3I2UXVCMG1lQ1NSV0VQcTkzUEUwN3lONUFzSTRSeHpjbDlZbks4cmtEQXRhOGtjTEdaVzJlQ1hINFgtY1BSdnRENzJmTngwQWs2clNFaDVBZW9IbnNoSk0tNkV5dmUyVVp3SGNpMlVTZ1VublVxT3FnMWZPS0U1alhiOXRJXzM4WjFCRGt0Z2xma0k2eHFiSllSMlFreTJUa2pjS2EtMG5BTjBQbWxLSVRWMVZocXA5UGszWXphYkpSd1JNUmx3dHQ1dnJheXM4SkYtR1E4Q29hNlV5dmg3U0FUTjRwMkdOczJyTzIyeE9uMW9tOUsyT3dfYnhQOTB6elZnNFVnUFJpZWRhdjJRN2ZCVDMxdnd5WFA4d3ZXcHpyTURUbEhRLWlQX3FCMUtQMVp2MG1Iam5YSkNSUnV5WE1qUldjaHJ5Rm1UdHFvSkdWNE5laXgwcV9uR0lwYnQwQm9HN09DRmVVWDVyUlE4S0IxanpvZThWVmpsdTl6WUo0SUNzSDJIVnNteTB4M0NhMi1kTlAzcE9qLVhWZE11ZTVqejZqYXl6OXIzSUtoTE1OMHN4WElMcndYS2RrMlVCQQ?oc=5
+
+### 香港人はいかに中九龍幹線新区間を最大限活用できるか
+
+中九龍幹線（セントラル・カオルーン・バイパス）の油麻地（ヤウマテイ）区間が日曜日に開通し、香港のドライバーや通勤者は移動時間の短縮を享受できるようになります。
+油麻地と九龍湾（カオルーンベイ）を結ぶこの片側3車線のバイパスは、より短いルートを提供することで、九龍の主要幹線道路の交通渋滞を緩和し、ドライバーが燃料と時間を節約できるように設計されています。
+SCMPは、利用者がこの新しい道路を最大限に活用して香港島と九龍の様々な地域へ移動する方法について考察します。
+1. 油麻地…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3337176/how-hongkongers-can-make-best-use-new-section-central-kowloon-bypass?utm_source=rss_feed
+
+### 深水埗民政事務処、関愛隊がクリスマスと新年で食事配布を一時停止するとの噂を否定
+
+深水埗（シャムスイポー）民政事務処は、関愛隊（ケアチーム）がクリスマスと新年を祝うために食事の配布を一時停止するという噂は事実ではないと明確にしました。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ma204QktSdnljM1BEYmlxQmFQc3l2M3kzMHBWRUVGMWVSX0RoRmtEaDItWTZXRC01VW04bF8wMU5lQ24yLXBhb3V6NF9DcE1QSEpSMk8zUmZfUmhhcWxNMzJJRTFGNFd0N0tQRjlTZw?oc=5
+
+### 海都酒家など4つのレストランが約1100万香港ドルの賃金滞納、労働組合が98人の従業員の回収を支援、58人が勝訴
+
+海都酒家（ハイ・トー・レストラン）を含む4つのレストランが、合計約1100万香港ドル（約140万米ドル）の賃金を滞納しました。労働組合は98人の従業員の賃金回収を支援し、そのうち58人が訴訟で勝訴しました。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMikANBVV95cUxOZlVJeVZCTDVJSUZ6NERxMDNNSDR0dWFnd19yTTZpUmZwbUtRajBSSnVERkkxZ2I2ZV9WSEVsY3g2V2FNdm1qbWtqYXZVX24wTkNPbU55dDQ5eVRCUERJNXVoM3ExMnRtaE52aWtwNzZNNzNZWVQ5azBGY3NpS2I4ZUtCLUZZQUN1OE9lNzhQZmVIUTJhUXppeEEwRmFnY2VSSk1XOVZlTmZLYllhMmtDSkowdXQ3dm9XWnBFLTQ4STRycElNTzZEempqTVJjaU9RYVpKQi1mX0VKc1hwWVJPZUpmTHVmNlp1aWVsSjA1N2c0NUlTZVVMNy1UQmhPNnhOM3lPMnJoNnVuRy1CZlo0V0ZEUlBVMkpiRjRIOUlONHBJclBnMlphcFBBdTZUZXA5dDFiZzVnZEpFR19EVGZEdkxMajIxQy1kZ3k2dHpBY2s5bXhWa3pOenF1c3VFQVpXVjh2bm5weWpndkZROE82Q3dfV1BwcEw0ajNReXFpcjFqRDF1VmNwa2htTjdyVzA5?oc=5
+
+### 公営住宅：4人家族が最初の東涌の割り当てを拒否、2回目の割り当ては市街地の便利な団地で357平方フィート、3部屋に区切れる
+
+ある4人家族が、最初に割り当てられた東涌（トンチョン）の公営住宅を拒否しました。その後、2回目の割り当てで、非常に便利な市街地の団地を受け取りました。この住宅は357平方フィートで、3部屋に区切ることが可能です。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMioANBVV95cUxOTHJvUXRGb0RQU0xONVNXQ1lwT0w5b2xvTlVXdGxmU2F5YUdkSkNGRWRlTVpNWlVrT1UtVkI2aEVFU3lmaVBhSkZCanJITWZiaFJDSmVyb1Y3c0JQUlVFeThDODRKdHJPbEdVR0Q1bkhlMUQ0aHFjaEhkNHIxU3lFclpneVdqY3NSejlWZWE5TlpYVG1LT09acDFYa1g4MXVWb2pxRmlzbFNSM01VYjlHaVNsRnlBX2t6Ty0ycjdXdVZmZWtzNlVmdXZJVDBlYWJXQk1kaWplczdTNFFVZk5YVm4ySmNQeGxtRUR6VE1nemg0Rl9pSGlVanFJTzJHZ0VKbVdlZWRoeTh1WjM0aEt2WW5MSUpnRFZBelJTUEtyb0tOekM4Q3VxSFZDdGx6U3E3N1BBOXROS25LdFl5R0t5QTRpUGpZd1lDcnowYzNBV1N2YktTNTVwYWtQSkcyYjYyY192bkpVSTlhaVMweDJLN2F5SDNKUTBSdzRRendBWWpEYUFodDFJZFpuUUxmUzVIS1pIZGxWOUdwbWtQemFhaw?oc=5
+
+### 湾仔太原街のクリスマス飾りが売れ残り？10香港ドルのクリスマスツリーが千本以上残る。親孝行な子供たちが母親の玩具店で懸命に販売促進：「10時間以上働く母を見て心が痛む」
+
+湾仔（ワンチャイ）の太原街（タイユンガイ）では、クリスマス飾りの売れ行きが芳しくないようです。10香港ドルのクリスマスツリーが千本以上も売れ残っています。親孝行な子供たちが、10時間以上も働く母親の玩具店で、懸命に販売促進に努めています。「母が10時間以上も働いているのを見ると、心が痛みます」と彼らは語っています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi6wRBVV95cUxQZXR1QlJwQ1N5WVJhUG1pVDdVU1hqNWlhWklCZy1lN0tCY0V4WWNReE9qaTB2NVJCRkUwY1ozUXJDeWRmczhELWh5SmU1RFB0UHVCTEZKS29DNFkwODRTN0VtVHAyMWthb0xiNTVrSTdZVmlyZ1ZRMzBDc2Y3ZGpCZFNieWZIdXNJRjI4OGw4YjdaNlc0RXZabmtMLXI5bDdyUHZYUDZrUlV3U2ZwUUszSWRvS0dJWW9tRTRoQmNwUmNSb3JuU3JjT2xvSlQydFV0b0NtMEVtUFA3RUNNVjlTUW10MWxJQjhYZG4wMnNZNFhhY3RoRW10bVA2dm9ieERJQUlDQ0NMRVJrSWotalNrY2N3QmtBOEs5d0RTOHU4ZWtIOTlnTmo5TERHVS1FakhBVmNXQmlPZDFFRkFvQklLRDZLTmo4YW5qdk9SWF9jZ2NZUFkzUWp1T1pyZkMwNGhqbzU0dGhYSGk2ajYyYkE5cTBEbnFES0xvRkFOQXFicWtlRE9XbjRLLUtiV3RFLWhQcllIVXJ6bTk2UGlXa3plUm9pcEM0cFhOZWIwU3JTSlp5OHdfdVNHNDg0OTVvODYwc3BMaFI3aUpaWmw3bDFldEljRXhyV3B0bW9xeEcwQ1Q4T1hfWXFwbndrM0xOY082RzJyaXktNEZYZzRoV2lWUndaRzhXSmhJLVRzbkpzTkFfRTRmSU53VmFYaE9Ja0VJY08zZU90cWxGcms5dEJlOURWTnJ2aHl2WjktVldBVk9xZXNBTjh4UzctREtpQTRnUWE4Uk84Q05MSW5aNFZLQ0s2eVVWZ2VjVEh3?oc=5
+
+### MTR九龍湾駅の案内表示に「淘大花園」の文字が再追加、田北辰議員は民意を聞き入れたと評価
+
+MTR九龍湾（カオルーンベイ）駅の案内表示から一時的に削除されていた「淘大花園（アムウェイガーデン）」の文字が、再び追加されました。立法会議員の田北辰（ティン・パクチャン）氏は、MTRが民意を聞き入れたことを称賛しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxOYV9lMlB6dkJIS19KWERjd3lKdDBiWHJaRWNXeUxvWlhKM25LS0RVMTZHR2d6dkZsWmZrU0ZUQVpLUVpyYmIwY291SHZidDkxXzNoZHpQNzEtQUNrUDd1ZjdXVC1IdmpzSDlmVmRCd0RQVnF1MVZwNWRCZ2I0V0ZKS3lZVkhzd0xkYm9FMDRYYmYtR2t3SjE3OUptSnFzV09jTVBuN0c4OFVUdk9weVc5eHBBdnhNbHRVR2d6dnk1c2IyLWR2cVppOUpwV0JhV0M0emdXMm5PdC1fcUNEX3lNejdWNzlxTm5UQTVhdnNZTnhNcHc3d0tSVmJaS1RrenlodHFjXzZVdWsxMHNNWDRHWVpMTG45SmxidGNRVmNQVXNWTG5IM2dOREt4UVozN0Y3SnNqM1N4dGdXV1A4bFd3a29TcnRra1ctTmNfQ0J4U3JyTkdXUkVWenpFRWM1NHQwOFM0d3UyRXJQT0xzbEJkVlJkcl85RFVSV2xFal9aelJuWnJYZnllSHRIa1dsOXB2dGV3bmMwUWVnR2s?oc=5
+
+### 鄭嘉如氏が『ウォール・ストリート・ジャーナル』を提訴、鄭氏側は同紙が法的措置を取らないよう求めていたと主張、鄭氏は来週証言へ
+
+鄭嘉如（チェン・カーユー）氏が、元雇用主である『ウォール・ストリート・ジャーナル』を提訴しました。鄭氏側は、同紙が以前、法的措置を取らないよう求めていたと主張しています。鄭氏は来週、証言を行う見込みです。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi7gNBVV95cUxQeFIzWXAzVTB3XzY3S2JnM3dWU0IwRDdjdkxoOGxxc2ZxbDhrUnU2MWpSLUtTanJFQTh2MHNBclB2ZlREb0lYTFZYMFkxZU9IUXFMLUxQUDdza08ycVUxeEVvOWx1RlFJbHp2bDdiSl9jdFo4ZkM3ZXdWbnhzaTQ0QVhFakdxMkNxbTNaRXhmWXJ3WVhuc1BLVUpIUnl3a1k2TkVqQVZVVWpuUFhOTGhkQkNJSHBiaVA4cGYtdlJZeXB1Z3RBV05oX3g2bUY4eGVId29BNmRrVGxXN2RsWjVZa2o0N2tYTzlSWGpMX2gweU1MQ2ItMDZrZHdnM2Z0U1VEcE1hSTZHMHBYVGRjRmlHODU3SnRaRTJZNjdHaVNXb2N2MkpaWmJLMGZrZEpsNFhUME8zZ3J0QzhJdDk5UmNxbnpGcGgtSnpSNWdldUpEaTZCbHhhT0JWdDZ3X1JOSE5HR2RmaWJENGlUemk1UHA1VUpGM2dENGFNemZCNHEtTlVSaHpDcjI4bGZ2ekVJakluUGhGS21Tcy1FeXZMc1RLTW9pRndXVjlhcVBlVkpvTVVmQ19OeHJwOUQzakxrZ1duemxVWThwSkM0LVhHNEZ4d05DUWxvLV9wd0pVT3BCZjN1RFhBcmg5NTdhdGlZUQ?oc=5
+
+### HKFPレンズ：錦田で10年に一度の醮祭に群衆が殺到
+
+10年に一度開催される錦田（カムティン）の醮祭（ジャオフェスティバル）が盛況のうちに閉幕しました。この祭りは、ギネス世界記録に「世界最大の仮設竹祭壇」として認定された巨大な中心飾りが特徴です。木曜日の夜、1685年に遡るこの文化イベントが終了する前に、元朗（ユンロン）近くのこの田舎町に群衆が押し寄せました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/19/hkfp-lens-crowds-flock-to-see-kam-tins-once-in-a-decade-jiao-festival/
+
+### 西九クリスマス・タウン：60本以上のクリスマスツリー、12月24日から26日まで「降雪」パフォーマンス
+
+西九文化区（ウェストカオルーンカルチュラルディストリクト）のクリスマス・タウンでは、60本以上のクリスマスツリーが飾られ、12月24日から26日まで「降雪」パフォーマンスが開催されます。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeEtscUlUbThkcDZEQ3kxR05sOEVOT3lheWw5aHh0ckdPdElKUHF3YWdnTWdvYWNfYTZjRzhuRjFQaVNXZzBBUFc2OTkwcGI0TExzcElfS3JqMHoxOV9uR3k1c2hNMktYaHJXWEJvcFhCem9rRUQ2ZXNHSmtHRUlHVXBNSDRYWFJGbkZB?oc=5
+
+### 九龍湾MegaBoxが大規模リニューアル！地下にアウトレット専門エリアを新設、20以上のブランド（衣料品、スポーツシューズ、家庭用品）が最大90%オフ、LOG-ONも出店
+
+九龍湾（カオルーンベイ）のショッピングモール「MegaBox」が大規模なリニューアルを実施しました！地下にはアウトレット専門エリアが新設され、衣料品、スポーツシューズ、家庭用品など20以上のブランドが最大90%オフで提供されます。さらに、人気ライフスタイルショップ「LOG-ON」も出店します。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMiwgNBVV95cUxPbW9ORFNSLUlQSVJtZ25YbTNGQ2Mtek80Z1hRZzFqQnF2ejZJRzlyWlZyUlZJVXdBc0syQ19GS1NGUXBmYkduanpsaWxBM1FhTWZ0alQyZV9Reno5cE9hUktDZ2Q3akJOT2Q5Rm04dHRFcUtUVDZPQmVCeENwbHk2QUpFVXBxaUdQTUdiWno2SlZOUlkzbzJxa3hSTmJvak1RdHl5Z1B6dEltRTJkcnp6ZWRfV2tELVRjZGkwX3NVZEw3UzgtRHh0U3VuTlM3N19udGdSZTFsakFZM0ItRUx6cVp4UGRzcEJuZUIxcGJ6MFctOU5JNWc1dVE5azNpVVc5c0NScUw1TnpNd3laQ29vdzU4MVJtUDl4S1Q1NnZ2YW1JTlEtUm5oUFVkdkFEZlFIN3RGUXYzRHRic2VVNzFpcm9Qb2lYWVhGYjV2cXVaUFZqSnpQbVpYbi1MSnpkNGpCVWoyVjlRNU9VV2tNbEtPTzBzZ3VYSGxjV3NSWkdWS1h3bE15bGZrczZ1TGwwNEtOczZ2dzk0NHVKRENYSm9oNWwwVGZFcWpfdEhwSE5rM0JYb2VLeHhIV2Zlamt1MFZrWHc?oc=5
+
+### 中国、EU産豚肉に5年間アンチダンピング関税を課す
+
+中国は火曜日、欧州連合（EU）からの豚肉輸入に対し、5年間アンチダンピング関税を課すと発表しました。ただし、9月から実施されている暫定的な課徴金よりも低い税率となります。両経済大国は、多くの欧州諸国が中国との経済関係を不均衡と見なしていることに起因する貿易摩擦に陥っています。この課徴金は…
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/17/china-to-impose-anti-dumping-duties-on-eu-pork-for-5-years/
+
+### 香港でeMPF年金口座から180万香港ドル窃盗の疑いで5人逮捕
+
+香港警察は、市内の新しいオンライン年金基金プラットフォーム（eMPF）から180万香港ドル（約23万1300米ドル）を盗んだ疑いで、強制積立金（MPF）口座の所有者になりすましたとして5人の男を逮捕しました。
+この詐欺事件を受けて、年金制度を管理する強制積立金制度管理局は、オンラインプラットフォームの利用者登録におけるペーパーレス認証プロセス（eKYC）を直ちに停止しました。同局は、ご迷惑をおかけしたことを謝罪しました。
+警察のリー・チュンマン警部補は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3337048/hong-kong-police-arrest-5-over-stealing-hk18-million-mpf-account-holders?utm_source=rss_feed
+
+### 香港の教育病院、スタッフの「水鉄砲」動画を調査
+
+香港の教育病院が、医療スタッフが病棟内で注射器を「水鉄砲」として使っている動画が拡散したことを受け、調査を開始しました。
+木曜日にソーシャルメディアに投稿された動画には、数人のスタッフが注射器で互いに液体をかけ合い、同僚が見守っている様子が映っていました。
+「クイーンメリー病院K20N病棟のナースステーションで水遊び」と、オンラインユーザー「hospital_secrets」が動画を投稿する際に書き込みました。
+「勤務中に注射器を水鉄砲として使っている…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3337194/hong-kong-teaching-hospital-investigates-staff-over-viral-water-fight-video?utm_source=rss_feed
+
+### 強盗容疑者が香港の病院から裸足で逃走、タクシー乗り継ぎ後に逮捕
+
+強盗容疑者が香港の病院でX線検査のために護送されている最中に裸足で警察の拘留から逃走しましたが、数時間後、タクシーを乗り継ぎながらタクシー運転手から盗みを働いた後、再逮捕されたことがSCMPの取材で明らかになりました。
+ラム姓の35歳の容疑者は、金曜日の午前11時頃、ジョーダンにあるクイーンエリザベス病院で胃がんの治療を受けている最中に逃走しました。
+彼は約20年の経験を持つ2人の警察官にX線検査のために護送されていましたが、その際に…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3337133/robbery-suspect-flees-hong-kong-hospital-barefoot-caught-after-taxi-theft?utm_source=rss_feed
+
+### 高徳地図が粤車南下に対応するためアップグレード：急な車線変更を回避、左側通行と時計回りラウンドアバウトを指示
+
+高徳地図（AutoNavi）が、広東省からの車両が香港に乗り入れる「粤車南下」制度に対応するため、機能をアップグレードしました。これにより、中国本土のドライバーが香港の交通ルールに慣れるよう、急な車線変更の回避、左側通行の注意喚起、時計回りのラウンドアバウト走行の指示などが提供されます。
+
+**引用元**: unwire.hk
+
+https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZSnUyVmRSRjJoSV9tUzJBbERmRVA3TTFNRUlqQmFlQWFmSDg4SkQ4VDlVa2YxU2wzZTJZbWZyN1N0alVVYkFUQmx2LXFJeU1WVEtlYmF3Y1BWM0daUkduNlhvNE1hTjF4c1HSAW9BVV95cUxNSTJZc0VPQmlGLUhuSGcwUDRoRUU2d2NSMUFSUTg1MWpBZkFleDQ2MHkyS3dOTU55U1Z5a0RMbVRhako0YTZZRWpMTS1odXhicmxPVmtUOEFFVF9IdXlTTEJnRGVUdHQzcUVjdmpwNTg?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2025年12月21日 06:09

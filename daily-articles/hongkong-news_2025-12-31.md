@@ -1,0 +1,508 @@
+---
+title: 毎日AI香港ピックアップニュース(2025年12月31日)
+thumbnail: images/article-header-20251231_061047.png
+---
+
+# 毎日AI香港ピックアップニュース(2025年12月31日)
+
+## 本日の香港の天気
+
+### 天気予報
+2025年12月31日05時45分に香港天文台が発表した天気報告
+
+やや強い風から強風程度の東寄りの気流が広東省沿岸に影響しています。同時に、雲の帯がこの地域を覆っています。
+
+香港地域の今日の天気予報:
+概ね曇りでしょう。朝は一時的に小雨が降るでしょう。日中は短時間日差しがあり、最高気温は約21度となるでしょう。穏やかな風からやや強い東寄りの風が吹き、沿岸部では時折強風が吹くでしょう。
+
+今後の見通し: 元日は概ね曇りで、短時間日差しがあるでしょう。風がかなり強く、夜には北風に変わり、気温は著しく下がり始めるでしょう。その後1、2日は朝晩が冷え込み、最低気温は11度から12度前後となるでしょう。徐々に晴れて乾燥し、昼夜の寒暖差が大きくなるでしょう。
+
+**引用元**: 香港天文台
+
+### 短期入境車両のフロントガラス透過率、70%以上を義務付け – 運輸署
+
+運輸署は、香港に短期滞在する車両は一時的な滞在とみなされ、フロントガラスの光透過率が70%を下回ってはならないと発表しました。これは、粤港澳大湾区からの車両（「粤車南下」）の増加に伴い、一部の車両が香港の規制に適合しない「黒いガラス」を使用していることへの懸念が高まっていることを受けてのものです。運輸署は、自動運転機能を持つ車両のドライバーが香港で運転中に両手をハンドルから離す行為は、資格剥奪の対象となる可能性があると警告しています。議員からは、ドライバーに対し禁止事項を明確に伝えるべきだとの声も上がっています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1KNFFOTVZuS3U2YWlLRFNEYTF3RFJEc3hKQ2pTZ3JERV9vUEw5YldNZmI3aUhiSDliWUhwMVhKTkRaNTZVOXEzQjF1RTlQeXBkWm1GYnRQeElyamhSQTB2X2k5bXVHU080QXRId1lqbw?oc=5
+
+### MTR、年末年始の特別運行を発表
+
+MTRは、年末年始の需要に対応するため、ほぼ全路線で列車サービスを強化すると発表しました。大晦日には、8つの鉄道路線と7つのライトレール線が終夜運転を行い、午後から運行頻度が増加します。終夜運転の対象外となるのは、空港エクスプレス、ディズニーランド・リゾート線、羅湖（ローウー）駅および落馬洲（ロックマチャウ）駅への東鉄線サービスです。ただし、ディズニーランドでの特別イベントに対応するため、ディズニーランド・リゾート線は午前2時まで運行を延長します。
+
+また、MTRバス路線506、K51、K54Aも運行時間を延長します。羅湖国境を越える乗客のため、東鉄線の羅湖駅への越境サービスも大晦日に延長され、羅湖行きの最終列車は金鐘（アドミラルティ）駅から午前0時56分に出発します。
+
+別途、運輸署は、大晦日と元旦にカイタックスタジアムで開催される夜間コンサートのため、特別な交通・輸送手配を実施すると発表しました。カイタックスポーツパーク周辺の交通混雑が予想されるため、コンサート参加者には公共交通機関の利用を強く推奨し、自家用車の利用を避けるよう呼びかけています。運輸署は、イベント終了後のサービス強化のため、地元および越境交通事業者と調整を行いました。MTRは、必要に応じて屯馬線と東鉄線で運行頻度を増やすか、予備列車を配備します。認可されたバス会社は、宋皇台道（ソンウォントイロード）の乗降場から、落馬洲（新田）公共交通機関乗換駅、港珠澳大橋香港口岸、空港、市内の主要地区などへ11の特別路線を運行します。
+
+タクシー乗降場も、大晦日の午後6時半から午後9時まで、元旦の午後4時半から午後7時までカイタックスタジアムに指定されます。イベント主催者によると、コンサートは元旦の午前0時半と、同日午後10時半に終了する予定です。本土へ同日中に戻る参加者には、利用予定の国境検問所の営業時間を確認するよう注意喚起されています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1837863-20251229.htm
+
+### 西環邨と馬頭圍邨の再開発計画、2029年と2028年に移転開始
+
+住宅委員会は、西環邨（サイワンエステート）と馬頭圍邨（マータウワイエステート）の再開発計画を提案しました。西環邨は2029年に一括で解体・移転される予定で、住民は近隣の嘉惠民道（カーワイマンロード）第1期公営住宅プロジェクトに移転します。
+
+一方、1962年に入居が開始された約2.9ヘクタールの馬頭圍邨は、2段階で解体・移転が行われます。第1期では水仙楼（スイシンビル）、洋葵楼（ヤンクイビル）、および馬頭角道（マータウコックロード）政府合署が解体され、影響を受ける住民は2028年に土瓜湾道（トクワワンロード）の公営住宅プロジェクトや新美東邨（サンメイタンエステート）の一部ユニットに移転することが提案されています。第2期では芙蓉楼（フーヨンビル）、玫瑰楼（ムイグイビル）、夜合楼（イェハップビル）が解体され、新馬頭圍邨の第1期ユニットに移転しますが、具体的な時期は後日発表されます。馬頭圍邨の再開発により、現在の2,000戸以上のユニットが約4,000戸に増加し、移転期間も14年から7年に短縮される見込みです。
+
+住宅委員会は、解体の影響を受ける住民に対し、移転費用の一部を補助する世帯移転手当を支給することを提案しています。また、資格のある単身者および2人世帯は、年齢に関わらず、公営住宅への入居の代わりに代替住宅手当を受け取ることを選択できます。住宅委員会は来月、両団地の解体・移転計画について中西区と九龍城区議会に諮問する予定です。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMiiAVBVV95cUxOT2N4SXFXSlh5dmdvaFVDTWY3NGhucWkwNmlDTHEzSjlLTmRtVGM0XzNhZGY5Z1NkbWZDbzJLU1AtUlMxVGgtam5obTVtWGVOM2p2N3JVWm9xd0wxalBUeEg3VW1yUlVPWS05YUstQXpGbE1uRk1fT2JaRWVSZzZtWFBsVGtFTFRxakt3T2FfT3dPUkVxMnZwZWFLRllOdHdqYm9DVTAza2Z0NTBLZmpOeGQ1c2J5c1RHSkJDY3VhVUttN3lUU1hOdnNQTW0waFcxMHgwaU9kSmE2SFZPX3JybEc1dC05aGpXZmZKTl8wb2VDcGNhVjZta0VZV2kzRFg1MWMtQy1GMFphQUtaMDB6Y3FiM19KYmpxejF6Rm9WUEl0elRSLUp3a1laSVlJblFhOWY3TjhXZ3A0aldTS2dWRmk1aWRwQ3FJNDNybUdET0NWalRkVkppa2dqamhhbVoyTXhGVVNVTWVlN0F6b2c0bDNTWVIyaXUtLXRFR29lcmpxZnpDUjctS1hMTjFRY0hEdTg5VDFvc193ZEpnWW5YMVl2TEdpak9rR3ZFaklza09URUF0QzFtZzJIWnlzN2psajg2N0NUaGN3cEV5RnF5SnNSTnF0YkVXQ2ZEREZCUklXcUdta0pGQWRqcmNuZUNtM283ZXRnQWJzaWN6dDhoTGp2Qld3UHhVZUlqeXZJa0xZejdIY1FycDBVQjNSU0gtSEM3d1BYbWYtaHp4eTdadU50MUpMZzB4VDFIajhHRHZqbjB5OHZ6Z0FHSHhVeEZ5TGRIeHVMZ1BmdHA2ZXUwTzdOQlc4MFQ4eHAtVTRGajFEbU1KUndyNzVsZWtua2M0ajA3MFpsamY?oc=5
+
+### 香港当局、世界銀行の「ビジネスレディ」評価に「不公平」と異議
+
+香港当局は、世界銀行の「ビジネスレディ2025レポート」における香港のビジネス準備度評価について、古いデータに基づいているため不公平な比較につながっていると疑問を呈しました。デジタル政策局は火曜日の早朝、香港が「業務効率」で上位20位以内を維持し、「規制枠組み」と「公共サービス」で第2分位に位置していると述べました。しかし、「国際貿易」などの一部の評価結果については、当局は異議を唱えています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3338102/hong-kong-authorities-question-world-banks-unfair-business-ready-grades?utm_source=rss_feed
+
+### 香港政府、世界銀行のビジネスレポートは「時代遅れで不公平」と指摘
+
+香港特別行政区政府は火曜日、世界銀行グループが今年発表した試験的な「ビジネスレディ2025レポート」の評価方法が「時代遅れで不公平な」比較につながった可能性があると述べました。この報告書では、香港は100の経済圏の中で「業務効率」部門で上位20位にランクインし、「規制枠組み」と「公共サービス」部門では第2分位に位置付けられました。
+
+政府報道官は声明で、「国際貿易」「金融サービス」「紛争解決」に関連する分野で、香港が他の多くの国際機関から異なるランキングを受けていることを指摘しました。9月には、グローバル金融センター指数報告書で香港はニューヨークとロンドンに次ぐ世界第3位の金融ハブと評価されています。また、9月に国際経営開発研究所が発表した「世界人材ランキング2025」では、香港は第4位にランクインしました。
+
+政府の声明によると、「『業務効率』の柱を例にとると、香港の評価に使用されたデータの一部は2023年のパンデミック直後に収集されたものであり、他の経済圏の評価に使用されたデータの一部は2024年に収集されたものです」とのことです。報道官はまた、この報告書がまだ試験段階であり、評価方法に改善の余地がある可能性があるため、香港特別行政区政府は世界銀行グループと引き続き連絡を取り、「香港のビジネス環境と関連政策措置を十分に説明する」と述べました。政府はまた、フィードバックを提供し、報告書の作成を最適化するよう努めると付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1837982-20251230.htm
+
+### 洪水橋の土地プレミアム支払い柔軟化が開発業者を支援と開発局
+
+開発局は、洪水橋（ホンシュイキウ）パイロットエリアの落札者が土地プレミアムを柔軟に支払うことを許可することで、開発業者のキャッシュフロー圧力を緩和できると述べました。11ヘクタールの敷地（住宅用地3区画と「企業・テクノロジーパーク」用地3区画を含む）の入札は火曜日から始まり、6ヶ月間続きます。落札者は、入札発表から28日以内に土地プレミアムの25％を支払い、残りは3年以内に無利子で決済できます。
+
+開発局（計画・土地担当）のドリス・ホー常任秘書はRTHKで、政府がこの決定に至った経緯を説明しました。「金利は下降傾向にあるものの、最低水準と比較すると依然として高水準です。これは、私たちのパイロットサイト開発が巨大であるため、開発業者のキャッシュフローに圧力をかけています。投資額は100億香港ドルから200億香港ドルになると推定しています」と彼女は述べました。「このような開発は通常、ローンを通じて資金調達されます。土地プレミアムの面でキャッシュフローの問題を支援することは有益だと考えています。」
+
+彼女は続けて、新築物件のプレセールが約3年後に開始できるため、その頃には落札者が土地プレミアムを決済するための一定の資金を持っているだろうと述べました。政府が収益を受け取るまでに時間がかかるものの、これは政府が開発業者と開発および資金調達のリスクを分担する意思があることを示しているとホー氏は付け加えました。
+
+洪水橋に23ヘクタールの工業団地の開発と運営を担当する洪水橋工業団地有限公司の設立については、同社は透明性を持って運営されると述べました。「私たちは、同社が過去1年間の企業誘致と投資に関する活動、および財務情報を説明する年次報告書を作成することを期待しています。この報告書は立法会に提出され、公開されなければなりません。」彼女はまた、先進建設産業や漢方薬メーカーなどの一部企業が洪水橋への進出に関心を示していると付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1837972-20251230.htm
+
+### クリスマス休暇中、香港住民230万人以上が海外旅行へ、市内のビジネスは低迷
+
+先週のクリスマスと長期週末休暇中、香港住民による海外旅行が230万回以上記録され、市内の飲食業界は不振に陥りました。クリスマスイブの水曜日から日曜日までの期間に、香港から合計232万回の住民による旅行が記録されました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/29/over-2-3-million-outbound-trips-made-by-hong-kong-residents-over-christmas-long-weekend-as-city-sees-slow-business/
+
+### 配達員のための休憩所が開設
+
+労働組合が配達員のための専用休憩所を開設しました。土瓜湾（トクワワン）にある香港九龍工会連合会の職業訓練センター内に位置するこの施設は、約20台のバイクを駐車でき、エアコン、Wi-Fi、ボトル入り飲料水、トイレを提供しています。
+
+配達員たちはRTHKに対し、このラウンジがあれば駐車違反切符を心配することなく、適切な休憩を取れるようになると語りました。ニタさんは「10分か15分駐車できるので、トイレに行ったり、水を補給したり、何か買ったりできます。これは私たちにとって最高のものです」と述べました。屯門（トゥンムン）で主に注文を扱う別のフードデリバリー配達員ハッサンさんは、同様の施設が香港全域に開設されることを望んでいると述べました。「注文がない時や、集まりたい時に、このラウンジで過ごせます」と彼は言いました。
+
+組合の会長で立法会議員のラム・チュンシン氏は、ほとんどの配達員が活動する混雑した地域で手頃なスペースを見つけるのは非常に困難だと述べました。彼は政府と企業に対し、この取り組みをさらに進めるよう促しました。「住宅署、住宅団地、大企業、ショッピングモールが、配達員のための休憩所や駐車場を設置できるかどうか、もっと考えてくれることを願っています」とラム氏は述べました。このラウンジは無料で、午前9時から午後10時まで開いています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1837878-20251229.htm
+
+### クリスマス期間中の香港住民の海外旅行、昨年比11%増の273万回
+
+香港住民はクリスマス休暇期間中に273万回以上の海外旅行に出かけ、これは2024年の同時期と比較して約11％増加しました。しかし、他の専門家が指摘する飲食業界の低迷とは対照的に、業界リーダーは地元のナイトライフビジネスが活況を呈したと報告しています。入国管理局は月曜日、12月23日から28日までの間に273万人の出国が記録されたと発表しました。これは昨年の同時期の236万人と比較して増加しています。クリスマスの日とボクシングデーは木曜日と金曜日にあたっていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3338008/hongkongers-make-273-million-outbound-trips-over-christmas-11-last-year?utm_source=rss_feed
+
+### 香港財政長官、2026年の経済見通しに楽観的、今年の成長率を3.2%に上方修正
+
+香港のポール・チャン（Paul Chan Mo-po）財政長官は、2026年の香港経済見通しについて楽観的な見方を示し、今年の成長率が当初の予測を上回る3.2％に加速すると予測しました。この楽観的な見通しは、主に中国本土とアジアの成長予測、および金利引き下げに支えられていると述べました。しかし、彼の楽観論は、元財政長官のジョン・ツァン（John Tsang Chun-wah）氏や一部のエコノミストから疑問視されています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3337940/hong-kong-finance-chief-upbeat-about-2026-outlook-back-32-growth?utm_source=rss_feed
+
+### 183年の歴史を持つ「傘の王様」の家族経営店が閉店、香港住民が別れを告げる
+
+香港の古い地区にある狭い店に多くの住民が押し寄せ、数十年にわたり家族経営の傘修理店で傘を修理してきた「傘の王様」が引退するにあたり、別れを告げました。清朝時代の1842年に創業したサンライズカンパニーは、中国南部でヤウ家によって設立されました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/28/hongkongers-bid-farewell-to-king-of-umbrellas-as-183-year-old-family-business-comes-to-a-close/
+
+### 粤港澳大湾区の資産が中国のC-REIT市場拡大を牽引へ
+
+デロイト中国によると、今後2年間で商業用中国不動産投資信託（C-REIT）の第一波が発行される予定であり、粤港澳大湾区（グレーターベイエリア、GBA）の資産が強い需要を牽引する可能性が高いとのことです。デロイト中国の香港中国企業サービス担当副マネージングパートナーであるライアン・ウー氏は、「GBAの資産は応募超過になる可能性が高い」と述べました。彼は最近開催されたAPREA GBA会議で、商業用不動産を含むまでに拡大した急成長中のC-REIT市場について語りました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/china-business/article/3337867/greater-bay-area-assets-poised-lead-surge-chinas-expanding-c-reit-market?utm_source=rss_feed
+
+### HKFP 2025年ベスト記事：今年のトップ特集と人気記事
+
+HKFPは2025年に、反戦デモ参加者からLGBTQの平等への闘い、自らを再発明する地元企業からスポーツで栄光を掴むホームレスの香港人まで、あらゆる角度から香港の物語を報じました。ここでは、私たちのお気に入りの特集記事をいくつかご紹介します。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/25/best-of-hkfp-2025-our-top-features-and-most-popular-stories-of-the-year/
+
+### 政府、来年高リスク層向けB型肝炎スクリーニングを共同負担方式で開始、30万人対象
+
+政府は来年、高リスク層を対象としたB型肝炎スクリーニングを共同負担方式で開始する予定です。このプログラムには約30万人が対象となります。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE80Mk90YjI2QVdfUkVRclRfZGVrdXh2cGFCSG13a1lHT2ZSRjJ3V1RtQjdoWXFnY3Nob3lfVjF3YzJjczVBSkhTOXAwMjFNdjg4UDM0XzRsYzlrX2pBSWxIX2d4YnB1b21qTGlGNVZhZw?oc=5
+
+### 西環邨と馬頭圍邨の再開発・移転計画、来月区議会に諮問へ
+
+政府は西環邨（サイワンエステート）と馬頭圍邨（マータウワイエステート）の再開発および移転計画を提案しました。西環邨は2029年に全住民が近隣の嘉惠民道（カーワイマンロード）第1期公営住宅プロジェクトに移転する予定です。一方、1962年に入居が開始された約2.9ヘクタールの馬頭圍邨は、2段階で解体・移転が行われます。第1期では水仙楼（スイシンビル）、洋葵楼（ヤンクイビル）、および馬頭角道（マータウコックロード）政府合署が解体され、影響を受ける住民は2028年に土瓜湾道（トクワワンロード）の公営住宅プロジェクトや新美東邨（サンメイタンエステート）の一部ユニットに移転することが提案されています。第2期では芙蓉楼（フーヨンビル）、玫瑰楼（ムイグイビル）、夜合楼（イェハップビル）が解体され、新馬頭圍邨の第1期ユニットに移転しますが、具体的な時期は後日発表されます。馬頭圍邨は現在2,000戸以上のユニットがありますが、再開発後には約4,000戸に増加し、移転期間も14年から7年に短縮される見込みです。
+
+住宅委員会は、解体の影響を受ける住民に対し、移転費用の一部を補助する世帯移転手当を支給することを提案しています。また、資格のある単身者および2人世帯は、年齢に関わらず、公営住宅への入居の代わりに代替住宅手当を受け取ることを選択できます。住宅委員会は来月、両団地の解体・移転計画について中西区と九龍城区議会に諮問する予定です。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%94%BF%E5%BA%9C%E6%8F%90%E5%87%BA%E9%87%8D%E5%BB%BA%E8%A5%BF%E7%92%B0%E9%82%A8%E5%8F%8A%E9%A6%AC%E9%A0%AD%E5%9C%8D%E9%82%A8%E6%B8%85%E6%8B%86%E5%8F%8A%E9%81%B7%E7%BD%AE%E6%96%B9%E6%A1%88-%E4%B8%8B%E6%9C%88%E8%AB%AE%E8%A9%A2%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%92%8C%E4%B9%9D%E9%BE%8D%E5%9F%8E%E5%8D%80%E8%AD%B0%E6%9C%83-%E6%9E%97%E5%B0%8A%E8%B1%AA%E5%A0%B1%E9%81%93-120254483.html
+
+### 西環邨と馬頭圍邨の住民、再開発に様々な意見
+
+築約60年の西環邨（サイワンエステート）と馬頭圍邨（マータウワイエステート）の住民は、再開発について様々な意見を持っています。一部の住民は長年住み慣れた場所を離れることに寂しさを感じつつも、老朽化した施設を改善し、より良い居住環境を望んでいます。しかし、移転の手間を心配し、現状維持を望む声もあります。
+
+馬頭圍邨の住民である王さんは「何十年も住んでいるので、離れるのは寂しいですが、もし本当に引っ越さなければならないなら、適応するしかありません」と述べました。何さんは「鉄筋に問題があったり、コンクリートが剥がれたりする状況はありますが、解体しない方が良いと思います」と語りました。黄さんは「『隣の通り』に引っ越すだけでも大変なので、現状維持が良いです」と述べました。九龍城区議会議員の關浩洋（クワン・ホーヤン）氏は、「私たちは住宅委員会に対し、柔軟な対応を求め、外部に引っ越した住民が将来的にこの団地に戻れるようにすることを望んでいます」と述べました。
+
+2029年に解体される西環邨の住民は、以前から心の準備ができていたと述べています。ある西環邨の住民は「（再開発は）何十年も前から言われていたことで、選択肢はありません。好き嫌いに関わらず、全員が引っ越さなければなりません」と語りました。別の住民は「寂しくはありません。ここはもう古いので、新しい環境は新しい始まりです」と述べました。西環邨は中西区で唯一の住宅委員会が管理する団地で、山腹に位置し、数十年にわたりこの地域の発展を見守ってきました。今回の西環邨と馬頭圍邨の再開発は、彩虹邨（チョイホンエステート）と華富邨（ワーフエステート）の再開発計画とほぼ同時に進行します。住宅委員会委員でもある立法会議員の梁文廣（リョン・マンクォン）氏は、当局には十分な人員がいると信じています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E8%A5%BF%E7%92%B0%E9%82%A8%E5%8F%8A%E9%A6%AC%E9%A0%AD%E5%9C%8D%E9%82%A8%E5%B1%85%E6%B0%91%E5%B0%8D%E6%B8%85%E6%8B%86%E9%87%8D%E5%BB%BA%E5%90%84%E6%9C%89%E7%9C%8B%E6%B3%95-%E6%A2%AF%E6%96%87%E5%BB%A3%E6%8C%87%E6%95%B4%E6%A2%9D%E9%82%A8%E6%90%AC%E6%9C%89%E5%8A%A9%E5%B1%85%E6%B0%91%E9%81%A9%E6%87%89-%E5%AE%B9%E8%A3%95%E7%A4%BD%E5%A0%B1%E9%81%93-111054464.html
+
+### イギリスから香港に戻った男性、香港生活の「最悪な点」を列挙し不満を表明
+
+イギリスに移住した香港人男性が香港に戻り、香港での生活の8つの「最悪な点」を挙げ、「想像していたほど良くない」と不満を述べました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMijgNBVV95cUxPeVpNU3RIOW8yRkFpVTRHdW9UOW1wYVl1RGtGR2hEMGVUZ0ZLaUhacjJjZmZEdUVhVDJQaTVrc1VGNzZoWHR4WXR0NG9ralFJOTVOU1VzY1VuTWs1S0s0SGFnTVdEXzE1dXlYelJjVi1ieVpfbFVUR1Z3VDNDcGtiRnRRN3lYald0TTJGaFd4YlEwYkJNTzZiRXdDazVLNVRqbkEtUndFNWlLYVpiR1M4T0UtM3Y2bi0zck9fWHVqX0N6cExRMlQtTURWNHJHeVNJT3JPTVpoUnFLUnQyZnA4NE1BdGp6cjNid2ZRZ0ZOQ25GRXBnWlNha1ZrWEZzSXdXdWNLemxqN1hzbEg2RjdKTXFFMGFRYVlobEY1Wm9ZSmZJaEpQbHJ5M2pkQW5IcVN0MXY2TWVxYUhhaEh4TC1yMDZ4QVludU9IYnJsYjNQWXJOY0oyWkRqMVdWNHFLT0pzZjllLXg5NjZ0MWp0SlFxbFpLa3lYRmthcWo1T0dFeEFDRkRXUmsyVjNrbGhyZw?oc=5
+
+### 香港の債券市場と人民元建て債券発行、2026年に拡大へ
+
+業界関係者によると、香港の債券市場と人民元建て債券の発行は、地政学的緊張の中での非米ドル資産への需要の高まりと、香港の資本市場を強化するための政府の取り組みにより、2026年に拡大すると予想されています。香港金融管理局（HKMA）と証券先物委員会（SFC）は、地元の債券市場を促進する取り組みの一環として、9月に人民元関連商品を拡大し、投資家層を広げるためのロードマップを発表しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3337865/hong-kong-bond-markets-yuan-issuance-expand-2026-under-hkma-sfc-road-map?utm_source=rss_feed
+
+### 係争中のミャンマー選挙、中国が信任票を投じる
+
+ミャンマーの軍事政権が実施する選挙は、海外では非難され、国内では敬遠されていますが、隣国である中国は、この孤立した選挙を熱心に支持する姿勢を示しています。国際監視団は、日曜日に始まるこの選挙を、2021年のクーデター以来のミャンマーの軍事支配を再ブランド化するための茶番劇と一蹴しており、このクーデターは内戦を引き起こしました。しかし、北京の仲介により、画期的な…
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/27/disputed-myanmar-elections-win-chinas-vote-of-confidence/
+
+### 観塘・楽華南邨で殺人事件、35歳女性の遺体発見、警察が非華人男性を追跡
+
+観塘（クントン）の楽華南邨（ロックワーサウスエステート）で殺人事件が発生しました。警察によると、行方不明者捜査中に、35歳の女性の遺体がベッドの下に隠されているのが発見され、彼女の恋人によって殺害された疑いがあります。警察は現在、香港IDカードを所持する非華人男性を追跡しています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%A8%82%E8%8F%AF%E5%8D%97%E9%82%A8%E8%AC%80%E6%AE%BA%E6%A1%88%EF%BD%9C35-%E6%AD%B2%E5%A5%B3%E9%99%B3%E5%B1%8D%E5%BA%8A%E6%9E%B6%E4%B8%8B%E7%96%91%E9%81%AD%E7%94%B7%E5%8F%8B%E6%AE%BA%E5%AE%B3-%E8%AD%A6%E8%BF%BD%E7%B7%9D%E9%9D%9E%E8%8F%AF%E8%A3%94%E7%94%B7%E5%AD%90%EF%BD%9Cyahoo-162345116.html
+
+### 香港警察、行方不明の35歳女性の遺体発見後、男を捜索
+
+香港警察は、行方不明になっていた35歳の女性の遺体が、観塘（クントン）の彼のフラットのベッドの下から発見された事件に関連して、男を捜索しています。このフラットからは、4匹のペットの死骸も発見されました。警察によると、月曜日の夜、女性の母親から、娘が秀茂坪（サウマウピン）の自宅を出てから帰宅していないとの通報がありました。女性が以前に自殺を試みたことがあるため、警察官は事件を…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3338205/hong-kong-police-hunt-man-after-missing-woman-35-found-dead?utm_source=rss_feed
+
+### 香港の全小売銀行、詐欺対策サービス「マネーセーフ」を導入
+
+香港のバーチャル銀行を含む全28の小売銀行は、水曜日から詐欺対策サービスを提供開始します。このサービスでは、現金を引き出す際に追加の認証が必要となります。試験運用中には3,200人がこのサービスを利用し、16億香港ドル（約2億600万米ドル）が預け入れられました。香港金融管理局（HKMA）の阮國恒（アーサー・ユエン・クォックハン）副総裁は火曜日、今年初めの試験運用期間中に「マネーセーフ」サービスを利用した3,200人の顧客のうち、約20％が60歳以上であったと述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3338200/all-hong-kong-retail-banks-offer-anti-scam-service-locking-cash-accounts?utm_source=rss_feed
+
+### 政府、ボトル入り飲料水調達スキャンダル調査結果を来月発表へ
+
+政府機関向けボトル入り飲料水調達スキャンダルに関する調査結果が「来月発表される見込み」であると、当局が火曜日に発表しました。この事件を調査するためにタスクフォースを設置した財経事務及庫務局は、既存の政府調達制度の見直しと懲戒調査の両方が完了したと述べました。「政府は調査報告書を検討しており、適切な懲戒処分を決定するために律政司に諮問しています」と局の声明は述べています。「関連する結果はできるだけ早く発表され、来月には準備が整う予定です。その後、タスクフォースの報告書とともに結果が発表され、事件は終結します。」
+
+局はまた、事件の中心となった政府物流署が、香港島と一部の離島の政府機関にボトル入り飲料水を供給する契約の公開入札を開始するにあたり、10月に発行された新しいガイドラインに従ったと述べました。「この入札手続きでは、入札書類の作成、入札評価、契約管理など、様々な段階で関連要件が強化され、調達担当者が詐欺行為をより効果的に防ぎ、契約条件に従ってボトル入り飲料水の安定供給を確保できるサプライヤーを選定できるよう支援します」と声明は述べています。この事件は8月に明るみに出ました。政府機関にボトル入り飲料水を供給する5,200万香港ドルの契約を獲得したXin Ding Xin社が、中国本土からの水の調達方法について虚偽の申告をしたと告発されたのです。同社の取締役は、水の契約を獲得するために虚偽の書類を提出したとして詐欺罪で起訴されています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1838053-20251230.htm
+
+### Meta、中国発シンガポール拠点のAIエージェント企業Manusを買収
+
+Facebookの親会社であるMetaは、中国で設立され現在はシンガポールに拠点を置くAIエージェント企業Manusを買収することに合意したと、両社が発表しました。しかし、アナリストは、ワシントンと北京の間で激しい技術競争が繰り広げられている時期に、この取引が規制当局の目に留まる可能性があると警告しました。AIチャットボットの能力を超える…
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/30/meta-buys-china-founded-singapore-based-ai-agent-manus/
+
+### 香港、ボトル入り飲料水調査結果を発表し懲戒処分へ
+
+香港当局は、香港を揺るがしたボトル入り飲料水スキャンダルに関する調査結果を来月発表し、調査が完了したことを確認した後、関係する職員に対して懲戒処分を行う予定です。8月に発覚したスキャンダルを調査するためにタスクフォースを設置した財経事務及庫務局は火曜日、政府の調達システムの見直しと関連する懲戒調査の両方が完了したと述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3338190/hong-kong-set-unveil-results-disciplinary-action-after-bottled-water-probe?utm_source=rss_feed
+
+### 新鴻基地産、シエラ・シーの最新販売分を約5%値上げ
+
+香港最大のデベロッパーである新鴻基地産（SHKP）は、西貢（サイクン）のサイシャ湾（サイシャワン）にある大規模住宅プロジェクト「シエラ・シー」の最新販売分の価格を、以前のフェーズよりも約5％引き上げました。これは、香港の住宅市場における歓迎すべき改善を示唆しています。火曜日に公開された販売資料によると、開発のフェーズ2Aの148ユニットは、343万香港ドル（約44万961米ドル）から価格設定され、平均割引価格は1平方フィートあたり10,968香港ドルでした。
+
+**引用元**: SCMP
+
+https://www.scmp.com/property/article/3338162/hong-kong-developer-shkp-nudges-prices-latest-sierra-sea-flats-offer?utm_source=rss_feed
+
+### LGBTQ活動家ジミー・シャム氏、同性婚の権利法案の再導入を要求
+
+LGBTQ活動家のジミー・シャム（Jimmy Sham）氏は、議員が否決された法案に代わる「契約パートナー」制度を提案した後、1月に就任する新しい立法会議員（LegCo）が海外で登録された同性パートナーシップの承認を推進することを望むと述べました。シャム氏の火曜日の商業ラジオ番組での発言は、牧師で…
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/30/lgbtq-activist-jimmy-sham-urges-return-of-same-sex-rights-bill-after-lawmaker-floats-contractual-partner-plan/
+
+### 運転免許証免試験申請の「並び屋」問題が深刻化、運輸署の整理券は午前中に完売
+
+運転免許証の免試験申請における「並び屋」による整理券の買い占め・転売の混乱が深刻化しています。運輸署が午前中に整理券を配布すると、その日の分がすべてなくなってしまう状況です。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxQcFVPU010YnRqSXA1OXV3amppMHIyTkg4cVRuSmx6WkhuQWoyMlRqOEF0NGViM19RMFM2cjBTWDFjSjlBX1NVZkpvcWlsekhGTDRVOUFwNFNfTkRoTGFHYXowdW90R05YcTNSbk5XOHVBTm5icjNkZDJJMksxWkJ0SG5SbnZGUDEzcmxBbDlRMTM2SjdqcXY3UWh3aGstQm84Rl9MaFRHUUpBLTl5Zi1aY0YtbndZWWFvVEo1cUNXRTVRUms2RVNYQ29HNS1zZjA1emxqTjdBTFYtZEp3ZmZOWl9OY19Fd080ejh6U2thZTBNc0RfN0wwQXFHaktKZ1otS0JwZ0QxLTdtanBlZk9vWnF2TF9jWHZoNUxCT2haYnRZQWZrRXlKQVpPQTd3T2pXYWZxT1NHLXBIOHZ3WjV5ZHdqd2xiTjNvMmlKR01EVTRjU3gyeEtqTlJGcUk0RHN2OGZzcG1QV2NNc2VCVm4xMWFxalozT0lfNE5fS2ZDLWxpMHBieGtGM0p5RVphc3lZRmcyQ2JONnFVSU10WW9SVHo0MVBfMlFlaWNaU0dqWWtpMW9YSVNUTDQ1YWY0R1lJMEM4THJIRjU?oc=5
+
+### 香港の民間補助住宅計画に新たな打撃、東涌の敷地が再割り当て
+
+香港の民間補助住宅計画が新たな打撃を受けました。民間開発業者に補助住宅の建設を許可する試験計画のために当初確保されていた住宅用地が、香港で2番目に大きな公営住宅供給機関である香港住宅協会に割り当てられることになりました。これは、手頃な価格の住宅供給を増やすことを目的としたこの取り組みにとって、最新の挫折となります。政府は火曜日、東涌（トンチョン）の敷地が、当初「民間補助販売住宅試験計画」のために指定されていたが、香港住宅協会に引き渡されると発表しました。この発表は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3338151/hong-kong-private-subsidised-flat-scheme-suffers-new-blow-tung-chung-site-reassigned?utm_source=rss_feed
+
+### 娘の驚くべき髪の量に悩む母親、証明写真問題を解決
+
+足の長い母親が、娘の驚くべき髪の量に悩んでいます。髪が逆立って証明写真が不合格になるという問題を、ある方法で解決しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMixwNBVV95cUxQWUdHdjJZcll1eWswRnZsRWRNeENUN3Zpd2pGMC1xUF9uOFhXMkpKRG9MS2VlRWhoUXBQM2ZFeXBMYXFheFNOLXlrZ2RsUERSd21JYi1ib21hczk5V29QMl9qRThacnNpQ0hVWGM3RjhOVlFvbTFtMlJheFpxM09wRkxzWTY5YXhXckZjUkI1WlVTaDlXUndxbk9KYklDdzhXN3VYUWh6SGdnek8ydE9sSXJiQmV0YWg4SE1VbUtTSWtkTkJZdTJvUE53eXUxOE9NZWl6alhIelN4OUpIUVhQOE1aelQzVEJVdjZLWFViVHdfbDBLUkxHcFlISTlqc2tKc3d6OUVvSjZQTWhaMWw0UDNDekFtalZkc3J2dUFWTkh0eVEwWFZGWl84dy1nM2p5clhuSU5FeDlscUVTaFFCLTVzblY5d1FkbTE1eWU1ZUI3d2VmVHFxMkM2UzNzYnlQZ2k2X2VzcmJwZ0ZBTi04UGdyT3FWd0ZHUEtPQURVdEpyaTdCWG9KZ1BSMElOTjZnRW1QRXVhd3hoeUQ2bUdtN2otTUZiUE5naTB0eHVpTHk5Xy1qZjVZS2tWS1d1QlMtRlp2RWxZSQ?oc=5
+
+### 中国本土からの観光客の新しいファッションに香港人が困惑
+
+中国本土からの観光客の間で新しいファッションが流行しているのでしょうか？香港人が、あるものを着て街を歩く観光客を目撃し、「本当に理解できない」と嘆きました。ネットユーザーからは「観音頭掃把脚」（頭は観音様のように美しくても、足はほうきのように汚いという意味で、見た目のバランスが悪いことを指す俗語）といったコメントが寄せられています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi8wNBVV95cUxPSWxfQlNuc0gwTFgtQUQzbkJVck14M1JYcEt4TzBhN09GQjljbzNqU0NEY3FIb1dOQl_1UFJ2X0RrblNiWkJxWXRnMUszQk5PbVZtN29lZXVGQlNqbno1bVdGMTgxU1FWTkRfdl9hTFdiZlptWU9ueThHTFI5bUdmS2UxX1ZOUklNZGRuZGo1ME43dS1ucmJuZW5ET1o0MG5OMm5xYkhxYy1wb1AtUkltLXRLOUpEWG1LXzhXUDFXNXBvRFJFOERsUjZGY2hhX05BYVZzbnA4YlllVDhHUng0bTRTLXhnaE9TaWhWcUlHam1VZDZraGI2X25IN1M1T21sdnpnSWR6QUFFelo1Y2EtWVoteTFTSzZjVUx4QUNFTVRqVnItb21qYWpEZDROQV9takZ4cndSUlpLUFF2cGlfR0pDbXQ4VWpjQVhyMTFLNlpYaUNkTHMxUWpya3JjbEZITDZua05nUkNTUTlzVm0tcEdBTnpRSnlXVVE0VjY2TEh0UFpyWEpHVlhaUWNGM1IyMDE1S2Jtb2tvQVpBRnczWFcycGIxTjhIVFFSaVJPZG9mbllva2JldE9yR3hkQ0hpY1Q2eERLZnI4UElHNkJEczNDLU81Wi1jMnB4MTRDSnFQZ2lwRnJsRWNTcExWMjJjV3Fn?oc=5
+
+### 政府の偽造水スキャンダル、懲戒調査完了、律政司の意見を求め処分決定へ
+
+政府の偽造水スキャンダルについて、財経事務及庫務局は、懲戒調査が完了し、律政司の意見を求めて懲戒処分を決定すると発表しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi9gNBVV95cUxPTVhyeFFfdjJOM0IwdUswSlZlYnFaM1dvWlVOQjJ5dGhMb1pubG9NclRsMXRENGxyZnVHWDRxbGdWaFI2ZkNTRVlEekMyS0NLTm16dkU4NHg3ZmROb2ZhSWZqMWNJUmd3NFNyb1I2YmYxR1lOMzdrUXo2NjA1X3NFZXVCZ1gzbzhiVXd4QWhncGUzYUpON2s5VXZjVXlIQWNMQ3c5TWY5Mlc4NU5LSmExblRMdWtQTVFYNWN6UjZSWDRHMUZYcDJYRDhnVmJadGtQbE9ZOEFOYWd4RHdDVjkwZzFsZHdQM281Z3czcUo3eWNENUZqUXQwcF91bVZUTjN1a2RNaGhpSkRUdGJHYzRHbW5jVm9EbUdBd2VFamp3OWEzdVdaendETGhxZ3BDWVM4b1laWk12b2EwVHYwZG5qS3pkOS1ua3Zwbm5tTkNUSFRnVC1zVlpCZkZpLWdnTXA1blptTnRiNGVXTDI1ZTVabkxwbUNiMjFaa0xyRmZWMGZ3SEtqWGZGRWlkY08tczZkQ1k4bGkxVlA4QlVkckFMQjAxQjFGSDZBa3Frb2c5clJxOHVHRUQzZWZOMk42S2tQSmVxeDN4UFpYcWR0bEFoenVacGV0X3pwaVc2YUFYWWlTaXBhcmtIR2ZOXzcwTHFNbnhhTkl3?oc=5
+
+### 新年大晦日の特別交通・運輸手配
+
+新年大晦日（12月31日）の特別交通・運輸手配について、関連する祝賀イベントに合わせて以下の通り実施されます。
+
+**道路閉鎖:**
+中環（セントラル）一帯では、同日午後2時から段階的に道路閉鎖と迂回措置が実施されます。関連する区間の公共ミニバス停留所、タクシー乗り場、路側駐車スペースは一時的に使用停止となります。警察は実際の状況に応じて、中環一帯の道路閉鎖範囲をさらに拡大する可能性があります。公共の秩序と安全を維持するため、警察は尖沙咀（チムサーチョイ）地区で、道路閉鎖、交通迂回、公共交通サービスの変更または一時停止、および関連する停留所の調整を含む一時的な交通・運輸措置を短時間で実施する場合があります。
+
+**公共運輸サービスの調整:**
+*   実際の道路閉鎖手配に応じて、影響を受ける地域を通過するバスおよび専用ミニバス路線は、一時的に迂回、サービス停止、または停留所が調整されます。
+*   MTRサービスは同日、以下の強化された手配が実施されます。MTR路線（空港快線を除く）は12月31日午後3時から段階的に運行頻度を増やし、その他の時間帯も乗客の需要に応じてサービスを強化します。港島線、荃灣線、観塘線、将軍澳線（北角から宝琳区間および調景嶺から康城区間）、南港島線、東涌線、東鉄線（金鐘から上水区間）、屯馬線、およびライトレール線505、507、610、614P、615P、706、751号は終夜運行します。東鉄線の羅湖行き最終列車は元旦午前0時56分に金鐘（アドミラルティ）を出発し、金鐘行き最終列車は午前2時30分に羅湖を出発します。空港快線、ディズニーランド線、MTRバスは…
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%96%B0%E5%B9%B4%E9%99%A4%E5%A4%95%E7%89%B9%E5%88%A5%E4%BA%A4%E9%80%9A%E5%8F%8A%E9%81%8B%E8%BC%B8%E5%AE%89%E6%8E%92-%E6%96%87%E7%9D%87%E6%99%92-133454637.html
+
+### 立法会議員、明後日宣誓に先立ち非公開リハーサル実施
+
+立法会議員は明後日宣誓を行います。今朝、非公開でリハーサルが行われ、江旻憓（ヴィヴィアン・コン）氏が笑顔で手を振りながら会場入りしました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMijANBVV95cUxQVWVTWWU3dGFGblgzU1ZCajVSU0JkV0NVb1dTc1JaTnRTMmFBYXppVFVCUGIwQk5PTG1vWmJ0eGRsc2xWWGVOLWhtclRuNmJRU2xtSWVnM2JKNkFBUWVMM1NrbGtsOHd1ajZ2VWg0c0ZUb29HR1lmZFB3SG1iTjJud0VDdWR3QVhBVjByUzZWWU51NzBTOTJZS0VtWFJ5OFFyQko4bmtPZG13RXhoUENzejBpTFN2YzBld1ZuUUtxZ2xxWU84WEpnMnNDaVFla3FiVmV5UmxINHdFUFotX3R2aThQcFpwSkxjMF9tVVgwbUcxRG9EWE9WV2xJcnZjZHQtYXZka2d6M3AyQWE5WG92bzJUVE4wSjlsUTNFdVFXQVV2VWxxTWo1NDFLSWJCaGNxeTBPUm5wZkl0M0lsWGFfSzVZbmJJUm1DeWlzaEhhZlNCc0tZRjdFZzFybHZfejZNV1lUNDhfeEdUUnYtWlpxQWpUREU5SEFVMzdXeU1zU0d1bGZyXzdBajY5YTk?oc=5
+
+### 大埔の火鍋店で女性客が騒ぎ、警察に制圧され逮捕
+
+大埔（タイポー）の火鍋店で、女性客が料理の質に不満を抱き、食器を投げつけ騒ぎを起こしたため、警察に催涙スプレーで制圧され、暴行など3つの罪で逮捕されました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMikARBVV95cUxQajlSb0ZWSVI3WFo4Nzg1UE9QeS0zOWMwTWhRYlNZTlVza1IwMTQ1cWJGZW9GVnJTVndybmlOODR4YVR3TlJ6T0xyWjFncjRDOXlHS0dQMUY3ZWMxcVBfMGZtX2JGU0RFOHVid0ZLQUw2MXV6TDFraG5nTUdEUTA0REhzRjF6M3NiZzFxMXlfdkdHWmtvY2VPUndZY05DM0lhUFpDanNyT2dVa0lIWWpoeXBPSGtLX0tDQ2Nsb1htZ0dTYy1pOHNXRFN4QmUxYVhyMUtpYjdHUXNCTmxkWEhDS0xHMXA1TzdlWXQ3djJkX29NaldKMENIaG9iX3hmNEs1M1dhVk5JQTg2TkdiWXd6cTJwcy1jZmhETXBSWDhaUUJjbm45QzRYSk9JSFZEelhJVm5hVVlMRFFON2xnR1FleFN1UkRJV0p6b0p6Z3QyQUxRWGhlMWlxTjdIcnZqX1VBcHlDaXFBdldPTklRTFpxQV9Yem4yRHZRY3JhRTdWeTZUVGlsWWdrQVF3QTlYZ1BQOGd2Um9iUUx6VHpKNXc2MVB0UVNENGowU0pVT0ZacjdYR2l0eDVoaVVoU2R1V3hxZGxSS0tpSkNaWjlfbXZsQXlsWXdvc3ZQWld3Y25CQU8zSHlFSlhtY29EOTRaSUxKa3c1Y0FnMkpRQks0SGxkR3NEXzNHcEM1TkpESUhpOEc?oc=5
+
+### 尖沙咀ザ・ミラ香港Yammビュッフェ、1人分の料金で2人利用可能キャンペーン
+
+尖沙咀（チムサーチョイ）のザ・ミラ香港（美麗華酒店）にあるレストラン「Yamm」のビュッフェで、1人分の料金で2人利用できるキャンペーンが実施されます！293香港ドルから、北京ダック、タラバガニの足、ウニ刺身などが食べ放題です。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMiwwNBVV95cUxNTHVPWlVYeGlrcUx5Vl9iS1VGbXFrNU9lRzJUV1ZtVE1VNzQ4Vm1WdlpiUGRKSnZvVHljdEVXUF9qVmV3bThUTkJnc0hPSVVBUjhsRWctWTdYZVNVR21XQXY2QnFkVXI0NGltdnFDRlpCSGlLOXFTVGRlamtNLXVqbFFRd1NlQnFsTzJKNFhDVU1TbUJRX3R6MnVDZ3lGTm9GSDVxcmlfZW55Z01qN09UMkUwdWM4c2t0cWp1cUI2UllUY00yNlZEeWFaVFdfWmliUUZYNjl2cWRub2lKR2JOYVRPU0dGVGpnQXV5MXVGbTB6NXlxdDN2TUh1Q2YtWW9TYlE3RGd1TEQzOGtUY3NRRHJDMGNGbmN3RnpBUC1WR0dqYjI1dURad0Z5RHU2d2JRamdTUFJRQ29MQmpTenJZRUREeTZfeVV1STAwU3VudDk0YUVwUU9Yc2IyRVViR0xQRl9CRHdtMkpzaWFWcGh0Y2htYldvOWNWZW1OVkFqM04wZEJ5T18yZTRRdWM5dnYyYl9GUm5yWmZIN1hxMDc2bTh6QUszTHl2ZWJmR3BNQ014WEozeXpwWkcxWGFfOVdMdE5v?oc=5
+
+### 周深のカイタック年越しコンサート、チケット即完売、ファンが陸海で応援
+
+歌手の周深（ジョウ・シェン）が初めてカイタック（啓徳）で年越しコンサートを開催し、チケットは即完売しました。ファンは陸海で応援態勢を整え、市内には多くの撮影スポットが点在しています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMirwNBVV95cUxQOFdvQ1c1MHJwTnZWRllZQ1dKWDg0OXM5cVFpbVl0NEptaTFuVWZzUXluU3NSTlFnTF9VenlSYTluVW9hbU92XzlfdnJrQlFaZnJ0WEVwNVZqMWQ0UFpoa1V5S0g4WkJyUVppeUc1cVpTVnh5OXlEcDFuOElDRWxkRldiN3pFU3ZUSjRreThyeGpseV91OEdLRWhMQ3pnQWEzeFNwcFFzaU1lYkhzSFhCN2FDd1BaWHJLaGJzeWF1djJjcEFLQ2U2ZWVFU183UHJRUVdWSERpc2dRVzhZSUYtWU9vQ014V1lHZGRSdW55NmQ1czkySU5oeU80S1lhWmNkRUpENDRxVGZzdWhJd0p1dkdrNFRYck44M1Y0X1NWVldHR2dpemV2VnFibmY4Q3hjODVvSm1xdWhwRzBObkp1ejVLeldVTzVXcHkwQjUybHhBUlVCN295bElicTlVY001OFZTaEwtM2NuamQySnlTMXNYeGJ3TG5Jb2JmWjBzNk9kb3k0RURWZlRzUEpmTjNydXEyUlBGS2VoME1iT2dBMThZeFdsWHU2YjVvS1R2WQ?oc=5
+
+### 観塘のフラットで女性の遺体発見、警察が恋人を捜索
+
+警察は、火曜日の朝、観塘（クントン）の公営住宅団地で遺体で発見された35歳の女性の恋人を捜索しています。警察によると、月曜日の夜遅く、女性の家族から行方不明届が提出され、女性が同日未明に秀茂坪（サウマウピン）の自宅を出てから帰宅していないと伝えられました。警察官は、女性が楽華南邨（ロックワーサウスエステート）の喜華楼（ヘイワーハウス）にあるフラットに行ったとみています。そのユニットを捜索したところ、ベッドフレームの下から頭と体に複数の傷を負った女性の遺体を発見しました。初期捜査では、硬い物体で暴行されたとみられています。また、ユニット内からは3匹の犬と1匹の猫の死骸も発見されました。警察によると、恋人は非華人であり、香港IDカードを所持しています。この事件は殺人事件として分類されています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1838073-20251231.htm
+
+### 香港の住宅価格、11月に16ヶ月ぶりの高水準に上昇、家賃は過去最高を記録
+
+香港の住宅価格は11月に16ヶ月ぶりの高水準に上昇し、家賃も同期間に過去最高を記録しました。評価署が月曜日に発表したデータによると、香港の公式住宅価格指数は6ヶ月連続で上昇し、先月は297.3を記録しました。これは10月に記録された指数と比較して約0.9％高く、1年前の同時期と比較して約2％高くなっています。最初の11ヶ月間を合わせると、住宅価格は約2.8％上昇しました。今回の6ヶ月連続の価格上昇は、4年以上で最長を記録しましたが、現在の価格水準は、2021年10月に記録された過去最高の398.1と比較すると、依然として約25％低い水準です。
+
+カテゴリー別に見ると、中小規模ユニットの価格は11月に前月比0.95％と大きな伸びを見せた一方、大型ユニット（1,076平方フィート以上）の価格上昇は0.4％と小幅でした。一方、公式家賃指数は11月に12ヶ月連続で上昇し、200.7を記録し、過去最高を更新しました。この数字は前月比で約0.2％、前年比で約4.6％高くなっています。1月から11月までの家賃上昇率は約4.3％でした。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1837830-20251229.htm
+
+### 美孚新邨のユニットで火災、消防が迅速に鎮火し50人以上が避難
+
+美孚新邨（メイフーサンチュン）のユニットで煙が出て火災が発生しました。消防隊が迅速に鎮火し、少なくとも50人が避難を余儀なくされました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi6wJBVV95cUxNVjF0enlTRXVfcVBOQ05ZRVZPRDkxYlE5Mno5a2JxM3ZlNHhoQ01xU2FGMngyU0t3ZnViZzVncjhacXFNTjdtX3NFczdWM0M2X05tb19FVG9hdlBIZ3h0V0UwRm1SeW1NZEt2cEhJNXduUl9vMUlmZzV2UWx2VjA0aFdsdjl6ZlFPSzJkb1A3QVI3bklMWE15V3BSTUQwNUZHdEtkLTg2WlZzSGNEUmpIMW80VFhfZ25LT3ZfdGpEUWVNcUltRWtjTTIwcnB1N2FBejhzdTVuT3R6b196b3lCcHl1WjV3akxvajhEZjhKMGd2YjYxSHQ3ZThMWWUwbzRIRWZOYWlrQWxyc1l2N29fekF4SXl3Y1p3MGNMS2luc2Z4eE9DVi1GWFBVaTdYM3A3ekdTVFRoYThGUXdFcnJjZWRsSFVCV2NROEttaGhEYVJxYlpwZDJKRHFNX0tIQTZWMzViLTJ4eHEtRlU?oc=5
+
+### 旺角で偽造大学学生証を所持していた兄弟、執行猶予付き判決と罰金2,000香港ドル
+
+旺角（モンコック）で35枚の偽造大学学生証を所持していた兄弟が罪を認め、執行猶予付き判決と罰金2,000香港ドルを言い渡されました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi8AJBVV95cUxPQld6MVExSS1XcVFYVVlTRVgySnZ3S2piNG9IQ2xsZDd3MXQwSkVaNm1GYW9icHBmN1RSX3BEbDd5Tm9RcjlHNnhzZnhjRElBM1VWcmY2UGVqeE5PSFFtVG1wTUhaZERDbVN3UjliZjl0R20wQ3I5OGxEUDRFWFhQQXVCUVlrOWpFYkw3YnM3dTRjRFJ0eFVDRkp3TGtGaUZ3UFYyY0Z0VEg5MXlySG9uNXpuOGpacGVSNlVWeWFNZnJBdmdHZUhvTDVNWVIzNGJ5VG5vR3BTTHg3aTdWcjdSajJTTWllS01qOUphSW9Fdk9SNWI2RG01a3dqN0hLdFZYWGlaSWlpR3JlalIzSjF3QVBYTWhHYnNabUgtMzNiQmpzN0NDMWNjV096UkE5dm5wU0lrazBuWlh5UmRrUG4wNjNvMFQ0X253cHU1eEdONmh3Qm9FbHhLX081a0UxdjcycWdWRGdEOWFVQmpscnQ1bw?oc=5
+
+### 将軍澳・彩明苑の管理組合から6,000万香港ドル以上横領、不動産管理人に懲役18年
+
+将軍澳（チョンクワンオー）の彩明苑（チョイミンコート）の管理組合から6,000万香港ドル以上が横領された事件で、不動産管理人が罪を認め、懲役18年の判決を受けました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi_AJBVV95cUxPelliRV9nemt6V2VyOVdnMjRHUDdWUmE1ZTJ3akMxZUphXzhENmZGTUFJVGxJSlJJYjQyVVgwdUhwTEFIYk5YZGt2VDdRMmF5eWk3ZUpCeXVFODM5dElMcGpIM1hlemlvTGV5MHRTQ2drY2RYWEN5TXU1QVE2WTVvcWlUUENCd21JUGJJQUVMTV9vLUhWZjZaM3BYYldJeUcyX2VEVjRQLWIzUC0ySVh2SFNlQlJIM2JnZnpsZzV4aEZjaFdtc1dZNldlNGpraFBWazVwdXRqRU5yc2g4RU44ekFwSUtvSDFXUmk0aHRwRkVOQUdwamlVUmUwMkxSMnpUV0daTHhEM2FFczZnRGdyNzFmRWFfTzMxVWRocEx1M0NhZUZzX2hkSnkzVEU1alBmMGR0S25UZm1zdFQwaGtkdThpNlJ1d2dUMFpNeUQ3Y2JYVklFbFpTbXJkeVJYTjBQd1BzeFkzWmZCSnNOT201aVpmRE5MY0RyaGpwVg?oc=5
+
+### 社会企業「銀杏館」湾仔店、1人鍋を新発売、高齢者割引も
+
+社会企業「銀杏館（ギンホンクン）」の湾仔（ワンチャイ）店が、新たに1人鍋の提供を開始しました！野菜食べ放題、ロブスター、牛ショートリブ、豚肉鍋が68香港ドルから楽しめます。高齢者割引を利用すると、さらに12%オフになります。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi5gNBVV95cUxPejQ5S3lWOGZ0OEVJNlNmM2Y5cHNDeFUwNHFfOHBpZWtqdWQtSmNlcnNPdmMzN0NjTmJJTm9UWVNjTjc5NmNQeklSbXpzSVNZUFE3UlBIVVM1Y3hiSEFTZE9EY3hRVVpxV3pvNmg5NDZjZFZuOVZCNmdVT3lXbC1YTGFCc1ByUlpnNmlEcVNsRGFDVkZza2dmTVNxQkZWUEZDWm5YQ2J6a0ZEcTVWamVXUUFCY0VoWlFkNVJzM1Z0MlRJc1RxcnVRMGNwbm54NEU0TTRndUtrNnQ4dGFJQmtPMjB4TklMOHBUX2gzdzN2WDc3VWg1MFhYU0F1Q3dlcWJpdnhGZ0RnWm1aR1FzT1JmVk8yVkY3Zi0xZ2FpdmpBZ0MwbnVLOENtU1Z0Ny1temw2ODMtUjJhZndYdkU1bHpXemdKdUZkT2RpRGtHMzUtbHVIM0U2WVlzZE5KVDFsYmt2WHFxYkw0WklMdlBYQ095aVVnVGp4Q2ViaXlGVmNzZ0gzcGJJNWNJakw1b1luZTBCWjZUVHBWYm1FaGRNNlF4X1BITGtWQkw3UXdlYndqbTZFUXpsb0NGaV9mMV9YMUw4RTVRNGZZUGRnUzc4R2V6ZkEwMzlHYUF2YjZlLUFWTWxSbklvRlE?oc=5
+
+### 慈雲山で73歳男性がバルコニーから転落死か
+
+慈雲山（ツィーワンシャン）のユニットのバルコニーで、73歳の男性がカーテンを干している最中に足を滑らせて転落死したとみられます。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9aVmRIWlJycTBKeWxOaDJfVmdXMU5RZDBDaUxTM01tMUNubHMzRXQ1Y1hmNWZXVkhKQ2t5UWUwSXdCX3Fjd3VHRWdONW9FZ3ZRSUN4UEtWNXFtZ0ZGdjdKbm9ja1hRb2ZBTUZPS3FVbw?oc=5
+
+### 債務者の個人情報開示で男を逮捕、個人情報保護委員会が警告
+
+債務者の個人情報を開示した疑いで男が逮捕されました。個人情報保護委員会は、個人情報の暴露は問題解決に役立たないと警告しています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE44eFpHYmgwRFFWY095UktGZ2R2Q1Y5Ni02WlFtY3BQbWtrM0dOQmwyUnB3UGl2Ql_7TU9WVVZNbjliU2ZrUGxXVGl6YUlQN0dPMmxEWjR1dDdQVlNHUDdLRnRTRldEM0poQWk3WlE4dw?oc=5
+
+### 中環の威靈頓街でトラックが道路標識に衝突、瞬く間に観光スポットに
+
+中環（セントラル）の威靈頓街（ウェリントンストリート）で大型トラックが道路標識に衝突し、標識が曲がってしまいました。この出来事が瞬く間に観光客の「撮影スポット」となりました（動画あり）。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi9wJBVV95cUxPNGRHR2dZb0JXdTJMRTFsbmdrN3ZZVkxBazJ5SGEwWVJPeDc4MzNpd2o2OUlwRkQzWklOaG9MNW9HQkpaN1lkdWw4ekdvZFFRRG9kNnVXMFdvbEE4S241Q2xIWGNKNmcyd0xrbDRzX2hscUxaVzJ6anhfYVVkdWtDMDB4d3pUZDNSdG5NUmpPYnNsR2N2dXRRZkRFN0g1RG5xZ1VFcWlJZkZDU2FmNm1QcEJ5NmpScDIzMmZ0QV9nTDhnYmh1R1FlMGxqSDByYmE5SGgwX0pZemMzRkt0R2tSekxLdE5xZUV4WTE0dzRmeFM5QTBlRGxTSmMtNDhkOVpxT3pjNGQ2LUN3TXB0cFJDU1VaNXZTNW9GbmlDTzN6WWlzN2FtUXg2dm02TmxzdEh3MWoxbEZ2WXYtUUdfa0NNTHBtY1VQc1QxajlkWlR0Y0dtMlR5T0dzaFQ4VkZ0VERKcWVCTHMzQnpDT3M2M3dPSWFuXzg2R2s?oc=5
+
+### 2026年大晦日カウントダウン、おすすめ10スポット
+
+2026年大晦日のカウントダウンにおすすめの10スポットをご紹介します。ディズニーの花火、西九文化区の音楽会、カウントダウンパーティーなどがあります。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiowNBVV95cUxOV2w2cTc5ZnQzZ0l3eDJoRGYxeE5RUTd5cTJBYUR3WWlwenp0OHBoVDdVWHdScTQyWlUzN1FjY0ZYMFFROUE1dHZaSjhHVjZKTkd5bUh4cERsUnhlamtDRzlSLW5iaUE3THR3Q1BmLU5NRHU0RTBKdFZMdS11MndvUG5mTnVOX0p0Z005MEV6NlRtX0dnYTZQX2tzQWY3a0VXTGk1XzIzaVhkRTRpeEJKNnlrX285UThNOHVvakticEdrdDNQNzdKcWdsc0EtcEduMlFHVzdnQjV6c1hNc0ZSQUFkZ242ZGNkOEpBeXM4Y3BacWUwQ3FGcHp4TElyQk96bzFwcXZMYUg1Vl9CVjVucmJJaEVJclZuclFFcHZqT2ZNMy14Q09pa0JicEJRaVVFS1h1aVowY3liZjdFY1h0a09sYU5yWWlKVDViclBUTUQ3ZFNWNG9DX1VUZ1NyVXZoQWZjbGRDNFBSRjJtMzNoMGxXNjZjeU9JNll5VlBtQjZPZFkzREptZ0tSUWhwcDJnS1czNjhxSTY2Ymw3YkxGeTNRUQ?oc=5
+
+### 湾仔ウォーターフロントに光る彫刻のテーマパークがオープン
+
+湾仔（ワンチャイ）のウォーターフロントに、光る彫刻のテーマパークがオープンしました。ジュラ紀の世界から極地の砂丘まで、様々なテーマが楽しめます。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMigANBVV95cUxPYnB4Rlg5dEVvLXB0VGZxWGktMnlfVkt2dE5GaVpYMGZLeHBoVlBkRTVlMzdJSVJMVmdaa0VQX0JPamdYcHkya2lNUDgyalFHZjhRZng1Z05xZTNNQ01TUFRTSmlGcTZ0YjhzbENaSG04R1J3ZEg1ZHFFOUxJUG1CVEUzcHN0ZGVmOGJ1TV9sUUpNRHd4bkFmRWpxdGVCLU1zLXF1SWF1cHhBMUh4aUZoVWU5RllaeHRwQ2R5LWdqUXlOZGw2SW1ocGRoNTljUlo2QmdNeW4zYm1WNGd3Q2ttVGlBYVZaR1YzTXNtdHFRVlNudFE0M3FXblJvY29POTRROWQxS29lR1ZhMU5RcFlVUVUtS0dJU3J1Y3ZNTDJySUQ2RV9SWWxYWTc0ZUVRcWhJVk5SZWpkMFJWSnZiUExiNFM4UGVpMEN1bmhpWHJ1X0xwTTRMdENXeUFqYXgta2lTSGFuZ19SbHoxVjlCQWZBNjBMTnZhbmVORFBXd29GWHc?oc=5
+
+### 57歳非番補助警察官、タクシー運転中に自慰行為の疑いで逮捕・停職
+
+57歳の非番の補助警察官が、タクシー運転中に自慰行為をした疑いで逮捕され、停職処分となりました。彼は公衆わいせつ罪で火曜日に出廷します。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMisgNBVV95cUxQejJOajUwb0NzdU9VZTVHQ3Zwa1FWYlBJVjdNRnlSSW5yVWk3X2Z1eTcwQmpRNHdQQVRWRFNNd2pCa2dJMjd6NHVLejB6M0hNVDFCUlVVeTJBWl9IeHhzSUxFMlFVVnl2WUlKYlN6ZE9EckFVd2YxNzNNdUpNS3pmT1dvUEhGZ053ZmxJcjc2OEpoNlBoYWRQTkNEVlM4ME9ISE1ramdjNncwY1p3bVlLQnVkZ2Z5M25MNk1UbTZjQnFpa1l0ZGM3a0tnYkVoX0dRT2xnVGNHcU1uV1RqWG9RWDM1SFhkU3kyb2EwSXFsaHpWbjdVZ29qMmN6SzRWUVFQS3ktREZiaEE1dlUyeVRkWXY4b2RCRmhKcVpBOWNGWkRLTDdhcW5sLWZhYzRqbi1hT1U1MXd3U0tzZFZSSEhULTc5MFZZOWEzd3BzX1BQOVZOSWhhR3lNdU5xS1A1QVI1aW8zR0VVMlBlZ3QtUXVEWXkxczFSWVg1Y0w2eGFRcEZocGxYeml6YldseVpiUW91RWEyaUNhdGZybXNsOGRHQ1pOS0xkRUxQWTc5WXhkelJ4UQ?oc=5
+
+### 北角東岸プロムナード東区間のガラス展望台、利用規則を発表
+
+北角（ノースポイント）東岸プロムナード東区間のガラス展望台の利用規則が発表されました。「6つのすべきこと」と「5つのすべきでないこと」が示されており、特に女性への注意点が1つ含まれています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxQVHctNnR0eEV4dDJYYURaVHFMYnp2d2dRbUU1SWxMeHF0dXlwejZxM2lHS2dHY3VwQ1dqY2FNbk1rbEhSaF8xTDk4XzdhLVM2NjhDdGFUVjQzWmctN0FZUEVsUktfR3JIN2J3QXBZVExSMHVHWFAwNHRMQU45QWhTbVBFbndYMXV1TmNRWTJaUnhvdkI3ZThvWWE3SUxxRnBfdzAxazVQTTR0UlV6SWxQTnZNZ25YcVh0ZC1uZjBDTWFRM2ZKM0ZnYmdHTkc3VkVfUmRoMC12anlaN2RFREl4R1pzQTRhTFJlRVdjd3kta3I4N2FPQnZTRUp1ZFNCcExfMTI5eWIzUTJLM2lBUUxyM3NDMHM4MllRUG9lVndGQmt5T2tSUHdUNjBXR05SVk1adnN6WG43SEQyZTdoUGJBOXZnTFJjaVFCTjI5cUdlenE1Vm5SS2JEMzlTZnU5MVJYbk9xT3JHT3E5M2VlbXZBdmdIaUg1UER0X2JSVkR4WkZOVHA3VjhQeU5ZdjVIUVJrMEtpalFHVUlBaUtRaEhROXpCSVJubTRtNndncTRiN19GamJuamxUcHhKNllyQ0sxSVVKZlZHSUc?oc=5
+
+### 日出康城の主要壁撤去事件、オーナーに18万香港ドルの罰金
+
+日出康城（ロハスパーク）のユニットで主要な壁が撤去された事件で、オーナーは「知らなかった」と主張しましたが、これは認められませんでした。結果として有罪判決を受け、18万香港ドルの罰金が科されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxOdk16OHdtRnVYdUxFRjRLMnJJTVlfUG4xdy1Sa2ZYYXhtSmpmaTU5Uy1ucTRua24xd2JNWVVmSkJvYW9vaERkamRnU25mWHo1MnFlU0Q2TDFnd05zNU1leHg1ZWVybnhTdHZiVVhxNFVvSzNhWEItTlFBMUhCU2p1U1VDSTdTZFVGbWlRZlRUZVExUmRtNXd3OXU3TkdfT0YxVVZBX3JoWXBkRk8wbEFVMWpCTGlSbEZxNFFNZ01WRDNpNXl6MWxjMXh3bzZfd1drQWV4WXc1MUkwTHJ4aW5UUjIzb2ZocHI1Q3FlVUg0WXJUS05KWXBLSDlXX2Q2ZEJ0WHRfVWFPUnZTWTlzN2UySmRYX3Y4cE5neGJMTkxlMmVZY2dHTDNMM1Z5T0Y1SkFXYjh5OWlBRVEyU2R0SFNaNUFKeEttbHlQNGxUcl85UUNGRl9oMjFqSVhjckx0OXZKdmVaMHdqdHB6SVBjSFAtUVpZMTJ6djBqZEY0MllKcjZDQk9JUzFLcEdoYlZueHNMWGM4dHVxMGpxZEduclRVdnRYRTlPNVhMNnB5UjNsS2pSWms?oc=5
+
+### 食品安全センター、農薬残留摂取量は健康リスクなしと発表
+
+食品安全センターによると、市民の食事からの農薬残留摂取量は基準値を下回っており、健康リスクは低いとのことです。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFAyQUNaR0J2WmRNRlFqdVB4ZlVnM2JVUEVENWc2U01KbS1aVTNaQlZVSEtESV9PV3pmc043b3U5Wi1MbEtkZTlSZjM0V1hzT3FibEEyaVFEd0Voc09kcDJ1LUFCTmk1R0d4Q2cwaDBZcw?oc=5
+
+### HKFPのフォトジャーナリズム、「極端な熱写真コンテスト」で最終選考に
+
+HKFPのカイル・ラム氏による写真が、インターニュースの地球ジャーナリズムネットワークとグローバル熱健康情報ネットワークが主催する「極端な熱写真コンテスト」で最終選考に残りました。このコンテストは、極端な熱が人々の生活やコミュニティにどのように影響するかを、現実的かつ人間的な視点で描写する写真を募集しました。55歳の清掃員パティの2枚の写真は…
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/25/extreme-heat-photo-contest-hkfp-photojournalism-shortlisted/
+
+### 香港中文大学、1週間で3つ目の学生会が活動停止
+
+香港中文大学（CUHK）の新亜書院学生会が活動を停止しました。これにより、同大学で1週間のうちに活動を停止した学生会は3つ目となります。新亜書院学生会は、土曜日に決議を可決した後、同日に無期限の活動停止を発表しました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2025/12/29/third-college-student-union-at-chinese-university-of-hong-kong-suspends-operations-in-a-week/
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2025年12月31日 06:10

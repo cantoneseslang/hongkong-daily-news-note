@@ -1,0 +1,676 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年02月04日)
+thumbnail: images/article-header-20260204_061623.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年02月04日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年02月04日05時45分に発表した天気報告
+
+偏東の気流が広東省沿岸に影響を与えています。同時に、雲の帯がこの地域を覆っています。
+午前5時現在、フィリピンの東の北西太平洋に位置する熱帯低気圧は、マニラの東南東約1470キロメートルに集結しています。この熱帯低気圧は、時速約18キロメートルで西南西へ移動し、フィリピン中南部一帯へ向かうと予想されます。
+
+香港の今日の天気予報:
+概ね曇りで、初めは一時的に小雨が降るでしょう。朝は涼しくなります。日中は一時的に日差しがあり、最高気温は約21度となる見込みです。穏やかな偏東風が吹き、初めは風が強く、沿岸部では時折強風が吹くでしょう。
+
+見通し: 今後1、2日は比較的湿度が高く、日中は暖かいでしょう。週末にかけて風が次第に強まり、気温は著しく低下し、日曜日と月曜日の最低気温は13度前後となる見込みです。
+
+**引用元**: 香港天文台
+
+### 上環5100万日本円強盗事件、日本メディアが被告の顔写真を公開 – グループは金密輸で税差益を狙う
+
+上環で発生した5100万日本円強盗事件について、日本メディアが2人の被告の顔写真を公開しました。このグループは、税差益を得るために香港で金を購入し密輸する目的で、日本円を香港に持ち込もうとしていたとされています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMihgRBVV95cUxNRGhBblVxUjJjYjRKVno3UHUzaERXQUw3S3NQejhiYXZKLWMxZ28teEI5TnQ3aWVIdjBrbGtaaHJ1RmVoZjJYbGJOWDIxc1A2WDcwMEpLei11MG9JbHlIc29NQ0o4cjdHb1VoZkVCekJ3a0VVTzdoX0F6QmhsMzZIN3pHWnNENVFaSnFUdnhmR1EwV0VDMGVmaE9ucmdLOF9kVExSeWFzSUVveHhMb0FYVll5UU5ob2tHamdRYlVaeGduaUhncFVCS09DZkxqdXNnWkxTNTFpV0JXSUNCVXhHTVYxZVRmVnQ4ZkxwUzFCcTZENUlyeUFJYVozZmdfZFhmbEZoQTcyeTNEZlNmMFR4QXJiZk9WT2ZjTTFmZzBMRlBROEdaOW9wamdwNThZemtTb1NmQlM3Tk9GVjJsaVQ2cUdzX3hLYnNFT25GcHFhNXdGUjdtaFppNlhVZnNlNjdRTG5mSHRvVE1qTmhZS1BFNGhfZ3VHZ2JpcTVkRldKeGd5LWZHM2hSTTdCY1MxUHRnbkU0N1FxTi00RTdqWlFGUjRiVDA3TEUxZkkwT0ZYc3hyNTh3WTVCNkRFTGRDaVZidHBOLVZVRVVjbGJYNExZeUx3M0k0Wnc5Q1hFNzJnVVc0R3BMOWRqN055aXJfak5CUUJDZDZRODVmRFppb0N4a0VhcjRMdw?oc=5
+
+### 尖沙咀の韓国料理店で6人が食中毒、生牡蠣と醤油漬け蟹が原因か
+
+尖沙咀（チムサーチョイ）にある韓国料理店で夕食をとった6人が食中毒の症状を訴えました。全員の容体は安定しています。このレストランは尖沙咀金巴利道（キンバリーロード）の永利大廈（ウィンリービル）地下20号と22号店に位置しています。
+
+影響を受けた6人は21歳から26歳で、先週水曜日と木曜日にこのレストランを訪れました。予備調査では、全員が殻付き生牡蠣と醤油漬け蟹を食べたことが示されています。その後、6人全員が下痢、嘔吐、発熱などの症状を訴え、うち5人が医師の診察を受けましたが、全員入院の必要はありませんでした。
+
+衛生防護センターと食物環境衛生署の職員がレストランを調査し、食品の取り扱い手順と衛生状態を検査し、サンプルを採取して検査しています。センターは、影響を受けた人々が生の食品を摂取したことによる食中毒の可能性があると判断し、レストランに対し、問題の食品の提供を一時停止し、施設を消毒するよう指示しました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%9B%BE%E6%96%BC%E5%B0%96%E6%B2%99%E5%92%80%E9%9F%93%E5%9C%8B%E9%A4%90%E5%BB%B3%E5%90%83%E9%86%AC%E6%B2%B9%E8%9F%B9%E7%AD%89-%E5%85%AD%E4%BA%BA%E9%A3%9F%E7%89%A9%E4%B8%AD%E6%AF%92-130723781.html
+
+### 再開発対象住民への支援強化、住宅委員会が追加支援策を提示
+
+住宅委員会は火曜日、2つの再開発計画の影響を受ける世帯が、提供される現金給付や移転手当にもかかわらず経済的困難に直面した場合、さらなる支援のためにコミュニティサービスやケアチームに頼ることができると発表しました。
+
+ケネディタウンの西環邨（サイワンエステート）と土瓜湾（トクワワン）の馬頭囲邨（マータウワイエステート）第1期再開発に関して提供される現金給付は、対象となる1人世帯と2人世帯が、再入居の代わりにそれぞれ82,700香港ドルと100,220香港ドルの給付を選択できるというものです。
+
+同委員会の補助住宅委員長であるクレレサ・ウォン氏はRTHKで、これらの給付やその他の手当にもかかわらず経済的困難に直面する住民は、コミュニティサービスやケアチームに頼ることができると述べました。彼女はまた、現金給付を選択する傾向があるのは、人生の重要な時期にある高齢者であるという経験を示しました。「彼らの多くは身体的な状態から介護施設に住む必要があるかもしれません。そのため、私たちが提供するこの選択肢は間違いなく役立つでしょう」と彼女は述べ、「彼らは年をとっているので、一人暮らしが不便だと気づき、他人の世話を必要としているのかもしれません」と付け加えました。
+
+住民は現金給付を受け取ってから2年間は、いかなる種類の補助金や補助住宅の対象となりません。
+
+その他の世帯には、現在開発中の同じ地区の他の公営住宅プロジェクトへの入居が提供され、家族の規模に応じて10,350香港ドルから33,050香港ドルの一時的な移転補助金が支給されます。
+
+ウォン氏は、新しい美東邨（メイタンエステート）や土瓜湾道（トクワワンロード）沿いの他の公営住宅団地が、馬頭囲邨第1期再開発の影響を受けるすべての世帯を収容するのに十分であると付け加えました。
+
+委員会のメンバーであるウィルソン・オー氏は同じ番組で、再開発は生活環境の改善につながり、将来の需要のためにさらなる土地を解放すると述べました。彼は、コミュニティサービスチームが、特に高齢者に対して、社会福祉署の介護施設への入居や大湾区（グレーターベイエリア）での居住を手配するなど、支援を強化する必要があると述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842456-20260203.htm
+
+### 中国大手エナジードリンクメーカー「東鵬飲料」、香港上場初日は公開価格と一致
+
+中国の主要エナジードリンクメーカーである東鵬飲料（Eastroc Beverage）は火曜日、香港での株式公開初日、上場申請の質の低さに対する規制当局の監視を受けて投資家の警戒感が広がる中、株価は上昇も下落もしませんでした。
+
+レッドブルの代替品を製造する深圳（シンセン）を拠点とする同社の株価は、公開価格と同じ248香港ドルで取引を開始しました。終値は1.5％高の251.80香港ドルでした。
+
+東鵬飲料は4089万株を発行し、101億4000万香港ドル（13億米ドル）を調達しました。これは、過去最大の新規株式公開（IPO）の一つとなります。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3342164/chinas-top-energy-drinks-maker-eastroc-matches-offer-price-hong-kong-debut?utm_source=rss_feed
+
+### パナマ運河港湾運営権巡る判決、北京がパナマに「重い代償」を警告
+
+北京は、パナマ最高裁判所が香港を拠点とするCKハチソン・ホールディングス（CK Hutchison Holdings）による同国運河の主要2港の運営権を無効とした判決を「法的に根拠がない」と非難し、中米の国に対し、政治的・経済的に大きな代償を払う可能性があると警告しました。
+
+香港マカオ事務弁公室は火曜日の論評で、この判決はパナマの信用力を「自滅させる」ものであり、同国のビジネス環境に深刻な損害を与え、さらに深刻な影響を及ぼすと述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3342287/panama-could-pay-heavy-price-over-ck-hutchison-ports-ruling-beijing-warns?utm_source=rss_feed
+
+### 新鴻基地産、執行役員モーリーン・ファン氏が健康上の理由で辞任
+
+香港最大の時価総額を誇るデベロッパーである新鴻基地産（Sun Hung Kai Properties、SHKP）は、執行役員であるモーリーン・ファン・サウイム（Maureen Fung Sau-yim）氏が健康上の理由により火曜日付で即時辞任したと、証券取引所への提出書類で発表しました。
+
+「ファン氏は、取締役会との間に意見の相違はなく、辞任に関して会社の証券保有者に開示する必要のある事項はないことを確認しました」と提出書類には記載されています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3342271/hong-kong-developer-shkps-executive-director-maureen-fung-resigns-health-grounds?utm_source=rss_feed
+
+### 中国本土のメモリー企業、グローバル展開資金調達のため香港上場を検討
+
+アナリストによると、中国本土を拠点とするメモリーチップおよびストレージソリューションのサプライヤー数社が香港での株式上場を目指しており、これは同セクターがグローバルな野望を推進する方法における戦略的変化を示しているという。
+
+最も注目されている企業は、データセンター向け高速相互接続チップの設計会社である上海を拠点とするモンタージュ・テクノロジー（Montage Technology）で、機関投資家からの注文を受け付けており、月曜日に香港証券取引所に上場する予定です。
+
+モンタージュは上海に上場しており、今回の香港上場は、中国本土企業が国際的な資金調達の機会を求める動きの一環と見られています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/tech/article/3342244/mainland-memory-firms-eye-hong-kong-funds-fuel-global-ambitions?utm_source=rss_feed
+
+### 香港、レストランでの犬同伴許可計画を歓迎 – 衛生とペットフレンドリーのバランスを模索
+
+ケータリング業界の代表者は火曜日、政府が今年半ばまでに最大1,000軒のレストランで犬の同伴を許可する計画を歓迎しました。
+
+香港レストラン・関連業連盟のサイモン・ウォン会長は、この動きがケータリング事業に恩恵をもたらすと期待しています。「香港には非常に多くの犬がいます。多くの犬の飼い主がペットをレストランに連れてくるようになり、レストランのビジネスが増えると思います」とウォン氏は述べました。
+
+「衛生問題には注意が必要ですが、犬の飼い主は犬のことを非常に大切にしているので、レストランのオーナーはあまり心配する必要はないと思います」と彼は付け加えました。ウォン氏は、犬は1.5メートル以下のリードを着用しなければならないという提案された要件が、ペットが他の客に迷惑をかける可能性を減らすだろうと述べました。彼は、犬の入店許可を申請するレストランがどれくらいあるかを見積もるのは難しいが、しばらくすれば枠を増やすことができるだろうと述べました。
+
+動物福祉団体も段階的なアプローチを歓迎し、これがペットに優しい政策の長期的な成功を確実にするのに役立つと述べました。「500から1,000の施設から始めるのは、重要で歓迎すべき前進です」と動物の権利と福祉協会の創設者であるスーザン・ライ氏は述べました。「すぐに門戸を開放するのではなく、成功モデルを確立することが重要です。この試験段階がうまくいけば、需要全体を満たすために数が自然に拡大すると確信しています。」
+
+ライ氏はまた、犬を座席に乗せたり、犬のために食事を用意したりすることを禁止するなど、様々な許可要件が、公衆衛生とペットに優しいアクセスとの間で公正かつ必要なバランスを取っていると述べました。「テーブルへの犬の禁止は、世界的に標準的な衛生慣行です」と彼女は述べ、「食べ物に関しては、最終的には新鮮な犬用メニューが見られることを望んでいますが、事前に包装された食べ物から始めることで、人間のキッチンでの交差汚染のリスクを最小限に抑えます」と付け加えました。
+
+一方、DABのチャン・ポクチ議員は、政府がレストランに対し、動物との接し方や緊急時の対処法についてスタッフを訓練する支援を提供できると提案しました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842521-20260203.htm
+
+### 香港、新制度で最大1,000軒のレストランで犬の同伴を許可へ
+
+香港当局は、ペット同伴可能施設制度の初期段階として、最大1,000軒のレストランで犬の入店を許可する予定で、最初の承認された店舗グループは6月までに許可証を受け取る見込みです。
+
+環境生態局は火曜日、現在食品施設での犬の同伴を禁止している食品事業規制の改正案を、今年第1四半期中に提出することを目指していると述べました。
+
+「最初のレストラン群は5月までに許可を申請でき、これにより、香港のペットオーナーと彼らの愛するペットにとって、より多くの選択肢が提供されるでしょう」と当局者は述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3342190/dogs-be-allowed-1000-hong-kong-eateries-first-phase-new-rules?utm_source=rss_feed
+
+### 香港のビジネス信頼感、2年ぶりの高水準に達するも海外からの評価に懸念
+
+香港のビジネス信頼感は2年ぶりの高水準に達し、市内の米国商工会議所が実施した調査によると、回答企業の半数以上が2026年の見通しについて楽観的であり、地政学的緊張が概ね安定したと指摘しています。
+
+しかし、同商工会議所の調査では、回答者の43％が香港に対する「海外の世論」を主要なビジネス課題のトップに挙げ、62％が香港間の「差別化の欠如」を指摘していることも判明しました。これは、香港が国際的な競争力を維持する上で、依然として課題を抱えていることを示唆しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3342138/hong-kong-business-confidence-hits-2-year-high-survey-finds?utm_source=rss_feed
+
+### CPA Australia、香港の財政赤字を9億香港ドルと予測 – 歳入増と税制改革を提言
+
+会計士団体CPA Australiaは月曜日、香港が今年度9億香港ドルの財政赤字を計上すると予想していると発表しました。
+
+同団体は、活況を呈する株式市場が歳入を押し上げている一方で、政府はノーザンメトロポリスのようなプロジェクトに多額の資本支出を投じていると述べました。同団体は、3月末までに準備金が6530億香港ドルに減少すると予測しており、これは健全な水準であると考えています。
+
+今月末に予定されている財政長官の予算案に先立ち、同団体は、政府が歳入をさらに増やすための一つの方法として、香港証券取引所への上場を目指す企業に税額控除を提供することを提案しました。これにより、市場活動が活発化し、印紙税収入が増加するという。
+
+もう一つの方法は、ライフサイエンス、人工知能、フィンテックなどの戦略的企業を特別な税制の下にグループ化し、ノーザンメトロポリスへの進出を促すことです。CPA Australiaグレーターチャイナの税務委員会副委員長であるカリナ・ウォン氏は、「優遇法人税率を5％まで引き下げることを推奨します」と述べました。「同時に、政府は、メトロポリス内の商業・工業開発における不動産賃貸借契約に対する印紙税を、例えば10年間といった一定期間免除することを検討してもよいでしょう。」
+
+ウォン氏は、個人納税者に対する今年度の給与税還付を100％維持し、上限を6,000香港ドルとすること、およびその他の優遇措置を提案しました。「私たちは、子供や高齢者の介護のために家政婦を雇用する共働き世帯に対し、最大60,000香港ドルの税額控除を導入することを提案します。そして、納税者が身体の健康とウェルネスに焦点を当てることを奨励するため、スポーツ関連費用に対して最大2,000香港ドルの税額控除を導入することを提案します。」
+
+中小企業（SME）については、同団体は、2段階利益税制度における優遇税率8.25％の税額控除上限を、課税所得200万香港ドルから400万香港ドルに倍増することを提案しています。また、3月に終了予定のSME融資保証制度をさらに2年間延長し、企業に猶予を与えるべきだと述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842384-20260202.htm
+
+### 「広東省施設介護サービス計画」に新たな高齢者介護施設が追加、月額5,000香港ドルの補助金も
+
+「広東省施設介護サービス計画」に、新たに2つの高齢者介護施設が追加されました。これにより、特定の条件を満たせば、毎月5,000香港ドルの補助金を受け取り、深圳（シンセン）、広州（コワンチョウ）、東莞（トンコワン）の施設を自由に選べるようになります。
+
+この計画は、香港の高齢者が中国本土で質の高い介護サービスを受けられるようにすることを目的としており、今回の施設追加により、選択肢がさらに広がります。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMiswRBVV95cUxQM0hlWGhfWk5faVJENWMtZGN0c3RFdzNsVmRpZHR4YWVEb2t6VU1WcFAzWHpQT2tqYXlyZ21KSGV0OEMwS2pPMFI2NzdscDEwcFJZVEVIZVZZUGdNenFEQlRJY2VCTEtDNmpVQ0QxbEN4UmhySGdxaGZ2RUd2cEVrMEFUQkVJaV81em43Z1hoTUF6Vkx3SzIySDh4cnhraW1ITjRwUnEwcFBqR1ZfX2cyeldsVDIwOUhuVzlNek1MQzFGdE8zaHlIcjc2WFcxa2o5b3pUN2x4bERSTlRXT0Zjd1JDUThwVHZFa0JrdXVHcHlPa2prWVhpcGlUbTJPZzNjN3hUT1AyVXRfQ3cwWHJ6QThzVDBaYTkyV3JVTXNUOFhLcjRZbG9fYkZ0Vkd3VkNJbVV3bGRBOFVjWmwxRnpZR1M5YS1ZR1dnMlhrWGxCQXJhazFmanFjdE5GQ3NpaXN1SkUycjR2b2ZNZkVTS2FEMWwtR3loNFVscFFuWEtjbXdWaTZYWGtDQXlEZjJ5N3U5aEp5MTVvakF4SEJUUF9XVzFKVl9lWGlBZkFGTjhwUzZhc2V4Vl9CS2pieHdrdDlKNkNnRVcyNFgyVmxxd1JWdllRelJ1Zk1sWkpmQ1c1WFBtVlVZc1c5eWZpSWhjWDkzdVd6MG1zN1pqRDhiTlpxSmJpbmNPZ3cwMkZVODBOY2ZMVEJhb1VZTVA2amFEUlVGeDRyb1N6eTV6TQ?oc=5
+
+### 香港、APEC財務大臣会議開催に向け高レベルチームを設置
+
+今年10月に香港で開催されるAPEC財務大臣会議には約500人のゲストが出席する見込みで、香港で初めて開催されるこの会議の計画を監督するため、当局は2人の高官が率いるチームを任命する予定です。
+
+金融サービス・財務局長のクリストファー・ホイ・チンユ（Christopher Hui Ching-yu）氏は月曜日の立法会パネル会議で、政府は会議の準備のため、同局の下にイベント調整チームを設置することを提案したと述べました。
+
+「この会議は、香港が国際金融センターとしての地位を強化し、地域経済の発展に貢献する重要な機会となるでしょう」とホイ氏は述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3342110/government-proposes-planning-team-apec-finance-ministers-meeting-hong-kong?utm_source=rss_feed
+
+### 香港の住宅市場回復、堅固な基盤の上に成り立つ
+
+香港は活気を取り戻しました。国勢調査統計局が1月30日に発表した速報値によると、昨年の香港経済は3.5％成長し、2021年以来最速のペースとなりました。昨年の多くのアジア経済の成長を牽引した予想外の要因である輸出の急増が、香港の回復の主要な要因となりました。
+
+この回復は、市内の資本市場の劇的な復活に支えられました。昨年の株式売却はほぼ4倍の730億米ドルを超え、投資家の信頼感が高まっていることを示しています。住宅市場も、経済の好転と低金利環境に支えられ、着実に回復の兆しを見せています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/opinion/hong-kong-opinion/article/3342044/hong-kongs-housing-market-recovery-rests-solid-foundations?utm_source=rss_feed
+
+### 中国、ミャンマー詐欺組織の主要メンバー4人を処刑
+
+中国の裁判所は月曜日、ミャンマーを拠点とする詐欺シンジケートの主要メンバー4人を処刑したと発表しました。これは、国境を越えた通信詐欺に対する取り締まりを強化する北京による1週間足らずでの2度目の発表となります。
+
+詐欺師がインターネットユーザーを偽の恋愛関係や仮想通貨投資に誘い込む詐欺施設は、東南アジア全域で繁栄しており、その中にはミャンマーも含まれています。中国政府は、これらの詐欺組織が中国国民に多大な経済的損失と精神的苦痛を与えているとして、厳しく取り締まる姿勢を示しています。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/02/china-executes-4-leading-members-of-myanmar-scam-gang/
+
+### 香港、国家計画に沿った初の5カ年計画を策定へ – 行政長官がタスクフォースを主導
+
+ジョン・リー・カチウ（John Lee Ka-chiu）行政長官が率いる新しいタスクフォースが、国家の第15次5カ年計画に沿った香港初の5カ年計画を策定する。政治アナリストは、この動きが香港の発展を形成する上での政府のより大きな関与を示唆していると述べている。
+
+リー行政長官はまた月曜日、地元の企業にとって新たな市場を開拓するため、東欧と中央アジアへの訪問を優先すると述べ、リスクを軽減するために「すべての卵を一つのカゴに入れることを避ける」必要性を強調しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3342077/hong-kong-formulate-first-5-year-plan-align-national-blueprint?utm_source=rss_feed
+
+### 香港、初の独自の5カ年計画を策定し国家戦略と連携へ
+
+香港特別行政区政府は、国家の5カ年計画に沿う形で、初めて独自の5カ年計画を策定する。
+
+ジョン・リー行政長官は月曜日、Now TVと香港経済日報との共同インタビューでこの計画を明らかにした。彼は、来月初めに北京で開催される両会会議で国家の全体的な枠組みが公布され次第、自身が調整のための専門タスクフォースを率いると述べた。
+
+行政長官は、当局が計画について様々な分野からの意見を聞くと述べた。「私の現在の計画は、国の第15次5カ年計画の詳細が発表され次第、香港に関する部分であろうと、国の全体的な青写真であろうと、その詳細に沿って調整することです」とリー行政長官は述べた。「これには政府全体が関与し、香港の主要な責任者として、私はこの香港特別行政区初の5カ年計画を推進するために全力を尽くさなければなりません。」
+
+行政長官はまた、彼の政府が今後、東欧や中央アジアの地域への訪問を優先することで、より多くの新興市場に目を向ける計画であると述べた。「未発見の金鉱があるところならどこへでも、私は皆を連れて行って一緒に開発するつもりです。しかし、それは現地の住民もそれを追求することに真の関心を示す場合にのみ機能します」とリー行政長官は述べた。「この世界では、幅広い友人を作る必要があります。すべての卵を一つのカゴに入れることはできません。何か起こった場合、かなりのリスクがあるでしょう。」
+
+昨年、行政長官は地元および中国本土の企業を含む代表団を率いてクウェートとカタールを訪問し、その旅行の結果として投資プロジェクトが徐々に実施されていると述べた。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842345-20260202.htm
+
+### CKハチソン、パナマ運河港湾運営から撤退 – マースクが引き継ぎも中国の地政学影響力は揺るがず
+
+CKハチソン（長和）がパナマ運河港の運営から撤退し、マースク（馬士基）が引き継ぐことになったが、これはラテンアメリカにおける中国の地政学的な影響力を揺るがすものではない。
+
+パナマ最高裁判所がCKハチソンの運営権を無効とする判決を下したことを受け、中国政府はパナマに対し「重い代償」を払う可能性があると警告している。この動きは、中国がラテンアメリカ地域における経済的・政治的プレゼンスを拡大しようとする中で、国際的な港湾運営における中国企業の役割に注目が集まっていることを示している。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxOcUZyLVJYclBvTmxFTDFLUzk3a3VfdTRCU2xoUjIzZkI3ZVZCcG9uM0hvQ21EWG9KbWJzajNVR3Z6MDJrODhzV2p0dm1kYk1xcndLVlh4dzhyb0o0c1RRRFRWMVZBVGFBQXFhYXJGSDI3VWZrMDlUWU1YaVZyVGEzSTdKdS1pYkpBM2FYaHAyeGhGRllnTkdwRy00Ni1qM2E3VXlyUl9zTFNjblBCUzd5d1VUX0VLeEFoY25hbGNFcUZnZUs5MkliUXRrbWxVOTdRWDdPNWpaSGIxc2hqaWR3YVF4bERHdThrM25lWnpiYVp6WHRYQlM5NERIajZPRGE1enFXUWZvNGhRU0NJbDFzdFd6Z2lWNjNqNjVKMGEtVHJkMUZRNFpsbnhCNmd5ZndEU2k1M3l0SVl3dWIxZHp0VnhibFVZanhDQ0k5UUxuVDBwQUtIZ2pkRTdoZHlXVnNEZDJCODViUDJqa2phS3YtZFpWbnMzbXUwQ3BacUxYckl5czhhZWhCQVpTQ3J2ODNSQTViR282UUgzbWpzTXYwWjB3aEoyU29mTzNkYmV4dmVHRlpFTFVlVFdCWVJ4bzJBZU0wLU16QjM?oc=5
+
+### 香港経済、今年着実な成長を予測 – HKMA総裁が発言
+
+香港金融管理局（HKMA）のエディ・ユエ（Eddie Yue）総裁は月曜日、今年の香港経済は着実に成長すると予想していると述べました。
+
+彼の発言は、香港が2025年にGDPが3.5％増加したことを受けてのものです。立法会の金融事務委員会で演説したユエ総裁は、消費、輸出、不動産市場で改善が見られたと述べました。
+
+ユエ総裁は、外部環境には依然として不確実性があるものの、アジア太平洋地域は人工知能の発展と技術製品の需要から恩恵を受けると予想されると述べました。香港は引き続き国家戦略に沿っていくと彼は付け加えました。
+
+「第15次5カ年計画の下で、我が国は質の高い発展を続けると予想しています」と彼は述べました。「香港経済は着実に成長でき、金融発展の面では、人民元の国際化の推進を含む国家発展戦略に積極的に沿っていきます。また、香港の通貨と金融の安定を確保するために市場を綿密に監視します。」
+
+為替基金が政府により多くの資金を割り当てるかどうか尋ねられたユエ総裁は、そのような決定は財政長官によって行われるべきであり、香港特別行政区の金融安定に影響を与えるべきではないと述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842330-20260202.htm
+
+### 香港の大学卒業生、過去5年で最も厳しい就職市場に直面 – 新規採用55%減
+
+香港の大学卒業生は、2025年に新規採用数が55％急減し、新規採用者の平均給与が前年比でわずか0.5％しか増加しなかったため、過去5年間で最も厳しい雇用市場に直面しています。
+
+ベテランの人材コンサルタントは、多大な投資と指導を必要とするエントリーレベルの仕事の急減を、人工知能の台頭と不確実な経済見通しに起因するとしました。共同機関求人データによると、特に金融、不動産、小売などの分野で新規採用が大幅に減少しており、卒業生は就職活動においてより厳しい競争に直面しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/education/article/3341998/55-plunge-new-hires-as-hong-kong-graduates-face-gloomiest-job-outlook-5-years?utm_source=rss_feed
+
+### 香港の家賃高騰：テナントはより多く支払い、狭まるスペースを争奪
+
+事業主のトレイシー・ソン氏にとって、香港での物件探しは2つのことで複雑になりました。彼女のペットと、賃貸市場での激しい競争です。
+
+ハッピーバレーの500平方フィートのフラットに住んでいたソン氏は、将軍澳（チョンクワンオー）の800平方フィートの物件を確保するために、家主の提示価格よりも高い金額を提示しなければなりませんでした。28歳の彼女は、以前の28,000香港ドルに対し、新しい家には月額約35,000香港ドル（4,480米ドル）を支払っています。
+
+坑口（ハンハウ）の近隣は、彼女が最もペットに優しいと感じた場所であり、ペットを飼っているテナントにとって選択肢が限られている香港では、このような物件を見つけることがますます困難になっています。家賃の高騰と利用可能なスペースの縮小は、多くの香港住民にとって深刻な課題となっています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3341982/soaring-hong-kong-rents-tenants-pay-more-and-fight-shrinking-space?utm_source=rss_feed
+
+### 香港の支出は収入を上回るべきではない – ポール・チャン財政長官が発言
+
+香港の財政は改善しているものの、支出は収入よりも速く増加すべきではないとポール・チャン・モーポ（Paul Chan Mo-po）財政長官は述べ、市場は政府が経済を活性化するためにより多くの投資を行うことを期待していると付け加えました。
+
+しかし、財政長官は日曜日、香港の小売部門について楽観的な見通しを示し、火曜日に発表される12月の売上高が引き続き成長を示すだろうと明らかにしました。2025年11月の小売売上高は暫定的に337億香港ドル（43億米ドル）と推定され、前年比で堅調な伸びを示しています。
+
+チャン財政長官は、政府が財政規律を維持しつつ、経済成長を支援するための適切なバランスを見つけることの重要性を強調しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3341995/hong-kongs-public-expenditure-growth-cannot-exceed-revenue-rise-paul-chan?utm_source=rss_feed
+
+### 結婚の平等：香港がグローバルな富裕層ハブ競争で欠けているピース
+
+香港は、シンガポールやスイスのような確立された中心地と競い合い、世界有数のプライベートウェルスハブになるという野心的な約束を果たす寸前にある。その勢いは明らかだ。香港証券先物委員会によると、市内の資産運用およびウェルスマネジメント事業における総運用資産は着実に増加しており、香港が富裕層にとって魅力的な場所であることを示している。
+
+しかし、記事は、結婚の平等が香港がグローバルな富裕層ハブ競争で欠けている重要なピースであると指摘している。多様な才能と富裕層を引き付けるためには、包括的な社会環境が不可欠であり、結婚の平等はその重要な要素の一つであると論じている。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/01/31/marriage-equality-hong-kongs-missing-piece-in-global-wealth-hub-competition/
+
+### BNO 5+1ビザの夢破れる？英国移住の香港人、英国の「卑劣な手口」を非難
+
+BNO 5+1ビザの夢は破れたのか？英国に移住した香港人たちは、英国の2つの「卑劣な手口」を非難し、「もし永住権があれば、必ずやり返す」と述べた。
+
+英国政府が移民政策を厳格化する動きを見せる中、BNOビザを通じて英国に移住した香港人コミュニティの間で不安と不満が広がっている。特に、永住権取得の条件が変更される可能性について、多くの人々が「ルール変更」だと感じ、将来への懸念を表明している。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiiwNBVV95cUxPZ1RXZ01FWk14NnpYc0pNYUNIeTNjcUxUTkRtTC1sSXpaOC1BU1RqMTBoTWZzRExsWHpzbHllWWhRYkNTLWowQW5vUTFBRFFQSlUwZzVUYW91ZkJUU25zRUJVU3plcFBSR1F5TlVxQzQ4RXVMWmZWUmFrTmNNdk9FZUlNYmVFN01qLUxpU21jNlNZSTFsc3lzTmRNUTZ3dFFrOWVmOVpGWWF3QUxxYTlDejZ4XzhUYVJSTUkwZ1Z3aEF0SEtCdHRDQjlsQ09fb3A2emIzNE53TlFOT3BXa19RaXNRS09FNDl5S0sxSXVlUHg4WlVXeVN4Rk04eFk5RnFFMThrOVBOLVRiWFF0ZUpYNjJ1TmFnd01VczNQV2lEd1JfN0tGVE1JMUZ2ZDlpd3RMQVpOWnR6VGJvQWVHVDhKbS1VS2gyOGRQMEdTWGpVM2poM292ZThkSVJnYmp0azl3OUtGWEwwVDdrS1E4LW5XTjBCcXJDcEk1dVpQaWtHUWQ3MEgyNmxwRERoWQ?oc=5
+
+### ファン・シュー・ライタイ氏、立法会議員に法案審議の重視を要請
+
+ファン・シュー・ライタイ（范徐麗泰）氏は、「一つの法律が何千もの家庭に影響を与える。立法会議員が法案の審議を重視することを望む」と述べた。
+
+彼女は、立法会議員が市民の代表として、提出される法案が社会全体に与える影響を深く理解し、慎重に審議する責任があることを強調した。特に、市民生活に直接関わる法律については、多角的な視点から議論し、市民の意見を反映させることの重要性を訴えた。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1nc0ZQRmVON1B4Zl9zMTJka09TVkVFaHF2ZUNqcFBtRnBaUWZSb0VXeWhHWWxFamdfOVRLVDVaeWlBbEp6dHB5b0ppMkZpTGhYdUdpMDZYbG01azVsM2lQZWMzNXMtTXdZVmU1Uzl6VQ?oc=5
+
+### 中国の宇宙産業開放を受け、香港も宇宙分野での飛躍を目指すべき
+
+中国の商業宇宙部門は新たなフロンティアに突入した。1月、中国の民間航空宇宙企業は、同国初の商業開発された有人宇宙船となる試験カプセルを発表し、2028年までに有人飛行を計画しており、すでに民間宇宙旅行者からの予約も受け付けている。
+
+このプロジェクトは、商業プレーヤーがもはや周辺的な参加者ではなく、主要な宇宙ミッションに不可欠な貢献者となるという国家政策の決定的な転換を反映している。記事は、中国が宇宙分野を開放する中で、香港もこの機会を捉え、宇宙産業における独自の役割を確立し、新たな高みを目指すべきだと論じている。
+
+**引用元**: SCMP
+
+https://www.scmp.com/opinion/china-opinion/article/3341977/china-opens-its-space-sector-hong-kong-should-reach-stars?utm_source=rss_feed
+
+### NATO、北極圏での軍事任務計画を開始 – トランプ氏のグリーンランド巡る要求に対応
+
+NATOは火曜日、米国大統領ドナルド・トランプがグリーンランドをめぐる論争の中で、北極圏の安全保障強化を自身の要求の中心に据えたことを受け、北極圏での新たな軍事任務の計画を開始したと発表した。
+
+NATOの欧州連合軍最高司令部（SHAPE）のマーティン・オドネル報道官は、「『アークティック・セントリ（Arctic Sentry）』と名付けられたNATO強化警戒活動の計画が進行中である」と述べた。「この活動は、北極圏とハイノースにおけるNATOの態勢をさらに強化するだろう」と彼は付け加えたが、詳細については言及しなかった。この動きは、北極圏の戦略的重要性が高まる中、NATOが地域の安全保障に積極的に関与する姿勢を示している。
+
+**引用元**: SCMP Business
+
+https://www.scmp.com/news/world/europe/article/3342290/nato-starts-planning-arctic-military-mission-amid-greenland-row-trump?utm_source=rss_feed
+
+### スヌーカー・ワールド・グランプリ、カイタック・アリーナで開幕 – 香港が国際スポーツイベントの拠点としての地位を強化
+
+世界トップクラスのスヌーカー選手たちが香港に戻り、カイタック・アリーナでワールド・グランプリが開幕しました。
+
+香港がこのトーナメントを主催するのは今回で2回目となります。トップ32の選手が2月3日から8日まで、チャンピオンシップと重要なランキングポイントをかけて競い合います。出場選手には、ロニー・オサリバンやジャッド・トランプといった有名選手が含まれており、彼らは香港の才能誘致制度の一つを通じて香港居住者となっています。
+
+火曜日のトーナメント開会式で、文化・スポーツ・観光局長のロザンナ・ロー（Rosanna Law）氏は、観客に壮大なイベントを約束しました。「今後5日間、彼らはスリリングで手に汗握る戦いでアリーナを盛り上げ、それぞれの試合はドラマ、緊張、そして純粋な輝きに満ちるでしょう」と彼女は述べました。「このグランプリを主催することで、私たちはコミュニティにおけるスヌーカーの遺産に貢献するだけでなく、このスポーツの地元での知名度を高め、主要な国際スポーツイベントの最高の開催地としての香港の評判を強化しています。」
+
+一方、ワールドスヌーカーツアーのサイモン・ブラウネルCEOは、トーナメントの再開催に喜びを表明しました。「香港の観客の熱意は、すべての選手に深い印象を残しました。主催者が手配したホスピタリティとオフコート活動は、選手たちに真に歓迎され、くつろいでいると感じさせました」と彼は述べました。
+
+初日のラウンド32では激しい戦いが繰り広げられ、中国のシャオ・グオドンがイングランドのカイレン・ウィルソンに注目すべき勝利を収めました。同じくイングランドのマーク・セルビーはアイルランドのアーロン・ヒルを破って勝ち進み、エリオット・スレッサーはイングランド勢同士の対決でスチュアート・ビンガムに勝利しました。中国のジョウ・ユエロンもスコットランドのスティーブン・マグワイアを破って勝ち進みました。
+
+水曜日の注目試合としては、ロニー・オサリバンがイングランドのジョー・オコナーと対戦し、中国のジャオ・シントンがスコットランドのジョン・ヒギンズと対戦するスリリングな試合が期待されます。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842544-20260203.htm
+
+### HKMA、AI時代に向けた銀行向け量子対応・サイバーセキュリティプロジェクトを開始
+
+香港の銀行規制当局は、人工知能時代において市内の金融機関が競争力と安全性を維持できるよう、量子コンピューティング対応指数を含む4つの主要プロジェクトを発表しました。
+
+香港金融管理局（HKMA）は、これらの取り組みが、責任あるイノベーションを導き、市内の銀行部門を急速な技術変化に備えさせることを目的とした新しいフィンテック推進青写真の一部であると述べました。この青写真は火曜日、業界の要請に応えて発表されました。
+
+これらのプロジェクトは、香港が金融テクノロジーの最前線に立ち続けることを目指し、銀行が新たな脅威に対応し、量子コンピューティングなどの最先端技術を活用できるよう支援することを目的としています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3342268/hkma-launches-quantum-readiness-and-cybersecurity-projects-banks-ai-era?utm_source=rss_feed
+
+### 香港のタクシー運転手、乗客のお釣りを窓から投げ捨てて罰金1,000香港ドル
+
+香港のタクシー運転手が、乗客が減速を求めた後、お釣りを窓から投げ捨てた無礼な行為により、1,000香港ドル（128米ドル）の罰金を科されました。
+
+西九龍裁判所のウィニー・ラウ・イーワン（Winnie Lau Yee-wan）治安判事は、タクシー運転手のラム・チンフン（Lam Ching-fung）が、2024年12月7日に香港国際空港から紅磡（ホンハム）の住宅団地までタクシーを予約した女性乗客に対して無礼な行為をしたとして有罪判決を下しました。
+
+ラムは「礼儀正しく秩序ある態度以外で行動した」という略式起訴を否認しましたが、裁判所は彼の行為が乗客に対する無礼な行為に当たると判断しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3342269/hong-kong-taxi-driver-fined-hk1000-rude-behaviour-towards-passenger?utm_source=rss_feed
+
+### 香港の小売売上高、2025年に1%増 – 消費者心理と観光客増が牽引
+
+香港の小売売上高は、2024年に7.3％減少した後、2025年には1％増加し、12月には前年比6.6％増を記録しました。当局は、消費者心理の改善と観光客到着数の増加が引き続きこのセクターを支えるだろうと述べています。
+
+火曜日に国勢調査統計局が発表した数字によると、12月の小売売上高は350億香港ドル（44億8000万米ドル）と推定され、4ヶ月連続で前年比6％以上の成長を記録しました。昨年全体では、小売売上高はわずかながらもプラス成長に転じ、経済の回復基調を示しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3342238/hong-kongs-retail-sales-edge-1-2025-after-73-decline-in-2024?utm_source=rss_feed
+
+### 香港のデータ漏洩が21%増加、ドクシングは過去最低を記録
+
+香港のプライバシー監視機関が記録したデータ漏洩件数は昨年21％増加し、ハッキングが主な原因でした。
+
+しかし、ドクシング（個人情報晒し）の件数は、2021年にこの行為を犯罪とする法案が可決されて以来、大幅に減少したと、個人情報保護コミッショナーのアダ・チョン・ライリン（Ada Chung Lai-ling）氏は火曜日に述べました。
+
+チョン氏の事務所は2025年に246件のデータ侵害通知を受け、前年の203件から21％増加しました。ハッキングがデータ漏洩の主な原因であり、81件を占めました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3342216/data-leaks-jump-21-hong-kong-doxxing-hits-record-low?utm_source=rss_feed
+
+### 中国、来年から隠しドアハンドル車の販売を禁止へ – 安全性懸念で業界転換
+
+中国は来年から国内で販売される自動車の隠しドアハンドルを禁止する。これは、テスラが普及させたミニマリストデザインが安全上の懸念から段階的に廃止されることを意味する。月曜日に工業情報化部が発表した新しい規則は、2027年1月1日から施行され、ドアハンドルは内側と外側の両方に物理的な操作機構を持つことが義務付けられる。
+
+この規制変更は、緊急時にドアを開けにくいという安全上の懸念に対応するためのものであり、自動車業界にデザインとエンジニアリングの再考を促すことになるだろう。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/03/china-to-ban-hidden-car-door-handles-from-next-year-in-industry-shift/
+
+### 香港のデータ侵害が21%増加、ドクシングは減少 – プライバシー監視機関が発表
+
+香港のプライバシー監視機関は火曜日、昨年記録されたデータ侵害件数が2024年と比較して21％増加した一方で、ドクシング（個人情報晒し）の件数は全体的に減少したと発表した。
+
+個人情報保護コミッショナー事務局は、2025年に246件のデータ侵害通知を受け、そのうち92件が学校や非営利団体に関わるものだったと述べた。全件の約3分の1がハッキングによるものであり、プライバシーコミッショナーのアダ・チョン（Ada Chung）氏は、この状況は香港に「特有のものではない」と述べた。「ハッキング活動は他の管轄区域でも発生しています」とチョン氏は述べた。「デジタル時代では、データを物理的な形で保存する代わりに、事実上すべての企業がデジタル情報システムに保存します。そのため、ハッカーはこれらのシステムをすべて標的にして、システムに保存されている個人情報を取得しようとします。」
+
+ドクシングについては、同事務所は昨年308件のケースを処理し、2024年の数字から30％減少した。147件の刑事捜査を開始し、47件を警察に照会した。18人の容疑者が逮捕された。ドクシング行為は主に金銭的紛争に関連しており、次いで家族や人間関係の対立が続いた。政治的紛争に起因するドクシングの苦情は、昨年のケースのわずか1.3％を占めたと、同事務所は述べた。「政治的紛争に起因するドクシングのケースは、長年にわたって一貫して減少しています」とチョン氏は述べた。「これは、私たちの執行活動が効果的であるという非常に前向きな兆候です。また、広報活動と教育活動の強化、そして社会の雰囲気の変化によるものでもあります。今日では、雰囲気がより友好的になっています。」
+
+同事務所はまた、最近の3件のデータ侵害を報告した。そのうちの1件は、ホテルの警備部門の責任者が、従業員の評価フォームを保管している机の引き出しを施錠しなかったため、他の人がそれを見てしまったというものだ。他の2件の事件は、苦情申し立て人の個人情報を含む雇用終了に関する文書を組織が共有したことに関連している。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842482-20260203.htm
+
+### 葵涌広場、5部門が合同で法執行活動 – 消防署が3件の起訴、警察は「安心できる消費環境」を強調
+
+葵涌広場（クワイチョンプラザ）で、警察を含む5つの部門が合同で法執行活動を実施しました。消防署は3件の起訴を行い、警察は「安心して買い物ができる環境を整える」と述べました。
+
+この合同活動は、葵涌広場内の店舗における違法行為や安全上の懸念に対処することを目的としています。警察、消防署、食物環境衛生署、屋宇署（建築物局）、労工処（労働局）が参加し、消防安全、食品衛生、建築物の安全性、労働安全衛生などの側面を検査しました。
+
+警察は、このような合同活動を通じて、市民が安全で快適な環境で消費活動を行えるよう、引き続き努力していくと強調しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi3gNBVV95cUxOcHA3aXR2WWd3bkdTY2xscFAwcGdWSm1QRGUzZHltRGNHS2hmajdNNEd5aEo5NEptTGRLeVVPSnViWEhTM1dmRFdIancyZTZDVUFJcmYwY0dXaUlCaklCRDdUM01WNzdEVHJHUHhkdXIta09kTGJsRVhTcXBVY21xazFITFBzYk9pUnFvS2VqRUxQTGUyRWtCY01NbzlTeGliaHctSXdQa2Q4eGt4dWRFcGhPa1JSVjBiOVI2bHdWelBIazNqX194c0JBWEVVWjF2QkRMb2JXQTZzYUQ3THdJS3d6QU9EdzBxNFZMdzdzQl9Hb3pIa18wVU94OW00NFZpVnhyempxRGhGOVZUYWxVOGMyX2E4dG0zTzNpbl9uXDFSQ205SGNfWjhoTDhXYWJEcDNQTGR5SVE4VDNqalZyTUNfS2VUQ2tIazFRdnA4dlVBUHJoQ2lFSmsxeG0yVzRpSW9ZdHJaa2ZGUE5mdDhnVGRLODdzenp5LTFnWTlmOFdBd3hXOGJVaDZjU1h3TExEZkkxQ09zNmR6SExFbjRRRHZPNXkwSVBielc0N0VMOFY3aHc1YkZ4Z09lWEZlbWFtMS1OMWlROWY1OWFoUVZucmJ3QmFHSVNfSkl5RHZ3?oc=5
+
+### 大老山トンネルでオートバイとバンが衝突、ライダー負傷で沙田方面の交通が阻害
+
+大老山トンネル（タイローシャン・トンネル）でオートバイがバンに衝突し、ライダーが負傷しました。この事故により、沙田（シャーティン）方面の交通が妨げられています。
+
+事故はトンネル内で発生し、オートバイのライダーは衝突の衝撃で負傷し、病院に搬送されました。警察と救急隊が現場に駆けつけ、事故処理と負傷者の救護にあたっています。交通渋滞が発生しているため、ドライバーは迂回ルートを検討するか、時間に余裕を持って移動するよう呼びかけられています。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNjZGb2xKUG4zT3A2VUg4R2FNLU1rdjdkWUswSkg1eUE3ZFZodHNZTi1kSEJJdHNFMWxWWEJEU2ZJdzhLWDIzRm9Ya0NvVkVtWFNkbXAtSDJVNTU5cGwzcUtfXzBhR0hjYWxtQ2VzVjQ5QjZ2cUVCRjBCVGp0QVYxQ29scWM1Q1lJbEVV?oc=5
+
+### 住宅局管轄の5団地、足場ネット一括購入を開発局が承認 – 議員は「緊急性に応じた対応」を求める
+
+住宅局が管轄する5つの団地が、以前は足場ネットの一括購入を拒否されていたが、開発局は参加可能であることを認めた。議員は、緊急性に応じて対応すべきであり、「各自が勝手に行動する」べきではないと見ている。
+
+この問題は、公共住宅のメンテナンス費用と効率性に関連しており、一括購入によりコスト削減と品質向上が期待されている。開発局の承認は、住民の生活環境改善に向けた一歩と見られているが、議員からは、各団地の具体的なニーズと緊急性を考慮した上で、計画的に進めるべきだとの意見が出ている。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMioARBVV95cUxPcEd6OUFDX1hGQmZuLVBRWEt1bTFCeFdJQ1E4QVhtNjFRZlR4XzFHeUdtN3FWYUk5d2FBU2QyWE1uN2Z2Y2RzOU4yMVRwbkRuZ1NaODhZcmpKLWN1RFd4S0t1SlhSTnBDblp1WE9jX0luTmdKU0h5NHhYR09FRkhreWsxODZEZC0wMGxmWHV0cE5FS3FfMTJtYjkxWVdJOGJ1aDYzdVFRSmpDRUFoZzhjZWg4c0kteTFYUm9NSWlwVVZmMi1Ca2pUMFpGTjVPbWpQRThFUkhHY2N3dzNfRHN1VTZCa1QzSDU5TG5teDFvYk1hWG14aGR1N3JLeUUtRUh5d2JIc0pRNkRSWmlJX2k5Szd2eEVfaWFuNmhOTUFCZTJGamwweG5QSjQwWkVVazE2aU5KZ3pRNTJ6VGwwVjZ1LWhkMWJrYkJKOXJwUVFTZXI2ZmczVjg4RjBkWElCZDZCdWZLdGozZG02SzgwZ2hfLXYwT0t1bGVFR2VhNDFZb1hJeW5oRlFvQWx5XzFRenBfS3BaMTNZckZuTDRfMTRUVlJfQ1p1V2JiazFhZ1Ric2xMdGpBVVZKQVF4d3lXS3hUd1VMNlNZSWtlNVVJbTBOWjVIRmt2bmN1OFFqZGdKVi04cHVhNks0QkVjdjhRQ2lFb0xxcHRrYW43UXFqVmdFZ1hXVncxVnRBbC1sdzFZa3ptMENNQjIydmdncnhFUXVX?oc=5
+
+### 老舗菓子店の手作り「角仔」、サクサク甘く幸せを呼ぶ旧正月のお菓子
+
+老舗の菓子店が手作りする旧正月のお菓子「角仔（ゴッチャイ）」は、サクサクとした甘さで、幸せが転がり込んでくるような美味しさです。
+
+この伝統的なお菓子は、旧正月のお祝いに欠かせないもので、家族や友人と分かち合うことで、一年間の幸福と繁栄を願う意味が込められています。熟練の職人が一つ一つ丁寧に作り上げる角仔は、その風味と食感で多くの人々に愛されています。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi6gJBVV95cUxQYkUxUGZMTFBFVFpUbFozTGhScWhVSUd2TFEtYjRvQzVURmgwdDM4ak1IaWI2TzRKR3JvZDlDWUdETnRqajZWaDNGU1pJNkUtQzU4by1kdER6eEpmVF9kakxtQVhJbjNDelg5Y21DSTRmN0cwLWVCdElCemNQdHQtUTdyNW1GbDh0QS0zSFFLR3FnMk1hc2xRWl9QaTlxZ1c1UkkwSnExRllMblpqMWR6bDdpSzJmclpBUV9kak8xVVhxX3BYTkUxMHgyc0FFUEpTNFduLTV3ODlHY1ZfbXM3OTU0U2kzZ3FsRk5UZHhfUV9FQW1JMTRnUFVjdHRORE1TY3R4RkR6azYzcnVUN3diVFR6eC1hZ1VPcFVGcEd5cUtRam9yZGlvMW5lTERvSFN0cmt3T0FWUE5tQTJPZ2t2NVZNWl8ydjZsQURta2NMRHlFQzJMYTBkUnA1M2h0VkhhMFZGSExQQUdIZw?oc=5
+
+### 公立病院で5年間で50人の新生児が稀な病気を早期発見 – スクリーニング検査が私立病院にも拡大へ
+
+公立病院では過去5年間で50人の新生児が早期に稀な病気を発見されました。スクリーニング検査は上半期中にさらに多くの私立病院に拡大される見込みです。
+
+この新生児スクリーニング計画は、早期診断と早期治療を通じて、稀な病気を持つ子供たちの健康と発達を支援することを目的としています。私立病院への拡大により、より多くの新生児がこの重要な検査を受けられるようになり、香港全体の公衆衛生の向上に貢献することが期待されています。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi-AJBVV95cUxNYTJ5LW9uTmZpUFVCNjFOR01zMU11LVVYWnIzSjZDR2tWb2hFMTRRSHBaUF9nZ2hnUEVFd09YTVhEZkEwdXhLTnR2WEYzblpWcDdiNFZJeHBXYk5tOUpHVzlwQkVGZERGUXpkRlRzNDhVUXNkY1pzZGJCTC1OZmlnLXdrQUZTUTQwTkZVSWpuTW1Cck1VVmFPaW9MNHVvNllsLTJxdWVNQVppek5NaTBCZng0V1pRT0c0UEhCUkVFeU1VZ0RYTjZtZk55RkFVcDZURXVGUjgtOTJ0d3g5OWZQRndpQXFHaEF5LU9oREFuejU2dzlPNVdvTGtralMyUXdLV0ctb1VtcVAyaVkwaERVeTJFX1p3M0NCM2tkak9kVVRvNkdKeFBadGthcXBBRFlmSmVrbHlfdkNYS0ZfMllVTjM5U2RRXzdfLWtUdERXdFlCY3VIdV9mbmI0WFRXV1NzMVZMa2pwX21Wc3ZuaUl4Q3JHYklqV1lZ?oc=5
+
+### 元朗の自動車衝突・暴行事件、勝和の男が他人の妻を奪い14Kから報復か
+
+元朗（ユンロン）での自動車衝突と暴行事件の内部情報によると、勝和（シンウォー）の男が他人の妻を奪ったとされ、14K（十四K）との長年の確執から尾行され、激しく殴打されたという。
+
+この事件は、香港の裏社会における抗争の一端を浮き彫りにしている。警察は事件の背景にある人間関係や組織間の対立について詳しく調査を進めている。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMikgNBVV95cUxOVjN2QVBQZkZ2bU5Mc2Nnck1wUGFPZFJVeC1GTWk3VjdRclQ0QWdrLV9mZHBIQ01EX0FBWnJqbXctTy0yMEF0SURmWk1ZckJPRlBGdi05a25NVXM5cC15UUNwWnRRZkpvdlhiSWJBUjdrU1NjMXJPRlduQmliNVVGS1c5NWhzSDNSRlQtMzJYUzF3RjJ5Rmhfdmx5WHA0cHVmR0lTSkhMa1FZekVEYXV5b3d1bmxVY21SUEQ4dXAxdVFsMkNOajVONVpCdC1yQ01JalJJTXBWcWV3V01SaUFRWFNjdkdyTk95ejJhSWM4NVRtaUl6aGxhdlhxSTVKcWUxREpKVHptSGFQb0tvcnpGQmJnSGJOWVNJVldGZGNGNEtyYUhSVGJrbWtwZXRkeXN6b2pHSnp0ZUpOS20wekIzc2x6Z0NMRENsSWYzMm5IWC1ialdmQUhXTXNIcUtNV1ZrRnJNcjJTYU9OQmI4bTlhNUJwWFNFWlM5VU5oeTBqOHF3VzdPZGlrNFR2cEJXcXZ1RlE?oc=5
+
+### 将軍澳の景嶺書院で複数の生徒が財布を紛失、警察が窃盗事件として捜査開始
+
+将軍澳（チョンクワンオー）の景嶺書院（キングリン・カレッジ）で複数の生徒が財布を紛失した疑いがあり、学校側は懸念を表明し、警察が調査を引き継いだとしている。
+
+学校関係者によると、複数の生徒から財布がなくなったとの報告があり、学校は直ちに警察に通報した。警察は現在、窃盗事件として捜査を進めており、学校内での防犯対策の強化も検討されている。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1JOWdBX3IwSkxneWNlYmNUV2N5UUViWW9OOVRybTZjQy0wWkhqZ081TWFic2dTdHF0SHBlLVNhTWVDSWg4enVSTmVPS0xwR2NpdGp2V3p6VWNSeWpxb3pTT2xZWHBBR2pDQncwbUJxdw?oc=5
+
+### 聖公会徳田李兆強小学校、烏渓沙キャンプ後に小学6年生約10名がインフルエンザ集団感染
+
+聖公会徳田李兆強小学校の小学6年生約10名が、烏渓沙（ウーカイシャー）での宿泊キャンプ後にインフルエンザに集団感染した。
+
+学校は直ちに衛生当局に報告し、感染拡大を防ぐための措置を講じている。感染した児童は自宅で休養しており、学校は他の児童や教職員への感染予防のため、衛生管理を徹底している。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxNU1RNT2EzRXpZMVR6amUxOC1KenFlRmRsNVF6Ukw2YVdQSzdQcFc0YlJzdXhBWVgzWkJpUmRYSktzMFFwdnJRamMtRy1IUWNmdHBEMjF5QWlhQWx6MFZDWGRjcS1qM01EWVVCSE5QQ1lSbjJ0RDVnMG1OLTE0aVV4ZGVjV2Rmc3lLRVhJZFlxdnhiUF91WGJDQWpTb0lJa3FEcnRRbUlkYjBnY1lYb2JvY1Y4dFlLTEs0TVNlZ0FuU25MSHhRYTNvU25yakk5QnBlVDRYYlFTSExueVpyRWxtS2FMMFdRWVg0RGhrSDFJLUpuTFFjemNiaVRKd2lfR1prLXEtQ0Fkdno4ZzVkOU9ueWFydWFTcVU0TzJyMTViSVFPbk52cHcxc0NnOW5CRDJwV0ZCUUxzM004NlJic21nYVFKRmREdG1BdjFVMmZLN2xrSmk2UTVlVWlTR3p2QV9uZEhVWkl2NGNVZW9qYi1OTm1xWTBUYkRoVVkycUlhaWVkM091cUNuaUtMQW9RTUJtWk1peUtSN1BHSWNZbDFwZEk1cV9IdnI1MGpqV0NYNTJnSTA4YTVWV0labTBmdw?oc=5
+
+### 深水埗でバスが外壁のネジに衝突、窓が割れて1人負傷
+
+深水埗（シャムスイポー）でバスが外壁のネジに衝突したとみられ、窓が割れて1人が負傷した。
+
+事故は深水埗の路上で発生し、バスの窓ガラスが破損したことで、乗客の1人が軽傷を負った。負傷者は病院に搬送され、警察が事故の原因について詳しく調査を進めている。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiugJBVV95cUxPWmRaVlhkYXU1YnlUVUljSmRrNlJwWTZVY0VXMTJaLUhpM3Q3ZHhDemxWLTZRZkZSZ29NbXN0aUZIWEhwZWh5Q2NLYUh6elNDUTloRXJySGFpOU9VZ2hiemU2N3JXeFR6Q3Y5N19sekxnSEJCZG9IQldlaERHdmExUll1NUR3M2o4VTE2X3p5MENXWnBHTEZZbWd0aWxxTmgtNVg4N1dCSWZyQ2ZLLXEyaDU5U0xZc29ORWI5dlVVSWE2NXEycUU4NkVEdURoMWs4WE5Xc3dxeUhnREE0SzJ0b1h0SGpwcWlqVUxHcC1VQlhMWkN5WFdEaGdERFRmR2VlMTAyQnhBbDBjS3FrM255c1dhRjNRRTNreEFNc1gySlVfa3FkX21IbWlodHBMcWRlUGNNcTFsWlQydw?oc=5
+
+### 旺角の東華学院で24歳男子学生が転落死、学業問題が原因か
+
+旺角（モンコック）の東華学院（トンワーカレッジ）で24歳の男子学生がビルから転落し、路上に倒れてその場で死亡した。
+
+警察の初期調査によると、学生は学業問題に悩んでいた可能性があり、現場からは遺書が発見された。警察は事件の詳しい状況について捜査を進めている。命を大切にするよう、困難に直面している人々には支援を求めることが呼びかけられている。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMigwNBVV95cUxQV3NSYXdCTkxmdHBYeHU4VnNmMEgtcURuWU01b3VUVkU2VEo0S2FVTElCOTdSMUFUU1hUTEJmZUM3dlI4X1JYcDhwR1o3REZlR216bmVQU085SlpEM1NORERCVTFYY0RqSkdPQXI5ay1wWGpHVUZaMGNVTzVFLUNjRlo1U2JKTHBKWlZnSlJoeVl2NTN6Xzk4anVzVXozRGJTbmJKc25senpmbGRGV2FlSDgyMTYtNy01TG95NmxOTThyTEhjbmJWdlNqVE53YVNZQUdzUU9USFNfakRIdU1UU1pwZk9ON0hpRnpZUHpiaUxneXBYbXNyRjdFMVlOaVMtY1ZtM2hfTjJFcnJoSDNSNmV1QkJUblk4OC01TjQyNlFkcDhkSGxQdnNPOGJhb2hPTjNtb1VvakhZSXFMenZvUlBpM1RuTExjWHRXZXdLMEQ3emZDck5oVTN0UTRBaExzekNPRE5pbnZKUXJETkRCSFR0WHpwMzdIN01BOVFudWFyVFk?oc=5
+
+### 中古自転車売買トラブルで鉄パイプ暴行、買い手が頭蓋骨骨折で死亡 – 売り手が過失致死罪で有罪
+
+中古自転車の売買をめぐる口論で、男が鉄パイプで買い手を襲い、頭蓋骨骨折で死亡させたとして、過失致死罪で有罪となった。
+
+事件は、中古自転車の取引中に金銭的なトラブルが発生したことから始まった。売り手は買い手に対し鉄パイプで暴行を加え、その結果、買い手は重傷を負い死亡した。裁判所は、売り手の行為が過失致死に当たると判断し、有罪判決を下した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxQazlZNExlUTk3cmhDV3BHZTBzUzhLNWp1VU9Cc3RMZWVmMElITTJ5TTc4aWFOWlhHc3JVQWdVa3hicjdMaXg4c1ZVa3dBOUFQY01TcUxQOTA0S2pBeWtYNmNIazRRd09Pb0l6Z2x3ZWx5dExwMHAwQTRoeEN0OGc3TzJ3c2s4ekNuZFJqVDhkbXJCS1VKcG45Tlh1U3ZTUmdxQWdGeFQyTlkwTktySlVhSkVlblQ3NG9CNzJYSzhTS2JMR3ZLbWZja2dWd1lJQVVGN29qdHRHOEFTMUIwcVVVQzY0NWM1ZTVtWDlrdElPZ2MxdXJvNEJ2ejFOdkhBRy13bFNoc3FKdWh5d28xVW1CaW9RVkd1el9OanRacVVuc0Q0RF9UM1VtVm5PM2JUMjdFYXp5WHNFcVlSOG45ZnhaN2NpZU5UTGxYeEVvY1ZPUU1LWUZ1bGRxSjVQTFBMdWNKZjBhTkx6RzMwNkt4WGJJTEJmZGFyQUpIalA4Mmk1Y3RISjZBUFZUWU5EYXlnRG5JQTREMjhqNER5UVYxSjlhdC1kVi04LWJuR3RPb3hva3hSclN0aDZmLTRVSmU4N0Z6ZnpmbzNRbkc?oc=5
+
+### 湾仔軒尼詩道官立小学校の卒業式、生徒は教室でライブ中継視聴 – 保護者から「骨肉の分離」と批判
+
+湾仔（ワンチャイ）の軒尼詩道（ヘネシーロード）官立小学校の卒業式で、生徒は教室でライブ中継を見る可能性があり、保護者からは「骨肉の分離」だと批判の声が上がっている。
+
+学校側は、会場の収容人数に限りがあるため、一部の生徒は教室で卒業式の様子をライブ中継で視聴することになると説明している。しかし、保護者からは、一生に一度の卒業式で生徒と保護者が一緒に参加できないことに対し、強い不満と悲しみが表明されている。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivANBVV95cUxNR0JQVllFNERtS2d4bmllZVloaHMtZW9VZ1A1MndKOExsaEtRQlktdUlJTF95UGRfelNxREVMMmYzNm5GbWlrUWlMeWNSLXBQVlUxZTJ6dEJNRlNhZ2ptYUp4NGtiNV9sUHcyX0xvaDRnT0poYVU0c1M1OTNfVEhyaEZ0VldOYXdvRkVUVkxaRTF6OEVrOGtnS2pvcmxhVVRldmozcTU1U3NaVV9qaEVKLUNDRW9lWVc1VVExd3F2M0pJc09nUnU2TFJycnVqckI0QVQzU3RwcEZwZFlpYjc3bFNjTUxnVmZ1MU9BdUZEVDVieEtLT2xNUzZQSm9wOUhldWlDeVA3c0NzTTNkY0FpcjdEeUwxUGRJQ3Z0Y0dmdFpsMkJsV2cwdHJKMG5rYVBmWEdhaGxsT0ROcW9EZ3l4WkNpUFRMTTI3VTVQYU95eWtnMDBJQ2U1MlREOHEzNGhaVzNYYnRWbUkxOWpFcEJoNEZxeUdpRm85dnNOTUJlYUgxS1JMN2lfSGI3XzdZV0xaaEV0TUlWN0RBX1pUdVF4eV9lUW1JaVl5N0VlbEN4WGpaRG0zNjQ0cHJ1NzA?oc=5
+
+### バス上層階後部で男性乗客が排便、全乗客が降車 – ネットユーザーから同情と理解の声
+
+バスの上層階後部で男性乗客が排便し、その結果、全乗客が降車する事態が発生した。男性が発した一言がネットユーザーの同情を誘い、理解を求める声が上がっている。
+
+この珍しい出来事は、バスの運行に大きな影響を与え、他の乗客にも不便を強いた。しかし、男性が極度の緊急事態に陥っていたことを示唆する発言をしたことから、多くのネットユーザーは彼に同情し、公共の場でこのような行為に及ばざるを得なかった状況を理解しようと呼びかけている。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxOTm9oZS1CNGIzTkNseWhReWdqSDd1OVNXUVlER0U2VVkwY19qOWVBdEY1ME1TdnM3YVZoUTY1QnBzMjNHSkl3WFhvOVpPZlkxUDhiejBEdlVVTkNvN0YxenkyWlpBVlFJQ014RE1HSUdYQ2Zjdm9nMEJaUGhmUzRtNnFtSWZVMHNWVzA3dGJjTHhzOFIyS3JsZmUwQXRrWGlPU2o5TVlkQjlkRmVnSDNYZXFJNlFJUDJuX3ozZHd3QjBaaWl5UFdkY2diVEdQVEtRNkhsb2tDODRoYzZJMHRhaDVhalhnTmszcDZvTmJlclNfUTlBdWhFeEFZNnV0YlAyLVdoSU01bkhhVzRpRmhVY2VVQzJLTUdCcXhIWXdzdy1pM0l2TWRrUm5DbzAtcGtNQlJpT2RucktzVmJ5cFM0dzdxTGg5SkZGTzV6LW8yblZod2R4TFg4a3kwRER3SHNGUDJ0OVEzLWdjbWxPZ0dBRGpNZ3laSEdJYkFCbVllTHdISTh2WGdEU2k1aXZKbVBHMlNlQkJvbXgzZnEtLWRPc2VPY1l6S1FhV2pLdFYweW1aV1Jqc1NwSXVNX2RqUQ?oc=5
+
+### 犬のレストラン入店、初期段階で500〜1000件の許可が年半ばに承認見込み – 火鍋店・焼肉店は対象外
+
+香港当局は、ペット同伴可能施設制度の初期段階として、最大1,000軒のレストランで犬の入店を許可する予定で、最初の承認された店舗グループは6月までに許可証を受け取る見込みです。ただし、火鍋店や焼肉店は対象外となります。
+
+この新制度は、ペットオーナーにとってより多くの選択肢を提供し、ペットフレンドリーな社会の実現を目指すものです。火鍋店や焼肉店が対象外となるのは、衛生上の懸念や、調理方法が犬の同伴に適さないと判断されたためと考えられます。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMilwNBVV95cUxPdkNYYzBMbWFfOUhEX0JLM3E3YnR6bm51S0JoN2VYNEFTM2VlTmhNSUNKZ3hxdlp3aHVGMzEtYmowdGU4eUZKc1R1SERxeGxYTVBJSHhyRWQ4YXBTZHp6VjNwYWwwOFRHUDZwbUxkdnI3ODHoeVpwVDFMOE80WFRGTm1vckpqX3FwQ0FtNkNQekRuRHVTTjFnXzBWcFlxT3dJVk92M1BEV3Jad2VORlZ1VTBnaWNkd2k3RGxpVlRsb19nbUd6U2VXWUNFSUszQlpuTG1sd2VOaDlrVjZkVnVZUXJiVFh6b1BaMkVha0VJSnVzYldaRGJRZEZnbzJyRnhWVHBYd0dDaUtncEl0azdDUTl3cVlGMTJEUzUyeWpiVVBIZm1wSTBNbERKS2pSLU1mcmV0Rzgxd3JiZzFTcmhMcVBkS0I4S0V6YlJvMmFvazFpOTFCQTRuVnJqQWxCYmVyeTFYU0o2ckxnaHd2eEZOeGVTTl9TUEtTbW85aWNnRV9TTnlueUdHN2tSYXd2bTZkc1ZEM3dKRQ?oc=5
+
+### 寄稿｜「晴天林」はなぜ人気を集めているのか？
+
+寄稿記事「晴天林」はなぜ人気を集めているのか？
+
+この記事では、最近香港で注目を集めている「晴天林」という現象や人物について、その人気の理由を分析しています。社会的な背景、文化的要素、そして彼らの活動がどのように人々の心に響いているのかを深く掘り下げています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcmNxSHBoNnREWWhQR2h3MmRmMUJhY2FmWUN4cjhROEphMFBoX1VjLTZYZnRGcmE1Z3BHVnNaaXp0V0RqRjItYnFON1BaSEdaSVVyNlRjRUYxd3NUTm9FeHAxOVlvczdhUzZGcVIzV28tdzRwWFhVY01WRnF4TDZ6TW9tOWRNOHZBQ0VxWGFoQk1FbGREUE9pejdyaHhBTGFoNFcwdVdyUVRIbXp1RU9hTk9iOTRTY2Q1c0lENG5WYWlVd0VmaUdoRFo2WnF0RmgxcVAxa1YtM2lnM1hnb1BwU0F1UzVWQ28?oc=5
+
+### 世界クラスのピザ名店「ヴィンチェンツォ・カプアーノ」、湾仔利東街にオープン – 「空気感」のある生地が特徴
+
+世界クラスのピザ名店「ヴィンチェンツォ・カプアーノ（Vincenzo Capuano）」が湾仔（ワンチャイ）の利東街（リートンストリート）に上陸しました。世界トップ13に選ばれたイタリアンピザと、必食の金色のハサミでカットする「空気感」のあるピザ生地が特徴です。
+
+この新店舗は、香港の美食シーンに新たな風を吹き込むことでしょう。本場ナポリの味を再現したピザは、その独特の食感と風味で、多くの食通を魅了すると期待されています。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMirwFBVV95cUxPc25TS0JXakRNODY5YUoxbGxMS1hRbk5FTEZDQy1abFpVQmtNUm5pQjR3NFlpUG5EMmNJdnphajlNNzRCN3RtUFQzSjkzeXNxcWZMVDhqa041MDhGNXhMOWFqWnI2OHg5cS12RVJudlRYUm9BZG5CTWJfWllQb2N5U0J4Z21XWGh5VDJvTDhjeEktLXczRl9uZEhIMjc2d1A4OFRuV2pOSEYwaDRWVDlZ?oc=5
+
+### ディズニーのディクソン湖で30歳男性が溺死 – 消防が1時間捜索後救助も死亡確認
+
+ディズニーのディクソン湖（迪欣湖）で30歳の湖南省出身の男性が溺れ、消防が1時間捜索して救助したが、病院に搬送後、意識不明のまま死亡が確認された。
+
+事件は、男性が湖で泳いでいる最中に発生したとみられている。消防と救急隊が現場に急行し、捜索活動を行ったが、男性は発見された時にはすでに意識不明の状態だった。警察は事件の詳しい状況について調査を進めている。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMipwNBVV95cUxNem12UTlMd2RWQUxBMVhRZ0lJVzQ1eEE1YkxLalVZeUlQMmtFQWpIWHBpN0pEZGFYVkpUR3BIdmUtXzAtRS1wOTM2TUdLMUMtV2tBNVBQRkxPSVduZUF3Wm5SRlVwRVlQT0FyTUduNlppYURlLUtuLVRMLVhHei1OUFZWbTh1RXlDYy1BVmVfNjF5TDN4NFJXMmVfaElyMWhMWEJMRWJ2am9EOXBmNmQtYWpZMVRVYTNtWDJHT1ZERFVpTk44bEtLSnZOczhLRVZjSmN6bmhNQ2pPdzUycWcxeDhPV1VOdVVLZ2h6N1phMmV5cEsybnBxb3BJT0xseVNqeV9ST2VUWkx2bFJxZ1pNTU5nSG9pMVVSUzhxMV8xalI3Z1ZHb0ZMYkFWNjNRajN6VGgzUktTWHFwUW1GWU13N2VNRllMNWN6SWlIbTBLdGlDb1pxMWI0U2h3ZHFmRlJJMGE4WWpydF9wcEhIcFg1Z3laVVJyTmRBdjNndUc5aFZTaFIzWnpqTHlORkZRVnJaYVNmTUQzQ2NUdGdQeDVrQ19zdUhESHc?oc=5
+
+### 中環蘭桂坊のレストラン「L’Amour」で食中毒、4人が生牡蠣とサラダで症状
+
+中環（セントラル）の蘭桂坊（ランカイフォン）にあるレストラン「L’Amour」で食中毒が発生し、4人が生牡蠣とサラダを食べた後、下痢、嘔吐、発熱などの症状を訴えた。
+
+衛生当局は、レストランの食品衛生状況について調査を開始し、問題の食品サンプルを採取して検査を行っている。食中毒の原因究明と再発防止策の徹底が求められている。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMixgNBVV95cUxQcExjcFV4MWJKNHo2UnhWWjdDV1FXa3RZcHN1SVFRYUd3MHpRUXRVN3NPMGtjamdSdHpIajFLM3phdmtXbEktQTVYNnFhWWxGRk1QTHhOdjJTMnhtMkJLeGtqNWJqT2c5MjJIYXB6bFNqRnV0YldCeU10VUF3clY2Yy1Kd1B6ZzV6SE9ua1k1MUp1M1Q5cHZadkVPSFZDMlluamFFSzd4VDM4bkIzT2Ixb0gtUk1YT2tNMG1TanZsVXV2a3VZTnVfeHJNcWhlZ2xvdnJsYUs5VFA2eWNJcjd3OUtkRVFxR3oxUy1yUHVmalVmLUcwSUhLdmhtVTN3VEJfdkMtc3hVTmd6eGJRcnp1TUFOajhianotVklyRmwtYnRnVF9pMm1xaVNoOVJRTWRHX2MzT0tmVGRKNnhGRWR3dzVDM2hfRXZYUzVBUnBFelVNWkFURjZVUnBKM1pvbHU5RDF4cnl5QVR4cXFEeHUwak5GWDNPMzJReU9MWWhjZVVZTGNGY3N3UVIwMkFFcWtaSjEzM3BJZ2N6MUdNM0pNS0hJOWtBUXJ3RmtCRWhpTjVaN1ItWVg0bUJKdVVLX2JwM25RaV9n?oc=5
+
+### 北角のビル修理中にコンクリート片が落下、フィリピン人メイドが頭部負傷
+
+北角（ノースポイント）のビルで足場を組んで修理中にコンクリート片が落下し、道路を渡っていたフィリピン人メイドが頭に当たって負傷した。
+
+負傷したメイドは病院に搬送され、治療を受けている。警察と関係当局は、事故現場の安全管理体制について調査を開始し、同様の事故の再発防止策を講じるよう求めている。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXE1VG0tZDROMW5YNGxSSmRBbXE2V3VXaVhSeTRNOS1iMklTQ0NaNlBPUUpJeVVDaHd0MjQzTEVNOHJqWm40UlZURGlCTFEzblVyWktZX0FGVzVUelQ3OFZ6TTdrcm1uYUFjN3RaSlNjZHNKT3RIUkJMR0loN3cwcVROZXlJSzdWWDdn?oc=5
+
+### 伊利沙伯病院の顧問医師、泥酔暴行で3年間の善行誓約
+
+伊利沙伯病院（エリザベス病院）の顧問医師、ロー・ワイラム（羅偉霖）氏が泥酔してグラスを投げつけ、人を殴ったとして、3年間の善行誓約が認められた。
+
+事件は、ロー医師がバーで泥酔し、他の客や女性マネージャーに暴行を加えたとされるもの。裁判所は、彼の行為を重く見たものの、過去の経歴や反省の態度を考慮し、善行誓約という形で判決を下した。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMixgJBVV95cUxPU0cxNkNROVVzUXpHOVkwdEZjSVIxdm1xMVdrRkZVQklDYjVNRjdWUUZxTWc1UzJNQXJuZ08xamx2emtJSWJsaEpoUWJmQjRfNzQwLUJ0WlBsRmotUGVlU05NNFJvNjh0STV2VWloVzRabWRtSDFJY0dTdnBpSTdwMEx6QUQ3Q254WHhQTGN3T2VpRVBXaVZrWnBkeUp5VXVfaXRWc1ZkNnUzSmlxTG90ZGMyU2FNR2lWREFZWU84bHhNelBFYUVBbmxyeGhQNFNSVzlDRmdzaVgtZkZQUFI0aFlWOE9oTDcyc3FiclFCMUpOUnJoNnBQaVBFMFF5cGI3XzJISnNxQTJXZENxZTlPU3Ntb2hUWHgyWWdCYy1DRGFqenJmb2hZVVJUakFaYjA1MVdmY0pZY0tNNEVuQ3BlQ3kzUk9tZw?oc=5
+
+### 東方日報A1：公立病院が値上げで市民から搾取、病院管理局は高給で過去最高を記録
+
+東方日報A1は、公立病院が値上げを通じて市民から「民膏を刮（か）き集めている」と批判し、一方で病院管理局の幹部が高給を受け取り、過去最高の給与水準に達していると報じた。
+
+記事は、公立病院のサービス料金が上昇しているにもかかわらず、病院管理局の幹部が多額の報酬を得ている現状を問題視している。市民からは、医療費の負担が増える中で、幹部の高給は不公平であるとの声が上がっている。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaEZFUWdzTjdRVGlHTHpvNy15eVQwX0h1cmY3MTNoZ2dnYWZkOTgzcjZiSlMwRl9QbzltUFc3ZlV6YkVWSWduLVhrVzFEZTcxTkdQOW5NQlQ5M1VYZkJGWFdPR0RWSGJyRElDZUNweXAtRVlKTWc5MGpUZnBYbVNOTHhRaXNzUi05Qlpn?oc=5
+
+### 新鴻基地産執行役員フォン・サウイム氏が健康上の理由で辞任 – クォック会長は西九龍を「中環2.0」と表現
+
+新鴻基地産（Sun Hung Kai Properties、00016）の執行役員であるフォン・サウイム（馮秀炎）氏が、以前中国本土での汚職疑惑で停職処分になったと報じられていたが、本日、新鴻基地産の会長兼マネージングディレクターであるクォック・ピンルン（郭炳聯）氏が公のイベントに出席した際、メディアからの質問には応じなかった。イベント終了後の午後4時過ぎ、新鴻基地産は、フォン氏が健康上の理由により執行役員を辞任し、本日付で発効すると発表した。
+
+クォック会長は、イベントで西九龍（ウエストカオルーン）地区を「中環（セントラル）2.0」と表現し、この地域が香港の新たなビジネスハブとして発展する可能性を強調した。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E9%A6%AE%E7%A7%80%E7%82%8E%E8%AB%8B%E8%BE%9E%EF%B8%B1%E6%96%B0%E5%9C%B0%E4%BA%A4%E6%8E%A5%E7%91%9E%E9%8A%80%E8%A5%BF%E4%B9%9D%E6%96%B0%E7%B8%BD%E9%83%A8-%E9%83%AD%E7%82%B3%E8%81%AF%E5%BD%A2%E5%AE%B9%E8%A5%BF%E4%B9%9D%E7%82%BA%E3%80%8C%E4%B8%AD%E7%92%B0-20-%E3%80%8D-%E6%9C%AA%E6%8E%A5%E5%8F%97%E5%82%B3%E5%AA%92%E6%8F%90%E5%95%8F%EF%B8%B1yahoo-104630495.html
+
+### アルフレッド・シュー・シーヤン氏死去 – ドナルド・ツァン氏が「生まれながらの公共サービスリーダー」と追悼
+
+アルフレッド・シュー・シーヤン（許仕仁）氏の死去を受け、ドナルド・ツァン（曾蔭權）氏は「深い悲しみと苦痛を感じている」と述べ、彼を「生まれながらの公共サービスリーダー」と評した。
+
+シュー氏は香港の元政務司司長（Chief Secretary for Administration）を務め、香港政府の要職を歴任した。ツァン氏は、シュー氏が香港の公共サービスに多大な貢献をしたことを称え、その死を悼んだ。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiggNBVV95cUxNbE9LOHlCY1lJQ1lWRUlUeUNWR0xxNkh2S2FBdFFOR0tEUWVYWFRVTlNhWnNpQmd5b21WOEhDUk53cDBHZmw0cTlwbkMwWTBSRnFQWGV4NWJubFMtd3p5WFVVWFB2eEtOQ1UzVE5rMmwzNDE2eHJ6UVM2eTl0Uk1HWTJiRUU0WnNtTndEZDNHRTR1czdxUGg5UVZnUW02clBlZ0JpNWhVZ29jMzZvVm05Q0tqRjZZUlowN2RfcUU0ZXVzRUxyY2JUS0lIWG5femM5QzYyZVpENGNPM0RjTUJ2eVcwcS1BcC1CVEZTYzB5T2hHQzRXVVJDeW5rcFo1STItN3dtV2wzVFhKbEh2WmpLOEFKdlNLeG5YT3RObERlc0VBTTFwemJiTWpYYURFcmdjX09zc1NHUWZJeWR2c19sRGFnVmVVcmVUSHFyblhWRXpqOVdjOTBzSTdmLUc4YkxlZnFYMWdoTlJnUlFENEpnVGtkNmYycGNHZnJlZDg1QnkwUQ?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年02月04日 06:16

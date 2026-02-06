@@ -1,0 +1,438 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年02月07日)
+thumbnail: images/article-header-20260207_061148.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年02月07日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年02月07日05時45分に発表した天気報告
+
+寒冷前線が広東沿岸を通過中で、これに伴う北東季節風が徐々にこの地域に影響を与えています。沿岸地域では、夜間に気温が著しく低下する見込みです。また、雲の帯が南シナ海北部を覆っています。
+
+香港の今日の天気予報：
+概ね曇りでしょう。朝は一時的に小雨が降り、視界が低いでしょう。午後は一部で晴れ間があり、最高気温は約21度でしょう。夜間は気温が著しく低下し、市街地では最低約16度、新界ではさらに1～2度低くなるでしょう。風は穏やかからやや強い北東の風が吹き、高地では時折強風が吹くでしょう。
+
+見通し：
+今後1～2日間、市街地の最低気温は13度前後、新界ではさらに1～2度低く、月曜日は風がかなり強まるでしょう。来週半ばの朝は引き続き涼しいでしょう。
+
+**引用元**: 香港天文台
+
+### 香港政府高官、外交的緊張の中、日本領事館イベントを欠席
+
+日本と中国の外交的緊張が香港と日本の関係にも波及する中、香港政府高官が日本の領事館イベントを欠席しました。在香港日本国総領事館は木曜日、今月下旬に迎える天皇陛下66歳の誕生日を祝うレセプションを開催しました。この恒例行事には、例年であれば香港政府のトップレベルの代表者が出席していましたが、今年は欠席が目立ちました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/06/hong-kong-officials-absent-from-japan-consulate-event-amid-diplomatic-tensions/
+
+### 在香港日本総領事、天皇誕生日を祝うも香港政府高官は欠席
+
+在香港日本国総領事の三浦淳氏は、東京と北京間の緊張が高まる中、天皇誕生日を祝う式典に香港政府高官が欠席したことに触れつつも、領事館が香港との関係改善に向けて「着実に進展している」と述べました。三浦氏は木曜日、天皇陛下66歳の誕生日を祝うイベントで、日本と香港の友好関係に感謝の意を表しました。「主賓は特に設けておりませんが、私は...」と述べ、香港との関係強化への意欲を示しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3342560/japans-consulate-hong-kong-marks-emperor%E2%80%99s-birthday-city-officials-absent?utm_source=rss_feed
+
+### 香港人カップル、深圳のホテルで隠しカメラによる盗撮ライブ配信の被害に
+
+香港人カップルが深圳のホテルで親密な時間を過ごしていたところ、隠しカメラで盗撮され、ライブ配信されていたことが判明しました。男性がアダルトビデオを見ていた際に、自分たちがその映像の主人公になっていることに気づいたという衝撃的な事件です。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxPY24waF9kVGtSOF9XdlRxR3M3UU84Mm43NUZmU204Vm40dkJ1R1JwN1hnRndQa0txdlI2SFNSeEdlSVdHdE9Yd2FRdGtlbzdMMlA4aDZQamdFTjJMd3o4SHNRLWVBT0Nod1Bkdl9Kb0FNVHNHS3NLS1RxekZVNUgyeTA0YVNpMndJQ2NjNERmcExyNzhtNzcwdDdWTHFpOHIxcURoYVNsSmlfNVBLQWxIOW44ZGYxazB6SmxpSHg0bENvMkxIX0pZX2FMRFU3VGtqSXpyNHdaMjNDUk5SNU1tQ3hNanRXSXhCQWN3WVQ2UG5TOUNYc3FpXzdxUzJPQUl1YzNfcTdoQU02WEJ3OWtxUHRIY3N0LVNYSmtSVXhTLXVZYnd0SjhLMHFpSVMxekswSFpGeFR6MlFHNTBFSHN5R2hhUUJ2MzVCMU9NVTFsazF6ei1JQkVvdy1pdThxc1QzNGZiekU2M2FqXzNxSXpVWWxIVi1XOFBmN0FBTjZ6MEptLXVwZEJ2dS1INUthVXoybFFaWXBuU0ttMUhHQW5xQ092SVRlUDNNOEtsa1huUXB2OGVwcHdRUWZyZ21UV2h4cHExZWpPRFU?oc=5
+
+### 香港、今後20年間の交通戦略青写真を発表：ライドヘイリング、自動運転、スマート交通を推進
+
+香港政府は金曜日、今後20年間の交通戦略の新たな青写真を発表しました。この計画は「快適な移動」「よく繋がった都市」「健康的な移動」という3つの主要テーマと、6つの主要戦略、25の提言を中心に構築されています。
+
+この青写真の一環として、「八縦八横」の鉄道・道路インフラ計画におけるルート6全体が今年後半に開通する予定です。また、洪水橋（Hung Shui Kiu）、新田（San Tin）、紅磡（Hung Hom）などの戦略的な場所に交通乗り換えハブを建設する計画もあります。
+
+自動運転車については、運輸署長が作業部会を主宰し、技術の広範な応用に向けたロードマップを策定します。この青写真では、今年第4四半期に最初の認可されたライドヘイリングプラットフォームの運用開始も目指しています。
+
+運輸長官のメイブル・チャン（Mable Chan）氏は、当局が計画の成功裏の完了を確実にするために取り組んでいると述べました。「全体的なパッケージが整い次第、もちろん現行の立法会に諮問します。それが、運転手、ライドヘイリングプラットフォーム、および車両の免許を規制するために必要な様々な法改正を進めるための基礎となります」と彼女は語りました。
+
+政府はまた、港湾横断交通容量を拡大する方法を検討しており、低空経済を促進するために20以上のドローンプロジェクトを正規化する予定です。年末までに、政府は供給を増やすために12,000台以上の駐車場を追加することを目指しており、将来の駐車場の需要と供給に関する調査も開始します。
+
+歩行者環境を改善するため、今年から将軍澳（Tseung Kwan O）や石門（Shek Mun）駅付近を含む香港全域の15の適切な交差点で斜め横断が導入されます。この青写真には、電動モビリティデバイスの使用に関する規制措置を導入するための改正法案を今年中に立法会に提出する計画も記載されています。
+
+運輸長官はまた、広東省からの車両が香港に入国できる「広東省車両南下旅行」スキームを拡大する計画であると述べました。「これまでのところ、安全かつ円滑に実施されていると思います。当初はいくつかの問題がありましたが、道路安全に関する様々な対策を迅速に強化しました」と彼女は語りました。「現在の課題は、広東省の既存の4都市に焦点を当てています。これまでのところ、需要と予約数は増加しており安定しており、このスキームを拡大するために、より多くの経験を蓄積できるよう、綿密に監視していきます。」彼女は、政府が来年までに香港、広東、マカオの運転手向け商用車免許の相互承認に向けて取り組むと付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1842947-20260206.htm
+
+### 旧正月期間、中国本土からの観光客143万人を予測、通関時間は現行維持
+
+政府は、旧暦28日から旧暦7日までの期間に約143万人の中国本土からの観光客が香港を訪れると予測しています。この期間中、現在の出入境管理時間は維持されるとのことです。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi_ANBVV95cUxPMnZkQ09ld3hpX2JsOHNpRGhOY0VBU3VTODJjQlpkdV9WZmw0MGhybGttZjI3QlhtZmtjT0xRUXYxRmpXWmJwSjAwYzlYNDNxd3BuWFVBcXFDakpTWFlQZ3Z6M1otTTd1Y2Z2enJRb2V5cHJCT1hUUnB3N3RXNFBGdmJIQ1VtaEJ1d0d4b3N6bjhUaTZyMkxQU3RKYjFYUDNoS0JlbEZFWDhoeC1FTjJBdW1YZTg4MjdLbmw1bDJveHFzTG5DSWNTTlRPLTdtTGJuRFV0dU52Ynd2eThkZUVHWmVkaWotMjVDc0dBOVRiS25HVnlpcUdpemlvaGJfekFNNjVxUzk0NElYMC02YjRtWjhubG1rT0JkR20yUE5DMEFuNDBhNGp2aFktRkpIb19Yb1RCd3lxYjdqeWdVUXoxc2VhOW1SWGdTRjFNck1WMjZXc1pTcGdhZDVsb1o2eXA5YlM2WFNYZmUzQVhxd1AxSnVIdi1mVGpfa0ktTS1BVS03alpwaEY5VHdYOXhQNUFvU2FPNDdla2RacWY4M3pXRWRNWC1qRW5wTlRCeFRzUHNtTXBIYnQ4ckQ4Y01zci1jV2FFRlFoazVNc2dHTUJzLS1VdnZkMnJ5cEJKME9YUE9IUW5kVUtQcHBPcTFGWFZJelN0WXpGalpibEw5?oc=5
+
+### 香港、2026年第4四半期までに認可されたライドヘイリングサービスを開始へ
+
+香港初の認可されたライドヘイリングプラットフォームは、今年第4四半期までに運用を開始する見込みであり、当局は交通戦略の青写真の一環として、タクシーサービスを改善するための措置も提案しています。運輸署は金曜日、低空経済、自動運転車、スマートで環境に優しい公共交通システムを含む124ページの戦略青写真を発表しました。長期的には、タクシーとライドヘイリングの補完的な強みにより、都市の交通システムがさらに強化されることが期待されています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3342630/hong-kong-launch-licensed-ride-hailing-services-fourth-quarter-2026?utm_source=rss_feed
+
+### ライドヘイリング：運輸戦略青写真、認可プラットフォームの年内運用開始を予測
+
+運輸戦略青写真によると、最初の認可されたライドヘイリングプラットフォームは、早ければ今年第4四半期に運用を開始する見込みです。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxOaDhlVXlROTZoRWgyQnRGR052WmR4dXhSSENBaHVreV84dkJma2NhWDZBTjlKajlkWHdybzlBM1piVkszX1JLbndSNU9Dd0tlQTl2T3d4U1RzcEVxZ3hLNWZrcHlYMEFfMTNuY0ROTzRFTjYwcVpYVTRrNC1RaW1pZmgtVXNUc0VZd19RZktoWWFTRUVCNUFsWkR3M2pJN1dxSjExMTRVT0NmcjBqNE41MU8zSTBlcnhOWWx0dFFhUEpsQXRGOHFoN2dSNEZYeEJDUjJIQXU5QldaMFVnbXE5TzRBdENtNzN2a0ZNLUx0aGlyY1ZPMm5XVVNhTGRUZzZDQ0c5YzJxWWItWDg5UjRQWmI3X2tYWm1QSWUtcHdQU25yT3lRS1ZoMkEyS050bU5mb1kyYzZqSHRhN3I1NVBPSXFKcXBFeXl5SWdnUVZSeUpfV3pZMXhFTG1FMW5rLVQxRTh4VFRpUmhwM0hyaHAwN3ZCX3lYSGpOc1hZVDFxVEg4VUloSEFzODR5UGFSQ3lGRE9ZaVBySjd3dTItVDZqYm51aVRTS0YyX0dYSHRDclJTcjgyMVdJM1FPVkNfS2l4MGVjVEw2X1g?oc=5
+
+### パナマ大統領、運河港湾の特許権は今後単一企業に付与しないと表明
+
+長江和記（CK Hutchison）による港湾売却に関連し、パナマ大統領は、運河港湾の特許権は今後、単一企業には付与されないと述べました。これは、パナマ運河の戦略的な重要性を考慮し、競争と透明性を確保するための措置と見られます。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi2wNBVV95cUxNTzhBZ2ZlcnBLYzVXeXBxS2NBRnhmVlU0Tzg2VmdPQ241UlptZDd2djVIN0xDcmt4d0EwYVZmcFh2a3VkNlB5azR3cmJiUHAtaUZ3RUhyVGRTclhIaXFKREk4QWN0RkhBOGtScnVnWHZ4YU90ZmluSFl4UjB1bDd5RUtLanJ5cVdDY3JJbUY0cDVhbGFxY1MtREtFS3VhVFRXTURYQ0gwUjQxTFlkTHctRTVWNTNZaVR0dVhIWXpHWTZCS1RQdGZ4VmZuOHNPM01PaWcteGp3WVNhaW5DYWpDcEdTdElLWFExOE1CWTlYcWJvYy0zQlZEVENaSUFfek5tTjRJMU0wWGVRUmpDOGpGcGhTR29jZUJHZ2FsZ25HM1YtdjBzRkdPYnh2LXpBTU5mbTJuQ1FJWFhCcWM0LTZuSWROT2pINW9mY1lBRjdVaVJ6TlFjUVNVaERWRVl6ckRDeXBxdXA2UnhseW5mb0d6VURyVmREUlpnRGI1RjJQUDNDc0pTcV96dmZuYjlUWkt4bEM3Mlh3XzVOVFBYLUFjT1FCVFdsZExiNGdWYjAyeV9SdjBROU9pM2lkbjBRZVhvWHdxa1VXbTVpNWFrV0NpMEF6VjNGU09veXlj?oc=5
+
+### MTR：堅尼地城駅と柴湾駅間の運行に5〜8分の遅延
+
+MTRは、堅尼地城（Kennedy Town）駅と柴湾（Chai Wan）駅間の運行に、さらに5〜8分かかる見込みであると発表しました。利用者は時間に余裕を持って移動するよう呼びかけられています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9mMWo3ZTRXdTRKV3o3Vll4dGZPU1BnRHlkQ3BsS2lJVWtGd2g5aWdTZm5OVFppQ1BZU3M0NlppbG9SZE5RbnQ5OVRQcjFiR3EwY1NsX1lzbzJrbjZ4VkxwR3AzNUl0R3RtTTlreTlKVQ?oc=5
+
+### 香港、海外商業不動産投資のトップチョイスに返り咲き
+
+CBREの報告書によると、香港の商業用不動産は今年、越境資本にとってアジア太平洋地域で5番目に人気のある投資先となり、打撃を受けた香港の不動産市場の改善見通しを裏付けています。ナイトフランクの報告書によると、香港は2025年第4四半期に世界12の超高級市場の中で2番目に多くの高級住宅取引を記録し、第2四半期に始まった回復を維持しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3342451/hong-kong-back-top-choice-foreign-commercial-property-investors-study-says?utm_source=rss_feed
+
+### モルガン・スタンレー、香港IPOが450件に達し、今年も記録的な年になると予測
+
+モルガン・スタンレーのアジア太平洋株式資本市場責任者であるキャシー・チャン（Cathy Zhang）氏は、香港での上場を希望する企業との連続会議の後、声がかすれていました。チャン氏は1月30日のインタビューで、「1月に見られた勢いを考えると、今年のIPOの価値と件数は昨年を上回る可能性が非常に高い」と述べました。先月、香港では約100社が株式公開を申請し、2025年の同時期の3倍以上となりました。2025年には香港が、世界有数のIPO市場として再び注目を集めました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3342365/morgan-stanley-sees-another-record-year-hong-kong-ipos-pipeline-hits-450?utm_source=rss_feed
+
+### 銀行家、活気ある香港市場が海外からの上場をさらに引き付けると予測
+
+マレーシアの土木建設業者BBSBインターナショナルが先月香港に上場した際、その募集はほぼ11,000倍の応募超過となり、取引開始日の朝には公募価格0.60香港ドルから5倍以上に株価が上昇しました。BBSBは、最近香港に上場するために集まった非中国企業の一つであり、香港の新規株式公開（IPO）市場が活況を呈しているため、今年はさらに多くの企業が続くと銀行家は予想しています。かつてニューヨークとロンドンが主要な上場先でしたが、香港の市場の魅力が増していることが示されています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3342363/vibrant-hong-kong-market-attract-more-listings-abroad-bankers-say?utm_source=rss_feed
+
+### 香港、レストランでの犬の入店許可提案を「前進」と評価
+
+香港の議員たちは、最大1,000軒のレストランで犬の入店を許可するという政府の新たな提案を「良い一歩前進」と評価し、ある議員はこれをペット経済の「試金石」と呼びました。農業・漁業部門の議員であるチャン・ポクチー（Chan Pok-chi）氏は水曜日、この措置は一般市民とレストラン経営者の利益のバランスを取るものだと述べました。「当局が過去30年ほどで規制を緩和したのはこれが初めてです。これは、社会のニーズに対応する提案だと思います」と彼は付け加えました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3342325/governments-proposal-dogs-eateries-step-forward-hong-kong-lawmakers?utm_source=rss_feed
+
+### 40歳の養豚農家、補償金では再建不可能「お金ではなく、ただ養豚を続けたい」
+
+40歳の養豚農家が3つのものを失いました。約1,600万香港ドルの補償金を受け取ったものの、養豚場を再建するには4,000万香港ドル以上が必要で、多層式養豚の申請資格がないとされています。「お金が欲しいわけではない、ただ養豚を続けたいだけだ」と彼は語り、現状への不満と養豚業への情熱を訴えました。
+
+**引用元**: Ming Pao Weekly
+
+https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRWk1QWxDazIyaU90ZmZUaFBQUkJxdWNfMjBYSm1ROTdHcXZTYWs3OWlla25mRG5yaGN5ZWlhcVU0cVJWUFJCYURLTi03NXI5Q3ZMaXpUUnpiaUlSdm9uZEw3a0otM3RSbFNkSlRCRFRrZFp3QUhUeENGX3JwRm5mc2xqcWtMMmY0MzhLTkUzS09LMFFpTVNCVHJqS2o1ZkRibHdRYzVtMExwTDFjdUttS3FnVC0tRDUwMHpuUlZLWXFfRDZ1RkJadVZ6YTVQX2ItYUdxY0lvSzZKc3ExcVluem5yVG5SeXVaYzRUZjlKN3NQQQ?oc=5
+
+### Yahooニュース速報：鄭曦琳氏逮捕、快手罰金、鍾柔美氏の告白、そして天気予報
+
+おやすみなさい！今日は2026年2月6日金曜日です。広東沿岸は現在風が弱いですが、寒冷前線が南下しており、明日の朝には沿岸地域を通過する見込みです。明日の香港の気温は、午前中は約19度、午後は晴れて最高約21度ですが、明日の夜には気温が著しく低下し、市街地では最低約16度、新界ではさらに1、2度低くなるでしょう。明日の夜外出する際は、十分な上着を忘れずに！
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E8%97%A5%E5%80%8D%E5%AE%89%E5%BF%83%E5%90%B9%E5%93%A8%E4%BA%BA%E9%84%AD%E6%9B%A6%E7%90%B3%E8%A2%AB%E6%8D%95%EF%BD%9C%E5%BF%AB%E6%89%8B%E6%B6%89%E9%BB%83%E9%81%AD%E7%BD%B0-119-%E5%84%84%E4%BA%BA%E6%B0%91%E5%B9%A3%EF%BD%9C%E9%8D%8A%E6%9F%94%E7%BE%8E%E6%89%BF%E8%AA%8D%E8%AA%AA%E8%AC%8A%E9%9D%9E-a0%EF%BD%9C2-%E6%9C%88-6-%E6%97%A5%E3%83%BByahoo-%E6%99%9A%E5%A0%B1-133040767.html
+
+### 博愛病院、屯門藍地の高齢者介護施設が上棟、2027年開所予定
+
+【Now新聞台】博愛病院が屯門（Tuen Mun）藍地（Lam Tei）に建設中の高齢者介護施設が正式に上棟し、2027年の開所を目指しています。労働福祉局長の孫玉菡（Chris Sun）氏や社会福祉署長の杜永恒（Gordon Du）氏らが上棟式に出席しました。孫玉菡氏は挨拶の中で、高齢者介護施設の完成後、より多くの高齢者向けテクノロジー設備が実際に活用され、高齢者介護サービスの質が向上することを期待すると述べました。このプロジェクトは博愛病院と香港応用科学技術研究院（ASTRI）の協力によるもので、1,400以上のベッドを提供し、香港で最大規模の施設となる予定です。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%8D%9A%E6%84%9B%E5%B1%AF%E9%96%80%E8%97%8D%E5%9C%B0%E5%AE%89%E8%80%81%E9%99%A2%E9%A0%85%E7%9B%AE%E5%B9%B3%E9%A0%82-%E6%96%992027%E5%B9%B4%E5%95%9F%E7%94%A8-111224678.html
+
+### 香港の幼児、汚染された粉ミルクによる体調不良の疑い
+
+香港当局は、1歳の女児がネスレの乳児用ミルクを摂取後に食中毒になった疑いがあると発表しました。また、汚染の懸念が高まる中、約50件の子供の体調不良の報告を受けていることも明らかにしました。食品安全センターは別途、ドイツから輸入された「Aptamil Profutura DUO Advance 1 (800g)」の390缶を直ちに棚から撤去するよう命じ、市全体の回収対象を第2バッチの粉ミルクに拡大しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3342731/hong-kong-toddler-suspected-have-fallen-ill-tainted-milk-formula?utm_source=rss_feed
+
+### 医療評議会、苦情処理の期間設定を義務化する改革案を提案
+
+香港当局は、医療過誤の疑いに関する調査が15年間遅延し、子供が永久的な障害を負ったことに対する世間の反発を受け、医療評議会に苦情処理の期間を設定するよう求める改革案を提案しました。保健局は金曜日、監視機関の構成改革も提案し、より多様な背景と資格を持つ医師を導入し、32人の委員のうち8人しか占めていなかった一般委員の割合を増やすことを目指しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3342725/medical-council-set-time-frame-sorting-complaints-under-proposed-shake?utm_source=rss_feed
+
+### CLPパワー、新界での電圧低下によるエレベーター閉じ込め事故を調査
+
+香港のCLPパワーは、金曜日の夜に新界で発生した電圧低下により、数十人の住民がエレベーターに閉じ込められた件について調査していると発表しました。消防局には午後6時半から8時の間に、エレベーターに閉じ込められたという報告が50件以上寄せられました。報告のほとんどは沙田（Sha Tin）と馬鞍山（Ma On Shan）からでしたが、葵青（Kwai Tsing）と旺角（Mong Kok）からも数件ありました。香港最大の電力供給会社であるCLPパワーは、馬鞍山と沙田を結ぶ132,000ボルトの送電網で電圧低下が発生したことを確認しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3342721/hong-kongs-clp-power-investigates-after-voltage-dip-traps-dozens-lifts?utm_source=rss_feed
+
+### アディダス、香港の店舗での試着室事件について謝罪し、プライバシー見直しを約束
+
+アディダスは、香港の店舗で女性が試着室にいる間に店員や他の客がカーテンを開けたと苦情を申し立てた件について謝罪し、顧客のプライバシーをより良く保護するために試着室の包括的な見直しを行うと表明しました。このスポーツウェア大手は金曜日、ソーシャルメディアの声明で、同社の経営陣が顧客と面会し、謝罪と支援を提供したと述べました。「アディダスは常に顧客のショッピング体験を重視しており、安全性とプライバシーは最優先事項です」と声明は付け加えています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3342715/adidas-says-sorry-over-fitting-room-incident-hong-kong-vows-privacy-review?utm_source=rss_feed
+
+### 肺がん治療の最適な時間帯を発見、患者に新たな希望
+
+進行性肺がん患者が特定の治療を早い時間帯に受けると、より長く生存することが研究で明らかになりました。香港の医療専門家は、この発見が最適な治療時間の可能性を開くものだと述べていますが、さらなる研究が必要であるとしています。この研究は、中国本土の湖南省がん病院の学者らが主導し、香港中文大学医学部の支援を受けて行われました。研究によると、午後3時前に免疫化学療法を投与すると、生存期間がほぼ2倍になったという結果が出ています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3342699/patients-given-more-hope-study-finds-best-time-for-lung-cancer-treatment?utm_source=rss_feed
+
+### 2025年1月から11月、香港市民がオンラインショッピング詐欺で3億5000万香港ドルを失う
+
+2025年1月から11月までの間に、インターネット詐欺師は香港の消費者をオンラインショッピング詐欺で約3億5000万香港ドル（約4480万米ドル）騙し取り、このような事件の件数は前年比で8％増加しました。警察はまた、この期間の事件の約63％が偽のコンサートチケット販売に関連しており、別の9％が偽の電子機器販売に関連していたと述べました。金曜日に発表された数字によると、最初の11ヶ月間に11,449件のオンラインショッピング詐欺が報告されました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3342698/hongkongers-lost-hk350-million-online-shopping-scams-first-11-months-2025?utm_source=rss_feed
+
+### ビットコイン暴落の中、香港の個人投資家が買い漁り
+
+ビットコインの暴落は、香港の一部の個人投資家が、その価値がピークから半分以下に下落したことを受けて、世界最大の暗号通貨を買い漁るきっかけとなりました。暗号資産データ追跡会社CoinGeckoによると、香港時間金曜日の朝、ビットコインの価格はほぼ6万米ドルまで急落し、2025年10月の史上最高値12万4000米ドルの半分以下となりました。この暴落により、同期間にデジタル資産市場全体から2兆米ドルが失われました。金曜日の午後、数十人の住民が、この機会を捉えてビットコインを購入しようと動きました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3342689/bargain-hunting-hong-kong-retail-investors-snap-bitcoin-amid-crypto-crash?utm_source=rss_feed
+
+### 香港、自動運転車技術推進のための新作業部会を設立
+
+香港当局は、自動運転車の開発に焦点を当てた新たな作業部会を設立します。政府は最新の交通戦略青写真の中で、一連のイノベーションとテクノロジー主導の取り組みを発表しました。運輸署が金曜日に発表した計画には、効率と利便性を向上させるための主要道路におけるリアルタイム適応型交通信号の導入やスマート高速道路管理システムも含まれています。「自動運転技術のさらなる発展を推進するため、この作業部会が重要な役割を果たすでしょう」と関係者は述べています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3342686/new-working-group-push-autonomous-vehicles-technology-hong-kong?utm_source=rss_feed
+
+### 九龍東の住宅用地に9件の入札、香港の住宅市場見通しが明るく
+
+開発局によると、九龍東の牛頭角（Ngau Tau Kok）にある3,132平方メートル（33,712平方フィート）の住宅用地の入札には9件の応募がありました。不動産サービスプロバイダーCBREによると、この土地は最大15億5000万香港ドル（約1億9800万米ドル）の価値があると推定されていました。新鴻基地産（Sun Hung Kai Properties）、恒基兆業地産（Henderson Land Development）、長江実業集団（CK Asset Holdings）はそれぞれ単独で入札を提出し、信和置業（Sino Land）と大鷹地産（Great Eagle Holdings）は共同で提案を行ったと、各グループが別途確認しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3342684/kowloon-east-site-attracts-nine-bids-hong-kong-housing-outlook-brightens?utm_source=rss_feed
+
+### 上水で深刻な交通渋滞、区議会議員は北区開発による人車増加を指摘
+
+上水（Sheung Shui）の多くの場所で大渋滞が発生し、地域には車の列と人の列が見られました。ネットユーザーは「夜7時からずっとだ」とコメントし、交通状況の悪化を訴えています。区議会議員は、北区の開発により人や車の数が増加していると分析し、インフラ整備による交通改善を期待していると述べました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMipANBVV95cUxOSU1vNlVkTVB1eHRsTDIyR2VtZThTTFE5dG5USzBqaDBWeEV3ZkFpRGtvOS11VktrNFZ6SWw5SlB1Tk5yZzNUVTNUTzh2NEZCMXFLWWw5eHdGMVRrVjJSMndUX0hMUlEzcnVwWjZlMFgyS055Rl9TTG16S0ZQd3lVVnhfMTFsUXBROHM3SjZOS2hFNUhTV3RFVUtkRmlDbVlybmxfbEp2SUZLSmladUFJVzQwT0hSSXZkenQwRWtEN3ROYklFeEZDcGM4dlBUeEZ6Yno3OEJHM2ltVHA2MlBXN3BzNnpCd2JvX3ZVWlRLQmxkY3lCS0pxaWpRSGdQQk9aNU1XNkNRcUo4SHNkRmw0NlROaVo2bHViaGJaSW8xZ0RHNDJqeEF1bHRKVzFGTS1zclBwVllkRzZuYkxYNWpHdXNLUlVwa0VZekdNNDctOWFIaGlMLUFRTmpnMUtjU3JQTTJsYzQ4ejJBSWtnSlFhNUhpNl9LR3NJcU14MmhaX01nTk9wZ1l2dk4yYjFva0s3ejk5NDl4Z3RuLXUzeDN3QUJ6ZDA?oc=5
+
+### 退職警察官の息子、放火と火炎瓶所持で懲役6年の判決、上訴は却下
+
+退職警察官の息子が放火と火炎瓶所持で懲役6年の判決を受け、刑罰に不服として上訴しましたが却下されました。情状酌量として、香港の状況に不慣れだったと主張しましたが、裁判所はこれを認めませんでした。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi9gJBVV95cUxQMXFWZ2lBOS1iTVQ5U3l3UTZzaS1kZzQyMjZoWWZmblJNX2ZvN0lqZ2VaTWlCZm9GNXE5YS1yalhIZ2xzMng0WThfRm1WMHIydjA5SVNXLWRvR1VBR3I0YXE2ZUhyc054MTMteUMydXI0UzQ2QVdKZHZDMl9ydDd3d3JnQ2s4ZnA0MV9OM01mMXJRelBxSVY0NVVpaDRYZDZCT01wRFk4eTQ2cDRVbVJaZTFocnNWZ1FaLWhjLXpVaTF1WmR6Uzk2RzlGZDhwcFRncThjUkVvWS11LUtJLU5VRDVnREQyNzNONHcwazI4VnVYaUNhTEcyV2FTNFlMeFVLMjNjVjdsVC15aGdiN1RyTzFKNDNMbnBnWno5R0x4TTY3R201RTBiTnFVS2F1OTJKYUYyYlU5UzMxb0MxVndJcXROeTBIUVUxZlJuRFhTcUV6SENUVXlFcERMdlJ1MTNFQWpVcXJSRXNWNnlxUVNsXzhmaF9DZw?oc=5
+
+### 工連会「小花」区議会議員、消防通路に違法駐車し謝罪「街頭活動の物資を降ろす必要があった」
+
+工連会（FTU）の「小花」区議会議員が消防通路に違法駐車し、謝罪しました。彼女は「街頭活動の物資を降ろす必要があった」と説明しましたが、この行為は市民からの批判を浴びています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMijwNBVV95cUxOZ3JqRG93Qkt3RmJZRkJYVGF5eVRtZVVnSEFzN1NUcTM4RGs0azBDRUNCQnhYR3dlaldnNmlialNmbHpNQWtBNFp6QTl6dnZFck1mN3VJejRsWDNJbHNfaWs4MG9BaXNwZWtEVUlWNDlkTVk1NzJDWmFRandod29YOTA0ZlUzd0JRZklOMGpTNEx1OXMyb19nMW5TSkt0ZlJ5aG5KQ2N4cnhyaXFKWkFfVk5NS3NORWZwNWMzMHREU0I4NVd3ZG5hSGZKU3dSN3VpdGk4Rm1RUWZ0TjQ4bjVXR2paLXdDNUxsNlR5cTdicGFwMGRHRmc5ZTJIazhDeGc4ZmppQlRUVld2M2hObFRHSjN1WEVVNUdLR0VBZ2QtWXhDUlBXN29OaWFJWERjcGpPekZfT3ZBYm1oUW83MGNtREowVlI5Z0ZnVndpeWU2bjVVbXZnT0pDRHRMbTZoYmVWZDZwUDdJM3VDdmVPYWh0QXA2M245M2xlTFJCNGdCdVhaMjlPUS1vVG5KZ1Q2STA?oc=5
+
+### 中国本土のトラック運転手、運転免許試験で賄賂を渡し懲役8ヶ月「香港の状況に不慣れだった」と情状酌量
+
+運転免許試験に不合格だった中国本土のトラック運転手が、試験官に600人民元を賄賂として渡し、8ヶ月の懲役刑を言い渡されました。情状酌量として、香港の状況に不慣れだったと主張しましたが、裁判所はこれを認めず、厳正な判決を下しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMizwNBVV95cUxORVNoTkRzZXo3X29DQmdlOURuQVFwR21UeHpNczdWS211dVdRWjZ3bVN4YkhXYTd3SENfTi0zYjJDMTRSRzFrN2RJaVVwNms4MEM2SExmamY0WVVwaUlsNEpxdjFHbVRDeFoxU2xHa0gwVFVvVVBHTWNRVHBRdlhNa3JVUEdkeUNOdWNQRU80UEZ2M2FRbDlmaUhPSllvcV95RGt1ZmMzcWgxTEtYUnhqZXloelNkc1E4MTV1WnhveEdVdzkwUmVPS25UZllJYTNpNnQzYkVCb1hRRGpRWkdUb1dPUHJhT1YwWmdRM0ZkdkFkazFpOUhsSzRYaU1JTmtTOEVvWmVSd2FieTNnQ0plcDBMRGt2NXdQYTRSZnp0eF9Fc05mN083WDVTcUlPWU1XMGpQOUtwWWpRenM5TWhsZ0MweWtCOEdOSDZGYU5XLTRhaEU1aWxIYWgtaEpINXVyTHBnQTVleWZkV2xwQXNDM1dvZDB6S0d5U3BqV09GQ0VXY0RZMHp6MzJ5elNxcjRCa3hiMFE2Z04yb3JPREUxRlRtWU5QbnVTdW9tVnFZbVBhWTlHZTVxZEwwMDh3aVoyZDNxczd3SFR2dkdBRlZZ?oc=5
+
+### 強姦罪で勾留中の70代男性受刑者、入院中に病死
+
+強姦罪で茘枝角（Lai Chi Kok）拘置所に勾留されていた70代の男性受刑者が、入院中に病死しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiuAJBVV95cUxQdk5YMlFjRG1DOTdqNGI1V1FuOGg0ZW94Zl8xSnFIc1lBZVRKbHJzQVZIYkxYQ1IyeFRjcl9Pcm5vUUJ5ekpiTHJ4N3FTNFVtd3VDNkluUGdFZGlGeXFYTFJMWVlhWFVCSE5kc3pxRXp4c3dvMm5jRG56eGliZmYzWVU1cjkyU24wSkZRYUhiSlZsTVQyeEcydGVhRWhVQlRQS0xNRWx5SjVxSDNJT0JncllWRlBmWmZzRm1DX2J0QktfbXpMVTU2bmk1d0NrRlA2T0xaS0NONl9OWTVEQ0FvR3FObnVYUXNidXBqbTM3VUJvZHd6OEtZY3c4RTd3eGJMeHd1b21vbElPeUhZMTU4NFlvc29zaktuRjF3S2c1dG95VHh0SG1oZEhHWE5PWUFQVzZYZzB1RlM?oc=5
+
+### 林子博氏、英国のBNOビザ永住権資格厳格化計画を「家庭破壊」と激しく非難
+
+林子博（Lam Tsz-bok）氏が、英国がBNOビザの永住権申請資格を厳格化する計画を激しく非難し、「人々の家庭を破壊する」と直接批判しました。この計画は、多くの香港市民が英国への移住を検討している中で、大きな波紋を呼んでいます。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiqANBVV95cUxNTjZQeU9ZUnZsNUZIeFRLRUpuQU5vSjA4MUI3czR6Uk5wRzVPUmFJNi1McEE4ME5EdkVLbjM5SGhWUldvdmtFcEdtZXdERnZCTHhkbnZ5Yl9IMnhkYWd0cFNxeFlpaHpKUjVSMWhBb0prX05VelJiRXg3TDBYUFdocmVsdDE1Z25GaTNoZEJrOTRjdjZvYXVhZk5CQ0NVTlVzSXRyQm1yZTMzeTM1DHM0MVJub1habFRFQ01SQlRyLUNYREFNS1NwbmlNZ2hPY2QzMVpYYVBxWC1yLUNyUk5SRmhCWjRvZU95eTNtLVVTcW9Pc0RVZjNmOXFiSEQybmZhNWJYcHprV0NINklPMUYtZVZ3endaTHNFX3FtNzdJeGplakVRa3I5a0RDczl2MXdWODlyZVpaY0pXdW14QldkX1hTR3lLanE3eW1JekpPRE9OR3ZXRlhwZGRSTGMxVUZqUWxTZFIyZUdDeFp6Z0xJQkpTbkw0cWhieXFXSGhhZzlXdHh2SThablp4NnE5VWFHZ3psN0loT2VLUjBxLXJqS0ZuRC11aEts?oc=5
+
+### 天水囲のフィットネスセンターで男性が突然倒れ、死亡
+
+天水囲（Tin Shui Wai）の天瑞（Tin Shui）体育館フィットネスセンターで男性が突然倒れ、病院に搬送されましたが死亡が確認されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi_wJBVV95cUxOUlowTGRGRTRYcDJXMVJGRW1ZLTV6MVhUY2tQQ04xZWZZWUo3cEhGeEtQUWdtZ0pMU1JnRkV1VWRzYm5ITUd6bEgyQmJJdHRCY2lIQ3I4dXBOaVdPSTRHVGo0Uy13S1FMOVN1VXdxSXFNaW9SOFpOVlFMYW5NVnJDa2VKSUlzNF9acVFSZk95VGhzUmZHd0RHNXRnQxQ0xFcTVCZmc3QXBRVjViNG5sbURfZXlWQm5SREpLOU5VSzlsWmpjWFdFNlhDU0cyV1dpek5KQm51eUljMGVUTDZDUGlaVFBlSFZCNUUwaGZFelpZTUVzY0JLNjF5Y3JOLVRxc1hray1fRWJ2RC0zSW11aDluakFzQ2dkVTNYVVUwREpiX09VVGt3ODRFQ1I0VGktYUpkUlZiUnFLNWlQczdKdkhNLWpBcWhUNFA3RlRVMXM3M0l2Mi1FWnFKcDlqZUR1d1NRei1wNDYtd09MeDU1S3c4NHRYdUhtcnZPQzl0cw?oc=5
+
+### 芸能人・崔碧珈氏、逸璟・龍湾の予約金を放棄し、デベロッパーから376万香港ドルを請求される
+
+芸能人の崔碧珈（Isabelle Choi）氏が逸璟・龍湾（The Horizon）の予約金を放棄し、デベロッパーから376万香港ドルの未払い金を請求されています。
+
+**引用元**: 香港經濟日報HKET
+
+https://news.google.com/rss/articles/CBMi5AJBVV95cUxOV293SXZzUWJ5SWdQcnZRRG5jelJ6aUJzemFyYmRBcEtlZURpV2NnQ00ybEZYa09CN2RzVFhBZGRFajByQ21tZ2dyODhJUUJydjB3TTM0eTRCckxUMjlHSUtTbFZ0TTRQUW5LNDVvbEVGb19aM3duRTJmbkxtUTRCYjhOV2ZvY0pxSldPd19IOTdNNUtwbUhNLXJ2MWNJWERaWlVPbUJCd2kxNGNlaUdDVFlGV0RGdlNHb2gyOVlCaDNTSk55Z1pxdVBNcTNEVGFPUW5uUlVfN250QXF0ZVQwN2JDTDFMM2FtalktaUFEUTFiNmxEeGpWeFdFNC1jYjNuR3pPcHh4YnI3eV9UaGJVd2FTeUtsV1hCQnhpb2FuX2pJYlRtNXFCM2VldmpORHFZS3RJd0xTTEtPczIxNk9fdElHLVc5eWlTYkl6eTRGc2xDRjlfQ2JNcEpxSDdyUEltRk1NOA?oc=5
+
+### 高利貸グループ、法定利息の50倍で貸し付け、警察が28人を逮捕、最年少は14歳
+
+高利貸グループが法定利息の50倍で金を貸し付け、警察は28人を逮捕しました。逮捕者の中には最年少14歳の少年も含まれており、塗料をかけて取り立てを行っていたことが明らかになりました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi8AJBVV95cUxNSUk1STdjdjJ1UzhEVmVRUlZUeHNFTHVyX3NYLWZnSkVLQWVmTGZiWDJlYnQ0V2hGTXJQdXVEZ1FIVnk2TzVMMjk0M2ZsWWJiNHI5Sl9yMUlwTmZDcFBVVlJBUDMtU01NeWtNendIZ0pDR29YZzZuaGNkc2pSMWZ3cldQbWNZUWVWVFdJemFIRDNmNGdBTHJBUk44U1dEeUNtdW41b2RaTUVwZjlCV3h5T2Y2S3VHemp2UWgxdERXVjdHQnNiNzF1TXVWVkk1aVl6SEc0QzRteGNhYm5zcUo4QjJvVjA3SXZXQ1Q5OERvY05iRHNTYjBfMWNsWVhkNGFDeExBdjREUTRQUG4yendGbzNNMVJEbzJvaFZ4bVlRMm52YWtDNWE5ckdBUkVKWjNWN295cUpSdkdhYmhYVHJ6bDUwNl9QeDd1dG0wN0ZHd2lBRzhhWGFFOWNoOWhHVWoxTERPT2xZVUxkQXpYMko2cw?oc=5
+
+### 葵涌の工業ビルで未払い賃金を訴える2人が屋上に危険な状態で立つ
+
+葵涌（Kwai Chung）の工業ビルで2人が屋上に危険な状態で立ち、横断幕を掲げて管理組合と宏業工程（Wang Yip Engineering）に未払い賃金を訴えました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi_wJBVV95cUxOeTVoZDRjZzN0NHZqSkdhWmtTQzZiQmtmR3I1QUhBaFB5eXVoMFJGd2R0ZnlqMUE0cmg5cm14RU9wUTBsMFBYaTRJa0dybF9UQm5zM2tzWG5yMUhNdy1nUUNvbmNncXNQaDlYVGR3YjVMTlZKTmVyNlJkcjU3dVE4ZzBNN0k4dGU5bVM2TE1EcGRxUHNaN1Q1UC1TYnYyM2VBZ0xzUlh5SUdLaUtJWnVhMlc5OXd0NFc0alBxaXZjYkV2N005S3FuS0oxVXprU19BenozdFZQRkFNRGNCVDVqbXRZOXhvc1VnTkFSX0p3NjJrdmVlYkVGWENBaHd4Nkc5SjVhWm9KOXNFTmZaY0NDTEF3TlZDb3pFNTBEWW14djcyVU0zYXRVVTlGOTM5TExXMjVocnowRXZBT0s3MVVRVUpLdnR6aTMySS1wRDN5WGMzVlU2UElJaDlJdnlIS2dQMU5uQUh6VE1vdUxSQmgwZm43YmI2bExpMXMxellIMA?oc=5
+
+### 西九文化区の「The Big Bounce」で衛生問題、子どもたちが不満を訴える
+
+【Yahooニュース報道】世界最大級の跳ねる体験を謳う「The Big Bounce世界巡回香港展」が今日（6日）から西九文化区芸術公園の大芝生で開催されています。ギネス認定の世界最大のインフレータブル城、香港最長のインフレータブル障害物コース、スポーツテーマのインフレータブル遊具エリアなどがあるとされています。しかし、「Yahooニュース」の読者からは、会場内のインフレータブル施設に汚れが目立ち、衛生状態が懸念されるとの声が寄せられました。参加者の中には、多くの子どもたちが参加しているにもかかわらず、遊び終えた子どもたちが「とても悲しい、靴下が汚れてしまった」と話しているという報告もあります。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/the-big-bounce%E8%A5%BF%E4%B9%9D%E8%88%89%E8%A1%8C-%E5%B7%A8%E5%9E%8B%E5%85%85%E6%B0%A3%E8%A3%9D%E7%BD%AE%E6%B1%A1%E8%B7%A1%E8%99%95%E8%99%95-%E5%9C%A8%E5%A0%B4%E5%B0%8F%E6%9C%8B%E5%8F%8B%EF%BC%9A%E5%94%94%E9%96%8B%E5%BF%83%EF%BC%8C%E9%9A%BB%E8%A5%AA%E6%B1%A1%E7%B3%9F%E6%99%92%EF%BD%9Cyahoo-124358986.html
+
+### 潘焯鴻氏、九龍城広場オーナーら2人への普通暴行罪で3月27日に再審理
+
+潘焯鴻（Poon Cheuk-hung）氏が九龍城広場（Kowloon City Plaza）のオーナーら2人を路上で襲撃した疑いで、普通暴行罪に問われ、3月27日に再び審理されることになりました。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMinwNBVV95cUxPbFZRV2pxdHhORzhBeXZ1NTJXaFdPM3hxYk9EMnpJd3RWYlptclBoZ1NDVDI0ZGNfS3pYVWxjcEZ2YXpoNE1CRVBySUkxcy1hc0lybE5seDBMeEVvX1JqaW5JTEdxWkpiWmlnUm9pYVBnZzl6YjFUTWNQLWFTN21Sc3k3YUU2NmMySG5KMTh1Y0pRT0NzdGpvWDM1Qms4RzJ1Mzl0NUM3b05sNHJoNmxkbE1OMzJVT3oxQVU0MHNYTHVoX003b0dYdlFJR1BoSW1CQzhhTkxXQW9ZaldNTG02WXdsUUZLaDM2S3UzNVZaTVRjZElYUlN5YnFjd3JzZ1NLMmFqdWRSUW8zUGNOSi1La21hMFZveHNFcGZ0ZGpTcGFEUXdhZUJhM1A3X2lkcnpBRkduMm45LWFudUdSaXJpVmw3bThlZEdid0pNVHZ3d2RoNkh3NXViYUp0bWVMRV9WQ1VUa2lrQnZwSmxuSGlRR1ZCS2NxaE5fLWZSZm5TNnlFTTlfcmxGX1ltWEQ1aU9UYmt2M1VPelpPNmM1Y25V?oc=5
+
+### 寄稿：公営住宅の豪華改装は、住宅取得の梯子が断絶した香港の縮図
+
+公営住宅の豪華改装は、住宅取得の梯子が断絶した香港の縮図であるという寄稿が発表されました。これは、香港における住宅問題の深刻さを浮き彫りにしています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMirwJBVV95cUxOTXVfU0J3NmxZcXJweVFmNld2TnpjdDRWaWtuUEp2bDROdjJpV1BBS2Y4RzJMbzBmNE85cjJQbnloLTQzOUlvYVdzNjh4OGl1anNxdUwzX3RLaHJMaDRRUF94S2M0SXlkRldOQ1N3T050NnVSQ1A0X3phV2I3cFBZOTNpODdrNENfLXp4TXF5aXRlbGJRUTRhRnRvQ0JIdi1RT0tMZ0wyZTFCVzZzOHlzSlc0TmpuM3JGUllaaUFaQjJMNWFmdnFpZV92Z0ZqTmJvd2RkV3REcjJjS0ZFdkV0cmJjel9JNEprR3JoUks2QTE3bmF4aU1ua1ZQRFZmZXpaLUhaM0xma3BIYmloT3BQZWxGVUZIOEpaNFhtVkJmcV9Pb3Y0M3lWVDJhWjIzSU0?oc=5
+
+### 彩盈邨で男性が高所から転落し死亡
+
+彩盈邨（Choi Ying Estate）で男性が高所から転落し、プラットフォームで死亡しているのが発見されました。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOTNMSjNGa1hqWmRTNjVIMjdxTWFiSHZqX0RmMEZVbEpxallEeERyRnp2ZFV6NnlsRno3UkUwaWp0cUY3Q1dnLTdFRDdnUWp2NDNEVDNQaDAzdWR3WlZuc3BERjBvQm9TcjBoeTh1VlhHOTZvV0l2OWlLRzdMNUFTVlFqSlBiczM0S1pr?oc=5
+
+### 上水で大渋滞発生、地域は車と人で溢れる
+
+上水（Sheung Shui）の多くの場所で大渋滞が発生し、地域には車の列と人の列が見られました。ネットユーザーは「夜7時からずっとだ」とコメントし、交通状況の悪化を訴えています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi9gJBVV95cUxPaUxpT2VldlBQNUNRc1ktTTFNLWZmTm1wQ2VYWFJza0kwYVg1MWRZODU5Z1FHNU41TzdFTU5VblRRejAzUnNLZTN5aDZYX0NwcW5YVW9od25heGRnQXFrNS01VGgwYVhWdC1DN2ZzeURRMGNmVWdmczF3Z196ZEp5am5FNFNDR1F6T1NEbHE1QzJabkZVRW1QaHJkTEZ5aVVpeVpnVDdRYi1fUnJ0YjdkQTZ5WklkZVZqVU85OTQ1VGE1ZVcyZ1BSYXBZdFVNM1V3aGYwdzdBclYta2F0S0g5bUhoNFRwcm5oV0s0QWlnV2lDd1ZHSFVSSnEwd2RGRGxjQkhESzNyblVsNGNnRUN6bUF4a1pXOXFKYnl0VEFuOHJpdWlPTjJiTUc1Njd6dV9SbEUyQVJzT05oN0F2ME1KRHdjY3JHNnVhazZheDIwYUdKTGktZ0txcXZJbTAyV29vY0M1bzR1bjdYNFFvWmFaVEhkSnIyZw?oc=5
+
+### 沙田新城市広場のOdeliceで食中毒発生、2月最初の5日間で生牡蠣関連16件
+
+沙田（Sha Tin）新城市広場（New Town Plaza）のレストラン「Odelice」で食中毒が発生しました。香港では2月最初の5日間で16件の食中毒が報告され、すべて生牡蠣の摂取に関連しているとのことです。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi8gNBVV95cUxOVkRBR19zRndKSmFQNm9hbXZ6VG5COG82V1llYkdaekRleVJ2Qlk2UW92QllVT2Z2U1NENWQ1V0lQWlo2LUI3V25zb3lMQnVSUGpjSWpCT2Q3UU5hcmlaSVFQX0IwUnptdGxDS2xsU194UUotWWlrZ0ZCbHlnZkJZTGFNNHZjS2E1cGFvb19FV29XQlUyZDNoT3JlWEZ4OGRtT0FsT2E1cW1Sek11YTBsem13U2R0a295ek41NjdDWmJ1dXNIdExVdXA5SjR5M0J0YWZEdHFmak02bmtOdzdZaDJmWUpsUmhaQUVROGl2dW5mWGNqNmY1czVHb0VaMzhkRHdxSWRVWXByX2VjQUp2dFk1elVYaTFvQ2VlNWN4Y0d6YUhVa1V0TGFmcmtVREZOWXJYbFdoUTA3TWRIZzJRN0NRVGlKS29TdTE0NVNJcG15eWFSTDR0R1RJRzg2MzRYNUUyV1NvQVNYVUxYV3NNdlpmM0l0aF9LRjUtVml6SXVhbFBXeW1yVDYtblJvMkxTMEYxVFhSQ1hxbTZ3NlNuNkllZWstV0ozTHU3Y1lFaHFjZW1Kb3JMZXMyeWNMaHliMVdwNVFlVWdqaXVZRzBvV3A3UTA5ZDh3ZjdObjA1WGxnTUp6MGlydllSOFpMMFViT0E?oc=5
+
+### 益豐大廈大規模停電で物管公司に25万香港ドルの罰金、書面による譴責も
+
+益豐大廈（Yick Fung Building）で大規模停電が発生。不動産管理業監管局（Property Management Services Authority, PMSA）は、港深物管公司（Hong Kong-Shenzhen Property Management Company）が書面による譴責を受け、25万香港ドルの罰金を科されたと発表しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiowNBVV95cUxNYnlvZTFxcUJKNlI1ZTlac3lNTVlEYW5oWEtkc2xNRHZWSDhDSk5QYUNWLU1aSVZRYVVWLU9UckYtdjNxNlBQV1k0dW1sODBZRXVaWUhOOGNIdEZhbWtiTlRYd2xYQWI5ZGxqU3JpS0pNbWtPaENRbWoyQmRHeTEyZi05N2hVV1BodVZfLVdUVzdJUUtfNEl4UlJTOXVEX1ZUaU9nYnM1RHRyU1Qwd0h0dHEzMHR5bC1kWGI2ZzZUQVFXZ1Y0NXF6NnZhWDFfN0xINmIyN0JaVzZjOGx4OTZ1azExUTEyQzJZWC1SbjlYSURhSVg2dGRLSkpTempzTnFubmFUckxOeHpqb1BHNV9qelItNTZHUlFoUEJzel80ZkRTdC1Rd1ZYOWNFaHJNd09mMEkwNG9uRU5nNHNveU5FNXBNaThPd3hKdi1VSk1SNS1jTHZ6SzJpaE9yYTNCaGQtRVBQRFFKOXM4d0NxdUltcHFrZ1plYVdtZ2lSdVdESTktcDVWRVZUTlVZVUZMX2hmRGl6VHZrcmxFa201SzhkUDlzWQ?oc=5
+
+### 土瓜湾益豐大廈停電事故で物管会社「港深智能」に25万ドルの罰金、初の規律違反事例
+
+【Now新聞台】土瓜湾（To Kwa Wan）の益豐大廈（Yick Fung Building）で昨年発生した大規模停電について、不動産管理業監管局（PMSA）は、不動産管理会社「港深智能（Hong Kong-Shenzhen Smart Property Management）」が重大な規律違反を犯したと裁定し、25万香港ドルの罰金を科しました。ある区議会議員は、この罰金には抑止力があり、他の古い建物の不動産管理会社がこれを教訓とすることを期待すると述べました。
+
+益豐大廈では昨年7月末、塩水管が破裂して電気メーター室に浸水し、4棟の建物全体で大規模停電が発生し、900世帯以上に影響が出ました。PMSAは声明で、昨年7月の益豐大廈での大規模停電時、関係する不動産管理会社「港深智能」の緊急事態対応メカニズムが不適切であり、専門的な不動産管理サービスに対する市民の期待水準を満たしておらず、不動産管理業界に対する一般市民の信頼を著しく損なったと指摘しました。また、事件後も顧客との効果的なコミュニケーションメカニズムを確立しなかったことは、重大な規律違反行為であるとし、書面による譴責と25万香港ドルの罰金を科しました。
+
+これは、2023年8月に不動産管理業免許制度が施行されて以来、免許を持つ不動産管理会社が専門的な過失または怠慢行為により規律違反と裁定された初の事例となります。九龍城区議会議員の関浩洋（Kwan Ho-yeung）氏は、過去しばらくの間、当該不動産管理会社のサービスが改善されていることに注目しており、条例の最高罰金が30万香港ドルであることを考えると、今回の罰金額には十分な抑止力があると信じていると述べました。
+
+九龍城区議会議員の関浩洋氏：「この間、彼らの管理会社のサービス品質が明らかに向上していることにも注目しています。これは、今回の判決が抑止力と警告の役割を果たしていることを示しています。罰金の上限は30万香港ドルと理解していますが、今回25万香港ドルに達したことは、不動産管理業監管局が他の管理会社に対して、建物の管理問題を非常に真剣に扱うべきだという強いメッセージを送っていると言えます。」関浩洋氏はまた、区内の他の古い建物の管理状況にも注目していると述べました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%9C%9F%E7%93%9C%E7%81%A3%E7%9B%8A%E8%B1%90%E5%A4%A7%E5%BB%88%E5%8E%BB%E5%B9%B4%E5%A4%A7%E5%81%9C%E9%9B%BB-%E7%89%A9%E7%AE%A1%E5%85%AC%E5%8F%B8-%E6%B8%AF%E6%B7%B1%E6%99%BA%E8%83%BD-%E7%BD%B025%E8%90%AC%E5%85%83-%E5%8A%89%E5%80%A9%E6%A1%90%E5%A0%B1%E9%81%93-120724755.html
+
+### 荃灣、葵涌、沙田、馬鞍山などで電圧低下、エレベーター閉じ込め多発
+
+荃灣（Tsuen Wan）、葵涌（Kwai Chung）、沙田（Sha Tin）、馬鞍山（Ma On Shan）など複数の地域で電圧低下が発生し、消防局にはエレベーター閉じ込めに関する複数の救助要請が寄せられました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMingNBVV95cUxOQ001ODhCYk1kdWw5TDkwUUVpaFNlTWVYa0lwMUJmNXNhbUJ3VS16LTRFYjNCZGxFYk5uSDdRTHNIdk5jWllVbE5EUmhueUFQV2VtYWMwTkgxdnRoVXlGeEVWTkxsV3Rxcms2elQtbE5ZNEhiM3paNXlSNVBWVUxIZWVub1ZUdmRQV2I2WlUwRGpZTVpaZWRiNy02bjBCQXdnbFY3YldLVVVCaVdLWVhUZGRjYUdwTkZpdTBSaHYwYlZBSlRjaEJUMXdKSVU0STloNmdyZ2hDUFcwbUFyYTdXak5vakQxR1RXempDTW0taDRfN0VDTGtMcE9nNXVSR1BiN3A2NjJPbW1VOWxpZFR4NVhmeVJxS3RGY21GdnBqYXloQzBHQjZXTjdSY0szTlg2alJDSWdfN0N4UmNlU3VDVURZUmtqX3c5SHdTcXlZWnF3RF9GTkFpME1NSUN1VGdHc3QwMDByRTdQdm9zNE5kVk9Zd2tKNTNvT3JsaVlGY1diNTc0NUdlZjAwTFhIV1doR1VJSk5YNWpTMEd5NlE?oc=5
+
+### 龍蝦湾殺人事件の主犯、37年間の逃亡の末バンコクで発見され逮捕
+
+龍蝦湾（Lung Ha Wan）殺人事件の主犯が37年間逃亡。事件翌日に香港を密航で離れ、身分を隠してバンコクに潜伏していましたが、昨年12月にその足取りが発見され、逮捕に至りました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiiARBVV95cUxPWnRCSEtRdjJodlNhYjVYRHRZbzU0UkNYWWtsVEJPYUlhTk1nN2JkN2dJMlQ1bkg3NEF0UjZhSWFqVWJraV9Bb0hfVHJ6c2VsSmFxbDFXLVpIRnp2cVF4ckVSRUdWVkQ4dWwxR0xXTjBlcTlQWlZPdlRhdFMwZXIzNDQ0ajVNcG5ZQ0FzWkpqTWUwOUJSV1pISkw3UU1pVlNVNTNud1U2cmhMOUhRN1pMS1N4SnZxa0VZckg3RFBzYmdxWF9OYWY1VWhnc0RPNmtKcWIxTDNrdGJqRGN1RzZReEo0bjVCeWRGWXhLY1NqZjNKM1EzV0xPamJBaDhUdWNPN0ZvWnhmTzlpcVBabUdoUHNaWjctQk9NQzNGN1I2V1Y5SmJERzk3MXpYalY4V0dWMm1lTVdaT1BtSDJNcGE4Sno5LUxGc1pwdlYyT05aYWQ0akJGa1FaVG5rekMyZXJzNDNld0RXcThaU2t5VVp1ZHNlU2hjSG9yMVJDbzFncnVLbG91QjhXZFZkWkJGLVJxYXhPYTNKTW1POVBFeG1pR2h6c1VXLVl4cFgxWkNBekRwS1pNb2tHY3ducWZDU2lWZnB3Q29ENXFqcWR5eHVNUHAwaS1wX3lUVG12eHZuMTdGVVJsN2NjNFhnaEIyMFlTVVVIYUo5cWFFM3kybDVMWkdhblFNbjZn?oc=5
+
+### 人権団体、中国の調査報道ジャーナリスト劉虎氏と呉英嬌氏の拘束を非難
+
+人権団体「国境なき記者団」は火曜日、著名な中国の調査報道ジャーナリストが地方当局の汚職を告発する記事を公開した後、拘束されたことを非難しました。劉虎（Liu Hu）氏は10年以上前、中国共産党と政府の高官の汚職に関する報道で広く知られるようになりました。南西部の警察は、彼と呉英嬌（Wu Yingjiao）氏を拘束したと報じられています。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/04/rights-group-decries-detention-of-chinese-investigative-journalists-liu-hu-and-wu-yingjiao/
+
+### 私営高齢者介護施設の介護士、週72時間労働で心身疲弊、夜勤は1人で30人担当
+
+【Yahooニュース報道】現在、香港は急速な高齢化段階にあり、高齢者介護サービスの需要は高まり続けています。「同行支援」私営高齢者介護施設最前線職員の心身健康計画は本日（6日）、調査報告書を発表し、高齢者介護施設の職員が長期労働と高い緊張状態にあるため、8割以上が身体的な疲労を抱えており、夜勤職員は特に精神的な重圧にさらされていることを明らかにしました。夜勤では1人で30人もの入居者を担当することもあり、職員は入居者の死を思い出し涙を流すこともあります。政府と施設に対し、最前線職員の状況改善を求めています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E7%A7%81%E7%87%9F%E5%AE%89%E8%80%81%E9%99%A2%E8%AD%B7%E7%90%86%E5%93%A1%E4%BA%94%E5%8B%9E%E4%B8%83%E5%82%B7-%E8%AA%BF%E6%9F%A5%E6%8C%87%E6%AF%8F%E5%91%A8%E5%B7%A5%E6%99%8272%E5%B0%8F%E6%99%82-%E5%A4%9C%E6%9B%B41%E6%89%9330-%E5%B7%A5%E5%8F%8B%E6%86%B6%E9%99%A2%E5%8F%8B%E4%B8%8D%E6%B2%BB%E8%90%BD%E6%B7%9A%EF%B8%B1yahoo-103840921.html
+
+### 教育局、教師専門資格証明書の新制度を導入へ、初年度は移行期間を検討
+
+教育局は教師の専門資格証明書の新制度を導入する予定であり、蔡若蓮（Christine Choi）教育局長は、初年度に移行期間を設けることを検討していると述べました。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMipgNBVV95cUxOb05kMVhVSm8zM2lUb1hJWi1TS2JpVlZ6SEFfQkh4XzE3cGptWlRZNG1MdUdveWU1MkxKQkh0bHRKUmNXVEFSbnNvTU8zcG9EdXgwMmRFY0lPT3pfU2xQc29sTTloMHpscjJTMVZLZ2pGem1uc1JCSWpQZTYxUm5DQzdFZHhXRFZVQl9hTF84MHB1ajFjMUJwTW1JZ0tCdjFIaFVHSVJ5UWo0M0RxcGxYNmhpN3ZqWlR0V29Ja21xRVNwMFA3VXF5b0hqV3BmaU5MTUJ2MHo1dXBZSEoyUUk4cjBJQWJ2RDJxX2ZyRnNPbEdPU25wUW1veVBLLXNoMFZzaHhib3VFRGttVmZ6TWhsNnZoTzNGWFFiM18yRmYyTGJSY3dGeEgxN1k5dTN4OU5laVRiNFcxRjFCdWNkTWlmdGZobEJpeWhGQk82T0pWbXJhb3hPRWltSGs3emRfWWNGelhlY2JOMmk5TTR0VXRmNEVPbVRYdlg5RUg5aEhoTDBFMXNGelJUNTFOWUFTdEdJVGNSU3M5SnFlWjBHSW90SXdUZ3Vidw?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年02月07日 06:11

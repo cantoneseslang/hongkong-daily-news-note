@@ -1,0 +1,641 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年02月14日)
+thumbnail: images/article-header-20260214_061626.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年02月14日)
+
+## 本日の香港の天気
+
+### 天気予報
+2026年02月14日05時45分に香港天文台が発表した天気報告
+
+広東地方では風が弱く、天気は概ね良好です。香港では今朝、沿岸部で薄霧が発生し、横瀾島では視程が一時的に5000メートル以下に低下しました。
+
+香港地方の今日の天気予報:
+概ね晴れるでしょう。朝は沿岸部で薄霧が発生します。日中は暖かく、市街地の最高気温は約26度、新界ではさらに2、3度高くなるでしょう。微風が吹く見込みです。
+
+展望: 明日と旧暦29日は朝晩やや湿気が多く、日中は暖かいでしょう。旧正月元旦の初めには一時的に小雨が降り、気温はやや下がり、風はかなり強まるでしょう。旧正月2日と3日の朝は涼しくなる見込みです。
+
+**引用元**: 香港天文台
+
+### 日本が中国漁船を拿捕、船長を逮捕
+
+日本当局は金曜日、中国漁船を拿捕し、その船長を逮捕したと発表した。この事件は、アジアの二大国間の対立を深める可能性がある。木曜日に日本の南方沖で発生したこの出来事は、高市早苗首相が、中国が武力で台湾を奪取しようとした場合、日本が軍事介入すると示唆してから3ヶ月後のことである。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/13/japan-seizes-chinese-fishing-vessel-arrests-captain/
+
+### 旧正月休暇、香港市民に人気の旅行先はベトナム、中国本土など
+
+今年の旧正月休暇では、韓国、日本、ベトナム、中国本土が香港市民に人気の旅行先として浮上している。これは、暦の都合により、わずか2日の有給休暇で9連休を楽しめるためである。
+
+旅行業界の代表者によると、この長期休暇が需要を「著しく刺激」しており、出発は旧正月休暇が始まる直前の2月14日にピークに達する見込みだという。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3343377/vietnam-mainland-china-among-top-lunar-new-year-destinations-hongkongers?utm_source=rss_feed
+
+### 警察が深圳湾と香園囲で「おとり捜査」、JOIEとBig Bossのタクシー2台が客引きの疑いで運転手が違反切符を切られる
+
+警察は深圳湾と香園囲で「おとり捜査」を実施し、JOIEとBig Bossのタクシー2台が客引き行為を行った疑いで、運転手が違反切符を切られた。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi-AJBVV95cUxONjBuU2Y0WkM2a1pMS05RT2tfMDVFSEFsM0s4eDhMOWVBRDJ4MVd2RW9JWndrTldkbGxvbkE3MlpOaUh3YVlxUjBDY0xUcDVMWkU2NXBoTFJBMUtxZGdoR3ZDYTBKblB6VGZZUTlUX0I5a3ZpSlk4dnZlczN5ZllJUFVMZzlOSmlGNWRJSkRaWEdUQUlqMTZ4X1pWSE4tODRHR3FDVDJJMEpGUHpQVXR0ZWpBVWJsMC1mOUlTTDM1emVUdWZDeGtyLVBKWk9tT0E1X3BkTjZuRTJSS2tmOEotWlJDVHdwdHI4QlNHczBNdlNBQmg0Nm9jYzF4T1ZrdUdhWFYzVzZTRGpieVZqNXRxU2wtYTZZeDExM3ZzZzlveThIRVVROFJCcmY0d0JiS0ZiV1JndkhQc3c3ZmhiQnZCeldRQnRyeW03VTdCTkRSbGpUZzJhZzlHS0ttNnEweU13cG5Pdy1LYi1ESFhST1Z4alBIWkRqVXpI?oc=5
+
+### 昨年の出入国者数が過去最高を記録
+
+入境事務処は金曜日、昨年の香港の出入国者数が2024年比で12%増の3億3500万人に達し、過去最高を記録したと発表した。
+
+訪問者数は5000万人に達し、これも過去最高で、そのうち3800万人が中国本土からの訪問者だった。
+
+同処の年末記者会見で、ベンソン・クォック処長は、3万2000人が香港特別行政区への入国を拒否されたと述べた。これは全入国者数の約0.06%にあたる。
+
+彼は「これらの入国拒否者のうち、少なくとも85%は不審な意図を持って入国しようとした人々だった」と述べた。
+
+「これには、不法就労、オーバーステイ、あるいは我々が『歓迎されない人物』と呼ぶ人々が含まれる」と彼は付け加えた。
+
+2024年後半から、同処は航空旅客向けの事前登録システムを運用しているが、クォック処長は、セキュリティ上の理由から入国拒否に関する詳細を公表することは適切ではないと述べた。
+
+昨年、職員は不法就労者を対象とした約2万件の取り締まりを実施し、これは12%の増加である。
+
+約3700人の不法就労容疑者と570人の雇用主が逮捕された。
+
+処長は、越境不法就労者に対するサイバーパトロールを強化しており、容疑者が中国本土のオンラインプラットフォームに関与していることが判明した場合は、中国本土の担当者と情報交換を行うと述べた。
+
+彼はまた、昨年、許可なく自営業のメイクアップアーティストや写真家として活動していたことに関連して28人が逮捕され、この傾向に対抗するためにおとり捜査をさらに実施すると付け加えた。
+
+来四半期には、マカオと珠海への橋を利用する登録済みの香港居住者向けに、非接触型顔認証国境通過レーン2つが試験運用されるとクォック処長は述べた。
+
+このシステムでは、レーン周辺に多数のカメラが設置され、利用者は通過するだけで、従来のe-チャンネルと比較して国境を越えるのに2秒短縮できる。
+
+クォック処長は、「システムが非接触型e-チャンネル内で異常を検知した場合、例えば、チャンネル内の人数と正常に識別された人数が一致しない場合、ゲートは自動的に閉鎖される」と述べた。
+
+この場合、入国管理官が到着して不一致を解決すると彼は述べた。
+
+クォック処長は、皇崗（ファンゴン）出入境検査場の再建された施設がいつ稼働するかについては、まだ timetabl はないと述べた。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1843763-20260213.htm
+
+### 恒基兆業地産の李家誠会長、女優の周秀娜を名誉毀損で提訴
+
+香港の恒基兆業地産（Henderson Land Development）の会長であるマーティン・リー・カーシン（李家誠）氏が、不倫関係を示唆する名誉毀損的な発言があったとして女優を提訴し、さらに「虚偽の」コンテンツを削除しなかったとして米テクノロジー大手Googleと5つのYouTubeチャンネルにも損害賠償を求めている。
+
+54歳のビジネス界の大物である李氏は金曜日、個人的な名声のために彼らの「関係」について根拠のない悪意のある噂を広めたとして、クリッシー・チャウ・サウナー（周秀娜）氏を高等法院に提訴した。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3343478/henderson-lands-martin-lee-sues-actress-chrissie-chau-defamation?utm_source=rss_feed
+
+### 民主建港協進聯盟、両会で20以上の提案を提出へ
+
+民主建港協進聯盟（DAB）の全国人民代表大会代表団は金曜日、来月北京で開催される両会（全国人民代表大会と全国政治協商会議）に向けて、香港を国家の発展戦略にさらに統合することに焦点を当てた一連の提案を発表した。
+
+提出される20以上の提案の中で、主要な優先事項には、広東・香港・マカオ大湾区（GBA）全体での港湾の協調的発展と、香港の中国本土の空路・鉄道複合輸送システムへの統合が含まれる。
+
+今年の提案は、国の第15次五カ年計画に沿い、香港独自の強みを活用し、国の質の高い発展に貢献するように設計されている。
+
+これらはまた、国家戦略に足並みをそろえて行政長官が策定する香港の次期五カ年計画を補完するものでもある。
+
+DABの主要な提言の一つは、GBA内での港湾開発と複合輸送ネットワークの強化を通じた物流と貿易の最適化である。
+
+DABのケネディ・ウォン氏は、香港、マカオ、広東省政府間の緊密な連携、特にインフラと税関手続きにおける連携の必要性を強調した。
+
+彼は「GBAは徐々に、より統合された経済圏になるだろう。そのため、中央当局には税関手続きの迅速化を許可してもらう必要がある」と述べた。
+
+ウォン氏は、中央税関によって認可された東莞（ドンガン）の物流パークを例に挙げた。そこでは、商品が梱包、検査、通関され、越境電子商取引のために香港の港や空港に輸送される。
+
+「克服すべき物流上の障害は多い。それは基本的なインフラだけでなく、3つの政府間の協力と他のプロセスの簡素化が本当に重要だ」と彼は述べた。
+
+ウォン氏はまた、中山、珠海、陽江などの都市を含むGBAの西部が製造能力を急速に拡大していることにも言及した。
+
+この地域に効率的にサービスを提供するため、彼は東莞と同様の中央認可物流ハブをもう一つ設立し、GBAの東部と西部の両翼が香港の港や空港への合理化された輸出チャネルから恩恵を受けられるようにすることを提案した。
+
+ウォン氏はまた、香港企業に対し、ASEAN諸国、中東、アフリカ、ラテンアメリカなど、従来の市場よりも成長が速い新興市場への参入を促した。
+
+DABは、中国大使館と領事館が海外の香港企業に保護、仲介、ネットワーキング支援を提供することを提案した。
+
+一方、ロック・チェン氏は、香港を中国本土の空路・鉄道輸送システムに統合する提案を強調した。
+
+これには、高速鉄道チケットの既存の12306プラットフォームを、国際線やエアポート・エクスプレスを含むように拡張することが含まれる可能性があると彼は述べた。
+
+「これにより、彼らの利便性が大幅に向上し、高速鉄道を利用して国際線に乗る意図も促進されると思う」とチェン氏は述べた。
+
+「主要な課題は、中国本土の関連部門がシステム、つまり12306チケットプラットフォームを修正し、我々が提案するアイデアに対応できるようにすることだと思う」と彼は述べた。
+
+「それはそれほど難しいことではないはずだが、すべての潜在的な影響を検討する必要があると思う」
+
+その他の提案には、香港を国際的な金取引ハブとして位置づけ、当初計画されていた2000トンの貯蔵能力を超えて拡大すること、および人民元建て金商品のスイートを開発することが含まれる。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1843732-20260213.htm
+
+### アブダビ発のフライトで機内窃盗犯が30万香港ドルの腕時計を盗む、米国へ向かう女性が催涙スプレーを隠し持つ、警察が3人を逮捕
+
+アブダビ発のフライトで機内窃盗犯が30万香港ドルの腕時計を盗んだ。また、米国へ向かおうとした女性が催涙スプレーを隠し持っていた。警察はこれらに関連して3人を逮捕した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMingNBVV95cUxNYkM2UFZtcEpHcWZSNlJnSXE0dy03Rlc1ZnZVQlRheGVjWUI5RlJNN2w5WlpJaERTeXhSZmI5VktrY2h0M2dRdEtGWHZvdEJVcHZqN0JSQTZaZzdKSjFFanNwS2NUdGp1bDN2eVN2cjI0Y24xN3RDUk5rTmcyeDJtc09HYlNGcjY0enBkYkxrTnJFalNmaEgydThLOW1pd3g2UTdmeGhpM05xMEpyM2w0YWNPSHc4REstNEU5SmdWZzhSelV1alpfbVRjNlc3d3NKdXZyT3FSMWdVTklVbWVSRk9LaUV6Y1kxbjhiMVBiVThRcFFhRkFDeVdZVVl1amJjNFQzQk9Sa1hNVE1Lc2xNNW04LS1ENjVQeFZrZDZTb1Q0QUNsMTE3ZVhhZHBwbTI4dW95QXBoNDF4V2ZIeUhTSl95Q2lLQ3FSbWF1M3RGbmhtWmFnTE9Vd0hXbmhXYWFQV3NmTThKZTJoS1QwTVVDOWdrX2N4QUZlZXd4RTY4VHkwMlNzNGNRRFAxSDNON0NTeVZVMkZKT2NrNWpPcWc?oc=5
+
+### 興行収入は不振？香港の映画館がまた一つ閉館の危機に
+
+香港のIFCモールにあるパレスIFC（Palace IFC）の賃貸契約が年末に期限切れとなる中、モール運営会社が約1,858平方メートル（20,000平方フィート）のスペースについて潜在的なテナントに非公式に打診を始めたと関係者が語っており、香港の主要な商業地区でまた一つ映画館が閉鎖される可能性がある。
+
+中環（セントラル）のモールを管理する新鴻基地産（SHKP）は、苦戦する映画事業の選択肢を探るため、一部の業界関係者に連絡を取っていた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3343339/box-office-bust-show-may-be-over-another-hong-kong-cinema?utm_source=rss_feed
+
+### 香港の人口が1万人増加、出生数は過去最低を記録し、6年連続で死亡数が出生数を上回る。政府は労働力輸入と人材誘致で相殺と説明
+
+香港の人口は1万人増加したが、出生数は過去最低を記録し、6年連続で死亡数が出生数を上回った。政府は、労働力輸入と人材誘致によってこの減少が相殺されたと説明している。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi5ANBVV95cUxNeUNQT0dnX2J2anVtaWhrZ0VIXzJJRmlhSEZHWVdmRFpVWE5UblJNQnl0dEgyV25vM0NSLVctbTJPaGJac1JsZGRUR2o5cG5mMDBrVkE3R3BoTm5PODZTeWRLSmgtcjh1MlFPZnNqeGZzaDJobkF5dEQyQzJHZGlxem4yWHhkdVZ6TVRqX3ZKXzZoekZUOC1OR3BESWhhOTAyWWpuanBqQUxfTmxtRkwzVkdmZEp6TFhiUGczaVZJTWI0MjZxc0Rta3laaVd0cjJGeV9pa0FTTm1FOXJsZTJTQnV2VXNKaXpzNGVpdXc5NzZTQ3RpTm9xSVF4eF9Fd1huR1VJSFAwdXFBSm1xTmpURFpBRnY5UU91SnpvMVVqcWJlNXJ4VzNkRl9Gd21BV1I3aTZzQ1dxczBqbUxlV29fa19nTkVYejNXeTk3RWw3VFFUUmlrZXNfUU9DQ2g5emc3VkdnbEtiZkQxR21rQU1RR2I5YVJLNzRPUmxXVk43cW15LWFYemlrdkttRW95dTVDRDNiTzBKYUNORk1hUktwTTktczBBZkRlQ09zLUpqMEFXOWljV01nUUxXSkpaMkZtWGw1b3dnMGRFbGlfeUpILUU4aDZaZFpfT01YblJWcUVEWUxD?oc=5
+
+### 東方日報A1：禁煙強化と罰金増額で密輸が急増、越境児童を操り密輸
+
+東方日報A1面によると、禁煙強化と罰金増額により密輸が急増しており、越境児童を操ってタバコを密輸する新たな手口が報告されている。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOW5DM1haX3M5WjNpVGc4YXdFQy1xbTN3SEZqSHJtZzFuV0lrcTB1TkpPTHBPNEVkU09sNDg1SXdJWGRmTWpxVWo4WUlfMHFsZXp4MXhvaUg4akI5SjluN1NhYktzQTdyNU9EY1d2SkVSVEl6WmFoQjZLVE1ub3J0TmNjR285a0RPU3I4?oc=5
+
+### 「スーパーマン」李嘉誠氏、フォーブス誌の香港富豪リストで451億米ドルで首位に
+
+大物実業家である李嘉誠（リ・カシン）氏は、純資産を60億米ドル以上増やし、香港で最も裕福な個人としての地位を確固たるものにした。フォーブス誌によると、これは香港の富豪50人の資産が合計で650億米ドル増加したことに貢献している。
+
+長江実業集団（CK Asset Holdings）や長江和記実業（CK Hutchison）などの企業を通じて不動産、インフラ、医薬品に事業を展開する李氏の今年の純資産は451億米ドルで、2025年の389億米ドルから増加した。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/companies/article/3343353/superman-li-ka-shing-tops-hong-kongs-billionaire-list-us451-billion-forbes?utm_source=rss_feed
+
+### 香港の旧正月団年飯、予約は増加も収益は横ばい
+
+香港のレストラン経営者たちは、旧正月前の家族の再会ディナー（団年飯）の予約は前年比で増加しているものの、景気の低迷と顧客がより手頃なメニューを選ぶ傾向があるため、収益は昨年と比較して横ばいか減少すると予想している。
+
+香港全域で14店舗を運営するスターシーフードレストラン・グループのリー・クォンホイCEOは、団年飯の予約は前年比で10%増加したものの、メニュー価格は依然として約3,000香港ドル前後で推移していると述べた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3343338/bookings-bottom-lines-flat-hong-kong-reunion-dinners?utm_source=rss_feed
+
+### ランガムプレイスのNew Beauty、医療センターの免許なしに医療サービスを提供。衛生署が警察と連携して法執行
+
+ランガムプレイスにあるNew Beautyが、医療センターの免許を持たないまま医療サービスを提供していたとして、衛生署が警察と連携して法執行に乗り出した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMipANBVV95cUxOQ3QzdWM0dXVOWEFHUVBUbkRqbEk0d2E3UGltUmVJRE1ndVlXYU9nbWlyc0Z1cVVraGd5TWFVWGRjdTdOTEc5Qnk2LURUNmd2bnBvSUpRNlNKN1ZuRm9TY3dBOEtwQ2FOUEtiLTRYMHQ3enpVRHg1R3YyeDNmbWt5bWpKbE5EazlpTlN3cWtaTENyYmRSR1JBRFZzNnVOY0FUbE5UOTJieEZjc2ZuN3RVMWZQZ3d6UW9RYnEzdEZyN2pFX2ZXNHRvWVF5VFpQZklYV1lPVXNLanNRRkxyVFkzOHJTc2poUTlXMEkyWTZZRkRlamRDWDV2cUwydldVY1VfaWtDT1J1cWpJODI2eGpDTWxZZlVOV3RzVUVtbUctMXRqSVdLOWlxcmtZYTFQMlNQQkJHR0NqbHR0eWdqTzhBMWo5YlZIT1RVSXRKdjFBZnBEZk1tb0RlUHhWc29pZXdnaUxLUXBaRFhnOW9FNElPUDhVZENZUlFRZWdUTHJZWXZzbDdyV3FTOGh6U0otOXc3SS0tWHl2ZlRyVEdxQzk4NjVmVUU?oc=5
+
+### エプスタイン文書：故香港社交界のデビッド・タン卿、ギレーヌ・マクスウェルにセレブの評判管理スタートアップへの出資を依頼
+
+米国政府が公開した文書によると、上海灘（シャンハイタン）の創業者であるデビッド・タン卿は、故児童性犯罪者ジェフリー・エプスタインの元恋人で側近であったギレーヌ・マクスウェルとビジネス上の取引があった。香港の社交界の起業家であるタン卿は、2010年にマクスウェルと電子メールを交換し、タン卿が設立したセレブの評判管理スタートアップ「ICorrect」への彼女の投資について話し合った。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/12/epstein-files-late-hong-kong-socialite-david-tang-asked-ghislaine-maxwell-to-fund-celebrity-reputation-start-up/
+
+### ジミー・ライ氏判決｜外交部駐香港特別行政区特派員・崔建春氏がSCMPに寄稿：「悲劇と後光」は数々の罪を覆い隠せない
+
+外交部駐香港特別行政区特派員である崔建春（ツイ・ジェンチュン）氏がサウスチャイナ・モーニング・ポスト（SCMP）に寄稿し、ジミー・ライ（黎智英）氏の判決について「『悲劇と後光』は数々の罪を覆い隠すことはできない」と述べた。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiugRBVV95cUxQS0VpblpoNXpla3hxUHViV3ptbTREQWZhN3JmRjA2UVBBeU52MXFlak1TSXFqSHcxa3RCX1pkM3RmT3VnTGx1ekN0LWdfVkFySnByTWZ6NTVKNG1IYW0zWGZ2ZzB4M2Y4TFczTWh4MkF5bEFMcENvQmNIMGpucGd0YmVJODhEUnI1WE9oekJEcUJoV010MzdxT1doWWN0eDN6TDBpR1FLV09DbGh1Vk5QOW5CZ2tmX3VjbDFfUm02TFdlS0pxaEVQdWVWZ3YxOC12dnVvU2txQWc0eXM1M0N4VU9qaHlOYVFRSGFmWXVaVlJObm1TUWIzOVpZWnJKa3N5b1dfNk1wZDM1Q3FKZlEtMUs3T2xBbTIwSGZsWHJ3X3dDYjM0MWFEZ0x2bHltWnhTX1cySXlnLUY2aGYwXzc1LUJuUVN3ZEpuZ2dRVUVnejlUaWppcWlmS2NpdXpUaHZhZjMzdEQ3WllHSDVzWkM5SExXT1ctTGQ4WGRPNXA0Zmw2REtIdHVFa0pJZlNVMEVTM0pLSXZoeUFWdmJKQ2ZkWFg1bkgydkI2LU4wQjZYWEpqNEd4VmRPbDVnY1FEa0M2enVxWjgyN1VNMFR1QWpvdXRaUmZoYldsSnVaMFduZ012R0FwTHBWeUw1WUhOWjkwU0ZwenVWbGp3TjRlal93MVRhOE1VT3FZMDNNZnREeHVFeFVZdDMxT0IwaGM0WjJMdVdic0J3a0tmcmE0bjAzTU5wSnJtcFE0LWc?oc=5
+
+### 当局、今年下半期から「スクランブル交差点」を段階的に拡大、平均3割の時間短縮を見込む
+
+当局は今年下半期から「スクランブル交差点」の設置を段階的に拡大する計画を発表した。これにより、歩行者の横断時間が平均で3割短縮されると見込まれている。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE56TGxJLVBvQ3R0cHpwQjNBcU03VDFyTDgtbXg4LTJOa0lCWG1fZ1QxMTlvalI1MHl5WHRHT1gtcTRNR1RPbkVxbTRQRlFLWGtUT284eHk4MTUyZDNZdmdlMzdYaFVDMDJlcEVnT0pjSQ?oc=5
+
+### パナマの港湾紛争が投資家の信頼を損なう、香港行政長官が警告
+
+香港のジョン・リー（李家超）行政長官は、パナマの裁判所が香港を拠点とする長江和記実業（CK Hutchison）の港湾契約を無効とした決定が、中米諸国への投資家の信頼を損ねたと述べた。リー行政長官は火曜日、広東語で記者団に対し、「パナマが正当な経済貿易関係を覆したことは、その信頼性を損なった」と語った。「これは、そのビジネスに広範な損害を与えるだろう」と述べた。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/10/ports-dispute-hurts-investors-confidence-in-panama-hong-kong-leader-warns/
+
+### 旧正月｜白いお年玉袋配布で非難された南区区議会議員・趙式浩氏、風水との関連を説明
+
+旧正月のお年玉袋（利是封）を白い色で配布したことで非難を浴びた南区区議会議員のチャオ・シクホウ（趙式浩）氏が、その理由が風水に関連していると説明した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMipgNBVV95cUxNUEJCQ1dZOHhydm9jdkFqV2JtZWJSRFRMY05fbTFOcW5hTHZMWEozNnJqZXM3YW5hdGdBVkR2WFFvREhPaW9pNzd4YzVzSl9fcmxYeHVEY1kxeDE5b284MVlvLXVaVEVZNmlRcnk0Z1I0d3l1b01RVEtlaUx4Q2pJTWkyUjljRTF2ZzJsYWMybHhObEZLWmEtVjh3WFQ2WVBfd1I1QzVYT2NOU0gxRDRFejItcXBhV3lpbnpNbmNzWm9DVUs5b0c3RklNNXdGclBZYWhMSTRoWXdyc183dkpDU2dyZmwzdjJBblJ5SXVSY1pUMjBIUDFmS3YzYldyZlEwY2g0WWR1Unp0X0dud1JndTJPN2plTFdqTVlyYmtMbm5tem9ZekVNV1ZIeEhRV29FX3lUR3RCVVBZdEVVdHdYX1UtTG9oTFd1dWpzWHpIbG53eU9QWDgxOXpOYkNuUmhCRW11ckNNcHgySTBPVUs0Wk5KSGZTNHJPcEtiRnZFMno3dkZ3dWNFVGVpRU13Wkd5MnIyY05idDY3NDZNclgzN3pOTGVTdw?oc=5
+
+### ミシェル・ヨー、ベルリン映画祭で金熊賞を受賞、今年香港での映画撮影に意欲
+
+マレーシア系中国人女優のミシェル・ヨー（楊紫瓊）が、ドイツのベルリン国際映画祭で生涯功労賞にあたる金熊賞を受賞した。彼女は今年、香港で映画を撮影したいと語った。
+
+ミシェル・ヨーは「（香港は）私のキャリアの出発点であり、だから私は常に香港映画に特別な感情を抱いており、私の心の中で特別な場所を占めています。回復力は非常に重要だと思います。なぜなら、世界の（映画業界は）困難な時期にあるからです。若い才能をどのように育成するか、ベルリン映画祭では、彼らが新人監督に機会を与えるために全力を尽くしているのを見ることができます。彼らはまさに機会を必要としており、香港政府も小規模な映画製作や新人監督に助成金を提供することで、まさにそれを試みています。これは正しい方向性であり、発展のための強固な基盤が必要です。彼らは非常に努力していると思います。私もその一員になりたいと思っています。なぜなら、今年香港に戻って映画を撮るつもりであり、そうしたいと願っているからです」と述べた。
+
+アカデミー賞とゴールデングローブ賞の主演女優賞受賞者でもあるミシェル・ヨーは、ベルリン映画祭で金熊賞を受賞した初のアジア系女性である。記者会見で彼女は、受賞は一本の映画だけでなく、長年の粘り強さと努力によるものだと語った。現在の米国の政治環境下での映画の発展について尋ねられると、彼女は自分が理解していないことについては議論したくないと述べた。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%A5%8A%E7%B4%AB%E7%93%8A%E5%A5%AA%E6%9F%8F%E6%9E%97%E5%BD%B1%E5%B1%95%E9%87%91%E7%86%8A%E7%8D%8E-%E7%A8%B1%E6%9C%9F%E6%9C%9B%E4%BB%8A%E5%B9%B4%E4%BE%86%E6%B8%AF%E6%8B%8D%E6%88%B2-121723583.html
+
+### 行政長官ジョン・リー、年末に油麻地を訪問し住民を訪問、高齢者センターで福袋を配布
+
+行政長官ジョン・リー（李家超）は年末に油麻地（ヤウマテイ）を視察し、住民の家を訪問し、コミュニティセンターで高齢者と交流した。彼は主に在宅高齢者ケアの状況を理解したいと述べ、高齢者たちは地域の設備とサービスに満足していると語った。
+
+リー行政長官は専用車に乗り、人気の観光スポットである油麻地警察署の向かいに到着すると、すぐに人々に囲まれ、新年の挨拶を受けた。多くの観光客を見て、彼は宣伝の機会を逃さなかった。北京からの観光客である高さんは「とても親しみやすいです。これは予想外でした。北京から来て、ここの役人はもっと親しみやすいと感じました」と述べた。
+
+リー行政長官は、労働福祉局長のクリス・スン（孫玉菡）と民政青年事務局長のアリス・マク（麥美娟）に同行され、チュンファットガーデンで2つの高齢者世帯を訪問し、約30分滞在した。ある高齢者世帯の住民は「私の実家はカナダですが、彼らは私に戻ってくるように言いますが、私は戻りません。なぜなら香港が最高だからです」と述べた。リー行政長官は「皆さんがこんなに楽しく暮らしているのを見て、私も安心しました」と語った。
+
+リー行政長官は「辰年が近づいています。皆さんの健康と活気を願っています。これは私たちのささやかな気持ちです」と述べた。高齢者世帯の住民は「あなたが私たちを率いて困難を乗り越えてくれることを願っています」と答えた。
+
+階下に降りると、さらに近隣住民と交流した。リー行政長官は「私も以前は団地で育ちました。私が最も気に入っているのは、すべての近隣住民と知り合いになれることです。約束する必要はありません」と述べた。高さんは「とても良い人で、笑顔も素敵で、人柄も良いです。私の願いは、経済がもっと良くなることです」と語った。
+
+近隣住民の行政長官への愛情は、言葉では言い表せないほどだった。ある市民は「はい、私も彼がかなり好きです。（なぜ行政長官が好きなのですか？）なぜなら…つまり…香港は高齢者にもかなり良く、手厚くケアしてくれているからです」と述べた。
+
+その後、リー行政長官一行は地域内の高齢者センターを訪れた。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%9D%8E%E5%AE%B6%E8%B6%85%E6%AD%B2%E6%99%9A%E8%90%BD%E5%8D%80-%E5%88%B0%E6%B2%B9%E9%BA%BB%E5%9C%B0%E6%8E%A2%E8%A8%AA%E5%B1%85%E6%B0%91-%E5%9C%A8%E9%95%B7%E8%80%85%E4%B8%AD%E5%BF%83%E6%B4%BE%E7%A6%8F%E8%A2%8B-101223390.html
+
+### 「新型当たり屋詐欺」対策：保険業界が警察に専門部署の設置を提言
+
+「新型当たり屋詐欺」の増加を受け、保険業界は警察に対し、この種の詐欺事件に特化した専門部署の設置を提言した。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi6AJBVV95cUxPVXlBN1NWb3kteVdZWW50cnhOQzFYX0pzWDdHYlZ1N0YtNVNyTzFjT2NqNEFoSm91M2RsM3FXMHZhdk1VUVNtdDFCNHBlMUd2dU1vYlRocDA1cVBRanBXeUFwNWVxdWFReWR6NjB4UHVOSWQyRHVzUnZyTnFSRHhFSThwRFNhVWx6dDZuazI4Zzl3em40OWJpR3A2c0lvUU1PdlBLMlZyXzhoRm9vOVAxSFFwWkI2YWJFM25NN0RtdWlrak9WQTNTNDlnVDB3Ym8yWmEyeFJPRDJQV2FSdXZXa1drUFM1V01nZW5mSVpvdGc2cEpvcllBWmRqSWRUMXFXRW5oSU9UVDNxSU9qM0NzcG8xdkZMdnYzaHNXQ3NqUkk0SjNHVGlmV0JVQWVVLVkyOTQxcGIybkx2aXpjcGJ5T0FZbWF6YXdvMUhJaW9OUWRXUFBpRXg3cnBxN0VXNFBXLWRhRnVuRzg?oc=5
+
+### プリンス・ジュエリーの役員、九龍の高級マンションを売却しメゾネットに買い替え
+
+香港を拠点とするプリンス・ジュエリー＆ウォッチ（Prince Jewellery and Watch）の役員が、九龍（カオルーン）のマンションを売却し、同じ地区のメゾネット（2階建てユニット）に買い替えた。アナリストは、裕福な住宅所有者が景気回復の兆しを利用して住居を交換していると指摘している。
+
+プリンス・ジュエリーとスカイ・リーガル・プロパティーズ（Sky Regal Properties）の役員であるタン・イックキ氏は、わずか1ヶ月強で両方の取引を完了した。タン氏はまた、Just Gold、Peonia Diamond、Peonia Holdingsなど、他の多くの企業の役員も務めている。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3343474/prince-jewellery-director-sells-upscale-hong-kong-flat-upgrades-duplex?utm_source=rss_feed
+
+### マーティン・リー・カーシン氏、クリッシー・チャウ氏とGoogleを名誉毀損で提訴
+
+マーティン・リー・カーシン（李家誠）氏がクリッシー・チャウ（周秀娜）氏とGoogleを名誉毀損で提訴した。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%9D%8E%E5%AE%B6%E8%AA%A0%E6%8E%A7%E5%91%8A%E5%91%A8%E7%A7%80%E5%A8%9C%E5%8F%8A-google-%E6%B6%89%E8%AA%B9%E8%AC%97%EF%BD%9Calphabet-%E7%99%BE%E5%B9%B4%E5%82%B5%E7%8D%B2-8-%E5%80%8D%E8%AA%8D%E8%B3%BC%EF%BD%9Cjace-%E7%B4%85%E9%A4%A8%E6%BC%94%E5%94%B1%E6%9C%83%E7%84%A1%E6%87%A7%E6%BB%AF%E9%8A%B7%E5%82%B3%E8%81%9E%EF%BD%9C2-%E6%9C%88-13-%E6%97%A5%E3%83%BByahoo-%E6%99%9A%E5%A0%B1-123207153.html
+
+### スタークルーズ、香港発の航海をキャンセルし乗客が怒り
+
+スタークルーズは金曜日の夜、香港発の予定されていた航海を「予期せぬ技術的問題」のためキャンセルし、何時間も乗船を待っていた怒った乗客たちは「難民のように扱われた」と不満を述べた。
+
+クルーズ運航会社は謝罪し、顧客に日程変更または全額返金の選択肢を提供した。
+
+「スタークルーズは、2月13日に香港オーシャンターミナルから出発予定だった『2泊公海クルーズ』のスター・ボイジャー号の航海がキャンセルされたことをお知らせします」と述べた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3343542/angry-passengers-left-high-and-dry-after-star-cruises-cancels-hong-kong-sailing?utm_source=rss_feed
+
+### 政府、CCTVネットワーク強化に40億香港ドルを投じる計画
+
+政府は金曜日、法執行と群衆整理の効率を高めるため、香港全域にCCTVカメラを増設するために40億香港ドルを投じる計画を発表した。
+
+警察は、SmartViewネットワークのためにカメラを設置しており、2028年までに合計6万台のデバイスを設置する予定である。
+
+立法会に提出された文書によると、保安局と警察は、計画のフェーズ3でさらに6,500台のカメラを追加し、5年後には合計約66,500台とすることで、ネットワークのカバー範囲をさらに改善すると述べた。
+
+警察は他の公共カメラをシステムに接続しており、将来的には民間の商業組織の適切なカメラもネットワークに接続することを検討する予定である。
+
+来会計年度の維持費や消耗品などの経常支出は、約7300万香港ドルと見積もられており、この数字は10年後には2億4300万香港ドルに上昇すると予測されている。
+
+しかし、警察はCCTVネットワークがコスト削減にもつながると述べた。
+
+警察は文書で、「SmartViewプログラムは、法執行活動と群衆管理の効率を高め、CCTV映像の検索や閲覧といった反復的な作業に現在使用されている人員を削減する」と述べた。
+
+彼らは、2028-29会計年度から年間約2000万香港ドルの名目上の節約を見込んでおり、削減された人員は、専門的な判断を必要とする、ますます増大する他の警察業務に再配置される予定である。
+
+この提案は、今月末に立法会の保安委員会で議論され、来月には資金要求が提出される予定である。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1843792-20260213.htm
+
+### 香港の西九文化区、30億香港ドルの10年間融資枠を確保
+
+香港の西九文化区を管理する当局は、先に発表された10億米ドル（3億8380万米ドル）の債券発行プログラムに加え、通常よりも長い10年間の30億香港ドルの融資枠を確保し、資金調達の危機を回避した。
+
+西九文化区管理局のバーナード・チャン理事長は、この資金調達は、住宅開発が収入を生み出し始めるまでの今後10年間、西九文化区管理局にとって非常に必要な生命線となると述べた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3343531/hong-kongs-west-kowloon-arts-hub-secures-hk3-billion-10-year-loan-facility?utm_source=rss_feed
+
+### 香港、6月までに5秒顔認証e-チャンネルを試験導入へ
+
+香港は、昨年3億3500万人という過去最高の出入国者数を記録したことを受け、処理時間を5秒に短縮するため、6月までに国境検問所の1つで顔認証を利用した新しい通過レーンを試験導入する計画だ。
+
+入境事務処長のベンソン・クォック・ジュンファン（郭俊峯）氏は金曜日の年次記者会見で、昨年は2024年と比較して全体で12%多い旅客を処理したと述べた。
+
+「昨年の過去最高の入国管理数は、私たちの入国審査業務が…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3343530/hong-kong-immigration-authorities-handle-record-335-million-passengers-2025?utm_source=rss_feed
+
+### 観光客の減少はトランプ氏に一方的なアプローチの見直しを迫るか？
+
+香港が旧正月観光客の急増に備え、2017年と2018年の観光黄金時代への回帰の待望の証拠を期待する中、米国と今年の米国観光における「トランプ不況」の証拠の増加に思いを馳せてみよう。
+
+国連観光機関のデータによると、2025年の国際観光は世界的に4%増加し、国際旅行が新型コロナウイルスによって急落する前の水準に戻ったが、米国は世界で唯一、少なくとも4%の減少を記録した。
+
+ドナルド・トランプ米大統領は…
+
+**引用元**: SCMP Business
+
+https://www.scmp.com/opinion/world-opinion/article/3343362/will-tourism-slump-force-trump-rethink-his-unilateral-approach?utm_source=rss_feed
+
+### インフルエンサーのラウ・マーチェ、通利琴行のアンバサダーを詐称し詐欺と逮捕抵抗の疑い。警察が逮捕・家宅捜索し、さらに窃盗の疑いも発覚
+
+インフルエンサーのラウ・マーチェ（劉馬車）が、通利琴行（トンリー・ミュージック）のアンバサダーを詐称し、詐欺と逮捕抵抗の疑いで逮捕された。警察が家宅捜索を行ったところ、さらに窃盗の疑いも発覚した。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxNYURhY0p3cVNObzNHVDlvUU16djJZWnl5R0xzMVRjRFhoYjZJU0tLLUdqcUluT2J6LVRTUG0zb3V3UTlLV0FhZXBobTN1OXF0Ny1KWWtmcXdfbUVSSlBIczFMa1lrMlRNcy1iVUlMbGpGT2c3SUdzRmc4TE40RGd4OFdvY1lJTElZRkJDeWNtYVAweXlUc1J0bWdPVkNPQmNWMTZaQ3UtcGVYWWpyYkJkYVFsaEg2SjdxMVVRR2YtX1gzVHdZMHpsa2RkU0ZmZTI0bkhScU1JVmg5Q2t1d1RVWW5va1BrSVNoVmc1SWZYRlUzYWYycGE3dldMRkRJb2NEVDFrT25BQ2lCb182eWFmTFEzcWlDUEh4UXFERTNfdEdWa3FhUS1FMWNjVWt3c0dNWEo1eFdZRDRiNFd2T09JUmxyS0E4QWY5R1o0b2dXOTJscXlocl90cHRWZ1ZoQmlkRDlYZUFGR28xSl9vbHV2N2dFTGdmbkg5UzFLSWhhSWc4T1VZbEpReXBrMl9SSEJOU0hYVXlaZTcxODBOMWZYX3pTSl9DcFUzX3lVMVNuamU0WXd0OElmcHF1UGQ4Mk9mQUdhNXhYWEk?oc=5
+
+### 香港の廉政公署、不正な改修契約に関連する企業を摘発し22人を逮捕
+
+香港の汚職対策機関である廉政公署（ICAC）は、2億香港ドル（約2560万米ドル）以上の価値がある7つの建物改修プロジェクトに関連する汚職やその他の違法行為の疑いで22人を逮捕した。
+
+逮捕されたのは、36歳から78歳までの男性17人、女性5人で、4つのプロジェクトコンサルタント会社と3つの請負業者の役員および従業員、ならびにいくつかの住宅団地や建物の区分所有者委員会の会長が含まれる。
+
+逮捕は、「ライオンロック」と名付けられた2日間の作戦に続いて行われた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3343507/22-arrested-hong-kongs-icac-raids-firms-linked-shady-renovation-deals?utm_source=rss_feed
+
+### スタークルーズ「スター・ボイジャー」号が故障、1000人以上の乗客が5時間以上足止めされ、夜になっても乗船できず
+
+スタークルーズの「スター・ボイジャー」号が故障し、1000人以上の乗客が5時間以上にわたって足止めされ、夜になっても乗船できない状況が続いた。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxQaHQ0ZFFqWTBIWElieklJZWsxMkNkTHY4NjlLT2RIaXg1dXhHZkJ3dkplcXdmaFg0UzRzRWVORkhJbTY3VUZDWnhndDF1aFAwZ0dMZ1NHT0E0bHFvWk85TzNvT285b3NVbV9nQnR0VVVQeGlBRjBXb0V4R05uWGpNY2lZTjNpTDMtaU5OZVF2YmZULUlKQVRodF9CODhJTEpob0xQc3liUjQ1aTBSMnJaS3VPNDl3c1p0WjNJZ0ZPRmJBbFEtYTB0WjExeU5LeEpPX2NLazl1VVRBS1pvLTlHcE9OYnF2cEdTY29WNXF1QThtN1d2LWtSRjRIbGg4YW9uTUZGRGk3YWliQU5lRGV2Q2laay01MXNlVzBkRjNDcklZaUk4SWZSRXZYdU50eXlIYUVfX3A4VzEtMjBuTVp0SkhiVzBvTHA0eXNCR3NlRDVDT3lCM2Z4d3Q0eHJfNnZmVjhUTmFMVXgyTXNpMzY1X3daYWFIUFBRSV92UWNKMDEzcjBhdGxPODhFU0tsUEJ0b0txdTQtRzNJT1owV3Q1cWp1NDZwZjA3cm5VckhNdW5pS1k?oc=5
+
+### 高齢者が現金引き出し後に尾行され路上で3万香港ドルを強奪される、70代の女性が罪を認め2年の懲役刑。裁判官は1.5時間の尾行は衝動的な犯行ではないと指摘
+
+高齢者が現金を引き出した後、尾行され路上で3万香港ドルを強奪される事件が発生した。この事件で70代の女性が罪を認め、2年の懲役刑を言い渡された。裁判官は、1.5時間にわたる尾行があったことから、これは衝動的な犯行ではないと指摘した。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi9gNBVV95cUxNNndFQnN2YUhZcXVHTFNUekc4eW1IY29TLXJrck1NX29JYWFNdUlOaXNpR2h1eThKd0NFdFpWaFpxX2l2STV1ZGtOekV5UzZuLUNPYkE3djBBOVBCU0hPTUpGNHBxR2FyZGtVTzJlYmlxUnZJaEdmVlRCamRLLW0zRm9XcE0wMEl6eWw5Qmp1bkgwV0pNSVVMMTMwRE1ENkhpSHZrWjBKbXpZeVJtU2xDYTVaNmhhVGZRR2JOWlBwRkh4dVpGZGRnQzlXTm5FSzZ5Tm40OVZ1RXpidy1SWXZmLUFLNU1zV05ncWlFM1JjTDlpMVlMUi1fakQyYWlUM3pqdlNrVmhXS2RPRWpBcmt5MTl2Z1czWlBMVjRvVlI4YVpqN2VsbUM1VGZkd3lOaUF1a2FGMjBDZms2d3pyV0x1QnBKY09PMmNJR3RXNXpKZkNhSTdvR0hyNS11UWhYaERtV2JucTlLOTA3Vkg4cW9VQ014MGFKRGtZRnFxa01yam1Ha25Gekp6SDlVcVBjSmtwSmtRUWp1S1ZKbEp6UXZLSUtvbVZjYjh0dEt4YThwZUpBZEcyT2dsNVBEZWdackNvOGZVZm13STFfeFZmZFRHaDZPeVZEX185ajZFa0p1YU1vcTNmU1JIYnNoUEdCbzd2dGNJSFZR?oc=5
+
+### スタンレーの売店が閑散とした場所と化す、食品環境衛生署が単一事業者導入による転換を検討
+
+スタンレー（赤柱）の海浜にある売店が閑散とした場所と化しており、食品環境衛生署は、単一の事業者を導入することで、その運営モデルを転換することを検討している。
+
+**引用元**: 明報新聞網
+
+https://news.google.com/rss/articles/CBMi9AJBVV95cUxOODdpZnpPUlNSWWtHSmxWWDBTNEwzVF83UTZTT3JjZGN1QUNuUWpYODFaZ0tTTHhiMDBvblYwemR1bXZvdmpsZzM5S0Y1eWh1WmROUUlCemU4MW9ZZXRWY18yZWx6YTM4RkhZTnlyQjVHT0xTWjhTbVc2ZGd1cUh0M3drMHJ1Ulh4Vlk4YXk1cFlySWxIRXhpeW9YMGhaM2FRSHkwY19VX2hHZTNwUWJmY3ZQRlJZT3RTMXpFeGJTbklZRkY1U1g5TmRTeXprcmR1aENYZFpMcTNsVHlwMlJLbU14VnoxNk9YY25NbmVnTTVibENBQjJDUGc3V1laLWhWRkctZjBPVGlocDY3MUN3WFlveG1SSnRYUmFVZzdDdE9PSDlRZ01ER20tVGxEanlzT2Q2OUQ5TzZzeHdTM2dkSUp1YU1KTTdMMWRQNlBLOU42bi00YkRrQ3BxY0VORC1CQTl3Ymx1dUtNZE9YMGtZMzNUbnM?oc=5
+
+### 二階建て九龍バスが道を間違えエレメンツ駐車場の天井に突っ込む、九龍バスは運転手の職務を即時停止
+
+二階建ての九龍バス（KMB）が道を間違え、エレメンツ（圓方）駐車場の天井に突っ込む事故が発生した。九龍バスは、運転手の職務を即時停止したと発表した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMisANBVV95cUxPM0tuR0ozLTFJclFUTzFYYlVIWmxBcy1Rdm1zVzBFTkV5LUFyNVVMaWotaXBpb2lSVkpWQjc4NjZqcUZlT21Na1JpNWZFNVY0VXQ3aGRSX3JGOGNueExNQ0lUTXJTcmNOZ09DdlVGV0ZBb1ZtUndTNUlmcmtHZUFPbHNqZXdvTFhiajVKWmtVblhEYUVXUnpubDRXVEdjRmpwUS1EVnhpTlBaY19YamM1Y0l3X28tVGxTSDBvMWF3bXoxbmVhVTFLdmZuY3R4WjByWjdLT19WUWZOcmhib0ZIRUphb0t3U0w2cjlwN0VMV3FMTTREYm84cVg4VzZ5VDZKWlhodjlxZE96dENqTDNjZ2t0NHJ1LW9yem1NTmtETTltaW51MFItbEtDSFN4dmtWX3pTZk9qNzBQdFh5QzFOaGx0aWI1RERrYUNwZjI0Tk52ZlZoaUNOalZ5RDItS2VpbEtWaUJ4TV9RejdhZHhvZjlIOFN3RDdKX1hISE5mdHJ6QVdMMnQ2dE1iR1hPRjM3bDB1d0p5a0tVOEJ2MnNMdjVGenlqUEhUYjVSWnV6UGQ?oc=5
+
+### 大埔のBMW危険運転事件｜薬物関連の女性乗客が制服着用、シティバスは非勤務時間で停職処分と発表
+
+大埔（タイポー）で発生したBMWによる危険運転事件で、薬物関連の女性乗客が制服を着用していたことが判明した。シティバスは、この女性が非勤務時間であったこと、およびすでに停職処分を受けていることを発表した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxOVjNqUGF4aVdHSk1vR1p6RGpqUHlrbll2RkRGbGVDX0JtMkE2SnoxTjBPSU9xX3lyaV9jTEVZR2lfd2RqSEF4a1dpYy1PQ1B0aG50YUM4aGhrNFNHaTAyeFhhRjh6cXl4M0NTZHI0T3RucGl6d1dqX2VDcG8zOFhMZnVYazVaRWN1MzNHb1VubzRqS0Ixdnl4bHR3eU5pdFMtZC01clBxcWVXVzNBNU02ZGhGTWxpSDRoeWRtQ1Z5eGVXUnY2M3BPTmRoMW1oYXRUVTRzMHhyYnlIR0R1VDZiYWZLcXY1YWJlY2lSYW5wOW9WUHRkM1BVQmNJS2IwemZuYmlfOVFOUWNraTctU0JFZUxIRmh6by02dVEzeVBPT2pBbFVNNVRVZkhYcFNRcXF3QXN5cHpwekI0NjZveW1BNi1pelhXR2ItOXRaNU00YmlvWlhsaTZZNVMtRG9VNGdMMWt5SmRjQkU1ekI2RFF4QnhMY3djX2lpQXM4V0FCajZFLTlTSDRPd3Rubk5xZmdRZk9ha1MteE1NRVU?oc=5
+
+### 立法会議員42人がビクトリア公園旧正月市場を訪問、合計約6万香港ドルを消費。ある議員は学生に「何とお呼びすればよいですか」と尋ねられる
+
+立法会議員42人がビクトリア公園の旧正月市場を訪れ、合計で約6万香港ドルを消費した。その際、ある議員は学生から「何とお呼びすればよいですか」と尋ねられる一幕があった。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMikANBVV95cUxNT2RsdlRvelFPUEdxU2hCMFJQRk5iZjFGbnFTc3NwZTJwcFBSWUpDMllNMXp3ZmFlMU5YN1pBREp1V2l6cG5NLUZhcXJuVXp2ZUdHMV91TVIycG5DOWt1ZklHZVFkbzYwS1hwNEM5cXFDaE5ZTzJ1a29UMlA1QTlxSkNBdVFYaVJLQlRsX0FrdFdhaHNUWnhoSEcxbHRDVGRjd0RQcllhdUxubGNTZUQ3Q3ZzNTRrZnc5OEFOdU9NTEg2Q0M4YzRfQVlYV0dUWXliVVcxdWV6X3phcnNsZVFFRWhaLVdNMlo0WloxOGhJSlk4cWcyWXY1bkdZTExYa0VXZk4zM2FYYTR4WXF4ay0ySXAtcUphNVB3M3dGWHB1ZGN3VmxNRzVqcE5tSmtLLW5CR1pBeVRNbGJQeEhwSGJ5a3lESDYyWm0zNzRmS1hoT3pnUDRpRkZVS3pYQXZoX1I1Qml0ZjV1aWRHNzdmOFA1MlpKVkV1YTZOaGVLLUtqVUl6RV9TcWdvdXNnSnBCVXZP?oc=5
+
+### 香港税関、密輸タバコ27億香港ドル相当を押収、摘発件数は36%増加
+
+香港当局は昨年、密輸タバコの摘発件数が36%増加し、27億香港ドル（約3億4540万米ドル）相当の品物を押収したと発表した。税関長は、子供を国境を越えてタバコを密輸させるという新たな手口について警告した。
+
+木曜日の2025年の業務レビューに関する記者会見で、税関・消費税局は、密輸タバコの事件数が前年の21,283件から29,037件に36%増加したと報告した。これは、関税引き上げや…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3343350/hong-kong-customs-seizes-hk27-billion-illicit-cigarettes-busts-jump-36?utm_source=rss_feed
+
+### 旧正月のお年玉袋は身分や地位の象徴？Threadsで「時計やハンドバッグを買うのと同じ」と話題に。ネットユーザー「最も重要なのは『中身』！」
+
+旧正月のお年玉袋（利是封）が身分や地位の象徴であるかどうかがThreadsで熱い議論を呼んでいる。「時計やハンドバッグを買うのと同じだ」という意見が飛び交う中、多くのネットユーザーは「最も重要なのは『中身』だ！」と主張している。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMiygNBVV95cUxPblJJMlZUeW1QMWJ0c1JybjdSN3ZyR3kzYmprMlNyOThfM2RoS29PVS1ydC1uS05weVB1TjdZakR5MHc0d3B4dnZRVDJqWXc3OHlFdjB4Q3hxeGYzRWtTSE5LaGJVQlV0UlhwMnZmREJ5dzRGbndlUnY0ZXcweUVwa0NOcVE4X0JROUVUcGY4ZXhZc1R3Z0ZJbXlRaUdKVGc0a293QW94STBSMjNnbDZlbHpYd0dfa2Z2OU4zUGtVaVkxVGV4LUJMWWEwVldzUDFxM3lLaEZ6aEtyNlJOWVY0aUdzYldxaVFBTXdvZmpWbEVXQ2xYWWtkOGpEOUpONU1UeDVBei1vSnpmbzU5TVZtODI5YXRuNDh2RVZVUkJJbGxzaGhBd2dXc1BBZnB1ZldhOVZHLTJUN3ZoUnZ3enN4X3ZrSGRJeGNKOVB0QjhjWm1fc2h5RjFHWG1DZFFFRUg5YmtmNUVQU3M1UW81bTFPTU96em1kZlVqR0Y2TTB6eGp2TU1RZUloUVA4Vl9wN01aVFIxeUpkMFJUM0pZMUFmMkl1NGdOd3BKU0hTZ3VnaU5La2JzRmVHUjJnUkV0WW0tRm9RbnhaWXd4UQ?oc=5
+
+### 廉政公署、大規模改修工事の汚職で22人を逮捕。7つの住宅団地とビルが関与し、契約総額は2億香港ドル超
+
+廉政公署（ICAC）は、大規模改修工事における汚職の疑いで22人を逮捕した。この事件には7つの住宅団地とビルが関与しており、契約総額は2億香港ドルを超えている。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi9gJBVV95cUxPeFNkb3ZNamtmMnhMMzVSVE1wYW9iREd4LTVPYXVCLVNvWXJBbkpXVGJZWENpZjN4Z1d2TXNoODJEb0E1TkxwZDB2YzZ1bTZFQk1XN2JyVzFSWTd2c2txY1ptbEdDcWsyNzVGQTIwQWkxVkFUR0FNZ1JIelp4NE9kX3dCQ3doSFhpbVp1b2hzOEV2TlVTWWE4REpXOHB0TzVuWjZ3ZWZNZkcyWDE1RkVlc0E2OTFGbUJtRXpYc0ZJajhPc0hYWEl3NGIzX0xlY2dEeWlpQ3NHRGJuT0ZIeDlxaUszSTliZTYxRDVabVJrSmNOc21DZk1tMWlWUUZ4TW9aZTF3c0RadzdoU2hWcnlFbjJzTFNPakFMek8tc3JPa0tSWXprbXJJSFBCa0NQY3hkenNBXy1XS3VRekVlNFg2d1NuQ3dnT09aZWtIRklVd2RPRnEtMzB1al9SQlV1a1Y3M3F3bXo0REVWa1VXQ1FDRzNOUmJ4QQ?oc=5
+
+### 屯門の「幹華小築」関連者が政府の土地を不法占拠、罰金と撤去費用として58万香港ドルを支払うよう命じられる
+
+屯門（チュンムン）の独立家屋「幹華小築」に関連する人物が政府の土地を不法占拠したとして、裁判所から罰金と撤去費用として合計58万香港ドルを支払うよう命じられた。
+
+地政総署によると、この件は「幹華小築」に隣接する約1450平方メートルの政府の土地に不法建築物が建てられたことに関わる。同署は2023年11月に、関連人物に対し、政府の土地の占拠を停止し、不法建築物を撤去するよう法的通知を発したが、関連人物はこれに従わなかった。そのため、同署は2024年2月に当該政府の土地を接収・封鎖し、同年8月に違法行為者を起訴した。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%B1%AF%E9%96%80-%E5%B9%B9%E8%8F%AF%E5%B0%8F%E7%AF%89-%E7%9B%B8%E9%97%9C%E4%BA%BA%E5%A3%AB%E9%9D%9E%E6%B3%95%E4%BD%94%E7%94%A8%E6%94%BF%E5%BA%9C%E5%9C%B0-%E8%A2%AB%E7%BD%B0%E6%AC%BE%E5%92%8C%E9%A0%88%E6%94%AF%E4%BB%98%E6%B8%85%E6%8B%86%E8%B2%BB%E7%94%A858%E8%90%AC%E5%85%83-132723958.html
+
+### 廉政公署、大規模改修工事の汚職で22人を逮捕。荃湾センターの1億香港ドル超の契約を阻止したと報じられる
+
+廉政公署（ICAC）は、7つの住宅団地とビルにおける大規模改修工事の汚職に関連して22人を逮捕した。この捜査により、1億香港ドルを超える契約が阻止されたと報じられており、関与した住宅団地は荃湾（チュンワン）センターであるとされている。
+
+荃湾センターの多くの住民は、改修工事が準備段階にあることは知っていたが、詳細については知らなかった。ある住民のヤンさんは「排水管や外壁のパイプなど、まだ費用が確定していません。通知も受けていません。以前会議がありましたが（出席しましたか？）、私は出席していません。他の人に委任しました。なぜなら、私は忙しくて、普段は香港で働いていないからです」と述べた。
+
+別の住民のウォンさんは「難しいです。相手が強ければ、何を言っても聞いてもらえません。何か言えば、すぐに発言を止められてしまいます。あまり意味がないと思います。政府が人を派遣して監督するのが一番です」と語った。
+
+廉政公署によると、今回の作戦は、荃湾、深水埗（シャムスイポー）、大角咀（タイコックチョイ）など複数の地区に分布する他の2つの住宅団地、3つの単棟住宅ビル、1つの工業ビルの大規模改修工事にも関与しており、工事契約金額は200万香港ドルから1億香港ドル超まで、総額は2億香港ドルを超えている。逮捕されたのは男性17人、女性5人で、年齢は36歳から78歳。4つのエンジニアリングコンサルタント会社と3つの建設請負業者の役員および職員、ならびに一部の住宅団地とビルの区分所有者組合の会長が含まれる。
+
+廉政公署は、以前に汚職の苦情を受けたと述べた。それによると、建設請負業者が汚職手段を用いてエンジニアリングコンサルタント会社と区分所有者組合のメンバーに賄賂を贈り、住宅団地とビルの大規模改修工事契約を獲得しようとした疑いがあるという。調査により、…
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%BB%89%E7%BD%B2%E6%8B%9822%E4%BA%BA%E6%B6%89%E5%A4%A7%E7%B6%AD%E4%BF%AE%E8%B2%AA%E6%B1%A1-%E6%93%9A%E6%82%89%E9%98%BB%E6%88%AA%E8%8D%83%E7%81%A3%E4%B8%AD%E5%BF%83%E9%81%8E%E5%84%84%E5%85%83%E5%90%88%E7%B4%84-%E6%B1%9F%E7%93%9B%E5%BA%AD%E5%A0%B1%E9%81%93-130523877.html
+
+### 香港の大物実業家ジョセフ・ラウの親族、ミッドレベルのマンションを1280万米ドルで売却
+
+逃亡中の香港の大物実業家ジョセフ・ラウ・ルンホン（劉鑾雄）氏の息子と元パートナーが共同で、高級住宅街ミッドレベルにある3ベッドルームの高級住宅を1億香港ドル（約1280万米ドル）で売却した。公式書類によると、約20年間所有していたこの物件から約4000万香港ドルの利益を得たという。
+
+土地登記所の記録と不動産仲介業者からの情報によると、アルバニー（The Albany）の高層階にある1,948平方フィートのマンションは、火曜日に登録された取引でドラゴン・マインド・インターナショナル（Dragon Mind International）に売却された。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3343288/hong-kong-tycoon-joseph-laus-kin-sell-mid-levels-flat-us128-million?utm_source=rss_feed
+
+### 香港の法律は複雑な離婚問題にどう対処するか
+
+香港の弁護士会での実務のやりがいの一つは、多くの新しいことを学べることである。訴訟をうまく進めるには、関連する事実を深く掘り下げることが必要だ。そのため、私たちは常にさまざまな業界やさまざまな信託または企業構造について学ぶことになる。
+
+同様に、離婚事件を扱う際には、離婚の背景や、結婚が破綻するまでの家族の行動を研究する必要がある。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3343181/how-hong-kong-law-deals-complicated-matter-divorce?utm_source=rss_feed
+
+### ガンダム、ゴジラが香港のアジアIPフェスティバル「Con-Con」の目玉に
+
+アジア全域の知的財産（IP）フェスティバルが4月に香港で開催され、日本のミュージシャン（アンバサダーのCocomiを含む）や、人気フランチャイズのガンダムやゴジラといったポップカルチャーの輸出が目玉となる。
+
+4月4日と5日にアジアワールド・エキスポで開催される「Con-Con Hong Kong」では、没入型展示やアジアのクリエイターとの対話セッションも行われる。
+
+「Con-Con」は「Convention for Connection」の略で、IPを核とした異業種間プラットフォームとして設計された。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/article/3343203/gundam-godzilla-headline-asian-ip-festival-con-con-hong-kong?utm_source=rss_feed
+
+### 観塘道、デポガーデン付近で男性歩行者が複数の車線を横断中にタクシーにはねられ、病院に搬送されたが死亡
+
+観塘道（クントンロード）のデポガーデン（得寶花園）付近で、男性歩行者が複数の車線を横断中にタクシーにはねられる事故が発生した。男性は病院に搬送されたが、死亡が確認された。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiuwNBVV95cUxPbnk0R0M4QVVLMzhKR3RCLWVQX3Y0TXFJRjVEeFRVZmdLcVk5OGEwNHMxeTZYLUlyUHVIWWFyRFBtZ3IyVVdEeVlZei1oOWNwM3JHdEJhSWEtdW00Nm1WbjI2eWhtc2J5eXZWbHJOSk1sYURNVVYySDd4eUVMN0xNMGZ0ZGRyQTItQnViS1ZHMW42T04zazlwMVQ5NnY4anliNUpjY2RFc0FZT2hwaWJCVGNtMEZua1Qya0lnRnFPbWNYbGwtcS14aEx2RU14dnZlNHM3cEFjenNJbnRyR0pjN04yWFFyLXg5MHFpX2NpNl92VjJRU0d1Uk5rYzIxdGZpTDhWM0MtcllESC05VThubzVZd1Bjb2tsd295c2JteFBxaVFTUzBWQkpHSHhNLU1kb3g3QU9vamZjUUgxQ1g5WWxpeUNJeUs5VjRXQmtPTTlXUnV4N0NhbGhlWG5BWldjSkhjRVVOcGdDWXJfR0VHZ1ppOWlQb0xQblplSUdYYkRjSmtoQ2UtaEhkeTFKUVZoajlNcmJyUGFjaDg1QmNKWXdQMTlwcXVSeEN6dmctWmY2Z281ZURfd1J1Zw?oc=5
+
+### 和宜合道で九龍バスの女性乗客が「ゴトン」という音を立てて階段を転げ落ち、負傷して下層車両の床に倒れる
+
+和宜合道（ウォーイーハップロード）で、九龍バス（KMB）の女性乗客が「ゴトン」という音を立てて階段を転げ落ちる事故が発生した。女性は負傷し、下層車両の床に倒れていた。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimgNBVV95cUxQRmFDU2o4NW13eUEtVHdNbE90X284LUhOdjBzTHBoWDFsOVh2bHk5dUt5QnJyWm5PQzJkRXZQSUYzNXpEUUtVczBUUm9qQTk0ZnVSdmxCQWRFTFliRGFJcDROSTdFaFhkNlZFbmc4UHFPUmkxTnpHQVIydEJOSG1rYWZLUUVsbjdCbE9kdDA4MjBuNXg5dldQWko2ZWVBZkdseGZWaHBWQTVFeUZtNndpeU1Va3Q0aHdYNXZZRHJwQ2VITWRLUXJQR3BZdFNJelN5V2pjTWxUTmpwWmhiUEdnV3pmNC1TdDQ3aWlnODVmUV92LU9zeldwRWhXSkg1S2piRHJnX3Y3WXZPRVFiejJ3Sm1aMUNtSEVfVVBtRDlpNFlDNnVYXzNBZGVnMFlOSmRzRjFNMjlrLWJoNlBVU1NfR3VrdFZoZ2F5TmhKNmQ5UmhSSGNULXh4RkxMemJVcnItbEtBdGVBblFzRmJ5RUNFUzB1MnhTRDNoWi1FamlsVUo3Wk1kMGpIdlRyd0JNSDFlbXBpTHIwRGVPUQ?oc=5
+
+### 妊婦がフランス病院での出産を希望し、胎児の父親の名前を偽って申告。サービスを詐取した罪で起訴
+
+ある妊婦がフランス病院での出産を希望し、胎児の父親の名前を偽って申告したとして、サービスを詐取した罪で起訴された。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxOM3hWOWJtUC1PVmt1eDJxRTExUDhHdF9wRXFrZk0tdGJIem9kdWdHVUxQVnNucG9jYUhmQmhtV0R2QllGVElubndvU3dmVW1UeXdQOXpHNE1Rb0V6aVljSTRiaEpxY25TTkxkUThfSml2SjlxTXFyT2k0em13WWVMS0pmV2VLSVdJSnYwVGp3LWFwWVVST0JEQkNYVTJyTWlZV0M3MjlseFB3cThlaVJnQk9OdEloLVozZVRVT0JiUkhwc0QwMUFEMnAwcUhFbWVXNUtCdnV2bHBNUFRTVEwzaFR5WHp2bWFSb1ZoTHRyYi10ZGRXMEpmakVjZHExbjk1TklBX29nScko3bGJYT1JoekwzcG1lekV6VFYyU3R1dlpaNEhwTFRDbGluRjV6MXVycmgxc2dYcGhIT01lTlptbVo4aGFSLVpsUzVXMk1Qc3hYZ0pmSDdRSFdyMzlEMlpxQ2F6VFdPMi05LTg4aXdUVkw0OEZMQ1pLTGpBSUN5MXl0ek1BQW1jRi1lNjZtRU9FbFhGNGZOeTBHS0hnaTA1QWo5RlRoWXNzdW5kaTRPVl9ET0t4cFNldmQzdXVOZzNOVlVRREc0a2U?oc=5
+
+### 2023年アンダーソンロード建設現場作業員転落事故、遺族が元請け業者瑞安に賠償を求めて提訴
+
+2023年にアンダーソンロード（安達臣道）の建設現場で発生した作業員の転落死亡事故を受け、遺族が元請け業者である瑞安（シュイアン）に対し、賠償を求めて高等法院に提訴した。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMilANBVV95cUxQcW94eGozM1VfREpVdEdPM1g3SHdqMktzYkkxa2NVQ3BNUE14UWJfNE1KOS1NZGlQbnVhNXJncVVqN1hQc2FCcFZJR2drMXNGMFB0Snp2RDI4U1VCd0Fsem9nLU9xeUl6M29fY2c3MTIwQ0JMOXZEQ3ZPQWpLLUdSTjFDcWUzOVFqN1IzUjNvak9fTlhDbk8zdWc4UzhyN2xGM00tUmdPb1VSS2ZlQnBmbVJSc0EzNmRWaG1WbjJPRlRIcF9lMzFHV2pqbWRQeFZZZHVMVnhId1lTdlY3YmtKV1RwdW50ZHh5MHUxU0VKQTBqS1A0WVdEd3h6bkRxTXF0d1IzX1Vad0xRb3FWdjdEcW0yQV9VYm5TRHo2dGRRbm9VeDMxV01TR21oZFVsbkJYUVFJUk16Q2p2Q0hBWDRNVHdTbG52UnpPdEJxbGxWV0pudjdUbzlJYlFmWjVSZHVpb1AyNXN2RFlJZk13QlIxa3VnWU4tT0tEMnB3NXZJdWtPV3hOVEZuUU83OVFHY3MydHBrWg?oc=5
+
+### 麻薬密売人が商業ビルを拠点にInstagram、Telegramで広告を出し、カスタマーサービスも提供。警察が10人を逮捕、1600万香港ドル相当の大麻を押収
+
+麻薬密売人グループが商業ビルを拠点とし、InstagramやTelegramなどのソーシャルメディアで広告を出し、カスタマーサービスまで提供していたことが判明した。警察は捜査の結果、10人を逮捕し、1600万香港ドル相当の大麻を押収した。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi7AJBVV95cUxQOVBhV2dxbU5XWF9Ub1hwXzVaWTRUU0M2Z0JZVllzcUlIdVVuNUZLR1Jnb3U3WHlCZDhZZFpoUUJrb0hlc0xOSzNEME9Td2s1ZC1HZGRjbEhOSmJBZWwwVi1qeTkwc2JFbEN5RmUzcThLS2ZJYktYclJLZ3ZRVFJKSHFVR0xqUV8zcmNRQ3BpT2FxempiVDFhT0xkNGZuRXZVZVJJZXhvQzgxT25pdFI4c3M1NmlTdUVidWVVVG5jazZnMldHNFUxemR5SXBEUHRRRi16SUZfS2M0OHhTbUI4UXRjSEppNUdSY2JEdTBubXFhcTA5NUlndnZIWlo4VHY4NGZRVG4zZ1JGQkthcC1mRVM1eXd5RVk0bGFvWTJGODkxQ1laV1VJM2NNdjZRS0oyUGY4WE5xVWsxSktGSHRiNmRfSmN3ajNqOE0tc1Jralc5OHJwTzNhdjB2bG8yZHhEUUpQclhkcXd6RE54?oc=5
+
+### 長沙湾で乗用車2台が衝突、50歳の運転手が重傷で死亡
+
+昨晩、長沙湾（チョンシャーワン）で乗用車2台が衝突する事故が発生し、50歳の乗用車運転手が重傷を負い、病院に搬送されたが死亡した。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFB6a0FnTVF3c0h3QXhjS1hMcVZMTTI3WDZmMi1YbExvNXRMVXM2UlYtMzZ5MEN1Rkg1M3Myb1lVSkRkTU56cUQ5d3JoNjdHV1pxYUZZLTF3OXhhM1ZiaVRPZUtmeEhnRnJPaUFVTnp2Yw?oc=5
+
+### 非番の警察官が携帯電話に児童ポルノをダウンロードした疑いで停職処分となり起訴、金曜日に出廷
+
+非番の警察官が携帯電話に児童ポルノをダウンロードした疑いで、停職処分となり起訴された。彼は金曜日に裁判所に出廷する予定である。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMimANBVV95cUxNVmZyNWZwdm94eDRxMnFVWjYxeExQcklwN1l6Zk5CTGZHQVpDb2wyLWwtSlo2MUNyV2V4ZXpxYmZFOHpyRW00c09mTXpFUjdMc3d0RjZBRWY3RUh2Sk01X3NYTDhmSVg4SUZKWUZpdDZlNXJKd29zSUZDYktJTGhqY1lJbVVNSjdRdkRZZzFSSURPZnlEXzU1MW85VFZwM2dOb0FCS2xkcjJxZGxJQkZ3UGFwdGkwanROMy1sTjZfSEFDczFPTGZySkhiS1Q2TzFIZS1Db3hTRFVvc2lCSG9YVWl5c1MxZW5FUWEzNDRwcmlZR3d5NnlpZ29fT2steFRJQmQ5U2tpQ29vblV6SWFWUXV5M3haZ3FyUG84OUlhTmZSNUtZRjlGMTZmNXBWSHpsRzYyX3VNd3FyYVhrWVdSbkpqMHhzeFdWdm15NzFLMmp2cU9MYkVfbGFGak9yUDhsRjNqd25BaUxraUNVdEZQX21LYXVxb2RmZWwzT3VTcWxDN3NlWjRFa0M1dk4weFBMQlY4djg0WFU?oc=5
+
+### 盆菜の注文が4割減、団年飯の予約は満席。小規模店「市民は早めに祝祭を祝い、外食で団年飯」
+
+旧正月を前に、伝統的な盆菜（プンチョイ）の注文が4割減少した一方で、家族の再会ディナーである団年飯（トゥンニンファン）の予約は満席となっている。小規模な飲食店からは、「市民は早めに祝祭を祝い、外食で団年飯を楽しんでいる」との声が聞かれる。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMirgNBVV95cUxPVlJRNkhUNkRTQjJVbWpQTGxmWFlGZ0lTcHRvRnJWS2F2cTAtUHZGaDRxVzhQTTJZQUVmX09yZmVHMmMxZjFHZ1ZLb0RBb3ZkR094cDF4amVQOTFNa0F3T0l3TnVxWGxBTzJmNm9UeGdaYkY0MDdxUnUybTBTM1hrOVpQeXlmdEhVYWtsYzhsQ1BwWVF5TU15bDVDcmJTbjlEN19wTm5MMG1vZVgxVm1pYTJxR3dqQmktM1R2dzU0WFRQMlZLN1I2eHdHam1aTVhPbXdndUVYNEZjU2JpUHJ4OFhISzhib2RhdjloTEpVamN5RjY5TnVlUGJKSW1qQmhPSnRlVDVMNU53TDB4cHVkMS1tenk5UGM5U2hEdXptZXJWUjVaamhldjIwQWFuN0FNQ2hVejktZU1ZR19NTVVZVHFaR1JGeHp6UVA2Vkt2ZVBuUHFwZmFzeExrRWNoTXZBWDh4Vm1sZkgxUVpBQ1R0Nk5RZ0V1Y3NLTFgwckVwd05RRUtVZnB4ajZqc3M4OE9weXdoZ2QtRU9ET0tIdktvQ3JLblNUSnVVOVVTZz9ocD0w?oc=5
+
+### グォック・フォンイーの父親、娘の保険残高を取り戻そうとするも、逃亡者の資金を処理した罪で有罪判決を受け、判決まで勾留
+
+グォック・フォンイー（郭鳳儀）氏の父親が、逃亡中の娘の保険残高を取り戻そうとした件で、逃亡者の資金を処理した罪で有罪判決を受けた。彼は判決まで勾留されることになった。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivANBVV95cUxPN0ZOV1NPV0FqRlc1cHJiNnpTRUtNLTI2VlFGRnVmNzUwdG5oQ2NZNmF0M2I4dWc3LVhqajNoOE5rVERsQ2w3UWRfOEZwRWVLZWpJOGFyZlVVei16OHdCSFU4dXFxMUFJYXBSdHZZeG1ULU40YVpXbXFiYUUySWFONXRaVHI5VjdqVkNfTkgtSktzVDZyZ0xvR1l5T1RHOHdDTFNqS0RYVmFsM0hNRGkycWE3XzVpZklXaFlnbHByYTREZG1JSXRaZ284WGNnV2wxTFNEVnRwV0g4d0RPQzZnMzZ2a3NyZFFkTnJtWGlQLVlYREZQajVnWXU5NnBLRGNELXItVlFwZXRocDh0eEpXUEExaGw3ZVlFWl94ZFRrd2Y5MkwwZVFZVER1dVg5R2daRFRQcW41YTYxLTk4bWh6cWZYX3UtQzlPU0U1TEF0dE1YZFFTRDM2dnl2ZnNLZDlYb2ZUbWN3LXZoSXlGX0RTUjdlcVNHOWVKMGp2b3dPczVXQ2NsSW9mYkJyY0ZMeUE0czVmUGxPQktVUlFQdkpYMExubUtwT19yOV9PNFhUc2VFUmZSSk11dUVyX0E?oc=5
+
+### 中環の「怡紅院」が閉店｜遊郭テーマの火鍋店が突然閉店！ネットユーザーが3つの主な原因を挙げる：観光客を狙いすぎ／法外な値段／サービスが悪い
+
+中環（セントラル）にある遊郭をテーマにした火鍋店「怡紅院」が突然閉店した。ネットユーザーは、その主な原因として「観光客を狙いすぎ」「法外な値段」「サービスが悪い」の3点を挙げている。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMijgJBVV95cUxQUjJIcDhvZUMxazBKT3d4VHV1TWJiTXNIUEYtY3lNWjRZTnJpN25ackNZMkJlbUVhcDJBc0xYeEZZTnJ0U2RGMWJiWUl0SjJoVThJWXlOV1VtSHZRQ1VyUjFtdElCSFQzUjlfZUoxRWpTZjJVdUFBODQ3YW9yUk43U0l0SWhJVkVVV3U2Q1ZaS2UtQ1g4YkFGZXlnNFdIQTJKaG1SRmE0Q3o4VDZLdnpuRS1aeHM2aHRKMGJkM3loM0xoWnZ5eV9DX2htWER1dnBtZG5YMjJ1NXNsMmFxaW5waTc0ejJySWFhYjdfcHBnUnhrNktHWTJseTNmYlRxa2xjZjZhRU5ndWxPZFZ5QkE?oc=5
+
+### 民主建港協進聯盟の区議会議員・潘志成氏、緊急消防通路に違法駐車し謝罪。今後はより注意すると述べる
+
+民主建港協進聯盟（DAB）の区議会議員であるパン・チーシン（潘志成）氏が、緊急消防通路に違法駐車したことについて謝罪し、今後はより注意すると述べた。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiowNBVV95cUxQTkkwMUlaWjNyRXhVTmk0ZWROR1ZTSmVxekRvc1ZqbWY2MGotWTNHN1V4MmpSV0xZdUNEcmVjdjFQZ1BweHBvQTQydkh1YkxqYTJVcTBwZ2NzdE14azRMdzlERmtzVmpodzBOSGg2dnNxYXN1SjNSNjRXZ25BYW9rS0d2MzFWLTBldFFJdkR0czBHVmJoenFLNDJPS2ZzRzVOS2FyX2pIUmRYTFh2SzFaQVBoWkM5XzMzZHVIdEtPWkhuQjIxX3RNTmNEdlZ5OEYtLUQwelFiTlo2cy1nS2FCdVpxOEhkTTRRT3U0ZFFobjVCY2VXbWhnNjdKZXU5MUFrRWk2YnFXOXN1UTg1cy03TUlmSm9MRzVxaXBhazNOc09fNHVyeDBXV3VJbm9SR0RoUEhmcGxRb0NDYXFkUmktYUFjWVU5MGQ0dkdTcXBpNkMwbFFrclpHWUtRT3BETl94ajRyclY3S0Y0WVN2Y2daa2NhM3lid2szd1haaHRlQS0xc3FzNklfNEM5dlZMWGtTY2dQMjNVUWtaLWQ1UzFpZ0FvSQ?oc=5
+
+### 閉店ラッシュ｜旺角の「極上帝王水產放題」が3月31日に閉店と報じられる。内部グループが過去に例のない損失を暴露
+
+閉店ラッシュが続く中、旺角（モンコック）にある「極上帝王水產放題」が3月31日に閉店すると報じられた。内部グループのメッセージによると、同店は過去に例のない損失を計上していたという。
+
+**引用元**: am730
+
+https://news.google.com/rss/articles/CBMiUkFVX3lxTE93Vnh2M2Rrc0hhdERlSUkwZlp5ei1TUEZiNG5MRGd5ejRQbUQtR2QzZ2NTNVNkNDl6Y3kxVnJoM0M1YTZKYkFqSWp0SUNyUG9wZFE?oc=5
+
+### 生牡蠣を食べることは香港市民をノロウイルスのリスクにさらすか？
+
+1月以降、飲食店での生牡蠣に関連する一連の食中毒事件が発生し、香港でノロウイルスが注目されている。最新の事件は、5つ星ホテルのマンダリンオリエンタルホテルで発生した。
+
+1月18日から月曜日までに、衛生防護センターは115人に影響を与えた37件の食中毒事件を記録した。このうち33件（101人）がノロウイルスに関連していた。
+
+疫学的調査結果によると、影響を受けたすべての人は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3343086/does-eating-raw-oysters-put-hongkongers-risk-norovirus?utm_source=rss_feed
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年02月14日 06:16

@@ -1,0 +1,648 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年03月05日)
+thumbnail: images/article-header-20260305_061449.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年03月05日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年03月05日06時00分に発表した天気予報
+
+東北モンスーンが広東沿岸に涼しい天気をもたらしており、今朝の香港各地の気温は概ね16度前後でした。また、広東を覆う雲の帯はやや薄くなりました。
+
+香港地域の今日の天気予報：
+概ね曇りで、初めは一時的に小雨が降るでしょう。朝は涼しくなります。日中は一時的に日差しがあり、最高気温は約21度となる見込みです。穏やかな北東の風が吹くでしょう。
+
+見通し：
+今後2、3日は部分的に日差しがあり、日中は乾燥するでしょう。しかし、金曜日の朝は引き続き涼しくなります。週末は風がかなり強まる見込みです。
+
+**引用元**: 香港天文台
+
+### 東京のカフェが「台湾発祥の鶏蛋仔」を販売し香港ネットユーザーから批判、台湾の店舗が謝罪
+
+東京のカフェが「台湾発祥の鶏蛋仔（ガイダンジャイ）」を販売したことで、香港のネットユーザーから激しい批判を浴び、台湾の運営会社が急遽謝罪しました。鶏蛋仔は香港の代表的なストリートフードであり、その起源を台湾と称したことが香港の人々の反感を買いました。運営会社は、宣伝文の翻訳ミスであったと説明しています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxQbTJLVHJCcGhhQVlPaTNJZW5feEpIeUY4Y1FsWlp0d1Vyck5CcmtaQkdmU0lxMVFxUTB2cXAwWklMamhtaTNhSnV0TnZITHNQQ29PRDJhSk5jT3hOWXpqc2tLalFUWDdLaXJ2YUlNMlZZdWtYVUp6eWhPQUo4S3lXT0pNbE5ETlp6N3d3Sl9sbjVoOXpadU5uYVc3Vno2SVVvS1VOVVljcTNEMlQ5ZHZNdnpWOXNYbmZLd1RsNmRlVGJGeTV2SzJSZHZKN3hESHFnS2Q5TkJNcXBsQjJNdjVReTVIMUpXRnJCcmR2WHpseUtkblg5c3Fla3BQeDBzQnFFbHBqcGdSS1pveVhFMmdlT3IxbnBuY1p5U2o5TjIzY25ieDdHVVlTLWh3VExZQVBwdEF5OGZLVTVQVEpSTDhVWWR5bVdxUlJRMzd5NEF2VFBXSUt2azJNZTdZNWZyZVk3M2l5Z0Z5V0JXcmM5UkphTzYzOUlaLUd5R1JEMXgyZkZTVEtheF9NbjJTczFsVllTZ1ZIaHZwdmFVRHRMb1lPejhwMWpzcnd2YlNCOGszaVZzcnA2MDVmZWJKSHloZw?oc=5
+
+### 中東情勢悪化でアジアの航空会社が打撃、燃料価格と運賃が高騰
+
+米・イスラエルによるイラン攻撃が激化する中、火曜日もアジアの航空会社の株価は下落圧力を受けました。各航空会社は燃料価格の急騰を注視しており、中東の航空会社から乗り換える乗客が増えたことで予約が急増しているところもあります。
+
+キャセイパシフィック航空の株価は2%以上下落し、中国国際航空、中国東方航空、中国南方航空はいずれも香港と上海市場で3%から5%下落しました。
+
+オーストラリア最大の投資銀行マッコーリー・グループのシェマラ・ウィクラマナヤケCEOは火曜日、この紛争が原油の供給とコストに影響を与える可能性が高いと述べました。同社は世界最大の石油・ガス取引会社の一つです。
+
+航空会社のウェブサイトを調べたところ、湾岸地域の航空会社に代わる便の乗客予約と航空券価格が急騰していることが示されました。
+
+火曜日のキャセイパシフィック航空のウェブサイトでは、香港-ロンドン路線のエコノミークラスの座席は3月11日まで利用できず、その日の片道航空券は少なくとも21,158香港ドルで、月末には通常の5,054香港ドルに下がると表示されていました。
+
+シドニーからロンドンへのフライトでは、カンタス航空は通常のパース経由およびシンガポール経由の路線で3月17日までエコノミークラスの航空券を提供しておらず、その日の片道は3,129豪ドルで利用可能です。それ以前の日程では、ロサンゼルスやヨハネスブルグなどの非伝統的な乗り継ぎ便で高額なオプションが提供されています。
+
+中国本土の航空会社のウェブサイトでも、中国-英国路線の航空運賃が通常レベルをはるかに上回って急騰しており、近日の出発便のエコノミークラスの座席はほとんど利用できません。
+
+通常、エコノミークラスの往復航空券は10,000元未満ですが、中国国際航空の水曜日の唯一のオプションはビジネスクラスで、片道直行便が50,490元となっています。
+
+中国東方航空は、水曜日の上海-ロンドン便を38,108元で提供しており、これもビジネスクラスです。
+
+エコノミークラスの座席は木曜日には再登場しますが、価格は通常より数倍高く、上海-ロンドンが25,808元、北京-ロンドンが約23,000元となっています。
+
+中東紛争の拡大により原油価格が急騰しており、ジェット燃料のコストを押し上げ、航空会社の利益を圧迫する可能性があります。
+
+世界で最も利用者の多い国際空港であるドバイを含む主要な湾岸ハブ空港は、通常1日1,000便以上を処理していますが、紛争のため4日連続で閉鎖されています。これにより、数万人の乗客が足止めされており、航空業界は新型コロナウイルス感染症パンデミック以来最大の試練に直面しています。
+
+カンタス航空は先週、6月30日に終了する会計年度下半期の燃料の81%をヘッジしていると述べました。
+
+ヴァネッサ・ハドソンCEOは、カンタス航空は「かなり良い」燃料ヘッジを行っているものの、米国とイスラエルがイランを攻撃したことによる原油価格の急騰は航空業界にとって重大であると述べました。
+
+「我々はかなり良いヘッジを行っていますが、これらは航空業界にとって非常に大きな影響であり、事態がどのように展開するかを引き続き注視しています」と、同航空の株価が2日連続で下落し、最大3.9%安となったオーストラリアン・フィナンシャル・レビューのビジネスサミットで彼女は述べました。
+
+日本航空の齋藤祐二CFOは月曜日、国際線の燃油サーチャージを調整する計画だと述べましたが、時期については言及しませんでした。
+
+国内市場では「サーチャージがないため、ヘッジを通じて価格高騰の一部を相殺しています」と彼は述べました。
+
+火曜日の早朝取引で、日本航空の株価は3.5%下落しました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1845768-20260303.htm
+
+### 李家超行政長官、北部大都市圏への国有企業誘致に自信を表明
+
+李家超（ジョン・リー）行政長官は、北京で開催される今年の全国人民代表大会（全人代）の開会式に出席するため北京を訪れ、国有資産監督管理委員会（SASAC）の張玉卓（ジャン・ユージョー）主任と会談しました。李行政長官は、北部大都市圏（Northern Metropolis）のメガプロジェクトに、より多くの国有企業が参画することに自信を表明しました。
+
+李行政長官は、同委員会がこの大規模インフラプロジェクトを支援していることに感謝の意を述べました。
+
+李行政長官は、より多くの国有企業が北部大都市圏の機会を活用し、「一国二制度」の原則の下で香港が中国本土と世界を結びつける役割を十分に果たし、香港を海外市場開拓の足がかりとして活用することに自信を表明しました。
+
+また、李行政長官は中国民用航空局の宋志勇（ソン・ジーヨン）局長とも会談し、香港特別行政区政府が第15次五カ年計画に「積極的に」連携し、新たな機会を掴むと述べました。
+
+李行政長官は、香港政府が貨物取扱量で世界トップの地位を強化し、大湾区（Greater Bay Area）における乗り換えハブとしての優位性を高め、香港特別行政区の航空ネットワークの拡大を加速させると付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1845860-20260303.htm
+
+### HSBC会長、中国「両会」を前に香港・深圳間のIPOコネクトを提案
+
+HSBCアジア太平洋会長のピーター・ウォン（王冬勝）氏は、中国の年次「両会」を前に、大湾区（Greater Bay Area）における新規株式公開（IPO）のための「コネクト」制度を創設し、中国本土と香港の投資家が国境を越えて新規上場株を購入できるようにすべきだと述べました。
+
+「深圳と香港の投資家が、両市場のIPOに同時に参加することがさらに許可されれば、大湾区にとってより包括的なIPOコネクトメカニズムが実現するでしょう…」とウォン氏は語りました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3345285/hsbc-chairman-floats-ipo-connect-hong-kong-shenzhen-ahead-chinas-two-sessions?utm_source=rss_feed
+
+### 香港の財界人、中東紛争にもかかわらず見通しは有望と語る
+
+香港の財界人は、米国とイスラエルによるイランへの攻撃と、それに対するテヘランの報復攻撃が続く中、中東の経済見通しは依然として有望であるとの自信を表明し、香港経済への影響は小さいだろうと強調しました。
+
+水曜日に北京で開催された中国の年次議会「両会」の傍らでメディアに対し、香港の不動産大手ニューワールド・デベロップメントの元後継者であるエイドリアン・チェン（鄭志剛）氏は、中東の経済は…と述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3345468/hong-kong-tycoons-downplay-impact-middle-east-war-citys-fortunes?utm_source=rss_feed
+
+### 香港のMPF年金制度からの資金引き出しが減少、市場回復を背景に
+
+アナリストによると、昨年第4四半期に香港の強制積立年金制度（MPF）から資金を引き出した香港人の数が減少しました。株式市場の回復により、退職したり香港を離れたりしても、より多くの加入者が投資を継続するようになったためです。
+
+香港を永久に離れることを理由にMPFから資金を引き出した人の数は、2025年最終四半期に前四半期から39%減少し、4,200件となりました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3345458/more-hongkongers-leave-money-mpf-pension-plan-capitalise-market-rally?utm_source=rss_feed
+
+### 元香港立法会議員ジム・プイチョン氏、詐欺控訴審で500万香港ドルの保釈金で保釈
+
+元香港立法会議員のジム・プイチョン（詹培忠）氏が、10年以上前に息子らと共謀して上場企業と香港証券取引所を詐欺した罪の有罪判決に対する控訴審を前に、500万香港ドル（約64万米ドル）の保釈金で保釈されました。
+
+79歳のジム氏は、2024年12月の有罪判決以来勾留されていましたが、水曜日に高等法院の裁判官に対し2度目の保釈申請を行いました。
+
+キース・ヤン（楊家雄）裁判官は、ジム氏に香港に留まり、すべての…を提出するよう命じました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3345403/ex-hong-kong-lawmaker-chim-pui-chung-granted-hk5-million-bail-fraud-appeal?utm_source=rss_feed
+
+### 雷鳴氏、中国はパナマ運河の第2位の利用者であり、両国は友好関係の維持に努めていると発言
+
+全国人民代表大会（全人代）の雷鳴（レイ・ミン）代表は、中国がパナマ運河の第2位の利用者であり、両国が友好関係の維持に努めていると述べました。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1ITEhTMmY4eDdtUG02Zk9jbEVSZ3NHVFA5M3VZMmVfN1huRXdIdTEzMjNUcGxld2p2clZvbWFZQnBUbGtaUzBlMUk0ZTVIdVR3UmlXNzA0aS1FU0llQ3lYU2FueEhpeVJJNFNLdkRtQQ?oc=5
+
+### 第15次五カ年計画に香港に利益をもたらすさらなる措置が含まれると報道官が発言
+
+木曜日に北京で開かれる全国人民代表大会（全人代）の報道官によると、中国の第15次五カ年計画には、香港特別行政区に利益をもたらすさらなる措置が含まれるとのことです。
+
+年次全人代会議に先立つ記者会見で、婁勤倹（ロウ・チンジェン）報道官は、これらの措置が香港がその独自の強みと役割を活かすことを支援すると述べました。
+
+中央政府の強力な支援の下、香港特別行政区政府は社会を率いて経済発展に努めてきたと彼は語りました。
+
+全人代報道官は、香港証券取引所での新規株式公開が多数行われ、10,000社以上の海外企業が香港特別行政区に事業所を設立したことが記録的であると指摘しました。
+
+婁報道官は、中国の最新計画の下で、北京が香港の国際的なイノベーション・テクノロジーハブの構築を支援し、香港とマカオが世界のハイエンド人材を誘致する努力を支援すると強調しました。
+
+中国本土経済については、報道官は、中国が昨年安定したGDP成長を達成した後、国内消費を促進するためのさらなる措置を打ち出すと述べました。
+
+婁報道官は、昨年のGDP成長の半分以上が消費ベースの活動によるものだったと述べました。
+
+消費財の小売売上高全体は初めて50兆元を超え、文化、観光、レクリエーション、旅行における消費者支出などの分野では2桁の成長が見られたと彼は語りました。
+
+中国のGDP総額は140兆元を超え、世界の経済成長に約30%貢献したと婁報道官は指摘しました。
+
+「今年、我々は戦略的基盤として国内需要の拡大を継続し、消費を強力に促進し、強力な国内市場の構築に努めます」と彼は述べました。
+
+「我々は消費者サービス部門の品質向上プログラムを実施し、サービス消費における新たな成長分野の育成を加速させます。消費財の貿易政策を最適化し、商品消費を拡大・アップグレードします。」
+
+彼は、一連の「ショッピング・イン・チャイナ」イベントの開催など、中国における観光消費を促進するための努力が行われるだろうと付け加えました。
+
+婁報道官は、全人代が3月5日から12日まで開催される会期中に11項目を審査すると述べました。
+
+彼は、議題となっている第15次五カ年計画の草案を、中国の政治にとって重要な出来事であると述べました。その他、政府の活動報告や生態・環境に関する法典などが審査される予定です。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1845959-20260304.htm
+
+### 嘉道理農場と恒生銀行のボランティアチームが生態系保護意識と持続可能な開発を推進
+
+嘉道理農場（Kadoorie Farm and Botanic Garden）と恒生銀行（Hang Seng Bank）のボランティアチームが協力し、生態系保護意識と持続可能な開発を推進しています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi0wNBVV_5cUxQVlhPQUFFWFBUWTU0ZkNpT1ppaHc5Yy03d2VrcTN5SGhyWVJHVF9pRy13UHNUc2h3M2lEUDNVS09MXzV0XzVyU3llYkNFRkhuNDJ3MzhLQnNUR191dmlJcG1LX1NjLWx1RmNQN2JfV2NBaDlnbEdRa09SSVpYNkNFMVVUVU1JX21jQ2laUzRWbHlxaHhJQkxUWS1IY3lLQVlDZHptclFsaGRQdGZOM3YwTTAtWlh4TjA5bHpDNTBZT01uckJ5NXZoTm5fOHBlV0Y5MGp4YnYzVXE5VDVFdVlreEpzSnhzV0x5MnM0ai15ZUF3MWJMVTVWelhuT1NDTnRNSVU0c3BoYnRRS01LVzNaZHdXLVNnMWtKYU5hTXZYNDk1MjN2NnBUQ21KRHNYSjFMVlZNcG9pUzBWTDh1dU1PRzRzaG9BUWNpSWZjVmpGVzZtV1FVSlExeGUwQ19aellmZUVha2dCbG0zRDc0VEt1OXN0TnBnaUVSRUR5MndCQWtscHhjUXZyRlRrLTYxcEY4YmF1OF9TQXZBY2dMT0NFQWFQNjV3WVkzZUR1TEZZT3RUUDJYYnUxWVlDbW90Y1owQ1M5czlQQ2ItLWVmQ2QwQ1RqWQ?oc=5
+
+### イギリス人女性が銀行家から強姦されたと主張するも、恐喝罪で有罪判決
+
+イギリス人女性が銀行家から強姦されたと主張しましたが、調査の結果、女性が男性に10万ポンドを要求したことが判明し、恐喝罪で有罪判決を受けました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxOZ2xuSmhkQ19ZZ3A4OGFWaTNDLUVJclc5WU5pWWQ2Ym5hVkQ0dUJkQVpuZ2gzNXVLSld1LVNXaTJjRTJlRGN3cm5jQVgzb2lyVi0wTmF1dnpfMzlRS1doeVVTbEl2THN4bWVvX1NfeGFJNzhMam1oX1k1ZDdVMzBzY1Ayb3FJbmxwc3BmcFdJbHc5OE9oWnl0ZTVGcWRueVBhRDd4NXBNdVROY2NPelpLVWhjbVJmMFdzOEdYNkxXSEJTNmRsT0hOUlBwTnVOalppSTI5Y3BkZ1ZtbE56N0V0MTFnRWg1RVhjYzdibXpZLU5VOWRrSV91MFNDd2FnRWNKNER2d21fb0VPazNMTnBzSGtJeExqLWp1b1g1eko2ZUlHWXhNTUhfLVMyZ2t2LW1NUDZvR3M4eGx3MkJUOGFsaGhlUzY1cjl6QUYtNXgzYlJkcEFDMXlyVWtudHFEWkxOTWRmNl9sbEdnVHFNaXlKQ3N1eXlrWkh4SnV2M0FJX2NET3o0NDI5TmtRbmRtM1N0ekV3dDRIZlZlTUUzcnJJUGhKRWtmMW9ZN3ZScDNVV1dqRFE?oc=5
+
+### 香港コンベンション＆エキシビションセンター、医療、テクノロジー、金融、教育イベントを拡充
+
+香港の主要な展示会場である香港コンベンション＆エキシビションセンター（HKCEC）は、今年、医療、テクノロジー、金融、教育分野のイベントを拡充する予定です。これには、この夏に中東以外で初めて開催されるテクノロジーショー「LEAP East」も含まれます。
+
+HKCECは、これら4つの分野に関連するイベントが2026年の会場活動の43%を占め、その数は前年比で約10%増加すると述べました。
+
+会場のモニカ・リー＝ミュラー（Monica Lee-Muller）氏は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345304/hong-kong-convention-centre-host-more-medical-tech-finance-education-events?utm_source=rss_feed
+
+### 屯門公路でBYDの電気自動車が炎上、女性ドライバーは無事脱出
+
+屯門公路（トゥンムンロード）でBYD（比亜迪）の電気自動車が炎上しましたが、女性ドライバーは間一髪で脱出し、負傷者はいませんでした。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi1wJBVV95cUxPN09rak1mcjZZc1hMTlkzdGJjRWJOWEVtMlJJQ3c0T1J6enhvMlZqQnBFNHl0SUZWZVdsQ1ppZEdqeWM4WV95Vm9XWWlRQTllZEhXUnY5cnRFMTYwMkwyQl9wcmpLTGo4RXBHTmJaMFJ1LWFjM3FyN25ybnF2MWVHd19Mamx2SGs0RXZVQzE3NVdnZEUwcUZoRVozUDF5bVItOXNKT2ppdldfQkd6Z3lJQ080UE9oLW4zcDRvLU9QaW53SDI4bjNYUXM3M0JSOFpsYjVDdmZBOG5YSXI1ZWh3RzlhcThUOVp0MVNudEZ0WFZFS2ZYMlB4a2hsM2VUeUZTTFhHdnJSYmNSWl9fck9IZ1NwU3BGVmFteFlIMV92d2QtQ1AwUVFZTWZGNS14RHV0a3N5RXktUzcwU0dsVDZLY0dKZkJ3Nm9nbDhFWHV2Z0loVWc4VGNJ?oc=5
+
+### 香港、27万人の人材を誘致し投資移民申請が3000件超に。呉傑莊氏が「安全な港」と強調し親の移住緩和を提唱
+
+香港は27万人もの人材を誘致し、投資移民制度には3000件以上の申請がありました。呉傑莊（ウー・キッチョン）氏は、香港が「安全な港」であると強調し、親の香港への移住規制の緩和を提唱しています。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi8gNBVV95cUxOdUJmTXFIX29ZeV8tbDE3ZEpXYUtkdEZPRzNKV2FDUkJzVEdMMG85bFJRVl92bDdCcHZHbnhlMVdqTnd6V3NDRHJGRjFGTmpCVWpSbHY2dGktdkRjcTVsNXAxRnVGNFNnMEF3anY1d1pldktST1gydDN1Z0ZTZEpOVjBPQTF2VUx6NWJHcEpVSHg5Q0pWMmJiNDRndElBdVlYX2pnamxSNXkxS0x1d2ZtaHlHQXcydlN2LUw0b0dwcV9OUVJCMzBPWHduc1g5M05UVlpyUE8xMXpnY1pmVHlJUlhZNk0tdkl5TVRUX3lPWERVLTY3dnBtVnFFMXpQRG5LY3FoaXVVN19iSE5LTUs0MUJqbDdrNE5BRTJWYWxXNmYyUjZiSUtLRzdHNC1teGI4OHV3NTV4dHZwWDJ5ZkY1Z3g2RUROX2JLcW5mSUpIX19CeUVsLW1Oamg3UEtsZDRiblNicERWZWV3MFpzQ3hIMGZnUEFVN3hHUlZleWFCd2xhM2JrcjFVb1Z1LUdYWGVsd0hQeXdYTEMyY0RrNi1peklULVhyQ1pWR0tUREliV255MG9Vdl94LUwzblNmaHZuZnB5QW1wSEtIYndsTWFrUVFNUEl0ZnFlMzNNbkEzOW5rNVhjdUFGOUl4UmRSa0NSUUE?oc=5
+
+### 香港政府の隠れた債務が1兆香港ドル超、予算案分析で不良債権の多さが指摘される
+
+香港政府の予算案に関する分析によると、隠れた債務が1兆香港ドルを超え、不良債権が多いことが指摘されています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMikgNBVV95cUxOSVVRc1lGYWhPV1dXVThBR3dsdEtIdmJBc0VJcl9OWWZJSTNycVpYZGlEY0hRZFowZ0F0WmptVzQzV3R3UTd1WVQ4b1dDaF9nVE54N3lDbHVGWUJUT254LUdnb09Za19MMVhSX1hWMkJvY3ZLMVIwa3NkQ193eHg1V0hwRFg1MThXOTNFR1RyZUE1NHU1VmJLci1HWEk4WG5ZdXdHck5fZ1lxNW1PQTVUZDRDNHJ0VEltOFlzN1g0OGd1WmdfMkczaVRjMG5FLVRSNzJCX0RyNEhFbXdrclZ2OHlPMEItTVF4YjNPLVdtSm9jZ3U1RTVDdE1XWWh1dEdJeHlJQWhwMDVOM280S1ZDMDlOT250QnRtXzJWbW45MjdDTXVhd1k5ZFlnT1JLX05IWWdjVFp3OVhHdUw3QnFSRUhtNGZMSzZwZVpPMDFnMFpmUjJtSGVFcDBzMVpVdmZfTU90VUZ0b3dJVHA1SkFuNDZhQ0lEYWNUSE5rMExKdmZVYThxNEg2LUZyb2VBWDZENkE?oc=5
+
+### 中国「両会」で香港の金融的役割と北部大都市圏に焦点
+
+火曜日、数百人の香港の政治家とビジネスリーダーが中国の年次「両会」のため北京に向かいました。オブザーバーは、議論が香港の国際金融センターとしての役割と北部大都市圏（Northern Metropolis）のメガプロジェクトに焦点を当てると予想しています。
+
+中国の最高政治諮問機関である中国人民政治協商会議（CPPCC）の年次会議は水曜日に始まり、続いて中国の立法機関である全国人民代表大会（NPC）が開催されます。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3345179/two-sessions-focus-hong-kongs-financial-role-northern-metropolis?utm_source=rss_feed
+
+### 細分化された住居の改修費用が高騰、新法適用で家主が直面する課題
+
+業界代表者によると、細分化された住居（サブディバイデッド・ユニット）の登録制度が日曜日に施行されたことで、家主は単一のフラットのドアを改修し、検査費用を支払うために約16万香港ドルを費やす可能性が高いとのことです。香港基本住宅ユニット運営者協会の会長であり、賃貸会社Rent to [&#8230;]の事業開発ディレクターであるヘイソン・チャン（Hayson Chan）氏は述べました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/03/industry-rep-says-landlords-face-high-cost-renovating-subdivided-units-as-new-law-takes-effect/
+
+### 米・イラン戦争で香港の荷主は長期的にコスト増に直面すると業界代表が警告
+
+香港の海運業界代表者は月曜日、中東紛争（米・イラン戦争）が短期的には業界への影響は限定的であるものの、長期的には荷主がより高いコストを負担することになると述べました。
+
+イランと米国間の軍事衝突により、石油・ガス価格は高騰し、株式市場は下落しました。
+
+RTHKのインタビューで、香港荷主協議会のピーター・ホイ（許彼得）会長は、香港の荷主のうち中東地域と取引があるのはわずか5～10%に過ぎないと指摘しました。
+
+「現時点では、短期的には、特に香港の荷主にとって、影響はそれほど大きくないかもしれません」と彼は述べました。
+
+「しかし、ドバイ地域は南ヨーロッパ、アフリカ、地中海地域への積み替えハブでもあるため、多くのビジネスに間接的に影響を与えるでしょう。」
+
+ホイ氏は、南ヨーロッパから香港および中国本土に魚を輸送する海産物貿易会社を例に挙げ、ドバイ空港が閉鎖されたため、同社は代替ルートを見つける必要があると述べました。
+
+「どこでビジネスをしていても、輸送コストは間違いなく増加するでしょう」と彼は語りました。
+
+ホイ氏はまた、戦争が長引くことの影響についても警告しました。
+
+「幸いなことに、2月下旬から3月上旬は海運業界や製造業にとって閑散期です。」
+
+「しかし、もしそれが長期間続くようであれば、香港の荷主はより高い輸送コストを負担することになるでしょう。それは避けられません。」
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1845693-20260302.htm
+
+### 香港と上海、デジタル貿易金融と越境データ連携に関する協定を締結
+
+香港と上海は、デジタル化された貨物貿易金融の促進と、中国本土のグローバルデータエコシステムへの接続強化に関する協定を締結しました。
+
+香港金融管理局（HKMA）は月曜日、上海データ局および国家ブロックチェーン技術革新センターと覚書（MOU）を締結したと、香港の実質的な中央銀行からの声明で発表しました。
+
+「これは、協力における重要な節目となります…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3345160/hong-kong-shanghai-sign-pact-digital-trade-finance-cross-border-data-link?utm_source=rss_feed
+
+### 米・イスラエルによるイラン攻撃が香港の輸出業者と出展者に影響
+
+米・イスラエルによるイラン攻撃の経済的悪影響が月曜日に顕在化し、サプライチェーンを混乱させ、原油価格を押し上げ、香港で開催された主要な貿易見本市に参加していた多くの中東ビジネスリーダーを困惑させました。
+
+攻撃が3日目に入ると、原油価格は13%急騰し、4年ぶりの大幅な上昇となり、一時的に1バレル80米ドルを超えました。ホルムズ海峡を通過する船舶への潜在的な損害のリスクにより、運賃も跳ね上がりました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345130/hong-kong-exporters-and-exhibitors-face-fallout-us-israel-strikes-iran?utm_source=rss_feed
+
+### 香港、ファミリーオフィス、AIIB、年金基金投資への税制優遇措置を拡大へ
+
+香港は、ウェルスマネジメントハブとしての都市の地位を促進する取り組みの一環として、ファミリーオフィス、アジアインフラ投資銀行（AIIB）などの国際機関、および年金基金による投資に対する税制優遇措置を拡大する予定であると、財務長官が月曜日に議員に語りました。
+
+金融事務パネル会議で、クリストファー・ホイ（許正宇）財経事務及庫務局長は、政府が今年上半期中に立法会に法案を提出すると述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/companies/article/3345119/hong-kong-expand-tax-exemptions-family-offices-aiib-and-pension-fund-investment?utm_source=rss_feed
+
+### 香港の新たな投資移民制度、最初の2年間で120億米ドルを誘致
+
+香港の新たな投資移民制度（New Capital Investment Entrant Scheme, New CIES）は、過去2年間で1,700人以上の投資家から約950億香港ドル（約120億米ドル）を誘致しました。InvestHKの最新の数字によると、承認された資本の約3分の2が公認ファンドと株式に投入されています。
+
+香港の投資促進機関であるInvestHKは月曜日、富裕層の香港への投資を奨励し、両方の…をもたらすことを目的としたNew CIESの数字を発表しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3345102/hong-kongs-new-cash-residency-scheme-draws-us12-billion-first-2-years?utm_source=rss_feed
+
+### 李家超行政長官が北京に到着、香港代表からの提言に期待
+
+李家超（ジョン・リー）行政長官は北京に到着し、香港代表の全国人民代表大会代表と政治協商会議委員からの提言に期待を表明しました。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE5iNFpEVmxfLTg4S0J2cEl6SHEtVHRjVU9Ecm1zMFlGazhnZTczWURMcWxEYW14TlhhaDNIOWh3c3JIQnNVYUFob19UMGJaUkNqNWxVYzhYR2NOVWxiYWZJN1NnaGNPUEtneWpIalpUUQ?oc=5
+
+### ドーハ発香港行きフライトで高級腕時計と現金を着服しようとした中国人男性、3月12日まで勾留
+
+昨年4月、ドーハ発香港行きのフライトで、42歳の中国人男性が女性乗客の18万香港ドル相当のロレックスの腕時計と500香港ドルの現金を拾得し、着服しようとした疑いが持たれています。しかし、男性は降機前に挙動不審なところを発見され、最終的に現行犯逮捕されました。この中国人男性は、機内で秩序を乱す行為の罪で起訴され、本日（4日）区裁判所で罪を認めました。区裁判所の王證瑜（ウォン・チェンユー）臨時裁判官は、被告が被害者の手荷物から財物を盗んだことを示す証拠がないこと、むしろ「拾得物を届け出なかった」状況に近いことに懸念を示しました。王裁判官は最終的に、判決を3月12日まで延期し、その間被告は勾留されることになりました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E8%AA%8D%E4%BE%86%E6%B8%AF%E8%88%AA%E7%8F%AD%E6%8B%BE%E5%90%8D%E9%8C%B6%E7%8F%BE%E9%87%91%E5%9C%96%E6%93%9A%E7%82%BA%E5%B7%B1%E6%9C%89-%E5%85%A7%E5%9C%B0%E6%BC%A2%E9%82%84%E6%8A%BC%E8%87%B3312%E5%88%A4%E5%88%91-075714698.html
+
+### 香港、過去最高の暖冬を記録。平均気温は平年より2度高く
+
+香港は昨年12月から今年2月にかけて、過去最高の暖冬を記録しました。香港天文台によると、平均気温は19.3度（華氏67度）で、平年より2度高かったとのことです。
+
+香港天文台は火曜日、2月の異常な暖かさも、月のほとんどの期間、華南地方で北東モンスーンが平年より弱かったためと説明しました。これにより、2月の平均気温は20.1度となり、平年より3度高くなりました。
+
+「平年を大幅に上回る…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3345294/hong-kong-logs-warmest-winter-record-averaging-2-degrees-celsius-above-normal?utm_source=rss_feed
+
+### 米・イスラエルによる大規模攻撃でイラン最高指導者ハメネイ師が死亡
+
+米・イスラエルによる大規模攻撃の最初の攻撃で、1989年以来イランの最高指導者であり、西側諸国の宿敵であったアヤトラ・アリ・ハメネイ師が殺害されました。両国はイスラム共和国の転覆を目指しており、攻撃は日曜日に2日目に突入しました。イラン国営テレビは日曜日の早朝、ハメネイ師の死亡を確認しました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/01/irans-ayatollah-ali-khamenei-killed-in-massive-us-and-israeli-attack/
+
+### ドバイからの初便で足止めされていた香港人旅行者が無事帰国、安堵と喜び
+
+米・イスラエルによるイラン攻撃が世界の航空路線を混乱させた後、ドバイから香港への最初のフライトで無事帰国した香港人旅行者は、水曜日の夜、安堵と喜びを表明しました。
+
+エミレーツ航空EK380便は、ドバイの2つの空港が2日前に「限定的な」運航を再開して以来、最初に到着した便で、午後9時50分頃に着陸しました。
+
+ドバイ国際空港とアル・マクトゥーム国際空港は、紛争勃発後、イランが米軍基地を標的に報復攻撃を行った土曜日に閉鎖されていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3345478/relief-joy-first-flight-back-dubai-brings-stranded-hongkongers-home?utm_source=rss_feed
+
+### APAIE 2026会議、国際的な参加者を香港の語り手へと変える
+
+香港は、世界の学習と活気ある地元文化の交差点に位置し、海外からの参加者に、この都市が国際的な学生にとって魅力的な場所であり続ける理由を、コンパクトかつ多層的に紹介しています。APAIE 2026の主要ホストである香港中文大学（CUHK）は、パネルセッションや会議を超え、都市の生きた個性を明らかにする没入型プログラムを企画しました。この旅程は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/パートナーによって制作されたコンテンツです。
+
+### 葵涌の工業団地で絶滅危惧種の爬虫類14匹が発見され男性を逮捕
+
+香港当局は、葵涌（クワイチョン）の工業団地でワニ1匹とニシキヘビ2匹を含む14匹の絶滅危惧種の爬虫類が発見された後、男性を逮捕しました。
+
+農業・漁業・自然保護局（AFCD）の報道官は水曜日の夜、前夜の電撃作戦で男性を逮捕したと述べました。
+
+「AFCDは引き続き警戒を怠らず、様々な経路を通じて情報収集と監視を続け、犯罪と戦うために積極的に取り締まり活動を行います…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3345472/man-arrested-after-14-endangered-reptiles-found-kwai-chung-industrial-site?utm_source=rss_feed
+
+### 中東空域閉鎖で中国向け航空貨物運賃が30%上昇の可能性
+
+香港の物流協会によると、米・イスラエルによるイラン攻撃によって中東空域が閉鎖されたため、中国に依存する荷主の航空貨物運賃が最大30%上昇する可能性があるとのことです。
+
+香港貨物運送・物流協会は、攻撃が土曜日に始まって以来の「市場からのフィードバック」に基づいてこの推定を行ったと、サウスチャイナ・モーニング・ポストに電子メールで声明を送りました。
+
+同協会の303社の法人会員のほとんどは中国本土で事業を展開しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3345461/air-freight-costs-china-shippers-tipped-rise-30-middle-east-airspace-shuts-down?utm_source=rss_feed
+
+### 中国の海運大手コスコ、湾岸諸国へのサービスを停止
+
+世界最大の石油タンカー船隊を運営する中国の海運大手コスコ（Cosco）は、水曜日からアラブ首長国連邦、バーレーン、サウジアラビア、イラク、クウェートを含む湾岸諸国へのサービスを停止すると発表しました。上海に拠点を置くこの国有企業は、ホルムズ海峡での船舶運航を停止した複数の主要海運グループの一つです。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/04/chinas-shipping-giant-cosco-halts-services-to-and-from-gulf/
+
+### 中東紛争の影響で香港ジュエリーフェアにイランのバイヤー団などが出展見送り
+
+米・イスラエルとイランの紛争による混乱のため、香港国際ジュエリーショーに約10社の出展者とイランのバイヤー団が参加できませんでした。また、一部の中東からの参加者は、紛争の中で売上減少に備えています。
+
+水曜日に香港コンベンション＆エキシビションセンターで開幕したこのイベントは、アジアワールド・エキスポで開催されている香港国際ダイヤモンド・宝石・真珠ショーと同時開催されています。両ショーには、40カ国以上から約4,000社の出展者が参加しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345437/middle-east-exhibitors-hong-kong-jewellery-fair-rue-poorer-sales-attendance?utm_source=rss_feed
+
+### 香港、住民の肥満対策として3カ年行動計画を開始
+
+香港は、住民の体重管理に関する初の行動計画を開始しました。この計画は、3年以内に過体重または肥満の人の割合を、現在の成人人口の51.3%から半分以下に減らすことを目指しています。
+
+世界肥満デーである水曜日、衛生署は、政府施設への体重計の増設から、新しい減量注射の医薬品リストへの追加検討まで、40以上の対策を発表しました。これは、増加傾向にある…を逆転させるためのものです。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3345436/hong-kong-launches-3-year-action-plan-help-residents-fight-flab?utm_source=rss_feed
+
+### インフルエンサー劉馬車氏、九記牛腩を35分間罵倒し「香港飲食界の恥」と非難。店主は冷静に対応
+
+インフルエンサーの劉馬車（ラウ・マーチェー）氏が、有名な牛肉麺店「九記牛腩（ガウゲイ・ンガウナム）」に乗り込み、35分間にわたり店を罵倒し、「香港飲食界の恥」と非難しました。しかし、店主は冷静に対応し、この騒動を収拾しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMirANBVV95cUxOa2lHOGNmQ1BEOUM0dDhWZFdsQkdBaTNua3dTbDdFaEk1TVVvZGFiX1Nwb25YVHNsVjQ5TFluVE01OHRpM1U2SGNJM2VvS3l4dzNiVFpPSE1HMmVwTW5lSnEwVUdmaGd1NFJveEwybDQxWWgyamdHV09mdmJxM3ZFUGJzcE4zeVVKY2xLWVBGQ0tHeDVWbmNHbG5LMlpCbTMtZlJ3TF9FSXBzaDA1ZjRWdVpJN2x0bU5tNHBxZmJYVzNzUmZyeWhOTjdQU3NiejJ5MEdyenJzMU9EY2tJbmQxSDhGcEdHa091aDhkNEVmM2RxTi0teFFEN09lNkY0WVRRT3dsWEhBdERzTDNReDg0MDEtS1BsdWVfZDRySFZwaDRLN1RxR3pMa0cyVWtMY29TWGViZkJrTUFUOE1xekFCZjVIUUtUNTY5dWQ4SmE3Sjd0WXpzMFl0TmpMWnNEbkxkMGZiOHgxcUY0ZWpCX19LZWJPYTVzSWtqZ25xMlA0SWhGLXh1X2xjNTl3Q3dBbTFIVGYzVzh1bDh3bEdwSXRsTG5wbkxBZFdxZEduSg?oc=5
+
+### 香港の1月小売売上高が5.5%増、観光客の消費が貢献
+
+香港の1月の小売売上高は前年比5.5%増加し、当局はインバウンド観光がこのセクターを支えたと評価しています。
+
+水曜日に統計局が発表した暫定値によると、1月の売上高は373億香港ドル（約47.7億米ドル）に達し、2025年5月以来9カ月連続の増加となりました。これは14カ月連続の減少の後です。
+
+この増加は、6%を超える成長が4カ月続いた後に鈍化しましたが、政府は…と警告しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345412/hong-kongs-retail-sales-rise-55-january-tourists-loosen-purse-strings?utm_source=rss_feed
+
+### 荃錦公路で乗用車がミニバスに衝突し横転、運転手が閉じ込められる
+
+荃錦公路（チュエンカムロード）で乗用車が車線を越えてミニバスに衝突した後、横転しました。乗用車の運転手は車内に閉じ込められました。
+
+**引用元**: on.cc東網
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUlh5aGFnbVRnZ2VKQlFodlUyWHQyRkdhX2F1Ty01MGtEb0w5NmZhOUU3cWxtYi05VXRHalJDTzRWQzl6NkkxVE82dk1FNzZaeW1ZOVNMSFpDa2JVS0NtUk4zaVpvNnI1d2U4Q3puX0M0d0pqZG9XZmljQUI2WHZ5VnJ1Tm5sUW9zdEZ3?oc=5
+
+### 「蘋果日報」事件、元主筆の馮偉光氏が外国勢力との共謀罪を認め懲役10年、判決に不服として上訴
+
+「蘋果日報（アップルデイリー）」事件で、元主筆の馮偉光（フォン・ワイコン）氏が外国勢力との共謀罪を認め、懲役10年の判決を受けました。しかし、馮氏は判決に不服として上訴を提起しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxQamVyd0t0aW5JNXNpUjRDOHNmUzZiV0FkY3pmZ3pPelJwd19MR3ZNa0VBQU9NRTVmcG1DN2hucEw5aFhGM3lQQ2hURjFkMy1QLVZ6eDRiR0ZNWkNjZkV2MWUtaUdLT1VrZ1F3elFVVXR3VUpVMnZwLU82MTB0MllSeGNqSVE5NFFKeDQ2YV8zVkNuYmNLUkVObDJ2ak5jN0lfYlJCYjZBUnlUbk1ma1FHT3h1Sk14WThfSU1ZdmRPUFliUHR5d3lraWphdmlNWlAzZTgzZ3hiblNjX193NFhIclhhckhYUmtLSEtKMUFjMlFxd1NtdVZuTXdzYzJST3c1YVBDZk1xekhlMm9IM3RZSG5vdTdFRFNJQUtGOXp5T3JMdGdtVGtoRkhBTnRhNzkwS2F0cFdVVk16TVk4Mi1SODFvX3VmUGQ0SUx4T1R5WDJCQUppMDZyQVRPLW9LYmRvbEoxZlNSSVhfT0ZfQUdxRDFrQ2ZXZHlaR3JUaVk5dEUzd0F0SlAxSmQ5YnBKTHRuMFZHQkFBWThvWHVrSXJPN3ZiTDZOS3k1M2RoS2l5OXNvcms?oc=5
+
+### 香港政府の求人情報：機電工程署のシニア技術者は月給26,000香港ドル、漁農自然護理署の農場管理監督は月給48,000香港ドル
+
+香港政府の2026年の求人情報によると、機電工程署のシニア技術者は月給最大26,000香港ドルで、小学校卒業資格があれば応募可能です。また、漁農自然護理署は農場管理監督を月給48,000香港ドルで募集しています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi5ANBVV95cUxON0VKb1RLbUxVc3ZmRno0Nzk0NjFlYzZSNzhrNU5tWkVGRzN4c3hRQ3U1UG9icmFQcEZoWG9RYm1ldElCMlM5dGl4aVNPcWZCVVBmeVF4bUlMU3kwRWw4eEZHSThLSUFsVVNZYVJTdHk2UmNtWGJKN0FyVHY2djNxMTRJYVFrXzJhWk1NejczMFpIYlBXZnRJMXVyQ1Y2eTBZQTdIRkxwUFAzZUpteUFqYUlaeHNwQWk2bWRBTWdVazBuSDlfeUNHZXlVS0RhRVMyWjlaSTU3Y1dVLU5uOEhhQTFncnBQbFdPeDdNLVIyZWF1ajhtT2FobTlYbHBrdzI5Q0dHZFg4NUhXc0hwRlF3U09nYnhjMjh2blhNa2F5a2o4Z1RWNkQ4eGJCcnF3VVh0SGlVY0R2VG5vQkRFWWpMTHZ4TURjVDNSVUUzWGdHZ0xZWmxtN0tRUWNReVVmVTBaR3k3TmtValZGcE9SanBUZTF1V09hUjA5c1BPVmlRMjBaZ0c5M1JsNzBFdWRPOVFMM291T2JlVFpVSUhfXzRxR2NvSnFfQ3NQMXB2NmYyOElrMndzSUNjZmJVWFIwekpzT1pZMlBjZUpib0phenR5QUJMUlJUeFJlRkVSenJuQzFRbTNV?oc=5
+
+### 精神疾患を患う香港人男性、母親を「怪獣トカゲ」と誤認して殺害したことを認める
+
+香港人男性が、4年前に公営住宅で母親を殺害したことを認めました。男性は、母親を「家族のふりをしている怪獣トカゲ」だと妄想していたとのことです。
+
+28歳のウォン・チュンキット（黃俊傑）被告は火曜日、責任能力減退を理由に故殺罪を認めました。検察側は、彼が統合失調感情障害の再発に苦しんでおり、当初殺人事件として分類されていた事件における彼の責任が大幅に軽減されたことを認めました。
+
+高等法院は、ウォン被告が…と聞きました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3345242/mentally-ill-hongkonger-admits-killing-mother-he-mistook-monster-lizard?utm_source=rss_feed
+
+### 香港の高級不動産市場：ヨーロッパ人エージェントが3045万米ドルのペントハウスの独占販売権を獲得した経緯
+
+ミンナ・ホンカネン（Minna Honkanen）氏は、2019年初頭に香港で運試しをしようと決めた後、この都市を襲うであろう激動の出来事を予期することはできませんでした。
+
+彼女が到着してから2ヶ月後、前例のない社会不安が都市を飲み込み、すぐに新型コロナウイルス感染症のパンデミックが続き、国境を閉鎖し、2年以上にわたって旅行を制限しました。
+
+フィンランド国籍の彼女は、世界で最も高価な不動産市場の一つで高級不動産エージェントになり、独占的な…を獲得するとは夢にも思っていませんでした。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3344931/hong-kong-luxury-real-estate-how-european-agent-won-us3045-million-penthouse-listing?utm_source=rss_feed
+
+### 旺角で「美人ではない」詐欺グループに遭遇した香港人男性、容姿を公開し「核爆級」の評価でネットユーザーの注目を集める
+
+旺角（モンコック）で「美人ではない」詐欺グループに遭遇した香港人男性が、その容姿を公開し、さらに「核爆級」の評価をしたことで、数百万人のネットユーザーの注目を集めました。「逮捕されるよりひどい！」と話題になっています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMilgRBVV95cUxQVjdMUmxrcFc2NWhGdEZhcm1OT185dWJwU2kxVWsyV3VLdmw1OFJPUTRrVWI5RHpRcTRaRFhnR3pIa3l5YjFCNkl2N1F2enAxc1E3cVRqaF9BeFNaRmt0Rk9LSXpydFE3RjZsWHU3RUFxdFJ4Z0lmVC15OEg0SEZkbDhQdHM4dmcwMmNMVjBON20tTnZteEZwRGtEUVFibWZmZzVhcmNMTzhMdUlQNGF2YTIwbTIwTjU5aEVkSzl5bkt5Sjdwa1RhR3B6ZXp0UERkb3l3YVpoVTh4WnRGV2RjcXFXbUR5TFoxcFVtc1JETWpLZ2xGT01lYXJHNlpKNnhkRW9hazFnXy1wQ1ZPSnB0NFFmak9Lb3FxYXROek9hSURUT2VwbnFwLVlwV29LQUhmYkt0UlFTaTdJREVveUd6UUJrRHBqOFNZOG9tQzU3Q004amZCSFduWVIyZmEtMHBMNGRXTWZpWXJoRGh3bElpTXU3QUgtSnVQZkI1UEFsWnBaUkYxWldzMXQ0VkV1ZVlqSjhZRTRza1FyNFBsZ0QwUllILXhrbi1KNHNZR3RaZ1MwNTd6X2xMcmJhX0doVGd1SUVRNTBxd2p3N3lzZzRHaW0wN0dTcUUyNWM2akc2TElmOU1HVmpLTHZWSE9MVi1fcTh6X0dUbUdjQTNlTEVZNmVqVHVJS2dNOHphdm85elo5NkZWV3c?oc=5
+
+### 元朗の建設現場の貯水槽で60代男性が遺体で発見される、死体発見事件として捜査中
+
+元朗（ユンロン）の建設現場の貯水槽で60代の男性が遺体で発見されました。現在、死体発見事件として捜査が進められています。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9VTWM0MmxmdjIwWkp3QklsbHNjaU9FOHVJOUh3SjlzbGdzOWdlVlAyMnZEWnJ0QlJHX3Jabk50QWlYeF9rd3BRZ2RNRjZ3QVVnZVZxcFgyZkE4OUxqZ3JEMnFnbWlGVGdrRDZXYVdtUQ?oc=5
+
+### 尖沙咀の階段で女性にわいせつ行為をしたとして非番警官が逮捕、停職処分に
+
+尖沙咀（チムサーチョイ）の階段で女性にわいせつ行為をしたとして、東九龍総区所属の46歳の非番警官が逮捕されました。この警官は停職処分となり、保釈されて捜査を待っています。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMixwNBVV95cUxQWmtIeWtQUllSRHhSZVpPWmJVRThHME94cVdWbGVkenVGaTY5QmV0bEwtbUkxUW4tc05QajJRdGFra21CV1VtN182Rk5wSUxmYkdmZTVjeXI0ZFp1UkZMdkdjVDlVTEkydmZGQzJFTzJXWGxsMHhYdTFObjlJZmZ2dFQ3N0R1Q2dMd0NNdi1DSUdfWTZaRFhxR2RmRUNLRWFSdXB6Z2pEbnk5azRubFdITHY3YkJzWHlGWTB6S2wxbmlrTXFOOUF3QmVKb2d6NFNiNnBuWTlaSUdLWUtuZ0RUVklJX1RZYXRrTFZDUWxGM0oyYk1xUkVPOW1iejNQTzhuVnh0ZUNsVi1iSDViTHZyZDI3VEEzS3ZrWVUwdEJTWXJoa0pKbWppbFVNd0dPNVJ6ckloSjgweFpuM2ZXOUZDVGtKNGFJMjhha2t5T1o5Z2VaUUxUZ1RJS1V1bVNIRXNLVzlidVdFemJsQ1VzVFlxMWZfX0JuZWlMSzZJdmxEWlVBZDFoajBBaHFjc0VpdHpGeTlSN1U2SDFRWFBMLXM2SkV4NG5MTHZYUHBLbE1ncU0wSUIxZl91ZXZqZ3Q1SzhRUjVyNmJpMA?oc=5
+
+### 香港人、「低物欲」なら月6000香港ドルで生活可能と主張。ネットユーザーは「この問題解決が鍵」と議論
+
+ある香港人が、「低物欲」であれば月6000香港ドルで香港で生活できると主張し、ネットユーザーの間で活発な議論を呼んでいます。多くの人が、その生活を可能にする鍵となる問題の解決策について意見を交わしています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMilANBVV95cUxQT2N3RWRfMHU1bUpFNER1UjRndWhPdVo1NWtKR0JhaVVlRnZZbzJ3RUs2N2NYMnFDTGhyUlAxSGdyeW9Qci1hZmlPOGxMTG9ac1BycXpzMFc3ekw0eWhSc296Qm9zeFdqMURYLTJnVGlHQW9nN0xkdE11b05UYnpSNEpDWDFKaTBaWGxxMmU2SXM1dk50cVVLcEIxczlUZGVfRXRaZHN2N0o4QldzdUtlU29lR2wtZEVMRWtXOXNLVEN1YnBOU1JEQklnc2cwTkZNQVFGWlFuZ1d6M0xocUs1dW42cWN0R2twT21TaWdoSXpFTDJaX204a2F2ekV2cWhiWEFORlNCcU1BeEhFMlR1OUxvUjE5ODd6NkJDMVpsMkd5cVFzeVRkTnNmOE5UVzhVdWdRQVdFWktEaThGV1NYQUhFbzdsZXpNUTA5WXVKQ2VZMzJkSnNpNDJBa1NDakRlcVdoN2ZmNG5wb0lrNEtscTAxbDNiRWF6d0dZVEtVcWJGbnVvRGdUQ2FBdVFmcHZZREM5Tg?oc=5
+
+### 虐待猫動画を公開した14歳の中学生が保釈される
+
+虐待猫の動画を公開したとして逮捕された14歳の中学生が、保釈を許可されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMilgJBVV95cUxNZEs1bENGUWhSV0E1ZUZnZ09fZmplYm1aYklZbTJtZmJpb0pwOTdXM1l6MHpwRU9Db3dHWV9yTnJoM3VRN1lMc1lwMWkwXzVCMmxXcU05d2JYa2JBc0pjQlVhbFdIdlZsTHpCRlNaaTlaMzRfSE50YVVGRXBqTVV1dF9jclhJRFd3NWFuUjJ0Uzhzb0YxUFctUkJIZkk4TUZuakFKa3p0WXVRd2hYQURseTI3M1dBR2NjZHpJTEJnSk5wSkRsLXlhakNnZTV2dGFCd0FWVl9qd0NZOGd6QmVOd1d6R1VQTDUtMDZpbkgtcFlYQXFpcklMd2JKS1l1UGlORGlfdjBEUFgtU2JsckxibUlnMUVBdw?oc=5
+
+### 蘇屋邨で女性が飛び降り自殺、遊び場の屋根を突き破り死亡
+
+蘇屋邨（ソーウクチュン）で女性が飛び降り自殺を図り、遊び場の屋根を突き破って地面に倒れ、その場で死亡が確認されました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMijgNBVV95cUxQMG9pZkQxRHA1UEdycDJ5WmZPb1NpT202QVlQd3BPdlg5aGoyOHRLYlo5TzVMcXRvTWFnZzBNV2NrLVB6ZlJvbUVDU0M4OF9mRnMxLUJHNWhwbFBsckZXbnR5ZUM2N1JDbHBJWlFrVFI4ZzNXZGlKMXhBUkxHV0Ezal9OM2JlS1dQVm5PZkItdFVvX1c0NlRNUElLOHpJaXQ5a0tFMlFCb1ota0dJOEN6WFgwbXB3XzJMRmRCc241b2hYNWFDV2dadlVaWnllb1E2YVgzZ2tseXVMd19Wa3A1NlN1REFjd3VsWHY4RWZ1Sm5WemVzVmVjM2lQZlUtclJHV3VjRkpXb1U1d0hEeVJYTXNWaVU3czkyR0h3U2xUYlJHRDFGX0VYRG52MEp0dk9hYnFUR0pZN2x4N1JUOHJaLVYyLVVZNFd4ME1UTGFNV0NMdHM1TjZORHF4MlB6ejQzU0xjTVl0elZPSDVpZG1hcmhBbjN2NVFFeU51SFd5Z1ZEWlZWSmVKcFU0YVAzdw?oc=5
+
+### 筲箕湾の愛勤道で3台の車両が玉突き衝突、シティバスの車頭が大破し2人負傷
+
+筲箕湾（シャウケイワン）の愛勤道で3台の車両が玉突き衝突しました。シティバスの車頭が観光バスに激しく衝突して大破し、2人が負傷しました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMipgNBVV95cUxQdnduYnNkamlCYlRJWm9rUjhUU05oR1BISEo1SUE1ZEkyeEZHaVZfRzhpZXJoM1UySDFXVmR5THk2V2NXZkRfbFZpWG0wUk4zNlJwOU9MT3RWN2tFV1JTT1hoVjM0aFhRVG5VLXV5d2l6c1M3VkR3UHZIWnQ1MW5GVVZYQ0FpcTZqTE1zUVo0ZzFMeUg1MEhfc1l2M2ZjdWhXMUVsYkJqN0IyZEpLSlM2cmlWczVrdm5OY1ozMUhkYTVaTmpyOW5uNVdHN0Q1UHpZaWstVlMwYUNCS2pnSUpFbkRUTzVwWmRDU0xKTDBCN19GdGNOZFBxVnlNTUViTzVydmY1ZXZBNFNLZzBUWUFUNHQ2allvZ1JpejVMWTFvXzVEUVJmYVJlLThYY3JaQU90LUg2V3dnR184eXBwWHdDeDZEa0h3UEhad25zaTNIREk5WHhKOS1HNDlQMDNkek13NzdlazhoRER0djV3aE40MWkzRThvY0dqc2ptTHFmUDNVbHhvcmxLUXlNVlg2b2J3SjZEMzZKY2lsR1dVd0NaVmJ3N080Zw?oc=5
+
+### 牛頭角上邨の親族殺害事件、精神疾患の男性が母親を「怪獣トカゲ人間」と誤認して殺害したことを認める
+
+牛頭角上邨（ンガウタウコク・ションチュン）で発生した親族殺害事件で、精神疾患を患う男性が、母親を「怪獣トカゲ人間が家族のふりをしている」と誤認して殺害したことを認めました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxNSGg3VGhBOXFHUkNPUXNDajJIbzdxRnJNODNkN2dBZ0FWX01qeFVSb29BczJPV3BlcUMtOC1FaWJYdEpiUVp3TGRHaUJ3ZzR2WlQ0TFJMMDBHRUl1R0hkcFNqSnV1aHVFRlBzdWhReloycjBpcDVkM0UycUNNLXU2emxZaFk3THA1NUpFQWhHOFVNQ3JKWlVWVGs1YTFQNjNHWFZkOUhqbXBZdXB6NlFrN01kUENKNHZTem9oTTZfVTBTbGQwSWxSLVRTQU9hNWpEWl93RFJ4UkVuMVV6Y0lNdExWdkRRNkdrZklCWE1RVGFCMGVHQUlDZVFKY0Q1N1MySnNWUFZRLUVZMVpVSzA3TzY5VGxadTN6Q1RjQTExS1BkTzliYmVBejQxcHk2ZTA0SUFfWTdMaUswY2c3dHo0NVlyNUVhdTV0ZlQ2c0VWcVlzeXpxZnRKUmhDcHpBVHE3NURyTTkzbjdQcE5wa0VIS0VTUnhZVkd4UVdFT3RyUXlkc3VWLWpKZURna29FSVdkbzRrV0Y4cXg4UUNnLXdFd2FHZFQ5em1sTjlqeU10MTQyc0hyejBxYTNPbXA5WWozTVRCWm82X3A?oc=5
+
+### 中電消費券2026、3月27日から利用可能。資格と受け取り方法を解説
+
+中電（CLP Power）は、2026年の消費券（100香港ドル）を3月27日から利用可能とすることを発表しました。この記事では、誰が資格を持ち、どのように受け取ることができるかについて詳しく解説します。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMijwNBVV95cUxQNWRad2FLbGlBOFp6TFZjWU14VnJ4d1d6em1PLUNQNWJrck04QkJIWlk0ZkxuNEZfclp6dDdQR2FSWHZGaGJVWloxbTJpVmRmVkpKalZId0dzal9EOHdvelVJM0JQYy1RMnVEYU9SaHg3Z2g4RXZieDlUMG8ycW0ycFZVcE80UXVaVUFqTkhtMWMzTDJYaXotd3pIaWEyUENOcTVpT0gzd3VYN2N5T2pHdXVuUDg2RU1jZlEzMHdBTUNWazRMeEYwbzhuSVdkdnJxeWlLS2s1b05IUFh4V3JmTU5TQWE2QlNCejlncFJ2a2k0MXI2NWJaV0UxM2ZRWW9XUHB3MmFrWWNUcC1qajRvTjBSemk0ZVFFSktXaERZeFFXZkNnamFvZ2k4RGowcHFiaHN3SkN2RFlqTElkVkRUSzJyWXZwZHAtbHZpMHRnTlhVU0dnZDJQUVRpSlM3V1NfMGVKNnk2bU42N0RqM2hRenUtTTVrcV9jQTlGVWx1S09HU2g1bFd3andhcUxJNXM?oc=5
+
+### 湾仔ビクトリアハーバーで38歳の船員が浮標から転落し死亡、1日で3件の海上労働災害
+
+湾仔（ワンチャイ）のビクトリアハーバーで、38歳の船員が浮標から足を踏み外して海に転落し、意識不明の状態で病院に搬送されましたが、死亡が確認されました。この日、海上では3件の労働災害が発生しました。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMiygNBVV95cUxNRjJVQ29BQ01qbTFldDZxUThsNzB5VjAtVmJyVG5pbm9QejNYSF_3cm9hdzdZYlk5U0phQTVmTFFfallfX1V2NlFDNUJkVjZIYjlEdlBMQ0Y1M3hRbDhJNDB2bUtNamVsS3lWc3kxeHRidjVkTTJGTmM1SDNrNDJFR0JiWlpoWldGanVMRTJqaDN0RE1hYnJQRzlOR1lEelJBbHVDXzdaNl9lRHFIaDRwcDhIbUctbXV6ZURHOW14MlhHU3BnQXI4TEk1WF9SWjgxY2l3OTJoWWlqb1dRekRzNmEtLVVzYlNQdGpweFN3ZGZyUm9vYURmM19MVURJTXY3Y3R6bmVlUEQyR0I4WlpRNnhTd1J5cTY3elFSR3BaaVBEcHVuTWVxNG5zRGZuZ0V1TzZja3ZVdXJnZ3ZiQi0tNnhCRmNDUGo1a25PQ2d1VDdxNzF0MkE0d3d5YWZ3d3FaVUFCT0xyTjRvZlFNWXdlUGlSbzhUODllLWZNV0oxYW9YU2hsVUZoZjFxTXNkNUVscmctRmRtUTY5N1lHX2pUaW5mSVhEZ1ItbWZhUGVfWHpEWDlYUVB2NEZhdkJWUXQ5UURjLVh2elJtUQ?oc=5
+
+### 女子アジアカップ、前回優勝の中国が栄光を追うも日本、オーストラリアの脅威が迫る
+
+女子アジアカップで、前回優勝国の中国は栄光を取り戻そうとしていますが、その10度目のタイトル獲得への希望は、強豪の日本、開催国オーストラリア、そしてダークホースの北朝鮮という手ごわい挑戦に直面しています。12チームが参加するこの大会は、日曜日に西オーストラリア州の都市パースで開幕します。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/28/defending-champions-china-chase-glory-days-at-womens-asian-cup-as-japan-australia-threat-looms/
+
+### MTR東鉄線で男性が列車内で髪を燃やし、乗客が緊急停止ボタンを引く
+
+MTR東鉄線（イーストレールライン）の列車内で、男性が自分の髪を燃やすという奇妙な行動を起こし、これに驚いた乗客が緊急停止ボタンを引きました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi5wJBVV95cUxQQ0ItN1RXbHVENmNLMWtWTGtRTEMxTUNfQ1B1M2JpRkoyZS1WNVlqU2ozNUVVeW9PU1M5UERyR01DXzRHR0ZxcHJqRmg1VUVXckppUkVHMUxyd3NCUDhybXpEV20tbWV5UGMxMUZtazhJREFhMDBENWJuM0ZoQThRTnBWd3lUZWFPaGt2Y1VaZ01xd2hDd19TUG8yWkZRWmpkeDVKUm5YUXV5eWpqQXBIT2JCa3BCU0Fqbmgyd04ycm42RVEyZHZMZFdhZ2ZQUExzUTd1U1pVdTVDelNieTFzUHVNbWlldTdzcFIxRjVBa0VWNHpHZHFkRy1qNXV6ODRDUTJpN2QxdDVjOGdVOHVIVEdXb3RuRE1BN0lnNlZiX2NtdS04RWd1TngyeXBmNkZYbGR0YUhMZklPUi12S3QzbGUwUDhlQ0RMbEJYWGJQZ2otaTJ1ZkZsdHp5a0tmMnpQNVFOWUFadw?oc=5
+
+### 中国、アフガニスタンとパキスタンに停戦を呼びかけ「深く懸念」を表明
+
+中国は金曜日、アフガニスタンとパキスタンに対し停戦を呼びかけ、北京が「深く懸念している」暴力的な衝突を終わらせるために双方と協議していると付け加えました。パキスタンは地域における中国の最も緊密なパートナーの一つですが、北京はアフガニスタンを「友好的な隣国」とも呼んでいます。外務省の毛寧（マオ・ニン）報道官は…
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/02/27/deeply-concerned-china-calls-for-afghanistan-pakistan-ceasefire/
+
+### 罰金、科料、没収金が香港政府の財源に21億香港ドルをもたらす
+
+2025-26年度に、罰金、科料、没収金が香港政府の財源に21億香港ドル（約2億6839万米ドル）をもたらしました。これは当初の予測を約26%上回る額で、タバコ関連の罰金増加と没収金の急増によるものです。
+
+サウスチャイナ・モーニング・ポストが分析した予算見積もりによると、この21億香港ドルの収入は、政府の総歳入の0.3%に相当します。
+
+この資金は主に、裁判所の罰金と没収命令、法令による科料、契約違反による没収金、および…から得られました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345050/fines-penalties-and-forfeitures-pump-hk21-billion-government-coffers?utm_source=rss_feed
+
+### 香港政府、初の「体重管理行動計画」を発表し中西医学の連携を促進
+
+香港政府は、初の「体重管理行動計画」を発表し、中西医学の連携を促進することで、住民の健康増進を目指します。
+
+**引用元**: 香港電台新聞網
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9kQU9aZDlOd2JDYkh5ZGhQSTJNSm5QZXkyWm5iVW5ncWtsUjZuc0hnTjVPelRTQXZEdTRjbThnekg0ajFmVFVWMmFub0dnWUV2NldPN1FQR2tBbGtBOVBhMGF4U3RYU1IwZkNHTDZSdw?oc=5
+
+### 複数の介護者を抱える人々の深刻なストレスが研究で明らかに、学者らはケースマネージャーによる支援を提唱
+
+ある研究によると、複数の人を同時に介護する「多重介護者」が深刻なストレスに直面しており、中には5人を同時に介護しているケースもあることが明らかになりました。学者たちは、ケースマネージャーによる支援体制の確立を提唱しています。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi1ANBVV95cUxPQTZVWTlCRTkyQWg3RFZxODBqSUZXWEUwR2FuaGNDdmNrbXpWUGhfZ1FmRlI1TVNhQlg0N2p3QnIwWDF1SjI0bUZTOE5YXzJMWHpxaWFsX0piT3RaOWZJTEdSY3NZeDNJbVV4MnZzYjNHWDdFeldOd0M5TmxzQmpPRmdKUU9qUG9ZaFRpMDBEanpGdjc1TkVubG1Xay1UR2pYb3hFMGtzRDVNVFIyb2F3R09rTnRnOGdYRGt1ZXE0SlhCaWM3XzRKZ3RPTlpuLTRydGRJZE1fOHR4S3NaMF9XTWo2UVBWMnBhOHdIQTJJVElXTGN0MmkxazNFd29vaVdiZnBSMW02SDI4c09VQzVfQWtKYTR1OFR3SXF2cmc4M2VQRGlWcEhJVV84Y2VBWnFDZHBfbmVYczlhVTE2ZGlOc0FxRVgxM1ZqSFVJTmZpRkpWejE5THJ0cVBuZ2U1SlZ4bUpMdWhFSUdQUElPcnF1ZGhnS21palV5QVVHUFdZZ3pjdVdQM0JmMEt6S3d6RHVMNG1MU2traEEzNW12WXNWSWhLWVVJRG9Wa1RIZ2VISjV3ZzZTVjBGZnJscU5PanJlMUtQSl8xX3RraFR5ek8xSk5qb0k?oc=5
+
+### 九龍塘の独立家屋で違法増築と中国本土の教育機関による無許可学生寮運営が発覚
+
+九龍塘（カオルントン）の独立家屋で多数の違法増築が行われ、中国本土の教育機関が中学生向けに60床の寮を違法に運営していた疑いが報じられました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiygNBVV95cUxPUTFrTFlJVXRNV3VjTUhDVlowNC00dHZwVUF0aTR0Y0xtRWJXXzFMU0VtRUo3ZUJVR09vV0VWWERTVnFORGJqbXBfU1RVeU5Ea0t2NWNLbU5FWG9ydFNpclVBQUtPVFFLa0xiRm10R0lkRGt2b3UyX3QzZTJ1TTZfNGhUQmlLcDZ2YWNxXzhmTlhFOWpmcnUwM2U3cVFldFRiVUgzVVotWldNTVppb0FZdWE1Ry1XaUR5N1VxR1I1NmFBREx1TEc4NC1sb2E2Qk81T0pRcmo2T1M5X2l4WEYxTE1jQUlHMW11czl6dmtIamlOdHpFS3VLMEZINk9yRHF6NWtLQmRQYUpWUkkxRXNySmYtWDBPNFZwQTl3X2lWdU1SbmhFSlVtNXNQZ3NrbjJydndLY0pTR1NnLVZXbkhhZjNGYUFwYnNIeGNyZDMzbmRkdG9LUFNncjNTczJ3QjBKOHlCbkNZRGhNM1pDcVBid3pSNVE2MVA1VEVqdWdOQ1E1WW5qeld4ZU95VElRYUNXcWpYMU5QdTJsbWQxUkNQMjdTTVFMVGRkMm5LZ2VrSkl2WGtEV0tzS0RGUldQV1BNa0g3T0JTd1hKUQ?oc=5
+
+### 皇后山で少年グループによるいじめ事件、最年少12歳を含む中学生5人を逮捕。被害者は複数回平手打ちされ、エアガンで脅された疑いも
+
+皇后山（クィーンズヒル）で発生した少年グループによるいじめ事件で、警察は最年少12歳を含む中学生5人を逮捕しました。被害者は複数回平手打ちされ、中にはエアガンで脅された疑いもあるとのことです。
+
+**引用元**: Yahoo
+
+https://news.google.com/rss/articles/CBMi8wNBVV95cUxOUEttTGdRVjIxMlJVcmMwc3BSeGpfblVWRGpHNnkyUGIzTW5URmlKR1BKM3Z2d1NSQTlPMU5WZVY5bmpkY1FNVTg0bnoycWhlS29lRjlDdGtJUzNsVEQ3d2ZxNVhGOEtnb2NrR0x1VC0yem02ZmRNc1pqVVd1YWtiRGU1SHRwVkk4WUoweHB2MHFUSEd4Wm9hRzREZFE1anBoQ0lUMHdlOTVvQVBfcHhzbmtBTW05NkpYUlg5aHZES2tkckRaaHZHUmZTQ0xYR0I3TXRUamxEbE0xRTF0ZlIzQ0I1bndfVkh0Y25NQnZ3b240YmxhR0pvTTBMVFYwbVpDOGlwQlBJMUdKaURKUThjYnRXSlhYdWZkUUlXR29yNmxKeUZSc3hSS1dWN3Frc2Z0VHVLNEZiN3NvYzNYSDZoOHplVGZEanJLZll2VlIxU1hSV2otTjJXU0laalhGQnVrSVlDMVNnUnNWMThQRnpCbmJxWnJIMzBpVms0UGJYcUt3VHhKSU1ldG5lVE15S1lOR1FqVEo0N1BEZEtkYXdqZWxmdkIxZ2o1Znc1ZVpkU2V2M0UtUVNqTnZWbWNMc0ZWMmdZbEVyOGpvOFR6YnNjZ0xxVnNKQmJKYVVRYjJleTZqUkJ0TlhoS3hJLTRiWHFCbGx3?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年03月05日 06:14

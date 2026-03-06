@@ -1,0 +1,708 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年03月07日)
+thumbnail: images/article-header-20260307_063300.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年03月07日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年03月07日05時45分に発表した天気報告
+
+偏東気流が広東沿岸に影響を及ぼしています。
+
+香港の今日の天気予報:
+概ね晴れるでしょう。日中は乾燥し、最高気温は約21度となる見込みです。やや強い偏東風が吹き、沿岸部や高地では時折強風が吹くでしょう。
+
+展望:
+今後1、2日は概ね晴れますが、風がかなり強まるでしょう。来週半ばには雲が多くなる見込みです。
+
+**引用元**: 香港天文台
+
+### 税関が航空貨物に隠されていた記録的な2億3300万香港ドル相当の金と銀を押収しました。
+
+税関職員が日本行きの家庭用清掃機器に隠された金箔168kgと銀箔285kgを発見。
+
+香港税関職員は、日本行きの家庭用清掃機器2つの航空貨物から、総額2億3300万香港ドル（2981万米ドル）相当の金と銀が隠されているのを発見し、これは過去最大の貴金属押収となった。
+
+税関・消費税局の組織犯罪捜査課のホー・ティンチュン上級捜査官は木曜日、職員が月曜日の作戦で、総額2億3300万香港ドル相当の金箔とみられる168kg（370ポンド）と銀箔とみられる285kgを押収したと述べた。
+
+ホー氏は「貴金属の価格は近年高騰しています」と述べた。「税関は密輸状況を監視しており、昨年から増加傾向にあることに気づき、様々な作戦を展開してきました。」
+近年、地政学的緊張の高まりと米国の政策不確実性の増大を背景に、金価格は急騰しています。木曜日現在、金1オンスはUS$5,179.27、銀1オンスはUS$433.38で取引されています。
+
+情報を受けリスク評価を行った後、空港の警察官は月曜日の朝、2組の超音波洗浄機と紫外線殺菌機を差し押さえました。
+
+空港警備隊のチャン・ウィンイン警部によると、X線検査を行った際、警察官は合計138箱に及ぶ2組の貨物の中に異常に密度の高い箇所があることに気づいたとのことです。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3345592/customs-seizes-record-hk230-million-gold-and-silver-hidden-air-cargo?utm_source=rss_feed
+
+### 香港の大鵬湾が全国美麗海湾の優秀事例に選出された。漁農自然護理署の署長は、人流と環境の管理を徹底すると述べた。
+
+【Now新聞台】香港の大鵬湾が先日、全国の美しい湾の優秀事例に選ばれました。これに対し、郊野公園及び海岸公園委員会の委員からは、過剰な観光客の訪問が環境生態系に影響を与えることを懸念する声が上がっています。漁農自然保護署は、状況を継続的に監視し、エコツーリズムと環境保全のバランスを取ると表明しました。
+
+漁農自然保護署の黎堅明署長は次のように述べています。「我々には非常に充実した管理制度があり、法的権限も持っています。必要に応じて、適切な管理を行うことができます。もちろん、大部分の場所は我々の郊野公園の範囲内ですので、状況に応じて、必要な措置や管理手段を用いて環境管理を徹底します。」
+
+海岸公園は今年で設立30周年を迎えます。同署は一連の活動を準備しており、これには海事博物館や海洋公園など5か所で海岸公園の発展と歴史を紹介する展示会の開催が含まれます。また、一般向けの生態ガイドツアーも開催し、サンゴの白化と修復に関する特別シンポジウムも開催します。さらに、深圳と協力して大鵬湾で増殖放流活動などを行い、これらの活動を通じて、海洋生態系保全の重要性を一般の人々に広めたいと考えています。
+
+#主要ニュース
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E9%A6%99%E6%B8%AF%E5%A4%A7%E9%B5%AC%E7%81%A3%E7%8D%B2%E9%81%B8%E5%85%A8%E5%9C%8B%E7%BE%8E%E9%BA%97%E6%B5%B7%E7%81%A3%E5%84%AA%E7%A7%80%E6%A1%88%E4%BE%8B-%E6%BC%81%E8%AD%B7%E7%BD%B2%E7%BD%B2%E9%95%B7-%E5%81%9A%E5%A5%BD%E4%BA%BA%E6%B5%81%E5%8F%8A%E7%92%B0%E5%A2%83%E7%AE%A1%E7%90%86-103337360.html
+
+### 香港は、国際教育ハブおよび粤港澳大湾区への玄関口としての役割を強化し、越境学習と研究を拡大しています。
+
+この記事の内容は、弊社の広告パートナーによって作成されました。
+
+学生の移動が従来の目的地を超えて多様化し、大学が流動的なグローバル人材市場に対応するための国境を越えた能力を育成する実践志向のパートナーシップやプログラムを構築する中で、香港は変化する世界の高等教育情勢において決定的な主導権を握っています。香港は「Study in Hong Kong」ブランドを強化し、機関間の連携を拡大し、政策を機関の...と整合させています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/presented/news/hong-kong/education/topics/hk-international-education-hub/article/3345532/hong-kong-strengthens-its-role-international-education-hub-and-gateway-gba-expanding-cross-border?utm_source=rss_feed
+
+### 中国は経済的リスクを「明確に認識している」と述べ、支出拡大を約束した。
+
+中国経済
+中国の指導者たちは成長が直面する課題を「明確に認識している」と、同国の最高経済計画機関のトップが金曜日に述べ、低迷する国内消費を押し上げると誓った。この発言は、北京で開催される年次の「両会」の傍らで行われたもので、この注目される政治集会では、政府が木曜日に成長に関する[...]を発表した。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/06/china-says-clearly-aware-of-economic-risks-vows-to-boost-spending/
+
+### 中国の240億米ドル規模の港湾開発推進、イランとの戦争を「警鐘」と捉える：SCMPの7つの注目点
+
+タイで2人の男性と結婚した女性の話題から竹繊維ドローンまで、これらはSCMPの最近の報道からのハイライトです。
+
+イランへの攻撃に続く中東での緊張の高まりは、イランとより広範な地域を重要な成長市場と見なしていた中国の輸出業者や投資家の貿易回廊と投資計画に影響を与えています。
+
+香港の事業者が商船にとって世界で最も重要な水路の一つであるパナマ運河の管理権を失ったものの、研究者たちは今週、中国の国家機関が世界中の数百の他の港に資金を提供していると述べました。
+
+国営通信社新華社によると、中国の研究者たちは竹製の翼を持つドローンを開発しました。これにより、炭素繊維製の装置よりも20パーセント軽量で、大幅に安価になっています。
+
+**引用元**: SCMP Business
+
+https://www.scmp.com/news/world/article/3345639/chinas-us24-billion-seaport-push-war-iran-wake-call-scmps-7-highlights?utm_source=rss_feed
+
+### 非現地学生の保護者を認定する
+
+金曜日、半寄宿制プログラムを導入している学校の校長は、市に留学に来る域外学生数の増加が予想されることから生じる潜在的な問題に対処するため、政府が保護者認定制度を導入すべきだと述べました。
+
+政府は、次学年度からビザが発給されるより多くの域外学生を受け入れるため、48の直接補助制度学校に対し、クラス数と規模の増加を承認しました。
+
+RTHKで発言したユナイテッド・クリスチャン・カレッジ（九龍東）のサミュエル・チェンは、予想される流入により学生寮への需要が高いと述べましたが、クラス拡張の承認を得た学校のうち30校以上には寮がないと指摘しました。
+
+彼は、香港は寄宿生を監督するため、保護者認定制度を導入する必要があると述べました。
+「例えば、大学や高等教育機関は後見人認定プログラムを設置し、香港で学ぶ非現地学生を受け入れたいと考える人々が、どのように彼らの世話をすべきかを理解し、そのようなプログラムを通じて認定された後見人になれるようにすべきだ」と彼は述べた。
+
+チェン氏の学校は、10年以上にわたり寄宿舎を運営している。
+
+彼は、私的に運営され、実際の学校によって管理されていない学生寮にとって、これらの未成年者のニーズが満たされ、彼らの生活環境、門限や個別指導といった事柄が適切に処理されることを確実にすることが極めて重要だと述べた。
+
+もし彼らがこれらの問題に対処できないのであれば、彼らは運営されるべきではない。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1846247-20260306.htm
+
+### 中国の副首相は、香港の行政主導の統治における共同の責任を強調した。
+
+丁薛祥は、行政主導モデルが香港を中国の五カ年計画と連携させ、国家との統合を進める上で極めて重要であると述べた。
+
+中国の丁薛祥副首相は、香港の行政主導の統治システムを真に実施することは「容易な課題」ではないと認識しており、それは立法府、司法府、そして社会全体の「共通の責任」でなければならないと強調した。
+
+金曜日に丁薛祥氏との会合に出席した関係者によると、この国家指導者はまた、量子技術、航空宇宙、低空経済といった主要分野を強調しつつ、香港が中国の第15次五カ年計画の機会を「捉える」よう促した。同時に、地元の起業家に対し、北部メトロポリスの開発に積極的に参加するよう呼びかけた。
+
+香港マカオ事務中央指導グループのトップである丁薛祥氏は、行政主導の統治システムは、香港が国の第15次五カ年計画と連携し、中国本土との統合を進める上で「重要かつ不可欠」であると述べた。
+行政長官と政府が、都市のトップとしての意識を強化することが求められ、社会のあらゆる分野からの協調が必要となる。
+
+政治局常務委員で序列6位の丁氏は、行政主導体制を機能させるには、立法府と司法府からの支持も必要であると付け加えた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3345644/chinese-vice-premier-stresses-shared-duty-hong-kongs-executive-led-governance?utm_source=rss_feed
+
+### 両会の代表者たちは、香港と中国本土の市場関係を一層強化するよう促した。
+
+より高度な統合は、中国本土の金融システムの回復力を高めるとともに、人民元の国際化を支援するだろうと、中国人民政治協商会議の委員らが述べている。
+
+香港と中国本土の証券取引所間の連携強化は、中国本土の金融システムの回復力を高めるとともに、人民元の国際化を支援するだろうと、香港中国証券業協会の永久名誉会長である譚岳衡氏が述べた。
+
+譚氏は、北京で開催された中国人民政治協商会議全国委員会（CPPCC）と全国人民代表大会（NPC）の年次会議中の傍聴インタビューで発言し、昨年の香港市場の好調なパフォーマンスは、中国本土と香港市場間の連携強化を浮き彫りにしたと述べた。譚氏は中国人民政治協商会議の委員であり、交銀国際の元会長である。
+木曜日の朝、李強首相は最新の政府活動報告で、2025年に様々な政策が実施される中で資本市場が安定し、回復したと述べた。中国は今年、資本市場における投資と資金調達の改革を深化させ続けるだろうと、彼は付け加えた。
+
+タン氏によると、香港の資本市場は2025年に近年で最も好調な年の一つを迎え、堅調な流通市場取引と新規株式公開（IPO）の復活が見られた。同市の証券取引所は昨年、IPOによる資金調達で世界トップの座を獲得し、本土のテクノロジー企業や革新的な企業からの上場に支えられ、119件の上場により合計2,858億香港ドル（370億米ドル）を調達した。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/china-business/article/3345601/lean-harder-hong-kong-mainland-china-market-ties-two-sessions-delegates-urge?utm_source=rss_feed
+
+### 情勢分析：「国家への奉仕」が総理報告に初登場、分析：香港への要求が高まる - 20260306 - 主要ニュース - 明報ニュースサイト
+
+1. 情勢分析：「国家への奉仕」が総理報告に初登場、香港への要求が高まる - 20260306 - 主要ニュース 明報新聞網
+2. 全国両会｜李民斌氏、香港は金融システムの強靭性を強化し、国家部門との連携を深めるべきと発言
+香港電台ニュースサイト
+出席者が引用：行政主導による経済発展と民生改善を後押しする5つの希望を提示 - 香港 - 香港文匯網
+香港文匯網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxOUTRRUG1tR0c1X1JHSEJzYWdoRzJ3N0JNb2otWlh6VWUyT3ctSEdQWjF2U2g0YWFTcVk3cVZJUFdVZHJuMklwSFEzOU4tOHgyRlNiU3gwU0dXRTFpTXNIQWRwelZrb2hSdllYV1VQM1pTZnB6emxOQ1NJcHA2RHFERVE5R3R1WWRhRG1JTldpLUJEZWNzQmZ6VlJLTURmYnRUQlU2bmxacVFUaFY3VFhYU21wRDhmTW5zUHp5NEFSUDZmN3BWc3pTVEpIZlRYdkVHelIzTzl5YWZfdW1KYi15X0M4UjJuOFBTb3NzMDVCbHM0UVpWdURoWlhxR1JRUW1MdW5TVFh5b1hiM3RfLXpTRnN1dUlXdk5xV1VESkZtbmk2MTNNd05LYmc5QThXMUZYR25aLUxWRlRrVDlHNUhUNXozUmU4aUNJV0JmYW1NN2pIRks5YWUyNzBZb1BaWVB5Q1F4SFVXNU5INDMwZnNLM3VhWEUxc2EwWVd5dG43MnlkZ1hzVkJxamUyR1JJM2Z3bjloU3poQm41ZVU?oc=5
+
+### 香港浸会大学は、開発資金を調達するために債券を発行する可能性がある。
+
+大学学長は、漢方病院とキャンパス再開発を支援するために資金が必要だと述べた。
+
+しかし、アレクサンダー・ワイ・ピンコン教授は木曜日、サウスチャイナ・モーニング・ポストに対し、この公立機関は将来の経営陣に負担をかけないよう、債券発行には慎重になるだろうと語った。
+
+「当大学は、漢方病院や旧キャンパスの再開発など、多くの面で資金を必要としています」と彼は述べ、「資金調達が課題となっています」と続けた。
+
+「債券発行は、私が積極的に検討している選択肢の一つです…もし債券を発行できれば、それは間違いなく朗報でしょう」とワイ氏は語った。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/education/article/3345579/hong-kong-baptist-university-may-issue-bonds-finance-development?utm_source=rss_feed
+
+### 北京は香港に対し、国際金融センターとしての役割を強化するよう指示した。
+
+第15次五カ年計画草案における都市の優先事項には、商品取引エコシステムの発展と金融市場の越境接続の深化が含まれる。
+
+香港とマカオを対象とする草案の第59章は、都市の競争力強化を目指す「八大中心」戦略に対する第14次五カ年計画の支援を反映しており、これには金融、海運、貿易、航空の国際センターとしての役割の強化が含まれている。また、商品取引とサプライチェーンサービスの分野において、香港に新たな任務が追加された。
+
+草案は、「香港は、グローバルなオフショア人民元ビジネスハブ、国際的な資産・ウェルスマネジメント・リスクマネジメントセンターとしての機能を強化し、さらに商品取引エコシステムと質の高いサプライチェーンサービスセンターを構築するよう支援される」と述べている。
+香港にとっての新たな使命の一つは、北部メトロポリスの開発を加速させることです。これは、本土中国との境界に近い30,000ヘクタールの土地を経済の中心地および住宅拠点へと変革する巨大プロジェクトです。
+
+この巨大プロジェクトは、先月の市の予算の主要な焦点でしたが、昨年10月に発表された第15次5カ年計画のより簡潔な概要には言及されていませんでした。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3345521/beijing-tasks-hong-kong-fast-tracking-northern-metropolis-boosting-integration?utm_source=rss_feed
+
+### 香港は、金精錬業者を誘致し、国際ハブ計画を強化するための奨励策を発表しました。
+
+的を絞った措置、税制優遇、そして越境パートナーシップは、香港が世界的な金取引・精錬拠点としての役割を強化する狙いがある。
+
+外国直接投資誘致を担当する香港の機関によると、香港は、一流の世界的な金取引拠点としての地位を確立するためのより広範な取り組みの一環として、貴金属企業を誘致するための的を絞った措置を打ち出す予定だ。
+
+インベスト香港は、香港に本社を設立する企業に対し、精錬業務を強化するための敷地選定や海外認証の申請を支援する、と今週初めのインタビューで、同機関の運輸・物流・産業部門責任者であるベンジャミン・ウォン・クォックファン氏が述べた。
+
+1月に上海黄金取引所および深圳金融監督管理局と合意に達した後、香港当局はこれらの関係者と協力し、香港の金商と国境を越えた資格のある精錬業者との間の貿易を支援する。
+「目的は、香港で精錬所を設立し、まだLBMA認証を取得していない企業を支援し、操業を継続するための道筋を提供することだ。他の金商人もこれを活用できると考えるかもしれない」とウォン氏は語った。
+
+ロンドン貴金属市場協会（LBMA）は、貴金属に関する世界的な権威であり、それらの精錬方法に関する基準を定めている。
+
+ウォン氏は、香港における完全なバリューチェーンの構築という野望を明らかにした。これには、取引、精錬、保管、上場投資信託（ETF）、デリバティブ、ブロックチェーン・トークン化された金、そして暗号資産関連商品が含まれる。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3345457/hong-kong-unveils-incentives-attract-gold-refiners-and-boost-global-hub-plan?utm_source=rss_feed
+
+### 香港の大富豪たちは、紛争にもかかわらず中東の展望は依然として有望であると述べている。
+
+新世界グループ御曹司のエイドリアン・チェン氏は、香港が資本の安全な避難場所としての地位を強調し、嘉華国際のフランシス・ルイ氏は、不動産と株式が堅調に推移していると述べた。
+
+米国とイスラエルによるイランへの継続的な攻撃、およびテヘランの報復攻撃が続く中、香港の大物実業家たちは中東の経済見通しに自信を表明し、香港経済は影響を受けにくいと強調した。
+
+水曜日に北京で、中国の年次国会である「両会」の傍らでメディアに対し、香港の不動産大手、新世界発展の元後継者であるエイドリアン・チェン・チーコン氏は、中東の経済見通しは依然として有望であると述べた。
+
+中国人民政治協商会議（CPPCC）のメンバーである同氏は、「中東の経済のほとんどは成熟しており、我々は彼らの見通しについて慎重ながらも楽観的です」と語った。
+
+チェン氏はまた、香港は混乱から恩恵を受ける可能性があると述べた。
+「もし香港が、本土と世界を結ぶスーパーコネクターとしての役割を継続し、国際金融センターとしての地位を固めるならば、資本にとって優れた安全な避難先として浮上するだろう」と彼は述べた。
+
+チェン氏の発言は、ドナルド・トランプ米大統領が戦争が4～5週間続く可能性があると警告する中、米国とイスラエルによるイランへの攻撃が世界のサプライチェーンを混乱させ、原油価格を高騰させた後に発表された。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3345468/hong-kong-tycoons-downplay-impact-middle-east-war-citys-fortunes?utm_source=rss_feed
+
+### より多くの香港市民が、市場の回復に乗じて利益を得るため、MPF年金に資金を据え置いている。
+
+アナリストによると、市を離れる人々や退職者による引き出しが前四半期に減少し、これはより大きな利益への期待を示している。
+
+アナリストによると、昨年第4四半期に香港の強制積立年金制度から資金を引き出した香港市民の数は減少した。これは、株式市場の活況により、退職したり市を離れたりした場合でも、より多くの加入者が投資をそのまま維持するよう促されたためである。
+
+MPFAのデータによると、引き出された総額も前四半期から38%減少し、10億2,000万香港ドル（1億3,000万米ドル）となった。
+
+退職または早期退職を理由とする引き出しも減少した。当四半期中に、合計41,500人の加入者が退職を理由にMPF残高を引き出した。これは第3四半期から5%の減少である。当局のデータによると、これらの加入者が引き出した合計額は4%減の66億香港ドルとなった。
+
+早期退職を理由とする引き出しは2%減の7,900件となり、引き出された総額はほぼ横ばいの20億香港ドルであった。
+MPF制度には480万人の加入者がいます。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3345458/more-hongkongers-leave-money-mpf-pension-plan-capitalise-market-rally?utm_source=rss_feed
+
+### 元香港議員のチム・プイチョン氏が、詐欺事件の控訴審で500万香港ドルの保釈を認められました。
+
+元香港立法会議員のジム・プイチョン氏（79歳）は、10年以上前に息子らと共謀して上場企業と市の証券取引所を欺いた罪での有罪判決に対する控訴を待って、500万香港ドル（64万米ドル）の保釈が認められました。
+
+ジム氏は2024年に、息子らと共謀して上場企業と市の証券取引所を欺いた罪で有罪判決を受けていました。
+
+ジム氏（79歳）は、2024年12月の有罪判決以来勾留されており、水曜日に高等法院の裁判官に対し2度目の保釈申請を行いました。
+
+キース・ヨン・カーホン裁判官は、保釈条件の一部として、ジム氏に対し香港に留まり、全ての渡航書類を提出し、週に2回警察に出頭するよう命じました。
+
+1991年から1998年までと2004年から2012年まで立法会の金融サービス機能別選挙区の代表を務めたジム氏は、昨年、2件の詐欺共謀罪で34ヶ月の禁固刑を言い渡されました。
+地方裁判所は、彼が息子であるリッキー・チム・キムルン（56歳）らと共謀し、2013年から2015年の間に、香港上場企業アジア・リソーシズ・ホールディングスの支配的株式を中国本土の商人アンディ・マー・ジョンホン（52歳）に売却する2億1000万香港ドルの取引を隠蔽したと認定しました。
+
+年長のチム氏は同社の主要株主であり、彼の息子も2008年から2014年の間、その会長を務めていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3345403/ex-hong-kong-lawmaker-chim-pui-chung-granted-hk5-million-bail-fraud-appeal?utm_source=rss_feed
+
+### 業界代表者は、新法の施行に伴い、家主が分割された住戸の改修に高額な費用を負担することになると述べている。
+
+新法の施行に伴い、改修費用を賄うために狭小住宅の入居者を立ち退かせないよう注意すべきだと、業界代表が述べた。
+
+日曜日に分割ユニットの登録制度が施行されたことを受け、香港基本住宅単位運営者協会の会長であり、賃貸会社Rent to …の事業開発ディレクターであるヘイソン・チャン氏は、1つのアパートのドアを改修し、検査費用を支払うためにおよそHK$160,000を費やすことになりそうだ、と述べた。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/03/industry-rep-says-landlords-face-high-cost-renovating-subdivided-units-as-new-law-takes-effect/
+
+### アメリカとイスラエルによるイラン攻撃：先日ドバイで試合を行っていた香港女子サッカーチームが安全に香港に到着
+
+【Nowニュース】先日、ドバイで試合をしていた女子サッカー香港代表チームが無事に香港に帰国しました。
+
+女子サッカーチームの一行27人は、午後8時過ぎに空港の到着ロビーに到着し、サッカー協会会長の霍啓山（フォク・カイシャン）氏、副会長の徐英偉（シュー・インワイ）氏らが出迎えました。
+
+女子サッカーチームは先月25日にドバイ北東部へ出発し、「Pink Ladies Cup」に出場しました。先月28日に初戦を終えた後、中東情勢の緊迫化により大会からの撤退を決定し、その後ドバイを離れてバンコクへ向かいました。当初は土曜日に香港へ出発する予定でしたが、最終的に金曜日の夜に予定を早めて到着しました。
+
+ドバイで誕生日を迎えたキャプテンの馬澤純（マー・ザーツン）選手は、サッカー協会と提携旅行会社の支援によりチームが無事に香港へ帰国できたことに感謝しました。
+
+香港女子サッカー代表チームのキャプテン、馬澤純選手：「自分の誕生日が叶って、無事に香港に帰ってこられて、本当に嬉しいです。あちらでは全てが突然早く進み、様々な情報が飛び交っていました。ベティ（チームマネージャー）が提携旅行会社と連絡を取り続けてくれました。幸いなことに、彼らが私たちをとても支援してくれたおかげで、すぐに香港への帰国便を手配してもらうことができました。」
+
+サッカー協会会長の霍啓山氏：「この数日間は多方面での調整が行われました。政府の各部署やドバイ経済貿易事務所からの現地での支援に加え、特に空港や航空会社との調整がありました。そのため、皆で協力した結果、これほど早く無事に香港へ帰国することができました。本日、女子サッカーチームのメンバーが戻ってきたのを見て、皆様のご心配に感謝いたします。今後は彼女たちにより多くの試合経験を提供できるよう願っています。」
+
+#主要ニュース
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E7%BE%8E%E4%BB%A5%E8%A5%B2%E4%BC%8A%E6%9C%97-%E6%97%A9%E5%89%8D%E5%9C%A8%E8%BF%AA%E6%8B%9C%E4%BD%9C%E8%B3%BD-%E5%A5%B3%E8%B6%B3%E6%B8%AF%E9%9A%8A%E5%AE%89%E5%85%A8%E6%8A%B5%E6%B8%AF-133537433.html
+
+### 運輸署がメディアによる車両登録情報の照会を厳格化したことに対し、香港記者協会が司法審査を申し立てたが敗訴した。同協会は政府に対し、登録情報照会申請の審査と承認を適時に行うよう求めている。
+
+【Yahooニュース報道】運輸局の車両登録情報照会に関する新制度、特にメディアによる照会に書面申請を義務付けるなどの措置について、香港記者協会（記協）は司法審査請求を提出し、この措置が言論の自由および報道の自由の原則と矛盾し、違憲であると裁定するよう求めました。この案件は2024年9月に審理され、本日、高等法院により記協の敗訴が裁定されました。記協は判決に対し遺憾の意を表明し、政府に対し、メディアによる車両登録情報照会申請の承認を迅速に行い、政策の実施において報道の自由を尊重し、公共の利益を考慮するよう要請しました。記協は判決文の内容を精査し、上訴を提起するかどうかを検討する予定です。
+
+運輸局は2024年1月より車両登録情報照会規定を改正し、メディアは「例外的な状況」の経路を通じて運輸局に車両登録情報照会を申請するよう義務付けられました。司法審査請求期間までに、政府は報道目的の申請を合計17件受理しましたが、そのうち1件のみが申請から数ヶ月後に一部の情報が承認されました。
+
+現在、政府から一部承認された唯一の申請は、政府部門の外部委託契約車両が車齢要件を満たしていないという報道に関するものでした。この申請は真摯な報道目的として受け入れられましたが、政府は同様に個人のプライバシーを理由に車両所有者情報の提供を拒否し、メディアには車齢情報のみを提供しました。
+
+記協は、政府がしばしば申請を数ヶ月遅延させた後、ほとんどの報道目的の申請を却下していると指摘しています。記協は、現在の制度は実質的に車両所有者のプライバシーを保護する傾向があり、真摯な報道調査のための車両登録情報照会を認めていないと考えています。
+
+また、運輸局は申請を却下する際、通常詳細な理由を説明していません。記協は、業界には従うべき基準がなく、当局も独立した上訴メカニズムを提供していないと指摘しています。記協は、判決が業界が申請する際の実際の困難を十分に考慮していないと考えています。
+
+記協は、報道の自由の出発点が公共および社会の利益に関わるという判決を歓迎し、政府は関連する申請者をある程度信頼すべきであると述べています。判決文はまた、いかなる人物も報道調査活動を行っていると自称できるものの、もし照会申請者が記協の会員であることを証明できれば、運輸局長はその申請を審査する際、この身分にある程度の信頼を与えるべきであると提案しています。記協は、本協会の会員資格に対する裁判所の承認を歓迎しますが、報道および情報の自由は、すべての香港市民が享受し、『基本法』によって保障されている基本的人権であり、いかなる人物も公開情報を求める際には同等の保障を受けるべきであることを改めて強調します。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E9%81%8B%E8%BC%B8%E7%BD%B2%E6%94%B6%E7%B7%8A%E5%82%B3%E5%AA%92%E6%9F%A5%E8%BB%8A%E7%89%8C-%E8%A8%98%E5%8D%94%E6%8F%90%E5%8F%B8%E6%B3%95%E8%A6%86%E6%A0%B8%E6%95%97%E8%A8%B4-%E4%BF%83%E6%94%BF%E5%BA%9C%E7%A2%BA%E4%BF%9D%E6%9F%A5%E5%86%8A%E7%94%B3%E8%AB%8B%E5%AF%A9%E6%89%B9%E5%8F%8A%E6%99%82%EF%BD%9Cyahoo-112315105.html
+
+### Ray Online｜立法会「A4」連盟は2人しか残っておらず、全員の復帰を期待していると述べた。
+
+立法会には様々な勢力がありますが、前回4人の直接選挙選出議員で構成された「A4」連合は、現在2人しか残っていません。再選を果たした九龍中選挙区の楊永傑議員と九龍西選挙区の梁文廣議員は、「A4」連合は4人を代表するものであり、この名称はもう使わないが、2人のチームメイトが戻ってくる日を期待していると述べました。
+
+楊永傑と梁文廣は本日、メディアとの茶話会を開催し、率直に今は「2人だけ」になったため、茶話会を簡素に開催して話し合うことを決めたと述べました。元々「A4」に所属していた張欣宇と林素蔚は再選を目指しませんでしたが、楊永傑は4人は今でも集まっており、彼らもそれぞれの分野で協力が必要な場合は、ためらうことなく協力すると表明したと述べました。楊永傑はさらに、2人のチームメイトの復帰を期待していると公言し、「Never say never」（何事も絶対ではない）と表現しました。
+
+両議員はそれぞれの新年の目標を共有しました。梁文廣は今年9月に学校に戻り、教育大学で「高級公共行政及びリーダーシップ修士」を修了する予定です。彼は学業だけでなく、同級生には大中華圏の政府関係者も含まれるため、人脈を広げたいと考えています。梁文廣は常に住宅問題に注力しており、宏福苑宏志閣の住民グループでは、約90%の住民が政府の所有権買収計画に含められることを望んでおり、今後も住民の支援に尽力すると述べました。
+
+一方、楊永傑は特に地域内の問題に関心を寄せています。九龍城区には3つの自動車教習所があり、これは香港で最も多いと述べました。その場所が近すぎるため、住民が迷惑していると感じており、彼はこの件を追跡調査する予定です。また、楊永傑は市場の空室率が高いことに注目しており、市場の活性化を推進し、若者が空き店舗を利用して起業できるようにしたいと考えています。
+
+原文はAM730に掲載されました。https://www.am730.com.hk/本地/1016271/ray-online-立法會-a4-聯盟僅剩兩人-指期待全員回歸?utm_source=yahoorss&utm_medium=referral
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/ray-online-%E7%AB%8B%E6%B3%95%E6%9C%83-a4-%E8%81%AF%E7%9B%9F%E5%83%85%E5%89%A9%E5%85%A9%E4%BA%BA-092742103.html
+
+### 香港女子サッカーチームは、ドバイでの不安な待機期間を経て、無事帰国し安堵している。
+
+米国とイスラエルによるイランへの共同攻撃を受けてチームはトーナメントから撤退しましたが、選手とスタッフは数日間ドバイに足止めされました。
+
+選手27名とスタッフは、週の初めに乗り継ぎをしていたバンコク経由で香港に到着しました。選手の一人はタイの首都から米国のボストンへ飛び、別の選手は土曜日の真夜中にドバイから英国のマンチェスターへ出発する予定です。
+
+主将の馬澤信（マ・チャクシュン）は、チームが帰国できて安堵していると述べました。
+
+「選手、コーチ、スタッフ全員が戻ってこられて本当に嬉しいです」と彼女は語りました。「ドバイでは状況が非常に早く変化し、情報も常に変わっていましたが、様々な人々や部署から多くの支援を受けました。無事に帰国できて大変感謝しています。」
+
+ドバイで足止めされている間に月曜日に30歳になった馬は、その経験は不安であると同時に忘れられないものだったと述べました。
+「無事に家に帰ることが私の誕生日の願いで、それが叶いました」と馬さんは語った。「それは、香港にいる私たちがどれほど幸運であるかを私に気づかせました。故郷では、私たちはそのような突然の危険に直面する必要はありません。それによって、私たちは命と安全をさらに大切にするようになります。」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3345778/hong-kong-womens-football-team-happy-be-home-after-anxious-wait-dubai?utm_source=rss_feed
+
+### 香港の村で、イノシシがハイカーに噛みつき、階段から転落死した。
+
+イノシシが将軍澳の公衆トイレで57歳の女性を追いかけ、脚を噛んだ。
+
+警察の報道官によると、57歳の被害者は金曜日の朝、夫（こちらも57歳）と友人とハイキング中に、将軍澳の宝健村にある公衆トイレに到着した際、突然イノシシが現れて彼女を追いかけた。
+
+警察によると、女性は驚いて転倒し、頭を打って額に腫れが生じ、手足に擦り傷を負った。
+
+一部の目撃者によると、近くの住民が異音を聞いて外に出てきたところ、その動物が女性の脚を噛みつき、離さないのを目撃した。村人たちは木の棒を掴み、イノシシを叩き始めた。
+
+警察によると、その後イノシシは長い階段から転落し、意識を失った。
+
+現場に到着した警察官は、イノシシが死んでいるのを確認した。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3345776/wild-boar-bites-hiker-tumbles-its-death-down-flight-stairs-village?utm_source=rss_feed
+
+### 香港当局は、中東へのキャセイパシフィック航空のチャーター便の利用を見送った。
+
+関係者によると、当局は航空会社と、立ち往生している住民を帰国させることについて協議したが、その選択肢は不確実性が高いと判断された。
+
+サウスチャイナ・モーニング・ポスト紙が入手した情報によると、当局はオマーンからの帰国便の選択肢も検討していたが、キャセイ航空の直行便がないため、短期間での航空許可の取得が保証できないことから、そのルートは「非現実的」とされた。
+
+イランを巻き込んだ米国とイスラエルの戦争が1週間に及ぶ中、同地域で最も混雑する航空ハブが限定的な運航を再開したことを受け、金曜日の夜には、バンコク経由の香港女子サッカーチーム（選手27名）と9人組のツアーグループを含む、より多くの香港市民がドバイから民間便で帰国した。
+
+しかし、米国、英国、フランス、ドイツを含む各国が帰国便の手配を試みる中、少なくとも数百人以上の住民が湾岸諸国に立ち往生したままであり、一部は政府チャーター便の運航を求めていた。
+入境事務処と保安局はサウスチャイナ・モーニング・ポスト（SCMP）への回答で、金曜日午後5時時点で、同処が中東にいる香港市民から約790件の問い合わせを受けていたと述べました。同処の報道官によると、約250人はすでに出発しており、残りの人々は安全な場所にいるとのことです。
+
+運輸及物流局はさらに、当局がアラブ首長国連邦（UAE）のドバイを出発するエミレーツ航空運航の週末フライトで、住民のために座席を確保しようとしていたと付け加えました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3345768/hong-kong-authorities-rule-out-chartering-cathay-pacific-flights-middle-east?utm_source=rss_feed
+
+### 香港警察、HK$10 millionの刃物強盗に関連して3人を逮捕。
+
+警察、強盗未遂の密告を受け待ち伏せ作戦を計画したと発表
+
+香港警察は、上環で発生した1,000万香港ドル（128万米ドル）相当の刃物を使った強盗に関連して3人の男を逮捕しました。これは、外貨両替を行う人々を狙った同様の事件が相次ぐ中で発生した最新の事例です。
+
+羅家俊警視は金曜日、警察官が以前、犯罪組織が強盗を企てるとの密告を受けており、そのため警察は同日午前9時ごろに待ち伏せを仕掛けたと述べました。
+
+羅警視は、「今朝、2人の被害者は約1,000万香港ドル相当の外貨を上環の両替店に持ち込み、香港ドルに両替しようとしていました」と述べました。
+
+「彼らがヒリアー街の両替店で外貨を香港ドルに両替し終えた後、2人の襲撃者が上環MTR駅構内で刃物を使って彼らを強奪しようとしました。近くで待ち伏せていた警察官がすぐさま対応し、関与した2人の強盗を取り押さえました」
+彼は、強盗事件の前に被害者たちが米ドルと人民元の両方を所持していたと指摘した。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3345730/hong-kong-police-arrest-3-linked-hk10-million-knifepoint-robbery?utm_source=rss_feed
+
+### HKFPレンズ：紅磡の廟で行われる悪人払いは、「驚蟄」の祭りを迎える。
+
+小人打ちを行う人々
+
+旧正月が始まって数週間後にあたる「虫が目覚める」祭りである啓蟄が木曜日に開催され、中国暦の二十四節気の3番目を迎えた。この祭りは、春の訪れとともに虫たちが冬眠から目覚めることにちなんで名付けられている。啓蟄の期間中によく行われる儀式の一つに「小人打ち」がある。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/06/hkfp-lens-villain-hitting-at-hung-hom-temple-marks-awakening-of-insects-festival/
+
+### CKハチソンは、パナマの港湾接収を巡る法的措置を強化しています。
+
+香港の大富豪、李嘉誠氏が率いるコングロマリットは、パナマ当局が連絡要請を無視し、同グループに情報を開示していないと非難しています。
+
+香港の大富豪、李嘉誠氏の家族が率いる同グループは金曜日、パナマ国家に対する国際仲裁を求める以前の申し立てに対し、補足書を提出したと述べました。
+
+補足書は、パナマが同社の連絡要請を無視し続け、子会社であるパナマ・ポーツ・カンパニー（PPC）の港湾、資産、人員の占有について、グループに情報を開示していないと主張しました。
+
+CKハチソンはまた、パナマ国家がPPCに関連して「様々な不正確な発言」を行い、それが状況を悪化させたと述べました。
+
+同グループは、「PPCは、パナマ国家による、その所有権があり法的に保護された文書および資料の不法な没収に対し、引き続き異議を唱えている」と述べました。
+CKハチソンの法的措置は、1月にパナマ最高裁判所がPPCの保有する利権を承認する法律を違憲と宣言した判決が発端となりました。この利権は2021年に25年間、2047年まで更新されていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3345722/ck-hutchison-escalates-legal-action-over-panama-ports-seizure?utm_source=rss_feed
+
+### 英国の国会議員が、夫が中国のスパイ容疑で告発されたことを受け、議会グループを辞任した。
+
+英国の議員は木曜日、夫が中国のスパイ容疑で逮捕されたと報じられたことを受け、与党の議員団を離脱すると述べた。英国警察は木曜日、労働党のジョアニ・リード議員の夫であるデビッド・テイラー氏を含む3人を釈放したと発表した。「私は自発的に[&#8230;]」
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/06/uk-mp-quits-parliament-group-as-husband-accused-of-spying-for-china/
+
+### 林哲玄氏：胃に誤って造設された造口が発見されなかった場合、多量の食物や水分が流出し、脱水状態に陥る可能性がある - 香港電台ニュースサイト
+
+1.  林哲玄：ストーマが胃に誤って設置された場合、もし発見されなければ、過剰な食物や水分が流れ出て脱水状態になる可能性がある - 香港電台 香港電台ニュースサイト
+2.  病院の患者女性のストーマ手術で位置を誤り死去 信報ウェブサイト
+病院のストーマ事故、議員が食物残渣の漏出に懸念 - 20260307 - 香港ニュース 明報ニュースネットワーク
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1YdUpvYjdMNG93cmc2NzRsT0dWS0FoVE0xWEV3bkpVZEJwUGI2bkYzOEFITElEVFZqUndETG5xdTVhbXF0VVZpZDNXQ0xQVmZPbVlFVkdfR1dONUxjZlhlamVGelNyNU5FNUE4UVNqUQ?oc=5
+
+### 香港のがん患者、腹部の誤った切開から3週間後に死亡
+
+将軍澳病院は、2月7日にストーマ手術を受けた85歳の横行結腸がん患者の死亡を調査している。
+
+香港の病院は、結腸がんの高齢患者が、外科医が誤った臓器に医療処置を行ってから3週間後に死亡したことを受け、調査を開始した。
+
+将軍澳病院は金曜日、85歳の患者が2月7日にストーマ手術を受けた後、火曜日に死亡したと発表した。この処置は、腸閉塞を緩和するために、ストーマとして知られる腹部の外科的開口部を作成するものであった。
+
+手術から死亡までの間、患者は将軍澳病院の集中治療室（ICU）と外科病棟で経過観察され、その後2月16日にリハビリテーションのため明愛医院に転院した。
+将軍澳病院によると、患者はリハビリテーション病院滞在中、バイタルサインは安定していたものの、ストーマからの排出量が持続的に比較的多く、その後日曜日の午後に腹痛、血圧低下、心拍数増加を発症した。
+
+横行結腸がん患者は翌日、治療のため将軍澳病院に戻された。横行結腸は結腸の最長部分であり、その位置は変動しやすい。
+
+病院は、「患者は3月3日に緊急CTスキャンを受けました。その結果、ストーマが意図した横行結腸ではなく、胃に位置していることが判明しました」と述べた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3345683/hong-kong-cancer-patient-dies-3-weeks-after-incorrect-incision-abdomen?utm_source=rss_feed
+
+### 上環強盗事件｜両替店職員が4人に集団暴行され地下鉄駅に引きずり込まれた疑い、警察が2人を逮捕、組織犯罪課が捜査を引き継ぐ - 香港01
+
+1. 上環強盗事件｜両替所職員が4人に囲まれ暴行され、地下鉄駅に引きずり込まれた疑い、警察が2人を逮捕、組織犯罪・三合会対策科が捜査を引き継ぐ。&nbsp;&nbsp;香港01
+jVzengxSDlYTm9EZWFzUTdoNk9vYVNwNzJYUnI2NzdRbFhrTjVjcjJ4VUprVk1QdUlwbkJIZFhmQzJzcFhualFSbEFwOERlek5CYnYtMHlNTGFHek1scXZsS0lBX3c1NHh5SHczd2QtOFM2eVZzcWY3OEx3U1ZsdjR0S19jaOpcqfvS7FwVcXlJGPp7ZCM1jezu0qotatKLBsLm2eOtkqwgWjUQKkG2vvMihPGnYq--1
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMikgNBVV95cUxQRjFSUHd5eFV6X1QybGpmWXVFYnZmeE1tT1VyeklsV1gybzhoU0dZMlVhWlF4ejVfZmVXRk9KVUhHdzdOQkZud0ljNm5kVkxmdjc0MlE5YU1NZjUxOVZ3NEhHRnZHRnRGQkNUOG01T05wdFA5YVRCODVDY2s5cGdfQks0b29Kd1NsY2ppOUNnYjBKdV9EQ3BEUC1kcWxfb1JYc1NwYVpyRS10R0hUeGE3cUlSaU41TktJc2ppMHNjd2g0VlNJV0ROR1hIM1UteUVqZjV1Qk45TzBCNC1jUFhWT0VZVERvaEdydkdXX3RzSnZUUS1qSm0xNFV1T2FtOXNWUXBtR2ppX1dya0JuakRnUTctdXVvRF8tYmVXSFM0dks2TVk0YUVEWVFHTHQ4M0c3X01ZcmZ2cTVtd2dWYXhlT3l5YWdHNnp2MFRaVm5sTlpzLUc1R2pudjlaaXFmTy0xSXRvQzdiUENGVVRNb1lkZzQ3VE5BMHpBS3lPUXo4dUZxMC1DUkdWRUphRUR0ejdkaHc?oc=5
+
+### 粉錦公路で死亡事故：緑色のタクシーと衝突し2人死亡、35歳のグラブトラック運転手を逮捕 - 香港01
+
+<ol><li><a href="https://news.google.com/rss/articles/CBMikANBVV95cUxOcUJTMFlkZ3hILWljRGZNVS1UeC1SamNaT3VaNFctYi12WDVUQ3VNdUlFWV9Fa2NvMmhNMlZZZEpIbGN3MWNnaVIxQ21KWlVJQ1hnVDlyZ3JpV3JKcVZhY2pybDl2WFo5elh0UlNOTnZqTEhoZVpHc2JoLWRWSjBCYlV3QzBmWWdyR04yQVpMb3M2ZWxfTkJzYzh1
+粉錦公路での交通事故：病気を患っていたタクシー運転手が退院して仕事に復帰した途端に命を落とす。息子は「2日前はとても元気だったのに」と嘆く。 香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMikANBVV95cUxOcUJTMFlkZ3hILWljRGZNVS1UeC1SamNaT3VaNFctYi12WDVUQ3VNdUlFWV9Fa2NvMmhNMlZZZEpIbGN3MWNnaVIxQ21KWlVJQ1hnVDlyZ3JpV3JKcVZhY2pybDl2WFo5elh0UlNOTnZqTEhoZVpHc2JoLWRWSjBCYlV3QzBmWWdyR04yQVpMb3M2ZWxfTkJzYzh1TzhYM0trWHFtTnZHdzdIOXdCNGdqWGlkWEFoampLVTF3Q1lFYVpfNGgtbGV4T09QZGw5dFVRcFo0eDlhMEJ3OERBLXRPV2pmWnpFU2dXR29Pc0w0YnZQZnQweEhoaTBrdFZ3VDRmeDd0S2h6M2VLYUlON3VDSmh3bE04OGZ1Njg4VEFiclIxZGVRWmtfdzdDZ0JCOXM3bW5peUY2WEd4aG95dVJuNlA0WlBXT05zazlodkdaV205QmF4VzRrUVpWVUd2QmtrbTc3cFFSYXJOb0VpUXQ1YVRicWRvTXk1TVlra0VhMUNLZmh5dWtHYmk1b0s5XzRB?oc=5
+
+### 尖沙咀で昨年、女性がわいせつ被害に遭った事件で、関与した42歳の男性警察官が停職処分となり、明日初公判が開かれる予定です - on.cc東網
+
+1.  チムサーチョイで昨年女性がわいせつ行為を受けた事件で、容疑者の42歳男性警察官が停職処分となり、明日出廷する。 on.cc東網
+2.  チムサーチョイ警察署でわいせつ事件が発生し、警察官が起訴され、保釈が認められ公判を待つ。 法庭線 The Witness
+3.  チムサーチョイ警察署のわいせつ事件で、42歳男性警察官が1件のわいせつ罪で起訴され、明日出廷する。 香港01
+提供された文字列は、広東語、中国語、または英語のテキストとして意味をなさないため、自然な日本語に翻訳することはできません。これは、ウェブサイトのアドレス（URL）の一部、または何らかのエンコードされたデータのように見えます。
+
+もし、この文字列が特定の文脈で意味を持つものであれば、その文脈を教えていただけると、より適切な対応が可能です。
+
+現時点では、翻訳可能なテキストとして認識できないため、翻訳結果は提供できません。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY2kxUUhXblpFUmZuUTg2V3ZudTFiSGJKTFRGRVNwT2duX25LZkszU3ZINjBUeDRDVlRnMEFqd3NvU2EwdVdtcTZLVkxMSmc1cl9fV3dOMzd6UEM1Z0lienBvd3N0OVhyVGdDRnJFbmk5YVNmSElpTXNZbmtrTU9GNjdiNEVaVmNSYWJj?oc=5
+
+### 陳家珮（チャン・カープイ）が逆走｜警察が「不注意運転」で召喚状により起訴、法廷で弁明の見込み - 香港01
+
+1. 陳家珮が逆走｜警察が「不注意運転」で召喚状により告発、法廷で弁明の見込み  香港01
+2. 陳家珮が逆走｜警察が「不注意運転」で召喚状により告発、法廷で弁明の見込み
+香港｜陳家珮が湾仔で車を逆走させ、警察に不注意運転の疑いで違反切符を切られる - Yahoo 財経
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiggNBVV95cUxOMmVOMG15TFRsdGNvam8yMEJwUS1ZZGw1dF82ZXpkNDhCdFBEVHNpaHluOGwydGViVm9waF90NFYxekVMcGZIWlVFdUFJRGFQbm9yZnJPTWRadzBoZFRtUjM5N1JnelhVczJXUHI5dVZHM05lYkxseXVwM1JvTFNxRF93RmVBWlJ3b0ZOcXI4Ujg1QmN6d3lJcTg2Y3VCcEVkVjdiZUJvNDNSNnZWWFBZT1BYaVNuR3NMcmlZcjctclhRRXRBZ1I0NDZVeW5QTWhDWEZGMHc3c3oyR2EwVTZjZTFuLVJoQU1MZjJjU3J3bC03N1RKMmlQa3dVUl9EUjlMRWUtWEpGVGM1bXA3WkxrWjRNTUpsWUhzMnNrcjdrMlBrM0o3eTZJRlhubkVEUWdkdUNUemFkRkc4VkU5RWE0Y2VyUVU3ZFFwYWJILTZMSExGWUFrZFdQN1ozTEM1MVdDRFBjUFhsMUVTMjZscFBVY2w5Y1hoanJKZlRWYk9WMGJKUQ?oc=5
+
+### 上水の旧校舎が簡易公営住宅に改築され、香港市民から大絶賛されています。主な3つの利点として、天井の高さと空気の良さが挙げられており、「死ぬまで住んでもいいくらいだ！」との声も聞かれます。 - 星島ヘッドライン
+
+1. 上水（ションスイ）の旧校舎を改築した簡易公営住宅が香港市民から絶賛され、3つの大きな利点が挙げられる：天井が高く、空気が良い。「死ぬまで住みたい！」
+星島頭條
+2. 上水（ションスイ）の旧校舎を改築した簡易公営住宅が香港市民から絶賛され、3つの大きな利点が挙げられる：天井が高く、空気が良い。「死ぬまで住みたい！」
+星島頭條
+MRG9ZWjhjX0pWRHg2bnEzZXc1bVg0QzJqWHZuZFlCbEZmaVhxUDA0NEJjV3RMbXBnaXd0b1RJaExuTlR6Wm53dXN1SU5IVXJZQlhIUVo4dDd2UWJSc0hfMF9laW1QREpPNVdESTg2b0czdlpFa0lwbmU4cjVpYW00WlFBeHBBam9BSkg0YXRtMHptRHM3MExYeks4THlLZnFDcVJZQV9ucl9wRnZtbjRoSkdLbUgza0wxaHlFa0p6d1dybHdHaTJ2b0FpZWprNWpyRk43bzFndTZhSzdZQ1AxSHFZU2lReGROQk5qdmNUZGNub2xkNmdUSmdrRXc4bUpPc0Iya0dXMnRwd2hQOEtqR0RHUHpuTWdBd3pUT0xPRHdjallScDBmbUNycVNGZE5pQk9NQWpVNUpPZW5zTHloTUFoemltOERsMkN5Y1AtM2NsMC1XeHU5UTdZNDFlYnVFZXdKR2ZoTWtOZXh1OVM4U0k1NUNIcDlo?oc=5
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiwwNBVV95cUxPeFlldFBOUVZoNG1icDZmN0lDQzNPMzJselZxVzZsM1VuMHgtM2xaRVpBcFdKdzdfMklSMTZhYkVqZlRBRG5hQ0Z5b0tzclZqUGJicHoxVHNoNkthd2tpUmYtTE5qa0VEZlpUMTRSOGNrNlVQb2dKbTdGQTI2OVM0U1ROUFFJT2ZnRC1nTWlaLUlCTS1Bdkl3dlhuTWJIcTdnX2RsOThaNG90R2toWFdsbUlKM3AwOEdyeVhhVExTMVF6X0EwSkxuN05fR2RDOHNISHlkZXhvQ1Bmckk1SU9SNTJMX3dVOXFNRENWUU14QVNpS0dFdEt6cEY4UFR6MDc1YXF1bklvUG00WjA5Q1k2bEhrZDVuU09Db2RnWmtsZHJYQ0xjekJ0WXNYZ2pKWDZuNTJudHZCX2t2RDdQSV9mNzNTWG1fUWVmU0RFMkw2dmFScXFxdVkwTEYxRWpLMVloRVpYNTdPYTl3X2ptSHVEMzRPYV9HdXl4a2hvaXBqNUJJUjYyalFWT2dWODFFbmpROU5ka1VfVGJFV09rQWVyOUNrWEhjWDFiQk5MVnNDTmwyeHA1RmlNZllGaElsRmhiZlpZ?oc=5
+
+### 積金易センターに人が殺到、雇用主と従業員の拠出金「行方不明」で問い合わせが殺到。積金局は対応を指示 - 香港01
+
+積金易センターに人だかり、雇用主と従業員は拠出金が「行方不明」になった件について真相究明を求める。強積金管理局は調査・対応を指示。
+香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxQd3dkMmhSeEJYdXhNdmptal9zWWhGRnZBQU9kN1lRQTlLMEZTcU5abEdtdnlha1p3dHFfUEVPb2toNXFieGYxRHp5SDFQc3l1a2hVMUp6QzRUdVRhZ2tmTHJ0UW1rdWRHajdBY3daVmlKNjNDY0l3Qlhkc2pwM1VscTNubGFDUm83Q18tUEpMc2p2NFlwbExvRWd5Wnh3MnloczVUUmZkODJuUEwzaWYyT2NSR2lmcmNZOHhNdkowM0NGRDY3VnZaYmIxM0NHTGt6ZlBSdnlQVFBJQUFLWUg4bDItZ25WbnJISVJpMHdiTVg2NjJVSmFpUW5pZGFrdm8zaGZUSG10Uy1ucVFpaVlQVE95aGFYQklaMWZZMWp5V0NReHdZVGIxS1ZyTklwNFY2TDllME5vX0E4cE1qR3U2ZDY3S1dLX2VQVmJKZGhFck5RMTJNWWhES0w0Vl9uUkN1MjJ5cHg4eDg0a3dCY1EzdXZrVUF3cWlJUHZsVnMyTDhndGs3QTA4MGg5aHUyTzBDREFRUjdCTkRQM0x5UktVeUNjR3pWcjBnTFlVVmtrZlk2Mzg?oc=5
+
+### 佐敦にある2棟のビルで水道管が何者かに鋸で切断された疑いがあり、裏路地が「水舞間」さながらの水浸しになった。警察は器物損壊事件として捜査している。 - 香港01
+
+<ol><li><a href="https://news.google.com/rss/articles/CBMijgNBVV95cUxOblFHMkFTeWpwSUUyelNkREh5V1RNcFFMT3U0TklDcXhPNUhDWENTQkZJOXBtLU9JS1NBUjNuV1lWSDNDUmRMV2dJMThaT2Q4X3VlcHB5bnkxbDJHUnR2ZjI3YlBZTERvSnkwV052dFpvS25XczlrcEZtUmEyWlVpUW1GWDZ1NFlHNkJuckp0LUVIR1RreVB0eDRlUEJtWEM4Ni1QbFhxeXY0U2RVNWtlNE1fMXVhWVBrTmlsX0NhWDlPRFVyTE9MdmNILVM3dnhiSzZncnhuXzRfS2M5OWh1UDVpRjgtdnRwMHYwMVcxN09IcmM3Nzg5SE1sYnBBTUl2YWJwTHE5SkVqc25ZZ1BfOHNuVEJBRUVvZWpsNDA3c1VaYWtDSTM1ODIwaG9Za044RzJudUNDaVFWUmZMXzZGa2dyRWJQTUlkcW92bGthWUR0ZUdnbVNEOFRzaU5HNGdTU3hYdzNNS2VqSldWb3dremdVMHIxQ0EzU005dGY0d2Q1UVNZTGRRdlo4UWtYUQ?oc=1" target="_blank">ジョーダンの2棟のビルで水道管が鋸で切断された疑い、裏路地が「水浸し」に、警察は器物損壊として捜査</a>&nbsp;&nbsp;<font color="#6f6f6f">香港01</font></li><li><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE56d3RpRmNsS2EwTDZpU2JBcVB4a3ZJTHN4bnFoV1BRaEdSME1wWEdENDRWRVdJQVlRVGJFQWhzLVlGaldUNWdYYWdTVm9LVzdKcTFRV0hYOFdJQktlMVRwQ2pn?oc=1" target="_blank">ヤウマテイのビルで銅管が鋸で切断され盗まれる、裏路地に水しぶきが飛び散る</a>&nbsp;&nbsp;<font color="#6f6f6f">Nowニュース</font></li><li><a href="https
+商業ビルのテナントが断水を訴え、裏路地の銅管が切断され盗まれていたことが判明 - 20260306 - 写真で見る世界 明報新聞網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMijgNBVV95cUxOblFHMkFTeWpwSUUyelNkREh5V1RNcFFMT3U0TklDcXhPNUhDWENTQkZJOXBtLU9JS1NBUjNuV1lWSDNDUmRMV2dJMThaT2Q4X3VlcHB5bnkxbDJHUnR2ZjI3YlBZTERvSnkwV052dFpvS25XczlrcEZtUmEyWlVpUW1GWDZ1NFlHNkJuckp0LUVIR1RreVB0eDRlUEJtWEM4Ni1QbFhxeXY0U2RVNWtlNE1fMXVhWVBrTmlsX0NhWDlPRFVyTE9MdmNILVM3dnhiSzZncnhuXzRfS2M5OWh1UDVpRjgtdnRwMHYwMVcxN09IcmM3Nzg5SE1sYnBBTUl2YWJwTHE5SkVqc25ZZ1BfOHNuVEJBRUVvZWpsNDA3c1VaYWtDSTM1ODIwaG9aa044RzJudUNDaVFWUmZMXzZGa2dyRWJQTUlkcW92bGthWUR0ZUdnbVNEOFRzaU5HNGdTU3hYdzNNS2VqSldWb3dremdVMHIxQ0EzU005dGY0d2Q1UVNZTGRRdlo4UWtYUQ?oc=5
+
+### 荃湾の人気タイ料理店「金坊泰國美食」が全店舗閉店、給与未払いの問題が発生し、労働局は外国人労働者を含む従業員からの支援要請を受理 - 香港01
+
+荃湾の人気タイ料理店「金坊泰國美食」が全店舗閉店、給与未払いの疑い。労働処は外国人労働者を含む従業員からの支援要請を受理した。香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi0wNBVV95cUxNaGxUaUxrOUtlbllsQWhrZi1WRS1hZFNFVlRjUzU5Q1VQMXM4aG9rc2ZPeXg3ekhpVWhDY3dlZ0ota3Nmdl9jQkUxQ3g5Nk9iWWtlaGpaTEZhLTI2UGt0d2FkX1dVNEtzTGdwcmsyQ05iRWFZNC1vVjZCRnI1M3dSMXFmZzRhRVRNQkpKa2Y1SHNpY1JQaFY0aXJNSTlFYjJYeUs3VERDOVBMdV9hVkVHNldRMERLQVhHUGhGb1JrWU9QTXFJcVJNdFBRRnI4UmNhREgwM2ZUazdOSkVGRy1sQlNxNmdRdGpoNG9sVFBwZU5fYUtOVkhQSnJONkNmUkJtS2dEV081OGE3dWY4OGhNaVQ3U0Q4UGRoRXNndFEza2RKMmtKVk9JdXFTYkk4cE52T2dEV0JtTnhEYk1xWG9NUG01QU04Ykx2M25DOTR5NndvcDlybXktblRlenRWcEN4WTJGVDU0ck5uM1I3UC1YR2VIaFhyX2xTT2JtRWU3cXJsQkI2dXJ6RmMtakViRFlPRE5ZRW9oR1hYUFJLVEtOWkIwajUxYmwzampka193SkM5aG9la3JCSl9mUmNtWEU4Q2dwd1A5bjRyclZOZ0lFZ25Wbw?oc=5
+
+### 中英街検問所で未納税タバコを扱っていた2人が摘発され、それぞれ4ヶ月と2ヶ月の禁固刑を言い渡された。 - 新城廣播
+
+1.  中英街検問所で未納税タバコを扱っていた2人が摘発され、それぞれ4ヶ月と2ヶ月の禁固刑に処された
+    新城ラジオ
+2.  入境旅客1名が未納税タバコの取り扱いで有罪となり、禁固刑に処された
+    香港商報
+3.  男性1名と女性1名が未納税タバコの取り扱いで有罪となり、禁固刑に処された（写真付き）
+    info.gov.hk
+/rss/articles/CBMi9gJBVV95cUxPWXY0UVRkaWFQejdXcWtFWjBJMXJOamdKQ1R4OUtRU1JDUFg4UF8zR1BidG5rcjdEVmRqT3c2VU1YMjlZckdjS1JXcHl4WS1weENzaEkzellxLWl6OWJUUHZRM19iajZIRUtOcTYxMW5DSXZnQURlOUhUN0ZNWUNvbjdIampJRGJxTUV4Wl9jd1NwT3BzU3FhV3FKdENvZGdydnJQamdmUGhrUHNGTGk5djAtS3pTMzFPRzh0eEEtcGgybnhCRGlvT0hGWURyYU9DdWNDRlJtMFZOaG9QNHZwVnY5cFkwWGQ2a1ZjUmdEeUNVU2l5YmhPS2hjWUNNMEhHVVM5c3pjU0duOE9Bd0FlV3E4ajI3TkxDcUxsVFJudTVRVC1LZzdMcGdJNGR3NVE0VlRzUl9QbWQwdW1xM3Fkc2VrdU5aR3hYU0FYNVpXbk1wRFdHc3NwRGNQUzNZVjBlb0RIV05GUE
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMigAFBVV95cUxPdlFYdUUtblRVZzBaNElUX3dlUEU2TFlvNWl6UWI2Q3ctQ3l0ZXlueXNCRDFEbFpNN1ZRbl9zaC0yU2poRXVmWDZGXzNXN0MzVGJEdjdXNk1mN2N4TGF4S1VVWHg3S3JGNkxnSVRoVmhRVTVVWFc0UTZsZlV6bGZUMw?oc=5
+
+### 元TVBのカナダ移住司会者、容羨媛がこれまでの努力を一夜にして失い、号泣しながらライブ配信で助けを求めるも、夫に「香港に戻って『東張西望』でもやればいいじゃないか」と揶揄された - 星島頭條
+
+元TVBのカナダ移住司会者、容羨媛、これまでの努力が一夜にして水の泡に。涙ながらにライブ配信で助けを求めるも、夫に「香港に戻って『東張西望』でもやればいいじゃないか」と嘲笑される
+星島頭條
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi6wNBVV95cUxPTHZlcU1XT0x5RTlyNFRxeVNDRG5qWlczTUE5aFpjcmF4ckpvZWpwNjQ3N3FWTW1ycDlVT0psd1U4eEhvb0tKMEt4dnUzS2drUzRsdE1kSlpBbUhHcm9YaXhQS1ItZUFqUHVVZmNibHhKb1NBdkVTeWU5RHpKYTB2YnBxbnJ2cU8wbTkydHpfWm9WM3AwdmpSMVUzQlZIa2daVmJtc2trVUZLYXpaYXBwMTJyc1B5anVFeE44SXdKdzljQkJ6VWpOZzN4WG1YbE1Jd1dnUEg4aS0weTA3blQxZjZHQW5lU3M3NHhjYUJaOHVFdGxEOUtwaWFBTjNOOGM2UmlzT0ZaSEZhVHVaNnEwY2FtaC1hbEp6aFpNZGtkUHM4MGdBYmhpR3lVSXhhSHBSUUFKYWh1amx2Qkt1S180UHM0LW1sSGZSSngxQ3NnTHkxQU5vUE1aMjNUWXljZkN5OTNTVEUzczNOZ0tGbTlyS094VXZVaGNTejZQVm9YRkctc2s1TDIwdG1PMDNfVl9KVkJmSEgzQmhQY0ZGejl0eEpGQmdiVmhOV2pFZU9vNzlvX3F3em1aZUlHSUxEd3JlUWxLcWFOVW9hcDItMVo1SUZaMzBTVFZrdlN5NWJMWWNZcmF4N09KWWNZbw?oc=5
+
+### 馬鞍山女性遺体殺人事件：被告の娘が父親の異常な行動を証言、香港中文大学の赤い波が彼の磁場に影響を与えたと指摘 - 香港01
+
+1. 馬鞍山女性遺体殺人事件 被告の娘が父親の異常行動を指摘、香港中文大学の紅波がその磁場に影響を与えたと主張 香港01
+2. CBMingNBVV_yqLMgAwsJPzQEyraSyRYz729Eo2vC-XEV_TyHwQTneyRBumZYFmzPvF6TrP8locHZRY-5vGdibwTyewaCUJSWk47WhGhEmahN0f50uC38tJML7fEO9nwXIpTmj7
+梅子林殺人事件公判開始 ガールフレンドは肋骨14本を骨折 検察側：被告は「宇宙人を殺した」と主張 - 2026年3月6日 - 香港ニュース 明報新聞網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxPSHVIODduTGJFS2YwZ2tkekdsU1BzVnhEMl9ONmtONVBSMmJVWm80cjl0c3lHYU1XOVQ2aVhFQURzeG4zSXlfd2JKU0x6QmxLQVdpaFRGOGgycklNSjBQaUs5N3ZXVmpoejNmaGdRMDJBNk9vNmRZcmlDcTZ3aU5MQnNRVEEtanNrMEQ2XzJrOHlkY2d3RDctRWctZW5WanQ3Y1A0NkpxZzhkZVhTeGhBZXpVVURES2ppMjhWZmJHbDJkWGRrZ1VGUkNQdFNRUE01S0RONnJVczhweng4UWFmM01zLVk3clk3TXRTTnFMblk3Ml82MDQ3R0JrUHdTNUhvUHl6S2pwU2F1ZjhMT1ViaVBYbGpMeEduT0RHZmk4bzltejZmeXhtVTRjQk9oNVhrTXZXMHd5WDVzdWEybHg0X1V4eWRNQlA2bG05aVdOWFo1aXJEUVBPT0xZN1FaWkJ1Qk11Znc5LVlWVS11MlI0NUx0UGNCOXpjam9uWGlhUTFMSzVWeGlpVGVUZTlBYlNaRnZqNDBwVzZXUTlXNDI1X1o3TldQZ1ZSNXBjbEJidUh5VkRWOUl2WWxEQzE3ekJQNGFuR1RDTWg?oc=5
+
+### 東九龍の複数地域でエレベーター閉じ込めや警報器の鳴動が報告され、中電は将軍澳地域内の一組の送電線路で電圧低下があったと発表｜Yahoo
+
+1. 東九龍の複数の地域でエレベーター閉じ込めや警報器の鳴動が発生し、中華電力は将軍澳地区内の一系統の送電線で電圧降下があったと発表しました｜Yahoo  Yahoo
+中華電力：将軍澳の送電線路で電圧降下、東九龍と将軍澳で多数のエレベーター閉じ込めが発生
+情報源：香港電台ニュースサイト
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi3wNBVV95cUxNblJURUtfQy1tMDB4MFcyMVJoczVFZ3pyb3NTZHNfNUFLZFZNd0JlQW1yVUc5UUVMYnEwdGM2dVFIZjBXbWRra0lfWjgwaVNCUlF2STV6bUItZjZfZkdpVGxfa1FMckQzeG9WVlJzcXh1LUY3VjVSeWRvVmlQdlBsS1FHWDVXV0tVdlVEUFI5Tk1fWHZaenZBam5LRFJOaEY4QmJMVS1NdFhKVndjTWluLVZWOFFZdEptVEVLQjNxcWprcWVTOVhQRVZ1NGY4a2xqVE4zMGN6YjI3WjFJYXlGYjNuaF9XNGlHaUV3Q0xOeWQ1XzR6cHI0RmdJYnFoQ0pDYnRmcDV6U0hKTlZ6ek05R1pLd1BSOEFwTzFrMGhYZXFnTUZsYmt1ZTVkVVFhdGloVWxqQjBnSWE2RC10UTFIelRrTDlDZGRzN054X2Jmb29MM1g3ajA5RDB2WEtocnZlVEh5VjNTVHRyM05IRkJPMWx6VDVJLWx6d2xWZG1mNklyY0N2bEZTbWZ0VHNiOWoxQzEyRUtmcXpsT01oRGhsSk5vdm9hUFNaMk96NU1seDhJc3VYaVRpNzFOS0JwbmtVbEtBZmlTNkY3V1p5V2tWUG02ck9CUUtqSXJTdE5SSQ?oc=5
+
+### 石籬二邨の32歳外国人ヘルパーが麻疹に感染、感染期間中に慈幼葉漢千禧小学校に滞在していたとみられる - on.cc東網
+
+1. 石籬二団地の32歳外国人ヘルパーが麻疹に感染、感染期間中に慈幼葉漢千禧小学校に滞在していたと報じられている。 on.cc東網
+2. 今年初の国内麻疹患者は石籬二団地の外国人ヘルパーで、感染期間中に近くの小学校の外に滞在していた。 香港電台ニュース
+Y3WVpYOVRxVEF4TzBTMklpTTctT0g5MXpYTHlBS1pFNnhnSHd4OHpYSXB5NDVkemFxeS1LQmhaUFM1X2tWRFpSa2prSExLdGRBM1ZOZnEzRWVrWDgybENCSzdKZFhjMnRTaUt3SUpHdHJWVW9ZWFFNUDZmaXpPMFAyd3dGMkc0cWNkalZudEw2SE00TTZiZ2VueTRhQnpLdkJVeUl5RG1IR0tjbjVzdTh6cDNCajJqeUdiWjNVaFNnaXg1MzlZTUhEUHhuMjFubzd1cThEME5ucUhvUDVDY3ZKREgxWW5VdVdINURYUy1kYVhBOTN2WjFVRFNkTVJDRVRWWEJ3QXRxZmR3Q3QtMDNkcV8ySXFfWlRjemxNekdnSDBjLXpJQ1NUTHBiUlpJWkpLRk80ZkxYWEN1TWgtZkdRZmcxb2IyV2l6TmxYMlpJejM4dTR3RHpSbmFrWGI5OHBLZEJTdEUxY3BJTDdJTk1HQnlV?oc=5" target=という文字列です。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZGswR3FORFVrMUM1cnoxSzV3TXUyUDlIQmxXOTdxNDA1Y05HU0FNLThWTHdoeUNSZG1NWjNyczZDQ2NqcElMMmsxQWpEdHpIWkNoVEJQNGlJN2xfcG9ROWRGbHp2U3NSZHhlQkoyMU1qZFZMdFhFd0lRX3hRV1pQWnBDRHRCdFFuN2xJ?oc=5
+
+### 銅鑼湾のスパでタオル室から出火の疑い、消防が放水し鎮火 - 香港01
+
+銅鑼湾のスパ施設でタオル室から出火か、消防が放水し鎮火&nbsp;&nbsp;香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiwwJBVV95cUxONGZuY1hTUkhBLW9vSGlyRWsyRzU4M3IxT1hPVVFnZDAzNmpSR1NLbVROX1Ffa2ptWUdaMmk4SjJ1VFJGZUVIdXBkQUEwVllJWUJnaE55UGp0a1pyR28ySlhPajNWU0R0alRDbWRuYjNCSGNlYk42dkVDYVRWRzBZLXZmLXZxUEVwRENwTjJRN3pYUld3U3YwQmRWRDd2M2RoclhJaGhMMW9xNzFKbkhJdU9TNHRXY2xNamtZZV9XTDU2eXRIaXE1dGw0ZEs3RkJHT21ReUpkUkZWUjhwN0I4c1diX1hRcE1jMHA4YWJDR0Y0Tkk0REdLSzVHZGVRQy1ROVQ0Ymk2WGFIdzU2dGNzSkJRcENqTXB3eE5nZUZYbTRXV2N1a2gyUFl3VE1mSXdZOWhoNnYwTzJCREtDYkExZGpDcw?oc=5
+
+### 将軍澳で女性ハイカーがイノシシに噛まれ、イノシシは長い階段から転落死 - 香港電台ニュース
+
+*   将軍澳で女性ハイカーがイノシシに噛まれ負傷、イノシシは長い階段から転落し死亡（香港電台ニュースサイト）
+*   将軍澳でイノシシが女性の足を噛み負傷、イノシシは逃走中に負傷し死亡（Nowニュース）
+*   将軍澳でイノシシが女性の足を噛み負傷、イノシシは逃走中に負傷し死亡（香港01）
+将軍澳でイノシシが階段から転落し死亡 (15:27) - 20260306 - 香港ニュース 明報新聞網</li><li><a href="https://news.google.com/rss/articles/CBMiuAJBVV95cUxPODVfZ3ZaUEdiS00ydktBXzI5UzRaZ0xJcV9tbnZ0WmlGUjVaa2pFamVVUVFiZl9NVzZnR25RU2otSlh1Z2paYVh1MFptUHZYdW1NSl9BcFlzQ29KclhnOFB4LU1NZkVPX09PdlV0
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9VV2RUR3FtTVYxaTlFSHJfUUVkbTAya21VQTBiZXhvWGZEZ0VUQWNFMGNpRFpWczF2S21fS1VMd0NFV003WklodHpydG5nWk9KcTdqQW1vOERIV2gxb3M0RzFFLVlGWHlMcml0bE0yOA?oc=5
+
+### 九龍湾宏光道で乗用車とオートバイが衝突、ライダーが負傷し倒れて病院に搬送 - 香港01
+
+九龍湾宏光道で乗用車とオートバイが衝突、オートバイ運転手が負傷し倒れて病院に搬送
+香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi_wJBVV95cUxQWGRybDZlNnRCSkRMcUJ1RHYwOWNTXzFaaDRYUWFVM0tkdENlYWJ5LWFrckVKQndHOUFmM0NEdlpoamE4YTN0cUNadDhfTUdyZUNfYTlveHJsMExVNVRJWjlrT2NyMHFfZEpRQmY1TjE1eEN5N0l0UWJlWTRPTEN6b3U3c01SSi1TY2Y1d0NJSHI0MW5BbS1rUU0wYWxVNHlTWUFMOEZCNW9IZUR2N2xkdE43cFJHbW5ZdEM4RkRzejFwbk9pTTkwX1R4bnNnZVNGbWJ5SW5BYjcyU2NBbFVjRlV2RmZBTDBycGxEYzZkc0kwUmZtSTAtaVhhekFvcUFpWmFGZWlod2xORWpjbGlBNDJHQzFOSXJTd3J2THlqUlBoRTRxeExFUjdpeHRURDF1N0lBNnRpT3kxMzJCVnl5WTdHZlFzdkZuR0prUmwzLWtGblliaUI3OVZmVXFYWnlDLXFqUWpEQkhPdjkzakpjd25HRmdFZHdsWGN2elBvaw?oc=5
+
+### 猫のジョーB、一晩の失踪後発見される。猫店長は旺角の薬局に戻るとすぐに食事を始め、警察も現場に到着し状況を確認した｜Yahoo - Yahoo
+
+<ol><li><a href="https://news.google.com/rss/articles/CBMi_gJBVV95cUxNbFBjNUdmSW0zOW9PN1JVemV0Q0p1a0hjZ0J2blkyWkZreXNqR2NqU2RSc3ZWRWRRTmlTUVZidEZLcktVUl9idHlEdXNLMlpoVkk2aXVlTnNYSDlkMWJJVXh4RVpYbG9uYXZoZHB6dXowOHByTUN4dmNIMENrNm1ubmZGRDdGZWpKSmFyQk40WnhBRERad09qMHc0VHI3YzlHMG5NM3IzTnkxRGx1dzdHVEFIZjByNUMzOFNJMmtOa0NiZ3FPZ1IxS09KTHdoSGVuS01URW9hYTVMSTZXcVI3N3hnRkZCVVgyT2lRaktxVUJrVXE4WmNSQy1qei05Z0luWFdnTHdqSEtNWERhS3o4TklEblV0NnpSa1VUc05PZ3hwVnJfWV9tVjZYRXBCcWlEVWctU2lteUJDeHVnMW1Hb1IwbWZxcEpjMllBcUxDRHhGUFFneURNNEF6dnplek1vWDlERFZvVzdhVjR4MzZtTTg4T19CRGFwMXVOa0V3?oc=5" target="_blank">阻B、一晩の失踪後発見される。店長猫、モンコックの薬局に戻りすぐに食事。警察が現場で状況確認｜Yahoo</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo</font></li><li><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9HRXhoR0wzZ0Fpd3owZlVhUHc2YzNVd3M1TGRqWTV3UFg4amYyRDdCNFh6a3ZQNW5TQ0t6UWY4QlBFM1lxblF1N1Y1WjVzbGt3ZVZ5d1FaVTRpbVNWQzlibHJ0ZFBGLXJrQ19lZnRONA?oc=5" target="_blank">モンコックの薬局で猫が盗まれる。警察官がホテルで猫を発見し、中国本土の女性を逮捕</a>&nbsp;&nbsp;<font color="#6f6f6f">香港電台ニュースサイト</font></li><li><a hr</ol>
+猫の店長阻Bが行方不明：薬局の店員が上の階の賓館で阻Bを発見、警察が連行
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi_gJBVV95cUxNbFBjNUdmSW0zOW9PN1JVemV0Q0p1a0hjZ0J2blkyWkZreXNqR2NqU2RSc3ZWRWRRTmlTUVZidEZLcktVUl9idHlEdXNLMlpoVkk2aXVlTnNYSDlkMWJJVXh4RVpYbG9uYXZoZHB6dXowOHByTUN4dmNIMENrNm1ubmZGRDdGZWpKSmFyQk40WnhBRERad09qMHc0VHI3YzlHMG5NM3IzTnkxRGx1dzdHVEFIZjByNUMzOFNJMmtOa0NiZ3FPZ1IxS09KTHdoSGVuS01URW9hYTVMSTZXcVI3N3hnRkZCVVgyT2lRaktxVUJrVXE4WmNSQy1qei05Z0luWFdnTHdqSEtNWERhS3o4TklEblV0NnpSa1VUc05PZ3hwVnJfWV9tVjZYRXBCcWlEVWctU2lteUJDeHVnMW1Hb1IwbWZxcEpjMllBcUxDRHhGUFFneURNNEF6dnplek1vWDlERFZvVzdhVjR4MzZtTTg4T19CRGFwMXVOa0V3?oc=5
+
+### 黎智英は外国勢力と結託した罪で有罪となり、懲役20年の判決を受けた。法律チームは上訴しないと述べた。（12:26） - 20260306 - 香港ニュース - 明報新聞網
+
+1. 黎智英は外国勢力との共謀罪で有罪となり、懲役20年の判決を受けた。弁護団は控訴しないと表明 (12:26) - 20260306 - 香港ニュース - 明報ニュース網
+国家安全維持法違反事件で20年の禁錮刑、黎智英氏が上訴せず 信報ウェブサイト
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMipwNBVV95cUxPSE9HMXRmRWh3cUJDYjJnbm9aUTZSM1Y1WU1HMWMwVDItblNJRzlnOFUxelFZWGZvZU9RaWwwaFlhcVAxdHdEWXJOc181c2ZmWkZHeENBQzVIVWhnWUoyclZNX0dxNFNVRHJyYmhBMHBMV1Z6UV8tLTFCa1MxMDFOejdXZTdia053QzJHZVhSRVF3bldlN3BIQk9YMF9nWC1SVUxkQ1pNRkJxeDF0RXQ5QWlzNDhFOVc0cHhQdHU2TU00TmEyRzE2dFRYelY0QkJQTHRDZHZIcmpycTJjTVBnSUktZnItY0lJd3dUN3FTYThnQ2tVUU4ycE81ODNmVGMtUXlzMXVSQ2ZWVnV0TDlhQ3BTOEJLZksyOFNfNzV3STBKU00zZUE2NVVpMWpVUlBpbjg3YjJJMVE0Ry1ITFhwRFRSTE8yM1duRnRyZDA0SUNMX3F6Nm1SYkl3eWNVc0hlMGRWeTFJdkZXQ2wxOXdYZXJXQ2JISXJkRzc4Vk00VlBFSGZndy1BMFlmcXpVZjd0WXp6SFZHVFJ1bVZYQk1uZlhMQWNiZzA?oc=5
+
+### 天瑞路で自家用車2台が衝突、女性ドライバーが車を降りて激しく口論後、意識不明で搬送され2日後に死亡 - 香港01
+
+1.  天瑞路で2台の自家用車が衝突し、女性ドライバーが車を降りて激しく口論した後、意識不明のまま病院に搬送され、2日間の入院後に死亡した。 香港01
+天水囲で自家用車2台が衝突、女性運転手が車を降りて激しく口論後、昏睡状態となり2日間の入院を経て死亡 AM730
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMimgNBVV95cUxPUEFkeXpuczVMeTIxa3gtek1yNm4wUXl4MVI4M3p4MVFBbXhNcTlQNTMwQ0pXVkZUbk5FWFhGQmc3clBnWG53czI0WWZMS1dlaHBnTEI3RFBsMmY2bmthYlI2QUtzYnVlLS1KV1Jzc2dGa2otRGFWN0VqaXU0TTRLeWFtelpHbGhQNVRITVZRZmd6c3dUdXJkLUJMWElvR0hueDNIei1Qa3IxdWc3azNkQ2JsWmY5MV9MZy15T1BXeExfOGJPN0pRa1A0ckJScENnMXE3N3RSRWtJczJZbDZ1WlhyV3JfOUZMT1dHdHZhdDBsRnNNME9YR2RXd3pfMnFXYjZMWlVQRktaLWJZZEJDVFBqT25XN3RPT3dFUmxET0hWN29Rb0cwSXdCQjdVUjhXaGVBVElxZFlUaHpEMHVoX1BMVjRuc3BSOGxDSU1IOHFRMWhHdGZ6TXpfcm05dDVlbEdya05SSXBRcnZzLUt2VWVwUXlnckY5bzJTelpLNzZWazRwLXM0WE5RU0hxLXFIVDIwdG9IZkFXZw?oc=5
+
+### 香港中文大学教授、シドニーで盗撮容疑｜大学側は当該教員の職務を停止し、調査委員会を設置 - 香港01
+
+1. 香港中文大学教授がシドニーで盗撮に関与｜大学側：該当教員の職務を一時停止し、委員会を設置して調査 香港01
+香港政府は、経済を活性化し、観光客を誘致するため、「香港夜繽紛」という一連のイベントを立ち上げました。このイベントは、夜間の消費を促進し、香港の活気ある夜の生活を国内外にアピールすることを目的としています。イベントには、文化パフォーマンス、マーケット、特別割引などが含まれ、市民や観光客が香港の夜を最大限に楽しめるよう工夫されています。
+
+詳細については、https://www.example.com/hongkong-night-vibes-event をご覧ください。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMipgNBVV95cUxPN21TU0pfeGczMWxnajVpdktJSVdzMTZ4YnluM2ZPVUxzZ3JEQVBKcGxVeDNiWnFGZUZLQUR4ZXhnQ3FzYmJFZWtzR29VckZUWmQwMW9QNlpmckJHaFRyalFOblptdm5hR3AyWFhNYkxWMnF6RVRRa0RReGRqM2k3NXQ5bWd2UjVnTENWRUtmSnZCcDgwNFhiTm8xdDROSkhaTFc5SVhxN2lOMV8wNUVQdGZBT1JWV29Jemtsbk5KeXFyY3dxT0VUelhCVUVFWnRIVEdfRF9ma09ieF9sR1NRaXExMTlYRFI3c0t1SW9HVnNldVl0akl1eXVSMHo4Y0ZBOHU3TklhZXRlaURRVlNBWEZrcElBZkRSQVRxb0FybFNkMkxSZ0l2VU9nVGptY0RlZS05am5ETW51UTM5c2tfTTFWLTBHdjlHdVhsZU42WGxFN3kwLUFLSGNuREgteDBaTmlyYlRHeTlodmx3UnVPdUlDMXI1ZTlyNEZDdDBhN19pQXdfX3UyLVF0cmZ4UWd0el9BN0oxRkRzOTQzQ090RTA1aGxpQQ?oc=5
+
+### 九龍東でエレベーター閉じ込め事故20件超、中電は将軍澳の送電線路で電圧降下と発表
+
+【Now新聞台】消防処は午後5時頃、九龍東で20件以上のエレベーター閉じ込め事故を記録しました。中電によると、ある送電線路で電圧低下が発生しました。中電は、午後4時50分頃、将軍澳地区内にある1組の13万2千ボルトの送電線路で短時間の電圧低下を記録したと発表しました。継続時間は0.1秒未満で、その間、電力供給は中断しませんでした。一部の顧客や公共施設の照明が暗くなったり点滅したりした可能性があり、電圧の変化に比較的敏感な機器は、保護機能が作動して一時的に停止した可能性があります。中電は現在、この件を調査しています。主要ニュース
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E4%B9%9D%E9%BE%8D%E6%9D%B1%E9%8C%8420%E5%A4%9A%E5%AE%97%E5%9B%B0%E5%8D%87%E9%99%8D%E6%A9%9F%E4%BA%8B%E6%95%85-%E4%B8%AD%E9%9B%BB-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E7%B5%84%E4%BE%9B%E9%9B%BB%E7%B7%9A%E8%B7%AF%E9%9B%BB%E5%A3%93%E9%A9%9F%E9%99%8D-101037002.html
+
+### 研究によると、女性の4割以上が一度も検診を受けたことがなく、回答者の6割以上が費用が高いことを主な理由に挙げている。機関は定期的な健康診断によるがん予防を呼びかけている。| Yahoo - Yahoo
+
+1. 研究によると、4割以上の女性が健康診断を受けたことがなく、6割以上の回答者が費用が高いことを主な理由に挙げている。団体は定期的な健康診断によるがん予防を呼びかけている。|Yahoo
+2. Yahoo
+調査：女性の4割が健康診断を一度も受けておらず、医師は25歳以降の定期的な乳房・子宮検査を呼びかけている
+明報健康網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMihARBVV95cUxOcEdCcUxLSW1rUVJubmNMX2JIUDlPNTJlZVlTOFJlbzFWZVVsaUR3aDJMdGRRb2xQa1FiUWdqdnc3eUVXa0hQRGZDeC10Z3hwZDJnTDJCMGxvbzdIclpNa0RDZ3JsRExFc29DWXdpLTZqTnBWVnVrbW55S2ctU1lhejM1VWNOVnR4bzJWbE1nQk05ampZbDJGZGl5QTBmQnZNZjMzX05EQU1GTGpzelNEeTNwTGIzcG1lQVJjR3FQWGUySmZyUlZhZFlELURsTDMyOVFfM2xVS0xFdDFraXFEcGl5NUJHNVdpQjkwTXJ4cVdwVXRYNktVZ2xFTXpWVnBWbEtrYlhKYjFsbzFhS3lfVmt6WVl4MEhGSU1HTEZMU0luZzcxa1hWWWhoaXBKbU44d1NoeXhqQzJ0NHBWN1VCWGpxODdVRjl6LUhXTHUxUGhjU1BWZm5ka2xseWpfX1RjQVpvbjd6SzlfZTRoZDBaNDd0UHRieC0wR3oxNGNmdlV3eS1rTHpya1RxM1l3Yk5fbUZHNWRaV3N3dW43aF9DU1BISzhxdTJtNEtsRl93Znk4czB6VEtDSXFpVkZ0MnN0dHYzUXpNazVIVGozMm1XZzRIb3Uwc2RfU3VWdWJsUEZjdndmWGhuQ2kzY0k4Tk1JRjhqTzNmMU1oWjJqSHV6ZERsMUU?oc=5
+
+### 女性教師がFacebookへの投稿を理由に懲戒免職され、再審査を求めた件で、控訴裁判所は懲罰は厳しいものの合理的であると判断し、政府側の主張を認めた - 香港01
+
+1.  Facebookへの投稿により免職された女性教師が再審査を求めた件で、控訴裁判所は懲罰は厳しいが合理的であると指摘し、政府の主張を認める判決を下した。 香港01
+2.  （表示テキストが提供されていないため、翻訳できません）
+官立中学教師が警察を罵る投稿で免職処分を受け、再審で勝訴したが、政府の上訴が認められた。控訴裁判所は「厳格ではあるが合理的な範囲内」と判断。 法廷線 ザ・ウィットネス
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivwNBVV95cUxPVHpfNVl6V1d1eDdoZkpNM0Y1dXpLazRXRkQ1MXJJdE1kTEk2QVRmS084Y19ZdVlhbUNDeDVsOUhKY1lwV3VHak1ZWjlVZEdjQ3huRHpyc0JWY3hQSXZ1RnlrdlBmXzBnMkNpa3o5czJyUGtZdHZablR3cksyZ3dZQXNielZqbDJOa2YzSmViWnlWMmduR2pwVE5LT3lXMjNqeEtncUxidjJlNHdPa20xaTMyZXFORGplZFBUbjhFRTZ6QzRQNUhsY18xNVNQLXUtSXh3MGFBTUxJNW9CbEdvd2I2VWdnZllMT3BhWlVKVHVIdzc4MjhVbUlJV0VhNUhwZFczODl2WnVfQ3hQU3NhSV9PS2RRNGRodDRtT2tYS2d0VmI1WUJyWGNHY0s0ZFVDSjdJUDZhbTQ1b0daWVFuNFVCTGJ5NWRoejdyOW1VWl9pcThleUJsdWNMRm9LZlR6OTdKaW5oaDVGTTdkd3hldFJ1SUlTUFRoaXV4cU4ycVhFZllQVWFKZmIwSWxjS2ljMk5ibGN0WV9XN3VHX0V0TExvMzZULTdkem9fUUNuZHVQdVZCVkZvY3k5QWlObTg?oc=5
+
+### 自発的医療保険｜致死性インフルエンザ発生、自発的医療保険で補償されるのか？ - Yahoo!ファイナンス
+
+<ol>
+<li>自発的医療保険｜致命的なインフルエンザ発生、自発的医療保険で補償されるのか？ Yahooファイナンス</li>
+<li>国内の季節性インフルエンザ活動レベルが上昇、政府はインフルエンザワクチン未接種者に接種を呼びかけ 香港ラジオテレビニュースサイト</li>
+</ol>
+公民の議題クローズアップ：冬季インフルエンザの予防 - 20260302 - 小学校人文 明報教育網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMizwJBVV95cUxOek5DbkE1b0xiU09ELWQ5a1hRdC1OX2xHZFJpd1A1UTE2SWlJU2RtSnUyeklIZEJsSGhFcXRrckFjZUFiSU1WeU1tTlVzRldQZENlYlJPLUx2S2xxTGFyRm94UFF1MDBtc3NZQmxnSTZPLW9kWFFyNkNCM1lWeERzLU8xVWNzdWhVMzJDeG1MdXFRYzkyUjNiZmY3NmQ2ZUNWYjlOQzNNdnpjUWgxZUU5VDBZaU1HSTNNbDZvN0c1UkYwaDFFSkV0RmpiZktOTEhhN0ZiVV9aN2ZEY3E1blQ1QTN5eGhIcnZPVUdNT1VrTmdiUGNDZUl2cFZBSzJGZmh5LTVqeEI0amRpdzlrd3JONk5XZW9QbzQwalpvVmYyWmJJT1hJbDBPMHhKV1M2d2dWMS04TGFkU2hXemxSUUNLYm9PVXBOazVaWUJPaDk2SQ?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年03月07日 06:33

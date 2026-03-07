@@ -143,6 +143,35 @@ def dedup_sections(markdown: str, sim_threshold: float = 0.9):
     return result.strip() + "\n"
 
 
+def remove_invalid_sections(markdown: str) -> str:
+    """壊れたHTML断片やhref残骸を含むニュースセクションを除去"""
+    sections = re.split(r"\n### ", markdown)
+    if len(sections) <= 1:
+        return markdown
+
+    preface = sections[0]
+    kept = []
+    invalid_patterns = [
+        r'<a\s+href=',
+        r'</a\b',
+        r'<(?:p|div|span|font|li|ul|ol|strong|em)\b',
+        r'target=["\']?_blank',
+        r'(?m)^[A-Za-z0-9_/\-+=]{40,}\s*$',
+        r'Comprehensive up-to-date news coverage',
+    ]
+
+    for sec in sections[1:]:
+        block = "### " + sec
+        if any(re.search(pattern, block, re.IGNORECASE | re.MULTILINE) for pattern in invalid_patterns):
+            continue
+        kept.append(block)
+
+    result = preface.rstrip()
+    if kept:
+        result += ("\n\n" if result else "") + "\n\n".join(k.strip() for k in kept)
+    return result.strip() + "\n"
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: sanitize_article.py <article.md>")
@@ -162,7 +191,10 @@ def main():
     # 2) Deduplicate sections
     content = dedup_sections(content)
 
-    # 3) Collapse excessive blank lines
+    # 3) Drop malformed sections that still contain broken HTML/link fragments
+    content = remove_invalid_sections(content)
+
+    # 4) Collapse excessive blank lines
     content = re.sub(r"\n{3,}", "\n\n", content)
 
     if content != original:

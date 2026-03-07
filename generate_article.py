@@ -7,6 +7,7 @@ import json
 import os
 import requests
 import re
+import html
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional, Set
 from urllib.parse import urlparse, urlunparse
@@ -18,6 +19,76 @@ except ImportError:  # pragma: no cover - フォールバック用
 
 # HKTタイムゾーン（UTC+8）
 HKT = timezone(timedelta(hours=8))
+
+EVENT_CHAR_NORMALIZATION = str.maketrans({
+    '灣': '湾',
+    '會': '会',
+    '國': '国',
+    '區': '区',
+    '臺': '台',
+    '學': '学',
+    '醫': '医',
+    '業': '业',
+    '發': '発',
+    '點': '点',
+    '綫': '線',
+    '綱': '網',
+    '證': '証',
+    '與': '与',
+    '將': '将',
+    '兩': '両',
+    '這': '這',
+    '馮': '冯',
+    '陳': '陈',
+    '鍾': '钟',
+    '廣': '広',
+    '東': '東',
+    '號': '号',
+})
+
+EVENT_ALIAS_REPLACEMENTS = (
+    ('香港ドル', 'hkd'),
+    ('港元', 'hkd'),
+    ('hk$', 'hkd'),
+    ('hk$', 'hkd '),
+    ('ｈｋ＄', 'hkd'),
+    ('人民代表大会', '全人代'),
+    ('全国人民代表大会', '全人代'),
+    ('両会', '兩会'),
+    ('兩會', '兩会'),
+    ('粤港澳大湾区', '大湾区'),
+    ('粵港澳大灣區', '大湾区'),
+    ('粤港澳', '大湾区'),
+    ('粵港澳', '大湾区'),
+    ('玄関口', 'ゲートウェイ'),
+    ('ゲートウェー', 'ゲートウェイ'),
+    ('国際ハブ', 'グローバルハブ'),
+    ('國際金融中心', '国際金融センター'),
+    ('國際教育樞紐', '国際教育ハブ'),
+    ('國際教育ハブ', '国際教育ハブ'),
+    ('灣仔', '湾仔'),
+    ('浸會大學', '香港浸会大学'),
+    ('浸会大学', '香港浸会大学'),
+    ('mpf年金', 'mpf'),
+    ('積金易', '積金易'),
+)
+
+EVENT_GENERIC_TOKENS = {
+    '香港', 'hong kong', 'hongkong', '中国', '北京', '政府', '香港政府', '中国政府',
+    '香港01', '香港電台', '香港電台ニュース', '香港01ニュース', 'scmp', 'rthk', 'yahoo',
+    '報道', 'ニュース', '最新', '速報', '分析', '情勢分析', '要請', '検討', '発表',
+    '強化', '役割', '方針', '計画', '推進', '検討すべき', '記録', '本日', '今日',
+    '香港人', '香港市民', '市民', '当局', '当局は', '代表者', '業界代表', '政府活動報告',
+    '全国', '全国人民', '両会', '兩会', '全国両会', '全人代', '大湾区', '灣区', '大灣區',
+    '国際', '香港立法会議員', '立法会議員', '元香港議員', '元香港立法会議員',
+    'former lawmaker', 'hong kong lawmaker', 'hong kong', 'former hong kong lawmaker',
+    'reported', 'says', 'said', 'urged', 'hong kongs', 'hongkongs', 'committee',
+    'government', 'officials', 'official', 'market', 'report', 'representatives',
+}
+
+EVENT_STRONG_ASCII_TOKENS = {
+    'mpf', 'ipo', 'hsbc', 'hkcec', 'byd', 'rthk', 'hkbu', 'legco', 'airtag',
+}
 
 
 def normalize_title_words(title: str) -> Set[str]:
@@ -151,6 +222,191 @@ def normalize_url(url: str) -> str:
         return normalized
     except Exception:
         return url
+
+
+def sanitize_source_text(text: str) -> str:
+    """RSS/スクレイプ由来のHTML残骸や壊れたリンク断片を除去"""
+    if not text:
+        return ""
+
+    cleaned = html.unescape(text)
+    cleaned = re.sub(r'(?is)<br\s*/?>', '\n', cleaned)
+    cleaned = re.sub(r'(?is)<a\s+href=["\'][^"\']*["\'][^>]*>(.*?)</a>', r'\1', cleaned)
+    cleaned = re.sub(r'(?is)<a\s+href=["\'][^"\']*["\'][^>]*>', ' ', cleaned)
+    cleaned = re.sub(r'(?is)<a\s+href=[^>\s]+', ' ', cleaned)
+    cleaned = re.sub(r'(?is)</a>', ' ', cleaned)
+    cleaned = re.sub(r'(?is)<[^>]+>', ' ', cleaned)
+
+    filtered_lines: List[str] = []
+    for raw_line in cleaned.splitlines():
+        line = re.sub(r'\s+', ' ', raw_line).strip()
+        if not line:
+            continue
+
+        lowered = line.lower()
+        if lowered in {'google news', 'google news hk'}:
+            continue
+        if 'comprehensive up-to-date news coverage' in lowered:
+            continue
+        if 'target="_blank"' in lowered or 'target=_blank' in lowered:
+            continue
+        if '<a href' in lowered or 'href=' in lowered:
+            continue
+        if re.fullmatch(r'[A-Za-z0-9_/\-+=]{40,}', line):
+            continue
+
+        filtered_lines.append(line)
+
+    cleaned = '\n'.join(filtered_lines)
+    cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)
+    return cleaned.strip()
+
+
+def has_suspicious_markup(text: str) -> bool:
+    """note公開に不適切なHTML残骸・壊れたリンク断片を検出"""
+    if not text:
+        return False
+
+    suspicious_patterns = [
+        r'<a\s+href=',
+        r'</a\b',
+        r'<(?:p|div|span|font|li|ul|ol|strong|em)\b',
+        r'target=["\']?_blank',
+        r'(?m)^[A-Za-z0-9_/\-+=]{60,}$',
+    ]
+    return any(re.search(pattern, text, re.IGNORECASE | re.MULTILINE) for pattern in suspicious_patterns)
+
+
+def normalize_event_text(text: str) -> str:
+    """重複判定用のイベント文面を正規化"""
+    if not text:
+        return ""
+
+    normalized = text.lower().translate(EVENT_CHAR_NORMALIZATION)
+    for src, dest in EVENT_ALIAS_REPLACEMENTS:
+        normalized = normalized.replace(src.lower(), dest.lower())
+    normalized = re.sub(r'[【】「」『』（）()\[\]{}<>〈〉《》"\'、。・,:：;；!！?？/\\|]+', ' ', normalized)
+    normalized = re.sub(r'\s+', ' ', normalized).strip()
+    return normalized
+
+
+def _clean_event_token(token: str) -> str:
+    token = normalize_event_text(token).strip(" -_")
+    if not token:
+        return ""
+    if token in EVENT_GENERIC_TOKENS:
+        return ""
+    if token.isdigit():
+        return ""
+
+    cleaned = token
+    for generic in EVENT_GENERIC_TOKENS:
+        if cleaned == generic:
+            return ""
+        if len(cleaned) > len(generic) + 1 and generic in cleaned:
+            cleaned = cleaned.replace(generic, '')
+    cleaned = cleaned.strip(" -_")
+    if len(cleaned) < 2 or cleaned in EVENT_GENERIC_TOKENS:
+        return ""
+    return cleaned
+
+
+def extract_event_anchors(title: str, description: str = "") -> Set[str]:
+    """イベント固有の金額・場所・キーワードを抽出"""
+    combined = normalize_event_text(f"{title} {description}")
+    if not combined:
+        return set()
+
+    candidates: List[str] = []
+
+    numeric_patterns = [
+        r'\d+(?:億\d+万|\億|\万)?\s*hkd',
+        r'hkd\s*\d+(?:\.\d+)?(?:\s*(?:million|billion))?',
+        r'\d+(?:億\d+万|\億|\万)?(?:人|件|歳|年|月|日|時間|小時|％|%|倍|台|棟|宗|名|港元)',
+        r'\d+(?:\.\d+)?(?:million|billion|percent|%)',
+    ]
+    for pattern in numeric_patterns:
+        candidates.extend(re.findall(pattern, combined))
+
+    cjk_tokens = re.findall(r'[\u4e00-\u9fff]{2,12}', combined)
+    ascii_tokens = re.findall(r'\b[a-z][a-z0-9\-]{2,}\b', combined)
+    candidates.extend(cjk_tokens)
+    candidates.extend(ascii_tokens)
+
+    unique_tokens = []
+    seen = set()
+    for candidate in candidates:
+        cleaned = _clean_event_token(candidate)
+        if not cleaned or cleaned in seen:
+            continue
+        seen.add(cleaned)
+        unique_tokens.append(cleaned)
+
+    def token_priority(token: str):
+        has_digit = any(ch.isdigit() for ch in token)
+        is_ascii = token.isascii()
+        is_strong_ascii = token in EVENT_STRONG_ASCII_TOKENS
+        return (
+            1 if has_digit else 0,
+            1 if is_strong_ascii else 0,
+            1 if len(token) >= 6 else 0,
+            len(token),
+            token,
+        )
+
+    prioritized = sorted(unique_tokens, key=token_priority, reverse=True)
+    return set(prioritized[:10])
+
+
+def is_same_news_event(title_a: str, description_a: str, title_b: str, description_b: str = "") -> bool:
+    """URLや表記が違っても、同じ出来事なら重複とみなす"""
+    title_words_a = normalize_title_words(title_a)
+    title_words_b = normalize_title_words(title_b)
+    if title_words_a and title_words_b and titles_are_similar(
+        title_words_a,
+        title_words_b,
+        min_common=2,
+        min_similarity=0.45,
+        min_coverage=0.6,
+    ):
+        return True
+
+    title_chars_a = normalize_title_chars(title_a)
+    title_chars_b = normalize_title_chars(title_b)
+    chars_similarity = title_similarity_chars(title_chars_a, title_chars_b)
+    if chars_similarity >= 0.82:
+        return True
+
+    anchors_a = extract_event_anchors(title_a, description_a)
+    anchors_b = extract_event_anchors(title_b, description_b)
+    if not anchors_a or not anchors_b:
+        return False
+
+    common = anchors_a & anchors_b
+    if not common:
+        return False
+
+    numeric_common = {token for token in common if any(ch.isdigit() for ch in token)}
+    descriptive_common = {token for token in common if len(token) >= 3 and not token.isdigit()}
+
+    topic_a = derive_topic_key(title_a)
+    topic_b = derive_topic_key(title_b)
+    same_topic = bool(topic_a and topic_b and topic_a == topic_b)
+
+    if numeric_common and descriptive_common:
+        return True
+    if same_topic and len(descriptive_common) >= 2:
+        return True
+    if len(descriptive_common) >= 3:
+        return True
+    if len(common) >= 3 and len(descriptive_common) >= 2:
+        return True
+    if descriptive_common and chars_similarity >= 0.65:
+        return True
+    if len(descriptive_common) >= 3 and chars_similarity >= 0.5:
+        return True
+
+    return False
 
 
 TOPIC_STOPWORDS = {
@@ -494,11 +750,19 @@ class GrokArticleGenerator:
                 if response.status_code == 429 and self.use_gemini is None:
                     print("🔄 Grok APIクレジット切れのためClaude APIにフォールバック...")
                     return self._fallback_to_claude(news_data)
+
+                # Grok APIの一時障害系はClaude APIにフォールバック
+                if response.status_code >= 500 and self.use_gemini is None:
+                    print("🔄 Grok APIサーバーエラーのためClaude APIにフォールバック...")
+                    return self._fallback_to_claude(news_data)
                 
                 return None
                 
         except Exception as e:
             print(f"❌ 例外発生: {e}")
+            if self.use_gemini is None:
+                print("🔄 Grok API例外のためClaude APIにフォールバック...")
+                return self._fallback_to_claude(news_data)
             return None
     
     def _fallback_to_grok(self, news_data: List[Dict]) -> Dict:
@@ -553,11 +817,11 @@ class GrokArticleGenerator:
         """ニュースデータをプロンプト用に整形"""
         formatted = []
         for i, news in enumerate(news_data, 1):
-            title = news.get('title', '')
-            description = news.get('description', '')
+            title = sanitize_source_text(news.get('title', ''))
+            description = sanitize_source_text(news.get('description', ''))
             url = news.get('url', '')
             source = news.get('source', '')
-            published = news.get('published', '')
+            published = news.get('published_at') or news.get('published', '')
             
             formatted.append(f"""
 ニュース {i}:
@@ -763,16 +1027,22 @@ URL: {url}
         return text
     
     def _ensure_section_count(self, body: str, news_data: List[Dict]) -> str:
-        """生成された本文のニュース件数を検証し、足りなければフォールバック生成"""
+        """生成本文を検証し、不正マークアップや欠落時はフォールバック生成"""
         expected_count = len(news_data)
         if expected_count == 0:
             return body
 
         section_count = len(re.findall(r'(?m)^###\s', body))
-        if section_count >= expected_count:
+        invalid_markup = has_suspicious_markup(body)
+        if section_count >= expected_count and not invalid_markup:
             return body
 
-        print(f"⚠️  記事数が不足: 期待 {expected_count} 件に対し {section_count} 件。フォールバック生成を実行します。")
+        reasons = []
+        if section_count < expected_count:
+            reasons.append(f"記事数不足 ({section_count}/{expected_count})")
+        if invalid_markup:
+            reasons.append("HTML残骸/壊れたリンク断片を検出")
+        print(f"⚠️  生成本文の安全性検証に失敗: {', '.join(reasons)}。フォールバック生成を実行します。")
 
         # 既存本文の冒頭（最初の見出し以前）を保持
         first_heading_index = body.find("### ")
@@ -801,13 +1071,13 @@ URL: {url}
             source = news.get('_source') or news.get('source') or 'Unknown'
             url = news.get('url', '').strip()
 
-            raw_title = (news.get('title') or f"ニュース {idx}").strip()
-            translated_title = self._llm_translate_text(raw_title).strip() or raw_title
+            raw_title = sanitize_source_text((news.get('title') or f"ニュース {idx}").strip())
+            translated_title = sanitize_source_text(self._llm_translate_text(raw_title)).strip() or raw_title
 
-            summary_source = (news.get('full_content') or news.get('description') or "").strip()
+            summary_source = sanitize_source_text((news.get('full_content') or news.get('description') or "").strip())
             if len(summary_source) > 1500:
                 summary_source = summary_source[:1500]
-            translated_summary = self._llm_translate_text(summary_source).strip() if summary_source else ""
+            translated_summary = sanitize_source_text(self._llm_translate_text(summary_source)).strip() if summary_source else ""
 
             section_lines = [f"### {translated_title}"]
             if translated_summary:
@@ -915,6 +1185,8 @@ https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
         html_cleanup_patterns = [
             r'<p[^>]*>\s*</p>',                 # 空のp
             r'</?br\s*/?>',                    # brタグ
+            r'(?im)^\s*<a\s+href=.*$',         # 壊れたaタグ開始行
+            r'(?im)^\s*[A-Za-z0-9_/\-+=]{40,}\s*$',  # href断片/opaque token
             # [![...]](...) を包む p/span ハイライトを剥がす
             r'<p[^>]*>\s*<span[^>]*>(\[!\[.*?\]\(.*?\)\]\(.*?\))\s*</span>\s*</p>'
         ]
@@ -947,6 +1219,9 @@ https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW"""
         cleaned_body = re.sub(r'\*\*リンク\*\*:\s*(https?://\S+)', r'\n\n\1', cleaned_body)
         # リンク: url → 空行 + url
         cleaned_body = re.sub(r'(?m)^リンク:\s*(https?://\S+)', r'\n\n\1', cleaned_body)
+        # Google News系の残骸行を除去
+        cleaned_body = re.sub(r'(?im)^\s*Google News(?: HK)?\s*$', '', cleaned_body)
+        cleaned_body = re.sub(r'(?im)^.*Comprehensive up-to-date news coverage.*$', '', cleaned_body)
         
         # 行末の余分なスペースを除去（改行前の2スペースなど）
         cleaned_body = re.sub(r'[ \t]+$', '', cleaned_body, flags=re.MULTILINE)
@@ -1214,6 +1489,7 @@ def preprocess_news(news_list):
     past_urls = set()
     past_title_words: List[Set[str]] = []
     past_title_chars: List[str] = []
+    past_event_candidates: List[Dict[str, str]] = []
     
     for days_ago in range(1, 4):
         past_date = datetime.now(HKT) - timedelta(days=days_ago)
@@ -1238,6 +1514,10 @@ def preprocess_news(news_list):
                         chars = normalize_title_chars(t)
                         if chars:
                             past_title_chars.append(chars)
+                        past_event_candidates.append({
+                            'title': t,
+                            'description': '',
+                        })
                     
                 print(f"  ✓ 既出URL: {len(normalized_urls)}件、既出タイトル: {len(filtered_titles)}件")
             except Exception as e:
@@ -1261,6 +1541,7 @@ def preprocess_news(news_list):
     fire_limit = 2
     fire_overflow_count = 0
     duplicate_count = 0
+    event_duplicate_count = 0
     ng_word_count = 0
     non_hk_count = 0
     overused_topic_count = 0
@@ -1363,11 +1644,20 @@ def preprocess_news(news_list):
         ):
             duplicate_count += 1
             continue
+
+        if any(
+            is_same_news_event(title, description, past_item['title'], past_item.get('description', ''))
+            for past_item in past_event_candidates
+        ):
+            event_duplicate_count += 1
+            continue
         
         filtered_news.append(news)
     
     if duplicate_count > 0:
         print(f"🚫 過去記事との重複除外: {duplicate_count}件")
+    if event_duplicate_count > 0:
+        print(f"🚫 過去記事との同一イベント除外: {event_duplicate_count}件")
     if ng_word_count > 0:
         print(f"🚫 NGワード除外（全国運動会等）: {ng_word_count}件")
     if overused_topic_count > 0:
@@ -1386,8 +1676,10 @@ def preprocess_news(news_list):
     # 2. 同日内重複除外
     existing_title_words: List[Set[str]] = []
     existing_title_chars: List[str] = []
+    existing_event_candidates: List[Dict[str, str]] = []
     unique_news = []
     same_day_duplicates = 0
+    same_day_event_duplicates = 0
     
     for news in filtered_news:
         title = news.get('title', '')
@@ -1411,15 +1703,28 @@ def preprocess_news(news_list):
         ):
             same_day_duplicates += 1
             continue
+
+        if any(
+            is_same_news_event(title, description, existing_item['title'], existing_item.get('description', ''))
+            for existing_item in existing_event_candidates
+        ):
+            same_day_event_duplicates += 1
+            continue
         
         if title_words:
             existing_title_words.append(title_words)
         if title_chars:
             existing_title_chars.append(title_chars)
+        existing_event_candidates.append({
+            'title': title,
+            'description': description,
+        })
         unique_news.append(news)
     
     if same_day_duplicates > 0:
         print(f"📊 同日内重複除外: {len(filtered_news)} → {len(unique_news)}件")
+    if same_day_event_duplicates > 0:
+        print(f"📊 同日内の同一イベント除外: {same_day_event_duplicates}件")
     
     # 3. カテゴリー分類
     categorized = defaultdict(list)

@@ -10,6 +10,7 @@ from typing import List, Dict, Set
 import time
 import json
 import re
+import html
 from dateutil import parser as date_parser
 
 # HKTタイムゾーン（UTC+8）
@@ -43,6 +44,37 @@ class RSSNewsAPI:
         }
         self.history_file = history_file
         self.processed_urls = self._load_processed_urls()
+
+    def _clean_feed_text(self, text: str) -> str:
+        """RSS summaryに混ざるHTML残骸や壊れたリンク断片を除去"""
+        if not text:
+            return ""
+
+        cleaned = html.unescape(text)
+        cleaned = re.sub(r'(?is)<br\s*/?>', '\n', cleaned)
+        cleaned = re.sub(r'(?is)<a\s+href=["\'][^"\']*["\'][^>]*>(.*?)</a>', r'\1', cleaned)
+        cleaned = re.sub(r'(?is)<a\s+href=["\'][^"\']*["\'][^>]*>', ' ', cleaned)
+        cleaned = re.sub(r'(?is)<a\s+href=[^>\s]+', ' ', cleaned)
+        cleaned = re.sub(r'(?is)</a>', ' ', cleaned)
+        cleaned = re.sub(r'(?is)<[^>]+>', ' ', cleaned)
+
+        lines = []
+        for raw_line in cleaned.splitlines():
+            line = re.sub(r'\s+', ' ', raw_line).strip()
+            if not line:
+                continue
+            lowered = line.lower()
+            if lowered in {'google news', 'google news hk'}:
+                continue
+            if 'comprehensive up-to-date news coverage' in lowered:
+                continue
+            if '<a href' in lowered or 'href=' in lowered:
+                continue
+            if re.fullmatch(r'[A-Za-z0-9_/\-+=]{40,}', line):
+                continue
+            lines.append(line)
+
+        return '\n'.join(lines).strip()
     
     def _is_hk_related(self, title: str, description: str, url: str, source_name: str = "") -> bool:
         """香港関連かを厳格判定（タイトル/説明/URL/ソース）"""
@@ -603,8 +635,8 @@ class RSSNewsAPI:
                     self._mark_url_as_processed(url)
                     continue
                 published_at = entry.get('published', entry.get('updated', ''))
-                title = entry.get('title', '')
-                description = entry.get('summary', entry.get('description', ''))
+                title = self._clean_feed_text(entry.get('title', ''))
+                description = self._clean_feed_text(entry.get('summary', entry.get('description', '')))
                 
                 # 日付フィルタリング
                 if not self._is_today_news(published_at):

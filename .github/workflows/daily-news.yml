@@ -327,12 +327,28 @@ jobs:
           # note.com投稿を実行（公開モード + マガジン追加）
           # マガジン選択が失敗しても続行できるように、エラーをキャッチ
           set +e  # エラーで即座に終了しないようにする
-          node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME"
-          POST_EXIT_CODE=$?
+          node note_auto_post.js "$LATEST_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME" 2>&1 | tee /tmp/note_post.log
+          POST_EXIT_CODE=${PIPESTATUS[0]}
           set -e  # エラー処理を再度有効化
+
+          NOTE_ARTICLE_URL=$(python - <<'PY'
+          from pathlib import Path
+          import re
+          path = Path('/tmp/note_post.log')
+          text = path.read_text(encoding='utf-8', errors='ignore') if path.exists() else ''
+          matches = re.findall(r'^NOTE_ARTICLE_URL=(.+)$', text, re.MULTILINE)
+          print(matches[-1] if matches else '')
+          PY
+          )
           
           if [ $POST_EXIT_CODE -eq 0 ]; then
             echo "✅ note.com投稿成功"
+            if [ -n "$NOTE_ARTICLE_URL" ]; then
+              echo "NOTE_ARTICLE_URL=$NOTE_ARTICLE_URL" >> "$GITHUB_ENV"
+              echo "📝 note記事URL: $NOTE_ARTICLE_URL"
+            else
+              echo "⚠️  note記事URLを抽出できませんでした"
+            fi
             
             # 更新された認証状態をシークレットに保存（次の実行用）
             if [ -f /tmp/.note-state.json ]; then
@@ -348,6 +364,19 @@ jobs:
             # 記事生成は成功しているので、ワークフロー自体は成功として扱う
             # exit 1 をコメントアウト（記事生成は成功しているため）
           fi
+
+      - name: Post index to X
+        if: ${{ env.NOTE_ARTICLE_URL != '' }}
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          echo "🐦 Posting index to X..."
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          node post_to_x.js "$TODAY_ARTICLE" "$NOTE_ARTICLE_URL"
       
       - name: Summary
         if: always()
@@ -552,16 +581,45 @@ jobs:
           fi
           
           set +e
-          node note_auto_post.js "$TODAY_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME"
-          POST_EXIT_CODE=$?
+          node note_auto_post.js "$TODAY_ARTICLE" "$NOTE_EMAIL" "$NOTE_PASSWORD" /tmp/.note-state.json --publish --magazine "$NOTE_MAGAZINE_NAME" 2>&1 | tee /tmp/note_post_retry.log
+          POST_EXIT_CODE=${PIPESTATUS[0]}
           set -e
+
+          NOTE_ARTICLE_URL=$(python - <<'PY'
+          from pathlib import Path
+          import re
+          path = Path('/tmp/note_post_retry.log')
+          text = path.read_text(encoding='utf-8', errors='ignore') if path.exists() else ''
+          matches = re.findall(r'^NOTE_ARTICLE_URL=(.+)$', text, re.MULTILINE)
+          print(matches[-1] if matches else '')
+          PY
+          )
           
           if [ $POST_EXIT_CODE -eq 0 ]; then
             echo "✅ Retry: note.com投稿成功"
+            if [ -n "$NOTE_ARTICLE_URL" ]; then
+              echo "NOTE_ARTICLE_URL=$NOTE_ARTICLE_URL" >> "$GITHUB_ENV"
+              echo "📝 Retry note記事URL: $NOTE_ARTICLE_URL"
+            else
+              echo "⚠️  Retry: note記事URLを抽出できませんでした"
+            fi
           else
             echo "❌ Retry: note.com投稿失敗（終了コード: $POST_EXIT_CODE）"
             echo "⚠️  リトライ後も投稿に失敗しました"
           fi
+
+      - name: Post index to X (Retry)
+        if: ${{ env.NOTE_ARTICLE_URL != '' }}
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          echo "🐦 Retry: Posting index to X..."
+          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+          node post_to_x.js "$TODAY_ARTICLE" "$NOTE_ARTICLE_URL"
       
       - name: Retry Summary
         if: always()

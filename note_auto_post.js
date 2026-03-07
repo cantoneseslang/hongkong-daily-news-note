@@ -959,6 +959,8 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     await refreshTableOfContents(page, hasHeadings);
     console.log('✓ 本文入力完了');
 
+    let finalArticleUrl = '';
+
     if (isPublish) {
       console.log('📤 公開処理を開始...');
       
@@ -1140,8 +1142,9 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       // 投稿完了を待つ
       await page.waitForTimeout(3000);
       
+      finalArticleUrl = page.url();
       console.log('✅ 記事を公開しました！');
-      console.log(`🔗 URL: ${page.url()}\n`);
+      console.log(`🔗 URL: ${finalArticleUrl}\n`);
     } else {
       console.log('💾 下書き保存中...');
       const saveBtn = page.locator('button:has-text("下書き保存")').first();
@@ -1155,8 +1158,13 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
       await saveBtn.click();
       await page.waitForTimeout(3000);
 
+      finalArticleUrl = page.url();
       console.log('✓ 下書き保存完了！');
-      console.log(`🔗 URL: ${page.url()}\n`);
+      console.log(`🔗 URL: ${finalArticleUrl}\n`);
+    }
+
+    if (finalArticleUrl) {
+      console.log(`NOTE_ARTICLE_URL=${finalArticleUrl}`);
     }
 
     const screenshotPath = path.join(os.tmpdir(), `note-draft-${Date.now()}.png`);

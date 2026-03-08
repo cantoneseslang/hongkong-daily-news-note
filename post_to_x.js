@@ -1,8 +1,10 @@
-import { readFileSync } from 'fs';
+import { chromium } from 'playwright';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 import path from 'path';
-import { TwitterApi } from 'twitter-api-v2';
+import os from 'os';
 
 const MAX_TWEET_LENGTH = 270;
+const COMPOSE_URL = 'https://x.com/compose/post';
 
 function parseMarkdown(markdown) {
   const lines = markdown.split('\n');
@@ -180,41 +182,149 @@ async function postToX({ articlePath, noteUrl, dryRun }) {
     return;
   }
 
-  const {
-    X_API_KEY,
-    X_API_SECRET,
-    X_ACCESS_TOKEN,
-    X_ACCESS_TOKEN_SECRET,
-  } = process.env;
+  const statePath = process.env.X_STATE_PATH || process.env.X_AUTH_STATE_PATH || '';
+  const loginId = process.env.X_USERNAME || process.env.X_EMAIL || process.env.X_LOGIN || '';
+  const password = process.env.X_PASSWORD || '';
+  const handle = process.env.X_HANDLE || (loginId.includes('@') ? '' : loginId.replace(/^@/, ''));
 
-  if (!X_API_KEY || !X_API_SECRET || !X_ACCESS_TOKEN || !X_ACCESS_TOKEN_SECRET) {
-    throw new Error('X API用の環境変数が不足しています');
+  if ((!statePath || !existsSync(statePath)) && (!loginId || !password)) {
+    throw new Error('Xログイン情報が不足しています。X_AUTH_STATE または X_USERNAME/X_PASSWORD を設定してください');
   }
 
-  const client = new TwitterApi({
-    appKey: X_API_KEY,
-    appSecret: X_API_SECRET,
-    accessToken: X_ACCESS_TOKEN,
-    accessSecret: X_ACCESS_TOKEN_SECRET,
+  const isCI = process.env.CI === 'true';
+  const browser = await chromium.launch({
+    headless: isCI,
+    args: [
+      '--lang=ja-JP',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu'
+    ],
   });
 
   try {
-    const result = await client.v2.tweet(tweetText);
-    console.log(`✅ X投稿成功 (v2): tweet_id=${result.data.id}`);
-    return;
-  } catch (error) {
-    const reason = error?.data?.reason;
-    const detail = error?.data?.detail || error?.message || 'unknown error';
-    console.log(`⚠️  X API v2投稿失敗: ${detail}`);
+    const contextOptions = {
+      locale: 'ja-JP',
+      viewport: { width: 1280, height: 900 },
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    };
 
-    // 古いApp/Project未紐付けのキーでも投稿できるよう、v1.1へフォールバック
-    if (reason !== 'client-not-enrolled' && !/v2 endpoints/i.test(detail)) {
-      throw error;
+    if (statePath && existsSync(statePath)) {
+      console.log(`✓ 保存済みX認証状態を使用: ${statePath}`);
+      contextOptions.storageState = statePath;
+    }
+
+    const context = await browser.newContext(contextOptions);
+    const page = await context.newPage();
+    page.setDefaultTimeout(30000);
+
+    await page.goto(COMPOSE_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForTimeout(3000);
+
+    await ensureLoggedIn(page, context, { loginId, password, handle, statePath });
+
+    const textbox = page.locator('[data-testid="tweetTextarea_0"], div[role="textbox"][contenteditable="true"]').first();
+    await textbox.waitFor({ state: 'visible', timeout: 30000 });
+    await textbox.click({ force: true });
+    await page.keyboard.type(tweetText, { delay: 15 });
+
+    const postButton = page.locator('[data-testid="tweetButtonInline"], [data-testid="tweetButton"]').first();
+    await postButton.waitFor({ state: 'visible', timeout: 15000 });
+
+    for (let i = 0; i < 20; i++) {
+      if (await postButton.isEnabled()) break;
+      await page.waitForTimeout(200);
+    }
+
+    await postButton.click();
+    await page.waitForTimeout(5000);
+
+    console.log('✅ X投稿成功 (Playwright)');
+    if (handle) {
+      console.log(`🔗 想定プロフィールURL: https://x.com/${handle}`);
+    }
+  } catch (error) {
+    const errorPath = path.join(os.tmpdir(), `x-post-error-${Date.now()}.png`);
+    try {
+      const pages = browser.contexts().flatMap(ctx => ctx.pages());
+      const activePage = pages[pages.length - 1];
+      if (activePage) {
+        await activePage.screenshot({ path: errorPath, fullPage: true });
+        console.log(`📷 X投稿エラースクリーンショット: ${errorPath}`);
+      }
+    } catch {
+      // ignore screenshot failure
+    }
+    throw error;
+  } finally {
+    await browser.close();
+  }
+}
+
+async function ensureLoggedIn(page, context, { loginId, password, handle, statePath }) {
+  const composeReady = await isComposeReady(page);
+  if (composeReady) {
+    return;
+  }
+
+  if (!loginId || !password) {
+    throw new Error('Xへのログインが必要ですが、X_USERNAME/X_PASSWORD がありません');
+  }
+
+  console.log('🔐 Xへ自動ログイン中...');
+  await page.goto('https://x.com/i/flow/login', { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await page.waitForTimeout(3000);
+
+  const textInput = page.locator('input[autocomplete="username"], input[name="text"]').first();
+  await textInput.waitFor({ state: 'visible', timeout: 30000 });
+  await textInput.fill(loginId);
+  await clickMatchingButton(page, ['Next', '次へ']);
+  await page.waitForTimeout(3000);
+
+  const passwordInput = page.locator('input[name="password"]').first();
+  if (!(await passwordInput.isVisible().catch(() => false))) {
+    const challengeInput = page.locator('input[name="text"]').first();
+    if (await challengeInput.isVisible().catch(() => false)) {
+      await challengeInput.fill(handle || loginId);
+      await clickMatchingButton(page, ['Next', '次へ']);
+      await page.waitForTimeout(3000);
     }
   }
 
-  const fallbackResult = await client.v1.tweet(tweetText);
-  console.log(`✅ X投稿成功 (v1.1 fallback): tweet_id=${fallbackResult.id_str}`);
+  await passwordInput.waitFor({ state: 'visible', timeout: 30000 });
+  await passwordInput.fill(password);
+  await clickMatchingButton(page, ['Log in', 'ログイン']);
+  await page.waitForTimeout(5000);
+
+  if (statePath) {
+    const storageState = await context.storageState();
+    writeFileSync(statePath, JSON.stringify(storageState, null, 2));
+    console.log(`✓ X認証状態を保存: ${statePath}`);
+  }
+
+  await page.goto(COMPOSE_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await page.waitForTimeout(3000);
+
+  if (!(await isComposeReady(page))) {
+    throw new Error(`Xの投稿画面に到達できませんでした: ${page.url()}`);
+  }
+}
+
+async function clickMatchingButton(page, labels) {
+  for (const label of labels) {
+    const button = page.locator(`button:has-text("${label}")`).first();
+    if (await button.isVisible().catch(() => false)) {
+      await button.click();
+      return;
+    }
+  }
+  await page.keyboard.press('Enter');
+}
+
+async function isComposeReady(page) {
+  const textbox = page.locator('[data-testid="tweetTextarea_0"], div[role="textbox"][contenteditable="true"]').first();
+  return await textbox.isVisible().catch(() => false);
 }
 
 async function main() {

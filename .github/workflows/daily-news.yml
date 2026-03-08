@@ -367,14 +367,18 @@ jobs:
 
       - name: Post index to X
         env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_AUTH_STATE: ${{ secrets.X_AUTH_STATE }}
+          X_USERNAME: ${{ secrets.X_USERNAME }}
+          X_PASSWORD: ${{ secrets.X_PASSWORD }}
+          X_HANDLE: ${{ secrets.X_HANDLE }}
         run: |
           if [ -z "$NOTE_ARTICLE_URL" ]; then
             echo "ℹ️  NOTE_ARTICLE_URL が空のため、X投稿をスキップします"
             exit 0
+          fi
+          if [ -n "$X_AUTH_STATE" ]; then
+            echo "$X_AUTH_STATE" > /tmp/.x-state.json
+            export X_STATE_PATH=/tmp/.x-state.json
           fi
           echo "🐦 Posting index to X..."
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
@@ -613,14 +617,18 @@ jobs:
 
       - name: Post index to X (Retry)
         env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_AUTH_STATE: ${{ secrets.X_AUTH_STATE }}
+          X_USERNAME: ${{ secrets.X_USERNAME }}
+          X_PASSWORD: ${{ secrets.X_PASSWORD }}
+          X_HANDLE: ${{ secrets.X_HANDLE }}
         run: |
           if [ -z "$NOTE_ARTICLE_URL" ]; then
             echo "ℹ️  NOTE_ARTICLE_URL が空のため、RetryのX投稿をスキップします"
             exit 0
+          fi
+          if [ -n "$X_AUTH_STATE" ]; then
+            echo "$X_AUTH_STATE" > /tmp/.x-state.json
+            export X_STATE_PATH=/tmp/.x-state.json
           fi
           echo "🐦 Retry: Posting index to X..."
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")

@@ -198,8 +198,23 @@ async function postToX({ articlePath, noteUrl, dryRun }) {
     accessSecret: X_ACCESS_TOKEN_SECRET,
   });
 
-  const result = await client.v2.tweet(tweetText);
-  console.log(`✅ X投稿成功: tweet_id=${result.data.id}`);
+  try {
+    const result = await client.v2.tweet(tweetText);
+    console.log(`✅ X投稿成功 (v2): tweet_id=${result.data.id}`);
+    return;
+  } catch (error) {
+    const reason = error?.data?.reason;
+    const detail = error?.data?.detail || error?.message || 'unknown error';
+    console.log(`⚠️  X API v2投稿失敗: ${detail}`);
+
+    // 古いApp/Project未紐付けのキーでも投稿できるよう、v1.1へフォールバック
+    if (reason !== 'client-not-enrolled' && !/v2 endpoints/i.test(detail)) {
+      throw error;
+    }
+  }
+
+  const fallbackResult = await client.v1.tweet(tweetText);
+  console.log(`✅ X投稿成功 (v1.1 fallback): tweet_id=${fallbackResult.id_str}`);
 }
 
 async function main() {

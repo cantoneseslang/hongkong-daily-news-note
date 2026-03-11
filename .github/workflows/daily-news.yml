@@ -192,6 +192,7 @@ jobs:
           
           # 生成された記事ファイルと画像ファイルをコミット
           git add daily-articles/hongkong-news_*.md
+          git add daily-articles/selected_news_history.json 2>/dev/null || true
           # 画像ファイルも追加（存在する場合）
           mkdir -p images
           echo "🖼️  コミット前の画像ファイル確認:"
@@ -227,6 +228,7 @@ jobs:
               
               # 記事ファイルと画像ファイルを再度追加
               git add daily-articles/hongkong-news_*.md
+              git add daily-articles/selected_news_history.json 2>/dev/null || true
               git add images/article-header-*.png 2>/dev/null || true
               
               # 変更があれば再コミット
@@ -365,26 +367,6 @@ jobs:
             # exit 1 をコメントアウト（記事生成は成功しているため）
           fi
 
-      - name: Post index to X
-        env:
-          X_AUTH_STATE: ${{ secrets.X_AUTH_STATE }}
-          X_USERNAME: ${{ secrets.X_USERNAME }}
-          X_PASSWORD: ${{ secrets.X_PASSWORD }}
-          X_HANDLE: ${{ secrets.X_HANDLE }}
-        run: |
-          if [ -z "$NOTE_ARTICLE_URL" ]; then
-            echo "ℹ️  NOTE_ARTICLE_URL が空のため、X投稿をスキップします"
-            exit 0
-          fi
-          if [ -n "$X_AUTH_STATE" ]; then
-            echo "$X_AUTH_STATE" > /tmp/.x-state.json
-            export X_STATE_PATH=/tmp/.x-state.json
-          fi
-          echo "🐦 Posting index to X..."
-          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
-          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
-          node post_to_x.js "$TODAY_ARTICLE" "$NOTE_ARTICLE_URL"
-      
       - name: Summary
         if: always()
         run: |
@@ -531,6 +513,7 @@ jobs:
           git config user.email "actions@github.com"
           
           git add daily-articles/hongkong-news_*.md
+          git add daily-articles/selected_news_history.json 2>/dev/null || true
           
           if git diff --staged --quiet; then
             echo "No changes to commit"
@@ -545,6 +528,7 @@ jobs:
               git reset --soft origin/main
               git restore --staged .github/
               git add daily-articles/hongkong-news_*.md
+              git add daily-articles/selected_news_history.json 2>/dev/null || true
               
               if ! git diff --staged --quiet; then
                 ARTICLE_DATE=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
@@ -615,26 +599,6 @@ jobs:
             echo "⚠️  リトライ後も投稿に失敗しました"
           fi
 
-      - name: Post index to X (Retry)
-        env:
-          X_AUTH_STATE: ${{ secrets.X_AUTH_STATE }}
-          X_USERNAME: ${{ secrets.X_USERNAME }}
-          X_PASSWORD: ${{ secrets.X_PASSWORD }}
-          X_HANDLE: ${{ secrets.X_HANDLE }}
-        run: |
-          if [ -z "$NOTE_ARTICLE_URL" ]; then
-            echo "ℹ️  NOTE_ARTICLE_URL が空のため、RetryのX投稿をスキップします"
-            exit 0
-          fi
-          if [ -n "$X_AUTH_STATE" ]; then
-            echo "$X_AUTH_STATE" > /tmp/.x-state.json
-            export X_STATE_PATH=/tmp/.x-state.json
-          fi
-          echo "🐦 Retry: Posting index to X..."
-          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
-          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
-          node post_to_x.js "$TODAY_ARTICLE" "$NOTE_ARTICLE_URL"
-      
       - name: Retry Summary
         if: always()
         run: |

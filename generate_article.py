@@ -8,6 +8,7 @@ import os
 import requests
 import re
 import html
+from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional, Set
 from urllib.parse import urlparse, urlunparse
@@ -19,6 +20,8 @@ except ImportError:  # pragma: no cover - フォールバック用
 
 # HKTタイムゾーン（UTC+8）
 HKT = timezone(timedelta(hours=8))
+SELECTED_NEWS_HISTORY_PATH = 'daily-articles/selected_news_history.json'
+SELECTED_NEWS_HISTORY_RETENTION_DAYS = 14
 
 EVENT_CHAR_NORMALIZATION = str.maketrans({
     '灣': '湾',
@@ -552,6 +555,90 @@ def parse_published_at(value: Optional[str]) -> Optional[datetime]:
         return dt.astimezone(HKT)
     except Exception:
         return dt
+
+
+def load_recent_selected_news(days: int = 3, history_path: str = SELECTED_NEWS_HISTORY_PATH) -> List[Dict]:
+    """過去N日分の採用済み raw ニュース履歴を取得"""
+    history_file = Path(history_path)
+    if not history_file.exists():
+        return []
+
+    try:
+        data = json.loads(history_file.read_text(encoding='utf-8'))
+    except Exception:
+        return []
+
+    days_map = data.get('days', {})
+    if not isinstance(days_map, dict):
+        return []
+
+    today = datetime.now(HKT)
+    recent_items: List[Dict] = []
+    for i in range(1, days + 1):
+        day_key = (today - timedelta(days=i)).strftime('%Y-%m-%d')
+        raw_items = days_map.get(day_key, [])
+        if not isinstance(raw_items, list):
+            continue
+        for item in raw_items:
+            if not isinstance(item, dict):
+                continue
+            recent_items.append(item)
+
+    return recent_items
+
+
+def save_selected_news_history(
+    selected_news: List[Dict],
+    *,
+    history_path: str = SELECTED_NEWS_HISTORY_PATH,
+    target_date: Optional[str] = None,
+):
+    """当日採用した raw ニュースを履歴として保存"""
+    history_file = Path(history_path)
+    history_file.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        if history_file.exists():
+            data = json.loads(history_file.read_text(encoding='utf-8'))
+        else:
+            data = {}
+    except Exception:
+        data = {}
+
+    days_map = data.get('days', {})
+    if not isinstance(days_map, dict):
+        days_map = {}
+
+    date_key = target_date or datetime.now(HKT).strftime('%Y-%m-%d')
+    normalized_items = []
+    for item in selected_news:
+        if not isinstance(item, dict):
+            continue
+        normalized_items.append({
+            'title': item.get('title', ''),
+            'description': item.get('description', ''),
+            'url': item.get('url', ''),
+            'source': item.get('source', ''),
+            'published_at': item.get('published_at') or item.get('published') or item.get('publishedAt') or '',
+        })
+
+    days_map[date_key] = normalized_items
+
+    cutoff = datetime.now(HKT) - timedelta(days=SELECTED_NEWS_HISTORY_RETENTION_DAYS)
+    pruned_days = {}
+    for key, value in days_map.items():
+        try:
+            day_dt = datetime.strptime(key, '%Y-%m-%d').replace(tzinfo=HKT)
+        except Exception:
+            continue
+        if day_dt >= cutoff:
+            pruned_days[key] = value
+
+    output = {
+        'last_updated': datetime.now(HKT).isoformat(),
+        'days': pruned_days,
+    }
+    history_file.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8')
 
 class GrokArticleGenerator:
     def __init__(self, config_path: str = "config.json"):
@@ -1490,6 +1577,27 @@ def preprocess_news(news_list):
     past_title_words: List[Set[str]] = []
     past_title_chars: List[str] = []
     past_event_candidates: List[Dict[str, str]] = []
+
+    recent_selected_news = load_recent_selected_news(days=3)
+    if recent_selected_news:
+        print(f"🗂️  採用済みrawニュース履歴: {len(recent_selected_news)}件")
+        for item in recent_selected_news:
+            title = item.get('title', '')
+            if title:
+                words = normalize_title_words(title)
+                if words:
+                    past_title_words.append(words)
+                chars = normalize_title_chars(title)
+                if chars:
+                    past_title_chars.append(chars)
+                past_event_candidates.append({
+                    'title': title,
+                    'description': item.get('description', ''),
+                })
+            url = item.get('url', '')
+            normalized = normalize_url(url)
+            if normalized:
+                past_urls.add(normalized)
     
     for days_ago in range(1, 4):
         past_date = datetime.now(HKT) - timedelta(days=days_ago)
@@ -2019,6 +2127,7 @@ if __name__ == "__main__":
         # 天気情報も取得（存在する場合）
         weather_data = data.get('weather', None)
         saved_path = generator.save_article(article, weather_data)
+        save_selected_news_history(news_data)
         
         # 保存されたファイルの日付を確認
         expected_date = datetime.now(HKT).strftime('%Y-%m-%d')

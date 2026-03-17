@@ -1,0 +1,546 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年03月18日)
+thumbnail: images/article-header-20260318_063043.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年03月18日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年03月18日05時45分に発表した天気報告
+
+雲の帯が広東省東部沿岸を覆っています。
+香港地域の今日の天気予報:
+概ね曇りでしょう。初めは一時的に小雨が降るでしょう。日中は一時的に日差しがあり暖かく、市街地の最高気温は約26度、新界ではさらに2、3度高くなるでしょう。夜間は沿岸部で薄い霧が発生するでしょう。弱いから中程度の東寄りの風が吹くでしょう。
+予報: 明日の朝は沿岸部で霧が発生し、日中はかなり暖かいでしょう。金曜日は一時的に小雨が降るでしょう。週末の間は概ね曇りでしょう。
+
+**引用元**: 香港天文台
+
+### ビュッフェの期間限定1つ買うと1つ無料セール！コンラッド香港のビュッフェランチは、お一人様$281から。ラクサ混ぜ麺、サンバルソースで焼いたスペイン産イベリコ豚ポークチョップライス、黒胡椒カニ肉マカロニなどが食べ放題です。 - Yahoo
+
+ビュッフェのフラッシュセールで1名分の料金で2名利用可！コンラッド香港のビュッフェランチは1人あたり最低$281で、ラクサ混ぜ麺、サンバルソースで焼いたスペイン産イベリコ豚ポークチョップライス、黒胡椒カニ肉マカロニが食べ放題です。Yahooでは、ザ・フラートン・オーシャンパーク・ホテル香港のビュッフェが7割引！1人$335でシーフード、和牛、フォアグラ、カニ味噌とアワビのお粥、モーベンピックを楽しめます。
+星島頭條：ビュッフェ特典｜香港シェラトンホテルのビュッフェがフラッシュセールで
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiyAJBVV95cUxPQjl6RkJodVJQZGVhX1dmNW1yNVBiVFJRRW1mdDJlaDJpUHdXekNPM3dOclNuaUJJQUl6LV9RcmQ3dTNDNW90Q2o0UFVOX0lvT1ExdDlaXzVKd2plU3VXWHRwTjZZSmpoOE9iOWR5cmwwUm1KMjYtbm52UTJiZktETzE2RHNzejRSSGluaVlURVRsT3dEQ1pWUFhpMUJITVFQT1AwRG5GQUFBVWdkaE9RSUFKb0oyRVhaQ2NrWWVCTEhVb1htT2tEMVZZaDNWMk5tSG9MVFphNHBiLUNWY3hfSU00dHlCdm1CWmdPS05hdXBuVWEwOHg5NlZ6cDBEV1diVGZESUdpQjQzcWlacFh0M01XTUJqS3QwZ3h4Z2Yzb1o0MkhleXV1b1k4b2RxTEJxdEhWZU00NnAwVzA4ZmtVWXd4WU9veG5R?oc=5
+
+### 香港は地域のインターネットサミットをさらに発展させる予定です。
+
+イノベーション・技術・産業局長の孫東氏は火曜日、香港で開催される次回の世界インターネット会議アジア太平洋サミット期間中に、年次イベントとしては初めて閣僚級会議が開催されると述べました。
+この開催は、特別行政区が4月13日から14日にかけて主催するイベントに新たな側面をもたらすものであり、特別行政区が主催するのは今回で2回目となります。
+前回主催した2025年には、過去10年間ほぼ独占的に杭州の烏鎮で開催されてきたイベントに、50以上の国と地域から約1,000人の政治・経済界のエリートや学者が出席しました。
+孫氏は北京での記者会見で、今年のイベントには閣僚級会議の他にもいくつかのアップグレードがあると述べました。
+その会議では、イノベーションと技術がどのように経済発展を推進し、国際協力がどのようにデジタル経済の繁栄を促進するかについて議論するため、国内外の政府関係者が集まると、彼は付け加えました。
+孫氏によると、サミット2日目の分科会の数も6つに倍増し、人工知能エージェントアプリケーション、デジタル金融、AIセキュリティガバナンスといった最新の技術と業界トレンドを網羅する予定だ。
+この分野の著名なリーダーたちも、グローバルなインターネット開発の促進における彼らの貢献を共有するために招待されている。
+孫氏は、香港でサミットを引き続き開催するという動きが、国家戦略の方向性が国際的な科学とtの構築へと向かっていることを示している、と強調した。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1847625-20260317.htm
+
+### ヤフー香港は4月にニュース事業の段階的な終了を開始する。
+
+ヤフー香港は、「戦略的評価と長期的な事業計画」に沿って、ニュース事業を閉鎖しています。ヤフー香港を代理するPR会社「Above The Line」は火曜日、HKFPに対し、同テクノロジー企業が「4月から香港でのメディアコンテンツ事業の段階的な縮小を開始し、完了する」と語りました。
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/17/yahoo-hong-kong-to-begin-phased-wind-down-of-news-business-in-april/
+
+### 香港は地域情勢の不安定にもかかわらず、中東との関係拡大を推進する。
+
+行政長官のジョン・リーは、香港を「かけがえのない」投資の玄関口として称賛し、地域でのビジネス機会を追求し続けることを誓いました。
+彼の楽観的な見方にもかかわらず、リーは、中東紛争が燃料価格の高騰により香港に影響を与えたことを認め、供給業者に対し価格設定の透明性を高めるよう促し、商業上の不正行為があった場合には規制措置を講じると警告しました。
+リーは、その政権が世界の地政学的緊張の中で中東市場の開拓に注力してきたが、自身のアプローチを擁護し、湾岸諸国との香港のビジネス協力において、機会が依然としてリスクを上回っていることを強調しました。
+彼は、中東が力強い経済成長を遂げている地域であると指摘し、これまでの4回の訪問を通じて現地の国々と良好な協力関係を築いてきたと付け加えました。これらの訪問は、プロジェクト契約や協力を成功裏に促進しました。
+「我々の訪問後、多くのプロジェクトが始まり、多数の契約が締結されました。この協力関係は、中東の[地政学的状況]に影響されることはないでしょう。特に政府間の協力においては。」とリー氏は述べた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3346860/hong-kong-press-ahead-expanding-middle-east-ties-despite-regional-unrest?utm_source=rss_feed
+
+### 中東情勢の緊張が高まる中、政府は燃料の安定供給を確保します。
+
+李家超行政長官は火曜日、中東情勢の緊張激化を受けて、香港への燃料の安定供給を保証するため、当局が様々な供給業者に積極的に働きかけていると述べた。
+週次の行政会議に先立ち発言した李長官は、石油市場の混乱が全世界に影響を与えていることを認めた。
+市のサプライチェーンを保護するため、行政長官はリスクを軽減するために講じられているいくつかの措置を説明した。
+「より安全な供給を確保するために我々が行うことの一つは、供給業者にリスクを認識させ、彼らが緊急時対応計画を持つようにすることです」と彼は述べた。
+「まず、可能であれば代替供給源を確保するよう努めるべきです。次に、十分な備蓄を確保することです」
+李長官はまた、エネルギーのレジリエンス（回復力）の重要性を強調した。
+彼は、当局が電力生産の燃料構成を調整する準備を進めており、天然ガス、石炭、原子力発電の割合を容易に調整することで、変化する状況に柔軟に対応できるようにすると述べました。
+供給に関する懸念に加え、政府は消費者を保護するため市場を綿密に監視しています。
+李氏は、競争委員会が不公正な競争から価格操作に至る可能性のあるあらゆる不正行為を調査するため警戒していると述べました。
+彼はさらに、消費者委員会も状況を注視しており、供給業者に対し、国民の購買力に配慮し、社会的な責任を果たすよう訴えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1847609-20260317.htm
+
+### ポール・チャン氏：セキュリティリスクを理由に「デジタル従業員」OpenClawを解雇するのではなく、修正すべきだ。
+
+財務長官の発言は、デジタル政策室が政府機関に対しAIエージェントのインストールを避けるよう助言したことに続くものです。
+「AIエージェントのOpenClawは世界を驚かせました。それが提供する利便性は、まるでデジタル従業員を抱えているかのようです」と、チャン氏は専門家との昼食会で述べました。
+「OpenClawが労働市場に影響をもたらすかどうかは断言できません。しかし、将来的に反復作業はもはや不要になるかもしれません。」
+チャン氏はさらに、AIエージェントに「ノー」と言うのではなく、OpenClawのセキュリティリスクは改善によって対処されるべきだと付け加えました。
+オーストリアのソフトウェアエンジニアであるピーター・シュタインバーガー氏によって開発されたOpenClawは、ユーザーのために現実世界のタスクを実行するオープンソースの人工知能（AI）エージェントフレームワークであり、まるで高性能なデジタルアシスタントのようです。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346782/fix-dont-fire-digital-employee-openclaw-over-security-risks-paul-chan?utm_source=rss_feed
+
+### 香港の実業家は、US$255mで購入したザ・ピークの物件で損失を出す見込みだ。
+
+陳景偉（チャン・キンワイ）氏の家族が昨年、別のピーク地区の物件を推定56%の損失で売却したことに続き、ピークロードの3区画が入札にかけられる。
+実業家の陳景偉（チャン・キンワイ）氏が所有する香港のピークロードにある高級住宅物件が、彼がCKグループ関連企業から取得してから数年を経て、公開入札にかけられた。
+マーケティング代理店のJLLは月曜日、ピークロード86、88、90番地の隣接する敷地が共同入札で売りに出されていると発表した。これらの住宅区画の合計面積は約28,620平方フィートである。
+JLL香港の会長であるジョセフ・ツァン氏によると、この敷地は1平方フィートあたり約HK$70,000（US$8,939）からHK$100,000の入札を集める可能性があるという。この価格帯は、所有者の購入価格が示唆する水準を下回っており、同じ家族が昨年、別のピーク地区の物件を割引価格で売却した後に、再び損失を出す可能性を高めている。
+土地登記所の記録によると、これらの物件は2つの会社を通じて保有されています。86号と88号はカリーノ・フォードが、90号はプレミア・ゾーンがそれぞれ所有しています。
+会社登記所の記録によれば、陳氏と彼の息子であるヘンリー・チャン・ハンリー氏、アントニオ・チャン・ハンタット氏が、これら両法人の取締役を務めています。
+広東省汕頭市で生まれ、潮州出身である陳氏（父）は、1980年代にキング・ワイ・グループを設立しました。このコングロマリットは繊維業から始まり、その後、不動産、サービス、金融投資へと事業を拡大しました。事業は広東、上海、天津といった中国本土の都市に集中しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3346780/hong-kong-businessman-expected-take-loss-peak-properties-he-bought-us255m?utm_source=rss_feed
+
+### 半導体製造装置メーカー「リトル・ジャイアント」がイノパークでの競争を開始
+
+香港の元朗イノパークに進出する半導体製造装置の中国本土メーカーが月曜日に工場の建設を開始し、来年半ばまでの生産開始を目指している。
+フロントエンド装置と主要部品を製造する河南東方材料は、「小巨人」と呼ばれる革新的な企業の国家リストに名を連ねている。
+香港特別行政区は、このプロジェクトに8億香港ドルを投資する同社に対し、約2億香港ドルの補助金を提供している。
+イノベーション・技術・産業局長の孫東は起工式で、政府が新たな産業化を加速させ、戦略的企業を香港に誘致するため、2024年に100億香港ドルを計上したと述べた。
+彼は、この工場が承認された4件の申請のうちの1つであり、各企業の投資約束額が25億香港ドルを超えていると述べた。
+国の最新の五カ年計画が、その期間中に新たな工業化が主要な開発分野となるべきだと明確に述べていることを受け、SAR政府は資金配分によって示されているように、その呼びかけに応じているとサン氏は述べた。
+河南東方材料の創設者である王永超氏は、同社が技術者に加えて、現地で100人以上のトップレベルの人材を雇用する計画だと述べた。
+同社が香港を選んだのは、多くの理由の中でも、国際市場へのアクセスを可能にするためだと彼は述べ、式典のゲストが東南アジアと中央アジアから来ていたことに言及した。
+王氏はさらに、SARはグローバルな金融・人材ハブであったと述べた。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1847509-20260316.htm
+
+### 李慧琼：政府の協力メカニズムを全力で支持し、各界の意見を積極的に収集する
+
+Now新聞台によると、立法会主席の李慧琼氏は、自身と全ての立法会議員が早期の業務開始を期待しており、協力メカニズムを全面的に支持し、責任を果たし、全力を尽くすと述べました。また、各界の意見を積極的に収集し、調査分析を徹底的に行い、その後政府に報告書を提出して香港の発展の青写真を描き、国家の第15次5カ年計画に効果的に連携していくとのことです。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%9D%8E%E6%85%A7%E7%90%BC-%E5%85%A8%E5%8A%9B%E6%94%AF%E6%8C%81%E6%94%BF%E5%BA%9C%E5%90%88%E4%BD%9C%E6%A9%9F%E5%88%B6-%E7%A9%8D%E6%A5%B5%E6%94%B6%E9%9B%86%E5%90%84%E7%95%8C%E6%84%8F%E8%A6%8B-051625434.html
+
+### コラム：荘雅婷の辞職は、政府と民建連が泥沼に引きずり込まれるのを回避できる ／文：阮紀宏 - 20260317 - 論説 - 明報ニュースサイト
+
+コラム：荘雅婷の辞職は政府と民建連が泥沼に引きずり込まれるのを避けられる／文：阮紀宏 - 20260317 - 観点 明報ニュースサイト
+寄稿｜このご時世、政治家は本当に務まらない！ 香港01
+鍾培生が婚約者とバーベキューでホワイトデーを祝う すっぴんの荘雅婷はゆったりした服で妊婦の雰囲気 on.cc東網
+民建連のメンバーが、荘雅婷の目立つ行動が再び党を困惑させているとして、党の脱退と辞職を促す｜独媒報道 独立メディア
+動画あり｜【エンタメ】鍾培生がプロポーズ後初めて荘雅婷と揃って登場 手をつなぎ甘くハートマークを作る 香港商報
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiqANBVV95cUxPazlkZmNxQXpxdGw1TGpobTJiMEVmU1N0ODYxU0NvTG1UX29WNFBJRkdkejFCOFlTMGtsSC12ZnZvOUphY3dRWkNFNUMta09QQ3Q0VWF6aTRVOWVDNDZpSVE2ekczdGRONjRCNmdLR0hEVW1IX2ZLU3NSalh3a2FwcV9SeWRyblRoMFpJdTFKYkJjNF9Hb2tjejNtLWJlWDNvZThldTdQdXRtQ25WNkRLUTNNYmo4SVNCNjJ2WlFSZ19KOFViZVFieWdXTG1kYmo5WTlLekk2OHV5eFlValhhZ3ViY0hyY3VGdHJnMDBiWnlZd2tBOGNRYTc3Q1FQLXAxUkNyTGJDRlRTRlhUVV81Tk0tLWE3d3RYT3N6cWY2NUt4OG1EZnhVeDR6aTBEQnJnaHhWd3lYSjh0NXhaRm42ZzVGRXdPblJMZHVqeDN4UDFBM0NZcThGbDY2VFRqamNsMVpKbVVWSTZ1OUZmLTFBa2JWZkgxX1cycG5aa2V5Z0VHR3ZQbUYwWDlUUFJkTEtNdmdoRDlaQ082aWdaeUhiUkJvUFBzRi01?oc=5
+
+### 小学校で「雪糕」は禁止？先生が誤って「冰淇淋」に訂正、ネットユーザーの調査で驚きの発見 - 香港01
+
+小学校で「雪糕」と書くのは禁止？先生が間違いと指摘し「冰淇淋」に訂正、ネットユーザーが検証し驚くべき発見。香港01
+小学校の作文で「雪糕」は書かせない？先生が間違いと指摘し「冰淇淋」に訂正。香港の母親が強く抗議：「香港にはアイスクリームカーしかない」。ネットユーザー総動員で検証が巻き起こる｜Juicy叮 星島頭條
+【馮睎乾十三維度】「雪糕」は口語ではない。棱角媒體
+小学生が作文で「雪糕」と書いたら先生に間違いと指摘された｜香港の母親が理解できず助けを求める。ネットユーザーが魯迅の日記を引用し問題ないことを力説。新假期
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxQS2FMMVhwNDB1RUVmNk4wOUZOTU1nUENEQlhaNjFUV1psXzNzU29rVnl5Q0x0UTVSdmpyRlV2LU55NXlZQ2NqanpKODZnRXJvVnJmcnlMeDZjeXdmeXhBa2tVV2xTdWlFa085SHVhbk0tVU1UNGhvdlhVQWZpZEtJSXBOb3EyQWtrVUdlTWR0TUJMSXQ0anUzWE1RMkd4bmVVcTU4LXJ1bVNhLUgyUlpYZnJDUkc5MU1VS2toUzJReUFpcnlxbkhfTkNDNE9DZnZLVWVxMzNmclZkdGp4bGtBRW83V3plRkZnRkF0M0VjcW9oLUVuaDk4NjhBclg1YmUtUTFxaVJmaUFPNUVJQ3BKWC1jbjQzZklNano4UUtUQlY2b3FQekttZ0wxVlZMQktJVmZqZ19UTENhNndHeUwzUG5aQ3MzeXBVX2lLdGZkNEtMWG5FT2o1TGRUQ1ZFd1I1WVlocEtDRTFBc2FyNWRhNzllZXdxVTgweUVXLUdfOWkyOGE4V1NLQU5nSEFQZUlHdkktOFBLbkFlWlk?oc=5
+
+### 運輸局がカスタムナンバープレート「YUT G0R」を拒否、市民は法的扶助を待って上訴するため延期を申請、裁判官は6月9日の審理を予定通り行うには時間が十分と指摘 - Yahoo
+
+運輸署がカスタムナンバープレート「YUT G0R」の申請を拒否した件で、市民は法的扶助に関する上訴を待つため審理の延期を申請したが、裁判官は6月9日の審理を維持するのに十分な時間があると指摘した。
+Yahooニュースによると、「YUT G0R」のカスタムナンバープレートによる司法審査が拒否され、車主は法的扶助の申請が却下されたことについて上訴している。(12:04) - 2026年3月17日 - 香港ニュース 明報新聞網
+on.cc東網によると、カスタムナンバープレートに暗喩が含まれていると指摘され、裁判官は審査の延期申請を却下した。
+n.kinliu.hkによると、名前に「壹」の字を持つ車主が「YUT G0R」のカスタムナンバープレートを申請したが、「一哥」（香港警察署長を指す俗語）を暗喩していると疑われ拒否された。高等法院は6月9日に司法審査の開廷を許可した。
+香港01によると、「YUT G0R」のナンバープレート申請が拒否されたため審査を求めたが、車主は法的扶助を得られず延期を希望したものの、裁判官は6月9日の審理を維持した。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiygNBVV95cUxNU1lKb2t6Qm80d1d6d3hQZ1pCV0drWHZ6aVpBX041RnFxX1NsZzB2YnhoY2g5d0dVY1BZaFlyRUEyc0dhbUcxZ3dtYS05Y1o0R2VHOUNSdHE5MTN6cEpjby1kN19TX2NKVXlNcTNpQzVseGpPcTVGMU9aTTd4TWNVTm5VYnhfWG9jdEU5VjE0VFlrOE9MRFJaVkRoOS1QdE10dmU4SFRHWlF2VERjVUFPTGFET21MWFdEYWEzTzhieEs2cUIxeTlsNi14eVJUUWhHZFlmbW9NV3VWcWZxMlA2c3A4cnRzNHcxUG8yNlppQkpzMzFwdVJZZnVOQmkwNUFBcTRQd01TWTJhaWNnZXdmamlna0ZVaDh6WmlxVThYUUp1aXM1TEZmZDZaWW1fTDRGUFNNSWJnQjc5T19fQU5lN09uM25ObS1HTlZyUXkwRnNUUkpkSXZ6S2laNzA4ek51ZjA2WE5lSFdoc0lXandPbWNCdXphanppaE9aZmltQk8tS0dxR29HeFhJcE1NMnd0VGhKMDBTQm0tbFFoYlVuY1VQeklPRnFPTy01dFpsNGc3WjduUVA5YWtqTFpqRko3LWZvbVJ4ZEFYQQ?oc=5
+
+### 中電の請負業者作業員、クントンで掘削中に電線を誤って損傷か 火花で顔と手に負傷、一部は三級火傷と報じられる - 香港01
+
+観塘で作業員が地面を掘削中に電力ケーブルや電線を損傷し、火傷を負う事故が発生した。
+香港01によると、観塘で中電の請負業者の男性作業員が掘削中に誤って電力ケーブルを損傷したとみられ、火花で顔と手を負傷し、一部が三級熱傷と報じられている。
+news.tvb.comは、観塘で60代の男性作業員が地面を掘削中に誤って電線に触れて火傷を負った疑いがあると伝えた。
+on.cc東網の報道では、観塘で電力ケーブルがショートして爆発し、作業員が顔と手に3度の火傷を負って病院に搬送された。
+singtao.caによると、観塘の建設現場で作業員が誤って電力ケーブルを貫通させ、火花が散って手に火傷を負い、意識がある状態で病院に搬送された。
+星島頭條は、観塘で作業員が地面を掘削中に誤って電力ケーブルを貫通させ、火花が散って顔と手に三級熱傷を負い、病院に搬送されたと報じている。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiuwNBVV95cUxNeUFhTndXYVl4S3ZFU3R0SnBuMXM1T0V4SzUwQTE1QlpmbVBFbzQzdDVfN3FWU1hERGNPY1oxcHJQZW9nNXc2eVg0eS1HM3hhX3Y5ZDljdmp3QVdlczl3S3hxaHFaUXlJSGdpT0tuN3QxcGtsM1lqYVk3UTJJNndtaGlxNDdfajRkdF9JVTlYYURWbm1mWXMwZjNXY1RpWTRPSDE2VnNZUTNmdUx5N3o2MUdQNU14d3VJUkRUajNmc2JMOTRMUDU3a0ZNRWRWNzdGZzQydm54RlRMZ1Q3R2pfQWI2Y1FRTVRETldENUdidFUtZkpNZERDcnpiT3YxTFFCVlhMX04tOE4wU3l6d0ZGNWRlZXVaZ2xGREhPSVotOF82aGRKbnNtbnRLTzRzeFhUNUMyY2M1aHpWZUJvR1VUQko0aVRZblA3akpDU0ZsNkp1RVNSa1hFWk9Bb005NXlLWUxjSUhFSHgySTR5QVBock5SYzllMnFyNFlQN1R1cWN6Y0lfd3RaM3JnNW0ycnJlN1dqcU10VVRqc00xZmtMWUE4NnFVMUJySzVyV0gtbGp3OFo1MVlrQjBIUQ?oc=5
+
+### 高級警司ジョウ・イーガン、女性部下へのわいせつ行為で告発 - 被告との不倫関係が指摘されるも、被害者は否定 - 香港01
+
+上級警視の周毅剛が女性部下へのわいせつ行為に関与した疑いが持たれている。被告と秘密の関係にあったと指摘されているが、被害者はこれを否定している。（香港01）
+上級警視の周毅剛は警察本部内で女性部下に3度わいせつ行為を行った疑い。被害者は臀部を触られ、手を掴まれてズボンの股間に置かれたと証言している。（法廷線 The Witness）
+上級警視のわいせつ行為容疑の公判が継続中。弁護側は「秘密の関係が破綻したことによるでっち上げだ」と主張している。（2026年3月18日付「明報ニュース網」香港ニュース）
+上級警視のわいせつ行為容疑について、被害者は被告と秘密の関係にあったことを否定している。（星島頭條）
+上級警視が警察本部内で3度わいせつ行為を行ったとされる事件では、被害者の手を掴んでズボンの股間を触らせ、「勃起した」と発言したとされる。（on.cc東網）
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivANBVV95cUxQR0tKQ0trSkRydVYwTWlUUW5mQ29mMWg4MjVCeEZpMzVQSDdVblFaSFhiVXRDUUNTRUJ2LWZOc3RHSE9LWjBwaUhXRndxNWNYUXo5czhvMmZkcl9ZYi1FNUNJUENYMlJCcU5vMENDRDhEZ3piVmVidV84UVFlbnRvbFhBMUNxQm1pUk1MbVVpaVY5M0NYaU9MSU96dmVDOS1jN2h6YWcyb2RLOWxLM1VJTWJqa0xScVFkV2NYMURCbFZkbFdzMHZ1VV9JR0I0a3lrQy1LaWp4RUh1QU9aZ054NFRpQ3EyZjR3dlhJbTU0cUx3MDFoWFRXMHI3a05zWjVtbkRWQWNQcFQ2TUlkakdVNmd3RlpNd1FoOHkxNnhPN3lMZV9fblFVbGd6R2ZXSktVMG0wYmZ4SnJDVjVPU1lEeGNwRkg0d2ZISXhNTEJTdjY1N3Rab0RQTFBXRV9OYlNYNnRtWFBNTF8tT0hlZVBwNlZueFVGZW9ubHhQZEtxWEl0dndobmM3dWQ2eGtHeHhXRE5abkZzYTRueTI1bWQwa2twR1lBeTVicVZ3cEZHZW1kamoxY3pJczdXQlQ?oc=5
+
+### イノシシ8頭の家族が竹園北邨公園に侵入し、傍若無人に花壇の中で餌を探す - on.cc東網
+
+on.cc東網によると、8頭のイノシシ一家が竹園北邨公園に侵入し、人目もはばからず花壇で餌を探していた。Yahooは、親2頭と子6頭のイノシシが黄大仙の竹園北邨を通過中に通報され、この8頭の家族が漁農自然護理署に捕獲され、殺処分されたと報じた。明報新聞網は2026年3月18日付の「写真で見る世界」で、8頭のイノシシが竹園北邨に侵入し、漁農自然護理署が捕獲して「人道的な処理」を行ったと伝えた。信報ウェブサイトも8頭のイノシシ一家が竹園北邨に侵入したことを報じている。また、香港01は、黄大仙の竹園北邨の斜面で多数のイノシシが出没し、警察が盾を持って警戒にあたったと報じた。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNlg0SXRwdWw3ZTYwV0plaTVTT3JRZUNZTFppcUFSMS14N1ZseWItaWp1VlZqX2I3U3VvLWJQLThXQkpvR2ROSUhMTVpBaFRGNW5xVlVURi05VkNNUEd0UGNzZ1l5U3o4R3BXeld4SlZmbVdhbDJJVm1yMlBPUm1wU2taQS0zUFJxXzNB?oc=5
+
+### 尖沙咀で衝撃の心霊ホテルが発覚！中国本土の女子学生が8件の連続怪奇現象に遭遇し、「怖すぎる！」と叫んで取り乱した。 - 香港01
+
+チムサーチョイで幽霊ホテルが発覚！中国本土の女子学生が8件の連続怪奇現象に遭遇し、取り乱して叫ぶ：「怖すぎる！」 香港01
+幽霊ホテル｜小紅書でチムサーチョイの幽霊ホテルが話題に。宿泊客が「801号室」に宿泊中、8件の心霊現象が連続発生：「何かに見られている気がする」 晴報 Sky Post
+チュンワンで再び幽霊ホテルが発覚！真夜中に突然、恐ろしく耳障りな奇妙な音が響き、部屋のドアが自動で激しく引っ張られる。防犯カメラの映像が明かす身の毛もよだつ真実… U Lifestyle
+チムサーチョイの幽霊ホテルが明るみに！801号室で8件の恐ろしい出来事が連続発生。真夜中に「幽霊の手に鼻を覆われ」窒息しかける U Lifestyle
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMijwNBVV95cUxQWlg1TEVucWoyYkxMdTZtb3l2RUdXZGxxQkZQSDNaU0M4eXVQVmNTN2U1Z3E3MFozZXFBems2LWJkZ0pMdEtiejg5TUdXS2hkLXNiWElUX2NtSGZsT25lbjcyQnQ2bHotaVJZVy1mS2dvdGVIUXRlVkV6Nk02aUZoS1BRejctZkc1UHdoeWY5Z3VQTlVBYmhMMkVPTFIwOFRQT1k5dXBTOE85eHE4WWp3d2loTUNwS3RRUTZQbFJ5NmtpWDBnMzMyT1Uxa0hjMVFsMXM4UDg0c25BWkJEZVg4eG00SXRnSHAyMDd6SDJ1YzhEb1gzal9FYjNFbHdMLUJXSVFUcVF3djAzdzdsbE5YRUxNanNQZ3BxTDFwVHEyVDhfRi1GSnE1N3JDRUZCTi1Vd3RkZ3JhdkhEV2gtNWp4bVBZdVp3c2VhWXJSbGt0MkZPQnN2RnF6by1SY2twTnZCTDE0WjhtejBVZ3prZVBpWWpCV1loSE1EaERKY1dVTjV3SXZSRlVIUDJwejVNb0U?oc=5
+
+### 命を大切に｜粉嶺中学の女子生徒が転落、病院に搬送 - 香港01
+
+命を大切に｜粉嶺中学校の女子生徒が転落、病院に搬送され治療を受ける。香港01
+命を大切に｜粉嶺の16歳の女子生徒が校内で転落、病院に搬送され救命措置を受ける。星島頭條
+粉嶺中学校の女子生徒が高所から転落したとみられ、意識のある状態で病院に搬送された（11:15）。2026年3月17日、香港ニュース、明報新聞網
+粉嶺中学校の16歳の女子生徒が転落し、意識のある状態で病院に搬送され治療を受けている。on.cc東網
+命を大切に｜粉嶺中学校の16歳の女子生徒が校内の高所から転落し、教職員が驚いて警察に通報した。Sundaykiss
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMioAJBVV95cUxPN2h3eUVFMVcwQjZrM2JaeFRvc3R1cExfMDRvR1o0SzdvNjJkdjRRNVJCS0hYNTZYT1B4LXJhR3JRZnB4YVE2c2xKVlZuT0NFWmQ2TXVuTnhfckVqamkxTVJSd1NKQVNBOFp3WWtBUUVRQ0x0SUU5T0pJYlZtWTlpYjN2dWM4NWJlVF8wZVBiV3BHMkpaVzItdG1wZWYtSEFFeDQ5THNCWjZ1S3VqUXhRQzdVY0J4RHJKbklxdW1kQV9JeHdUNjd6QndpMi10bk8zS0xNdEhKYktLYzVWZVRqcHhkU0pwS3gzRjhJUDFtQURpWFVyOHBkUjd6ajU3ZFYwWmxjVWh6QTlmSWNURmlKZGxNb2MwVEdiTklBSzl1VU4?oc=5
+
+### 古洞の工事現場で迫撃砲のようなものが見つかり、関係者が50メートルの範囲を封鎖して処理にあたった - on.cc東網
+
+古洞の工事現場で迫撃砲のようなものが発見され、作業員が50メートルの範囲を封鎖して処理。on.cc東網。
+爆弾発見｜古洞の工事現場で第二次世界大戦時の迫撃砲弾を発見、警察の爆発物処理課が現場で爆破処理。香港経済日報HKET。
+古洞の工事現場で戦時中の砲弾を爆破処理、195人が避難 - 20260318 - 世界の画像を見る 明報新聞網。
+（動画あり）古洞の工事現場で迫撃砲を発見、爆発物処理課が現場で爆破処理し砂利が飛び散る。香港文匯網。
+古洞柏寿路の工事現場で第二次世界大戦時の迫撃砲が発見され、警察が封鎖して爆破処理、消防の消火ロボットが支援。香港01。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR1RKSnhfV3JzRk5VQmhJLS1iLTA3RExweTRPUGFCLWd2Ry0xYjh0UDItam5UN1U5UnE4UWxWVlZhb1U1TE5QZTdPbEFjYml3b1E5WHJWQzI0SG40U29pTkNjT2Fib3dmUzFBS0I4cFVqUFo1NERGcURBVnZlWDRCTFB3OTFJdzI5a2NN?oc=5
+
+### 何伯と何太が関与する殴り合い事件：何伯は有罪を認める意向、何太は無罪を主張し来年2月に審理 - 香港01
+
+何伯と何太の相互暴行事件に関して、何伯は有罪を認める意向を示しており、何太は無罪を主張し、来年2月に審理される予定です。
+香港01は、この相互暴行事件で何伯が有罪を認める意向であり、何太は来年審理されると報じています（2026年3月18日付、香港ニュース）。
+明報新聞網および香港文匯網によると、何伯夫妻の相互暴行事件で、何伯は有罪を認める意向で5月6日に弁論が行われ、何太は無罪を主張する意向で来年2月に審理される見込みです。
+何伯は有罪を認める意向で「収監される可能性が高い」とされており、何太は中国本土への居住を希望するも拒否されました（星島頭條）。
+インフルエンサーである何伯夫妻の相互暴行事件では、夫である何伯が有罪を認め、5月に弁論と判決が下される予定です（TVBニュース）。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiggNBVV95cUxQX2RJY2lmQnl3ZjZCck1kVWticFhLSXpVYTN1QnM5R3hiZVdzMXhiUktSbVhrZ290MXl5Y0FoUm1yQ0JNYmlhVXllaTF0dXFsYkN5YW5nMlNzcGRSNk5mYWtJdVRzN1lfaERRa2VVekhxUkY5bjNvenBETlFnd3RfRGRpWnZnME9ubE9QWVZsSnVUY2JFWUxWOUFWX041Si1icXJTNHlmUjM2LUV5WVJxQ2FscEhaR2J1STlkbURMa0tlTTNSdXF3XzJGbWFNWjdJTWlscmZOTllfaVQ3T2t4VTk2REdWcV9kYi1FcU5yeWVDX29ralFXN3I4bW5qWXlrUE4zeTkwMjJnNVBqcTdwYWtQWE5sak1uNFlpUWwwa2laYVJmVWZ1NkdNNV83ZjRBQTdOMWJkc2FKbWJHdnNXazlDRDA4QUs4VXNmS1YyM3AyUVRDX1dzM1VEcHBOMFl1R2V3eWh3QkNTbGpWNVU2ckFfRmw3WUxnSkl1MkVaSWVHUQ?oc=5
+
+### 九龍湾臨興街の交通事故、ドライブレコーダーの映像が多数の歩行者が撥ね飛ばされたことを明らかに (09:40) - 20260317 - 香港ニュース - 明報ニュース網
+
+九龍湾臨興街での交通事故、ドライブレコーダー映像が複数の歩行者がはね飛ばされる様子を明らかにする (09:40) - 20260317 - 香港ニュース 明報新聞網
+電動車が歩道に突っ込み9人負傷！70代の女性乗客が車外に投げ出され重傷 - 香港 - 香港文匯網
+香港文匯網 75歳運転手が高速でUターン、妻が車外に投げ出され重傷 信報ウェブサイト
+メルセデス・ベンツが歩道に突っ込み9人負傷、70代運転手が危険運転で起訴。行き止まりでUターンする際にアクセルとブレーキを踏み間違えたか、妻は車外に投げ出され危篤 - 20260317 - 世界の画像 明報新聞網
+九龍湾の交通事故映像｜乗用車が歩道で制御不能になり9人に衝突、運転手は逮捕 東周刊ウェブサイト
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi7AJBVV95cUxNdzdYT09JMzhWZkN0QlV0TGc0RndFNldSN0JSS2U3cWZsNXI5bmNJN1JjZS02eTlDOVJZY3lsak9jN01tNDdqaHJCcG9ZNWNFdDVjeU5fRVAzOWg0dk5fQVV6VzNWdUtDY2FFYUZGblV2UjV2RTRLcnFEMzhCOU4wb2FiNEpjbnNaYWFCQWxsRUlKdEptUFEybEhjVDJuczNYbU4xam1Ya3N6SFcyWmN5Y0dpdzJTajYyZERnWFZpX0JJUVRCNlNjVmxsWE5rR3oxeG10ZGczd09PQ1lOZUFQMTRoYnFSWnJpOWlwMjI2cG12ZEc0WFhvY2JNM0RlY0xHZHF6RFhjejl3aTZMU3hiaTFLTTE5UjZ0RW1FUTlBZE5mWDhOLVpkQ3MtYjBMWGdhX1RuOUpmWlA5WGRiNEdHS2dNMURMVlh5UmtQQlY2TmhiSV9Kd3ZHWFVGOEducUN0UUpybmJHY3Qxc1kt?oc=5
+
+### マカオ税関、2つの国境検問所で香港人5人を含む42人を拘束 301万ドルの価値がある138キログラムの銀粒の密輸を企図 - 香港01
+
+マカオ税関は、銀粒の密輸事件で香港人5人を含む42人を拘束したと報じられています。
+複数のメディアによると、マカオ税関は2つの国境検問所で、総額301万マカオパタカ相当の銀粒138キログラムを密輸しようとしたとして、香港人5人を含む42人を拘束しました。（香港01、星島頭條、on.cc東網）
+また、マカオ税関は1週間以内に42件の銀粒密輸事件を摘発し、300万マカオパタカを超える品物を押収、42人を拘束したと報じられています。（Singtaousa）
+銀価格の高騰により密輸が急増しており、学生が関与した事件では、税関が時価220万マカオパタカを超える107キログラムの銀粒を押収しました。（力報
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMijANBVV95cUxNRnZoYWpyckJIWHV2Q1FUUlV0Rll6ZmppeWZLN0V3YkZ6OXFjcWlkQ1N6TmJZdVgtdHc3TkxGR3ItU2xoSmpRbXl3TWVLdkUyU3VHV1pTZTBDUEc1YzRyRUJoa0FWckZxTm4yVlR6NzUyYkxOdzAxcnVqajdob1RwLTFNbnVrbVNYTDhpSEFpaWlCNDVvV01rVkU5M0tmQ1VnSVNPblNseXJpUm5PZTMwUzUxWU93Tk9neFdXNWd4S2tBd0FuTnRWSDBtRFJDQlBFMHpqdWU0ZXREeEVacTJOUTd1UlJ0RzNQMEpvNU12UUNudFVwamZYdnAwRkZWYmhVRHI5UXk5Y19ZWlhRYmNkS1lXbHVzSDVJMDdJWXBwdlpVYlJFeHdxM1VBSzFWTGRtdTJfZ05MSER4RnJPQ09UNDd3RkdKZWgwVUR6ZTlXZlNrWFRRWHpCN0FoYTU5eWFLTHJlUnB1OEw1ckp0QzBPb200UGxnSEZhNDduXzJhOTlocVY3aGN4eVJ2YW8?oc=5
+
+### 黒社会の長老「白無常」がチムサーチョイ東部の中華レストランで盛大な誕生日パーティーを開催、組織犯罪対策課と三合会対策課が警戒にあたる - 香港01
+
+黒社会の元老「白無常」がチムサーチョイ東部のレストランで盛大な誕生日パーティーを開催し、組織犯罪対策課と暴力団対策課が警戒に当たった。香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi3wJBVV95cUxPOFRxRzJlam1BZEZndEtQUmhDdG1BZTZaaUxXU29VRnh2UTBRQUo2M2h6NDB5Nnl6Q0JBNVhJa2hrUWUyTDV4czRiNktWdjNNT2pGX2JLeWdFWGRlemdqblBUam5XVllXWklwRFJHWGlpcXNremZXZXNLUVI2RU8yZUtzVTBlY3JlUlBsZlYtVEhzYl9Uc0dQdkw3NFp2Q1JlQkdNMS1CLS1QTU9XUFo0TEVPZ19KQlFjaEcwZ0RSV1FHNEktbHFxZURkaDYzcEd2VFhOcmRSdTdBaXRqYlk5SWtNX1BDNEMyWHJYYXNnZWlyR2g1bUlqdF9UdF9fRDl3U3daQ0xmRW5Hc2NBT1UwZzF3TlV1QlBjWTN2WHJNbU0xSk9ac3ZMTmlGMV9qUnpsYVZWV3cycjRKMkRKVE5ZS2dzRkVsbC1MMy1SRzJWdUVZSTRBY256V2F1Z09ORk0?oc=5
+
+### 香港おすすめスポット2026｜馬鞍山新港城センター：30メートル長のイースター島アドベンチャーエア遊具！Jumptopia史上最高9メートル滑り台に挑戦｜Yahooイベントストリート - Yahoo
+
+香港のおすすめスポット2026｜馬鞍山ニュータウンプラザに30メートル長のイースター島アドベンチャーバウンサーが登場！Jumptopia史上最高の9メートル滑り台に挑戦｜Yahooイベントストリート
+Yahooおすすめスポット：登山隊に参加し、9メートルの垂直な障害物に挑戦するイースター島大冒険。30メートルのジャングルバウンサーに突入 - 20260317 - 写真で見る世界 明報ニュースネットワーク
+イースターのおすすめスポット｜香港全域の親子で必ず行くべきアクティビティをリストアップ：ディズニー/宝探しゲーム/エアキャッスル(随時更新) AM730
+将軍澳MCPニュータウンプラザがJumptopiaと提携し、「巨大化『虫』林世界」インフレータブルパークを建設。信報ウェブサイト
+イースターのおすすめスポット2026｜香港初の没入型30メートル超アドベンチャーバウンサー。9メートル高の垂直な大山+巨大ボールプール+障害物コース。Eugenebaby
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMisARBVV95cUxNeUpBRkluOUhjd01YbDcwNTZzUG1PY3cwcF9lWnFXbkw0SlcySVdNSFdYX2NOeWZqTmtYMVV3SlBTSEk2TDdEeTJMRXlZS01WT2M2VzJfMTh2YW9mUkY0V1BaSnpGcXpJaS1uSUdIeG1RN2pybFFaRWxIOXFnYzNySlZ2c0xxWC10dkZPbXdjdGc3VUxnWXJZNEVkRGdWNzVSSFdldlR5R3JoX19NQUtkaVVRckNKclR6Zk1tZENyLXY4enUzbVJtb2V2WG5SVmdlTnZQWnYxay1ZS0E2OEtQWTJfTlhjY3BwNVRfd0Jkd0E3b2FReG5vNUItTkk2TWQyTmo1QTlnaE9US2pjTnVtTjZaQkVWUGRrVEFoN3lnWjc4c1puX3U2UzU1M2t0ZkZvVEpPVy1QVlEyZ083TWZFVWlGZi1oajdVa2JQN1RYNXF3MzBxeFVOaHZiZjJUN05yTldwWWE3bW8zcVhlRmFvNDlNR1IwUHFIaklSa1c5MDRpNkExNW9odXF4OUkzTWIzajNtY1F4ZW1FN3VBS1dTc09kYXV3TnFwQVBoUmwxNlc0X1daYzBXcWtQMlVLbVVXeTVfTWxaaFJyMjhRTXJsMFBqQldkYzRlRGhaYTI0QmNMSHRScnRFMVN4Z2FqS2hEOGVZRC1QazcySnc3eWVCb1ZUakJoMGozTUc2czFCVU8xdVFRbmZ0WDc1QUtDeXZZQzV5WWIxbGxuWU1JUW5Bdw?oc=5
+
+### 中環のピザ店での口論がネットの話題に。男女が店員が標準中国語を話せないことに不満を抱き、客に「中国人ですか」と問い詰めたことが物議を醸す｜ジューシーディン - 星島頭條
+
+セントラルのピザ店での口論がネットで話題に：男女が店員の普通話（標準中国語）が通じないことに不満を抱き、客に「中国人なのか？」と問い詰めたことが物議を醸す｜ジューシーディン 星島頭條
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMihARBVV95cUxNRXFLbEhONnVsRV9xVFJZQ1dzZmZFbU4waENIQldZaUR2RXhjQUgtZ3ZlU0RxQzlQRjRtSW80bENOdjBWSUUzaFJvakxuN3hRM3VHN1oxY1NJODhrYjVkcHVrOUQ0d2dYay1mMHZDTU4tTWdld2lmdm9aWGE2M2QtUXVhSEJ6VVBkaFFFdndlU1N1RzlYREFOQ0RxU25jd3RJbnE2X29mZjRCSlQ3S3JvOFBfVmU1WHJvYk82c2lCQjRMN3JuX3Y0dW4tUHJyUDRwYkFkU0YxOVlJcmJXcUFlMGVQaldDa0sydTE5YXpqekM4M01Ud0lKSF9ERVdRd3hPSmhVNXJaWHlQVXQ4bEFxMkdZcXlqaXFGNWlGaTFhbUk3M3kyQWktYy1TQkFQQ1dWQ0p2MXZ5VFlDOEJsTHZtS0J3OHVVT0k1QjJxTGdqYi1aSmp1aFNHOVluWXVPa2hxdlcya2dMQWZja3Z2SlBjUV9BS0NHaTJUUFpzWExfQ3AxOUVMV05WOHdrNjJmODdWdlpxdGJ5NmRDbzJSUzh1N0dRa3BGVWR6RTJPRWg1bFhxV3JPeXZSVGdSRFFibVByNTRlR0NaU1hVM1ZJaFh4bTFJLUV5c0VUU2tSUjc5bUw0bElHVU1odE91bC1TU2hPV0R2X3pFdXB5bThBSUcwT28xY1A?oc=5
+
+### 北部メトロポリスの土地利用手続きを簡素化する措置が発表された。
+
+開発局が提案する法案は、プロセスを9ヶ月からわずか2ヶ月に短縮し、ボトルネックを解消することを目指しています。
+開発局が火曜日に発表したこの提案された指定法案は、中国本土との国境近くの大規模な計画におけるボトルネックを解消するために設計された6つの主要な付属法から構成されています。
+それらには、法定企業の設立、土地収用補償金の支払いを迅速化する措置、および新しい建築技術の採用が含まれます。
+現在、開発業者は概要ゾーニング計画で指定された土地利用を変更するために、都市計画委員会に申請書を提出し、会議に出席し、協議を受ける必要があります。そのプロセスは通常約9ヶ月かかります。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346930/measures-streamline-northern-metropolis-land-use-procedures-unveiled?utm_source=rss_feed
+
+### ある調査によると、香港の学生の94%が運動不足で、17.5%が肥満であることが示された。
+
+政府の報告書は、学生の果物と野菜の摂取量の少なさ、視力低下、過度な娯楽目的のスクリーンタイムも指摘しています。
+当局は、香港の学生の約94パーセントが毎日の運動不足であり、17.5パーセントが肥満であると警告し、学校と保護者に対し、深刻化する健康危機に共に取り組むよう促しました。
+火曜日に発表された政府の報告書もまた、学生の果物と野菜の摂取量の少なさ、視力低下、過度な娯楽目的のスクリーンタイムを指摘しました。
+これらの調査結果は、保健省が2024-25学年度に香港の約428,000人の小中学生を対象に実施した調査と年次健康診断に基づいています。
+同省によると、学生の17.5パーセントが肥満であり、これは前学年度から0.4パーセントポイント増加しています。この問題は、中学生では17.9パーセントと、小学生の17.2パーセントよりもわずかに多く見られました。
+「小児期および青年期における過体重は健康に悪影響を及ぼし、2型糖尿病、心血管疾患、特定のがんなど、様々な非感染性疾患のリスク増加や早期発症と関連しています」と、同局の地域医療顧問である荘淑君医師は述べました。
+「小児期および青年期の肥満はまた、生徒の学業成績や生活の質に影響を及ぼすといった、心理社会的な悪影響をもたらすこともあります」と、彼女はブリーフィングで語りました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346918/94-hong-kong-students-are-couch-potatoes-175-overweight-study-shows?utm_source=rss_feed
+
+### 政府は小学校の合併をさらに奨励する動きを見せている。
+
+教育局は火曜日、生徒数が不足している小学校の合併を奨励するため、規定を改定しました。
+同局によると、来年度は15校（うち1校は政府運営）が、生徒数が16人に満たないため、小学1年生のクラスを運営できない見込みだという。
+昨年、政府は小学1年生のクラスを編成できなかった補助金対象校に対し、他の学校との合併、閉校、または私立化という3つの選択肢を提示しました。
+この変更は、合併を選択する学校の存続率を高めることを目的としています。
+同局によると、来年度に2つの学校が合併した場合、合併後3学年度以内に、クラスの規模に関わらず小学1年生のクラスを運営するための1年間の猶予期間が与えられるという。
+しかし、その時点以降も生徒を16人受け入れられない場合は、運営を停止するか、私立化しなければなりません。
+「学校がいずれの選択肢も選ばない場合、または選択された選択肢が承認されない場合、[当局]はその年から数えて3学年度目以降、学校へのあらゆる形態の補助金の提供を停止し、学校はそれに伴い運営を停止するだろう」と述べた。
+学校とその運営団体への更新された通達の中で、当局はまた、いわゆる「ドアノック」慣行による小学1年生の受け入れを制限するために、3年前に試行を実施したと述べた。
+保護者は、自分の子供が現在通っている学校よりも、希望リストの上位にある学校に入学させようと、「ドアノック」のために子供を連れて行くことが多い。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1847643-20260317.htm
+
+### パナマ、仲裁期限切れで途方に暮れる
+
+香港のコングロマリットであるCKハチソン傘下のパナマ・ポーツ・カンパニー（PPC）は、同社が提起した国際仲裁において、中米諸国の政府が3月13日の期限までに回答を提出しなかったと述べました。
+PPCによると、その期限は国際商業会議所国際仲裁裁判所によって設定されたものであり、パナマ側は弁護士を雇っておらず準備に時間が必要なため、回答の準備ができていないとして、一部延長を求めたとのことです。
+CKハチソン傘下の同社が仲裁に踏み切ったのは、1997年以来PPCにバルボア港とクリストバル港の管理権を与えていた利権契約について、1月の裁判所判決を受け当局がその契約を違憲としたため、パナマがその契約を解消する動きを見せた後のことでした。同社は今月、少なくとも20億米ドルの損害賠償を求めていると述べました。
+「パナマは、弁護士を雇っておらず、紛争に不慣れで、計画を立て、一部の延長を得るための時間が必要だったため、準備ができておらず、時間内に対応できなかったと述べた」とPPCは月曜日の声明で発表した。
+外国人投資家を尊重する国は、「協議や国際紛争手続きを軽視しない」と、ハチソン傘下の部門は述べた。
+パナマはまた、関連するより広範な問題の解決にも失敗しており、これは「パナマが最終的に仲裁において、単に根拠のない攻撃をさらにでっち上げ、発表する可能性があることを示唆している」と同社は述べた。
+PPCはまた、パナマ当局が、同社が不適切であると主張する投資家文書を保持し続けていると非難した。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1847651-20260317.htm
+
+### 香港の黄大仙に迷い込んだ8頭のイノシシが捕獲され、殺処分された。
+
+漁農自然護理署の職員が竹園北邨付近で大型イノシシ2頭と小型イノシシ6頭を捕獲
+香港の自然保護当局は、住民からの通報を受け、火曜日に黄大仙で8頭のイノシシを捕獲し、処分しました。
+警察によると、漁農自然護理署（AFCD）の職員が、2頭の大型イノシシと6頭の小型イノシシを含む動物たちを麻酔で鎮静させた後、排除しました。
+警察は午前10時07分に黄大仙の竹園北邨付近に複数のイノシシがいるとの通報を受け、状況を確認するため警察官を派遣しました。
+AFCDは、麻酔銃を持った獣医を派遣してイノシシを鎮静させ、午前11時45分頃に捕獲したと述べました。
+同署はサウスチャイナ・モーニング・ポストからの問い合わせに対し、「市街地を徘徊するイノシシが公共の安全に脅威をもたらすことを鑑み、捕獲されたイノシシは人道的に処分されました」と述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346868/8-wild-boars-captured-hong-kongs-wong-tai-sin-neighbourhood?utm_source=rss_feed
+
+### 旧正月が2026年最初の2ヶ月間の香港の訪問者数を押し上げた。
+
+1月と2月に約1,000万人の訪問者が香港に入境し、これは2025年の同時期と比較して前年同期比18%の増加となりました。
+彼らはまた、今年の最初の2ヶ月間に記録された総到着者数の79.3%を占めました。
+2月単月の総到着者数は514万人で、前年比40%増となりました。観光局はこの増加の要因として、中国本土での旧正月休暇期間の長期化と、市内で開催された様々な大規模イベントを挙げています。
+2月の中国本土からの到着者数は、2025年の同月と比較して53%増加しました。昨年の旧正月は1月でした。
+最新の内訳によると、2026年の最初の2ヶ月間における中国本土以外の市場からの訪問者到着数は206万人に達し、前年同期比8%の増加となりました。
+「長距離市場からの顕著な結果により、オーストラリア、フランス、ドイツからの訪問者数は前年比20%から30%増加しました」と、同局は述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346858/did-chinese-new-year-help-boost-hong-kongs-visitor-figures-january-february?utm_source=rss_feed
+
+### 香港廉政公署、修士課程学生の入学を巡る贈賄容疑で元教授を起訴。
+
+汚職対策機関、劉宏斌を4万香港ドルの賄賂受領と、入学便宜を図るための同僚への紅包供与で起訴
+香港の汚職対策機関は、元大学教授が友人から4万香港ドル（5,100米ドル）の賄賂を受け取り、ある学生の修士課程への入学便宜を図るため同僚に紅包を渡したとして、彼を起訴しました。
+劉はさらに、公務員への利益供与で2件の追加起訴も受けました。
+両被告は保釈されており、水曜日に観塘裁判所に出廷し、罪状認否を行う予定です。
+容疑とされる犯行は2025年3月から5月の間に発生しました。劉はその当時、環境衛生安全学修士課程のプログラムディレクターを務めており、2025-26学年度の入学資格を決定するため、申請書の審査と候補者の面接を担当していました。
+ICACによると、リウはラムから、ある学生のプログラムへの入学を円滑にする目的で、HK$40,000の賄賂を受け取りました。
+ICACの調査では、その学生が一般的な入学要件を満たしておらず、最終的に申請が却下されたことも判明しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3346857/hong-kongs-icac-charges-ex-professor-over-alleged-bribe-admit-masters-student?utm_source=rss_feed
+
+### 香港のオーシャンパークが17歳のレッサーパンダ、ロウロウを安楽死させました。
+
+動物園、変性関節疾患と緩和ケアに反応しなくなったため、高齢レッサーパンダの苦痛を避けるべく安楽死
+香港のオーシャンパークは、17歳の絶滅危惧種であるレッサーパンダのロウロウが変性関節疾患を患い、緩和ケアに反応しなくなったため、安楽死させました。
+オーシャンパークは火曜日に、同園の動物飼育チームと獣医チームがロウロウに包括的なケアを提供し、5年間にわたり高齢による症状を観察してきたものの、変性関節疾患を含む加齢に伴う病気を防ぐことはできなかったと発表しました。
+同園はさらに、ロウロウがここ数週間で不快感の兆候を強め、緩和ケアに反応しなくなったと述べました。
+声明には、ロウロウの生活の質と福祉について徹底的な評価を行った結果、不必要な苦痛を避けるため、ロウロウを人道的に安楽死させるという決定が下された、と記されています。
+ロウロウは最期の瞬間、献身的な飼育員たちに囲まれ、安らかに息を引き取りました。
+レッサーパンダは、国際自然保護連合（IUCN）の絶滅のおそれのある種のレッドリストで絶滅危惧種に指定されています。
+野生での平均寿命は8年から12年です。推計によると、野生のレッサーパンダは10,000頭未満です。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346851/hong-kongs-ocean-park-euthanises-17-year-old-red-panda-rou-rou?utm_source=rss_feed
+
+### CKハチソンの子会社は、パナマが仲裁期限を逸したことを強く非難した。
+
+パナマ・ポーツ・カンパニーは、オフィスが「武装治安部隊」とされる者たちによって襲撃されたことも確認し、当局が法の支配を無視していると非難している。
+パナマ・ポーツ・カンパニー（PPC）は火曜日、同社の2つのターミナルが差し押さえられたことを受け、中米のこの国を外国投資家にとってのリスクであると描写し続ける中で、当局が同国の報道機関を沈黙させ、法の支配を無視しているとも非難した。
+声明の中でPPCは、パナマが、国際商業会議所仲裁裁判所によって設定された先週金曜日の期限までに、同社の仲裁要請に対する回答を提出しなかったと述べた。
+PPCは、政府が「準備ができていない」ため、弁護士を雇っておらず、「紛争に精通しておらず」、計画を策定する時間が必要であるとして、期限内に回答を提供できないだろうと述べたと主張した。
+同社はまた、パナマ当局が、同社とその投資家によるこの問題の解決策を見つけるための試みに対して、対応を怠っていると非難した。
+「外国人投資家を尊重する国家は、協議や国際紛争手続きを軽視しない」と述べた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346839/ck-hutchison-subsidiary-slams-panama-missing-arbitration-deadline?utm_source=rss_feed
+
+### 香港警察からのWhatsAppメッセージが詐欺と酷似しており、ネットユーザーが困惑。「先ほどは少し口調がきつくて申し訳ありません」 - 電脳領域HKEPCハードウェア
+
+ネットユーザーが香港警察からのWhatsAppメッセージを受け取ったが、詐欺と酷似している。先ほどは少し口調がきつくなってしまい申し訳ありません。HKEPC Hardwareのコンピューター領域より。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi5gJBVV95cUxOUVFUbHRmM1VsS2diWW9iNVBLdjZBNDIyV21jQi1GMmpZWEpTbTFfdkM1Y21pLTg5MzFsUjJyXy1SMDlVcmFSXzlRMDZTMXlJVElNWl96Vy00eHB1V2NtOHNaNEVUakV5M3JoUms1QmdsdWhsREMtTDhDXzZOMDRIYkxmQnd1eTUwNGp5QjIzV0lyREpYZ0VtWnl6TXhDaWxLOUo0QzB1b0V6TXZycm9oaHVJdU5sTWdCSFhiaW1GSkNvZm5qZTlnMDc2T0xhT1lFY0YxOTNMRVlWMXViZmRwdk5BRS1FQ3lVcjlDZ0V0YVhyMGJFVmdwbGhyVl9DYUJncHJPa1lDN2JpaUNrbGJ6cmQxZ1ZlaTktU2d2cEFLWGpzdjloT1dzajc2M1VVcHJta2NIejJMdkZGVmF3QkJ0b2t4MGVwcThwZDltMGVrMnViZldyelMwVnNIQ2Jxa1o5MVl4c1d3?oc=5
+
+### 葵涌コンテナターミナル車両火災｜貨車が違法ガソリンスタンドとして使用、警察が女性の車両所有者を追跡、当該地域は要注意地点 - 香港01
+
+葵涌コンテナターミナル車両火災｜貨物車は違法給油所、警察が女性車両所有者を追跡手配、当該地域は危険地帯 香港01。
+葵涌コンテナターミナル南路の屋外駐車場で貨物車が炎上し、消防が現場に駆けつけ消火活動を行った 香港電台ニュースサイト。
+2000リットルの違法給油車が炎上し大惨事を招く寸前だった。濃煙が空高く立ち上り3号幹線道路の橋面を覆い隠し、視界不良により交通事故が発生する恐れがある 香港文匯網。
+駐車場で「闇ガソリン車」が爆発し黒煙が天を衝いた 星島頭條。
+違法移動給油車が炎上、車両所有者を指名手配 - 20260318 - 世界のニュース写真 明報ニュースサイト。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMimgNBVV95cUxPU0VGYzdLcEVvRnBhS0NLWmF6UGpJaXZSTHhYcDJSZGVLNFBkYzVtY2wzVGZQVkJ5WWJMZnhlQVVQUGF2dnVPUUVhaFZKR2RCTUQ3U01VYnlNa1ctLXhOcjBlcVlsSENvSk00Y3F5dzJJMWFIRkU3bjlrTFpzWDVGV3B2UjFMTVlMUDAwTFJEYVI2Qm45a1l5aUFWZnp0WHZvS3E3MTVRLVBHWFRYejl5NnhUNXNuZVVIWUFtdWNxWFdaOFJ2OXB2SWFDN3lSSUhsbXZ1MEh0YTNpaXBiZkNvcmluT19kRHN3eC01VnVLQXBKcHBQQVU1VU5uNXN3cFRKRnNJbjZHdVdGcEI1SmJvaUZSRGVmQm1FTHdLNG1pZE5yTVR0RkQwbEh1S0FFcDV2eWRGNDl1dTE4aHhmVmZ4TWE5MlFYcmthZktQMUlsU1hPNlJodnlPVlBBOXFwTWxFMm9yOUY0UENQY1dtYjlwYVBGczdCTUZzellEOFVZNnNCa09neHBndFRJMUlMdXhFVXNGSkRlVmliQQ?oc=5
+
+### 北都｜政府が専用法を提出、年内に立法が完了する見込み（何嘉駿が報じました）
+
+【Nowニュース台】開発局は立法会に北部大都市圏の専用法案に関する文書を提出し、都市計画手続きの簡素化を提案しました。これは、北部大都市圏の計画と土地管理における障壁を取り除き、規制を緩和することを目的としています。行政長官の李家超氏は、北部大都市圏の開発に柔軟性をもたらすことを期待しています。
+北部大都市圏では今後5年間で約900ヘクタールの整備済み用地が順次供給される予定です。政府は北部大都市圏の専用法案を制定することで、上部構造工事の建設を円滑化・加速させ、産業の誘致を促進したいと考えています。
+行政長官の李家超氏は次のように述べました。「私もまた、焦燥感に駆られていると表現しています。そのため、今回我々が専用法案を提案したのは、私のこの要求を実現するためです。専用法案は、特定の事柄に対してより柔軟に対応し、処理を加速させることを可能にし、我々の競争力を確保します。」
+開発局が立法会に提出した文書では、北部大都市圏の計画と土地管理における障壁を取り除き、規制を緩和することが提案されています。これには都市計画手続きの簡素化が含まれ、開発業者が非保全地域の用途や開発パラメーターを変更したい場合、計画申請を提出するだけでよく、図面修正申請は不要となります。これにより、処理時間は従来の少なくとも9ヶ月から2ヶ月に短縮されます。ただし、カントリーパークや自然保護区が関わる場合は、この取り決めは変更されません。
+当局はまた、土地の暫定利用期間を最長7年まで認めることで、企業がまず小規模で市場を試すことを容易にします。
+土地収用補償の支払いも加速されます。政府が収用する必要のある私有地が祖堂名義で保有されており、司理に欠員がない場合、祖堂の全メンバーからの満場一致の同意が得られていなくても、地政総署はまず司理に金額を支払うことができます。
+当局はまた、工事の進捗を加速させることを望んでおり、これには建設騒音許可証の申請手続きの簡素化が含まれます。大規模な人口流入がない地域では、申請者は実際の環境に応じて緩和措置を定めるだけでよく、異なる設備組み合わせを事前に設定する必要がなくなります。許可証の有効期間も最長1年まで延長されます。
+一方、政府は産業運営を支援します。例えば、河套（ロークマチャウ・ループ）一帯への出入りを規制する「ホワイトリスト」を設け、越境要素の流動を円滑化します。また、指定地域には法定機関を設立し、企業を北部大都市圏に誘致します。
+開発局は、現段階では新法案の適用範囲を北部大都市圏以外に拡大する意図はなく、実施の詳細を定期的に検証し、毎年立法会に報告すると述べています。
+政府チームは来週火曜日に立法会で文書を説明し、同日から約2ヶ月間のパブリックコンサルテーションを開始します。目標は、年央に条例草案と一部の付属法例を提出し、年内に立法を完了することです。
+#主要ニュース
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%8C%97%E9%83%BD-%E6%94%BF%E5%BA%9C%E6%8F%90%E5%87%BA%E5%B0%88%E5%B1%AC%E6%B3%95%E4%BE%8B-%E6%96%99%E5%B9%B4%E5%85%A7%E5%AE%8C%E6%88%90%E7%AB%8B%E6%B3%95-%E4%BD%95%E5%98%89%E9%A7%BF%E5%A0%B1%E9%81%93-100825882.html
+
+### 香港の建設現場で、戦時中のものとみられる迫撃砲弾が安全に爆破処理されました。
+
+爆弾処理班員が火曜日の朝、古洞北の現場での作業を完了したため、避難は不要でした。
+香港の建設現場で、戦時中のものとみられる迫撃砲弾が爆弾処理班員によって安全に爆破処理され、避難は不要でした。
+事情に詳しい関係者がサウスチャイナ・モーニング・ポストに確認したところによると、火曜日の午前9時32分に古洞北多目的福祉サービス複合施設の建設現場で作業員が発見した不審物は、不発の戦時中迫撃砲弾でした。
+関係者は「迫撃砲弾は建設現場内にあったため、現場の担当官は周辺地域が安全であり、避難の必要はないことを確認しました」と述べました。
+通報を受け、警察と消防局の担当官が現場に到着し、現場から半径50メートル（164フィート）以内の区域を封鎖しました。
+その迫撃砲弾は長さ10～15cm（6インチ）だった。部隊の爆発物処理課の警察官は、午前11時37分にそれを爆破することを決定し、その10分後に作業を開始した。
+同課は、この作業でロボットは使用しなかったと述べた。
+落馬洲警察署の巡邏小隊と爆発物処理課の警察官が、この件について追跡調査を行う予定である。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346842/suspected-wartime-mortar-round-detonated-safely-hong-kong-construction-site?utm_source=rss_feed
+
+### 68歳の男性、劉建幫さんが先週金曜日に大埔でのハイキング中に失踪したとみられ、救助隊員が3日後に遺体を発見 - 香港01
+
+68歳の男性、劉建幫が先週金曜日、大埔でハイキング中に失踪したとみられ、救助隊が3日後に遺体を発見したと香港01のニュースリリースが報じた。香港警察は、大埔で68歳の男性が失踪したことを受け、市民に情報提供を呼びかけている。香港電台ニュースサイトによると、大埔の男性、劉建幫が失踪し、警察が市民に情報提供を呼びかけている。香港文匯網も、大埔の男性、劉建幫が失踪し、警察が市民に情報提供を呼びかけていると報じた。on.cc東網によると、大埔で60代の男性がハイキング中に道に迷い、救援隊が暗闇の中、山を登って捜索救助を行った。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMimwNBVV95cUxNSHJJUVpobm1wb1hORUE0MlV0UlRCWlVJOEJhS1l5c2VBb09IUGlYVHkxYjJrY0V0eHhYV3pIX08wVGp3UUdxcHRTT1YxbEN5UFktcU5kc19yOFNYdGtmV1lONktKMDJsN2hwVm5jY2dEZWx1YldUeWZsTkhVZmJ6RjlLNjdtTjIwa180cHNNbkNVcGUyMzF2RWZEZi14UDZrTzZ0RTluT2NHZlo3bGU2R2FMR2RZMEZfTWJZMEFKYnVyc2IwNy1oTXNSYW1MclgwRVhjd21JU3hqc3FBWmctbXNpckFnamM2Z0MxaG4tVTZFUFlQUjd2SkFvNmxNdUlTRzBQeUxKNkw0RVRyOGxhaUllX0tUOUJwTXVCODF4MHFUeGRtZzJ0MXpfMm5CWlpMNUR2d3FoLW1KdVpud29wUGZ5ZmllWUF1cHBHM1JPanNGQkVYcVNMcjk2cFY5S1VtN0xjQXVoYWIyWWx3X1NfS3ktNE9IYnhxdGVoRHJPSkJUa0t4YXNIR0pkSlRKQUZKOERCMERlSVNvc0U?oc=5
+
+### 香港のマンションから1歳の息子が転落死し、夫婦が逮捕された。
+
+関係者によると、初期捜査で家族のリビングの窓は施錠されておらず、格子も取り付けられていなかったことが判明した。
+サウスチャイナ・モーニング・ポストの取材で、香港の夫婦が、1歳の息子が荃湾（チュンワン）の高層住宅から転落死したことを受けて逮捕されたことが分かった。
+関係者によると、予備捜査では、家族が住む5階の部屋のリビングの窓は施錠されておらず、格子も取り付けられていなかったことが示された。
+男児の47歳の父親と母親は、児童虐待または育児放棄の疑いで日曜日に逮捕された。
+この事件は警察の荃湾（チュンワン）地区犯罪捜査隊が捜査している。
+警察は、住民が荃湾（チュンワン）のハンリー・ヴィラ5号棟のポディウム（基壇部）で子供が意識不明で倒れているのを発見した後、午前10時37分に報告を受けた。
+情報筋によると、その少年は両親と7歳の弟とともに5階の部屋に住んでいた。午前10時30分頃、母親が部屋にいる間、兄弟2人はリビングルームで遊んでいた。父親はその時、寝室で休んでいた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3346648/couple-arrested-after-their-1-year-old-son-falls-his-death-hong-kong-flat?utm_source=rss_feed
+
+### 生徒数の減少が小学校1年生の募集停止を引き起こしたため、香港の15校が閉鎖の危機に瀕しています。
+
+教育長官の蔡若蓮は、学校運営者が合併計画を拒否すれば、さらなる閉校が予想されるとも警告している。
+香港の公立小学校15校が、入学者数不足のため来年度の補助金付き小学1年生クラスの運営を禁止され、閉校の危機に瀕している。当局は、この数字が近年で最も高いと述べている。
+しかし、教育長官の蔡若蓮は火曜日、学校運営者が合併計画を拒否すれば、さらなる閉校が予想されると警告した。
+閉校の危機にある学校は、政府運営校1校と補助金付き学校14校で構成されており、教育副長官の李碧茜はその数を「近年で過去最高」と表現している。
+その中には、行政長官の李家超の母校である深水埗の五邑工商総会学校も含まれる。
+その他には、東区の筲箕湾官立小学校や大角咀の鮮魚商会学校がある。
+蔡氏は、2026-27学年度の小学校1年生の入学割り当て制度に参加する生徒数が、2025-26学年度と比較して4,000人減少したと指摘した。その結果、15の公立小学校が、小学校1年生のクラスを運営するために必要な各16人の生徒を確保できなかった。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/education/article/3346926/15-hong-kong-schools-risk-closure-falling-numbers-trigger-primary-one-ban?utm_source=rss_feed
+
+### 香港政府飛行サービス隊オープンデー：無料入場、ブースゲーム、仮想現実（VR）、拡張現実（AR）、フライトシミュレーター体験、捜索救助飛行デモンストレーション｜親子で楽しめる場所 - 星島日報
+
+政府飛行サービス隊オープンデー：無料入場、屋台ゲーム、仮想現実（VR）、拡張現実（AR）、フライトシミュレーター体験、捜索救助飛行デモンストレーション｜親子で楽しめるスポット
+星島日報ヘッドライン：規律部隊が国家安全教育推進のためオープンデーを開催予定
+香港文匯網：規律部隊と補助部隊が「全民国家安全教育日」推進のためオープンデーを開催
+香港電台ニュースサイト：国家安全教育日2026｜規律部隊および補助部隊が月末から4月中旬にかけてオープンデーを開催、明日からチケット登録可能
+香港経済日報HKET：民間防衛隊本部オープンデー｜仮想現実救助体験、捜索救助器材、車両展示 Sundaykiss
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi6gRBVV95cUxOMXBwZTRiaHBpV0NjNlNOWUxnQTJsTld6SThoamUtLWpsVkd5Z183VDhtT2pFRTNMeHRSTFE2djF1WVZmMkVWNkxsWGo3TFFVa0RtWkZsUXA1NmEtUW1BUkJ5YXBpTTh6M2ZnMWhmT1BYTVlZOThWVjBRNVVrQnNaaHFseFlwMXlPSjl1dXl0Sy1sVTFlalRqZkdPZXp4NmN5X2NXUmZqRVRIOE9IZEtDQ0hISjF4S0RFemdMcUtxRDBiUXBVM0dURUpiQUtVZ05rOFZGa3pPLXZVcS1oaEp1LVRWc3lDTmxYVm5GNlZEZFNvZWJJRVNmdk1uOHhrSkFXRE9nRmhKdndSNGFrMmU3TjJSejlkXy10czhOdDJrRS04eHJZaUF3VFdNclNfVVpJVGtJQm40LXBqcFhwQ2FFRWZvT04zZGdrTGFfVjM1MW81REc5cFNTbC1IV2hRWEptZ2JSNUJ4V2VyTHJYMFAzaUNCOWFtTnNtRmhZWjNBZEtJWF9kRnU1QWl0eDFJbGRQMGNXZHN5eU80UV9uZ1l0RHp3T3luNzhaNHBJenNPN25wWWdxRnotMHZwdklpaXVQZVljTGx6aWNJd1MtSW5iZFdlcmNtOTZvWXFISzRITXl5N3VwMmZmbWQzYWRKRjdxWnU2R18tSmJMZkNPTl96eEdENE1NRDBuZzZMVS16YVk3YXd5VHZmQkhkVWJpSE9iMGhwQ0JnVDBSNHlFWnZDRXN1T1pPWkJjT0xmZFVrNWNBYlZiS0JEa3FjVUw4b2RWcmNnaUlWQU1hcWQ2ODhnbXJxUVZFcnNLM2c?oc=5
+
+### 将軍澳警察署が空き巣対策作戦を展開、中国本土の男性2名を逮捕 - 香港電台ニュースサイト
+
+将軍澳警察署が窃盗対策作戦を展開し、中国本土出身の男性2名を逮捕しました。（香港電台ニュースサイト）
+李家超は、政府と立法会が協力して研究している5カ年計画の第4四半期諮問文書を年末に公表すると述べました。（バス・デイリー）
+将軍澳での窃盗事件増加を受け、水上警察と陸上警察が合同で地域内を巡回し、容疑者の男性2名を拘束しました。（香港01）
+将軍澳での合同窃盗対策作戦で、二重入域許可証を持つ男性2名が逮捕されました。（on.cc東網）
+将軍澳警察の窃盗対策作戦で、犯罪多発地点を巡回中、中国本土出身の男性2名が「徘徊」の疑いで逮捕されました。（星島頭條）
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE42R3FyTTRQMGpLTE5XRjZfWnRDUEZFR3pZUlZDREdJblZfZmp4UFVTR0dXY0VTV1BXUU52OWJHQ1Q5dGVjcVZySjJMd1JMcm10VG5BMEEwUzhlUGtJcFV2Z2dtLVR4VFlLWGRfRDhrWQ?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年03月18日 06:30

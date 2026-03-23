@@ -279,6 +279,21 @@ jobs:
             exit 1
           fi
 
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          if [ -n "$NOTE_SESSION_COOKIE" ]; then
+            echo "✅ Secret NOTE_SESSION_COOKIE: 設定あり → HTTP API で投稿します"
+          else
+            echo "⚠️  Secret NOTE_SESSION_COOKIE がまだありません（この名前で1つ必要です）"
+            echo "   いまから Playwright でログインを試みます → note 側で弾かれやすいです"
+            echo "   対処: Settings → Secrets and variables → Actions → New repository secret"
+            echo "         Name: NOTE_SESSION_COOKIE"
+            echo "         Value: 手元で npm run note:cookie → .note-session-cookie.txt の中身を貼る"
+            echo "   （NOTE_EMAIL / NOTE_PASSWORD / NOTE_AUTH_STATE だけでは HTTP API には切り替わりません）"
+          fi
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+
           if [ -n "$NOTE_SESSION_COOKIE" ]; then
             echo "📮 Posting to note.com via HTTP API（NOTE_SESSION_COOKIE が設定されています）"
             set +e
@@ -596,6 +611,10 @@ jobs:
           if [ ! -f "$TODAY_ARTICLE" ]; then
             echo "❌ Retry: article missing: $TODAY_ARTICLE"
             exit 1
+          fi
+
+          if [ -z "$NOTE_SESSION_COOKIE" ]; then
+            echo "⚠️  Retry: NOTE_SESSION_COOKIE 未設定 → Playwright になります"
           fi
 
           if [ -n "$NOTE_SESSION_COOKIE" ]; then

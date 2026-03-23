@@ -22,6 +22,9 @@ Cookie の取得は **スクリプトがブラウザを開き、自動で1行フ
 
 ### 1. Secret: `NOTE_SESSION_COOKIE`（必須・これだけで HTTP API が使われる）
 
+**`NOTE_EMAIL` / `NOTE_PASSWORD` / `NOTE_AUTH_STATE` だけでは HTTP API には切り替わりません。**  
+別名として **`NOTE_SESSION_COOKIE`** という名前の Secret を **1つ新規追加**してください（一覧に無ければ未設定です）。
+
 手元の Mac でターミナル:
 
 ```bash

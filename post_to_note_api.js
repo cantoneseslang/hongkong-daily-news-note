@@ -2,16 +2,10 @@
 /**
  * note.com 内部 API へ HTTP で投稿（ブラウザ自動ログイン不要）
  *
- * 前提: 普段のブラウザで note にログインした状態の Cookie を取得し、
- *       GitHub Secret「NOTE_SESSION_COOKIE」に保存する。
- *
- * 取得手順（Chrome）:
- *   1. https://note.com にログイン
- *   2. DevTools → Application → Cookies → https://note.com
- *   3. note_session（および XSRF-TOKEN 等がある場合は同じ画面の Cookie をまとめて）
- *   または Network タブで note.com へのリクエスト → Request Headers の Cookie 行をコピー
- *
- * 非公式 API のため、仕様変更で動かなくなる可能性があります（自己責任）。
+ * 仕様（非公式・変更の可能性あり）:
+ * - 1) POST /api/v1/text_notes に { name, body } のみ（status は付けない）→ 422 回避
+ * - 2) POST /api/v1/text_notes/draft_save?id=...&is_temp_saved=... に本文＋メタデータ
+ * - 3) 公開時は /api/v2/notes/{key}/publish 等を試行（key はレスポンスから取得）
  *
  * Usage:
  *   NOTE_SESSION_COOKIE="..." node post_to_note_api.js <記事.md> [公開|下書き]
@@ -86,7 +80,6 @@ function parseMarkdown(content) {
   };
 }
 
-/** Cookie 文字列から XSRF-TOKEN を取り出す（あれば） */
 function extractXsrfToken(cookieHeader) {
   const m = cookieHeader.match(/(?:^|;\s*)XSRF-TOKEN=([^;]+)/i);
   if (!m) return null;
@@ -115,60 +108,172 @@ function buildHeaders(cookieHeader, extra = {}) {
   return h;
 }
 
-async function tryCreateNote(cookieHeader, title, html, status) {
-  const payloads = [
-    { name: title, body: html, status },
-    { text_note: { name: title, body: html, status } },
-    {
-      data: {
-        type: 'textNotes',
-        attributes: { name: title, body: html, status },
-      },
+async function postJson(url, cookieHeader, payload) {
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      ...buildHeaders(cookieHeader),
+      'Content-Type': 'application/json',
     },
-  ];
-
-  const url = 'https://note.com/api/v1/text_notes';
-
-  for (let i = 0; i < payloads.length; i++) {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: {
-        ...buildHeaders(cookieHeader),
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payloads[i]),
-    });
-    const text = await res.text();
-    let json = null;
-    try {
-      json = JSON.parse(text);
-    } catch {
-      /* raw */
-    }
-
-    if (res.ok) {
-      return { ok: true, json, raw: text, variant: i };
-    }
-
-    if (i === payloads.length - 1) {
-      return { ok: false, status: res.status, json, raw: text, variant: i };
-    }
-    console.log(`⚠️  投稿パターン ${i + 1} 失敗 (${res.status})。別形式を試します…`);
+    body: JSON.stringify(payload),
+  });
+  const text = await res.text();
+  let json = null;
+  try {
+    json = JSON.parse(text);
+  } catch {
+    /* raw */
   }
-  return { ok: false, status: 0, raw: 'no payload' };
+  return { ok: res.ok, status: res.status, json, raw: text };
+}
+
+/** JSON:API / 旧形式の両方から id / key を取る */
+function extractNoteIdAndKey(j) {
+  if (!j) return { id: null, key: null };
+  const d = j.data;
+  if (d && typeof d === 'object') {
+    const id = d.id != null ? String(d.id) : null;
+    const key =
+      d.attributes?.key ||
+      d.attributes?.note_key ||
+      d.key ||
+      (typeof d.attributes === 'object' && d.attributes?.slug) ||
+      null;
+    return { id, key: key || null };
+  }
+  return {
+    id: j.text_note?.id != null ? String(j.text_note.id) : j.id != null ? String(j.id) : null,
+    key: j.text_note?.key || j.key || null,
+  };
+}
+
+/**
+ * 2段階投稿（参考: note 非公式API調査記事）+ 公開用エンドポイントの試行
+ */
+async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
+  const base = 'https://note.com/api/v1/text_notes';
+
+  // Step 1: status を付けない（付けると 422 になりやすい）
+  const step1 = await postJson(base, cookieHeader, {
+    name: title,
+    body: html,
+  });
+
+  if (!step1.ok) {
+    return {
+      ok: false,
+      phase: 'create',
+      status: step1.status,
+      raw: step1.raw,
+      json: step1.json,
+    };
+  }
+
+  let { id: noteId, key: noteKey } = extractNoteIdAndKey(step1.json);
+  if (!noteId) {
+    return {
+      ok: false,
+      phase: 'parse_id',
+      status: step1.status,
+      raw: step1.raw,
+      json: step1.json,
+    };
+  }
+
+  const bodyLength = [...html].length;
+
+  // Step 2: draft_save（本文確定）— 調査記事どおり is_temp_saved=true
+  const draftUrl = `${base}/draft_save?id=${encodeURIComponent(noteId)}&is_temp_saved=true`;
+  const step2 = await postJson(draftUrl, cookieHeader, {
+    name: title,
+    body: html,
+    body_length: bodyLength,
+    index: false,
+    is_lead_form: false,
+  });
+
+  if (!step2.ok) {
+    return {
+      ok: false,
+      phase: 'draft_save',
+      status: step2.status,
+      raw: step2.raw,
+      json: step2.json,
+      noteId,
+    };
+  }
+
+  const afterDraft = extractNoteIdAndKey(step2.json);
+  if (afterDraft.key) noteKey = afterDraft.key;
+  if (afterDraft.id) noteId = afterDraft.id;
+
+  // Step 3: 公開（下書きでなければ複数パターンを試す）
+  if (wantPublish) {
+    const publishAttempts = [];
+    if (noteKey && /^n[a-f0-9]+$/i.test(noteKey)) {
+      publishAttempts.push(`https://note.com/api/v2/notes/${encodeURIComponent(noteKey)}/publish`);
+    }
+    publishAttempts.push(`${base}/open_publish?id=${encodeURIComponent(noteId)}`);
+
+    for (const pUrl of publishAttempts) {
+      const pub = await fetch(pUrl, {
+        method: 'POST',
+        headers: {
+          ...buildHeaders(cookieHeader),
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({}),
+      });
+      const pubText = await pub.text();
+      let pubJson = null;
+      try {
+        pubJson = JSON.parse(pubText);
+      } catch {
+        /* ignore */
+      }
+      if (pub.ok) {
+        return {
+          ok: true,
+          json: pubJson || step2.json,
+          raw: pubText,
+          noteId,
+          noteKey: noteKey || extractNoteIdAndKey(pubJson).key,
+        };
+      }
+      console.log(`⚠️  公開API試行失敗 (${pub.status}): ${pUrl.slice(0, 80)}…`);
+    }
+    // 公開APIが全部失敗しても下書きまではできている → 警告付き成功扱いにするか判断
+    console.log('⚠️  自動公開APIが使えませんでした。下書きまで保存済みの可能性があります。note で手動公開してください。');
+    return {
+      ok: true,
+      json: step2.json,
+      raw: step2.raw,
+      noteId,
+      noteKey,
+      publishSkipped: true,
+    };
+  }
+
+  return {
+    ok: true,
+    json: step2.json,
+    raw: step2.raw,
+    noteId,
+    noteKey,
+  };
 }
 
 function extractNoteUrl(result) {
   const j = result.json;
   if (!j) return null;
   const key =
-    j?.data?.key ||
+    result.noteKey ||
     j?.data?.attributes?.key ||
+    j?.data?.key ||
+    j?.data?.attributes?.note_key ||
     j?.key ||
-    j?.text_note?.key ||
-    j?.data?.id ||
-    j?.id;
-  if (key && typeof key === 'string' && key.length > 5) {
+    j?.text_note?.key;
+  if (key && typeof key === 'string' && key.length > 3) {
     return `https://note.com/n/${key}`;
   }
   return null;
@@ -177,12 +282,12 @@ function extractNoteUrl(result) {
 async function main() {
   const mdPath = process.argv[2];
   const mode = (process.argv[3] || '公開').toLowerCase();
-  const status = mode.includes('下書') ? 'draft' : 'published';
+  const wantPublish = !mode.includes('下書');
 
   const cookieHeader = process.env.NOTE_SESSION_COOKIE?.trim();
   if (!cookieHeader) {
     console.error('❌ 環境変数 NOTE_SESSION_COOKIE が空です。');
-    console.error('   ブラウザでログイン後、DevTools の Cookie または Request Cookie ヘッダを Secret に保存してください。');
+    console.error('   ブラウザでログイン後、Request Cookie ヘッダを Secret に保存してください。');
     process.exit(1);
   }
 
@@ -197,31 +302,34 @@ async function main() {
   marked.setOptions({ gfm: true, breaks: true });
   let html = marked.parse(body);
 
-  // ローカル画像パスは note 側で表示できないため、説明に差し替え
   html = html.replace(/<img[^>]+src="([^"]+)"/g, (match, src) => {
     if (src.startsWith('http')) return match;
     return `<p><em>[画像: ${src} — API投稿では手動アップロードが必要な場合があります]</em></p>`;
   });
 
-  console.log('📮 note API 投稿（HTTP）');
+  console.log('📮 note API 投稿（HTTP・2段階）');
   console.log(`   タイトル: ${title}`);
-  console.log(`   ステータス: ${status}`);
+  console.log(`   モード: ${wantPublish ? '公開（可能なら自動公開API）' : '下書き'}`);
   console.log('');
 
-  const result = await tryCreateNote(cookieHeader, title, html, status);
+  const result = await createAndSaveNote(cookieHeader, title, html, wantPublish);
 
   if (!result.ok) {
     console.error('❌ API 投稿に失敗しました');
+    console.error(`   フェーズ: ${result.phase}`);
     console.error(`   HTTP ${result.status}`);
     console.error('   レスポンス:', (result.raw || '').slice(0, 2000));
     console.error('');
-    console.error('💡 確認: NOTE_SESSION_COOKIE が最新か、note にログインできるブラウザからコピーしたか');
+    console.error('💡 Cookie に XSRF-TOKEN が含まれているか確認（editor.note.com で取得した Cookie 推奨）');
     console.error('💡 非公式 API の仕様変更の可能性もあります。');
     process.exit(1);
   }
 
   const noteUrl = extractNoteUrl(result);
-  console.log('✅ 投稿に成功した可能性が高いです（レスポンスを確認してください）');
+  console.log('✅ 下書き保存まで成功した可能性が高いです。');
+  if (result.publishSkipped) {
+    console.log('⚠️  自動公開は未実施の可能性 → マイページで下書きを確認し、必要なら手動で公開してください。');
+  }
   if (result.json) {
     console.log(JSON.stringify(result.json, null, 2).slice(0, 1500));
   }

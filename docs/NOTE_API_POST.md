@@ -74,6 +74,10 @@ npm run note:cookie
 
 ---
 
+## 422 Unprocessable Entity になっていた理由（参考）
+
+note の投稿は **1回の `POST` に `status: published` を付ける形式ではなく**、多くの場合 **`POST /api/v1/text_notes`（`name` と `body` のみ）→ `POST .../draft_save?id=...`** の **2段階**です。前者だけだと 422 になりやすいです。`post_to_note_api.js` はこの流れに合わせています。
+
 ## 非公式 API のための注意
 
 - **仕様変更で突然動かなくなる**可能性があります  

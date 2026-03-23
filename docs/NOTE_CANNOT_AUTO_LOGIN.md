@@ -2,7 +2,8 @@
 
 ## まず試す: HTTP API で投稿（ブラウザログインなし）
 
-Playwright で **ログイン画面に入れない**場合でも、**普段のブラウザで取得した Cookie** だけを GitHub Secret に入れ、**CI ではブラウザを使わず** note の内部 API に投稿する方法があります。
+Playwright で **ログイン画面に入れない**場合でも、**普段のブラウザで取得した Cookie** だけを GitHub Secret に入れ、**CI ではブラウザを使わず** note の内部 API に投稿する方法があります。  
+手元でブラウザにログインするときは **メールで通らなくても、X（𝕏）や Google などソーシャルログインでかまいません**（`note_session` が Cookie に入ればよい）。
 
 → **[NOTE_API_POST.md](./NOTE_API_POST.md)**（`USE_NOTE_API=true` と `NOTE_SESSION_COOKIE`）
 

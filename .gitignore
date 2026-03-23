@@ -55,4 +55,7 @@ Thumbs.db
 .note-auth-state.json
 .note-auth-state.compact.json
 .note-session-cookie.txt
+# Playwright 永続プロファイル（note:cookie 用・コミット禁止）
+.note-cookie-profile/
+.note-cookie-profile-chrome/
 

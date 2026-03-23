@@ -25,24 +25,41 @@ Cookie の取得は **スクリプトがブラウザを開き、自動で1行フ
 **`NOTE_EMAIL` / `NOTE_PASSWORD` / `NOTE_AUTH_STATE` だけでは HTTP API には切り替わりません。**  
 別名として **`NOTE_SESSION_COOKIE`** という名前の Secret を **1つ新規追加**してください（一覧に無ければ未設定です）。
 
-手元の Mac でターミナル:
+手元の Mac でターミナル（**1行ずつ** Enter で実行）:
 
 ```bash
 cd /path/to/hongkong-daily-news-note
 npm install
+npx playwright install chromium
 npm run note:cookie
 ```
 
-1. **スクリプトが Chrome を開く**（あなたが DevTools を触る必要はない）  
-2. 開いたウィンドウで **note にログイン**（二段階もここで）  
+1. **スクリプトがブラウザを開く**（既定は **Playwright 同梱 Chromium**＋**永続プロファイル**。Chrome が落ちる場合に向いています）  
+2. 開いたウィンドウで **note にログイン**  
+   - **メール＋パスワードで通らない**場合は、**X（𝕏）・Google などのソーシャルログイン**で問題ありません（Cookie に `note_session` が入ればよい）。  
+   - 二段階認証がある場合はその画面で完了。  
 3. できれば **エディタの新規記事**まで開く  
 4. ターミナルに戻り **Enter**  
 5. プロジェクト直下に **`.note-session-cookie.txt`** ができる → **中身をすべてコピー**  
 6. GitHub → **Secrets** → **`NOTE_SESSION_COOKIE`** に貼り付け（保存）
 
+**環境変数（任意）**
+
+| 変数 | 意味 |
+|------|------|
+| `NOTE_COOKIE_USE_GOOGLE_CHROME=1` | 最初から **Google Chrome** で開く（同梱 Chromium より先） |
+| `NOTE_COOKIE_NON_PERSISTENT=1` | 永続プロファイルを使わず、従来どおり一時プロファイル |
+| `NOTE_COOKIE_PROFILE_DIR=パス` | プロファイル保存先を変更 |
+
 **注意:** Cookie はセッションと同等です。漏洩するとアカウントを操作される可能性があります。
 
-**うまくいかないとき**（ログイン画面で弾かれる等）だけ、最終手段として **手動で Chrome にログインし、DevTools の Request Headers の Cookie 行をコピー**する方法もあります。
+**うまくいかないとき**（「入れない」／ログイン画面で弾かれる／Chrome がクラッシュする）
+
+- **Google Chrome で試す:** `NOTE_COOKIE_USE_GOOGLE_CHROME=1 npm run note:cookie`
+- **同梱 Chromium を入れ直す:** `npx playwright install chromium`
+- **「普通の Chrome」のログインをそのまま使いたい:** `npm run note:cookie:cdp`  
+  （**いま開いている Chrome に後から勝手に接続はできない**ため、Chrome を一度終了し、スクリプトに書いてある **リモートデバッグ付き**で起動し直したうえで接続します。理由はスクリプト先頭の説明を参照。）
+- **最終手段:** DevTools → Application → Cookies で `note_session` をコピー
 
 `NOTE_SESSION_COOKIE` が **1文字でも入っていれば**、Actions は **自動で HTTP API** を使います（以前の「Variables に `USE_NOTE_API=true`」は**不要**）。
 

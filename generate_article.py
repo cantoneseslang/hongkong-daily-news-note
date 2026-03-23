@@ -5,6 +5,7 @@
 
 import json
 import os
+import time
 import requests
 import re
 import html
@@ -797,12 +798,34 @@ class GrokArticleGenerator:
         try:
             # Gemini APIの場合はURLにAPIキーを追加
             url = api_url_with_key if self.use_gemini is True else self.api_url
-            response = requests.post(
-                url,
-                headers=headers,
-                json=payload,
-                timeout=300
+            # Google / LLM 側が応答を返さず切断する場合がある（GitHub Actions 等）→ 再試行
+            _retries = max(1, int(os.environ.get("LLM_HTTP_RETRIES", "5")))
+            _transient = (
+                requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout,
+                requests.exceptions.ChunkedEncodingError,
             )
+            response = None
+            for attempt in range(1, _retries + 1):
+                try:
+                    response = requests.post(
+                        url,
+                        headers=headers,
+                        json=payload,
+                        timeout=300,
+                    )
+                    break
+                except _transient as e:
+                    if attempt >= _retries:
+                        raise
+                    wait = min(2 ** (attempt - 1), 60)
+                    print(
+                        f"⚠️ 接続が切れました（{attempt}/{_retries}）: {e!s}\n"
+                        f"   {wait}秒待って再試行します…"
+                    )
+                    time.sleep(wait)
+            if response is None:
+                raise RuntimeError("LLM HTTP: response is None after retries")
             
             if response.status_code == 200:
                 result = response.json()
@@ -847,6 +870,10 @@ class GrokArticleGenerator:
                 
         except Exception as e:
             print(f"❌ 例外発生: {e}")
+            # Gemini が切断・タイムアウト等で失敗したら Grok にフォールバック（設定がある場合）
+            if self.use_gemini is True and self.config.get("grok_api", {}).get("api_key"):
+                print("🔄 Gemini API 例外のため Grok API にフォールバック...")
+                return self._fallback_to_grok(news_data)
             if self.use_gemini is None:
                 print("🔄 Grok API例外のためClaude APIにフォールバック...")
                 return self._fallback_to_claude(news_data)

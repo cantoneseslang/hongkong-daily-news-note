@@ -20,15 +20,7 @@ Cookie の取得は **スクリプトがブラウザを開き、自動で1行フ
 
 ## セットアップ
 
-### 1. Repository variable
-
-**Settings → Secrets and variables → Actions → Variables**
-
-| Name | Value |
-|------|--------|
-| `USE_NOTE_API` | `true` |
-
-### 2. Secret: `NOTE_SESSION_COOKIE`（このリポジトリで自動取得）
+### 1. Secret: `NOTE_SESSION_COOKIE`（必須・これだけで HTTP API が使われる）
 
 手元の Mac でターミナル:
 
@@ -49,9 +41,16 @@ npm run note:cookie
 
 **うまくいかないとき**（ログイン画面で弾かれる等）だけ、最終手段として **手動で Chrome にログインし、DevTools の Request Headers の Cookie 行をコピー**する方法もあります。
 
+`NOTE_SESSION_COOKIE` が **1文字でも入っていれば**、Actions は **自動で HTTP API** を使います（以前の「Variables に `USE_NOTE_API=true`」は**不要**）。
+
+### 2. （任意）Variable `USE_NOTE_API`
+
+- **通常は不要**です。
+- `USE_NOTE_API=true` にしたのに **`NOTE_SESSION_COOKIE` を入れ忘れた**ときだけ、ワークフローを失敗させて気づけるようにしています。
+
 ### 3. プッシュ
 
-`main` にマージ後、ワークフローは **HTTP API** 経路で `post_to_note_api.js` を実行します。
+`main` にマージ後、Secret に Cookie があれば **HTTP API** で `post_to_note_api.js` が実行されます。
 
 ---
 
@@ -80,4 +79,4 @@ NOTE_SESSION_COOKIE='（コピーしたCookie行）' node post_to_note_api.js da
 
 ## 元に戻す（Playwright）
 
-Variables の **`USE_NOTE_API` を削除**するか `false` にします。
+Secret **`NOTE_SESSION_COOKIE` を削除**（または空にできない場合は名前を変える）すると、従来どおり Playwright 投稿になります。

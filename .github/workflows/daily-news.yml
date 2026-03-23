@@ -259,35 +259,33 @@ jobs:
           npm install
           echo "✅ npm install done"
 
-      - name: Install Playwright Chromium (browser path only)
-        if: ${{ vars.SKIP_NOTE_POST != 'true' && vars.USE_NOTE_API != 'true' }}
-        run: |
-          echo "📦 Installing Playwright Chromium..."
-          npx playwright install chromium
-          echo "✅ Playwright installed"
-
-      # ブラウザを使わず Cookie のみで投稿（USE_NOTE_API=true + Secret NOTE_SESSION_COOKIE）
-      - name: Post to note.com (HTTP API)
-        if: ${{ vars.SKIP_NOTE_POST != 'true' && vars.USE_NOTE_API == 'true' }}
+      # NOTE_SESSION_COOKIE が Secret に入っていれば自動で HTTP API（変数 USE_NOTE_API 不要）
+      - name: Post to note.com
+        if: ${{ vars.SKIP_NOTE_POST != 'true' }}
         env:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
+          NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
+          NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
+          NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
+          NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
+          USE_NOTE_API_VAR: ${{ vars.USE_NOTE_API }}
         run: |
-          echo "📮 Posting to note.com via HTTP API (no Playwright login)..."
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
+          echo "📅 Today's date (HKT): $TODAY"
           TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
+
           if [ ! -f "$TODAY_ARTICLE" ]; then
             echo "❌ Error: Today's article not found: $TODAY_ARTICLE"
             exit 1
           fi
-          if [ -z "$NOTE_SESSION_COOKIE" ]; then
-            echo "❌ NOTE_SESSION_COOKIE secret is empty. Set it in GitHub Secrets."
-            exit 1
-          fi
-          set +e
-          node post_to_note_api.js "$TODAY_ARTICLE" 公開 2>&1 | tee /tmp/note_post.log
-          POST_EXIT_CODE=${PIPESTATUS[0]}
-          set -e
-          NOTE_ARTICLE_URL=$(python - <<'PY'
+
+          if [ -n "$NOTE_SESSION_COOKIE" ]; then
+            echo "📮 Posting to note.com via HTTP API（NOTE_SESSION_COOKIE が設定されています）"
+            set +e
+            node post_to_note_api.js "$TODAY_ARTICLE" 公開 2>&1 | tee /tmp/note_post.log
+            POST_EXIT_CODE=${PIPESTATUS[0]}
+            set -e
+            NOTE_ARTICLE_URL=$(python - <<'PY'
           from pathlib import Path
           import re
           path = Path('/tmp/note_post.log')
@@ -296,48 +294,30 @@ jobs:
           print(matches[-1] if matches else '')
           PY
           )
-          if [ $POST_EXIT_CODE -eq 0 ]; then
-            echo "✅ note API post finished (check log above)"
-            if [ -n "$NOTE_ARTICLE_URL" ]; then
-              echo "NOTE_ARTICLE_URL=$NOTE_ARTICLE_URL" >> "$GITHUB_ENV"
-              echo "📝 note記事URL: $NOTE_ARTICLE_URL"
+            if [ $POST_EXIT_CODE -eq 0 ]; then
+              echo "✅ note API post finished"
+              if [ -n "$NOTE_ARTICLE_URL" ]; then
+                echo "NOTE_ARTICLE_URL=$NOTE_ARTICLE_URL" >> "$GITHUB_ENV"
+                echo "📝 note記事URL: $NOTE_ARTICLE_URL"
+              fi
+            else
+              echo "❌ note API post failed (exit: $POST_EXIT_CODE)"
             fi
-          else
-            echo "❌ note API post failed (exit: $POST_EXIT_CODE)"
+            exit $POST_EXIT_CODE
           fi
-      
-      - name: Post to note.com (Playwright)
-        if: ${{ vars.SKIP_NOTE_POST != 'true' && vars.USE_NOTE_API != 'true' }}
-        env:
-          NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
-          NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
-          NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
-          NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
-        run: |
-          echo "📮 Posting to note.com (Playwright)..."
-          
-          # 今日の日付を取得（HKTタイムゾーン）
-          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
-          echo "📅 Today's date (HKT): $TODAY"
-          
-          # 今日の日付の記事ファイルを確認
-          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
-          
-          echo "🔍 Checking for article file: $TODAY_ARTICLE"
-          echo "📂 Current directory: $(pwd)"
-          echo "📋 All files in daily-articles/:"
-          ls -lh daily-articles/ || echo "⚠️  daily-articles directory not found"
-          
-          if [ ! -f "$TODAY_ARTICLE" ]; then
-            echo "❌ Error: Today's article file not found: $TODAY_ARTICLE"
-            echo "📋 Available files:"
-            ls -lh daily-articles/ || true
-            echo "💡 Possible causes:"
-            echo "   1. Article generation step failed"
-            echo "   2. Date mismatch (expected: $TODAY)"
-            echo "   3. File was generated with different name"
+
+          if [ "$USE_NOTE_API_VAR" = "true" ]; then
+            echo "❌ Variable USE_NOTE_API=true ですが NOTE_SESSION_COOKIE が空です。Secret を設定するか、USE_NOTE_API を削除してください。"
             exit 1
           fi
+
+          echo "📮 Posting to note.com (Playwright)… NOTE_SESSION_COOKIE が無いためブラウザ投稿です"
+          echo "💡 Cookie 投稿に切り替える: Secrets に NOTE_SESSION_COOKIE を追加（npm run note:cookie で取得）"
+          npx playwright install chromium
+          
+          echo "🔍 Article: $TODAY_ARTICLE"
+          echo "📂 $(pwd)"
+          ls -lh daily-articles/ | tail -20 || true
           
           LATEST_ARTICLE="$TODAY_ARTICLE"
           echo "✅ Article file found: $LATEST_ARTICLE"
@@ -601,46 +581,40 @@ jobs:
           echo "🔄 Retry: npm install..."
           npm install
 
-      - name: Install Playwright Chromium (Retry, browser path only)
-        if: ${{ vars.SKIP_NOTE_POST != 'true' && vars.USE_NOTE_API != 'true' }}
-        run: |
-          echo "🔄 Retry: Playwright Chromium..."
-          npx playwright install chromium
-
-      - name: Post to note.com — HTTP API (Retry)
-        if: ${{ vars.SKIP_NOTE_POST != 'true' && vars.USE_NOTE_API == 'true' }}
+      - name: Post to note.com (Retry)
+        if: ${{ vars.SKIP_NOTE_POST != 'true' }}
         env:
           NOTE_SESSION_COOKIE: ${{ secrets.NOTE_SESSION_COOKIE }}
-        run: |
-          echo "🔄 Retry: note HTTP API..."
-          TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
-          TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
-          if [ ! -f "$TODAY_ARTICLE" ]; then exit 1; fi
-          if [ -z "$NOTE_SESSION_COOKIE" ]; then echo "❌ NOTE_SESSION_COOKIE empty"; exit 1; fi
-          set +e
-          node post_to_note_api.js "$TODAY_ARTICLE" 公開 2>&1 | tee /tmp/note_post_retry.log
-          POST_EXIT_CODE=${PIPESTATUS[0]}
-          set -e
-          if [ $POST_EXIT_CODE -ne 0 ]; then echo "❌ Retry API post failed"; fi
-      
-      - name: Post to note.com — Playwright (Retry)
-        if: ${{ vars.SKIP_NOTE_POST != 'true' && vars.USE_NOTE_API != 'true' }}
-        env:
           NOTE_EMAIL: ${{ secrets.NOTE_EMAIL }}
           NOTE_PASSWORD: ${{ secrets.NOTE_PASSWORD }}
           NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
           NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
+          USE_NOTE_API_VAR: ${{ vars.USE_NOTE_API }}
         run: |
-          echo "🔄 Retry: Posting to note.com (Playwright)..."
-          
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
           TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"
-          
           if [ ! -f "$TODAY_ARTICLE" ]; then
-            echo "❌ Error: Today's article file not found: $TODAY_ARTICLE"
+            echo "❌ Retry: article missing: $TODAY_ARTICLE"
             exit 1
           fi
-          
+
+          if [ -n "$NOTE_SESSION_COOKIE" ]; then
+            echo "🔄 Retry: HTTP API（NOTE_SESSION_COOKIE あり）"
+            set +e
+            node post_to_note_api.js "$TODAY_ARTICLE" 公開 2>&1 | tee /tmp/note_post_retry.log
+            POST_EXIT_CODE=${PIPESTATUS[0]}
+            set -e
+            exit $POST_EXIT_CODE
+          fi
+
+          if [ "$USE_NOTE_API_VAR" = "true" ]; then
+            echo "❌ USE_NOTE_API=true だが NOTE_SESSION_COOKIE が空です"
+            exit 1
+          fi
+
+          echo "🔄 Retry: Playwright…"
+          npx playwright install chromium
+
           if [ -n "$NOTE_AUTH_STATE" ]; then
             echo "$NOTE_AUTH_STATE" > /tmp/.note-state.json
           fi

@@ -107,6 +107,52 @@ function extractImages(markdown, baseDir) {
   return images;
 }
 
+/** note エディタのタイトル欄（textarea / input 変更・言語差に対応） */
+const TITLE_FIELD_SELECTORS = [
+  'textarea[placeholder*="タイトル"]',
+  'input[placeholder*="タイトル"]',
+  'textarea[placeholder*="title" i]',
+  'input[placeholder*="title" i]',
+  '[data-testid*="title" i]',
+  'div[role="textbox"][aria-label*="タイトル"]',
+];
+
+function combinedTitleSelector() {
+  return TITLE_FIELD_SELECTORS.join(', ');
+}
+
+/** ログインページのままではエディタ操作できないことを明示して失敗させる */
+function assertNotLoginPage(page, context) {
+  const url = page.url();
+  if (url.includes('/login')) {
+    const msg =
+      `${context} 現在のURLがログインページです: ${url}。` +
+      'セッション切れ/パスワード誤り/CAPTCHA/二段階認証の可能性。GitHub Secrets の NOTE_EMAIL, NOTE_PASSWORD, NOTE_AUTH_STATE を確認してください。';
+    throw new Error(msg);
+  }
+}
+
+/** タイトル入力欄が表示されるまで待つ */
+async function waitForTitleField(page, timeoutMs = 45000) {
+  const deadline = Date.now() + timeoutMs;
+  let lastError = null;
+  while (Date.now() < deadline) {
+    for (const sel of TITLE_FIELD_SELECTORS) {
+      const loc = page.locator(sel).first();
+      try {
+        await loc.waitFor({ state: 'visible', timeout: 1200 });
+        return loc;
+      } catch (e) {
+        lastError = e;
+      }
+    }
+    await page.waitForTimeout(400);
+  }
+  throw new Error(
+    `タイトル入力欄が見つかりません（ログイン失敗・editor未表示・UI変更の可能性）: ${lastError?.message || 'timeout'}`
+  );
+}
+
 async function refreshTableOfContents(page, bodyHasHeadings) {
   if (!bodyHasHeadings) {
     console.log('ℹ️  見出しがないため目次をスキップします');
@@ -285,7 +331,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     page.setDefaultTimeout(30000);
 
     console.log('🌐 editor.note.com/new に移動中...');
-    await page.goto('https://editor.note.com/new', { waitUntil: 'networkidle', timeout: 30000 });
+    await page.goto('https://editor.note.com/new', { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForTimeout(3000);
 
     // ログインページにリダイレクトされたかチェック
@@ -339,28 +385,40 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
         throw error;
       }
       
-      // ログイン完了を待機（リダイレクトを待つ）
+      // ログイン完了を待機（ログインページから離れるまで）
       console.log('ログイン完了を待機中...');
-      await page.waitForTimeout(5000);
-      
-      // ログイン成功を確認（ログインページからリダイレクトされたか）
+      try {
+        await page.waitForURL(
+          (url) => !String(url).includes('/login'),
+          { timeout: 45000, waitUntil: 'domcontentloaded' }
+        );
+      } catch (e) {
+        console.log('⚠️  URL変化の待機がタイムアウトしました。現在のURLを確認します...');
+      }
+      await page.waitForTimeout(2000);
+
       const afterLoginUrl = page.url();
       console.log(`📍 ログイン後のURL: ${afterLoginUrl}`);
       if (afterLoginUrl.includes('/login')) {
-        console.log('⚠️  まだログインページにいます。追加の待機時間を設けます...');
-        await page.waitForTimeout(5000);
+        throw new Error(
+          'ログインに失敗しました（ログインページから移動しません）。' +
+            'パスワード・CAPTCHA・二段階認証・セッション無効を確認してください。'
+        );
       }
-      
-      // 認証状態を保存
+
+      // 認証状態を保存（ログイン成功後のみ）
       const storageState = await context.storageState();
       writeFileSync(statePath, JSON.stringify(storageState, null, 2));
       console.log(`✓ 認証状態を保存: ${statePath}\n`);
 
       // 新規記事作成ページに再度移動
       console.log('🌐 editor.note.com/new に再度移動中...');
-      await page.goto('https://editor.note.com/new', { waitUntil: 'networkidle', timeout: 30000 });
+      await page.goto('https://editor.note.com/new', { waitUntil: 'domcontentloaded', timeout: 60000 });
       await page.waitForTimeout(3000);
+      assertNotLoginPage(page, 'ログイン後にエディタを開いた直後:');
     }
+
+    assertNotLoginPage(page, '記事編集を開始する前:');
 
     // 見出し画像を設定（タイトル入力の前）
     if (thumbnail) {
@@ -389,7 +447,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
           await page.waitForTimeout(3000);
           
           // タイトル入力欄が表示されるまで待つ
-          await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
+          await waitForTitleField(page, 45000);
           await page.waitForTimeout(1000);
           
           // 見出し画像ボタンを探してクリック（複数のセレクターを試す）
@@ -443,7 +501,7 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
             // タイトル入力欄の周辺を詳しく探す
             console.log('タイトル入力欄の周辺を詳しく探しています...');
             try {
-              const titleArea = page.locator('textarea[placeholder*="タイトル"]').first();
+              const titleArea = page.locator(combinedTitleSelector()).first();
               if (await titleArea.isVisible({ timeout: 2000 })) {
                 // タイトル入力欄の親要素から画像追加ボタンを探す
                 const parentElement = titleArea.locator('..');
@@ -607,8 +665,8 @@ async function saveDraft(markdownPath, username, password, statePath, isPublish 
     }
 
     console.log('📋 タイトル入力中...');
-    await page.waitForSelector('textarea[placeholder*="タイトル"]', { timeout: 30000 });
-    await page.fill('textarea[placeholder*="タイトル"]', title);
+    const titleField = await waitForTitleField(page, 45000);
+    await titleField.fill(title);
     console.log('✓ タイトル入力完了');
 
     console.log('📝 本文入力中...');

@@ -50,6 +50,9 @@ package-lock.json
 .DS_Store
 Thumbs.db
 
-# note state
+# note state (ローカルで npm run note:auth が出力。コミット禁止)
 .note-state.json
+.note-auth-state.json
+.note-auth-state.compact.json
+.note-session-cookie.txt
 

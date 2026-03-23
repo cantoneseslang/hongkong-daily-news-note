@@ -5,7 +5,11 @@
   "description": "香港ニュース自動生成・投稿システム",
   "main": "post_to_note_playwright.js",
   "scripts": {
-    "post": "node post_to_note_github_actions.js"
+    "post": "node post_to_note_github_actions.js",
+    "note:auth": "node scripts/note_save_auth_state.js",
+    "note:auth:storage": "playwright open https://editor.note.com/new --channel=chrome --save-storage=.note-auth-state.json",
+    "note:auth:cdp": "node scripts/note_save_auth_state_cdp.js",
+    "note:cookie": "node scripts/export_note_session_cookie.js"
   },
   "keywords": [
     "hongkong",
@@ -17,6 +21,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "marked": "^15.0.0",
     "playwright": "^1.40.0"
   }
 }

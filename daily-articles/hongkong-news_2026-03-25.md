@@ -1,0 +1,453 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年03月25日)
+thumbnail: images/article-header-20260325_061714.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年03月25日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年03月25日05時45分に発出した天気報告
+
+広東沿岸では風が弱いでしょう。香港では、今朝は天気が湿っており、横瀾島では視程が一時1000メートル程度まで低下しました。
+
+香港地域の今日の天気予報：
+午前中は一部曇り、沿岸部では霧が出るでしょう。日中は概ね晴れて暑く、市街地の最高気温は約28度、新界ではさらに2、3度高くなる見込みです。微風が吹くでしょう。
+
+週間予報：今週残りの期間は日中かなり暖かく、朝晩はやや湿気が多いでしょう。
+
+**引用元**: 香港天文台
+
+### アート・セントラル、過去最大規模の展示で地域とのつながりを強化
+
+アート・セントラルは、香港アート月間の一環として水曜日に開幕し、過去最大規模の展示で香港の活気ある文化シーンを祝います。2026年のフェアには、50以上の国と地域から117のギャラリーと500人以上のアーティストが集結し、芸術交流の世界的ハブとしての香港の地位を強化します。
+
+開幕に先立ち、フェアディレクターのコリー・バー氏は、イベントの国際的な広がりとともに、地域に深く根ざしていることを強調しました。「アート・セントラルは、アート、アイデア、交流の世界的拠点としての香港の役割を再確認し続けています。参加ギャラリーの85パーセントがアジア太平洋地域に拠点を置いていることを特に誇りに思います」と彼は述べました。「これらのギャラリーには、香港をコレクター、機関、キュレーター、観客とのつながりのための重要な場所と見なし続けている主要な国際的な出展者が加わっています。」
+
+バー氏は、今年のフェアは「国際的に共鳴する対話に語りかけながら、香港に根ざす」ことを目指し、デビューする新進アーティストから長年の機関的評価を持つ著名なアーティストまで、幅広い作品を来場者に提供すると述べました。
+
+主なハイライトは、キュレーターのエノック・チェン氏が監督する新しいプラットフォーム「セントラル・ステージ」のデビューです。チェン氏はフェアに携わって3年目となります。「このフェアの真に特別な点は、人々を結びつけ、コミュニティの中にコミュニティを築き、地元の声を世界のアーティストとつなぎ、アートのエコロジーをダイナミックに保つ中小規模のギャラリーを支援する方法だと感じています」と彼は語りました。
+
+このプラットフォームには、日本、インドネシア、イラン、米国、リトアニア、南アフリカ、フィンランドから6組のアーティストとコレクティブが参加し、パフォーマンス、アートインスタレーション、絵画、彫刻、写真作品を展示します。チェン氏によると、これらのアーティストの多くは香港またはアジアで初めて展示を行います。
+
+さらに、フェアは地元のニューメディアアーティスト、ケイトリン・ハウ氏に大規模なインスタレーションの制作を依頼しました。「Recursive Feedback Ritual 0.01」と題されたこの作品は、ハウ氏のデジタル具現化における感情的、知覚的、技術的側面への探求を続けています。再帰的なフィードバックループを通してモーションキャプチャデータを使用し、このインスタレーションは精神医学的症状を繰り返しと解離のサイクルとしてマッピングします。「この新世代において、デジタルツールは私たちの母国語です…私たちが扱えない外国語ではありません」とハウ氏は述べました。「だからこそ、デジタルアートは香港で台頭しているメディアなのです。」
+
+アート・セントラルは3月25日から29日までセントラル・ハーバーフロントで開催されます。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1848589-20260324.htm
+
+### ビュッフェ1つ買うと1つ無料キャンペーン｜銅鑼湾Mr. Steak a la minute「フランス美食フェスティバル」ビュッフェ、一人あたり205香港ドルから赤ワインフォアグラ、ブルゴーニュ産赤ワイン煮込み牛頬肉、佐賀和牛焼きが楽しめる
+
+銅鑼湾のMr. Steak a la minuteでは、「フランス美食フェスティバル」ビュッフェが1つ買うと1つ無料になるキャンペーンを実施しており、一人あたり205香港ドルから赤ワインフォアグラ、ブルゴーニュ産赤ワイン煮込み牛頬肉、佐賀和牛焼きなどが楽しめます。この超お得な205香港ドルからのキャンペーンでは、雪花蟹やローストビーフも食べ放題です。復活祭にも適用されるこのキャンペーンは、元ミシュランシェフが監修し、生牡蠣やシーフードも食べ放題です。佐賀和牛、赤ワインフォアグラ、ロブスターシーフード煮込みなどが一人あたり205香港ドルから楽しめるMr. Steak a la minuteの復活祭ビュッフェ1つ買うと1つ無料キャンペーンは、和牛、ロブスター、生牡蠣が楽しめる銅鑼湾のビュッフェ1つ買うと1つ無料キャンペーンとして、新假期でも紹介されています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSWFTZ2dGRnpldDItT0R6QlJ4eGxTTEZXR0g5RVhzRGhxNFlJY3pqTFFzemZhcE1KMEZaMWFMY3k5cGVNalZWbHpaTU1ldWhKd0FVb3o5SWRGdG00bmhYX3I4aXcxWDE3aVA5eWxyUG1WcFNLaS15MXBPUnljendCQWlmdXJsNVhyOFotVXE1VUtuWUpHZWl0VGpkcDY2VWxUaUswRGpYbjZxcjhrVWdwTmgtUzA4akhfbjFfblp1eThMYXdtNDNzTUhPTTdWWFFmaGtKTTlIRTNJMldhVE55NG5aampQUGQzQ0ozTG9ndEJVYmlwWWMxYU1xMlFaQQ?oc=5
+
+### 「中国のソフトパワー強化は香港の使命」
+
+香港理工大学評議会会長のラム・タイファイ氏は火曜日、中国の「ソフトパワー」を強化し、中国文化を促進することは国家戦略であるだけでなく、香港と大学にとって現代の使命でもあると述べました。この戦略は第15次五カ年計画の一部です。
+
+ラム氏は、複雑な地政学的状況が続く中、世界第2位の経済大国である中国は、安定した世界開発を促進し、多国間主義を維持する上でますます重要な役割を担っていると述べました。彼は大学の第3回中国文化祭でのスピーチで、「国の地位と影響力は、経済的・技術的な『ハードパワー』だけでなく、深い文化的自信からも生まれる」と語りました。
+
+ラム氏は、理工大学が広東省恵州市や福建省晋江市などのチームと協力し、客家文化や閩南文化を紹介するために、他の省政府や関連組織との協力を強化すると述べました。彼は、この文化祭が中国文化を世界に紹介し、国際交流を促進するための重要なプラットフォームであると語りました。
+
+大学はまた、ラム氏にちなんで名付けられた円形劇場を発表しました。理工大学学長のテン・ジングアン氏は、この会場はランドマークであるだけでなく、社会への貢献、卓越性の追求、そして国家と世界に対するビジョンを象徴するものであると述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1848604-20260324.htm
+
+### 荃湾区の同一オーナーの2つの飲食店がペンキをかけられる、警察は器物損壊事件として捜査
+
+荃湾区にある同一オーナーが経営する2つの飲食店がペンキをかけられる被害に遭い、警察は器物損壊事件として捜査を開始しました。葵涌の2つの飲食店が赤いペンキをかけられた事件は、警察によって器物損壊として扱われ、容疑者の追跡が行われています。大窩口にある同じオーナーの2つの飲食店が器物損壊の被害に遭い、警察は動機を調査しています。大窩口の2つの飲食店が赤いペンキをかけられた事件（12:12）は、2026年3月24日の港聞明報新聞網でも報じられています。葵涌の2つの店舗が赤いペンキをかけられた事件は、器物損壊として処理され、関係者の追跡が行われています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi2wJBVV95cUxMdFFvRnR2VlhqOGloN1Y2U2JoM2h0ZTRwQWNJalA5Y0VLUkltcEk2OFFhN2RDb29JMHNpX1lyeVRBTHVSWmZEazdlYm1sTXhyR1ptaTh1c0duMEE3Qm1GYk9IRGFfekNVWlNETU4tMmJSOU9jamNGcjEzVkpES2FKcmY5ZW5yWFc5RXJMWlhrN3BMNWRMeTVaQktjUjFYZFdiajJJWGh3SDFjWWx2aVAyTUVqeW56Z2xQZU9iSnl5dE1kLWM1ZERJLV9ldTNvZlM3ZGdPM3BiemE3emVPc0tBNVFQUDY0YVdzNUF2OVBKbGU0YnJkNlY1ZFdaa1VyS1B4STdYaHZ0ak9KR2k3MmZTR1NIR2lCZkNhV2poRDZjQVJtU3dBdDltVWpiNzdXM3hYQTIyeVV1bVM5Nld3S3dnVUV4aG1vSkJUcldEVVBXamNTa2E5dDhRVmRSWQ?oc=5
+
+### シンガポールのローレンス・ウォン首相、ボアオ・フォーラム訪問後に香港を訪問へ
+
+シンガポールのローレンス・ウォン首相は木曜日に香港に到着し、3日間の訪問中に香港の行政長官、政治家、ビジネス関係者と会談する予定です。また、ノーザン・メトロポリスの巨大プロジェクトの主要な場所を視察し、協力の機会を探ります。これはウォン氏が2024年5月にシンガポール第4代首相に就任して以来、初の香港公式訪問となります。この訪問は、ウォン氏が海南で開催されるボアオ・アジア・フォーラム年次総会に出席した後に行われます。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/article/3347743/singapores-lawrence-wong-visit-hong-kong-after-boao-forum-trip?utm_source=rss_feed
+
+### 香港、海南と協力し自由貿易を推進へ：行政長官
+
+行政長官のジョン・リー氏は火曜日、貿易摩擦とリスクが高まる中、香港が積極的に世界貿易ネットワークを拡大していることから、海南省と協力して自由貿易を推進するよう努めると述べました。この発言は、4日間にわたるボアオ・アジア・フォーラム年次総会の一部であるグローバル自由貿易港開発フォーラムでのスピーチで行われました。
+
+リー氏は、香港が最近、カタール、バングラデシュ、ペルーとの投資協定交渉を締結し、サウジアラビアとエジプトとの新たな協定も視野に入れていると述べました。彼はまた、香港がより多くの自由貿易協定を締結する努力の一環として、世界最大の自由貿易協定である地域包括的経済連携（RCEP）への参加にコミットしていると付け加えました。
+
+リー氏はイベント参加者に対し、「一部の国が戦線を引いている中、香港は貿易ルートを引いています。私たちは対立よりもつながりを選び、紛争よりも協力を重視します」と語りました。「香港は、香港と強い貿易関係を持つ経済圏や、発展の可能性を秘めた戦略的な場所にある新興市場を含む貿易パートナーとの協力を積極的に求めています。」
+
+リー氏はまた、香港が本土に16の事務所と連絡事務所を設置し、海外には15の経済貿易事務所を設置して、機会を求める世界の投資家と香港を結びつけるのに役立っていると述べました。これらの事務所と部署は、インベスト香港と貿易発展局の下にあるものを含め、68都市にまたがり、129カ国をカバーしていると彼は付け加えました。
+
+一方、政府のGoGlobalタスクフォースが新たに発表した、分野横断的なワンストップ専門サービスプラットフォームは、より多くの本土企業が国外に事業を拡大するのに役立つだろうとリー氏は述べました。
+
+これとは別に、行政長官は、香港が10月に開催されるAPEC財務大臣会議を「包括的な」手配で主催するために全力を尽くすと述べました。「世界が激動の時代にある中、香港は孤立することなく、開放性をもって不確実性を乗り越えることにコミットしています」とリー氏は語りました。「海南自由貿易港と香港が互いに補完し合い、自由貿易のための強力なエンジンを構築すると確信しています。」
+
+リー氏は、「香港は、海南省、そして自由貿易を重視する本土および世界中の友人たちと協力し、人類の共有の未来を持つ繁栄したグローバルコミュニティを構築するよう努めます」と述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1848593-20260324.htm
+
+### 香港投資公社、ゴビ・パートナーズ、香港大学が連携し、大学研究発スタートアップ支援ファンドを設立
+
+香港政府の投資部門である香港投資公社（HKIC）は、ベンチャーキャピタル企業のゴビ・パートナーズと香港大学（HKU）と提携し、火曜日に大学の研究成果から生まれたテクノロジースタートアップに投資するファンドを立ち上げました。HKICの声明によると、ゴビ・香港大学ファンドIは、立ち上げ時にロボット工学向けの空間インテリジェンスを開発するマニフォールド・テックと、AI駆動型医薬品に焦点を当てるアイルシンバイオの2社に投資を行いました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3347689/hkic-gobi-partners-and-hku-team-fund-backing-university-research-start-ups?utm_source=rss_feed
+
+### 香港のeMPF、4月から手数料を21.6%削減、10年間で64億米ドルを節約へ
+
+香港の強制積立金（MPF）の電子プラットフォーム（eMPF）は、4月1日から378の投資ファンドの管理手数料を21%以上削減すると、年金規制当局が火曜日に発表しました。これにより、10年以内に500億香港ドル（64億米ドル）のコスト削減目標を達成できると付け加えました。ポール・チャン財務長官がこの削減を承認し、管理コストは運用資産の0.37%から0.29%に引き下げられ、21.6%の手数料削減となります。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3347671/hong-kongs-empf-cut-fees-216-april-saving-us64-billion-10-years?utm_source=rss_feed
+
+### 香港の芸術団体への資金削減なし、今後3年間は維持を約束
+
+香港の芸術資金提供機関は、公共財政が逼迫する中で助成金制度の見直しを行っているにもかかわらず、今後3年間は芸術団体やアーティストへの財政支援を削減しないと月曜日に誓約しました。香港芸術発展局のこの約束は、ポール・チャン財務長官が2月に発表した最新予算で強化された、法定機関に支出削減を求める政府の取り組みの中でなされました。同局は、他の政府機関と同様に、約2%の削減に直面しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/article/3347605/no-funding-cuts-hong-kong-arts-groups-next-3-years-agency-chief-pledges?utm_source=rss_feed
+
+### 香港、アート・バーゼルとの画期的な協力協定を締結へ
+
+香港は今月末までにアート・バーゼルと5年間の協定を締結する予定です。これは、香港の文化当局と主要なアートフェアとの間で初めての協力であり、金融投資と文化部門の発展との関連性を強調するものとなります。文化・スポーツ・観光局長のローザンナ・ロー・シュクプイ氏は月曜日、アート・バーゼルとの今後5年間の協力は、「グローバル金融センターとしての役割、協力、そして共有された持続的な投資の結果である」と述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3347598/hong-kong-sign-landmark-art-basel-collaboration-deal?utm_source=rss_feed
+
+### 世界の投資家、混乱の中「安定」の中国へ軸足移す：ミルケン・フォーラム講演者
+
+世界の投資家は中国に改めて注目すべきだ。中国では急速な技術進歩が、他の地域と比較して地政学的リスクの低下と合致していると、ミルケン・インスティテュートのグローバル投資家シンポジウムで月曜日に上級投資幹部が述べました。香港で開催されたこのイベントには、「変化する世界における資本」をテーマに、投資、銀行、金融、テクノロジー、消費者部門から500人のビジネスリーダーと上級幹部が集まりました。「真剣に考えるべきだと思います…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/markets/article/3347593/global-investors-pivot-stability-china-amid-turmoil-milken-forum-speakers?utm_source=rss_feed
+
+### 中東戦争で玩具からトイレットペーパーまで物価上昇へ、専門家が指摘
+
+中東紛争による原油価格の高騰は、香港でプラスチック製品、建設資材、さらにはトイレットペーパーなどの家庭用品のコストを押し上げると、ビジネスリーダーたちが述べました。彼らはまた、月曜日に、海外のバイヤーが不確実性の中で短期的な注文を選択しているため、一部の地元輸出業者や製造業者がキャッシュフローの逼迫に直面していると警告しました。元ビジネス部門の議員である行政会議メンバーのジェフリー・ラム・キンファン氏は、中東の緊張が…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347588/toys-toilet-paper-prices-set-rise-amid-middle-east-war-experts-say?utm_source=rss_feed
+
+### リーガル・ホテルの1億9400万米ドルホテル売却、香港の学生寮への投資拡大を浮き彫りに
+
+リーガル・ホテルズ・インターナショナル・ホールディングスとその傘下企業は、494室のリーガル・オリエンタル・ホテルを約15億2000万香港ドル（1億9400万米ドル）で、香港最大の不動産仲介ネットワークの一つを運営するセントラライン・グループの不動産投資部門に売却しました。このホテルは学生寮に転用される予定です。リーガル・ホテルズと関連会社のセンチュリー・シティ・インターナショナル・ホールディングス、パリバーグ・ホールディングスは、サ・ポー・ロードにある17階建てのホテル（地下2階を含む）の売却に合意したと、グループは提出書類で述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3347571/regals-us194-million-hotel-sale-highlights-investor-push-hong-kong-student-housing?utm_source=rss_feed
+
+### ジョン・リー行政長官、海南省海口に到着、木曜日にボアオ・アジア・フォーラム年次総会に出席
+
+【Now新聞台】ジョン・リー行政長官は正午に海南省海口に到着し、木曜日にボアオ・アジア・フォーラム年次総会に出席する予定です。リー行政長官は海口空港で、海南省委員会統一戦線工作部および省政府香港マカオ事務弁公室の代表者から歓迎を受けました。彼は、今年がボアオ・アジア・フォーラム設立25周年であり、非常に重要な意味を持つと述べ、世界各国の政府高官や国際機関の責任者らと交流し、共通認識を深め、発展の大計を共に議論することを楽しみにしていると語りました。彼は、中東情勢の緊迫化、一方主義の台頭、地政学的紛争の激化という状況において、年次総会の開催はより重要であると強調し、アジア各国・地域は団結して協力し、共通の課題に対応し、アジアひいては世界の発展のために平和的で、ウィンウィンで、効率的な発展策を提案すべきだと述べました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%9D%8E%E5%AE%B6%E8%B6%85%E6%8A%B5%E9%81%94%E6%B5%B7%E5%8D%97%E6%B5%B7%E5%8F%A3-%E5%91%A8%E5%9B%9B%E5%87%BA%E5%B8%AD%E5%8D%9A%E9%B0%B2%E4%BA%9E%E6%B4%B2%E8%AB%96%E5%A3%B1%E5%B9%B4%E6%9C%83-051225060.html
+
+### 新東方寄宿クラス26万香港ドル、全額支払い義務は違反の可能性、ワンストップ進学サービスが越境学生を誘致、提携寮は図面変更申請なし
+
+新東方の寄宿クラスは26万香港ドルで、全額支払いが義務付けられており、これは規則違反の可能性があります。ワンストップ進学サービスは越境学生を誘致していますが、提携している寮は図面変更の申請を行っていません。Yahoo財経によると、補助金付き学校が非地元学生を受け入れることを許可する計画について、蔡若蓮氏は「もし突然大量の学生が香港に来たいと思ったら」と述べています。学生寮用地3区画に22件の意向書が寄せられ、当局は最速で2026/27年度に公開入札を行うと予想しています。葉偉倫氏は、学生寮管理における三重の課題として、政策遵守からコミュニティへの帰属意識までを挙げています。信報サイトでは、海外からの学生の寄宿需要が増加しているため、陳曉峰氏は門戸を広げることを提唱しています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi5gNBVV95cUxNSFlDVTZGdTJNdkJoMFBPdTZLcm1DeVV2MVQ0OFlzZWpocXByRlYzUmZybGZDNlN1eFpScXBYUW5OdVJESVZsZXV3TEljaVNzWWxsX3NWaFJUb2lwTk9ob0NaRkxtVEdQV2UzbDZFaDNPV29HcFJ0TFJNeTViZlJzcE9KbDVwQjlwSm9xYWdqZkFWRjV3QWJDaTFRUHRRd19fd1UyQ0piNlBEYmFRdlBSV2RhZ1hUX2pROHh3TUlkNDBkSmJvTWpKVzNFX2MwU3VzbTZfRXJwWnJ1cUZ0ejJCM3dZcm50RjVmNDFGVHBMRmR1RzRmaEZyYWxxQXpPUHNjcENlYWFNNDlYMWxRMm9xYy1zZVQteGp6SzhvMm9HbWxIY2prdUFJb2hEbEZaUmZiUVd0V1FQVThydEYtRnNLb2xrWHNnMENZcmhkenlrSjBYR042di15bjRFcTlaeDk5bHlSM0JWekhWT2NVaHdLXzEyRmNuWWZ4MC1vYmJEWERHVTNVUFdwYTVlQ1RrUXRkMzVsenQzZ1Q2SFhyQUllUnp5aE5RNHhkOHA0cmFHSVVrLUdvVGItV1VCTnhqdmhKamgwSmVwZmdMODRualdEYnd1VmE0SGwyNVZyaXJXU1hITlNLN0E?oc=5
+
+### 2人のエンジニアが泥酔女性への集団レイプに関与か、弁護側は第一被告の勃起不全を主張、被害者は第二被告に「あなたの番だ」と発言
+
+2人のエンジニアが泥酔女性への集団レイプに関与したとされる事件で、弁護側は第一被告が勃起不全であったと主張しました。被害者は第二被告に対し「あなたの番だ」と発言したとされています。第一被告は友人に「間違いを犯した」と語り、誰かが彼を押し退けて自分でやったと述べたことが報じられています。泥酔した女性をホテルに連れ込み集団レイプしたとされる事件で、被害者は「侵犯された感覚があったが、叫ぶ力はなかった」と証言しました。2人のエンジニアがクリスマス・イブに泥酔女性をレイプしたとされる事件の審理が始まり、第一被告は録音で女性をホテルに連れて行き関係を持ったことを認めています。第一被告は警察の警告尋問に対し「女性は自発的だった」と述べ、第二被告は性行為があったかどうかは不明だと語っています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxPbTh3YkxhYnBpVlJSSFZyYXh3d1dsZjBVOTBrUWRwS3M2cngwM0FJN1RubmJIbHFEVUM0UFdWZDdJLTJibFNBM0NLMUFhazZhNHhrcFZ0R3FEeWZMR3AyeWoxMGloVlVzdVBuNUw5RVJTdTY1d2RVR0gtaXNkRVpUQndGVWkwTlN5MGdJeXBhS3ZOR1ZpTjROeTBmbWQ1YWoyR3I5NVVnWVczNjc5c1RDOFhkMkVIaHMwdm1rTFlRcGhjRnliTUxBLTB1NURrM0cxM2RMVE1WTEdsU200WlJ5ZXFiT2ltYUxkZ19NQ0M3LVdYQUZqQi1xbl9iNGxfMmgtMnIzUGNfMUtuM05qMWpUQXVybTRIZU0xUl8xcFpLNjl1MjBvRExHdDVacVpUdTZSSms4ci1RNFN6S3pITlRyZ1pDNG1DUUtwR1NtVmZiU09sdnZBdl9NcDVBTFd5QjVtMnZRSjZ0X1pISlNhRzhZLU9qYk5PRExzbU84aEdkRjRWMl9zdzhwRkFWcGF5S3VTN2xkMmR1M1VMVjlWMldVclJsaUYwM3ljbldlLUFUYl9Ubm5MZGt1Q2VrS3hmVUtlamk4MnlZWUs?oc=5
+
+### 香港に長年住む中国本土出身者が「もう戻れない」と感慨？生活の4つの細部を絶賛し「心地よいリズムが形成されている」と語る、ネットユーザーも共感「本当に香港が大好き」
+
+香港に長年住む中国本土出身者が「もう戻れない」と感慨を漏らしています。彼らは香港での生活の4つの細部を絶賛し、「心地よいリズムが形成されている」と語っています。ネットユーザーもこれに共感し、「本当に香港が大好き」とコメントしています。小紅書（RED）のネットユーザーが香港を訪れた後、香港人が友好的で、これまでの固定観念が改善されたと投稿しています。香港人は実はとても人情味があるというハッシュタグが、本土からの観光客、香港、小紅書、life730、am730のFacebookで共有されています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiigRBVV95cUxNMEJremwtOGQ5dHhiLVRwV20xNkFqcHdiTlpXYVI4d0xMU0pBUjdfQUFHSk93SGpkOUdkRjFsNzBNRjlTTW91Q2tnSmticEpETVVQcjVSZV9TdkdrNE96SzZsRXJ4YzhCOTFDLUMxNnJLNHRkaVI2T0NwU1Yxb210dEo1TEUyQzJCVlZoX3loZUFOR2M2R0VOOThmdS1nVG1EQ3E5Q1I0RmN6WGpJd0NpVGljT1hKb0MtUklFQUNsNnRkWE8tbzUwRjlNUEd4Z0tEZjMtMm92N3h4QTFhMXB4M0I4ZGdyS0NMVEJkVTRoc1c5RVBhRVFJUjNxVjlpVVJXcjRwbVZUeUZQXy1sTHlQRkZ6TlFweGNIcnVMMjhzT1ZNVGdMNmVIazVncEZhN2NCbGN5aWs3MlVZcGZTbDNEaUJNX0NXeFpHdFctVjItTFQ2QTdkVnVkUHBidkp0dWNIYVkzR0tGX01neWZtakNUcEFEMnFLa0tLNzI5c2I5SHd1R25IWnVGZUE4R2dzeWVjV2hqNlJjbGxaWTJWeXZqZ2hmOFhuVy1xd1cxWk14SGVoN3E3czRIUzg4REliaU5Ic0dpMWNfM1JMX2JKenJhNlppbG96MVNnaTFJaDA0djRxOVB4RkhsVldrbDhscURjTmZVR2NYUl9MWXVRdWpPUXhCZm1QejRYUVE?oc=5
+
+### 屯門で「豚肉分割師」を募集、最高月給8万香港ドル、2～3頭の豚を単独で解体できること！応募要件一覧
+
+屯門で「豚肉分割師」が募集されており、最高月給は8万香港ドルです。応募者は2～3頭の豚を単独で解体できる必要があります。入職要件の詳細が香港01で公開されています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi_gJBVV95cUxONXJPT2dTVVBpVk1Ud2phaVJlZG5GT0xLNUtCbEY5eEszSXVsYjU4LTN4dGc4ZHJYeXZzMWZYbVFYeTZod0N0Zk5Oc21jemhVYjJNMzBCWmRFQVh1UEpBZmphdURUYkgzOVdCQjhFSWRsdzdLdGZfaE9DZDBZV0gxSEp4OWNLRWgyWlNOaGlvdFlDQWxTWmhMdk9fb0pZdnVfUVY5eWUyNUdmU0tBNk1pVDhQUU1nLUZ3SFFaMFBKa1JfaWtMUF9QN0JwNWhCeFBXNUFQclc0MGpVV3JtVFppd3kxb1BHT1BJS2lvMldNbDNwMTRwNm9nSmE5eUd0R3lDOWNfRkp4NFpoWWx5N2xlX0Z2c2dvdUtNRmgxM0dXa1pocHQ1S0NFb0QxQ0tSWkY0bFZtM0w5ZUx0em5qOVk0R3hFT1pDall4aXZFLWNlSXFIWE1WeG9MMlVpanYyZWtGNkJ6VldZWHNvaERsTTNmTjk1b1VFbmZndERkdUhB?oc=5
+
+### 東張西望｜土瓜湾で老婆が横断歩道を渡る子供を連続平手打ち！警察が監視カメラを調査し潜伏逮捕
+
+テレビ番組「東張西望」によると、土瓜湾で老婆が横断歩道を渡る子供たちを連続して平手打ちする事件が発生しました。警察は監視カメラの映像を調査し、潜伏捜査の末、容疑者を逮捕しました。ドライブレコーダーの映像には、土瓜湾で香港版「当たり屋」のような老婆が、横断歩道を渡る子供たちを無差別に平手打ちする様子が映っており、2人の子供が無差別に殴られました。TVBの「東張西望」では、土瓜湾で「平手打ち婆婆」が出没し、通りすがりの2人の子供を無差別に襲撃する事件が報じられました。目撃者が警察に通報しましたが受理されず、「東張西望」に連絡したことで事件が発覚しました。その後、警察は57歳の女性を逮捕しました。ドライブレコーダーの映像には、土瓜湾で老婆がランダムに人を殴る様子が映っており、2人の子供が横断歩道を渡る際に無差別に平手打ちされました。ネットユーザーは「子供をいじめる専門家だ！」と激しく非難しています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMitgNBVV95cUxPeG1tUG1LQXh0VUN6dVpHc0wzS3JLZXFzM0NPQXRRWGFoWTgzdVFYMzZrNnk1d2lQVEZUTEt1SlR5VXN2OERRUldTTG1vUXZtcUlzZ3h4Yzl4TlV3RmZILVpyQm13OXNJWjlVQXJVc3QtZTdIZWxWaVdNNEtjMm1FUXh1NWFUd3FBd2wxdzhpcTFIaW54WmJDSkRpSVlfamQ4bjZpMEw3Tk1fTS1uX2Vuc0VzME5tSFlzc1YyV3dhaE8xcEVNTGFPd0s0ZVlCSGV4OHhlX0QxZjZEWGtQTXlOV1NlUGVNcjhvWmVpMlpYeEZJa0JfeXAxMnBWa0tVNkhTWmJ2RlFTLXFxbmxRQUkxN0RMcGdxWWNKYUFIUVU1UWZiMTVGcVpTX0FiUEFhVDZ4Y08waWFGYnJ2d1UxT25FZjR0aE1FZkZQSG4zUUxLQk82d2R4TlNkRG1XMUprUi1VNk1jcG5qOUZLQXpyZllvOGJzcWpSMTBlQTdEOEpQaEhibDk1VEg1NnhBeGN5UEd3U240STdoMTZKSWNKM0hGTm80QUVDM0tUQnBBY2tjbi1LWE9NX3c?oc=5
+
+### 「元祖」店舗閉店で九龍城広場の取り壊し時期が再び話題に、広場側は「現時点での再開発計画はない」と回答
+
+「元祖」店舗の閉店により、九龍城広場の取り壊し時期に関する検索が再び活発化しています。広場側は「現時点での再開発計画はない」と回答しました。閉店ラッシュの中、九龍城広場の好彩海鮮酒家は賃貸契約満了のため閉店しました。信報サイトによると、九龍城の好彩海鮮酒家が閉店しました！30年間営業し、点心を事前に作らないことにこだわってきたこの店に、常連客は「従業員はとてもプロフェッショナルだった」と惜別の念を抱いています。閉店ラッシュ｜老舗の明星海鮮酒家が九龍区から「ゼロ」に、今月新蒲崗と観塘の2店舗が相次いで閉店しました。東張+ myTV SUPERによると、【老舗閉店】九龍城広場に30年間店を構えた好彩海鮮酒家が「やむなく幕を下ろす」ことになり、常連客は「事前に作らない点心にこだわった数少ない酒家だった」と嘆いています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiqANBVV95cUxNMVhzU3pZeExZOTJPNWFaaVZEeGxueHVielM2UGVfX21TWjd5YVlEN3pmUmIzWVhISVAtYUNtM0xQbG5iR3RTQy1NNVlRYnhoeHNQYnNJRW5od1Ztb2lqT2RqTGo3VEJTd2JTMmM0WUxueVFCUGhhSlc2RzhXUk9kY0VUeGZ4bU5YLXhyY0g5bFNwc1IwTE9LRlc5ZnAzclZMSzJOQjNmMGhJZW02eUduNU9taDNqd0Z6cTFwZXh0X25XbHd4TndiQzZYU1JfUGVLWXQ0WGVJM0RXWUwxS2FORUFJSk5kcUR2a2hoM05mbkM5bmJPbm41S2VDQS1jdTlRQ3NPUENJRWwwR3MxLWVqNGEzVVBfVHNLOEZZTHl4QkdtVlZpTnBEbTdLMGFicEd0Y1o0dUE5a19DeGt0aDJoZnB0RWx2V0IyZnByNkpVZktEWDhSUmdYeGxfc0JRS3dOUWtscVRoOXFYcnByNjh1ZlI1OS1mZ0pBVEZGWVVPZnhObzZHd2dhM0Vlck03UWVQODU0aEwwS2k5Nk02dXpkWmc2MU5aRG4z?oc=5
+
+### 国家安全維持法実施細則の改正を一挙解説｜H金利が上限に達し住宅ローン返済の負担軽減に期待｜呉幸美が人妻に、一般人夫の正体が明らかに｜3月24日・Yahoo早報
+
+国家安全維持法実施細則の改正について、一挙に解説します。H金利が上限に達し、住宅ローン返済の負担が軽減される可能性があります。呉幸美さんが結婚し、一般人である夫の正体が明らかになりました。3月24日のYahoo早報です。鄧炳強（クリス・タン）保安局長は、警察官が国家安全保障上の理由と令状に基づいてのみ電子機器を捜索できると述べました。香港電台新聞網によると、国家安全保障の防衛線を築き、法の支配の精神を示すという評論が香港文匯網に掲載されています。国家安全維持法第43条実施細則の改正について、張國鈞（エリック・チャン）律政司副司長は、法執行機関に新たな権限は追加されないと述べました。Now新聞によると、警察官が携帯電話のパスワードを要求するには、まず捜索令状を申請する必要があるという国家安全維持法の新規定が注目を集めています。鄧炳強局長は「恣意的な法執行ではない」と述べました。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMijwNBVV95cUxPYlV1djRFOVlPV3A2QlZEZlpDLTk5S3ZLWW5sUVYzRXFkQUctdnI5aG43Vm94U1NCMlpMbmh6clQ4eVJuWktDTWRTVHl3SXZyODVyZ244clFVLThSb0xiRWhMSTlST1NxNXJ3bEhRM21VMGV5eUdIUm9BRU1JRk56aE96MHNEZkZOcDVKYzFNN3pxZl9BdlV5VF9WMlZCUFRQMmFQNUhsV0ZlbGRrd0FxSlVtcUwtWDV5WW9xOFY0OUhWTlFCVjN2d20tSTNTYjc0SElYTTllbUpoeGpianplODNfUGF5WnZYQlo5cWs2cUY4bURmR3BidkRFekk4MnNsdGpuakdxeWF6VnI0MUYzZC1KTnhaNTZqQXE5X0t2ei1VbC1McVZWWjF6N0FIMkt3NGpoV1ZwTWdZWHR1M011RjJldzJTeWlLTnFZQWV0TjRpNVNDbUFyRXNOS1M0cm5hQ21Kd3g5Y3VJbHh1cFFEOWh0elZyOVhPYXhZRWpzeVM2bzNJdHlSZmRVdVlSNmM?oc=5
+
+### 建設現場での全面禁煙を計画、違反者には3千香港ドルの罰金、労働局は年央に立法審議へ提出予定
+
+建設現場での全面禁煙が計画されており、違反者には3千香港ドルの罰金が科される可能性があります。労働局は年央にこの法案を立法会に提出し審議されると予想しています。Yahooニュースによると、建設現場での全面禁煙が計画されており、違反者には3千香港ドルの罰金が科される可能性があります。香港電台新聞網によると、年央には改正案が立法会に提出される見込みです。商会は建設現場での禁煙に関する責任の明確化を求めています。信報サイトによると、建設現場での全面禁煙が年央に立法会に提出されるよう働きかけており、請負業者は管理責任を負い、重大な過失があった場合は最高300万香港ドルの罰金と半年間の懲役が科される可能性があります。香港文匯網によると、建設現場での全面禁煙が計画されており、建設業界は当局に対し、法執行時に請負業者の責任を明確にするよう求めています。Now新聞によると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi9wJBVV95cUxORW5JaVJfLVg3cXdZV3RmTzZlQ0k1MDV1Y1dzNkdlMTEtNG51TTF0X3hBWGpPM3RFUWszdkJIM1dITHUxamp1My1JaTZ4dnlKRGJ3cXJleFBubkRSb01KS3NhcmpNdndvckhKMjltRm9SMl9OeFRCeTVybk80SmFJLVpZdHNJNFE0Sjc0QnhBRUFqTVpwb002c010WUY2MXozbzloVXFMMmRxeW85WG0zaG01TjlhQmY3bnNTeEpMQzZxUjFKbXZJTVJMa2NjY0NmR1kyZDZUczJYc2FhWTF1QXRBVWZVUjlGUXlnNGd6WE10Q2dUdUgyeG85eEdFV2xfTjJZTzdHWUdYRnhaWUdVWmI2U0x3WXV4X2RDSjllODAzVk52RWR3aHVYZU5panBnTEZLT01rODRmdDctTkVFbE1aU0hneW45bkRnSWFQRGRNdUZEbVdNSkNWb0NOYm0xMThnNUIxYl9KZm1FX2hPMmgwd0Iwdjg?oc=5
+
+### 荃湾で男女が「オーラルセックスのような寝方」で重なり合う！超奇妙な寝姿が拡散、ネットユーザーが姿勢の真相を解明
+
+荃湾で男女が「オーラルセックスのような寝方」で重なり合っている超奇妙な寝姿が拡散し、ネットユーザーがその姿勢の真相を解明しました。これは昼寝なのか、それとも「人肉ソーセージを食べている」のか？奇妙な寝姿が熱い議論を呼んでいます。鏡新聞によると、荃湾西の海浜ベンチで「奇妙な寝姿」が発見され、ネットユーザーが写真を拡散し、「狂気だ」と熱い議論を呼んでいます。東張+ myTV SUPERによると、荃湾西の海浜で男女の奇妙な寝姿が拡散し、ネットユーザーは衝撃を受けましたが、真相が明らかになりました。新假期によると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMisgNBVV95cUxQa2dvc1JPUUxacFZrMHkyQzcxUEl4eVAxMFhsQklqNzY4dEpJdTJPd3EwcUl6V0hzSWU2Wm4tWTdnVnJ0ZXJBTFBfR1BhS0VENS02Y0l5cDZaN0RHTHJ0WmJ4MldHeno2eHR2UzhmdlBwNkJmTmJJWWd3T2pBVlNuQmVDbTIyS1V0b1lfZzlldW1KejNseFJtdWFKVXhsRVdjSTBEd3U0RzNVaWk3a0JHRXFlVHd4QkxxdXU3S1JEQzQ3LVEyUjVjNjVWWlJub0g1OXcwYWNKUnN4QVpGNWwzWW55c1hpTEdyczQzSlpQdzJnMUtEZkh3emFSVkY2eG5GOHNmd3djYWNjV1B6MndkTVF5Wm1ubmFFMTRFc3Y1b1BRRHZ0S3B5Qmo5cTVsRUU5MXdOSU1aaXhmYjFxQ1otcm02TEVLcmlaX1VhN2NsUG5XQTkwS2xZbHZpellhbUZ5dVpXZGo1OS1XV2tMMXJieTl1ZVh0VUxqTjBHZkR3bHNnMmR2bE1WeGVfeGtGaVd2TTVXQVdiX19qcWZKTXhzZ1FGMHhMOW9Yd25RLVMyQUVVdw?oc=5
+
+### 食品環境衛生署、違法な調理済み食品販売を取り締まり4人を逮捕、約150kgの食品を押収
+
+食品環境衛生署は、違法な調理済み食品販売を取り締まり、4人を逮捕し、約150kgの食品を押収しました。香港電台新聞網によると、食品環境衛生署は無許可の調理済み食品露天商を取り締まり、外国人メイドが集まる場所で4人を逮捕し、7件の起訴を行いました。不法就労の疑いも持たれています。香港01によると、食品環境衛生署は違法な調理済み食品の露天販売を取り締まり、4人を逮捕し、約150kgの食品を押収しました。橙新聞によると、食品環境衛生署は違法な調理済み食品露天商に対して法執行を行い、4人の外国人を逮捕しました。881903.comによると、食品環境衛生署は週末に複数の地域で法執行を行い、無許可の調理済み食品露天商を取り締まり、4人を逮捕しました。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9zUUFXS0FYOHdrbDNqS0VEZUh6VGxpcElTS1RaYWtVRnRhb0NVZnZHMFFHWlR4eGNLSEdSSVNiVXVMT0Z1MTl6eHM3bGVPV3QzaW81U0ZzNEZUWWpfQ1M1d0NaeWtKT05rcWdhaFF1Zw?oc=5
+
+### 公営住宅住民が隣人からの嫌がらせ動画を提出するも却下、住宅委員会は「東張西望」報道後、近隣関係が悪化したと指摘
+
+公営住宅の住民が隣人からの嫌がらせを撮影した動画を提出しましたが、住宅委員会はこれを証拠として認めませんでした。住宅委員会は、テレビ番組「東張西望」がこの件を報じた後、近隣関係がさらに悪化したと指摘しています。香港01によると、公営住宅の住民が隣人からの嫌がらせを録画しましたが、住宅委員会は証拠として認めず、公営住宅でのCCTV設置は禁止されており、追加の巡回でも「現行犯」を捕らえられなかったため、減点しないことを決定しました。明報新聞網によると、横頭磡邨の住民が長年隣人からの嫌がらせに苦しみ、司法審査を申請しましたが、住宅委員会は屋外に閉回路テレビを設置することは規則に合致しないため、映像を受け入れないという決定は正しいと述べました。on.cc東網によると、隣人への苦情が実を結ばず、公営住宅の住民が審査を申請しましたが、住宅委員会は閉回路テレビの映像をどのように審査するか指示がないと述べました。明報新聞網によると、横頭磡邨の賃借人が隣人からの嫌がらせの苦情が却下された後、審査を申請しましたが、住宅委員会はすべての証拠を考慮したと述べました（18:21）2026年3月23日。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMixwNBVV95cUxOejlwVEJJS19naThXOE5sYlNZV3dPODB6UjU0ZF9QUFg2Y3VITjlVNmI1V1d3ckp0Uk9Sb0VOTXF3alVBbVUwbFZMM3ljS1k5WGp5bW94U1pHYS1JNk0yc21FSDJxOENBNEdpREpzclpvazBmM3NvZ1JTTXoxbktCSzh1alg3bFJvaUFKLWNTU2Z1OWwzSk5MU2tENnpwdkRBZ25XaWZzRm5PUXpjdnoxUmppdWVMZWlqVURtY2dSNWhEUmRwN2QtRWRpTUJrNzN6SjZVbW1qeXBpb3VPVWYzV2JHUkRGb0UxT0xlODJvb05CMFFiSEZZWHJUc1J3OXBuRFlacVV0M09JWGlRZTJkTnlobVZoY0QzU1FMTTFUSjFuRVlYbjFTbWh3eElJbERJcUQ0d0FIWG9mdGplV3pyN0YtdUpKdlNlTG5RZVphRWNBOGM1bEZHUWgwajBlbm45aVNKMFdPMkxPUEt4aEJDOUdORTh4QUR1THRRSGNkTlplM1dnbzV1SzJNaExyMGtCejVaVm1vVTc5UktES3FiQUdtdExIR2NSRGthSjJoWWI1bllKdjZ1b1Y4WVE5QjM1TUdXYlhvbw?oc=5
+
+### 警視の周毅剛、女性部下へのわいせつ行為に関与か、周は「条件は悪くない」と認め、被害者とは恋人関係だったが写真はなし
+
+警視の周毅剛が女性部下へのわいせつ行為に関与したとされる事件で、周は「条件は悪くない」と認め、被害者とは恋人関係だったが、一緒に写った写真はないと述べました。香港01によると、高級警視が警察本部内で女性部下に対し3度にわたってわいせつ行為を行ったとされる事件で、彼は被害者が甘えん坊で、2人は秘密の関係を築いていたと自ら弁護しました。Yahooニュースによると、高級警視の周毅剛が警察本部内で女性部下に対し3度にわたってわいせつ行為を行ったとされる事件で、彼は被害者と秘密の関係を築いており、恋人同士が腰や背中に触れるのは普通だと述べました。法庭線The Witnessによると、高級警視はわいせつ行為を否定し、被害者は好意を抱いており、「自然に手をつないだ」と述べました。明報新聞網によると、警視の周毅剛が女性部下へのわいせつ行為に関与したとされる事件で、周はオフィスで被害者の手をつないだことがあり、すでに付き合っていると感じていたと述べました。香港01によると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivANBVV95cUxQeUlWOFRVbzk3MjNSUmJ6Z2mtdzhScXBFY3Y1ZU9oZnVrYUhtd0RReXRUcmdaZzgxaDQtODNJU3RiOHlwai1TTFdPTG9BV29xZ3hKenhOTE1yR0hqS2NKd21HdFd3akRza0pwSktURE1HWlZmX1E2cE15UmxBazhnS1BsQ3ZLS2xHQUEyMDNkTWRLMzZQWHNoT296ZFlmX0dzWktWNEwxSEE2bDNNTzVSUGE3R3BVaHNsVmVCRGVGc3o2eG5Nbl9MSVFHWTVlQ25xM1M0VGFBa3pNWjFjLWdNa0JPY3FfYW5aNUNaYXFhcUU0VnJhQUVhaEV2ektaZ3pOSXA3ODZGcTdLSEdpcWNkS3ZzY1Bicm9xYmFBRVBtMUFYX285SXRrN1E2RFFUTFRzWVh0NzgzTmsxZDR4VnNmZnFacy1QR1F6TEpOWU5WV1dPTkl6Nk1ydkFFalFXckEtYloySkYwYklSaGdnTzUyMjhxRmRQMGRiZ1kySmxRSXA1VkoxUGFTb3FOS1h6a256Z1RiQXRWdU05R0VGVFJvX2l0TUw1R1IwVV9oMWVzR3ozTTN2dHZyVkhlUkY?oc=5
+
+### 湾仔のビュッフェ「自助山」、高齢者割引を追加！388香港ドルからシーフード/バーベキュー/鉄板焼きが食べ放題、4時間満喫し回転レストランの絶景も楽しめる
+
+湾仔のビュッフェレストラン「自助山」が、高齢者向けの特別割引を追加しました！388香港ドルから、シーフード、バーベキュー、鉄板焼きが食べ放題で、4時間たっぷり楽しめます。さらに、回転レストランからの美しい景色も満喫できます。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi5ANBVV95cUxPdFg5d2ZkbUF2SzFaMFktTVgwMGVRTWJOWGt2bUtZNjRNamwteGw0N0ZaMDBnNUhDMWR5QmluSThLbUJkc3JHMlFVZjNDcUp5YlZHbkcwWUNOSk1MX3NBUEc4V015Qlo2YVNxU2E1b3RLVnNXckVTMElUSUtDcF94ODU5ZmhyTUJLX1EzNDk5Um14VklRR3E4clZWN05VcFZpN3g1azJ4ZkNodGw4cVlnM0JEazhPTGpLQXRITmtsY1V6dk8zTVUzdVZRSnhYSHFFNm5SMEJhVVBfRXhtWTZuRFlnOEVMQmZhSENWZkhIRzNieE0tWjRJY1ZfQ2lkeTEwTjkxUlR1ZkprV00zZEFsVGNEbTJTM3hNWnBreUE4RTBfZklIYlk0cHVJLTRxbFR5UmEwOG8xY180ZFZZZ0FtX3pObFNHVS1PQ3JGdkpuczU4NWhVTGVrSFJGYk1YTTlqTFBwSEowbXVoclNxcTJ1Y2dKMFpGMUkydEoyb0pkaU5xOEw1dmxuS3pPeV9EcEZpMzY0b3dYV2laTDhvT3c2N2NoaGpHOW1hRWVqT3FyUHNkQXN5QnBDZFh6VHY1UlJsRF9XNTc1c2cyUG1BMHZjbWxiS2Z0ZnhFS3Jud1pwZ2lqTDYw?oc=5
+
+### 香港仔の路上で元交際相手を突き飛ばしたとされる弁護士、暴行傷害罪が取り下げられる
+
+香港仔の路上で元交際相手を突き飛ばしたとされる弁護士が、暴行傷害罪の起訴を取り下げられました。星島頭條によると、弁護士の蘇潁（ソウ・ウィン）氏が元交際相手を襲撃したとされる事件で、検察側は起訴取り下げを申請し、認められました（18:06）2026年3月23日、明報新聞網。弁護士の蘇潁氏が女性を突き飛ばしたとされる事件で、検察側は暴行罪の起訴を取り下げました。香港01によると、弁護士が元交際相手を突き飛ばして負傷させたとされる事件で、検察側は起訴を取り下げました。on.cc東網によると、弁護士の蘇潁氏は今年1月に女性を襲撃したとされていますが、本日起訴が取り下げられ、訴訟費用の申請は行われませんでした。庭刊によると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi3wJBVV95cUxOQ2piRW9zMnFvaXcxZ1NDSGJoUHdjTjN6QUZyZUNkaWdsV2p0Ym4tSWIzeXFKNXlNd1o0U2I3X0JhUWVrSVFLQ1NOLWRyUnlWZnJCdTdJOE5UMDc5MXZMX1lXaUpRT1Rfb3hKVXV3c2xfejZnTVFiVVZtSkRwakRVdnp2NmZTSE01eTBwdldsa21PNnBnSVZkckFBc25aNlBsUmRkTzI1V1pvS2F3MTlMLUphVHZuUzNLRXh6TkxDc0s2b2dQQVE4ZVZoOE1yUlFiLVhEMHlzejNIRDd6Rnd6Z2d1SVlvNU10TTQ0S1FuTnNnakpNX1hldVdPbUVSa2Q3VnFLRHFmb05yWUlWTm9XV1R1OGU2OXVqNTdSaF94U01vOXcyWldXaWh3UnUzV00xbE8yQmx1QW9qemdCR3hjR3FWQTB5T1FaTjJsYU45M0ZSYW9TSHJ1MzNTekpCRk0?oc=5
+
+### 香港、不確実性に開放性で対応するとジョン・リー行政長官がボアオ・アジア・フォーラムで表明
+
+香港のジョン・リー・カチウ行政長官は、海南で開催された年次フォーラムで、激化する地政学的緊張によってもたらされる不確実性に「孤立ではなく開放性をもって対応する」と誓約し、自由貿易を促進するために経済圏が協力するよう呼びかけました。高官対話のプラットフォームと見なされているボアオ・アジア・フォーラム年次総会で演説したリー氏は、中国が「激動の世界」において多国間貿易にコミットしてきたと述べ、経済圏が団結して…に直面するよう促しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3347761/hong-kong-meet-uncertainty-openness-john-lee-tells-boao-forum-asia?utm_source=rss_feed
+
+### ノーザン・メトロポリスの境界変更には立法会承認が必要、大臣が発言
+
+香港の発展局長は、ノーザン・メトロポリス巨大プロジェクトの境界変更には、行政部門が提案したとしても立法会の審査権が維持されると述べ、計画を迅速化するための提案された法律に関する懸念に対処しました。中国本土との国境近くにある大規模な計画のボトルネックを解消するために設計された6つの主要な補助法からなる提案された法案の下では、香港の行政長官と行政会議がその境界を調整する権限を与えられることになるが…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3347760/northern-metropolis-boundary-changes-will-need-legco-approval-minister-says?utm_source=rss_feed
+
+### 中国のWeRide、自動運転大手拡大で香港、シンガポールでのロボタクシー展開を視野に
+
+中国の自動運転技術開発企業は本土外への拡大を続けており、WeRideは今年、香港とシンガポールでロボタクシーサービスを開始することを目指していると、幹部が述べました。WeRideが香港で計画している参入は、ロボタクシーとロボバスの両方をカバーする予定だと、広報・マーケティング担当シニアディレクターのメイブ・チャン氏が火曜日のメディアブリーフィングで述べましたが、運行地域や開始日は明らかにしなかった。一方、広州を拠点とする同社は…の開始を計画していると述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/tech/tech-trends/article/3347747/chinas-weride-eyes-hong-kong-singapore-roads-robotaxis-self-driving-giants-expand?utm_source=rss_feed
+
+### 香港は世界の緊張が高まる中、家族資産の「安全な避難港」：当局者
+
+香港は、地政学的緊張と経済的不確実性の高まりにより、富裕層が資産の拠点を再考する中、世界の富にとって安定した拠点であると、ポール・チャン財務長官が述べました。チャン氏は火曜日の夜に開催された「Wealth for Good in Hong Kong Summit」のガラディナーで、「私たちは不確実性と紛争に満ちた世界に生きています」と述べました。「ルールに基づいた国際秩序は緊張状態にあり、一部の人々はそれが破綻したとさえ言っています。」このような状況に直面し、投資家は…
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3347752/hong-kong-safe-harbour-family-wealth-global-tensions-rise-officials-say?utm_source=rss_feed
+
+### 訪問ギャラリー、輸送混乱のため数ヶ月間作品を香港に留め置く可能性
+
+香港のアート・セントラルに出展する海外のギャラリーは、米国とイスラエルのイラン戦争による輸送費の高騰のため、フェア終了後も数ヶ月間作品を香港に留め置くことを検討しています。水曜日にセントラル・ハーバーフロントでフェアが開幕するに先立ち、ギャラリストたちはサウスチャイナ・モーニング・ポストに対し、香港への輸送燃料費が最大4倍に上昇したと語りました。アート・セントラルには、香港、中国本土、韓国などから100以上のギャラリーが集まります。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3347730/visiting-galleries-may-keep-artworks-hong-kong-months-due-shipping-chaos?utm_source=rss_feed
+
+### キャセイパシフィック航空、香港と中東間のフライト運休を5月末まで延長
+
+香港のフラッグキャリアであるキャセイパシフィック航空は、収束の兆しが見えない地域紛争のため、香港と中東間の全フライトの運休を5月末までさらに延長しました。しかし、同航空は需要の急増に対応するため、来月からヨーロッパへのフライトを増便する予定です。同航空は3月初旬以来、中東路線の運休を少なくとも4回延長しています。先週発表されたばかりでは、4月末までの運休とされていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3347697/suspension-cathay-pacific-flights-between-hong-kong-middle-east-extended-end-may?utm_source=rss_feed
+
+### 3つの公営納骨堂、8月から区画の月次割り当てを開始
+
+食品環境衛生署は火曜日、公営納骨堂の区画が8月から月次で割り当てられると発表しました。この新しい方式は、粉嶺の和合石骨灰安置所第6期、柴湾の歌連臣角新廈骨灰安置所、沙田の石門骨灰安置所の3施設で現在行われている年次割り当てシステムに代わるものです。現在、月次システムで公営区画を割り当てているのは屯門の曾咀骨灰安置所のみです。
+
+新しい取り決めの下、これら4つの納骨堂は毎月約1,600の区画を提供できるようになると、同署は述べました。グレード管理・開発担当次長のツォイ・カワイ氏は、新しい取り決めにより、人々は年間いつでも申請を提出できるようになると述べました。「新しい割り当てにより、申請者は申請を行うために丸一年待つ必要がなくなります。これが改善の目的です」と彼は語りました。
+
+ツォイ氏は、この公営区画の供給は公共の需要に対応するのに十分であると付け加えました。「過去2年間で、約20,000件の申請があり、実際の割り当ては約19,000区画でした」と彼は述べました。「過去の傾向はほぼ同じで、毎年約19,000区画を維持していることが観察されました。したがって、新しい月次割り当ての取り決めを通じて、私たちは市場にそのような数を提供します。この量、つまり約19,000区画で市場の需要を満たすことができると確信しています。」
+
+ツォイ氏によると、8月1日に新しい取り決めが開始される前に、同署は4月に3つの納骨堂で12,000以上の区画の最後の年次割り当てを実施する予定です。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1848563-20260324.htm
+
+### 香港のESF学校グループ、来年度の授業料を平均4.1%値上げ計画
+
+香港最大の国際学校グループは、来年度のほとんどの小学校および中学校部門で授業料を平均4.1%値上げする計画です。これは、それぞれ月額約600香港ドルと720香港ドル（77米ドルと92米ドル）の増額に相当し、当局の承認待ちです。イングリッシュ・スクールズ・ファンデーション（ESF）は火曜日、この提案の下で幼稚園の授業料も5.8%値上げすると述べました。ランタオ島ディスカバリーベイにある同財団のディスカバリー・カレッジでは…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/education/article/3347674/hong-kongs-esf-schools-group-plans-increase-fees-41-average-next-year?utm_source=rss_feed
+
+### 香港、イランとイスラエルの渡航警戒レベルを「黒」に引き上げ、バーレーンなどにも「琥珀色」警告を拡大
+
+香港政府は、イランとイスラエルに対する海外渡航警戒レベルを「黒」に引き上げ、バーレーン、ヨルダン、オマーン、カタール、サウジアラビア、アラブ首長国連邦（UAE）にも「琥珀色」警告を拡大しました。政府は月曜日、「中東地域の情勢が引き続き悪化していることを鑑み」、警戒レベルの引き上げを発表しました。「黒（海外渡航警戒レベル）は深刻な脅威を示します」と政府報道官は述べました。「イランと…の治安情勢は非常に予測不可能であるため…」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3347631/hong-kong-raises-iran-israel-travel-alerts-black-expands-amber-warning?utm_source=rss_feed
+
+### 利下げ一時停止の可能性、地政学的緊張が香港不動産回復を曇らせるか
+
+香港在住のケイティ・チャンさん（37歳、会計士）は、住むためのマンション購入を希望していましたが、急いでいるわけではないものの、金利引き下げが長期的に一時停止する可能性が、彼女の決断を遅らせるかもしれないと考えています。チャンさんにとって理想的な住宅ローンは、1ヶ月物香港銀行間貸出金利（Hibor）が1.95%を下回ることですが、香港銀行協会が追跡したデータによると、今年、地元の住宅ローンコストと企業借入金利の主要な推進要因は、2.02%までしか下がりませんでした。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3347469/potential-rate-cut-pause-geopolitical-tensions-may-cloud-hong-kong-property-recovery?utm_source=rss_feed
+
+### 生きた伝統：ライプツィヒ・ゲヴァントハウス管弦楽団、香港へ
+
+[この記事の内容は、当社の広告パートナーによって制作されました。]
+
+何世紀にもわたり、ライプツィヒは音楽が重要な都市でした。ヨハン・セバスチャン・バッハは人生の最後の27年間を市の音楽監督としてそこで過ごしました。リヒャルト・ワーグナーはそこで生まれました。フェリックス・メンデルスゾーンはそこで指揮し、ドイツ初の音楽院を設立しました。
+
+世界で最も長く継続的に活動している市民オーケストラであるライプツィヒ・ゲヴァントハウス管弦楽団は、その文化から生まれました。今年6月に香港に到着する際、それは…
+
+**引用元**: SCMP
+
+https://www.scmp.com/presented/news/hong-kong/topics/gewandhausorchester-leipzig-hong-kong/article/3346958/living-tradition-gewandhausorchester-leipzig-hong-kong?utm_source=rss_feed
+
+### 香港の文化的潜在能力を実現するには、グローバルな視点が不可欠
+
+芸術と文化の力は過小評価されるべきではありません。それらは教育し、情報を提供し、インスピレーションを与え、喜びをもたらします。それらは発見への扉を開き、コミュニティを団結させ、文化と人々の間の障壁を打ち破ります。より広い文脈では、芸術は私たちの都市を定義するのに役立ち、コミュニティの焦点となり、明確な文化的アイデンティティを開発する機会を提供します。
+
+香港は金融センターとしての自己定義に成功しましたが、文化は資本と同じくらい大きな役割を果たすことができます。
+
+**引用元**: SCMP
+
+https://www.scmp.com/opinion/hong-kong-opinion/article/3347251/realise-hong-kongs-cultural-potential-global-vision-essential?utm_source=rss_feed
+
+### 報道：国家安全処、「一拳書館」責任者ポン・ヤッミン氏と職員3名を扇動的な出版物販売の疑いで逮捕
+
+報道によると、国家安全処は「一拳書館」の責任者であるポン・ヤッミン氏と職員3名を、扇動的な出版物を販売した疑いで逮捕しました。香港01によると、4人が扇動的な意図を持つ出版物を販売した疑いで逮捕され、その中には一拳書館の責任者と職員が含まれていると理解されています。香港電台新聞網によると、一拳書館の店主が逮捕され、書籍「黎智英伝」の販売に関与した疑いが持たれています。信報サイトによると、黄色い書店「一拳書館」が扇動的な出版物を販売した疑いで、国家安全警察が責任者のポン・ヤッミン氏と職員3名を逮捕しました。香港文匯網によると、書店はシャッターを閉め、「緊急事態」との告知を出しています。法庭線The Witnessによると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMikANBVV95cUxQeHVCeEhZZWtWbHgtcF9vUGdrX3VRUDc0V1ZOSlU3VTFCSmZRUW9pM3B1dlNXS2dJLW9EczItNTVpTmdkOHF3cVk4eTdJcTB3cWNtM2FVbXFJY1R4aUJGbF9Id0tVZ2JickVQTERhOHVsaGU3alp6bkFuRVgtQUJvRVJfYUNiR2VxSU5sV3prRnRJUFN6UHl3OS1PMlRYX2pDaTV2T0dWTUFZeXRRMFFDUHNnaUI0UVdZMWl0UndLMnhCM0dnUHN6NGdwbHlSbkU4bjQzb01EN00zZ0kzdUtER0dvU1l2bUdGbW1ZSW9oX1FObTJXeWdoWmdyV2VEOHNna254dTQ0RnAtZEp1dzlLRE5hM0w3aktpNjdSR2M5WVpxajA1VDVfbHBsbF9sRFJYaExwaThEbG1vQ3ZVVmtmZ3hoaXhETmw4cFljNVRYTVdJMGhxT2ZTS2pTZTNURmVjY3VfbFlOYm1aQXdmV0hSQ2RfQmIwM2UxcjYtRlAxalVydEJrelp5YW4yMl9VOEoy?oc=5
+
+### MTR車内でミニスカートの女性がスマホに夢中、眼鏡の男がスカートの中を盗撮か
+
+MTRの車内でミニスカートの女性がスマホに夢中になっているところ、眼鏡をかけた男がスカートの中を盗撮した疑いがあります。on.cc東網によると、屯馬線車内で2人の女性乗客が臀部を触られるわいせつ行為を受け、警察は通報を受けて荃湾で20歳の眼鏡をかけた男を逮捕しました。香港文匯網によると、MTRで新たな「痴漢」が出没し、大柄な男が手すりをしっかりと握り、女性乗客の太ももの上のスペースを大胆に占拠していると報じられています。ネットユーザーは反撃方法を教えています。星島頭條のJuicy叮によると、屯馬線でわいせつ事件が発生した疑いがあり、映像がネット上で拡散しています。2人の女性が男に連続して臀部を密着して触られ、警察はわいせつ事件として処理しています。TVBによると、屯馬線で「スカートめくり」痴漢が出没し、大きなバッグで隠しながら2人の女性の臀部を連続して触りました。被害者は「彼が動画も撮っていたかどうかわからない」と語っています。i-cable.comによると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTk5sUnVsVWRzXzdtWDIxRzlHTXBVNUJBUXF1TWgzTGFCMjJ4VjB5dW9vV1hFdE42VWJHVjRfVElmbm9ILTB3Q29xZ2NhNk9aLTBLZzU4VWtoR2JQZmZ5bFBNMFIyYWdwYkpCM0xLamxTZUNaQWtIY2hSeVNieUY4Q3ptalltOGxGbHE4?oc=5
+
+### ニュース追跡｜ナンバープレート仲介業者が虚偽情報を拡散、香港人が本土企業に出資してナンバープレートを申請できると主張、弁護士は「刑事責任を負う可能性あり」と警告
+
+ニュース追跡によると、ナンバープレート仲介業者が虚偽情報を拡散し、香港人が本土企業に出資することで本土のナンバープレートを申請できると主張しています。弁護士は「刑事責任を負う可能性がある」と警告しています。星島頭條によると、運輸署は、一部のソーシャルメディアが香港居住者の車両が広東省と香港間の定期割り当てを申請できるという情報が虚偽であると指摘しました。香港電台新聞網によると、運輸署は「代行業者」による広東省と香港間の車両定期割り当てを信用しないよう呼びかけています。香港文匯網によると、広東省と香港間の定期割り当てについて、運輸署はオンライン上の虚偽情報を信用せず、公式発表を基準にするよう呼びかけています。香港経済日報HKETによると、運輸署は広東省と香港間の車両定期割り当てに関する虚偽情報を信用しないよう呼びかけ、事件は法執行機関に引き渡される予定です。橙新聞によると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiwARBVV95cUxOMU5OS1F3UmEwNlNJWHJrcC1qYjZmTklFMzgxb0hRVUQ0NWlpUFVJb2k5V3Z5SE5yUHJPVFZtci0xRE9ZcVEtSjJOMW5LSFpIODA3ZUhmVU5FM2FZeXo5cmtEMDhqV0YzaE1WNlk3MDN0YWQ5em5iZEVPUENzeEZ2ajQxeG43ekpYTnJDR010WHBGQWxQcV9qNGVFR1lRTDFDX1J4cWtaWFFBdVpxMWtZeG1hSmYxbXkwNHU4MzZPalJXUHNLS1VxdkMtdG1Eb0JqdXdxQXQ3R3hqdnY0VWkyWmIxNkRQU01uRk1VUnhRYnNLa05hWFc2cmZCWUVIUmdOMERFZm5Fajl0TDUyZEd5ZzlNSDJBaEZ6elhTakR0aTVMeFpRUjBXcWxSTmNYY1FyTk1BWmdMd1c2Z0dvMlJyZi1CbGNtVWxkakhBNEV0dmFBcU9jdm5QUzAtdjA3WVpyVTFLU2dWTmVPVFEyUmtpb0dsVUdFMGNNbExVN0s0V1NoVVNvZ3dzVkdKdVNDQjFQSFI1UzM3bzFGWGV2ZEdQbzBFNHptcllIQi1IY3B0TlhSeV81SjRFM1BKSng3U094RlhLeFgwOFlsLTdyS0EtTHQzc0xOMjZodnlXVzZhek56cW1uYl9mT0c3X2VWN2dmQk1xRnNKRWtkc0RMeVV4akF6NmRRTEFmRTVTTHI1endnc05BTkREODVBZWZxcmZqc19mQ3UxZFVzVFdjdG5RRndfQ25odHo2TDFjZlI2QTY?oc=5
+
+### 香港のショッピングセンターのゴミ箱で発見された新生児、病院で死亡
+
+香港のショッピングセンターのトイレのゴミ箱で放棄された新生児の男の子が発見されたが、後に病院で死亡した。警察は月曜日の午後2時10分頃、銅鑼湾のパーシバル・ストリートにあるリー・シアター・プラザの清掃員が、ザ・スタービュー中華レストランの女性用トイレの個室内のゴミ箱で、へその緒がついたままの乳児を発見したとの通報を受けた。救急隊員が到着した際、赤ちゃんは意識不明で、ラットンジー病院に緊急搬送されたが…
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3347607/newborn-baby-found-rubbish-bin-hong-kong-shopping-centre-dies-hospital?utm_source=rss_feed
+
+### 昨年100件の「オンライン性誘拐」事件、最年少被害者は10歳、幼少期の経験が犯行の動機に、元受刑者が保護者に子供へのより多くの愛情を促す
+
+昨年、香港では100件の「オンライン性誘拐」事件が発生し、最年少の被害者は10歳でした。過去に幼少期の経験が原因で犯罪を犯した元受刑者が、保護者に対し、子供たちにもっと愛情を注ぐよう呼びかけています。Yahooニュースによると、警察と大学の研究により、回答者の15%がオンラインで児童ポルノに接触した経験があることが判明しました。香港電台新聞網によると、警察は専門家会議を開催し、オンラインでの児童性誘拐のリスクについて議論しました。星島頭條によると、児童性誘拐事件について、前科のある加害者が登場し、保護者に子供たちに関心を持つよう呼びかけました。さもなければ、犯人に機会が与えられると香港01は報じています。警察はオンラインでの性誘拐に対処するための多専門家会議を開催し、周一鳴（クリス・チョウ）氏は、教育、監督、法律、信頼を並行して行う必要があると述べました。bastillepost.comによると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi7wJBVV95cUxOeV8tOXV4eXFtZHEzRUY4NnlxYXotRFZJcnd6RHJsSVUweklRVEs2Uzc1cF9aUmxkekVlaTR1emlHb1FFVFdTa0FBc0hwbHFlM1BmVlhianE4TWJ0QWlBVG9PaFN0aHd1cGY4UTFxMHY1ekNWSEZad0VzYmpuVlU3eUZDSkxFRmxMUGNLVHhxSkNzY0JUeDEtSmI5UkhWNFZ1MXNMRkQ0MlFxRlZ4NGlYbl9EbzBWNUVoX2JsSWtjc3BrcVpuZ2RVRFEwbUFMR0x1ZUhDV1JRTFJoOURXTXZzN0l2eFh3d3g2VGIyOF9PMURZTElnWkRIcFQ2YWhZYXBtTG1QOE9ZRlZ3UmNZS2hlamFrckxpd09FdnVmVTZqWFRKN1dBX043Y01kd1ZUYk4zR3YxWWwwYnpJejJuRnV3cUQ2UjZsRzZXR3J0VVNta2VFTWJFdFE3aDZ3aWFRME1YaWJqdkVxOWxKQkpHYjZn?oc=5
+
+### 直接補助学校、非地元学生の受け入れを拡大｜直接補助学校評議会が校外寮を監督する委員会を設立、規制体制を整備
+
+直接補助学校は非地元学生の受け入れを拡大しており、直接補助学校評議会は校外寮を監督する委員会を設立し、規制体制を整備しています。香港01によると、年間32万香港ドル！香港の直接補助学校の学費は欧米よりも安く、海外からの学生を惹きつけています。香港文匯網によると、直接補助学校評議会は初めてタイとマレーシアで宣伝活動を行い、香港への留学を誘致するための奨学金制度を設立する予定です。明報新聞網の2026年3月24日教育欄によると、48の直接補助学校が受け入れ能力を拡大し、評議会は東南アジアで学生募集を行い、寮委員会を設立して規則遵守を確保する予定です。香港経済日報HKETによると、明報社説は東南アジアからの学生誘致と「直接補助学校の受け入れ能力拡大」の試行について述べています。news.tvb.comによると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi1ANBVV95cUxOUmo1Wmt5em5qZ2ctanYxR295ZDRsOW85ODF4cUNCYllWQWU2WVpoUkZ4Vjh5MUdiWWU5M0xjN3haakZtX2RlT01pbExiamRoZHFJTjlONVMxTFo5SmYzRW0tUFpoNzE5SXYtQV80TUpnYURzSVZiUHRWdUFYRU1yeXIyc05pSDdMblI1MTQyazVoS0hjOFBzLTBjWEd6Y1pQMVkxS2VoMWxsS0JuX3RmV2JuOVZhLU1VeXZ1eVVzWDdBNGJfSzdvTDhnU2hJRVl1WkMza1BsR2w0YTJVOEJYYjlBTWxyTVAzVzR5Zzg2UVZTdG5qWGFCSGhodzB3eDhKYmdUaFI2c2tENThOV1E2eWJuSjNuYTBfM3ZEQWVOVFZSZjNOZk9CMEVDRHlaMlVHZXVWcFNXdzdZSzVRX1doejFyR1drU0ZMRkhBV093NG5yMllZb2l4b2FaR1NkbDRoeHRvYTduNllXUXdtZDFPVEhIT3YwZU0zczljaDBxNlRzeVZjaE5IcnotRVRmYjNjRlRNZmlwdjM5d2JFd3AyQ1lKMlhJOFY1QkNvdWdZNkMxMnEyLV9YVXdrRENkcGVlYkNpUjJWdmRBaW5iOVhmNThlMFM?oc=5
+
+### 周一鳴：警察はオンライン・オフラインで全方位的に監視し、国家安全を脅かす行為を正確に摘発
+
+周一鳴（クリス・チョウ）氏は、警察がオンラインとオフラインの両方で全方位的に監視を行い、国家安全を脅かす行為を正確に摘発すると述べました。香港電台新聞網によると、【教聯筆陣】では、「第15次五カ年計画」の発展のために国家安全教育の基礎を固めるという評論が香港文匯網に掲載されています。盧寵茂（ルー・チョンマウ）医務衛生局長は、医療衛生界が「ソフト対抗」に高度な警戒を払う必要があると述べました。Now新聞によると、国家安全について、盧寵茂局長は医療衛生界がソフト対抗に高度な警戒を払う必要があると述べました。信報サイトによると、国家安全の多角的視点から、消防処長はロボット、ドローン、無人船などの新技術を導入して消火活動を行い、市民の安全を確保すると述べました。大公文匯網によると。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1IYURLdWhYRWNRWXN5cy1kMDNnLUFMQXdxbGcxUDVlNVZER0Jkd285Y09zN3hBSGt6bXBWeG92S3BqMmdyZFhKNl9VNERaSmpISTU3a2VoV2h1NXFpNUhHN0FBUU42NlhZem15c2xHaw?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年03月25日 06:17

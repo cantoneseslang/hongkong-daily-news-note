@@ -1,19 +1,17 @@
 #!/usr/bin/env node
 /**
- * note.com 内部 API へ HTTP で投稿（ブラウザ自動ログイン不要）
+ * note.com 内部 API へ HTTP で投稿（非公式・自己責任）
  *
- * 仕様（非公式・変更の可能性あり）:
- * - 1) POST /api/v1/text_notes に { name, body } のみ（status は付けない）→ 422 回避
- * - 2) POST /api/v1/text_notes/draft_save?id=...&is_temp_saved=... に本文＋メタデータ
- * - 3) 公開時は /api/v2/notes/{key}/publish 等を試行（key はレスポンスから取得）
+ * create が 422 になる主な要因:
+ * - XSRF / CSRF が editor セッションと一致していない
+ * - ペイロード形式が JSON:API に寄っている
  *
- * Usage:
- *   NOTE_SESSION_COOKIE="..." node post_to_note_api.js <記事.md> [公開|下書き]
+ * 対策: editor.note.com/new を GET して Cookie マージ + meta csrf-token を取得し、
+ *      複数 URL / ペイロードで create を試行 → draft_save。
  */
 
 import { readFileSync, existsSync } from 'fs';
 import { marked } from 'marked';
-import * as path from 'path';
 
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
@@ -22,8 +20,6 @@ function parseMarkdown(content) {
   const lines = content.split('\n');
   let title = '';
   let body = '';
-  const tags = [];
-  let thumbnail = '';
   let inFrontMatter = false;
   let frontMatterEnded = false;
   let titleFound = false;
@@ -45,16 +41,6 @@ function parseMarkdown(content) {
     if (inFrontMatter) {
       if (line.startsWith('title:')) {
         title = line.substring(6).trim().replace(/^["']|["']$/g, '');
-      } else if (line.startsWith('thumbnail:')) {
-        thumbnail = line.substring(10).trim().replace(/^["']|["']$/g, '');
-      } else if (line.startsWith('tags:')) {
-        const tagsStr = line.substring(5).trim();
-        if (tagsStr.startsWith('[') && tagsStr.endsWith(']')) {
-          tags.push(...tagsStr.slice(1, -1).split(',').map((t) => t.trim().replace(/^["']|["']$/g, '')));
-        }
-      } else if (line.trim().startsWith('-')) {
-        const tag = line.trim().substring(1).trim().replace(/^["']|["']$/g, '');
-        if (tag) tags.push(tag);
       }
       continue;
     }
@@ -75,8 +61,6 @@ function parseMarkdown(content) {
   return {
     title: title || 'Untitled',
     body: body,
-    tags: tags.filter(Boolean),
-    thumbnail: thumbnail,
   };
 }
 
@@ -90,7 +74,59 @@ function extractXsrfToken(cookieHeader) {
   }
 }
 
+/** Set-Cookie を既存 Cookie 行にマージ（Node 18+ fetch） */
+function mergeCookiesFromResponse(cookieHeader, response) {
+  if (!response?.headers?.getSetCookie) return cookieHeader;
+  const setCookies = response.headers.getSetCookie();
+  if (!setCookies?.length) return cookieHeader;
+  const map = new Map();
+  for (const part of cookieHeader.split(';')) {
+    const t = part.trim();
+    if (!t) continue;
+    const eq = t.indexOf('=');
+    if (eq > 0) map.set(t.slice(0, eq).trim(), t.slice(eq + 1).trim());
+  }
+  for (const sc of setCookies) {
+    const pair = sc.split(';')[0];
+    const eq = pair.indexOf('=');
+    if (eq > 0) map.set(pair.slice(0, eq).trim(), pair.slice(eq + 1).trim());
+  }
+  return [...map.entries()].map(([k, v]) => `${k}=${v}`).join('; ');
+}
+
+/** editor を開いて Cookie 更新 + HTML から csrf-token を抽出 */
+async function warmupEditorSession(cookieHeader) {
+  let cookies = cookieHeader;
+  let csrfMeta = null;
+
+  for (const url of ['https://editor.note.com/new', 'https://note.com/']) {
+    try {
+      const res = await fetch(url, {
+        redirect: 'follow',
+        headers: {
+          'User-Agent': UA,
+          Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'Accept-Language': 'ja,en-US;q=0.9',
+          Cookie: cookies,
+        },
+      });
+      cookies = mergeCookiesFromResponse(cookies, res);
+      const html = await res.text();
+      const m =
+        html.match(/name="csrf-token"\s+content="([^"]+)"/) ||
+        html.match(/content="([^"]+)"\s+name="csrf-token"/) ||
+        html.match(/csrf-token"\s+content="([^"]+)"/);
+      if (m) csrfMeta = m[1];
+    } catch {
+      /* continue */
+    }
+  }
+
+  return { cookies, csrfMeta };
+}
+
 function buildHeaders(cookieHeader, extra = {}) {
+  const xsrf = extractXsrfToken(cookieHeader);
   const h = {
     'User-Agent': UA,
     Accept: 'application/json, text/plain, */*',
@@ -98,9 +134,11 @@ function buildHeaders(cookieHeader, extra = {}) {
     Cookie: cookieHeader,
     Origin: 'https://note.com',
     Referer: 'https://editor.note.com/new',
+    'Sec-Fetch-Site': 'same-site',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Dest': 'empty',
     ...extra,
   };
-  const xsrf = extractXsrfToken(cookieHeader);
   if (xsrf) {
     h['X-XSRF-TOKEN'] = xsrf;
     h['X-Requested-With'] = 'XMLHttpRequest';
@@ -108,14 +146,14 @@ function buildHeaders(cookieHeader, extra = {}) {
   return h;
 }
 
-async function postJson(url, cookieHeader, payload) {
+async function postJson(url, cookieHeader, payload, contentType, extraHeaders = {}) {
   const res = await fetch(url, {
     method: 'POST',
     headers: {
-      ...buildHeaders(cookieHeader),
-      'Content-Type': 'application/json',
+      ...buildHeaders(cookieHeader, extraHeaders),
+      'Content-Type': contentType || 'application/json',
     },
-    body: JSON.stringify(payload),
+    body: typeof payload === 'string' ? payload : JSON.stringify(payload),
   });
   const text = await res.text();
   let json = null;
@@ -127,17 +165,15 @@ async function postJson(url, cookieHeader, payload) {
   return { ok: res.ok, status: res.status, json, raw: text };
 }
 
-/** JSON:API / 旧形式の両方から id / key を取る */
 function extractNoteIdAndKey(j) {
   if (!j) return { id: null, key: null };
   const d = j.data;
-  if (d && typeof d === 'object') {
+  if (d && typeof d === 'object' && !Array.isArray(d)) {
     const id = d.id != null ? String(d.id) : null;
     const key =
       d.attributes?.key ||
       d.attributes?.note_key ||
       d.key ||
-      (typeof d.attributes === 'object' && d.attributes?.slug) ||
       null;
     return { id, key: key || null };
   }
@@ -147,17 +183,71 @@ function extractNoteIdAndKey(j) {
   };
 }
 
-/**
- * 2段階投稿（参考: note 非公式API調査記事）+ 公開用エンドポイントの試行
- */
 async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
-  const base = 'https://note.com/api/v1/text_notes';
+  console.log('🔐 editor セッションをウォームアップ（Cookie / CSRF）…');
+  const { cookies, csrfMeta } = await warmupEditorSession(cookieHeader);
+  const session = cookies;
+  if (csrfMeta) {
+    console.log('   ✓ csrf-token (meta) を取得');
+  }
 
-  // Step 1: status を付けない（付けると 422 になりやすい）
-  const step1 = await postJson(base, cookieHeader, {
-    name: title,
-    body: html,
-  });
+  const extraCsrf = csrfMeta ? { 'X-CSRF-Token': csrfMeta } : {};
+
+  // Step 1: create（複数試行）
+  const step1 = await (async () => {
+    const urls = [
+      'https://note.com/api/v1/text_notes',
+      'https://editor.note.com/api/v1/text_notes',
+    ];
+    const shortTitle = [...title].slice(0, 200).join('');
+    const tinyBody = '<p><br></p>';
+    const variants = [
+      { ct: 'application/json', payload: { name: shortTitle, body: tinyBody } },
+      { ct: 'application/json', payload: { name: shortTitle, body: html } },
+      {
+        ct: 'application/vnd.api+json',
+        payload: {
+          data: { type: 'text_notes', attributes: { name: shortTitle, body: tinyBody } },
+        },
+      },
+      {
+        ct: 'application/vnd.api+json',
+        payload: {
+          data: { type: 'text_notes', attributes: { name: shortTitle, body: html } },
+        },
+      },
+      {
+        ct: 'application/vnd.api+json',
+        payload: {
+          data: { type: 'textNotes', attributes: { name: shortTitle, body: tinyBody } },
+        },
+      },
+      { ct: 'application/json', payload: { text_note: { name: shortTitle, body: tinyBody } } },
+      { ct: 'application/json', payload: { text_note: { name: shortTitle, body: html } } },
+      ...(csrfMeta
+        ? [
+            {
+              ct: 'application/json',
+              payload: { name: shortTitle, body: tinyBody, authenticity_token: csrfMeta },
+            },
+          ]
+        : []),
+    ];
+
+    let last = { ok: false, status: 0, raw: '', json: null };
+    for (const baseUrl of urls) {
+      for (let i = 0; i < variants.length; i++) {
+        const v = variants[i];
+        const r = await postJson(baseUrl, session, v.payload, v.ct, extraCsrf);
+        last = r;
+        if (r.ok) {
+          console.log(`   ✓ create 成功: ${baseUrl} (試行 ${i + 1})`);
+          return r;
+        }
+      }
+    }
+    return { ok: false, status: last.status, raw: last.raw, json: last.json };
+  })();
 
   if (!step1.ok) {
     return {
@@ -180,34 +270,56 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
     };
   }
 
+  const base = 'https://note.com/api/v1/text_notes';
   const bodyLength = [...html].length;
 
-  // Step 2: draft_save（本文確定）— 調査記事どおり is_temp_saved=true
   const draftUrl = `${base}/draft_save?id=${encodeURIComponent(noteId)}&is_temp_saved=true`;
-  const step2 = await postJson(draftUrl, cookieHeader, {
-    name: title,
-    body: html,
-    body_length: bodyLength,
-    index: false,
-    is_lead_form: false,
-  });
+  const step2 = await postJson(
+    draftUrl,
+    session,
+    {
+      name: title,
+      body: html,
+      body_length: bodyLength,
+      index: false,
+      is_lead_form: false,
+    },
+    'application/json',
+    extraCsrf
+  );
 
   if (!step2.ok) {
-    return {
-      ok: false,
-      phase: 'draft_save',
-      status: step2.status,
-      raw: step2.raw,
-      json: step2.json,
-      noteId,
-    };
+    const draftUrlEd = `https://editor.note.com/api/v1/text_notes/draft_save?id=${encodeURIComponent(noteId)}&is_temp_saved=true`;
+    const step2b = await postJson(
+      draftUrlEd,
+      session,
+      {
+        name: title,
+        body: html,
+        body_length: bodyLength,
+        index: false,
+        is_lead_form: false,
+      },
+      'application/json',
+      extraCsrf
+    );
+    if (!step2b.ok) {
+      return {
+        ok: false,
+        phase: 'draft_save',
+        status: step2.status,
+        raw: step2.raw,
+        json: step2.json,
+        noteId,
+      };
+    }
+    Object.assign(step2, step2b);
   }
 
   const afterDraft = extractNoteIdAndKey(step2.json);
   if (afterDraft.key) noteKey = afterDraft.key;
   if (afterDraft.id) noteId = afterDraft.id;
 
-  // Step 3: 公開（下書きでなければ複数パターンを試す）
   if (wantPublish) {
     const publishAttempts = [];
     if (noteKey && /^n[a-f0-9]+$/i.test(noteKey)) {
@@ -219,7 +331,7 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
       const pub = await fetch(pUrl, {
         method: 'POST',
         headers: {
-          ...buildHeaders(cookieHeader),
+          ...buildHeaders(session, extraCsrf),
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({}),
@@ -240,10 +352,9 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
           noteKey: noteKey || extractNoteIdAndKey(pubJson).key,
         };
       }
-      console.log(`⚠️  公開API試行失敗 (${pub.status}): ${pUrl.slice(0, 80)}…`);
+      console.log(`⚠️  公開API試行失敗 (${pub.status}): ${pUrl.slice(0, 88)}`);
     }
-    // 公開APIが全部失敗しても下書きまではできている → 警告付き成功扱いにするか判断
-    console.log('⚠️  自動公開APIが使えませんでした。下書きまで保存済みの可能性があります。note で手動公開してください。');
+    console.log('⚠️  自動公開APIが使えませんでした。下書きは保存済みの可能性があります。');
     return {
       ok: true,
       json: step2.json,
@@ -287,7 +398,6 @@ async function main() {
   const cookieHeader = process.env.NOTE_SESSION_COOKIE?.trim();
   if (!cookieHeader) {
     console.error('❌ 環境変数 NOTE_SESSION_COOKIE が空です。');
-    console.error('   ブラウザでログイン後、Request Cookie ヘッダを Secret に保存してください。');
     process.exit(1);
   }
 
@@ -304,12 +414,12 @@ async function main() {
 
   html = html.replace(/<img[^>]+src="([^"]+)"/g, (match, src) => {
     if (src.startsWith('http')) return match;
-    return `<p><em>[画像: ${src} — API投稿では手動アップロードが必要な場合があります]</em></p>`;
+    return `<p><em>[画像: ${src}]</em></p>`;
   });
 
-  console.log('📮 note API 投稿（HTTP・2段階）');
+  console.log('📮 note API 投稿（ウォームアップ + 複数 create 試行）');
   console.log(`   タイトル: ${title}`);
-  console.log(`   モード: ${wantPublish ? '公開（可能なら自動公開API）' : '下書き'}`);
+  console.log(`   モード: ${wantPublish ? '公開' : '下書き'}`);
   console.log('');
 
   const result = await createAndSaveNote(cookieHeader, title, html, wantPublish);
@@ -320,15 +430,17 @@ async function main() {
     console.error(`   HTTP ${result.status}`);
     console.error('   レスポンス:', (result.raw || '').slice(0, 2000));
     console.error('');
-    console.error('💡 Cookie に XSRF-TOKEN が含まれているか確認（editor.note.com で取得した Cookie 推奨）');
-    console.error('💡 非公式 API の仕様変更の可能性もあります。');
+    console.error('💡 GitHub Secret の NOTE_SESSION_COOKIE を取り直してください:');
+    console.error('   1) ブラウザで https://editor.note.com/new を開いた状態でログイン済みであること');
+    console.error('   2) npm run note:cookie または DevTools → Application → Cookies（note.com / editor）');
+    console.error('   3) note_session と XSRF-TOKEN が同じブラウザセッションのものであること');
     process.exit(1);
   }
 
   const noteUrl = extractNoteUrl(result);
-  console.log('✅ 下書き保存まで成功した可能性が高いです。');
+  console.log('✅ 処理完了');
   if (result.publishSkipped) {
-    console.log('⚠️  自動公開は未実施の可能性 → マイページで下書きを確認し、必要なら手動で公開してください。');
+    console.log('⚠️  自動公開はスキップされた可能性 → 下書きを確認して手動公開してください。');
   }
   if (result.json) {
     console.log(JSON.stringify(result.json, null, 2).slice(0, 1500));
@@ -336,7 +448,7 @@ async function main() {
   if (noteUrl) {
     console.log(`NOTE_ARTICLE_URL=${noteUrl}`);
   } else {
-    console.log('⚠️  記事 URL を自動抽出できませんでした。note のマイページで確認してください。');
+    console.log('⚠️  NOTE_ARTICLE_URL を自動抽出できませんでした。マイページで確認してください。');
   }
 }
 

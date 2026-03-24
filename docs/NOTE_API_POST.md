@@ -78,6 +78,11 @@ npm run note:cookie
 
 note の投稿は **1回の `POST` に `status: published` を付ける形式ではなく**、多くの場合 **`POST /api/v1/text_notes`（`name` と `body` のみ）→ `POST .../draft_save?id=...`** の **2段階**です。前者だけだと 422 になりやすいです。`post_to_note_api.js` はこの流れに合わせています。
 
+**422 が続くときの追加オプション**
+
+- スクリプトは **まず生の Cookie で `create`** を試し、失敗したときだけ **ウォームアップ GET**（`Set-Cookie` のマージ）のあと再試行します。ウォームアップがセッションを壊すケースがあるため、**Repository Variables** に **`NOTE_API_SKIP_WARMUP=true`**（または `1`）を入れると **ウォームアップを完全にスキップ**し、Secret の Cookie のみで投稿します（`.github/workflows/daily-news.yml` がこの変数を環境に渡します）。
+- 併せて **`Origin` / `Referer` の複数パターン**や **`application/x-www-form-urlencoded`** でも `create` を試します（ブラウザに近いヘッダ差分の吸収）。
+
 ## CloudFront 403（「cachable requests only」）になる場合
 
 **GitHub Actions のランナー（データセンター IP）から note の API へ POST すると、CloudFront/WAF でブロックされる**ことがあります。Cookie が正しくても再現します。  

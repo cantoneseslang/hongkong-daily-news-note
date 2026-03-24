@@ -273,6 +273,7 @@ jobs:
           NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
           NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
           USE_NOTE_API_VAR: ${{ vars.USE_NOTE_API }}
+          NOTE_API_SKIP_WARMUP: ${{ vars.NOTE_API_SKIP_WARMUP }}
         run: |
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
           echo "📅 Today's date (HKT): $TODAY"
@@ -612,6 +613,7 @@ jobs:
           NOTE_AUTH_STATE: ${{ secrets.NOTE_AUTH_STATE }}
           NOTE_MAGAZINE_NAME: "毎日AI香港ピックアップニュース"
           USE_NOTE_API_VAR: ${{ vars.USE_NOTE_API }}
+          NOTE_API_SKIP_WARMUP: ${{ vars.NOTE_API_SKIP_WARMUP }}
         run: |
           TODAY=$(TZ='Asia/Hong_Kong' date +"%Y-%m-%d")
           TODAY_ARTICLE="daily-articles/hongkong-news_${TODAY}.md"

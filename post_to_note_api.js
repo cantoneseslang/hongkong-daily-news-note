@@ -2,14 +2,9 @@
 /**
  * note.com 内部 API へ HTTP で投稿（非公式・自己責任）
  *
- * create が 422 になる主な要因:
- * - XSRF / CSRF が editor セッションと一致していない
- * - ペイロード形式が JSON:API に寄っている
- *
- * 対策: Cookie マージ + 複数ペイロードで create → draft_save。
- * GitHub Actions 等のデータセンターから editor.note.com へ POST すると
- * CloudFront 403（「cachable requests only」）になることがあるため、
- * API の POST は https://note.com/api/... のみに限定する。
+ * - API POST は https://note.com/api/... のみ（editor ホストは CloudFront 403 になりやすい）
+ * - ウォームアップ GET が Set-Cookie でセッションを壊すことがあるため、
+ *   まず「Secret の Cookie をそのまま」で create を試し、ダメならだけウォームアップ後に再試行
  */
 
 import { readFileSync, existsSync } from 'fs';
@@ -76,7 +71,6 @@ function extractXsrfToken(cookieHeader) {
   }
 }
 
-/** Set-Cookie を既存 Cookie 行にマージ（Node 18+ fetch） */
 function mergeCookiesFromResponse(cookieHeader, response) {
   if (!response?.headers?.getSetCookie) return cookieHeader;
   const setCookies = response.headers.getSetCookie();
@@ -96,7 +90,6 @@ function mergeCookiesFromResponse(cookieHeader, response) {
   return [...map.entries()].map(([k, v]) => `${k}=${v}`).join('; ');
 }
 
-/** note.com ドメインのみ GET（editor.note.com は CloudFront が POST を拒否しやすい） */
 async function warmupEditorSession(cookieHeader) {
   let cookies = cookieHeader;
   let csrfMeta = null;
@@ -133,10 +126,8 @@ function buildHeaders(cookieHeader, extra = {}) {
     'User-Agent': UA,
     Accept: 'application/json, text/plain, */*',
     'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
-    'Accept-Encoding': 'gzip, deflate, br',
     Cookie: cookieHeader,
     Origin: 'https://note.com',
-    // POST 先は note.com のみ。Referer はエディタを模倣（ホストは editor だがリクエストは note.com へ）
     Referer: 'https://editor.note.com/new',
     'Sec-Fetch-Site': 'same-site',
     'Sec-Fetch-Mode': 'cors',
@@ -169,6 +160,30 @@ async function postJson(url, cookieHeader, payload, contentType, extraHeaders = 
   return { ok: res.ok, status: res.status, json, raw: text };
 }
 
+/** Rails 系で form POST を受け付ける場合がある */
+async function postForm(url, cookieHeader, fields, extraHeaders = {}) {
+  const params = new URLSearchParams();
+  for (const [k, v] of Object.entries(fields)) {
+    if (v != null) params.append(k, String(v));
+  }
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      ...buildHeaders(cookieHeader, extraHeaders),
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    },
+    body: params.toString(),
+  });
+  const text = await res.text();
+  let json = null;
+  try {
+    json = JSON.parse(text);
+  } catch {
+    /* raw */
+  }
+  return { ok: res.ok, status: res.status, json, raw: text };
+}
+
 function extractNoteIdAndKey(j) {
   if (!j) return { id: null, key: null };
   const d = j.data;
@@ -187,68 +202,95 @@ function extractNoteIdAndKey(j) {
   };
 }
 
-async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
-  console.log('🔐 editor セッションをウォームアップ（Cookie / CSRF）…');
-  const { cookies, csrfMeta } = await warmupEditorSession(cookieHeader);
-  const session = cookies;
-  if (csrfMeta) {
-    console.log('   ✓ csrf-token (meta) を取得');
-  }
+const CREATE_URL = 'https://note.com/api/v1/text_notes';
 
+/**
+ * create を総当たり。extraHeaders で Origin を差し替え（ブラウザのエディタ起点を真似る）
+ */
+async function attemptCreate(session, shortTitle, html, csrfMeta) {
+  const tinyBody = '<p><br></p>';
   const extraCsrf = csrfMeta ? { 'X-CSRF-Token': csrfMeta } : {};
 
-  // Step 1: create（note.com のみ — editor ホストは CloudFront 403 になりやすい）
-  const step1 = await (async () => {
-    const urls = ['https://note.com/api/v1/text_notes'];
-    const shortTitle = [...title].slice(0, 200).join('');
-    const tinyBody = '<p><br></p>';
-    const variants = [
-      { ct: 'application/json', payload: { name: shortTitle, body: tinyBody } },
-      { ct: 'application/json', payload: { name: shortTitle, body: html } },
-      {
-        ct: 'application/vnd.api+json',
-        payload: {
-          data: { type: 'text_notes', attributes: { name: shortTitle, body: tinyBody } },
-        },
-      },
-      {
-        ct: 'application/vnd.api+json',
-        payload: {
-          data: { type: 'text_notes', attributes: { name: shortTitle, body: html } },
-        },
-      },
-      {
-        ct: 'application/vnd.api+json',
-        payload: {
-          data: { type: 'textNotes', attributes: { name: shortTitle, body: tinyBody } },
-        },
-      },
-      { ct: 'application/json', payload: { text_note: { name: shortTitle, body: tinyBody } } },
-      { ct: 'application/json', payload: { text_note: { name: shortTitle, body: html } } },
-      ...(csrfMeta
-        ? [
-            {
-              ct: 'application/json',
-              payload: { name: shortTitle, body: tinyBody, authenticity_token: csrfMeta },
-            },
-          ]
-        : []),
-    ];
+  const originOverrides = [
+    {},
+    { Origin: 'https://editor.note.com', Referer: 'https://editor.note.com/new' },
+    { Origin: 'https://note.com', Referer: 'https://note.com/' },
+  ];
 
-    let last = { ok: false, status: 0, raw: '', json: null };
-    for (const baseUrl of urls) {
-      for (let i = 0; i < variants.length; i++) {
-        const v = variants[i];
-        const r = await postJson(baseUrl, session, v.payload, v.ct, extraCsrf);
-        last = r;
-        if (r.ok) {
-          console.log(`   ✓ create 成功: ${baseUrl} (試行 ${i + 1})`);
-          return r;
-        }
+  const jsonVariants = [
+    { ct: 'application/json', payload: { name: shortTitle, body: tinyBody } },
+    { ct: 'application/json', payload: { name: shortTitle, body: html } },
+    { ct: 'application/json', payload: { name: shortTitle, body: tinyBody, format: 'html' } },
+    { ct: 'application/json', payload: { text_note: { name: shortTitle, body: tinyBody } } },
+    {
+      ct: 'application/vnd.api+json',
+      payload: {
+        data: { type: 'text_notes', attributes: { name: shortTitle, body: tinyBody } },
+      },
+    },
+    ...(csrfMeta
+      ? [{ ct: 'application/json', payload: { name: shortTitle, body: tinyBody, authenticity_token: csrfMeta } }]
+      : []),
+  ];
+
+  let last = { ok: false, status: 0, raw: '', json: null };
+
+  for (const originExtra of originOverrides) {
+    const merged = { ...extraCsrf, ...originExtra };
+    for (let i = 0; i < jsonVariants.length; i++) {
+      const v = jsonVariants[i];
+      const r = await postJson(CREATE_URL, session, v.payload, v.ct, merged);
+      last = r;
+      if (r.ok) {
+        console.log(`   ✓ create 成功 (JSON 試行 ${i + 1}, Origin=${originExtra.Origin || 'note.com'})`);
+        return r;
       }
     }
-    return { ok: false, status: last.status, raw: last.raw, json: last.json };
-  })();
+    const formR = await postForm(
+      CREATE_URL,
+      session,
+      { name: shortTitle, body: tinyBody },
+      merged
+    );
+    last = formR;
+    if (formR.ok) {
+      console.log('   ✓ create 成功 (form-urlencoded)');
+      return formR;
+    }
+  }
+
+  return { ok: false, status: last.status, raw: last.raw, json: last.json };
+}
+
+function envTruthy(name) {
+  const v = process.env[name];
+  if (v == null || v === '') return false;
+  return v === '1' || /^true$/i.test(v);
+}
+
+async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
+  const shortTitle = [...title].slice(0, 200).join('');
+  const skipWarmup = envTruthy('NOTE_API_SKIP_WARMUP');
+
+  if (skipWarmup) {
+    console.log('🔐 NOTE_API_SKIP_WARMUP → ウォームアップをスキップ（生 Cookie のみで create）');
+  }
+
+  /** create に成功したときの Cookie（draft / publish でも同じものを使う） */
+  let sess = cookieHeader;
+  /** ウォームアップで取れた meta csrf（あれば draft に付与） */
+  let csrfMeta = null;
+
+  let step1 = await attemptCreate(sess, shortTitle, html, null);
+
+  if (!step1.ok && !skipWarmup) {
+    console.log('🔐 生 Cookie で失敗 → ウォームアップ後に再試行…');
+    const w = await warmupEditorSession(cookieHeader);
+    sess = w.cookies;
+    csrfMeta = w.csrfMeta;
+    if (csrfMeta) console.log('   ✓ csrf-token (meta) を取得');
+    step1 = await attemptCreate(sess, shortTitle, html, csrfMeta);
+  }
 
   if (!step1.ok) {
     return {
@@ -259,6 +301,8 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
       json: step1.json,
     };
   }
+
+  const extraCsrf = csrfMeta ? { 'X-CSRF-Token': csrfMeta } : {};
 
   let { id: noteId, key: noteKey } = extractNoteIdAndKey(step1.json);
   if (!noteId) {
@@ -275,19 +319,28 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
   const bodyLength = [...html].length;
 
   const draftUrl = `${base}/draft_save?id=${encodeURIComponent(noteId)}&is_temp_saved=true`;
-  const step2 = await postJson(
-    draftUrl,
-    session,
-    {
-      name: title,
-      body: html,
-      body_length: bodyLength,
-      index: false,
-      is_lead_form: false,
-    },
-    'application/json',
-    extraCsrf
-  );
+
+  async function doDraft(cookieStr) {
+    return postJson(
+      draftUrl,
+      cookieStr,
+      {
+        name: title,
+        body: html,
+        body_length: bodyLength,
+        index: false,
+        is_lead_form: false,
+      },
+      'application/json',
+      extraCsrf
+    );
+  }
+
+  /** create が通った Cookie を最優先。失敗時のみ別 Cookie を試す */
+  let step2 = await doDraft(sess);
+  if (!step2.ok) {
+    step2 = await doDraft(cookieHeader);
+  }
 
   if (!step2.ok) {
     return {
@@ -315,7 +368,7 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
       const pub = await fetch(pUrl, {
         method: 'POST',
         headers: {
-          ...buildHeaders(session, extraCsrf),
+          ...buildHeaders(sess, extraCsrf),
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({}),
@@ -405,7 +458,7 @@ async function main() {
     return `<p><em>[画像: ${src}]</em></p>`;
   });
 
-  console.log('📮 note API 投稿（ウォームアップ + 複数 create 試行）');
+  console.log('📮 note API 投稿（生 Cookie 優先 → 必要ならウォームアップ）');
   console.log(`   タイトル: ${title}`);
   console.log(`   モード: ${wantPublish ? '公開' : '下書き'}`);
   console.log('');
@@ -419,15 +472,18 @@ async function main() {
     console.error('   レスポンス:', (result.raw || '').slice(0, 2000));
     console.error('');
     if (result.status === 403 && isCloudFrontBlocked(result.raw)) {
-      console.error('💡 CloudFront 403: GitHub Actions（データセンターIP）からの POST がブロックされている可能性が高いです。');
-      console.error('   Cookie が無効というより、note 側の CDN/WAF の制限です。');
-      console.error('   対処例:');
-      console.error('   · Repository Variables で SKIP_NOTE_POST=true → 記事は repo に残し、note は手動投稿');
-      console.error('   · 手元の Mac で同じコマンドを実行して投稿できるか確認');
-      console.error('   · セルフホストランナー（自宅PC等）なら通ることがあります');
+      console.error('💡 CloudFront 403: GitHub Actions 等の IP からの POST がブロックされている可能性があります。');
+      console.error('   Variables: SKIP_NOTE_POST=true で投稿のみスキップ、など。');
       console.error('');
     }
-    console.error('💡 Cookie を疑う場合: npm run note:cookie で取り直し、NOTE_SESSION_COOKIE を更新');
+    if (result.status === 422) {
+      console.error('💡 422 のとき:');
+      console.error('   · Repository Variables に NOTE_API_SKIP_WARMUP=true を設定（ウォームアップで Cookie が壊れるのを防ぐ）');
+      console.error('   · 手元で NOTE_SESSION_COOKIE=... node post_to_note_api.js ... が通るか確認');
+      console.error('   · note の仕様変更で API だけでは投稿できない可能性 → SKIP_NOTE_POST + 手動投稿');
+      console.error('');
+    }
+    console.error('💡 Cookie を取り直す: npm run note:cookie → .note-session-cookie.txt を Secret に');
     process.exit(1);
   }
 

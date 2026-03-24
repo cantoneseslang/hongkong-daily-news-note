@@ -6,8 +6,10 @@
  * - XSRF / CSRF が editor セッションと一致していない
  * - ペイロード形式が JSON:API に寄っている
  *
- * 対策: editor.note.com/new を GET して Cookie マージ + meta csrf-token を取得し、
- *      複数 URL / ペイロードで create を試行 → draft_save。
+ * 対策: Cookie マージ + 複数ペイロードで create → draft_save。
+ * GitHub Actions 等のデータセンターから editor.note.com へ POST すると
+ * CloudFront 403（「cachable requests only」）になることがあるため、
+ * API の POST は https://note.com/api/... のみに限定する。
  */
 
 import { readFileSync, existsSync } from 'fs';
@@ -94,12 +96,12 @@ function mergeCookiesFromResponse(cookieHeader, response) {
   return [...map.entries()].map(([k, v]) => `${k}=${v}`).join('; ');
 }
 
-/** editor を開いて Cookie 更新 + HTML から csrf-token を抽出 */
+/** note.com ドメインのみ GET（editor.note.com は CloudFront が POST を拒否しやすい） */
 async function warmupEditorSession(cookieHeader) {
   let cookies = cookieHeader;
   let csrfMeta = null;
 
-  for (const url of ['https://editor.note.com/new', 'https://note.com/']) {
+  for (const url of ['https://note.com/', 'https://note.com/login']) {
     try {
       const res = await fetch(url, {
         redirect: 'follow',
@@ -131,8 +133,10 @@ function buildHeaders(cookieHeader, extra = {}) {
     'User-Agent': UA,
     Accept: 'application/json, text/plain, */*',
     'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
     Cookie: cookieHeader,
     Origin: 'https://note.com',
+    // POST 先は note.com のみ。Referer はエディタを模倣（ホストは editor だがリクエストは note.com へ）
     Referer: 'https://editor.note.com/new',
     'Sec-Fetch-Site': 'same-site',
     'Sec-Fetch-Mode': 'cors',
@@ -193,12 +197,9 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
 
   const extraCsrf = csrfMeta ? { 'X-CSRF-Token': csrfMeta } : {};
 
-  // Step 1: create（複数試行）
+  // Step 1: create（note.com のみ — editor ホストは CloudFront 403 になりやすい）
   const step1 = await (async () => {
-    const urls = [
-      'https://note.com/api/v1/text_notes',
-      'https://editor.note.com/api/v1/text_notes',
-    ];
+    const urls = ['https://note.com/api/v1/text_notes'];
     const shortTitle = [...title].slice(0, 200).join('');
     const tinyBody = '<p><br></p>';
     const variants = [
@@ -289,31 +290,14 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
   );
 
   if (!step2.ok) {
-    const draftUrlEd = `https://editor.note.com/api/v1/text_notes/draft_save?id=${encodeURIComponent(noteId)}&is_temp_saved=true`;
-    const step2b = await postJson(
-      draftUrlEd,
-      session,
-      {
-        name: title,
-        body: html,
-        body_length: bodyLength,
-        index: false,
-        is_lead_form: false,
-      },
-      'application/json',
-      extraCsrf
-    );
-    if (!step2b.ok) {
-      return {
-        ok: false,
-        phase: 'draft_save',
-        status: step2.status,
-        raw: step2.raw,
-        json: step2.json,
-        noteId,
-      };
-    }
-    Object.assign(step2, step2b);
+    return {
+      ok: false,
+      phase: 'draft_save',
+      status: step2.status,
+      raw: step2.raw,
+      json: step2.json,
+      noteId,
+    };
   }
 
   const afterDraft = extractNoteIdAndKey(step2.json);
@@ -374,6 +358,10 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
   };
 }
 
+function isCloudFrontBlocked(raw) {
+  return typeof raw === 'string' && raw.includes('CloudFront') && (raw.includes('403') || raw.includes('ERROR'));
+}
+
 function extractNoteUrl(result) {
   const j = result.json;
   if (!j) return null;
@@ -430,10 +418,16 @@ async function main() {
     console.error(`   HTTP ${result.status}`);
     console.error('   レスポンス:', (result.raw || '').slice(0, 2000));
     console.error('');
-    console.error('💡 GitHub Secret の NOTE_SESSION_COOKIE を取り直してください:');
-    console.error('   1) ブラウザで https://editor.note.com/new を開いた状態でログイン済みであること');
-    console.error('   2) npm run note:cookie または DevTools → Application → Cookies（note.com / editor）');
-    console.error('   3) note_session と XSRF-TOKEN が同じブラウザセッションのものであること');
+    if (result.status === 403 && isCloudFrontBlocked(result.raw)) {
+      console.error('💡 CloudFront 403: GitHub Actions（データセンターIP）からの POST がブロックされている可能性が高いです。');
+      console.error('   Cookie が無効というより、note 側の CDN/WAF の制限です。');
+      console.error('   対処例:');
+      console.error('   · Repository Variables で SKIP_NOTE_POST=true → 記事は repo に残し、note は手動投稿');
+      console.error('   · 手元の Mac で同じコマンドを実行して投稿できるか確認');
+      console.error('   · セルフホストランナー（自宅PC等）なら通ることがあります');
+      console.error('');
+    }
+    console.error('💡 Cookie を疑う場合: npm run note:cookie で取り直し、NOTE_SESSION_COOKIE を更新');
     process.exit(1);
   }
 

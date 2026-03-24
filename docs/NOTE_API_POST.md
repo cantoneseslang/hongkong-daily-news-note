@@ -78,6 +78,17 @@ npm run note:cookie
 
 note の投稿は **1回の `POST` に `status: published` を付ける形式ではなく**、多くの場合 **`POST /api/v1/text_notes`（`name` と `body` のみ）→ `POST .../draft_save?id=...`** の **2段階**です。前者だけだと 422 になりやすいです。`post_to_note_api.js` はこの流れに合わせています。
 
+## CloudFront 403（「cachable requests only」）になる場合
+
+**GitHub Actions のランナー（データセンター IP）から note の API へ POST すると、CloudFront/WAF でブロックされる**ことがあります。Cookie が正しくても再現します。  
+`post_to_note_api.js` は **`https://note.com/api/...` のみ**に POST し、`editor.note.com` への POST は行いません（別 CDN で 403 になりやすいため）。
+
+**対処の例**
+
+- **Variables** に `SKIP_NOTE_POST=true` → 記事生成とコミットだけ行い、note 投稿は手動
+- **手元の Mac** で `NOTE_SESSION_COOKIE=... node post_to_note_api.js ...` が通るか確認（通れば IP 制限の可能性大）
+- **セルフホストランナー**（自宅 PC 等）でワークフローを動かす
+
 ## 非公式 API のための注意
 
 - **仕様変更で突然動かなくなる**可能性があります  

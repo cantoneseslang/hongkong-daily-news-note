@@ -39,10 +39,12 @@ graph LR
 | ファイル | 説明 |
 |---------|------|
 | `.github/workflows/daily-news.yml` | GitHub Actionsワークフロー |
-| `fetch_rss_news.py` | RSSニュース収集 |
+| `fetch_rss_news.py` | RSSニュース収集（＋ローカル時は Playwright 一覧スクレイピング） |
 | `generate_article.py` | 記事生成（Grok API） |
 | `note_auto_post.js` | note.com自動投稿 |
 | `daily-articles/` | 生成された記事（MD形式） |
+
+**GitHub Actions の所要時間:** `GITHUB_ACTIONS` 実行時は `fetch_rss_news.py` の **Playwright 一覧取得（Phase 1）を自動スキップ**し、**RSS（Phase 2）のみ**で取得します（従来ここで 10〜数十分以上かかることがありました）。CI でも Phase 1 を使う場合は Repository variables に `RUN_PLAYWRIGHT_NEWS_SCRAPE=true`。
 
 ---
 

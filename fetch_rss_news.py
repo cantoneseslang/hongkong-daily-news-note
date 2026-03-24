@@ -11,10 +11,29 @@ import time
 import json
 import re
 import html
+import os
 from dateutil import parser as date_parser
 
 # HKTタイムゾーン（UTC+8）
 HKT = timezone(timedelta(hours=8))
+
+
+def _should_run_playwright_news_scrape() -> bool:
+    """
+    Phase1 の Playwright 一覧スクレイピング（Google News / HK01 / 明報 / am730）。
+
+    - GitHub Actions では既定でオフ（ブラウザ起動・複数ページで 10〜数十分かかるため）。
+    - ローカルでは既定オン（従来どおり）。
+    - 強制オン: 環境変数 RUN_PLAYWRIGHT_NEWS_SCRAPE=1
+    - 強制オフ: SKIP_NEWS_LIST_SCRAPING=1
+    """
+    if os.environ.get('SKIP_NEWS_LIST_SCRAPING', '').lower() in ('1', 'true', 'yes'):
+        return False
+    if os.environ.get('RUN_PLAYWRIGHT_NEWS_SCRAPE', '').lower() in ('1', 'true', 'yes'):
+        return True
+    if os.environ.get('GITHUB_ACTIONS', '').lower() == 'true':
+        return False
+    return True
 
 class RSSNewsAPI:
     def __init__(self, history_file: str = 'daily-articles/processed_urls.json'):
@@ -909,62 +928,70 @@ class RSSNewsAPI:
         title_duplicate_count = 0
         
         # Phase 1: スクレイピング（HK01、明報、am730などRSSが存在しないサイト）
+        # ※ Playwright は CI で極端に遅いため GITHUB_ACTIONS 時はスキップ（RSS のみで十分な補完）
         print("\n📰 Phase 1: Webスクレイピング")
         print("-" * 60)
         scraped_news = []
         scraped_added = 0
-        
-        try:
-            from scrape_news_list import NewsListScraper
-            scraper = NewsListScraper()
-            scraped_news = scraper.fetch_all_news()
-            
-            # スクレイピング結果を追加
-            for news in scraped_news:
-                url = news.get('url', '')
-                title = news.get('title', '')
-                normalized_url = self._normalize_url(url)
-                
-                # 重複チェック
-                if normalized_url and normalized_url in existing_urls:
-                    continue
-                if self._is_duplicate_content(title, existing_titles):
-                    continue
-                
-                # 日付フィルタリング
-                published_at = news.get('published_at', '')
-                if published_at and not self._is_today_news(published_at):
-                    continue
-                
-                # 禁止コンテンツフィルタリング
-                if self._is_forbidden_content(title, news.get('description', '')):
-                    continue
-                
-                # 香港関連度チェック
-                if not self._is_hk_related(title, news.get('description', ''), url, news.get('source', '')):
-                    continue
-                
-                all_news.append({
-                    'title': title,
-                    'description': news.get('description', title),
-                    'url': url,
-                    'published_at': published_at or datetime.now(HKT).isoformat(),
-                    'source': news.get('source', 'Scraped'),
-                    'api_source': 'web_scraping'
-                })
-                existing_urls.add(normalized_url)
-                existing_titles.append(title)
-                scraped_added += 1
-            
-            print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {scraped_added}件追加")
-        except ImportError as e:
-            print(f"⚠️  スクレイピングモジュールが見つかりません: {e}")
-            print("   RSSフィードのみで続行します...")
-        except Exception as e:
-            print(f"⚠️  スクレイピング失敗: {e}")
-            import traceback
-            traceback.print_exc()
-            print("   RSSフィードのみで続行します...")
+
+        if not _should_run_playwright_news_scrape():
+            print(
+                "⏭️  Phase 1 をスキップ（高速モード）: "
+                "GitHub Actions では Playwright 一覧取得を行わず RSS のみ。"
+                " 一覧スクレイピングも使う場合は RUN_PLAYWRIGHT_NEWS_SCRAPE=1"
+            )
+        else:
+            try:
+                from scrape_news_list import NewsListScraper
+                scraper = NewsListScraper()
+                scraped_news = scraper.fetch_all_news()
+
+                # スクレイピング結果を追加
+                for news in scraped_news:
+                    url = news.get('url', '')
+                    title = news.get('title', '')
+                    normalized_url = self._normalize_url(url)
+
+                    # 重複チェック
+                    if normalized_url and normalized_url in existing_urls:
+                        continue
+                    if self._is_duplicate_content(title, existing_titles):
+                        continue
+
+                    # 日付フィルタリング
+                    published_at = news.get('published_at', '')
+                    if published_at and not self._is_today_news(published_at):
+                        continue
+
+                    # 禁止コンテンツフィルタリング
+                    if self._is_forbidden_content(title, news.get('description', '')):
+                        continue
+
+                    # 香港関連度チェック
+                    if not self._is_hk_related(title, news.get('description', ''), url, news.get('source', '')):
+                        continue
+
+                    all_news.append({
+                        'title': title,
+                        'description': news.get('description', title),
+                        'url': url,
+                        'published_at': published_at or datetime.now(HKT).isoformat(),
+                        'source': news.get('source', 'Scraped'),
+                        'api_source': 'web_scraping'
+                    })
+                    existing_urls.add(normalized_url)
+                    existing_titles.append(title)
+                    scraped_added += 1
+
+                print(f"✅ スクレイピング: {len(scraped_news)}件取得 → {scraped_added}件追加")
+            except ImportError as e:
+                print(f"⚠️  スクレイピングモジュールが見つかりません: {e}")
+                print("   RSSフィードのみで続行します...")
+            except Exception as e:
+                print(f"⚠️  スクレイピング失敗: {e}")
+                import traceback
+                traceback.print_exc()
+                print("   RSSフィードのみで続行します...")
         
         # Phase 2: RSSフィード（補完）
         print("\n📡 Phase 2: RSSフィード")

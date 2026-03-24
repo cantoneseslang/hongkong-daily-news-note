@@ -24,6 +24,9 @@ jobs:
     continue-on-error: true  # 失敗してもリトライジョブを実行するため
     env:
       TZ: Asia/Hong_Kong  # HKTタイムゾーンを設定
+      # 既定: fetch_rss_news は GITHUB_ACTIONS で Playwright 一覧スクレイピングをスキップ（高速化）
+      # 強制ON: Repository variables に RUN_PLAYWRIGHT_NEWS_SCRAPE=true
+      RUN_PLAYWRIGHT_NEWS_SCRAPE: ${{ vars.RUN_PLAYWRIGHT_NEWS_SCRAPE }}
     
     steps:
       - name: Checkout repository
@@ -446,6 +449,7 @@ jobs:
     env:
       TZ: Asia/Hong_Kong
       RETRY_COUNT: 1  # リトライ回数を記録
+      RUN_PLAYWRIGHT_NEWS_SCRAPE: ${{ vars.RUN_PLAYWRIGHT_NEWS_SCRAPE }}
     
     steps:
       - name: Checkout repository

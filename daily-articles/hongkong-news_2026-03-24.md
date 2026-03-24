@@ -1,6 +1,6 @@
 ---
 title: 毎日AI香港ピックアップニュース(2026年03月24日)
-thumbnail: images/article-header-20260324_090130.png
+thumbnail: images/article-header-20260324_092502.png
 ---
 
 # 毎日AI香港ピックアップニュース(2026年03月24日)
@@ -8,396 +8,623 @@ thumbnail: images/article-header-20260324_090130.png
 ## 本日の香港の天気
 
 ### 天気予報
-2026年03月24日08時45分に香港天文台が発表した天気予報
+香港天文台が2026年03月24日08時45分に発表した天気報告
 
-偏東の気流が広東省東部沿岸に影響を与えています。香港では今朝、一部の地域で視程が低く、横瀾島では視程が5000メートル未満に低下しました。また、高気圧が南シナ海北部を覆っています。
+偏東の気流が広東省東部の沿岸に影響しています。香港では今朝、一部の地域で視程が低く、横瀾島では視程が5000メートル以下に低下しました。また、高気圧が南シナ海北部を覆っています。
 
 香港地域の今日の天気予報:
-一部の時間帯で日差しがあるでしょう。朝は一部の地域で視程が低いでしょう。日中はかなり暖かく、市街地の最高気温は約27度、新界ではさらに2、3度高くなるでしょう。弱いから穏やかな偏東風が吹くでしょう。
+一部の時間帯で日差しがあるでしょう。朝は一部の地域で視程が低いでしょう。日中はかなり暖かく、市街地の最高気温は約27度、新界ではさらに2、3度高くなるでしょう。弱いから中程度の偏東風が吹くでしょう。
 
-週間予報: 明日の日中は概ね晴れて暑くなるでしょう。木曜日は概ね曇りでしょう。
+週間予報: 明日の日中は概ね晴れて暑いでしょう。木曜日は概ね曇りでしょう。
 
 **引用元**: 香港天文台
 
-### 香港芸術団体への資金削減なし、今後3年間は維持と機関長が表明
+### 機関長は、今後3年間、香港の芸術団体への資金削減は行わないと公約した。
 
-香港の芸術助成機関は、財政引き締めの中で、今後3年間は芸術団体や芸術家への財政支援を削減しないと表明しました。この約束は、ポール・チャン（陳茂波）財政長官が2月に発表した最新予算で強化された、法定機関に支出削減を求める政府の取り組みの中でなされました。香港芸術発展局は、他の政府機関と同様に、約2％の削減に直面しています。
+香港芸術発展局の主席は、政府の歳出削減の取り組みの中で、当局が助成金制度を見直し、内部で経費を節約すると述べた。
+香港の芸術助成機関は、財政が逼迫する中で助成金制度の見直しに着手しているにもかかわらず、今後3年間、芸術団体や芸術家への財政支援を削減しないと誓った。
+香港芸術発展局が月曜日に行った誓約は、財政長官の陳茂波氏が2月に発表した最新予算で裏付けられたように、政府が法定機関に支出削減を求める取り組みの中で行われたものである。
+政府が歳出削減を推し進める中、同局は他の政府機関とともに、今会計年度の経常補助金が約2%削減されることに直面している。
+ほとんどの局と部門は、2024-25年度に支出を1%削減し、2025-26年度から2027-28年度にかけて毎年2%削減するよう求められており、これは4会計年度全体で累積7%に達する。
+「今後3年間、たとえ政府からの資金が削減されたとしても、我々は芸術分野への助成金を減らすことはありません。これは評議会として責任を持って約束できることだと私は考えております」と、会長のケネス・フォク・カイコンは述べました。
+「これは評議会の集団的な決定であり、芸術文化分野に対して私たちができるコミットメントです。」
+評議会は代わりに、内部でコストを削減し、公的資金の使われ方を最適化することを目指すと、彼は付け加えました。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/article/3347605/no-funding-cuts-hong-kong-arts-groups-next-3-years-agency-chief-pledges?utm_source=rss_feed
 
-### 香港、アート・バーゼルとの画期的な5年間提携契約を締結へ
+### 香港、アート・バーゼルとの画期的なコラボレーション契約を締結へ
 
-香港は今月末までにアート・バーゼルと5年間の提携契約を締結する予定です。これは、香港の文化当局と主要アートフェアとの間で初めての協力となり、金融投資と文化部門の発展との関連性を強調するものです。文化・スポーツ・観光局のローザンナ・ロー・シュクプイ（羅淑佩）局長は月曜日、アート・バーゼルとの今後5年間の協力は、「グローバル金融センターとしての役割、協力、そして共有された持続的な投資の結果である」と述べました。
+文化・スポーツ・観光局長ロザンナ・ロー氏、複雑な地政学情勢下における芸術の重要性を強調
+香港は今月末までにアート・バーゼルと5年間の契約を締結する予定であり、これは香港の文化当局とこの一流のフェアとの間で初めての協力となります。この契約は、金融投資と当該分野の発展との関連性を強調するものです。
+文化・スポーツ・観光局長ロザンナ・ロー・シュクプイ氏は月曜日、アート・バーゼルとの今後5年間の協力は、「グローバル金融センターとしての我々の役割への継続的な投資、協力、そして香港を芸術が真に繁栄できる場所にするという共通のコミットメントの結果である」と述べました。
+ロー氏はまた、西九龍文化地区管理局が主催した国際文化サミットにおいて、複雑な地政学情勢下における芸術の重要性を強調しました。
+「私たちは世界中で地政学的な複雑さが増しているのを目の当たりにしています」と彼女は述べた。「このような時代において、文化はこれまで以上に重要です。文化は国境を越え、他のあらゆる対話形式が不十分に見えるときに理解を築きます。」
+アート・バーゼルは2013年から香港版を開催しており、2024年には観光局がこの国際アートフェアと3年間の提携を結び、都市の文化を世界的な舞台で披露できるようになる。
+しかし、この5年間の協力は、文化・スポーツ・観光局にとって、この一流の国際現代美術・近代美術フェアとの初めての取り組みとなる。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3347598/hong-kong-sign-landmark-art-basel-collaboration-deal?utm_source=rss_feed
 
-### 世界の投資家、混乱の中で中国の「安定性」に注目：ミルケン・フォーラム
+### ミルケン・フォーラムの講演者たちは、混乱の最中、世界の投資家が中国の「安定性」に軸足を移していると述べた。
 
-ミルケン・インスティテュートのグローバル投資家シンポジウムが月曜日に香港で開催され、上級投資幹部らは、急速な技術進歩と他の地域と比較して地政学的リスクが低下している中国に、世界の投資家が改めて注目すべきだと述べました。このイベントには、投資、銀行、金融、テクノロジー、消費者セクターから500人のビジネスリーダーと上級幹部が集まり、「変化する世界における資本」をテーマに議論が交わされました。
+AIやバイオテクノロジーなどの進歩が投資家の関心の回復を牽引し、中国はもはや「不人気」ではなくなったと、香港で開催されたシンポジウムで参加者は聞いた。
+世界の投資家は中国を改めて見直すべきだ。中国では、急速な技術進歩が他の地域と比較して地政学的リスクの低下と相まっていると、ミルケン・インスティテュートのグローバル投資家シンポジウムで月曜日に上級投資幹部が述べた。
+香港で開催されたこのイベントには、投資、銀行、金融、テクノロジー、消費者セクターから500人のビジネスリーダーと上級幹部が、「変化する世界における資本」をテーマに集結した。
+「この地政学的な混乱におけるその安定性のため、中国について真剣に考えるべきだと思いますし、『アニマルスピリット』が戻ってきているのを確かに感じます」と、平安保険のオフショア投資部門であり、時価総額で中国最大の保険会社である平安海外控股のCEO兼会長であるHoi Tung氏が述べた。
+タング氏は、同社が600億米ドルのポートフォリオにおける米国へのエクスポージャーのレベルを再評価していると述べた。その理由として、イラン紛争を挙げ、米国が「信頼性を失いつつあり」、「真にルールに基づいているとは言えない」ことの証拠であるとした。さらに、この変動性の中で中国が投資機会を提供しうると付け加えた。
+世界的な投資会社であるケンブリッジ・アソシエイツのアジア責任者、アーロン・コステロ氏は、Covid-19後の長引く停滞を経て、中国の技術的進歩に対する投資家の関心に明確な回復が見られたと述べた。
+「昨年、この壇上で私たちは、中国がいかに不人気であったか、そしてその懐疑論が…」
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/markets/article/3347593/global-investors-pivot-stability-china-amid-turmoil-milken-forum-speakers?utm_source=rss_feed
 
-### 中東紛争で玩具からトイレットペーパーまで価格上昇の可能性、専門家が指摘
+### 専門家によると、中東戦争のさなか、おもちゃからトイレットペーパーに至るまで物価が上昇する見込みです。
 
-ビジネスリーダーによると、中東紛争による原油価格の高騰は、香港におけるプラスチック製品、建設資材、さらにはトイレットペーパーなどの家庭用品のコストを押し上げるでしょう。彼らはまた月曜日、一部の地元輸出業者や製造業者が、不確実性の中で海外の買い手が短期的な注文を選択しているため、キャッシュフローの逼迫に直面していると警告しました。行政会議メンバーで元ビジネス部門議員のジェフリー・ラム・キンファン（林健鋒）氏は、中東の緊張が…と述べました。
+香港の財界リーダーたちもまた、海外バイヤーが短期発注を選択しているため、地元の輸出業者や製造業者が資金繰りの逼迫に直面していると警告しています。
+財界リーダーたちによると、中東紛争によって引き起こされた原油価格の高騰は、香港におけるプラスチック製品、建設資材、さらにはトイレットペーパーのような家庭用品のコストを押し上げるでしょう。
+彼らはまた月曜日に、不確実な状況下で海外バイヤーが短期注文を選択したため、一部の地元の輸出業者や製造業者が資金繰りの逼迫に直面していると警告しました。
+行政会議メンバーであり、元ビジネス部門の議員である林健鋒（ジェフリー・ラム・キンフォン）氏は、中東の緊張が燃料費を大幅に押し上げ、航空運賃と海上運賃の増加を通じて地元企業の運営費用に打撃を与えていると述べました。
+彼はプラスチック産業への大きなリスクを強調し、その地域が世界のポリエチレン（重要な石油化学原料）の約85パーセントを供給していると指摘しました。
+「影響は、おもちゃ、電子機器、特定のプラスチック製品、さらには衣料品にまで及んでいます」と彼は述べた。「原材料価格の高騰、運賃の値上げ、原油価格の高騰により、それらを購入するにはより高い価格を支払うより他なく、そのため人々は当面の間、購入を控えています。」
+ラム氏はさらに、ヨーロッパ、米国、その他の地域のバイヤーが、先行きの不透明感から長期注文から短期注文へと移行しており、それが輸出業者や製造業者のキャッシュフローに影響を及ぼしていると付け加えた。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347588/toys-toilet-paper-prices-set-rise-amid-middle-east-war-experts-say?utm_source=rss_feed
 
-### リーガルホテルズ、1億9400万米ドルでホテル売却、香港の学生寮投資が活発化
+### リーガルによる1億9400万米ドルのホテル売却が、投資家の香港学生寮市場への進出を浮き彫りにする。
 
-リーガルホテルズ・インターナショナル・ホールディングスとその関連会社は、494室のリーガル・オリエンタル・ホテルを約15.2億香港ドル（1億9400万米ドル）で、香港最大の不動産仲介ネットワークの一つを運営するセントラライン・グループの不動産投資部門に売却しました。このホテルは学生寮に転換される予定です。リーガルホテルズと関連会社のセンチュリー・シティ・インターナショナル・ホールディングス、パリバーグ・ホールディングスは、沙浦道にある17階建てのホテル（地下2階を含む）の売却に合意したと、グループは提出書類で述べました。
+センタラインへの494室のホテル売却は、香港における学生寮の推定88,000床不足という状況下での強い需要を浮き彫りにしています。
+リーガル・ホテルズとその関連会社であるセンチュリー・シティ・インターナショナル・ホールディングスおよびパリバーグ・ホールディングスは、沙浦道にある17階建てのホテル（地下2階を含む）の売却に合意したと、同グループが月曜日に香港証券取引所への提出書類で発表しました。
+買い手は、センタライン・ストラテジック・インベストメンツの香港を拠点とする子会社であるブルー・スカイ・プロパティーズと特定されました。
+購入額は、2025年末時点での評価額16.5億香港ドルより約7.8%低かったとのことです。この売却には、資産に紐づく7.53億香港ドルの負債も含まれており、これは買い手が引き継ぐことになると、提出書類には記されています。
+この物件は、センタラインの学生寮プラットフォーム「キャンパスワン・コミュニティーズ」の下でブランド変更される予定であると、同社が別の声明で述べました。
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/article/3347571/regals-us194-million-hotel-sale-highlights-investor-push-hong-kong-student-housing?utm_source=rss_feed
 
-### 47年間続いた手彫り麻雀牌店が閉店、香港の伝統工芸店がまた一つ姿を消す
+### 47年間手彫りの麻雀牌を販売してきた香港の店が閉店。
 
-約半世紀にわたり手彫りの麻雀牌を販売してきた店が今週、永久に閉店します。これは、香港に残る数少ない伝統工芸店の終焉を意味します。47年前に創業した「カン・ヤウ・チョン・麻雀（Kung Yau Cheung Mahjong）」は、3月28日に閉店すると発表しました。18歳でこの商売に入った店主で職人のコー・ユンカン（高潤根）氏は、旺角の店の閉店は経営不振によるものではなく、家主が今年初めに角地の物件を取り戻すことを決定したためだと述べました。
+旺角の冠友祥麻雀が3月28日に閉店します。
+手彫りの麻雀牌を販売するある店が、半世紀近くの歴史を経て今週限りで永久に閉店し、香港に残る数少ない伝統工芸品店の一つが姿を消すことになります。
+47年前に創業した冠友祥麻雀は、3月28日に閉店すると発表しました。
+18歳でこの道に入った店主で職人彫刻師の高潤根氏は、旺角の店の閉店は経営不振によるものではなく、今年初めに家主が角地の物件を明け渡すよう決めたためだと述べました。
+現在60代の高氏は、上海街にあるこの店が彼の初めての仕事であり、生涯の仕事であったと語りました。
+彼は新しい場所を探そうとしましたが、適切な物件を確保できず、当面は引退することを決めたと述べました。高氏は、長年毎日この職人技に専念してきたにもかかわらず、一夜にして仕事を失い、喪失感を覚えていると付け加えました。
+その店は彼の師匠によって創業され、高が1990年代に引き継いだ。彼は、自身がその商売と共に育ち、旺角の発展と伝統工芸の衰退の両方を目の当たりにしてきたと語った。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3347499/game-over-hong-kong-shop-selling-hand-carved-mahjong-tiles-47-years?utm_source=rss_feed
 
-### 香港、持続可能な成長のためグリーンファイナンスとイノベーションの役割強化を誓う
+### 香港は、持続可能な成長のため、グリーンファイナンスとイノベーションにおける役割を強化すると誓った。
 
-香港の財政長官は、国際金融センターおよび発展途上のイノベーション・技術ハブとしての香港の役割を活用し、地域および世界のグリーン経済への移行を支援すると誓約しました。ポール・チャン・モーポー（陳茂波）財政長官は、北京で開催された中国発展フォーラムでこの発言を行いました。これは、彼が首都を訪れる6日間の旅の5日目にあたります。彼はまた、中国の藍仏安財政部長と会談し、国内および世界の経済見通しと財政について意見を交換しました。
+財政長官のポール・チャン氏は、香港がカーボンニュートラルな発展のために、資本とイノベーションを世界的なグリーン移行に投入すると述べました。
+チャン氏はフォーラムイベントで、中国がその過程で決意とリーダーシップを示したことから、香港はグリーンで低炭素な発展という不可逆的な傾向に貢献できると語りました。
+彼は低炭素移行と持続可能な開発に関するシンポジウムで、「香港は主要な国際金融センターであり、同時に国際的なイノベーションとテクノロジーのハブとしての発展を加速させています。我々はグリーンファイナンスとグリーンテクノロジーの観点から、地域的および世界的なグリーン移行に貢献します」と述べました。
+「香港は世界的なグリーン移行において『超付加価値提供者』です。なぜなら、我々は資本だけでなく、グリーン基準、技術、ソリューションも提供しているからです。」
+陳氏は、その都市が「一国二制度」という統治原則の下、祖国からの支援と世界とのつながりに支えられた独自の優位性を享受しており、中国と西側諸国間の金融的なつながり、そして繁栄するイノベーションとテクノロジーのエコシステムを有していると述べました。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347481/hong-kong-vows-boost-green-finance-and-innovation-role-sustainable-growth?utm_source=rss_feed
 
-### 香港の店舗、「上階」から「路面」へ回帰：家賃下落で小売業者が戦略変更
+### 「階上」から「階下」へ：家主の賃料引き下げを受け、香港の店舗が路面店に進出。
 
-香港の小売業者やレストラン経営者は、家賃の下落と需要の弱体化を受け、路面店への回帰や短期の「ポップアップ」リースを試行するなど、スペースの利用方法を再考しています。地元で「ラウ・ソーン」（広東語で「上階」の意）として知られる香港興記爪哇燕窩（HK JEBN）は、高価な路面店の家賃を避け、上階で営業することで事業を築いてきましたが、現在はその逆を行っています。「パンデミック後、小売市場は低迷しています」と述べました。
+小売業者や飲食店は、家賃の下落と需要の低迷に適応しており、運営者は路面店を拡大し、ポップアップ形式を試している。
+地元では「ラウ・ソン」（広東語で「上階」の意）として知られる香港興記爪哇燕窩（HK JEBN）は、高額な路面店の家賃を避け、上層階で営業することで事業を築いてきた。しかし、現在はその逆を行っている。
+HK JEBNのマーケティングディレクター兼パートナーであるウォレス・チョン氏は、「パンデミック以降、小売市場は低迷しています。観光客は減り、地元の消費者はより慎重になっているため、我々はいくつかの変更を加える必要があります」と述べた。
+来週、燕の巣、冬虫夏草、その他の中国健康食品を扱う同小売業者は、尖沙咀に別の路面店をオープンする予定だ。これは、市内の小売市場が家賃の下落と需要の低迷に適応する中で見られる、より広範な変化の一環である。
+過去20年近くにわたり、「階上店舗」は香港の小売業界を特徴づける存在でした。通りからの視認性を犠牲にすることで、企業は賃貸料を削減し、通りすがりの客ではなく常連客に頼ることで、より低価格を提供することができました。しかし、その目算は変わりました。
+市場関係者によると、HK JEBNのグランビルロードにあるイーストオーシャンセンターの新店舗は、約3,000 sq ftの広さで、月額およそHK$200,000（US$25,500）で賃貸される予定です。東亜銀行は2013年に同じスペースに約HK$388,700を支払いましたが、その後、現在の家主であるOCBCウイングハン銀行に返還しました。これは、賃料がピーク時からいかに急激に下落したかを浮き彫りにしています。
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/companies/article/3347466/upstairs-moves-downstairs-hong-kong-outlets-head-street-level-landlords-cut-rents?utm_source=rss_feed
 
-### 財政長官、地政学的変化の中で香港の国際的地位向上を促す
+### 財政司司長は、地政学的な変動の中で香港が国際的地位を高めるよう促した。
 
-財政長官は、地政学的な複雑さが増す中で、香港が国際的地位を強化し、中国本土と西側諸国とのつながりを強化することで、国家にとって「スーパーコネクター」および「スーパー付加価値提供者」としての役割をより良く果たせるよう、努力を強化すると述べました。ポール・チャン・モーポー（陳茂波）財政長官は日曜日の週刊ブログで、国際社会が貿易の柔軟性とサプライチェーンの回復力を確保するために、二国間および地域協力の促進を求めていると書きました。
+財務長官のポール・チャンは、中国本土との統合を深め、西側諸国への橋渡し役を拡大することで、香港が「この好機を捉える」よう呼びかけました。
+同長官は、地政学的複雑さが増す中で、香港が国際的地位を強化し、中国本土と西側諸国との連携を強化する努力を一層進め、国にとって「スーパーコネクター」および「スーパー付加価値提供者」としての役割をより良く果たせるようにすると述べました。
+財務長官ポール・チャン・モーポーは、日曜日に自身の週刊ブログで、地政学的紛争の激化と高エネルギー価格によって特徴づけられる暗い世界経済の見通しを考慮し、国際社会が貿易の柔軟性と生産・サプライチェーンの回復力を確保するために、二国間および地域協力の促進を求めていると記しました。
+また、彼は、中国本土が高品質な発展、開放政策、協力を追求し続ける中で、複雑な地政学的環境における香港の役割を強調しました。
+「中国と世界を結ぶ双方向の玄関口として、香港の『スーパーコネクター』および『スーパー付加価値提供者』としての役割は、今日の複雑で変化の激しい世界情勢の中で、ますます不可欠になるだろう」と彼は記した。
+「香港の国際化とグローバルな連結性という独自の役割と機能をさらに強化し、本土との連携と協力を強化していくことが、我々が将来にわたって強化し続けなければならない課題である。」
+北京で開催されている2日間の中国発展フォーラムに出席しているチャン氏は、彼が参加すると述べた。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347464/finance-chief-urges-hong-kong-enhance-global-standing-amid-shifting-geopolitics?utm_source=rss_feed
 
-### 香港は包括的な5カ年計画を策定すべき、と行政会議メンバーが提言
+### 香港は包括的な5カ年計画を策定すべきである。
 
-行政会議メンバーのジェフリー・ラム（林健鋒）氏は日曜日、香港初の5カ年計画は、特別行政区の発展に明確な方向性を示すため、包括的であるべきだと述べました。商業ラジオ番組後、彼はこの計画が香港のビジネスと生活の両面で前進するのに役立つだろうと語りました。「私たちは香港の人々が幸せになり、ビジネスが繁栄することを望んでいます。だから、偏ったものではなく、包括的でなければなりません」と彼は述べました。職業訓練局（VTC）の会長も務めるラム氏は、発展を推進する上でAIを取り入れることの重要性を強調しました。「AIは、ビジネスや家庭を助けるために何ができるかを香港の誰もが知るべきものです。そして、VTCで入門コースを設け、人々がAIとは何かを理解できるようにするつもりです」と彼は述べました。「異なるビジネスには異なるAIが必要かもしれません。私たちは香港のビジネスにサービスを提供し、彼らと協力して、彼らのニーズに合致するものを作る準備ができています。」しかし、ラム氏はAIが人間を置き換えることはできず、注意して使用すべきだと指摘しました。一方、議員で香港生産力促進局会長のサニー・タン（陳振英）氏は、ビジネス界が香港の5カ年計画を歓迎していると述べました。「中国は世界的に主要な推進力となっています。しかし同時に、国際社会の不確実性も見ています。AIの発展に牽引される産業革命のような技術発展が来ています」と彼は述べました。「これらすべてが、特にビジネス界や産業界において、物事がどのように進化するかについて大きな懸念を与えています。そしてその答えは、政府と密接に協力して、私たち自身の5カ年計画を受け入れる必要があるということです。」彼はまた、香港は国家の第15次5カ年計画も受け入れ、新しい質の高い生産力を活用すべきだと付け加えました。
+行政会議メンバーのジェフリー・ラム氏は日曜日、香港初の5カ年計画は、特別行政区の発展に明確な方向性を示すものであるため、多角的なものにするべきだと述べました。
+商業電台の番組出演後、彼はこの計画が香港のビジネスと市民生活の両面において前進を助けるだろうと語りました。
+「私たちは香港の人々が幸せになることを望んでいます。ビジネスが繁栄することを望んでいます。ですから、偏ったものではなく、多角的なものである必要があります」と彼は述べました。
+職業訓練局（VTC）の会長も務めるラム氏は、発展を推進する上でAIを取り入れることの重要性を強調しました。
+「AIは、ビジネスや家庭を助けるために何ができるのかを、香港の誰もが知るべきものです。そして、人々がAIとは何かを理解できるように、VTCでいくつかの入門コースを開設する予定です」と彼は語りました。
+「異なるビジネスには異なるAIが必要となるかもしれません。私たちは香港の企業にサービスを提供し、彼らと協力して、彼らが必要とすることに合致するものを生み出す準備ができています。」
+しかし、ラム氏は、AIは人間を代替できず、慎重に利用されるべきだと指摘した。
+一方、議員であり香港生産力促進局の会長であるサニー・タン氏は、経済界が香港の5カ年計画を歓迎していると述べた。
+「中国は世界的に見て、これほどまでに主要な原動力となっています。しかし同時に、国際社会における不確実性も目の当たりにしています。AI開発に牽引される形で、まるで産業革命のような技術発展が到来しているのを目の当たりにしています」と彼は述べた。
 
 **引用元**: RTHK
 
 https://news.rthk.hk/rthk/en/component/k2/1848304-20260322.htm
 
-### 「点滴是生命」が邪教疑惑に回答、会長辞任、事務所は真佛宗の香港支部と指摘
+### 點滴是生命は、邪教であるとの指摘に対し見解を表明し、会長が辞任した。同団体の事務所は、真佛宗の香港支部であると指摘されている。
 
-慈善団体「点滴是生命（Project WeCan）」は、邪教との指摘に対し、会長が辞任したことを発表しました。同団体の事務所が真佛宗の香港支部であると指摘されている件について、対応を進めています。
+慈善越野レース「揹水一戦」が3月初めに突然中止を発表しました。主催する慈善団体「点滴是生命」は、中国公安部が「邪教」と認定する「真仏宗」との関連が指摘されており、香港法人の旧称には「真仏宗」が含まれていたこともあります。会長の李彩芬（リ・ツァイファン）氏は、「真仏宗」創設者である盧勝彦（ルー・ションイェン）氏の米国での活動に出席した疑いがあります。「点滴是生命」は水曜日（3月18日）に声明を発表し、李彩芬氏が公衆の懸念を払拭するため、同会の全職務を即時辞任したと述べました。声明では、これまでの活動で宗教的宣伝は一切行っていないとしましたが、「真仏宗」との関係については説明がありませんでした。「真仏宗」のウェブサイトには、同教派の住職が「点滴是生命」を設立したとの記録があり、その尖沙咀（チムサーチョイ）事務所を分堂として記載しています。また、「点滴是生命」のウェブページがかつて「真仏宗」のために募金活動を行っていた記録もあります。「点滴是生命」は、ウェブページの資料は不正確であるとし、関係組織にその旨を伝え、削除を要求したと述べました。
+「点滴是生命」が「邪教」論争に巻き込まれてから1週間以上が経過した3月18日、同団体は声明を発表し、「点滴是生命」は1998年の設立以来、香港の「税務条例」第88条に基づき登録・運営されている法定慈善団体であると述べました。同会は熱心な人々によって設立され、その目的は純粋に貧困削減活動を推進することであり、これまでの活動で宗教的宣伝活動に一切関与しておらず、調達された資金もすべて慈善目的に使用されているとしました。また、職員、ボランティア、受益者の宗教的背景も、サービスの考慮事項には一切なっていないと強調しました。
+声明によると、長年前に放送されたテレビ募金番組の名称「点滴是生命」が人々の心に深く刻まれており、同会が推進する清潔な飲料水の使命をより適切に反映しているため、現在までこの名称を使用し続けているとのことです。
+「点滴是生命」は、先日、突発的な状況に対応して、やむなく慈善越野レース「揹水一戦」を中止したことについて、影響を受けたすべての参加者、協力団体、企業に謝罪しました。しかし、どのような「突発的な状況」に直面したのかについては説明がありませんでした。
+資料を調べると、「点滴是生命」が1998年3月に香港で法人として登録された際、登録名称は「華光功徳会（香港）分社有限公司」でした。同社は1998年6月と2006年にそれぞれ「真仏宗香港華光功徳会有限公司」および「香港華光功徳会有限公司」に改名し、かつては商業名称として「華光会LLC」を使用していました。
+香港法人は2010年に「点滴是生命有限公司」に改名され、英語名のLLCは「華光功徳会」の略称でした。2012年になって初めて英語名を「A Drop of Life Limited」に変更しました。
+「真仏宗」のウェブサイトによると、「華光功徳会」は「真仏宗」
+「点滴は生命」には3名の理事（ウォン・ルーミン、アウ・シウライ・アイリーン、リー・チョイファン・ジャッキー）がいます。記録によると、同社が1998年に「華光功徳会（香港）分社」として登録設立された際、アウ・シウライとリー・チョイファンは既に会社の理事を務めていました。
+2015年、ルー・ションイェンが米国で開催したイベントで、当時出席者として「香港華光功徳会」会長のリー・チョイファンが言及されました。彼女は「点滴は生命」の創設者兼会長と同名です。
+「点滴は生命」は声明で、公衆の懸念を完全に払拭し、ガバナンスと透明性をさらに向上させる決意を示すため、リー・チョイファンが直ちに同会の全ての職務を辞任し、今後もいかなる役職も務めないことを発表しました。彼女の関連業務は一時的に経営陣が分担し、同会は直ちに採用手続きを開始し、適切な後任者を探しています。しかし、声明ではリー・チョイファンと別の理事であるアウ・シウライの「真仏宗」との関係や、アウ・シウライの去就については説明されていません。
+声明はまた、「点滴は生命」が独立顧問委員会を設立し、法律、会計、社会福祉などの専門家を招き、定期的に同会の運営とプロジェクトについて専門的な意見を提供し、プロジェクトの進捗と寄付金の使途を監視すると指摘しました。人選が確定次第、適宜発表されます。「点滴は生命」は3月17日に会社登記所に会社秘書役および理事の辞任通知書を提出しましたが、その書類はまだ閲覧できません。
+「点滴は生命」が現在使用しているオフィスは尖沙咀スターハウス19階の1区画にあり、「真仏宗」の米国ワシントンにある分寺のウェブサイトによると、「真仏宗」が香港に持つ分堂の一つ「十方同修会」の住所と同じで、連絡先電話番号も同じです。
+「点滴は生命」は『香港01』に対し、関連するウェブサイトについて回答しました。
 
 **引用元**: HK01
 
 https://www.hk01.com/社會新聞/60331333/點滴是生命回應邪教指控-會長辭職-辦公室被真佛宗指為香港分堂
 
-### 社説｜香港は「ズボン」も「核」も必要
+### 社説｜香港は「足元」も「核」も必要だ
 
-社説：香港は経済的繁栄（「ズボン」）と戦略的地位（「核」）の両方を追求すべきである。これは、経済発展と同時に、国際社会における香港の重要性と影響力を高める必要性を比喩的に表現している。
+覇権が暴走し、ルールが崩壊する中、主権国家の安全保障上の境界線は深刻な脅威にさらされています。今年2月、イランの最高指導者ハメネイ師が米以による空爆で死亡したことは、弱肉強食の法則が依然として通用する今日において、十分な戦略的抑止力がなければ、いわゆる「安全」は往々にして紙のように脆く、「発展」や「繁栄」などなおさら語るに及ばないことを示しています。半世紀前、国家が荒廃から立ち直ろうとしていた頃、著名な作家である金庸は香港で『核兵器よりズボンを』などの評論を発表し、文化人としての温かい心と理想をもって、国家が限られた資源を経済と国民生活に投入するよう訴えました。その結果、1年にも及ぶ「核兵器論争」が巻き起こり、中国初の原子爆弾が成功裏に爆発する前夜にようやく終結しました。その後、我々は強権による侮辱を受けることもなくなりました。核兵器は確かに廃棄されるべきであり、金庸の言うことにも一理あります。しかし、今日から見れば、それは「百年の大変革」という荒波を乗り越えるには到底及ばないでしょう。想像してみてください、もし国家が金庸の提言に従っていたら、我々は平和的に台頭できたでしょうか？世界はどのような姿になっていたでしょうか？
+米以によるイラン空爆は「核兵器阻止」を美名としていますが、皮肉なことに、イランの核産業は1950年代に米国の支援を受けて始まったものです。1979年のイスラム革命で親米王朝が打倒されると、米イラン関係は破綻し、核問題はたちまち地政学的な悲劇へと転じました。米国はイランが秘密裏に核兵器を開発していると非難し、経済制裁と技術封鎖を課し、さらには「悪の枢軸」の一つに数え上げました。2015年には核活動制限に関する合意が成立したものの、2018年に米国大統領トランプが一方的に合意を破棄し制裁を再開したことで、情勢は急速に悪化しました。昨年、トランプが政権に復帰すると、米軍は「ミッドナイト・ハンマー」作戦で施設を完全に破壊したと宣言したのに続き、今年は再び「核防衛」を口実に「エピック・レイジ」作戦を発動し、最高指導者ハメネイ師を直接「斬首」し、核の連鎖を極限まで押し進めました。
+すべては核兵器が招いた災いとも言えるでしょう。イランは核保有国になろうとしていると中傷され、甚大な代償を払わざるを得ませんでした。しかし、一方で、すべては非核が招いた災いとも言えるのです。米国から同様に「目の上のこぶ」と見なされている北朝鮮を見てみましょう。まさに自らが核兵器を実際に保有し、地政学的に中露という二つの核大国に依拠しているからこそ、トランプと座って和平交渉を行うことができたのです。
+「核保有」か「非核」か、それは「生きるべきか死ぬべきか」と同じく、確かに深く考えるべき問題です。20世紀50年代の「冷戦時代」を振り返ると、中国は対外的には米国の全面的な封鎖、ソ連の核兵器による威嚇に直面し、周辺には台湾やインドからの軍事的挑発もありました。国内的には貧しく何もない状態であり、工業、経済、科学技術もなく、人々はまだ最低限の生活すらままならず、「ズボン」さえも問題となる状況でした。内外ともに困難な状況の中、毛沢東をはじめとする国家指導者たちは、自主的な核兵器開発と核独占の打破を堅持し、国家の主権と安全を維持しました。当時の陳毅外相が叫んだ「ズボンを質に入れてでも原子爆弾を作る」という言葉は、5億から6億の中国人民が「ベルトを締めて」国家と一蓮托生で進むことを意味していたのです。
+当時、金庸に代表される香港の公共知識人たちは、彼が創設した『明報』に「核兵器より民生を」「核兵器製造は無益かつ有害」「核があろうと民生がなかろうと、核がなかろうと民生があろうと、核と民生の両方があろうとなかろうと、いずれも問題ではない」といった一連の社説を発表し、国家に核兵器の放棄と経済民生への注力を呼びかけ、さらに米国との合意によって安全保障を得ることを主張した。経済民生の発展を提唱し、「殺人兵器」の研究開発ではないという金庸の言葉は、論理的に完全に成立しており、人文的な配慮にも満ちている。国家資源は人民に奉仕すべきであり、逼迫した状況ではなおさら民生を優先する必要があるため、いつの時代においても間違っているとは言えない。それは、長年後に台湾の作家である龍応台が述べた「私は大国の台頭を気にしない、ただ庶民の尊厳を気にかける」という言葉が人々の心を打ったのと同じ理由であり、まさに一般大衆の真の願いを代弁していたからである。
+これらの価値観は確かにすべて「正しい」が、今日から見れば、激動する情勢の中で大国が平和的に台頭していくのを支えるには、おそらく不十分だろう。文人の議論は、理想を抱き、情義を重んじ、道徳を説く。しかし、国家が戦略を策定する際には、全局を見据え、譲れない一線を守り、主権を堅持する必要がある。文人の視点が戦略指導となると、それは容易に別の形の「なぜ肉を食べないのか」という現実離れした発言になりかねない。悪意があるわけではなく、言っていることも間違ってはいないが、最も残酷な現実の側面が見えていないのだ。国家が自衛能力を失い、基本的な安定さえ維持できなくなれば、民生という「ズボン」も当然守りきれない。例えば、イランで百人以上の女子学生が米軍の誤爆で死亡したり、キューバが米軍の燃料制裁によって頻繁に大規模停電に見舞われたりしたように、どんなに素晴らしい民生の展望も、どんなに感動的な尊厳の訴えも、結局は砂上の楼閣に過ぎないのだ。
+歴史が証明するように、「ズボン」（民生）だけを求め「核兵器」を求めないのでは、全く通用しない。逆に、「核兵器」だけを求め「ズボン」（民生）がなければ、良い結果にはならない。当時の国家指導者が最も賞賛に値したのは、そのどちらかを取捨選択するのではなく、極めて困難な状況下で歯を食いしばり、安全保障の最低ラインも、経済民生も両方手に入れるという、両立の道を切り開いた点にある。
+今日、
 
 **引用元**: HK01
 
 https://www.hk01.com/社論/60332160/社論-香港既要-褲子-也要-核子
 
-### 油塘高輝道でBMWが道路上の環境保護コンテナに衝突、運転手が負傷し病院へ搬送
+### 油塘の高輝道でBMW車が道路中央の廃棄物コンテナに衝突し、運転手が負傷して病院に搬送され治療を受けた。
 
-油塘の高輝道で、BMWが道路上にあった環境保護コンテナに衝突する事故が発生しました。この事故により、BMWの運転手が負傷し、病院に搬送され治療を受けています。
+油塘高輝道でBMWが道路中央の廃棄物コンテナに衝突し、運転手が負傷して病院に搬送され治療を受けた。
 
 **引用元**: HK01
 
 https://www.hk01.com/突發/60333450/油塘高輝道寶馬撼路中環保斗-司機受傷送院治理
 
-### 荃灣で男女が「口交式寝姿」で重なり合う奇妙な寝姿が拡散、ネットユーザーが真相を解明
+### 荃湾で男女が積み重なり「オーラルセックスのような寝姿勢」！この非常に奇妙な寝姿勢が話題となり、ネットユーザーがその真相を明かす - 香港01
 
-荃灣で、男女が奇妙な姿勢で重なり合って寝ている写真がオンラインで拡散し、大きな話題となっています。この「口交式寝姿」と呼ばれる超奇特な寝姿について、多くのネットユーザーがその姿勢の真相や背景を推測し、議論を巻き起こしています。
+荃灣で男女が重なり合い「オーラルセックスのような寝姿勢」！超奇妙な寝姿が拡散、ネットユーザーがその真相を明かす 香港01
 
-**引用元**: 香港01
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMisgNBVV95cUxQa2dvc1JPUUxacFZrMHkyQzcxUEl4eVAxMFhsQklqNzY4dEpJdTJPd3EwcUl6V0hzSWU2Wm4tWTdnVnJ0ZXJBTFBfG1BhS0VENS02Y0l5cDZaN0RHTHJ0WmJ4MldHeno2eHR2UzhmdlBwNkJmTmJJWWd3T2pBVlNuQmVDbTIyS1V0b1lfZzlldW1KejNseFJtdWFKVXhsRVdjSTBEd3U0RzNVaWk3a0JHRXFlVHd4QkxxdXU3S1JEQzQ3LVEyUjVjNjVWWlJub0g1OXcwYWNKUnN4QVpGNWwzWW55c1hpTEdyczQzSlpQdzJnMUtEZkh3emFSVkY2eG5GOHNmd3djYWNjV1B6MndkTVF5Wm1ubmFFMTRFc3Y1b1BRRHZ0S3B5Qmo5cTVsRUU5bXdOSU1aaXhmYjFxQ1otcm02TEVLcmlaX1VhN2NsUG5XQTkwS2xZbHZpellhbUZ5dVpXZGo1OS1XV2tMMXJieTl1ZVh0VUxqTjBHZkR3bHNnMmR2bE1WeGVfeGtGaVd2TTVXQVdiX19qcWZKTXhzZ1FGMHhMOW9Yd25RLVMyQUVVdw?oc=5
+https://news.google.com/rss/articles/CBMisgNBVV95cUxQa2dvc1JPUUxacFZrMHkyQzcxUEl4eVAxMFhsQklqNzY4dEpJdTJPd3EwcUl6V0hzSWU2Wm4tWTdnVnJ0ZXJBTFBfR1BhS0VENS02Y0l5cDZaN0RHTHJ0WmJ4MldHeno2eHR2UzhmdlBwNkJmTmJJWWd3T2pBVlNuQmVDbTIyS1V0b1lfZzlldW1KejNseFJtdWFKVXhsRVdjSTBEd3U0RzNVaWk3a0JHRXFlVHd4QkxxdXU3S1JEQzQ3LVEyUjVjNjVWWlJub0g1OXcwYWNKUnN4QVpGNWwzWW55c1hpTEdyczQzSlpQdzJnMUtEZkh3emFSVkY2eG5GOHNmd3djYWNjV1B6MndkTVF5Wm1ubmFFMTRFc3Y1b1BRRHZ0S3B5Qmo5cTVsRUU5bXdOSU1aaXhmYjFxQ1otcm02TEVLcmlaX1VhN2NsUG5XQTkwS2xZbHZpellhbUZ5dVpXZGo1OS1XV2tMMXJieTl1ZVh0VUxqTjBHZkR3bHNnMmR2bE1WeGVfeGtGaVd2TTVXQVdiX19qcWZKTXhzZ1FGMHhMOW9Yd25RLVMyQUVVdw?oc=5
 
-### 太子長寧大廈で中年男性がトイレで急死、弟が発見するも手遅れに
+### 太子長寧大廈で中年男性が便器の上で突然死、実弟が発見するも手遅れだった - 香港01
 
-太子（プリンスエドワード）の長寧大廈で、中年男性が自宅のトイレで急死しているのが発見されました。男性の弟が訪ねて発見しましたが、すでに手遅れの状態でした。
+太子長寧大廈で中年男性がトイレで突然死、実弟が発見するも手遅れでした。香港01がGoogleニュースで全文記事を公開しています。
 
-**引用元**: 香港01
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMi5wJBVV95cUxNTC1sVDRBa2c3cGpoYkh4Q01hN3JseF9QeVFDV2pFUTE5dDZpcG1Sb0lTcXgwcUt6MEVGN1pKaFh6SU9KaDhWOUZobDhBRVo0WVpTZTRPOXcwSkl5WHZ1SlVCZU5kY2h4R0tTc1Vwa0ZlN3duWHdQcFZQdldqbFNJQXFGLVVzZXlCZ1N4NnhCZm9GMmFqVnltV09jWGt3MUdFb3BQVV9PU05pQVVMVUkwSnU0bndIVkl3VW90YzBNYi1ETVh0eEE5MWVadE9MRzBvNWNxT09adHNXT2tGVG4wVWlSSlJ3d2hIOVVGbldCdnFkZDZJUTduVFE1N3FPZkplMmxvNDMtR0YtOWN3VzRfNGR4TWxWeE5zendDRXlrOHA3VU1DWE5leHhLai15bHlNMHRkV2dOOUhmUDFtRVE2Yjk3dFAwcG1DRWhEWUNqQ29yaHpSWVlHQUFSLWZ6MkEzUEFuaEg5SQ?oc=5
+https://news.google.com/rss/articles/CBMi5wJBVV95cUxNTC1sVDRBa2c3cGpoYkh4Q01hN3JseF9QeVFDV2pFUTE5dDZpcG1Sb0lTcXgwcUt6MEVGN1pKaFh6SU9KaDhWOUZobDhBRVo0WVpTZTRPOXcwSkl5WHZ1SlVCZU5kY2h4R0tTc1Vwa0ZlN3duWHdQcFZQdldqbFNJQXFGLVVzZXlCZ1N4NnhCZm9GMmFqVnltV09jWGt3MUdFb3BQVV9PU05pQVVMVUkwSnU0bndIVkl3VW90YzBNYi1ETVh0eEE5MWVadE9MRzBvNWNxT09adHNXT2tGVG4wVWlSSlJ3d2hIOVVGbldCdnFkZDZJUTduVFE1N3FPZkplMmxvNDMtR0YtOWN3VzRfNGR4TWxWeE5vendDRXlrOHA3VU1DWE5leHhLai15bHlNMHRkV2dOOUhmUDFtRVE2Yjk3dFAwcG1DRWhEWUNqQ29yaHpSWVlHQUFSLWZ6MkEzUEFuaEg5SQ?oc=5
 
-### 灣仔で中年男性が自宅で倒れ、弟が発見するも手遅れに
+### 湾仔で中年男性が自宅で倒れ、弟が発見するも手遅れに - 香港01
 
-灣仔（ワンチャイ）で、中年男性が自宅で意識不明の状態で倒れているのを弟が発見しました。男性は病院に搬送されましたが、すでに手遅れの状態でした。
+湾仔の中年男性が自宅で昏倒、弟が発見するも時すでに遅し 香港01
 
-**引用元**: 香港01
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMiqwJBVV95cUxNZFpsX3RqVE1Ocm82X3N3MExjbGp6ZFFlU1J4LVJuUWlMM2ltdFJyNnV3RHlSaUN6VDQ2LThUOU50X1RUOUVneU91LVBqajVsNkc2cEw2WG9vS2swT3hZX3F3M3Y2Vlh1b1VJMlY2VmN6SWp0cEFyZEFSM0ZpaW9UeTNjSEdPb29iV1c1YlQ3QUQ5eHl6cGUxWGlqNHI4dm1Xb0g1NXpINW92dTU1VmpNeTJOYk5vTXpuVjdxRWxKMVZ2ZTltaFhMdEFrM1h6ajY0QkUwOVpJSjZpVTZMM3hJSWJNQXZuWjQ3U1k5eG5iUzBwYWFpZG5wc2NuTmtxWVpsWkRRaV9qa3l1MHBZZDJ4NnBKcWNSTUM4NTFVZmFvS2FoaHFYckxtT0h1TQ?oc=5
+https://news.google.com/rss/articles/CBMiqwJBVV95cUxNZFpsX3RqVE1Ocm82X3N3MExjbGp6ZFFlU1J4LVJuUWlMM2ltdFJyNnV3RHlSaUN6VDQ2LThUOU50X1RUOUVneU91LVBqajVsNkc2cEw2WG9vS2swT3hZX3F3M3Y2Vlh1b1VJMlY2VmN6SWp0cEFyZEFSM0ZpaW9UeTNjSEdPb29iV1c1YlQ3QUQ5eHl6cGUxWGlqNHI4dk1Xb0g1NXpINW92dTU1VmpNeTJOYk5vTXpuVjdxRWxKMVZ2ZTltaFhMdEFrM1h6ajY0QkUwOVpJSjZpVTZMM3hJSWJNQXZuWjQ3U1k5eG5iUzBwYWFpZG5wc2NuTmtxWVpsWkRRaV9qa3l1MHBZZDJ4NnBKcWNSTUM4NTFVZmFvS2FoaHFYckxtT0h1TQ?oc=5
 
-### 隣人トラブルの苦情が不調に終わり公営住宅住民が審査を申請、住宅委員会はCCTV映像の審査指示なしと回答
+### 隣人への苦情が不調に終わり、公営住宅の入居者が再審査を申請。住宅委員会は、防犯カメラ映像の審査方法に関する指示がないと指摘 - on.cc東網
 
-公営住宅の住民が隣人からの嫌がらせについて苦情を申し立てましたが、解決に至らず、司法審査を申請しました。これに対し、住宅委員会は、閉回路テレビ（CCTV）の映像をどのように審査すべきかについての指示がないと回答しました。
+隣人への苦情が不調に終わった公営住宅の入居者が司法審査を申請。住宅委員会は、閉路テレビ映像をどのように審査すべきか指示がないと指摘した。（on.cc東網）
+公営住宅の入居者が隣人の嫌がらせを録画したが、住宅委員会は証拠の受け入れを拒否した。公営住宅でのCCTV設置は禁止されており、追加の巡回でも現場を押さえられなかったため、減点しないと決定した。（20260324 香港ニュース 明報新聞網）
+横頭磡邨の住民が長年隣人からの嫌がらせを受け、司法審査を申請した。住宅委員会は、屋外への閉路テレビ設置は規定違反であり、映像を受け入れないという決定は正しいと指摘した。（星島頭條）
+公営住宅の入居者が撮影した隣人の嫌がらせ映像が却下された件で、住宅委員会はテレビ番組「東張西望」の報道後、近隣関係がさらに悪化したと指摘した。（香港01）
+横頭磡邨の賃借人が隣人への嫌がらせの苦情を却下された後、司法審査を申請した件で、住宅委員会は「すべての証拠を考慮した」と述べた。（18:21 20260323 香港ニュース 明報新聞網）
 
-**引用元**: on.cc東網
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMUVmQ0FBSTFZWnJzeENXNXdidEx2eFdpZ3o2czNzcl91RkJUR0JZdXhQbDM0azgyTTZSU3hrSjlyUk9ZTXpvT3VGREVuX25aZXhfOHJ5SFhzTGFHR3JBSzBjbGwxTlJTQmpkUnplNmVrSW16MG14Q3dtdnlQRU1TbWJ2emo5amRFRFgw?oc=5
 
-### 女性副校長がSOGOスーパーで3500香港ドル超の商品を窃盗、裁判官は金額が多額と指摘し3年間の保護観察処分
+### 女性副校長がそごうのスーパーで3500元超の商品を万引きした疑い、裁判官は金額が多額と指摘し、3年間の善行命令を許可 - 香港01
 
-ある女性の副校長が、SOGOスーパーマーケットで3500香港ドル（約6万7千円）以上の商品を窃盗した疑いで逮捕されました。裁判官は窃盗された金額が「かなり多額」であると指摘し、被告に対し3年間の保護観察処分を許可しました。
+女性副校長がSOGOスーパーマーケットで3,500香港ドル以上の商品を窃盗した容疑で、裁判官は金額がかなり高額であると指摘し、3年間の保護観察を許可した。（香港01）
+中学校のアシスタント副校長がスーパーマーケットで3,500香港ドルの商品を窃盗した容疑で、36ヶ月間の自己署名による保護観察が認められた。（16:24）- 20260323 - 香港ニュース 明報新聞網
+銅鑼湾SOGOスーパーマーケット内で3,500香港ドル以上の食品を窃盗した中学校のアシスタント副校長は、警察の警告下で「一時的な出来心だった」と
 
-**引用元**: 香港01
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMijANBVV95cUxOcnpsNXRybVJiNS1rVjU5NjNyTi15RG0zQk1LSnNTVU9oV193XzVkZ1NDTHMwbkRyNmdYNEc3RDFYSElZdDB5dGtUQWZwSXJnbU1fQWNLVklxWkx5RHRqYVdLUTgwXzdSVHNrN0YtMUpIQVFINVlBTlRFSGlzNUlIeEJJMUZBcjdtYlpfazYzaXhfTHVqMlF5ZnFSRkRRWlJRcHFndGxjaXpCQ0RUWHdnQUZWSlUxemxDampnNVU3WEplSXE4S3F0dlBMTEoxSG1JVVN0Z1JiS0xiWEZicGk5UFVCOVNRbXFrQWNwLTlIb0tuRWN0dXZHLTJuQTRrVkdrRldNaUFxT2djOFVCeW1CbGdTS2NoT3BVVy1RNTl3NXhCWmo1WTJxeTNpVkxsMkNGZG5Cd2J0dE51b1BzRmpFN1Z3SzdBMGtFTnZURFVyZWFQR0ZlWFY4MWpPU1k2S19jWGIyQ0ppVnZrUFVFME5GaWJYNDc5bjVLaWVKRzdmOHRRTG9JckxFR292VXc?oc=5
 
-### 警視の周毅剛氏が女性部下へのわいせつ行為で告発、周氏はオフィスで手をつないだと供述し「付き合っていた」と主張
+### 警司の周毅剛が女性部下へのわいせつ行為に関与した疑い。周は、オフィスで被害者の手をつないだことがあり、その時点で「交際している」と感じていたと供述 - 香港01
 
-警視の周毅剛（チョウ・ガイコン）氏が、女性部下に対するわいせつ行為の疑いで告発されました。周氏は法廷で、以前オフィスで被害者の手をつないだことがあり、「すでに付き合っていたと感じていた」と供述しました。
+警司の周毅剛が女性部下へのわいせつ行為に関与した疑い。周は、以前オフィスで被害者の手をつないだことがあり、「もう付き合っていると感じた」と主張している（香港01）。高級警司が警察本部内で女性部下に対し3度にわたりわいせつ行為を行った疑い。自己弁護では、被害者は甘えた態度で、二人は秘密の関係を発展させていたと主張している（Yahoo）。高級警司はわいせつ行為を否定し、被害者は好意を抱いており「自然に手をつないだ」と指摘した（2026年3月24日、香港ニュース、明報新聞網）。警司の周毅剛が女性部下へのわいせつ行為に関与した疑い。周は「（自分の）条件は悪くない」と認め、被害者とは恋人関係だったが、ツーショット写真はないと述べている（香港01）。高級警司の周毅剛が警察本部内で女性部下に対し3度にわたりわいせつ行為を行った疑い。彼は被害者と秘密の関係を発展させていたと主張し、「恋人同士が腰や背中に触れるのは普通のことだ」と述べている（法庭線The Witness）。
 
-**引用元**: 香港01
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMiyANBVV95cUxQbVVvSTEzOW52QWNNZktWTXlwTHcwWkN3T2dzV0NMaFVSUEt1cXh3MzRKTjh1S0haLWJiYUVIWUF6ZnhYbUYzdWpzc3BhRWo2LS1lU3lSSnJtTklsZ1Bnb3ZOMTdOdXN3LTEzdEt6YkFIS1puUVdiYW9GLWQ0LWh1cC1YbG9tbnl6bVJaaWxpRHZJUHNwYV9mS3lwb0c5ME1rejB2RDdxUktQTlRJRzgxVHV0U3BRT2pmcmRoMG4xMEx4dGJyVDRuQ1pVU2JjdHk1bndrZGpWT2wtd2Z0XzR5R09vakRnNFNSOWpmN0J5ZldkYWRsZFNHelR3ZVhxWVpSbTdRWDdrN1VucloxRzZ6RXc0aEJqclZzMWpGTDI2em1oSEhIN2dhOUhIaEpIMHZ0ZEVXUlM0SmFqLTN3RzhxdkYwY2NHVnNqOXZQQWhQdU5mQ0x1cG9nNnAxWkFnT2x4QzZ3NTZFN1MxTXRXbEFqb2xOUHFUM3NzUDVjMWhaY3NDYTR5NjhRbTFUQ1JZN0xKdWRZUkc4dFJUS2dOZ0dGNUlsaU5ibmVGZUQyUnUtUGEyNkJvRDEyOEVib1hEOEh3ZTNzZFVlV2w?oc=5
+https://news.google.com/rss/articles/CBMiyANBVV95cUxQbVVvSTEzOW52QWNNZktWTXlwTHcwWkN3T2dzV0NMaFlSUEt1cXh3MzRKTjh1S0haLWJiYUVIWUF6ZnhYbUYzdWpzc3BhRWo2LS1lU3lSSnJtTklsZ1Bnb3ZOMTdOdXN3LTEzdEt6YkFIS1puUVdiYW9GLWQ0LWh1cC1YbG9tbnl6bVJaaWxpRHZJUHNwYV9mS3lwb0c5ME1rejB2RDdxUktQTlRJRzgxVHV0U3BRT2pmcmRoMG4xMEx4dGJyVDRuQ1pVU2JjdHk1bndrZGpWT2wtd2Z0XzR5R09vakRnNFNSOWpmN0J5ZldkYWRsZFNHelR3ZVhxWVpSbTdRWDdrN1VucloxRzZ6RXc0aEJqclZzMWpGTDI2em1oSEhIN2dhOUhIaEpIMHZ0ZEVXUlM0SmFqLTN3RzhxdkYwY2NHVnNqOXZQQWhQdU5mQ0x1cG9nNnAxWkFnT2x4QzZ3NTZFN1MxTXRXbEFqb2xOUHFUM3NzUDVjMWhaY3NDYTR5NjhRbTFUQ1JZN0xKdWRZUkc4dFJUS2dOZ0dGNUlsaU5ibmVGZUQyUnUtUGEyNkJvRDEyOEVib1hEOEh3ZTNzZFVlV2w?oc=5
 
-### リーシアタープラザの女性トイレで新生児の男児が発見されるも、病院で死亡確認
+### リーシアタープラザの女性用トイレで新生児の男児が発見され、病院搬送後に死亡が確認された - 香港電台ニュースサイト
 
-銅鑼湾（コーズウェイベイ）のリーシアタープラザの女性トイレで、新生児の男児がゴミ箱の中から発見されました。男児は病院に搬送されましたが、その後死亡が確認されました。警察は殺人事件として捜査を開始しています。
+利舞台広場の女性用トイレで新生児の男児が発見され、病院搬送後に死亡が確認された。香港電台ニュースサイト
+利舞台広場の飲食店トイレで新生児が発見され、意識不明のまま病院に搬送され救命措置が取られたが、残念ながら死亡した。Yahoo
+利舞台の女性用トイレで乳児の遺体が発見され、殺人事件として捜査されている。信報ウェブサイト
+湾仔の利舞台女性用トイレで新生児の男児が発見され、病院搬送後に死亡。警察は殺嬰事件として扱い、重大犯罪捜査班が捜査している。香港文匯網
+利舞台広場の女性用トイレで新生児の男児が発見され、殺嬰事件として警察の重大犯罪捜査班が捜査している。香港電台ニュースサイト
 
-**引用元**: 香港電台新聞網
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE4xbzI1UTcteXM1RXowd1gxYU1ES0pBbmppcy1uNEFxVEVpT04tZ2dmUXQ1dzgxRFozSDRsbi1pbTdCQmttZ1piWElGb1p0cG9mUVR3eVdiNU5nZDNTWl9CM01wMzFiRE1ZX1NjMkE4Yw?oc=5
 
-### 大埔の路上で「自殺攻撃」：若者が車に飛び込み2回転して倒れるも奇跡的に無傷、幸運な要素が命を救う
+### 大埔の道路で「自殺行為のような突撃」、若い男性が飛び出して乗用車の側面に衝突し、2回転して倒れたが九死に一生を得たのは、ある幸運な要素のおかげだった｜ジューシーディン - 星島ヘッドライン
 
-大埔（タイポー）の路上で、一人の若者が突然車道に飛び出し、走行中の乗用車に衝突する「自殺攻撃」のような出来事がありました。若者は衝突後、空中で2回転して地面に倒れましたが、奇跡的に無傷でした。専門家は、ある「幸運な要素」が彼の命を救ったと指摘しています。
+星島頭條、on.cc東網、香港經濟日報HKETなどの報道によると、大埔の路上で若い男が自家用車に「自殺行為にも等しい突進」を仕掛け、横から衝突した。男は衝突後、2回転して倒れたが、九死に一生を得たのは、ある幸運な要素のおかげだった。この事件は「当たり屋」行為として報じられており、市民が法律を軽視し、路上での当たり屋行為や不当な金銭要求が野放しになっている現状が指摘されている。
 
-**引用元**: 星島頭條
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMirwRBVV95cUxPQ1JhTEZFVkFkRDZ1c3c1UE9YYmhOX25NN0liZlA2NXVTcThqMW5HVEhWUUxhdDdyYUdSUUVETE52U0tJd1U5ekY4a1R3Y3owYTlqdUVhNS14bElqaDU1NlhOMTNjX1lZcWRaaUU1UlEtMmxYcExLWGp4SjRLVTBpNWtNX08zakltVTV6bmZUeWZwMnB4blZITFlxaERydU43R3F1LTlpYkE4YlBJSXp5b0FNc2NmZ3VJbDV2ZjdqNjVZT3pPbkd4U1hVamYyOXNlMm9Md29SbldyakpRT0hCa2xnNW9tbVl5UXkwdEJjZU82M3doZTB3UDRLNEc3Y3pIVXlzVlRDRXAwam5OalpLWEs0bGlCd0t3RUoyR3VPSDlaQVBYb2VNNGNScU1wNDlwdmtEc0RtRGt3SHI0RE10NHNibWJLYzlIVEdLOXJEU25yaVo4WjA0TC1OcTkzYzFjdkNYZ0FrbDhGTEZrWUlxUVBRQ1doOWRDdEVNd0h2bmd3OU1vYkpjckgzdGg4VWRjdDZfcmNra1JYNnVjZFBFd1RiSk5JVWVRWTI5NGJqZUZTVUV4MV9mUXpKSmJOV2psTzVMSkxNeXlHU1o0QnlHaXdBUnBoQmVEdGRucy1JWVNmYkNzLU1DTTB3VzVnVjVFUFJVV0Y2ZFdMVDVyUXZNMUZjeTlJbnRzajhHa0J2RnExS2pDN0tfaW1ZTWpJNU5Hc20yeVVVSHVYSHBsdEw0?oc=5
+https://news.google.com/rss/articles/CBMirwRBVV95cUxPQ1JhTEZFVkFkRDZ1c3c1UE9YYmhOX25NN0liZlA2NXVTcThqMW5HVEhWUUxhdDdyYUdSUUVETE52U0tJd1U5ekY4a1R3Y3owYTlqdUVhNS14bElqaDU1NlhOMTNjX1laZHFaaUU1UlEtMmxYcExLWGp4SjRLVTBpNWtNX08zakltVTV6bmZUeWZwMnB4blZITFlxaERydU43R3F1LTlpYkE4YlBJSXp5b0FNc2NmZ3VJbDV2ZjdqNjVZT3pPbkd4U1hVamYyOXNlMm9Md29SbldyakpRT0hCa2xnNW9tbVl5UXkwdEJjZU82M3doZTB3UDRLNEc3Y3pIVXlzVlRDRXAwam5OalpLWEs0bGlCd0t3RUoyR3VPSDlaQVBYb2VNNGNScU1wNDlwdmtEc0RtRGt3SHI0RE10NHNibWJLYzlIVEdLOXJEU25yaVo4WjA0TC1OcTkzYzFjdkNYZ0FrbDhGTEZrWUlxUVBRQ1doOWRDdEVNd0h2bmd3OU1vYkpjckgzdGg4VWRjdDZfcmNra1JYNnVjZFBFd1RiSk5JVWVRWTI5NGJqZUZTVUV4MV9mUXpKSmJOV2psTzVMSkxNeXlHU1o0QnlHaXdBUnBoQmVEdGRucy1JWVNmYkNzLU1DTTB3VzVnVjVFUFJVV0Y2ZFdMVDVyUXZNMUZjeTlJbnRzajhHa0J2RnExS2pDN0tfaW1ZTWpJNU5Hc20yeVVVSHVYSHBsdEw0?oc=5
 
-### 若者が学士号を捨て「格下げ」して建築設備高等専門学校へ：「正しい道を行けば必ず実を結ぶ」
+### 学士号取得者が敢えて建築設備高等ディプロマ課程へ：正しい道を進めば、いつか必ず実を結ぶ - 香港01
 
-ある若者が大学の学士課程を中退し、建築設備に関する高等専門学校のディプロマ課程に進学しました。彼は「正しい道を行けば必ず実を結ぶ」と語り、自身の選択を擁護しています。この決断は、学歴よりも実践的なスキルと情熱を追求することの重要性を示唆しています。
+若者が学士課程を中退し、建築設備高等ディプロマ課程へ転向：正しい道を進めば必ず実を結ぶ 香港01
+【エミリー】興味のために大学を中退しVTCで学びエンジニアに：ユーダル賞受賞者「本当にやりたいことは貫く価値がある」 - 2026年3月23日 - 香港ニュース 明報ニュースネット
+男子が学位取得を断念し高等ディプロマを学び、エンジニアの夢を追いかける：ユーダル卿記念基金優秀見習い賞を授与される 星島日報
+大学を中退し見習いに転向、若者がエンジニアの夢を叶える 香港経済日報
+蔡継有学校の女子生徒が28万香港ドルのユーダル奨学金を獲得しオックスフォード大学へ留学、学業修了後は香港に戻り香港市民に貢献する 香港01
 
-**引用元**: 香港01
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMisgNBVV95cUxQS1d2bnZjbjdOWkZoX0Z6Q2lNYjFUMnlsWUVrazlwb3NDQzh1aG1lTzJHaGIySTZkSUpuWVZxbDJFa3JYYU0wTnJnRWVGc1BPOWItb3NoWmt1NEJTZmF4dFlmclBUNW9fTF9rVnZCaEVDdzdVcEV4UzN5X2lfSzZrbWxyU3VqLTRtS1BpT3ByaHdmeEhXaW5TOHg2TktGN01TaGNTbWZ3blU3SE4tSmM4MmNSa0RtZjJxUkw2c2JzRG9EUHl1ZnR6d2RqSXg2LXk2YlU5czhYSV81TjRwZHlLcnZxSGxiVWtVblhxUTlDWlRra3N5ZDR1WHpoSEZ5dU9CZkhjVE5aN1ZMbUpCZjJaMWFFelJfTXdEczRkcGV4X2h2b0FSbkdyTWJmWm5wRFdJeW41bS1tSFdsdHlZT056RnJGa3REMU5La3FoNE84VXFoaDJ6MUV4bU5GSm82YlRDdXUyVWlvN0p3QjFpWFdBUlAyeldfdGhJcXh4RmtWcUdOYjlyRUZtQzllekJET0lvbnhMMS1iMUU0eXBFRnhteGgwQjRGbDJ6Nl9lV083LTZlZw?oc=5
+https://news.google.com/rss/articles/CBMisgNBVV95cUxQS1d2bnZjbjdOWkZoX0Z6Q2lNYjFUMnlsWUVrazlwb3NDQzh1aG1lTzJHaGIySTZkSUpuWVZxbDJFa3JYYU0wTnJnRWVGc1BPOWItb3NoWmt1NEJTZmF4dFlmclBUNW9fTF9rVnZCaEVDdzdVcEV4UzN5X2lfSzZrbWxyU3VqLTRtS1BpT3ByaHdmeEhXaW5TOHg2TktGN01TaGNTbWZ3blU3SE4tSmM4MmNSa0RtZjJxUkw2c2JzRG9EUHl1ZnR6d2RqSXg2LXk2YlU5czhYSV81TjRwZHlLcnZxSGxiVWtVblhxUTlDWlRra3N5ZDR1WHpoSEZ5dU9CZkhjVE5aN1ZMbUpCZjJaMWFFelJfTXdEczRkcGV4X2h2b0FSbkdyTWJmWm5wRFdJeW41by1tSFdsdHlZT056RnJGa3REMU5La3FoNE84VXFoaDJ6MUV4bU5GSm82YlRDdXUyVWlvN0p3QjFpWFdBUlAyeldfdGhJcXh4RmtWcUdOYjlyRUZtQzllekJET0lvbnhMMS1iMUU0eXBFRnhteGgwQjRGbDJ6Nl9lV083LTZlZw?oc=5
 
-### 北部大都市圏の3つの展示館がオープン、古洞北は来年開設予定
+### 北部都会区の3展示館がオープン、古洞北は来年開設予定 - 20260323 - 香港ニュース - 明報新聞網
 
-香港の北部大都市圏（Northern Metropolis）に3つの展示館がオープンしました。これらの施設は、地域の発展計画や将来像を紹介することを目的としています。また、古洞北（Kwu Tung North）に建設中の展示館は、来年開設される予定です。
+北部都会区の3つの展示館が稼働開始、古洞北は来年開設予定 - 20260323 - 香港ニュース 明報ニュースサイト
+北部都会区特別条例、3月下旬に立法会へ諮問提出予定 2026-27年度予算案ニュース内容 - 特集 信報ウェブサイト
+北部都会区開発｜北部都会区の4つの新開発区に展示ホールを設置、古洞北の「北部都会区中核展示ホール」は第一段階として2027年の稼働開始を目指す 香港経済日報HKET
+洪水橋/厦村新開発区コミュニティ連絡センターが移転・拡張後にオープン、北部都会区の情報を紹介 news.tvb.com
+北部都会区の4つの区にそれぞれ展示館を設置し、投資誘致を促進 星島頭條
 
-**引用元**: 明報新聞網
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMirgJBVV95cUxNZUNtWXVsZzFLcnA5dlFrOW8tSHoxNmtrM21KYnY4c1E4a0ZVVEJXMmgtaGtjT24zSWZRa1lIc0Ita0lxdnYtR2tjX2g2Um4xMFNTSDJCazR0TFlYVldVQ3dsUUxUS29PVkVfMmU5aTVOS3FTQXBOQnUwVWNfbTZhLVM2eGVBVkpsQ29xYmlkRUFMNlBHbVhONE5CajM4SmlHQms0LUd0NnktbTVmYmZQTVhmczVuSEd0UWFUTE1jSU4zRDNIdHNvRl9ibGhzZ2c2WDN4VTR2ZFVpR0NXZE9iWXRjSkl1OHU1NHBYS3p2Y01KWjJFd3pzdWpsNlhOVmY1TFJxbFFkNktMVlJWRXhMVkFOc3Vkb3dGYzktZlA2NUljZ0dqWTZrZ3ZsaHFIZw?oc=5
+https://news.google.com/rss/articles/CBMirgJBVV95cUxNZUNtWXVsZzFLcnA5dlFrOW8tSHoxNmtrM21KYnY4c1E4a0ZVVEJXMmgtaGtjT24zSWZRa1lIc0Ita0lxdnYtR2tjX2g2Um4xMFNTSDJCazR0TFlYVldVQ3dsUUxUS29PVkVfMmU5aTVOS3FTQXBOQnUwVWNfbTZhLVM2eGVBVkpsQ29xYmlkRUFMNlBHbVhONE5CajM4SmlHQms0LUd0NnktbTVmYmZQTVhmczVuSEd0UWFUTE1jSU4zRDdIdHNvRl9ibGhzZ2c2WDN4VTR2ZFVpR0NXZE9iWXRjSkl1OHU1NHBYS3p2Y01KWjJFd3pzdWpsNlhOVmY1TFJxbFFkNktMVlJWRXhMVkFOc3Vkb3dGYzktZlA2NUljZ0dqWTZrZ3ZsaHFIZw?oc=5
 
-### 【エミリー】7000人が粉嶺バイパスを歩いて募金活動、「前には美しい景色」の標識で応援
+### 【エミリー】7000人が粉嶺繞道でチャリティウォーク、「前方には美しい景色」の道路標識が参加者を励ます - 2026年3月23日 - 香港ニュース - 明報ニュースサイト
 
-7000人以上が粉嶺（ファンリン）バイパス（東段）を歩くチャリティーイベント「公益金新界区百万行（Community Chest New Territories Walk for Millions）」に参加し、募金活動を行いました。参加者たちは、「前には美しい景色がある」と書かれた標識に励まされながら、ウォーキングを楽しみました。
+【エミリー】7000人が粉嶺バイパスを歩いて募金活動、「前方に美しい景色あり」の道路標識が励ます - 20260323。
+香港ニュース。明報新聞網。
+新界区百万行、粉嶺バイパス東区間の初体験。香港経済日報HKET。
+中原地産から100名の精鋭が新界区公益金百万行に参加し、粉嶺バイパス（東区間）での慈善募金活動をいち早く体験。am730。
+公益金新界百万行が粉嶺バイパス東区間で開かれ、7000人以上が参加。橙新聞。
+滬港社団総会が2026年公益金新界区百万行を全面的に支援。紫荊網。
 
-**引用元**: 明報新聞網
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMimANBVV95cUxQLXpFRmJHOWo2blEyalliLVdwQkl0eEl2R21ZRkZlYUJta2tjbklHeW1va3l0WEFYZjkyV0VDUW1EZ1FnQldybnRyeEZtQ0hmSmVUdVp5bG8xZEE3UU1JTThoMmZQMVgyU0k1WUVKUjFnVVpxcW9fYldCTkxXQmo2TkYtRi1jLWFIQU9adTRyaWtOazVRWFMtZzdCU0xleWxvbkpkTmk3UG93Ui1zMnoyWlNLQkRra0ZBYnB0YjFHZ2FyS0lfZzdPRFdvMTZxN3I0aTc1YkxVNjd0dVpqLWRheGpzYkVvTjU0QlpOd005SHJoaTM3RFdJZUtiS0RzUHkzNFMtT2wyMVBLMnJHZ25vMVJOWE80ejZoN2pUaE1jZ29DRk1uNGpLZmp2dEFIcENJMWtiVndVb05UQnRibnRESl9fV3J5U2xQbnZMV0FDUUtKZ1FRd1FjRjBtYl92YWhKLUt5Q2RjWHVVREFOVkQtSms1RzRPYWNnZk12aG1iNHl4R2M4YkNhTGFSd21iTEREb2RUOTd5MlY?oc=5
 
-### 報道：全国婦女連合会・章冬梅氏が香港マカオ事務弁公室副主任に就任、黄柳権氏はマカオ中連弁を退任し商務部出身の楊偉群氏が後任か
+### 消息：全国婦連の章冬梅氏が香港マカオ事務弁公室副主任に就任、黄柳権氏がマカオ連絡弁公室を退任し、商務省出身の楊偉群氏が後任となる見込み - 2026年3月23日 - 香港ニュース - 明報ニュースサイト
 
-報道によると、全国婦女連合会の章冬梅（ジャン・ドンメイ）氏が香港マカオ事務弁公室の副主任に就任しました。また、黄柳権（ホワン・リウチュエン）氏はマカオ中連弁（中央人民政府駐マカオ特別行政区連絡弁公室）を退任し、商務部出身の楊偉群（ヤン・ウェイチュン）氏が後任となる見込みです。
+ニュースによると、全国婦女連合会副主席の章冬梅氏が香港マカオ事務弁公室の副主任に就任した。同氏は先週すでに着任している。また、黄柳権氏がマカオ連絡弁公室を退任し、商務部出身の楊偉群氏が後任に就くと見られている。この件は、20260323付の明報新聞網（香港ニュース、写真で見る世界）、信報ウェブサイト、香港01、聯合新聞網などの香港メディアによって報じられている。
 
-**引用元**: 明報新聞網
+**引用元**: Google News HK
 
-https://news.google.com/rss/articles/CBMizwRBVV95cUxQazVrcEFmdTVSdElBbGItaTJyeVpqZ1FlM0d1TmZHemwwaVZYY1VVODBNM0VOMnAtZmxyMzRLRkFFdW9QUGVUSHRaalRQU3NiaXpraXNYZDNxUUJfWUlRdlBQRHBCaG1GMTRXal9hNmptMFlVRzdhaG1JenRWVWxKYTZPR0Y5T2xEb0NselNsZWx0ZUh1Sk5TMWhuUE5QTTNBUzg0bnhuWEhUbEZ6Z2pYaThtZEpfalo2ZEhTWU5oaHNaN21sLXFlSFNwdmVyNlp5YXA2QlZQZ25VN0taZWxXWFQ3Zl9nNUpsc0ZZMTBIRXJlOXRIc3MyZ0sxOXMxRjRBRk1fVWNHMjlxb182YTU1UVhoWTF6X1d4ZzRXRXdnYkdkbk9rNkYyVzM0TVBuQTcwM0VDd1dxN2N4Nnl5V0JWRGM3cERLRk5tRVRDNmxhVmNhdFpVZVhiMU5SVC1xSHFzellwOUY0VjA3UGFrY3F0ZUNqT2hoWUhYLXpteHJ1RWJaMHg3SzFHSWpjOGt2U25jb2o0cDhNUXJsYmRWbW5jRy1TM3JHTS1JUlFPdVI3WGF6SUxiVmNQR25LSlYtQ1hIUkROYTkzTlBXRFpsSnpVYlM0QlJESFNxX2JNeGJmbUp4dXdNVmRXS2kwVGdXMGhxNjFwaEVUdWJVaUctYk92ZUV0TUszMmhpek9lbWgtYUp0ZnRSTjkwMWlNWGVjR2tmM0o1X25JX1hvYTM4TXFuRk82RWgySmVsVlhWR3FlV29ZLURIOEx5MGROZmx6eTA?oc=5
+https://news.google.com/rss/articles/CBMizwRBVV95cUxQazVrcEFmdTVSdElBbGItaTJyeVpqZ1FlM0d1TmZHemwwaVZYY1VVODBNM0VOMnAtZmxyMzRLRkFFdW9QUGVUSHRaalRQU3NiaXpraXNYZDNxUUJfWUlRdlBQRHBCaG1GMTRXal9hNmptMFlVRzdhaG1JenRWVWxKYTZPR0Y5T2xEb0NselNsZWx0ZUh1Sk5TMWhuUE5QTTNBUzg0bnhuWEhUbEZ6Z2pYaThtZEpfalo2ZEhTWU5oaHNaN21sLXFlSFNwdmVyNlp5YXA2QlZQZ25VN0taZWxXWFQ3Zl9nNUpsc0ZZMTBIRXJlOXRIc3MyZ0sxOXMxRjRBRk1fVWNHMjlxb182YTU1UVhoWTF6X1d4ZzRXRXdnYkdkbk9rNkYyVzM0TVBuQTcwM0VDd1dxN2N4Nnl5V0JWRGM3cERLRk5tRVRDNmxhVmNhdFpVZVhiMU5SVC1xSHFhellwOUY0VjA3UGFrY3F0ZUNqT2hoWUhYLXpteHJ1RWJaMHg3SzFHSWpjOGt2U25jb2o0cDhNUXJsYmRWbW5jRy1TM3JHTS1JUlFPdVI3WGF6SUxiVmNQR25LSlYtQ1hIUkROYTkzTlBXRFpsSnpVYlM0QlJESFNxX2JNeGJmbUp4dXdNVmRXS2kwVGdXMGhxNjFwaEVUdWJVaUctYk92ZUV0TUszMmhpek9lbWgtYUp0ZnRSTjkwMWlNWGVjR2tmM0o1X25JX1hvYTM4TXFuRk82RWgySmVsVlhWR3FlV29ZLURIOEx5MGROZmx6eTA?oc=5
 
-### 香港、イランとイスラエルへの渡航警戒レベルを「黒」に引き上げ、バーレーンなどにも「琥珀」警告を拡大
+### 香港は、イランとイスラエルへの渡航警戒情報を黒色に引き上げ、黄色警告の対象を拡大しました。
 
-香港政府は、中東情勢の継続的な悪化を受け、イランとイスラエルへの渡航警戒レベルを「黒」（渡航中止勧告）に引き上げました。また、バーレーン、ヨルダン、オマーン、カタール、サウジアラビア、アラブ首長国連邦（UAE）には「琥珀」（渡航注意勧告）を拡大しました。政府報道官は、「黒の渡航警戒レベルは深刻な脅威を示す」と述べ、「イランと…の予測不能な治安情勢のため」と説明しました。
+バーレーン、ヨルダン、オマーン、カタール、サウジアラビア、アラブ首長国連邦を対象に、アンバー渡航注意報が拡大されました。
+香港政府は、イランとイスラエルに対する渡航注意報をブラックに引き上げ、バーレーン、ヨルダン、オマーン、カタール、サウジアラビア、アラブ首長国連邦（UAE）を対象にアンバー渡航注意報を拡大しました。
+政府は月曜日、「中東地域の情勢が継続的に悪化していることを鑑み」、今回の警戒レベル引き上げを発表しました。
+政府報道官は、「ブラックレベルの渡航注意報は深刻な脅威を示します」と述べました。
+「イランとイスラエルにおける極めて予測不可能な治安情勢のため、政府は香港住民に対し、イランとイスラエルへのあらゆる渡航を避けるよう助言します。」
+同報道官はさらに、これらの国に滞在している住民は「個人の安全に注意を払い、直ちに退避するか、比較的安全な地域へ移動すべきである」と付け加えました。
+また、バーレーン、ヨルダン、オマーン、カタール、サウジアラビア、アラブ首長国連邦への渡航を予定している、またはすでに滞在している住民は、注意を払い、身の安全に十分配慮してください。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3347631/hong-kong-raises-iran-israel-travel-alerts-black-expands-amber-warning?utm_source=rss_feed
 
-### 香港の準私立学校、非現地学生に年間最大35万香港ドルの学費を請求する可能性
+### 非現地生徒は、香港の準私立学校でHK$350,000の学費に直面する可能性がある。
 
-香港の準私立学校（Direct Subsidy Scheme, DSS校）は、追加の入学枠を提供することで非現地学生を受け入れることが許可されましたが、年間最大35万香港ドル（約44,680米ドル）の学費を請求する可能性があります。一部の費用をカバーするための奨学金も提供されます。しかし、香港の学校への外国人配置を専門とする教育コンサルタントは、この費用は競争力がないと指摘し、マレーシアやタイの高級英国系寄宿学校の費用を上回ると述べました。
+教育コンサルタントは、提示された学費がマレーシアやタイの高級英国式寄宿学校の費用を上回ると述べている。
+香港の準私立学校が追加の定員を設け、一部の費用を奨学金で賄うことで非現地学生の受け入れを許可されたことを受け、非現地学生は年間最大HK$350,000 (US$44,680)を支払って香港の準私立学校で学ぶことになる可能性がある。
+しかし、香港の学校への駐在員子女の入学支援を専門とする教育コンサルタントは、その費用は競争力がないと述べ、マレーシアやタイの高級英国式寄宿学校の費用を上回ると指摘した。
+香港直接補助計画（DSS）学校評議会は月曜日、DSS学校を宣伝するため、今週金曜日からタイのバンコクとマレーシアのクアラルンプールへの4日間の旅行が企画されていると発表した。
+このプロモーションイベントは、政府が48校のDSS学校に対し、自己資金方式で非現地学生向けのクラスまたは定員を増やすことを承認したことを受けて開催されました。これは、これらの志願者が香港の大学で学ぶ道を開くため、昨年、行政長官ジョン・リー・カーチウの施政方針演説で発表されたイニシアチブの一つです。
+「私たちは現地で保護者や学生と直接連絡を取り、私たちの学校を紹介することができます。今回の訪問は、私たちの最初のプロモーションツアーに過ぎません」と、DSS学校評議会の副議長であるディオン・チェン氏は述べました。
+「最初の訪問での経験をまとめた後、私たちは引き続き他のツアーを開催し、より多くの学校が様々な場所へ赴くように働きかけます。」
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/education/article/3347630/non-local-pupils-could-face-hk350000-fees-hong-kong-semi-private-schools?utm_source=rss_feed
 
-### 香港のファミリーオフィスサミットにポップマートの億万長者など世界のゲストが集結
+### 香港のファミリーオフィスサミットには、世界の招待客の一人としてポップマートの億万長者が参加する。
 
-香港政府が月曜日の夜に開催したファミリーオフィスサミットの夕食会には、ポップマートの創業者、会長、CEOである王寧（ワン・ニン）氏を含む、世界中の約130人のファミリーオフィス意思決定者と富裕層の二世が集まりました。この夕食会は、火曜日に開催される第4回「Wealth for Good in Hong Kong (WGHK) Summit」の舞台を整えるもので、同サミットは「永続的な遺産を築く」をテーマに、香港が国際的な富裕層管理ハブとしての能力を世界にアピールするものです。
+行政長官のジョン・リー氏は、第4回「Wealth for Good」サミットの開幕にあたり、香港は資産運用ハブとして「強く揺るぎない」と述べました。
+月曜日の夜、香港政府が主催した夕食会には、世界中から約130人のファミリーオフィスの意思決定者や富裕層の二代目メンバーが出席し、億万長者であるポップマートの創業者、会長兼CEOの王寧氏もその中に含まれていました。
+この夕食会は、世界的な不確実性が続く中で、香港が国際的な資産運用ハブとしての能力をアピールする中、火曜日に開催される第4回「Wealth for Good in Hong Kong (WGHK) サミット」の舞台を整えました。同サミットのテーマは「永続的な遺産を築く」です。
+しかし、香港は「強く揺るぎない」と彼は述べました。「ますます多くのファミリーオフィスが香港に目を向けています。現在、香港には3,380を超えるシングルファミリーオフィスがあり、これは過去2年間で25%の増加です。」
+その半数以上が第2世代以降のメンバーを指導的役割に据えていたと彼は付け加え、これは超富裕層の家族が世代間の富の移転の拠点として香港に抱く信頼を反映している。人気のおもちゃ「Labubu」の知的財産権を所有するポップマートの王氏は、月曜日に財経事務及び庫務局長のクリストファー・ホイ・チンユー氏と会談した。
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/banking-finance/article/3347628/hong-kongs-family-office-summit-draws-pop-mart-billionaire-among-global-guest-list?utm_source=rss_feed
 
-### 香港、2026年は4～7個の台風に見舞われる見込み
+### 香港は2026年に4～7個の台風に見舞われると予想されている。
 
-香港の気象予報官によると、香港は2026年の6月から10月にかけて4～7個の台風に見舞われると予想されています。これは、昨年の記録的な14個の熱帯低気圧の半分以下にあたります。天文台はまた月曜日、温暖化するエルニーニョ現象の影響により、今年は例年よりも暑くなると述べました。天文台のチャン・パクワイ（陳栢緯）台長によると、香港の熱帯低気圧シーズンは6月以降に始まり、10月以前に終わると予想されています。
+天文台長の陳柏緯は、エルニーニョ現象により2026年も市内の気温が平年より高くなると述べている。
+市の気象予報機関によると、香港では6月から10月にかけて4個から7個の台風が発生する見込みで、これは昨年の記録的な14個の熱帯低気圧の半分以下である。
+天文台は月曜日、温暖化するエルニーニョ現象の影響により、今年の市内の気温も平年より高くなると発表した。
+天文台長の陳柏緯によると、香港の熱帯低気圧シーズンは6月以降に始まり、10月以前に終わると予想されている。
+「年間を通じて、香港から500km（310マイル）以内に4個から7個程度の熱帯低気圧が接近する可能性があり、これはほぼ平年並みです」と彼は述べた。
+陳は、今年後半にエルニーニョ現象が発生する可能性が高まることで、多くの地域や海洋で猛暑となる可能性が高まると述べた。
+「香港の年平均気温は今年、平年を上回ると予想されており、観測史上最も暖かい上位10位に入る可能性が高い」と彼は述べた。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/health-environment/article/3347619/hong-kong-projected-face-4-7-typhoons-2026?utm_source=rss_feed
 
-### 香港のヘンダーソン・ランド、イラン情勢と中国本土の景気低迷で配当を削減
+### 香港のヘンダーソンランドは、イランと中国本土が先行きを不透明にしているため、配当を削減しました。
 
-香港の大手デベロッパーであるヘンダーソン・ランド・デベロップメントとケリー・プロパティーズは、ともに2025年の混合決算を発表しました。住宅販売は好調だったものの、賃貸収入の軟化と商業不動産市場の低迷が一部相殺され、ヘンダーソン・ランドは配当を削減しました。この決算は、オフィスや小売市場の回復を待つ間、香港のデベロッパーが、主に香港の高級住宅や中国本土の一流都市でのキャッシュフローを生み出せるプロジェクトに焦点を移していることを浮き彫りにしています。最近の地政学的緊張、特に…
+ケリー・プロパティーズは、香港の住宅販売が上向く一方で、オフィス市場の低迷と中国経済の回復の鈍化を背景に、2025年の業績がまちまちであったと報告しました。
+この業績は、市内のデベロッパーが、オフィスや小売市場の回復を待つ間、主に香港の高級住宅や中国本土の一級都市における、依然としてキャッシュフローを生み出せるプロジェクトへと焦点を移している状況を浮き彫りにしました。
+会長の李家傑（リー・カキット）と李家誠（リー・カシン）は声明で、イラン戦争を含む最近の地政学的緊張が「重大な経済的不確実性」を生み出し、堅調な住宅販売にもかかわらず、ヘンダーソンがより慎重な財務アプローチを採用するよう促したと述べました。
+そのため、同社は、香港の住宅市場が下半期に改善の兆しを見せたにもかかわらず、期末配当を以前の1株当たりHK$1.30からHK$0.76に引き下げました。
+ヘンダーソンは、公正価値評価損を計上した後、2025年の株主帰属利益が10%減少し、56.5億香港ドル（7億2160万米ドル）になったと述べた。基礎利益はさらに大幅な38%減となり、60.6億香港ドルに落ち込んだが、これは主に、前年度に土地収用や資産売却による多額の利益が含まれていたためである。
+香港の住宅市場の回復は、ミッドレベルズのプロジェクト「ザ・レガシー」や、旧啓徳滑走路沿いの複数の高級開発物件の発売に牽引され、ヘンダーソンの香港における開発事業収入を23%増の152億香港ドルに押し上げるのに貢献した。
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/companies/article/3347616/hong-kongs-henderson-land-trims-dividend-iran-clouds-outlook-china-slump-lingers?utm_source=rss_feed
 
-### 香港の高速道路でトラックが消防車に衝突し横転、運転手が負傷
+### 香港の高速道路で、トラックが消防車に激突し、運転手が負傷した。
 
-月曜日の正午過ぎ、香港の交通量の多い高速道路である屯門公路で、64歳のコンテナトラック運転手が、停車中の消防車に衝突し横転する事故が発生しました。事故は午後12時15分頃、屯門公路を荃湾方面へ、掃管笏の稔湾村付近を走行中のコンテナトラックが起こしました。警察の報道官は、「消防車が作業のため路肩に停車していた」と述べ、「コンテナトラックが消防車の後部に衝突し、道路上で横転した」と説明しました。
+当局によると、コンテナトラックが屯門公路を走行中に、作業のため路肩に停車していた消防車に衝突しました。
+月曜日、香港の交通量の多い高速道路で、64歳のコンテナトラック運転手が、自身の車両が消防車に衝突して横転した際に負傷しました。
+事故は午後12時15分頃、コンテナトラックが掃管笏の稔湾村付近で、屯門公路を荃湾方面へ走行中に発生しました。
+警察の報道官は、「消防車が作業のため路肩に停車していました」と述べ、「コンテナトラックは消防車の後部に衝突し、その衝撃で横転しました」と続けました。
+報道官は、コンテナトラックに積載物があったかどうかについては確認できませんでした。
+現場のオンライン画像には、トラックが消防車の約30メートル（98フィート）前方に横転し、フロントガラスが粉々に割れている様子が映っていました。
+道路には破片が散乱し、スキッドマークも確認できました。
+画像には、消防車の右側面と屋根が損傷している様子が映っていました。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/transport/article/3347596/truck-driver-injured-vehicle-slams-fire-engine-hong-kong-highway?utm_source=rss_feed
 
-### 香港科技大学、高齢者向け血液ベースのアルツハイマー病検査プログラムを開始
+### 香港科技大学が高齢者向けの血液を用いたアルツハイマー病検査を提供するプログラムを開始しました。
 
-香港の大学が、独自開発した血液ベースのアルツハイマー病スクリーニング技術を用いたプログラムを開始しました。これは世界初の試みであり、今後5年間で6000人の恵まれない高齢者に恩恵をもたらすことが期待されています。昨年の衛生署の報告によると、アルツハイマー病は最も一般的な認知症の一種であり、60歳以上の香港住民の10人に1人が罹患しており、年齢とともに有病率が増加しています。「ニューロケア・コミュニティ・プロジェクト」の発表で…
+「ニューロケア・コミュニティ・プロジェクト」は、5年間で6,000人の恵まれない高齢居住者に無料スクリーニングを提供します。
+香港のある大学が、地元で開発された血液ベースの検査技術を用いたアルツハイマー病スクリーニングプログラムを開始しました。これは世界初の試みであり、5年間で6,000人の恵まれない高齢者に恩恵をもたらすと期待されています。
+アルツハイマー病は最も一般的な認知症の一種であり、昨年の保健省の報告書によると、60歳以上の香港住民の10人に1人が罹患しており、その有病率は年齢とともに増加しています。
+月曜日に「ニューロケア・コミュニティ・プロジェクト」を発表した香港科技大学（HKUST）のナンシー・イップ・ユクユ学長は、彼女のチームが近年開発した血液ベースの多タンパク質検査が、このプログラムを通じて臨床現場を超えて地域社会へと移行していると述べました。
+「アルツハイマー病の血液バイオマーカーを複数の生物学的経路にわたって統合することで、この革新的で低侵襲な技術は早期発見を可能にし、家族にケア計画と治療のための貴重な時間を提供し、脳の健康の軌跡を変えることができるでしょう」と彼女は述べた。
+バイオマーカーとは、疾患の存在、進行、またはリスクを測定するために用いられる生物学的指標である。
+「このプログラムは、私たちの技術を用いて恵まれない高齢者にサービスを提供することに焦点を当て、アルツハイマー病に対する彼らの意識を高めることで介護者の能力を強化し、結果として彼らのストレスを軽減するでしょう」と彼女は付け加えた。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/health-environment/article/3347591/hkust-launches-programme-offering-alzheimers-blood-based-test-elderly?utm_source=rss_feed
 
-### 香港、2026年は観測史上トップ10に入る暑い年になる可能性
+### 香港は2026年に観測史上最も暑い年のトップ10に入る見込みです。
 
-香港天文台は、今年の香港の年間平均気温が平年を上回り、観測史上トップ10に入る暑い年になる可能性が高いと予測しました。月曜日に香港の気象見通しを発表した天文台のチャン・パクワイ（陳栢緯）台長は、この温暖な状況は、今年後半に発生する可能性のあるエルニーニョ現象（太平洋の海面水温が平年より高くなる自然気候パターン）と、地球温暖化の継続的な傾向に関連していると述べました。熱帯低気圧については、チャン台長は今年、香港から500キロメートル以内に接近する嵐が約4～7個になると予想しており、これは平年並みの数値です。サイクロンシーズンは6月に始まり10月に終わると予測されています。「東部赤道太平洋の海面水温は平年よりかなり高くなるでしょう。一方、西部赤道太平洋の海面水温は平年並みか、それよりも低くなるでしょう」と彼は述べました。「その場合、熱帯低気圧はより東で発生し、より高緯度へ再カーブする傾向が高くなります。結果として、昨年と比較して、数という点での香港への影響はそれほど大きくないでしょう。」チャン台長はまた、年間降水量も平年並みで、2,100～2,700ミリメートルの範囲になると予想されると付け加えました。しかし、彼は香港が依然として豪雨や局地的な大雨に直面するだろうと指摘し、市民には雨季と台風シーズンの両方に備えるよう促しました。台長はまた、天文台が人工知能（AI）を通じて予報を強化するための継続的な努力を強調しました。「豪雨予報へのAIの応用、そして従来の数値物理ベースの数値モデルとAIを組み合わせて、熱帯低気圧の強度、ひいては香港で経験される可能性のある風の強さを予測することなど、私たちはこれらすべての方向で取り組んでいます」と彼は述べました。彼は、これらの分野やその他の分野で、より正確な予報を市民に提供するための作業が進行中であると指摘しました。
+香港天文台は、今年の香港の年間平均気温が平年より高くなり、観測史上最も暑い上位10年間にランクインする可能性が高いと予測しています。
+月曜日に市内の天気予報を発表した際、天文台長の陳柏緯（チャン・パクワイ）氏は、この温暖な状況は、今年後半に発生する可能性のあるエルニーニョ現象（太平洋の海面水温が平年より高くなることを特徴とする自然気候パターン）と、地球規模の気候温暖化の継続的な傾向に関連していると述べました。
+熱帯低気圧については、今年は4〜7個の熱帯低気圧が500キロメートル圏内に接近すると予想され、これは平年並みの数であると陳氏は述べました。
+サイクロンシーズンは6月に始まり10月に終わると予測されている、と彼は述べました。
+「東部赤道太平洋の海面水温は平年よりかなり高くなるでしょう。一方、西部赤道太平洋では、海面水温は平年並みか、あるいは平年より低くなるでしょう」と彼は述べました。
+その場合、熱帯低気圧はより東で形成され、その後、高緯度へ進路を北寄りに変える傾向がより強まります。その結果、香港への影響は、昨年と比較して発生数という点ではそれほど大きくないでしょう。チャン氏は、年間降水量も平年並みの2,100ミリから2,700ミリの間になると予想される、と付け加えました。しかしながら、彼は、市は依然として暴風雨や局地的な大雨に直面するだろうと指摘し、市民には準備を怠らないよう呼びかけました。
 
 **引用元**: RTHK
 
 https://news.rthk.hk/rthk/en/component/k2/1848445-20260323.htm
 
-### トランプ氏の脅威後、北京が中東の「制御不能な状況」を警告
+### 北京、トランプ氏の脅威後、中東での「制御不能な状況」を警告
 
-中国は月曜日、ドナルド・トランプ米大統領がイランの発電所を「壊滅させる」と脅迫した後、中東へのさらなる攻撃が戦乱の地域に「制御不能な状況」を生み出すリスクがあると警告しました。トランプ氏は土曜日、テヘランに対し、ホルムズ海峡（湾への狭い水路）の部分的な封鎖を48時間以内に解除するよう最後通告を突きつけていました。
+中国は月曜日、ドナルド・トランプ米大統領がイランの発電所を「壊滅させる」と脅迫したことを受け、中東へのさらなる攻撃が紛争地域で「制御不能な状況」を生み出す危険があると警告した。トランプ大統領は土曜日、テヘランに対し、湾へと続く狭い水路であるホルムズ海峡の部分的な封鎖を解除するよう48時間の期限を設けた。
 
 **引用元**: Hong Kong Free Press
 
 https://hongkongfp.com/2026/03/23/beijing-warns-of-uncontrollable-situation-in-mideast-after-trump-threats/
 
-### 香港のアート・マーチ、中東紛争による混乱にもかかわらず開催継続
+### 中東紛争による混乱がある中、香港のアート・マーチ関連イベントは続行されています。
 
-中東紛争による航空便の深刻な混乱にもかかわらず、香港で毎年開催される2つの主要アートフェアを含む、待望の「アート・マーチ」のほとんどの海外ギャラリーが参加できました。しかし、航空便の混乱が続く中、参加者や作品がどのように香港を離れるかについては疑問が残っています。主催者と物流業者はサウスチャイナ・モーニング・ポストに対し、ドーハやドバイの乗り換え空港が…のため、多くの入国者が旅程を変更せざるを得なかったと述べました。
+地域を経由するフライトの欠航により、アートフェアの参加者は物流の調整に追われているが、主催者は影響は限定的だと述べている。
+中東での紛争にもかかわらず、待望の「アート・マーチ」イベントの一部である香港の2つの年次アートフェアには、ほとんどの海外ギャラリーが参加できた。しかし、航空便が引き続き大幅な混乱に直面しているため、参加者や作品がどのように市を離れるかについては疑問が残っている。
+主催者と物流業者はサウスチャイナ・モーニング・ポストに対し、ドーハとドバイの乗り継ぎ空港が混乱したため、多くの入国者が旅程を変更せざるを得なくなるだろうと語った。
+香港のフラッグキャリアであるキャセイパシフィック航空も、4月末まで2か月間、湾岸地域発着のフライトを欠航している。
+地元の美術品取り扱い・保管会社Eythosのチーフ・オブ・スタッフであるゾーラ・アジ氏は、同社が今回のアート・バーゼル香港で協力しているギャラリーにとって、輸送費と物流への影響はほとんどなかったと述べた。
+彼女は、ほとんどの作品は紛争前に出荷されており、新しいルートを組織する時間があったと付け加えた。
+「香港にとって唯一の影響となり得るのは、海外からの訪問者の数でしょう。彼らの多くは中東を経由して移動するからです。それは中国の航空会社を助けるかもしれません。ドーハ経由で飛ぶ代わりに、上海経由で飛ぶことになるでしょう」と彼女は述べた。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347557/hong-kongs-art-march-celebrations-press-amid-middle-east-conflict-disruptions?utm_source=rss_feed
 
-### ハムスターがバスで沙田へ「旅行」、動物愛護団体が保護
+### げっ歯類の旅：ハムスターがバスに乗り込み沙田へ
 
-日曜日の朝、セントラルから沙田行きのバスでハムスターが乗車しているのが発見され、香港動物愛護協会（SPCA）に保護されました。このゴールデンブラウンのシリアンハムスターは乗客によって発見され、現在SPCAが世話をしています。オンラインで拡散している写真や動画には、小さな乗客がKMBバスの隅に身を寄せ、周囲の状況に圧倒されている様子が映っています。その後、半透明のプラスチック…に入れられました。
+セントラル発KMBバスで乗客がゴールデンハムスターを発見。
+日曜日の朝、セントラルから沙田行きのバスに便乗していたハムスターが発見され、最終的に香港の動物福祉団体の保護下に入った。
+そのゴールデンハムスターは乗客によって発見され、現在、香港愛護動物協會（SPCA）が保護している。
+オンラインで拡散されている写真や動画には、KMBバスの隅に身を潜め、周囲の状況に圧倒されているかのように見える小さな乗客の姿が映し出されている。
+その後、ハムスターは半透明のビニール袋に入れられ、バス運転席の隣にある黄色い手すりに結び付けられた。その場所は、「バスの運転を故意に妨害する者は罪を犯す可能性がある」と警告する標識のすぐ隣だった。
+バスが海底トンネルに入ると、その小さなげっ歯類は、左右に揺れるビニール袋を必死に引っ掻き、自由を求めてもがいているのが目撃された。
+ハムスターを発見し救助したSNSユーザーは、午前10時頃、セントラル埠頭と沙田の愉翠苑の間を走行していた九龍バス（KMB）の182番路線バスでそのハムスターを見つけたと述べた。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3347478/rodent-trip-swinging-time-hamster-hitching-ride-bus-sha-tin?utm_source=rss_feed
 
-### 利下げ停止の可能性と地政学的緊張が香港不動産市場の回復を曇らせる可能性
+### 利下げ停止の可能性や地政学的緊張が、香港の不動産回復に影を落とす可能性がある。
 
-香港在住のケイティ・チャンさん（37歳、会計士）は、住むためのマンション購入を希望していましたが、急ぐ必要はないものの、利下げの一時停止の可能性が彼女の決断を遅らせるかもしれません。チャンさんにとって理想的な住宅ローンは、1ヶ月物香港銀行間貸出金利（Hibor）が1.95％を下回ることでしたが、香港銀行協会が追跡したデータによると、今年の主要な住宅ローンコストと企業借入金利は2.02％までしか下落していません。
+地政学的な不確実性の高まりを受け、香港の住宅購入者が様子見の姿勢を取ることで、当該セクターの回復が阻害される可能性がある。
+香港在住のケイティ・チャンさん（37歳、会計士）は、住むためのマンション購入を希望しており、急いでいるわけではなかったものの、利下げの一時停止が長引く可能性が彼女の決断を遅らせるかもしれない。
+「購入は来年になるかもしれませんし、その時には金利がもっと低くなっている可能性も十分にあります」と彼女は述べた。
+アナリストによると、チャンさんの計画は利下げのペースが遅くなっても大きく影響されないかもしれないが、市内の不動産市場には限定的ではあるものの、何らかの影響が出る可能性がある。
+実際、地政学的な不確実性の高まりを受け、住宅購入者の間で様子見の姿勢を取るという一般的な感情が、当該セクターの回復に水を差す可能性がある。
+木曜日、米連邦準備制度理事会（FRB）は、今年2回目の連邦公開市場委員会（FOMC）会合後、目標金利を3.5パーセントから3.75パーセントの範囲で維持した。
 
 **引用元**: SCMP
 
 https://www.scmp.com/business/article/3347469/potential-rate-cut-pause-geopolitical-tensions-may-cloud-hong-kong-property-recovery?utm_source=rss_feed
 
-### ディスカバリー・ベイへのタクシー全面乗り入れ計画が住民の怒りを買う
+### ディスカバリー・ベイへのタクシー全面乗り入れ計画が住民の怒りを買っている
 
-香港のシーサイドリゾートのような地域、ディスカバリー・ベイへのタクシー全面乗り入れを許可する提案に対し、一部住民が不満を表明しています。より広範な住民協議を求める請願書には、1100以上の署名が集まりました。サウスチャイナ・モーニング・ポストへの土曜日の回答で、運輸局はディスカバリー・ベイの管理会社からタクシーに関する提案を受け取ったこと、および住民から「様々な意見」が寄せられていることを確認しました。タクシーはこれまで限定的なアクセスしかありませんでした。
+1,100人以上が、より広範な住民協議を求める請願書に署名しました。
+土曜日にサウスチャイナ・モーニング・ポストへの回答の中で、運輸署はディスカバリー・ベイの管理会社からタクシーに関する提案を受け取ったこと、および住民から「様々な意見」が寄せられたことを確認しました。
+ディスカバリー・ベイへのタクシーの乗り入れは2014年から制限されていますが、ランタオ島にHKRインターナショナルが開発した広大な住宅地の北広場に限定されてきました。
+2026年1月付で、土曜日に同紙が確認した開発業者からの通知には、ディスカバリー・ベイ・ゴルフクラブを含む地域内に4つの新しいタクシー乗り場を追加し、地点間の乗降を許可する提案の概要が示されていました。
+その通知は、コミュニティの発展と高齢化を考慮すると、既存の交通手段は「極めて不便」であり、高齢者、障害者、および深夜に移動する必要がある人々にとって「大きな障害」となっていると述べています。
+開発業者は、ディスカバリー・ベイおよび近隣の坪洲と稔樹灣の住民から、政府に交通機関の不足に対処するよう求める4,000の署名を集めたと述べ、サービスの拡大を検討するため当局と積極的に連携したことを明らかにした。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/transport/article/3347439/plan-full-taxi-access-discovery-bay-sparks-anger-among-some-residents?utm_source=rss_feed
 
-### 生きた伝統：ライプツィヒ・ゲヴァントハウス管弦楽団が香港で公演
+### 生きた伝統：ライプツィヒ・ゲヴァントハウス管弦楽団 香港公演
 
-世界最古の市民オーケストラであるライプツィヒ・ゲヴァントハウス管弦楽団が、今年6月に香港で公演を行います。
+この記事は、弊社の広告パートナーによって制作されました。
+何世紀にもわたり、ライプツィヒは音楽が重要な意味を持つ都市でした。ヨハン・ゼバスティアン・バッハは、その地の音楽監督として人生の最後の27年間を過ごしました。リヒャルト・ワーグナーはそこで生まれました。フェリックス・メンデルスゾーンはそこで指揮を執り、ドイツ初の音楽院を設立しました。
+世界で最も長く継続的に活動している市民オーケストラであるゲヴァントハウス管弦楽団ライプツィヒは、その文化の中から生まれました。今年6月に香港に到着する際、それは…
 
 **引用元**: SCMP
 
-https://www.scmp.com/パートナーによって制作されたものです。
+https://www.scmp.com/presented/news/hong-kong/topics/gewandhausorchester-leipzig-hong-kong/article/3346958/living-tradition-gewandhausorchester-leipzig-hong-kong?utm_source=rss_feed
 
-### 香港の文化的潜在能力を実現するには、グローバルな視点が不可欠
+### 香港の文化的潜在能力を実現するためには、グローバルな視点が不可欠である。
 
-芸術と文化の力は過小評価されるべきではありません。それらは教育し、情報を提供し、インスピレーションを与え、喜びをもたらします。それらは発見への扉を開き、コミュニティを団結させ、文化と人々の間の障壁を取り除きます。より広い文脈では、芸術は私たちの都市を定義するのに役立ち、コミュニティの焦点となり、明確な文化的アイデンティティを開発する機会を提供します。香港は金融センターとしての地位を確立することに成功しましたが、文化も資本と同じくらい都市の…を決定する上で大きな役割を果たすことができます。
+都市が地域のハブを超えて発展するには、持続的な投資と、芸術振興に向けた首尾一貫した長期的なビジョンが不可欠である。アイデンティティと長期的な競争力に関する問題を抱える都市にとって、文化は、地域の結束を強化し、同時に国際的な地位を高める強力な戦略的手段となり得る。このような状況において、地域の競合都市が芸術や文化に投資している中で、香港が後れを取るわけにはいかない。
 
 **引用元**: SCMP
 
 https://www.scmp.com/opinion/hong-kong-opinion/article/3347251/realise-hong-kongs-cultural-potential-global-vision-essential?utm_source=rss_feed
 
-### 香港の西九龍文化地区、12の新たな国際提携でグローバルなつながりを強化
+### 香港の芸術拠点が、12の新たな提携により国際的な連携を強化。
 
-香港の西九龍文化地区は、オーストラリア、英国、サウジアラビアなど12の国際機関と協定を締結し、将来の協力関係への道を開きました。これは、香港が東西文化交流のハブとしての役割を強化しようとする中で行われたものです。西九龍文化地区管理局が日曜日に署名した覚書（MOU）は、より多くの国際的な公演を香港に誘致し、香港の作品を世界の観客に紹介し、交流を支援するのに役立つでしょう。
+西九文化区管理局がオーストラリア、英国、サウジアラビアなど12の国際機関と覚書を締結
+香港の西九龍芸術ハブは、オーストラリア、英国、サウジアラビアなど12の国際機関と協定を締結しました。これは、香港が東西文化交流の拠点としての役割を強化しようとする中で、将来の協力関係への道を開くものです。
+西九文化区管理局が日曜日に締結したこれらの覚書（MOU）は、より多くの国際的な公演を香港にもたらし、香港の作品を世界の観客に紹介し、人材交流などを支援することに貢献するでしょう。
+同管理局のバーナード・チャン・チャーンウット会長は、2日間にわたる国際文化サミットでの調印式において、「これらの協力関係は、質の高いプログラム、人材交流、専門能力開発を支援することで、共通のビジョンを行動に移すものです」と述べました。
+主要な提携として、来年のWestKパフォーミングアーツセンター開館に備え、「プログラム開発、人材交流、専門訓練の強化」を目的とした5つの戦略的提携が挙げられます。当局はまた、中国拍売協会と協力し、香港と中国本土間の人材育成や美術市場の交流を強化するほか、博物館間の連携も図ります。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347496/hong-kong-arts-hub-strengthens-global-links-12-new-partnerships?utm_source=rss_feed
 
-### 香港国家安全維持法施行細則の改正が官報に掲載、政府は一般市民の生活に影響なしと表明
+### 動画あり│香港エクスプレス機内で中年女性が緊急脱出口のカバーを引っ張る：「窓だと思った」 その後の展開に唖然 - 香港01
 
-香港政府は、国家安全維持法施行細則の改正を官報に掲載しました。政府は、この改正が一般市民の生活に影響を与えることはないと強調しています。
+動画あり│香港エクスプレス機内で中年女性が緊急脱出ドアのカバーを引っ張る：「窓だと思った」と発言、その後の展開に呆然 香港01
 
-**引用元**: 香港電台新聞網
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMijwNBVV95cUxNSFFBRkxicHJCMHo1c0RlTkhDRlNNMEJPQllQOUFYbDZMQXNWZ3JqR2tHbDI1REhCeUF4amZZSWtnTWhKY0gtT2tGbjNlNUxyNFo4dUFibmN6TjNOSjFUY3pnN0NvdmZqWVV3d01FSll6QUhaV2xQZHotaVpTSFdaU0lkWUw3a2g0Wkhfbk5PbGNJSHNWOElxUndRYngyMGxXcVFRMm5wQV95SFFjZTh4WFpNMjBodFVRazVxa0dZVU1UZGRBQ3RndTZJTTJqd1RHUWFfOF9mRmVERndYUjRMdnQyR1pqWVlaU05qdHRVNzE3T181N0o3VXdLZWhzMWtlbjE1RlJoN2tpVXdjb3ZPeDdjT3pkbnRTX0UwZGMzVzlGWi1ta0dVdVZHOFFqOVVmdC1PWktDMmpJeWIyc2VFcTBscndSX204NUhHdWJwNkdVekdyRjdudGZrSTVmbGU1dTk4ZVJvS0VqMU5mc2VEQUhoNURqcV9ZaWQxNEQxZVY0VGloVTFNbVdRd19vSjQ?oc=5
+
+### 香港国家安全維持法の実施細則が改訂され官報に掲載された。政府は一般市民の生活に影響はないと表明。 - RTHKニュース
+
+香港国家安全維持法の実施細則改正案が官報に掲載され、政府は一般市民の生活に影響はないと表明した。（香港電台ニュースサイト）
+張國鈞氏は、改正案は人権尊重の原則を体現していると述べた。（香港文匯網）
+国家安全維持法執行の改正条例では、電子機器の暗号解除を拒否すれば投獄される可能性があり、税関に扇動的な物品を没収する権限が付与される。
+湯家驊氏は、これは細部を改善するものであり、権限拡大ではないと述べた。（2026年3月24日 世界の画像 明報ニュースサイト）
+国家安全維持法の実施細則改正案では、パスワードを提供しない場合、最高10万ドルの罰金および1年の懲役が科される。（独立メディア報道 独立メディア）
+国家安全維持法 | 政府が実施細則を改正し、電子機器のパスワード提供に従わないことは犯罪となる。（信報サイト）
+
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMib0FVX3lxTE4yLWlGU1JDTUZxZ0RvbEZ4YVJNYlBxWFBUVVNTMV9kRms5WlV1VllFUTJ1NEI5VFdXaHFEZmh6bkpucTRyRFVldFRFRTFVSmRsVjFNdFJtU21kNkJTQ3lYVWJhZjE2T0pSQlNwaE9HUQ?oc=5
 
-### 香港政府、国家安全維持法施行細則を改正：電子機器パスワード不提供で最長1年の禁固刑
+### 香港政府は国家安全維持法の細則を官報で公布し改訂しました。これにより、電子機器のパスワードを提供しない違反者は1年の懲役刑に処される可能性があります。
 
-香港政府は2026年3月23日に国家安全維持法第43条の実施細則を改正し、即日施行しました。今回の改正では、電子機器に関する補足条項が追加され、警務人員が「指定された人物」に対し、その電子機器に必要なパスワードやその他の解読方法の提供を要求できると規定されました。
-
-「指定された人物」が関連する要求に従わない場合、犯罪となり、最高10万香港ドルの罰金および1年の禁固刑が科される可能性があります。さらに、改正では、警務人員が電子機器のパスワードの提出を要求した際に、虚偽または誤解を招く陳述をした場合も犯罪となり、最高50万香港ドルの罰金および3年の禁固刑が科されると指摘されています。
-
-国家安全維持法施行細則の改正は、行政長官と国家安全委員会によって制定されました。政府報道官は、特区政府が国家安全維持のための法制度と執行メカニズムを継続的に改善し、包括的な国家安全維持措置を策定し、いつでも発生する国家安全リスクをタイムリーに防止・解消していると述べました。今回の改正は、これまでの経験に基づいて行われたものであり、行政長官と国家安全委員会によって制定されたため、立法会の審議は不要です。
-
-政府はまた、立法会の司法・法律事務委員会および保安事務委員会の委員長に対し、24日に両委員会の合同会議を開催し、保安局と律政司の代表が委員に改正内容を紹介することを提案したと述べました。
+香港政府は2026年3月23日、官報で「香港国家安全維持法」第43条実施細則の改正を公布し、同日施行しました。この改正では、電子機器に関する補足条項が追加され、警察官がいかなる「指定された人物」に対しても、その電子機器に必要なパスワードまたはその他の復号方法を提供するよう要求できると規定されています。
+「指定された人物」が関連する要求に従わなかった場合、犯罪となり、最高で10万香港ドルの罰金および1年の懲役が科されます。さらに、改正では、警察官がいかなる人物に対しても電子機器のパスワードの提出を求めた際、その人物が虚偽または誤解を招く陳述をした場合、犯罪となり、最高で50万香港ドルの罰金および3年の懲役が科されると指摘されています。
+政府報道官は、香港特別行政区政府が国家安全維持のための法制度および執行メカニズムを引き続き改善し、包括的な国家安全維持措置を策定することで、いつでも発生しうる国家安全保障上のリスクを適時に防止し、解消していると述べました。この改正は、過去の蓄積された経験に基づいており、行政長官が国家安全維持委員会と共同で制定したもので、立法会の審議を経る必要はありません。
+政府はまた、立法会の司法・法務委員会委員長および保安事務委員会委員長に対し、24日に立法会の司法・法務委員会および保安事務委員会の合同会議を開催し、保安局と律政司の代表が委員に改正内容を紹介するよう提案したと指摘しました。
 
 **引用元**: Yahoo News HK
 
 https://hk.news.yahoo.com/%E6%B8%AF%E5%BA%9C%E5%88%8A%E6%86%B2%E4%BF%AE%E8%A8%82%E5%9C%8B%E5%AE%89%E6%B3%95%E7%B4%B0%E5%89%87-%E8%AD%A6%E5%93%A1%E5%8F%AF%E5%8F%96%E5%BE%97%E9%9B%BB%E5%AD%90%E8%A8%AD%E5%82%99%E5%AF%86%E7%A2%BC%E9%81%95%E8%80%85%E5%8F%AF%E5%9B%9A-1-%E5%B9%B4-094420415.html
 
-### 香港のショッピングセンターのゴミ箱で発見された新生児、病院で死亡
+### 動画あり｜モンコックのおじいさん、パトカーの目の前で無謀な横断！その堂々とした足取りがネット上で話題になったが、結末は恥ずかしいものに - 香港01
 
-香港のショッピングセンターのトイレのゴミ箱で発見された新生児の男児が、病院に搬送された後、死亡しました。月曜日の午後2時10分頃、銅鑼湾（コーズウェイベイ）のパーシバル・ストリートにあるリーシアタープラザの清掃員が、ザ・スタービュー中華レストランの女性用トイレの個室内のゴミ箱で、へその緒がついたままの乳児を発見したと警察に通報がありました。救急隊員が到着した際、乳児は意識不明の状態で、ラットンジー病院に緊急搬送されましたが…
+動画あり｜モンコックで、おじいさんがパトカーの前を無謀に横断！その堂々とした足取りがネットを驚かせたが、結局は恥ずかしい結果に。香港01
+歩行者の三大危険行為が命を奪う。警察の実証実験により、「車の隙間をすり抜ける」ことの致命的なリスクが明らかに。星島日報USA
+警察は本日より2週間の取り締まり活動を開始し、無謀な横断を厳しく取り締まる。香港商報
+香港では無謀な横断を厳しく取り締まっており、違反者には2000元の罰金が科される可能性がある。香港中国通訊社
+警察は本日より厳しく取り締まりを開始し、ドライバーの不注意運転および歩行者の違法な横断を重点的に取り締まる。香港電台ニュース
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxNOU1RNWpoT3F1TUFIekFhNzZDYm0zY2FhR0hqUE11OUlJcUZScmotdUtjSEpSUG5Tb2FfVl9KSTdMendGU0JSdG5zdVFJblNxXzZrZmJZMGs4SHB3U0J5LWhQaXUxWjJqTDViTW5MY1A1d09Ub3JWMWtQaUtDaUJwNnpBNm9vRXVFVnhDTG9FNkdrdTFXdG1QdXNwWTQ5UG1RZ2haX1BXbVJlWnQyVnJRY3UyaUU0cC04OHVlcHdIai1wZ0RBeXF2cDZYMW44bzR4UUN1LVV1Vm1sOGtjd3djYlNfR3ZTbXJhR2NwdGttZ3pJQzRlNXZrNFZFSnczYUdPLUZIS1d2LTBEYmhzaG9jc2ZodWl6U0xEbmFHTnJMVmJjYTJHZl9xa29BR1dvLUpmdkRtTnpYWVgxVUVxb0RRM1JGcm9DbTBtZTR4U0JRZDVvTWhKNThXckhLWUpxRHluZ3ZlRkpGYjdzSk9rUWZrZWd4a0pGS0dEd2diaEZpT2R3TkRqcnJPRFV5b1A2S0QzLWYtOGpkRjFKSmxfWHFkc0xFM21tTXFzcU9nN0ZfV0RnRkd5VGJ0Ym1Cbzl3QQ?oc=5
+
+### 香港のショッピングセンターのゴミ箱で発見された新生児が、病院で死亡した。
+
+利舞臺廣場の清掃員が、星月樓中華レストランの女性用トイレ内のゴミ箱で乳児を発見した。
+香港のショッピングセンターのトイレ内のゴミ箱で遺棄された新生児の男の子が発見されたが、その後病院で死亡した。
+月曜日の午後2時10分頃、警察に通報があった。それによると、銅鑼湾の波斯富街にある利舞臺廣場の清掃員が、星月樓中華レストランの女性用トイレの個室内のゴミ箱で、へその緒がついたままの乳児を発見したという。
+救急隊員が到着した際、赤ちゃんは意識不明の状態であり、律敦治醫院に搬送されたが、蘇生措置の甲斐なく死亡が確認された。
+警察によると、現場では身分証明書は発見されなかった。
+死因は検視後に確認される予定である。
+この事件は「嬰児殺害」として分類され、湾仔地区犯罪隊が捜査を進めている。
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/law-and-crime/article/3347607/newborn-baby-found-rubbish-bin-hong-kong-shopping-centre-dies-hospital?utm_source=rss_feed
 
-### 病院管理局、医師のSNS投稿によるプライバシー侵害疑惑を調査
+### 警察が5発発砲、映像あり｜事件の1時間以上前、「反射材の人物」が荃錦公路を逆走、警察が関連を調査 - 香港01
 
-香港の病院管理局は、ある医師が公立病院内で蘇生処置を行う様子を写した画像をソーシャルメディアに投稿したことに関する論争について調査を開始しました。この投稿は、患者のプライバシーと職業倫理に関する懸念を引き起こしています。九龍西クラスターの医師で、ViuTVのリアリティタレントショー「King Maker III」の元出場者であるジェンセン・ソー（蘇）氏は、先週木曜日に自身のInstagramアカウントにこの画像を投稿しました。この画像はその後、別のソーシャル…で広く拡散されました。
+警察が5発発砲、映像あり｜事件の11時間以上前、「反射服の人物」が荃錦公路を逆走、警察が関連性を調査 香港01
+葵涌の警察官発砲事件、男が意図的な傷害未遂と攻撃的武器所持で起訴され初公判 香港電台ニュース
+刃物を持った襲撃者への対応、警察装備の更新には複数の考慮事項 信報ウェブサイト
+葵涌の警察官発砲事件｜48歳の被告は依然として入院治療中、審理は金曜日に延期 news.tvb.com
+議員：発砲は「警察通例」の三大原則に合致 - 香港 - 香港文匯網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMikgNBVV95cUxOUXkwSm4wdzZXcnJmQnZQUW1XaWJJU0dJRHhZdF9zV29wTFdTYzBfa3Nrb2tuYmNnQXNkTm54NzFUM20xTFhsVGUwSWZCbW5xX1dsOEVST1l3NlRrWGVJckgzQnRhcXBIdUppbWd5V291b3Z1VWF3NDlKSElxREdhYk0yWFpxUDVJd2oxVDdVNDFLZ0VMQTUyelZmb3Y0VmM1d3h1eEx4emo0bWxkc1VFOFl4VDNCdDNNR3VseGVhSURoRWpPaUFNai0tSzk5eEZHRmkzT05yLVVYdjRSM05mSEx4YzlVSVRKcThBZkRqM2RZRU9scG1jUGtHVDJRU1FBU0FleUloMFhPRHFrdHkwY0xZNHMxR2txSGZOV2dDclVUc3JNZ2Jvcm4xV0UtaTVsVnJNUlJGeUtqY1dUWDdqWEhfMjhqZ2t6WFB3SmluMnozWGVNdGdzSmxQNkR0bDF2VFVQTjUyWE5rYXIwbGQ4ZFNKM3BuMVoyZEZYb1I3alA0dXlGOXRGNHVEWUxPb0VBakE?oc=5
+
+### 病院管理局が医師のSNS投稿を巡るプライバシー問題について調査
+
+リアリティ番組「King Maker III」の元出場者であるジェンセン・ソーが、病院内で蘇生処置を行っている自身の写真を投稿し、それが拡散されました。
+香港病院管理局は、ある医師が公立病院内で蘇生処置を行っている様子を写したソーシャルメディアの画像が投稿され、患者のプライバシーと職業倫理を巡る激しい非難を浴びたことについて、調査を開始しました。
+九龍西病院群の医師であり、ViuTVのリアリティタレントショー「King Maker III」の元出場者でもあるジェンセン・ソーは、先週木曜日に自身のInstagramアカウントにその画像を投稿しました。この画像はその後、別のソーシャルメディアプラットフォームであるThreadsでも広く拡散されています。
+写真には、公立病院の病室と思われる場所が写っており、数人の医療従事者が白衣と青いスクラブを着用して患者の周りに集まり、ソーが蘇生処置を行うための器具を手にしていた。添えられたキャプションには、「めったに見られない除細動 — みんなが私が電気ショックを与えるのを見に来た」と書かれていた。
+病院管理局は日曜、九龍西クラスターが患者のプライバシー保護を最重要視しており、今回の件を調査すると述べた。
+「全職員は、患者のプライバシーが侵害されないよう、関連する規定を厳守しなければなりません。職員によるいかなる形での患者のプライバシー開示も容認されません」と、広報担当者は調査対象の医師の名前を明かさずに述べた。
+「クラスターは今回の件を調査します。もし職員が規定に違反していると判明した場合、」
 
 **引用元**: SCMP
 
 https://www.scmp.com/news/hong-kong/society/article/3347463/hospital-authority-investigates-privacy-concerns-over-doctors-social-media-post?utm_source=rss_feed
 
-### 周耀輝作詞クラス｜コンサートで卒業作品を公開、大埔の学生は「愛は今すぐ」とメッセージ
+### 周耀輝歌詞班｜『私たちに残された時間はあとどれくらい？』コンサートで卒業作品を公開 大埔在住の学生がメッセージを寄せる：「愛は今この時に」｜Yahoo!
 
-周耀輝（チョウ・イウファイ）氏の作詞クラスの卒業コンサートで、学生たちの作品が公開されました。大埔（タイポー）に住む学生は、「私たちに残された時間はどれくらいあるだろう」というテーマで、「愛は今すぐ」というメッセージを込めた作品を発表しました。
+周耀輝作詞クラス | 『私たちに残された時間はどれくらい』コンサートで卒業作品を公開。大埔在住の学生が込めた思い：「愛は今すぐ」。| Yahoo Yahoo
+広東語が苦手でも作詞を学ぶ。周耀輝が思いとどまらせようとするも堅持。中国本土の学生が広東語の歌詞を歌い、教えと学びを証言。- 20260323 - 教育 明報新聞網
+香港都会大学の学生がオリジナル曲『嬌姐』を作曲し、祖母と孫の世代を超えた愛情を繊細に語る。星島頭條
+香港都会大学初の作詞クラスが卒業。周耀輝が創作精神を継承。学生作品は愛をタイムリーに伝えることの重要性を喚起。香港01
+香港都会大学が周耀輝作詞クラス作品発表会を初開催。学生は「砂」を時間の比喩として温かい物語を紡ぐ。bastillepost.com
 
-**引用元**: Yahoo
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMiuwRBVV95cUxNNUVjSWRXQmd5NFR5ZFNuNzR4SmhyU1hJNnFMdHgyaWc5TGRQbkprME90MG1YNlZCVUNMZGQyZzduQnVLeHZrRlBLVngzaXJieWtscjVQLXpxNVlxbTRpcUJkR2d6SEIwTXZQOERqSVhkTVZlU3lHMWFQdjJmYzFRYTdsT0MteDZNQnMydDRVZ1dTbGhzUGdmU0VOREE1REtOVUJSVmhzT1lWVG9uR1JBX0MxbkFBdHFIMHhDY1VlbERJczB2RXlqMXFiWXNBT3pmbkw3RmNxVWtubUl6TWFscHBFaHFtSG9HLU80TjNVWUN0R0hlTFlZWnV1Zi1odWFtTVJvY1psQkVIbmJtczBSMGhra185UlNuWm1UTUR1M0ZzOXh1REdNZ0xWVEY1ZW5zQmM5NWJXOWNoTWtEX0tkREtETTJQSDVSTEQ5OGpDOXgxLTctTlhyWjljODRkek9hcV9McXRvaF9QUUMwZFI5Z2EzdHhELXBkT1FHazJUUHlSc3NaVE9YLXFlTnNJUXh3Q2pBZ0JZQUdtbUFZdUc1d3Y5MEFRNXNaVDRFOHJFbDVJRnJnV0RRUXl2NXB1WGJ4VjR0ZzVZWTBjQzdPOEpSa1haMlcxQTFCdC1QR0pfUmY3X0JlaUFqaVpZRFEyWG56UUhYT2VoT2t3LTBSTnBaMWdsTWtKdGRlQmw4NDVBcUNVS01lTm9YYzhEN3FXVGlvVXhzLUprUGxDcDI4d1F0b0FINzd2dW5lVjc0?oc=5
 
-### 蔡若蓮教育局長、学校数維持のみでは「教育生態を歪める」と発言｜ドバイからの専門家流出、香港は即座に恩恵受けず｜呉廷燁が腸炎で顔色悪く粥を食す｜3月23日・Yahoo早報
+### 蔡若蓮は、学校数を維持するだけでは「教育の生態系を歪める」恐れがあると述べる。専門人材がドバイを離れて香港の混乱を避けたが、すぐに恩恵は受けられず。呉廷燁は顔がやつれ、胃腸炎で粥を食べていることを明かす。3月23日・ヤフー早報 - ヤフー
 
-蔡若蓮（クリスティン・チョイ）教育局長は、学校数を維持するだけの政策は教育生態系を歪める恐れがあると指摘しました。また、中東情勢の混乱によりドバイから専門家が流出しているものの、香港は直ちにその恩恵を受けていないと報じられました。エンターテイメントニュースでは、俳優の呉廷燁（ン・ティンイップ）が腸炎で顔色が悪く、粥を食べていると明かしました。
+蔡若蓮は、学校数を維持するだけでは「教育生態を歪める」恐れがあると述べた。｜専門人材がドバイを離れて香港の混乱を避けても、すぐに恩恵を受けるわけではない。｜呉廷燁は顔色がやつれており、自身が胃腸炎でおかゆを食べていることを明かした。｜3月23日・Yahooモーニングニュース
+Yahoo 教育局は、「強弱」のある小学校の「合併・昇格」を促す計画。蔡若蓮は、複数の「ソフトランディング」措置を推進しており、現時点では最低16人のクラス開設基準を引き上げる意図はないと述べた。- 香港 - 香港文匯網
+蔡若蓮：小学校の16人クラス開設基準は変更なし - 信報ウェブサイト
+0クラスの「単独」校は合併を検討。蔡若蓮は「創造的な方法を受け入れる」と発言 - 2026年3月23日 - 教育 明報ニュースサイト
+大鳴大放｜小学校の生徒募集（2） Nowニュース
 
-**引用元**: Yahoo
+**引用元**: Google News HK
 
 https://news.google.com/rss/articles/CBMi3AJBVV95cUxNY0ZaZ2xsd0pyVkZWTGNwcGVZYW5hbURmbXUwWVlsSTNuMmlaRzRPaVllZkxuODFXWGZPWFY3NUs3RmJoU2RlM2k2QmMyMWZlaFVDWDBLdzIxYlpZb0luUFlRSnZGYlVlRGo3WmFaX25fS1BOemdXcVl0c0lDdTUwaFViTy12UmJXRW5tWnVjY2tvQ25sRjRQY0JkZnNDcnVlV1A2Z0cyMEJITTAydnhfclQ3Mk9lMVpxSjFvYWpkU1VIS1hibXRpVkxsS0R4R29jYUp2cUFqRWRCRzNCX2ZGNG1NN05IcWh1bElxWEhrOUx5MDdibTNGaloyWjQ1Z0ZSc0Zra2VZanExdDRRMkw1c0cwSVpNZF9xVWV6XzJyckt4bFRJMjVXRk5aeGdLd2NxRzkyYU1IMXZDQTlHZEszTzM0UzNZdHZ2aTc1dUhmSVdzQS11RjdYWEl1ZFk?oc=5
 
@@ -414,4 +641,4 @@ https://news.google.com/rss/articles/CBMi3AJBVV95cUxNY0ZaZ2xsd0pyVkZWTGNwcGVZYW5
 https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
 ----
 **タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
-**生成日時**: 2026年03月24日 09:01
+**生成日時**: 2026年03月24日 09:25

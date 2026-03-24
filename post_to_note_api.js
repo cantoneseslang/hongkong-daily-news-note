@@ -270,10 +270,12 @@ function envTruthy(name) {
 
 async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
   const shortTitle = [...title].slice(0, 200).join('');
-  const skipWarmup = envTruthy('NOTE_API_SKIP_WARMUP');
+  const doWarmupRetry = envTruthy('NOTE_API_DO_WARMUP');
 
-  if (skipWarmup) {
-    console.log('🔐 NOTE_API_SKIP_WARMUP → ウォームアップをスキップ（生 Cookie のみで create）');
+  if (doWarmupRetry) {
+    console.log('🔐 NOTE_API_DO_WARMUP=true → 生Cookie失敗時のみウォームアップ再試行');
+  } else {
+    console.log('🔐 既定モード: ウォームアップなし（生 Cookie のみで create）');
   }
 
   /** create に成功したときの Cookie（draft / publish でも同じものを使う） */
@@ -283,7 +285,7 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
 
   let step1 = await attemptCreate(sess, shortTitle, html, null);
 
-  if (!step1.ok && !skipWarmup) {
+  if (!step1.ok && doWarmupRetry) {
     console.log('🔐 生 Cookie で失敗 → ウォームアップ後に再試行…');
     const w = await warmupEditorSession(cookieHeader);
     sess = w.cookies;
@@ -478,7 +480,8 @@ async function main() {
     }
     if (result.status === 422) {
       console.error('💡 422 のとき:');
-      console.error('   · Repository Variables に NOTE_API_SKIP_WARMUP=true を設定（ウォームアップで Cookie が壊れるのを防ぐ）');
+      console.error('   · 既定ではウォームアップを行いません（生 Cookie のみで create）');
+      console.error('   · 必要なら NOTE_API_DO_WARMUP=true で再試行を有効化');
       console.error('   · 手元で NOTE_SESSION_COOKIE=... node post_to_note_api.js ... が通るか確認');
       console.error('   · note の仕様変更で API だけでは投稿できない可能性 → SKIP_NOTE_POST + 手動投稿');
       console.error('');

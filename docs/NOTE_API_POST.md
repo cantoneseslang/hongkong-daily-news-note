@@ -80,7 +80,8 @@ note の投稿は **1回の `POST` に `status: published` を付ける形式で
 
 **422 が続くときの追加オプション**
 
-- スクリプトは **まず生の Cookie で `create`** を試し、失敗したときだけ **ウォームアップ GET**（`Set-Cookie` のマージ）のあと再試行します。ウォームアップがセッションを壊すケースがあるため、**Repository Variables** に **`NOTE_API_SKIP_WARMUP=true`**（または `1`）を入れると **ウォームアップを完全にスキップ**し、Secret の Cookie のみで投稿します（`.github/workflows/daily-news.yml` がこの変数を環境に渡します）。
+- **既定ではウォームアップ GET（`Set-Cookie` のマージ）は行いません**（セッションが壊れやすいため）。Secret の `NOTE_SESSION_COOKIE` のまま `create` → `draft_save` です。
+- どうしても **ウォームアップ付きで再試行**したい場合だけ、環境変数 **`NOTE_API_DO_WARMUP=1`**（または `true`）を付けます。GitHub Actions では **Repository variables** の **`NOTE_API_DO_WARMUP`** を `true` にすると、`.github/workflows/daily-news.yml` 経由で渡されます（**未設定で問題ありません**）。
 - 併せて **`Origin` / `Referer` の複数パターン**や **`application/x-www-form-urlencoded`** でも `create` を試します（ブラウザに近いヘッダ差分の吸収）。
 
 ## CloudFront 403（「cachable requests only」）になる場合

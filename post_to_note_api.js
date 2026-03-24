@@ -3,8 +3,8 @@
  * note.com 内部 API へ HTTP で投稿（非公式・自己責任）
  *
  * - API POST は https://note.com/api/... のみ（editor ホストは CloudFront 403 になりやすい）
- * - ウォームアップ GET（Set-Cookie マージ）でセッションが壊れやすいため、既定では行わない。
- *   まず Secret の Cookie のまま create → 失敗時、環境変数 NOTE_API_DO_WARMUP=1 のときだけウォームアップ後に再試行
+ * - ウォームアップ GET が Set-Cookie でセッションを壊すことがあるため、
+ *   まず「Secret の Cookie をそのまま」で create を試し、ダメならだけウォームアップ後に再試行
  */
 
 import { readFileSync, existsSync } from 'fs';
@@ -270,13 +270,10 @@ function envTruthy(name) {
 
 async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
   const shortTitle = [...title].slice(0, 200).join('');
-  /** 既定 false（ウォームアップは Cookie を壊しやすい）。明示的に 1/true のときだけ再試行 */
-  const doWarmupRetry = envTruthy('NOTE_API_DO_WARMUP');
+  const skipWarmup = envTruthy('NOTE_API_SKIP_WARMUP');
 
-  if (doWarmupRetry) {
-    console.log('🔐 NOTE_API_DO_WARMUP → 生 Cookie で失敗したらウォームアップ後に再試行します');
-  } else {
-    console.log('🔐 ウォームアップは既定でオフ（生 Cookie のみで create）');
+  if (skipWarmup) {
+    console.log('🔐 NOTE_API_SKIP_WARMUP → ウォームアップをスキップ（生 Cookie のみで create）');
   }
 
   /** create に成功したときの Cookie（draft / publish でも同じものを使う） */
@@ -286,7 +283,7 @@ async function createAndSaveNote(cookieHeader, title, html, wantPublish) {
 
   let step1 = await attemptCreate(sess, shortTitle, html, null);
 
-  if (!step1.ok && doWarmupRetry) {
+  if (!step1.ok && !skipWarmup) {
     console.log('🔐 生 Cookie で失敗 → ウォームアップ後に再試行…');
     const w = await warmupEditorSession(cookieHeader);
     sess = w.cookies;
@@ -481,10 +478,9 @@ async function main() {
     }
     if (result.status === 422) {
       console.error('💡 422 のとき:');
-      console.error('   · 既定ではウォームアップしません。Cookie を npm run note:cookie で取り直し');
-      console.error('   · どうしてもウォームアップ付きで再試行する場合のみ NOTE_API_DO_WARMUP=1（Cookie が壊れることもあります）');
+      console.error('   · Repository Variables に NOTE_API_SKIP_WARMUP=true を設定（ウォームアップで Cookie が壊れるのを防ぐ）');
       console.error('   · 手元で NOTE_SESSION_COOKIE=... node post_to_note_api.js ... が通るか確認');
-      console.error('   · note 仕様変更の可能性 → SKIP_NOTE_POST + 手動投稿');
+      console.error('   · note の仕様変更で API だけでは投稿できない可能性 → SKIP_NOTE_POST + 手動投稿');
       console.error('');
     }
     console.error('💡 Cookie を取り直す: npm run note:cookie → .note-session-cookie.txt を Secret に');

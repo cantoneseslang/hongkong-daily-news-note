@@ -1,0 +1,557 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年03月29日)
+thumbnail: images/article-header-20260329_062348.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年03月29日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年03月29日05時45分に発表した天気報告
+
+やや湿った東寄りの気流が、広東省東部沿岸に影響を与えています。
+香港の今日の天気予報：
+概ね曇りで、一時的ににわか雨が降るでしょう。午前中は一部地域で視界が悪くなるでしょう。日中は一時的に日差しがあり、蒸し暑くなるでしょう。市街地の最高気温は約28度、新界ではさらに1、2度高くなる見込みです。穏やかな東寄りの風が吹き、その後南風に変わるでしょう。
+見通し：明日は一部の時間帯で日差しがあり、蒸し暑くなるでしょう。また、一、二度のにわか雨がある見込みです。火曜日は天気が次第に不安定になり、水曜日も引き続き数回のにわか雨があるでしょう。
+
+**引用元**: 香港天文台
+
+### スーパーコンピューティングハブの電力需要は「予見可能」
+
+イノベーション・科学技術・産業局長の孫東氏は土曜日、ノーザン・メトロポリス内のサンディ・リッジ・データ施設が稼働を開始した際の追加の電力需要に対応するための計画が整っていると述べました。
+サンディ・リッジのデータ施設クラスターの起工式で講演した際、彼は、スーパーコンピューティングハブを設置するこのプロジェクトが、香港特別行政区のイノベーションと科学技術の発展努力に新たな推進力をもたらし、国際デジタル経済におけるグレーターベイエリアの存在感を高めるだろうと述べました。
+敷地の電力供給体制について、孫氏は「香港の電力供給システムは成熟しており、包括的です」と述べました。
+「関係する電力供給会社は、あらゆる種類の利用者の需要を満たすのに十分な発電能力と送電網の配電能力を有しています」と彼は述べました。
+「サンディ・リッジでの電力使用は長期的で、安定しており、予測可能です。突然の急増はありません」
+彼は、環境生態局や運輸署などの様々な当局者で構成され、プロジェクト推進のために設立されたタスクフォースも、データ施設が稼働を開始する日に活動を開始すると述べた。孫氏は、このクラスターが2029年に稼働を開始すれば、香港における人工知能産業の主要な推進力となり、世界中から人材や企業を誘致するだろうと述べた。この施設はまた、データフローのための安全で効率的かつ信頼性の高いインフラを提供し、中国本土と世界の他の地域を結ぶハブとして機能するだろう。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849148-20260328.htm
+
+### 沙嶺データパークは2029年に運営開始予定。孫東氏：香港が地域の先進的なデータおよびコンピューティング能力のハブとなることを促進する。
+
+【Now新聞台】北都に位置する沙嶺データパークの起工式が執り行われ、最速で2029年に運営を開始する予定です。創新科技及工業局の孫東局長は、このパークが香港を地域の先進的なデータおよびコンピューティング能力のハブへと発展させることを期待しています。
+ここは深圳との国境に接する沙嶺一帯で、11万平方メートルを超える土地に、今後3年以内に香港の人工知能などの新興産業に高度なコンピューティング能力を提供するデータパークが建設される予定です。
+パークは土曜日から正式に着工し、創新科技及工業局の孫東局長が複数の政府関係者と入居企業の代表を率いて式典を開催しました。将来的にパーク内の約9割の用地はハイエンドデータセンターの建設に充てられ、投資総額は238億香港ドルに達し、最速で2029年に運営を開始する予定です。
+孫東局長はスピーチの中で、このパークが河套深港科技創新協力区と連携し、国家第15次5カ年計画のコンピューティング能力ネットワーク配置への接続を支援できると述べました。
+創新科技及工業局 孫東局長：「コンピューティング能力の大幅な向上は、様々な産業のデータ需要に強固な支援を提供するだけでなく、データおよび人工知能関連産業の発展を推進し、デジタル経済とスマートシティの構築を促進します。これは、香港を地域の先進的なデータおよびコンピューティング能力のハブとするための重要な一歩であり、将来的にはグレーターベイエリアのデータ産業チェーンおよびコンピューティング能力クラスターと効率的な相互補完関係を築くことができるでしょう。」
+この用地を落札した企業である香港潤江智算科技の親会社は、中国本土のリーディングコンピューティング能力インフラ企業である潤澤智算科技集団です。設立から約17年が経過しており、現在、バイトダンス、ファーウェイなど複数のインターネット企業にデータおよびコンピューティング能力サービスを提供しています。また、中国本土の複数の都市で大規模データハブプロジェクトの開発と運営も行っています。
+今回、約5億8100万香港ドルで沙嶺の用地を落札し、香港に進出した同社は、運営開始から最初の3年間で約46億香港ドルの経済生産を創出し、香港のデジタルおよびコンピューティング能力の基盤を2032年までに現在の36倍に大幅に向上させることを目指しています。
+潤澤智算科技の周超男会長：「私たちの努力を通じて、この沙嶺の地を香港、ひいては中国のシリコンバレー、そして科学技術イノベーションの拠点として築き上げたいと願っています。香港には非常に優れた大学と人材が集まる貯水池があります。ですから、ここで事業を行うことは非常に良いことだと考えています。」
+孫東局長はまた、土木工学、電気機械工学などの関連政府部門と協力して専門チームを設立し、データパークの建設を支援していると述べました。
+#主要ニュース
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%B2%99%E5%B6%BA%E6%95%B8%E6%93%9A%E5%9C%92%E5%8D%80%E9%A0%90%E8%A8%882029%E5%B9%B4%E7%87%9F%E9%81%8B-%E5%AD%AB%E6%9D%B1-%E4%BF%83%E9%80%B2%E9%A6%99%E6%B8%AF%E6%88%90%E7%82%BA%E5%8D%80%E5%9F%9F%E5%85%88%E9%80%B2%E6%95%B8%E6%93%9A%E5%8F%8A%E7%AE%97%E5%8A%9B%E6%A8%9E%E7%B4%90-050730783.html
+
+### イラン戦争：地上作戦の議論が交わされる中、米国の強襲揚陸艦が中東に到着
+
+USSトリポリは、約3,500人の海兵隊員と水兵、および輸送機と戦闘機からなる部隊の旗艦です。
+米中央軍は土曜日、強襲揚陸艦USSトリポリが中東に到着したと発表しました。これは、イランへの米地上部隊の展開の可能性に関する憶測が高まる中でのことです。
+米中央軍はソーシャルメディアへの投稿で、同艦が金曜日に同地域に到着し、「約3,500人」の海兵隊員と水兵からなる部隊の旗艦であると指摘しました。
+同部隊にはまた、「輸送機と攻撃戦闘機、強襲揚陸資産および戦術資産」が含まれると述べました。
+この投稿には4枚の画像が含まれており、そのうちの1枚には同艦の甲板に複数のシーホークヘリコプターが写っているほか、通常は人員輸送に使用されるオスプレイ航空機も写っています。
+別の写真にはF-35戦闘機が写っています。
+USSトリポリと、乗船している第31海兵遠征部隊の隊員は、日本に拠点を置いています。
+
+**引用元**: SCMP Business
+
+https://www.scmp.com/news/world/middle-east/article/3348271/iran-war-us-amphibious-assault-ship-arrives-mideast-amid-talk-ground-operation?utm_source=rss_feed
+
+### シンガポールのローレンス・ウォン氏、香港訪問を終えるにあたり財界の大物や指導者らと会談。
+
+シンガポール首相は、今回の訪問を「短いが有意義」と述べ、地域経済の成長を促進するためにより緊密な協力を呼びかけた。
+シンガポール首相ローレンス・ウォン氏は、今回の香港訪問を「短いが有意義な訪問」と表現し、元終審法院首席判事のアンドリュー・リー（李國能）氏や、実業家リ・カシン（李嘉誠）氏の息子であるリチャード・リー（李澤楷）氏を含む、香港の政界の重鎮や財界のリーダーと会談した。
+2024年に首相に就任して以来初の香港公式訪問を終えたウォン氏は、土曜日のFacebook投稿で、アジアの二大金融センター間のより緊密な協力が、地域の成長と回復力に貢献するだろうと述べた。
+ウォン氏は3日間の訪問について「香港への短いが有意義な訪問だった」と記し、「この都市は、見慣れているようでいて、新たな活気に満ちており、明らかなダイナミズムを感じる」と述べた。
+パシフィック・センチュリー・グループ会長のリチャード・リー氏のほか、ウォン氏はシノ・グループ会長のダリル・ン・ウィンコン氏、ケリー・プロパティーズ会長のクオック・クーン・ファ氏、ローズウッド・ホテル・グループ最高経営責任者のソニア・チェン・チーマン氏など、他の影響力のある財界のリーダーたちとも会談しました。
+ウォン氏はまた、政府の主要な意思決定機関である行政会議の招集人であるレジーナ・イップ・ラウ・スクイー氏、ハンルン・グループ名誉会長のロニー・チャン・チーチョン氏、元議員のマーティン・リアオ・チョンコン氏、そして香港証券取引所の元会長であるローラ・チャ・シー・メイロン氏とも面会しました。
+ウォン氏は、官民双方の要人たちと「良好な意見交換」を行ったと述べ、議論は地域開発と協力の分野に焦点を当てて行われました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3348251/singapores-lawrence-wong-wraps-short-meaningful-visit-hong-kong?utm_source=rss_feed
+
+### 15の航空会社がT2へのカウンター移転を開始します。
+
+空港は金曜日、香港エクスプレスを含む15の航空会社が、チェックインカウンターをターミナル1からターミナル2へ段階的に移転すると発表しました。
+拡張されたターミナル2の旅客出発施設は、5月27日に運用を開始する予定です。
+声明の中で空港は、香港航空やグレーターベイ航空を含む、関与する他の航空会社は主に地域路線を運航していると指摘しました。
+また、移転プロセスは夏の旅行シーズンが始まる前の6月10日までに完了する見込みであると付け加えました。
+声明では、「T2での円滑な移転と運用を確保するため、空港当局は包括的な準備を進めており、関係航空会社、ビジネスパートナー、利害関係者と密接な連携を維持してまいります」と述べました。
+「T2のその他の旅客施設は、旅客需要に応じて運用が開始されます。」
+また、新ターミナルの出発階は、エアポート・エクスプレスのプラットフォームだけでなく、29のバス路線を含むその他の公共交通機関や自家用交通機関ともシームレスに接続されていると指摘した。
+1,000台以上の駐車スペースを提供する新しい6階建ての駐車場も、短い屋根付き通路を介してターミナルに直接接続されている。
+香港エクスプレスは、移転計画を歓迎すると述べ、新ターミナルの「最先端の」設備を通じて顧客体験を向上させることを楽しみにしていると付け加えた。
+「これらはチェックインと搭乗におけるよりシームレスなセルフサービスを促進し、さらなる旅客数の増加を支えるでしょう」と同社は述べた。
+編集：アーロン・タム
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849039-20260327.htm
+
+### 算命師が財政難を予言し低金利ローンを推薦、女性被害者が50万を失う。男の詐欺師が2件の事件で逮捕 - on.cc東網
+
+算命師が財政難に陥ると予言し低金利ローンを勧め、女性被害者が50万を失う。男性詐欺師が2つの事件に関与し逮捕。on.cc東網
+（動画あり）警察が低金利住宅ローン電話詐欺を摘発、女性1人を逮捕し5件の事件で総額220万元を詐取。香港文匯網
+警察が39歳の女性を逮捕、銀行員を装い220万元を詐取した疑い。Nowニュース
+5人が低金利住宅ローン詐欺に遭い、$220万の保証金を失う。警察は39歳の偽弁護士事務所職員を逮捕。香港01
+女性が「算命」を誤信し50万を騙し取られる。20260328 公民 明報教育網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTzFXUzQ5eE5vY2R0ZWJSVXgwcDJVb04tcWVTel9FRTJ2bWJVc0JFRmxpU1VDc05BZzFSdHdJeHlnS0hib2RENUFHMlpGQnJFVmxSR0ZhQ2p3b3gxRGJ5aEVybGlnWlB5bXR2TVU3TWpZenlVc2gtQWhpSklMN3VobEtZV0VCTlNYSXdj?oc=5
+
+### ジョン・リー行政長官がシンガポール首相を香港に歓迎しました。
+
+行政長官のジョン・リーは金曜日、シンガポール首相のローレンス・ウォンを香港に迎え、同首相が就任後初めて特別行政区を公式訪問したことを「極めて重要」と称賛しました。
+リーは政府庁舎でウォンを迎え、会談では両都市間の深いつながりを強調しました。
+リーは「香港とシンガポールはアジアの鼓動として成長しており、我々には長年にわたる友情があります」と述べ、両者が自由貿易、多国間主義、そして国際連合や世界貿易機関のようなルールに基づく組織へのコミットメントを共有していると付け加えました。
+「我々は架け橋を築き、対話と協力を信じています。ウィンウィンを信じ、皆のためにより大きなパイを作り出すことを信じています。」
+リーは、自身が行政長官として2023年にシンガポールを初めて公式訪問したことを振り返りました。
+彼は、両政府の指導者と高官の間でより頻繁な交流が行われることへの希望を表明しました。
+ウォン氏は自身の考えとして、香港の最新の動向、その5カ年計画や北部大都市圏プロジェクトについて学ぶことを楽しみにしていると述べました。
+「香港が何をしているのか、そしてシンガポールもこれらの機会の一部にどのように参加できるのかを見たい」と彼は述べました。
+ウォン氏は、都市間の時折の競争は最終的に「健全」であると指摘しました。
+「私たちが互いに連携すれば、パイは大きくなり、そして私たちは双方に利益を得ます。なぜなら、私たちは共に自由貿易を信じ、共にルールに基づいた多国間主義を信じているからです」と彼は述べました。
+彼は、シンガポールと香港の間のより緊密な協力について、さらに述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849027-20260327.htm
+
+### 同仁堂傘下の企業は、今年の新規上場活況の中で、初の延期となる形で香港での新規株式公開を取り下げた。
+
+病院ネットワーク運営会社、低調な需要を背景に最大1億1500万米ドル調達計画を延期
+伝統的な中国医学に基づく医療サービスを提供する北京同仁堂医療健康投資は、同社株式に対する投資家の需要が低調なことを背景に、金曜日に香港での新規株式公開（IPO）を延期した。
+今回の延期は、現在のIPOブームにおいて初めての事例である。LSEGデータ＆アナリティクスによると、今年3月18日時点で、同市における新規株式公開による調達額は約116億4000万米ドルに達し、1年前の約24億米ドルから385パーセント増加した。
+同仁堂は、上場投資信託（ETF）やAIおよびロボット工学に関わる企業を含む、月曜日に予定されていた6社の新規上場のうちの1社だった。同社は、1株あたり7.30香港ドルから8.30香港ドルの間で1億815万株を提供することで、最大8億9770万香港ドル（1億1500万米ドル）を調達することを目指していた。
+同仁堂医療健康投資は、既に公募を開始し、個人投資家および機関投資家から応募資金を徴収していたが、香港証券取引所への提出書類によると、月曜日までにすべての応募資金を全額返還すると発表した。同社は「現在の市場状況」とその他の要因を理由に挙げた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3348101/tong-ren-tang-healthcare-unit-pulls-hong-kong-ipo-scheduled-monday?utm_source=rss_feed
+
+### GoogleのGemini AIアプリが香港でデビュー
+
+テクノロジー大手のチャットボットサービスが、香港のApple App Storeランキングで首位を獲得した。
+テクノロジー大手Googleは、Gemini AIチャットボットのモバイル版を香港のユーザーに導入し、そのサービスは瞬く間にAppleのApp Storeランキングで首位に立った。木曜日の提供開始は、Googleが先週発表した、生成AIサービスを段階的に香港に導入するという計画に続くもので、Geminiのウェブサービスから開始し、その後モバイル版をリリースするとしていた。
+この人気のAI製品は、以前は香港の一般市民には利用できず、アクセスは一部の地元企業、開発者、教育者、学生に限定されていた。OpenAIやAnthropicといった企業が規制やコンプライアンスの不確実性を理由に現地のIPアドレスをブロックしていたため、この禁止措置により、多くの住民は地域のジオフェンシングを回避するために仮想プライベートネットワーク（VPN）やサードパーティのプラットフォームを利用せざるを得なかった。
+Geminiは、ユーザーがテキスト、画像、音声を通じて対話できるマルチモーダルAIツールです。画像や音楽トラックを含むマルチメディアコンテンツ向けの生成ツールを搭載しており、Googleはこれによりクリエイターや学生が「創造性を簡単に表現できる」ようになると述べています。このアプリは、金曜日の朝の時点でAppleのApp Storeで最もダウンロードされた製品でした。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348076/googles-gemini-ai-app-debuts-hong-kong?utm_source=rss_feed
+
+### 保安局：ミャンマーで監禁されていた香港人1名が救出され、昨日タイに到着。まるで映画のホラーシーンを経験したようだと語る - 香港01
+
+保安局：ミャンマーで監禁されていた香港人1名が救出され、昨日タイに到着した。その人物は、映画のホラーシーンを経験したようだと語った。香港01
+ミャンマーで監禁されていた香港人が救出されタイに到着、映画のホラーシーンを経験したようだと語る。香港電台新聞網
+香港とタイが再び協力し、ミャンマーで監禁されていた香港人を救出。20260329 香港ニュース 明報新聞網
+香港人男性がミャンマーで「人身売買」の被害に遭い、特別行政区政府が迅速に救助した。香港ニュース 今日大公
+保安局：ミャンマーで監禁されていた香港人1名が救出された。信報ウェブサイト
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiyANBVV95cUxNcDZlOTRzaVBWc3UtWEJwUE81VDlPVzZQLWYtcnpkRWMzREFERi1ycUI0cEIzQWtndlNnV2xlYzNKeFhtM0JmVVowU3lBRjJwVTJNeG9sT0NBV01yWnVjS01ERHgwTmNETmFPMV9Vck9hVUw4QnZfRmVac3Z4YTluX2dySTNiS0RhNXBsZnUybWtXaFFiQW1acEIzNC1iUmdDMGttNHFqMW44MHRUZzlhTUdyWkQzRm41VTdQcjlnNVMyRWNsZWVYUkd5ZWF0Z29aQ0dGMDVGcWpRb3NZTGxROEx5dmZIdHMxVm9uZndwS3daUnVGVDh1a3drR0pWOXpSTzQzdmdqUHBDYWlYMUFEcUVuSWVLb0VZa0R6QXY5dGVSU0stc190bzNWVEtzR1hnNWVKZTd3a2dvMUhsOGtkVkVDUTA0eTNzclhhY1pYemRISTdCN1IxNVc5NVlUdFZ1cWwya0FzRVQxbWlKSDM5MjBOOTRhZ2xQWGJUenNUM080blRIVVpINTNpcHhkUmVEZGRLWC0ydkF6M0FXeWh1WFdoa1JYeFZwdlJXMWUyR0FfajlPY0F4b1RTMHlIY2dTeV9DZHlLQU8?oc=5
+
+### 立法会は40.6億香港ドルの「鋭眼計画」を承認しました。一部の議員は14億香港ドルの光ファイバー予算が誇張されていると指摘しましたが、保安局はシステムの価値は金銭で測れるものではないと述べました。- アンワイヤー・ドット・エイチケー 香港 - アンワイヤー・ドット・エイチケー
+
+立法会は40.6億香港ドルの「鋭眼計画」を承認しました。この計画の拡張予算40億香港ドルのうち、光ファイバーの割合が大きいことについて、一部の議員からは14億香港ドルの予算は誇張であるとの指摘が上がりました。これに対し保安局は、システムの価値や市民の安心、そして安全は金銭で測れるものではなく、伝送の安全を確保することが重要であると強調しています。この計画の推進により、再来年までに香港全域に6万台の監視カメラが設置される見込みです。（アンワイヤー・ドット・エイチケー、2026年3月28日付明報ニュースネットワーク、信報ウェブサイト、ニュース・ティーブイビー・ドット・コム、香港文匯網からの情報に基づく）
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiogFBVV95cUxONmlEbUZhcG55eXFrNEExMEFFTXQ0UGlvUThhOFYtNDh0c0tFU2lGcVlteEtSeFFWei00aTRFbUhiQXVjcUNpLTRIZGczQmM5am1MTGhOZWZ3ZFFGcDFoWUs4OGpoTEdNX2o5V2pzaVRzTEVQNnd6S2tGLVhrOWJXMjNQZjE4NGxjOUFpLTdfYmhlOGduZll6eUhnb243Rm5qV3fSAacBQVVfeXFMT0pMbzk0bDRvS0xyNTlRVnRXSlU2RGFkWnhtVkxkNHZfeF9DTHRmSm1tMmtFZ0tWNkhUeUVUZkUzdkM3RW1zZU5BLXV2el9peE1CY3dLcU9NbHNRUE9ENEtFTm1PM2NiWmdzYVRvc1Q5OVVxcG9HVThjdFlvc1MzZGpOWXRDdGlKcnRwNDFuYm1ZNnQ3XzhyODc5UFBPSGppM2FMZldZd0U?oc=5
+
+### 香港国家安全維持法の新たな細則：「電子機器の強制ロック解除」がなぜ広範な注目を集めているのか - BBC
+
+香港国家安全法の新たな実施細則：「電子機器の強制ロック解除」がなぜ広範な注目を集めているのか
+BBCの崔建春は昨日、在香港米国総領事の伊珠麗と会談し、米国が香港への干渉を停止するよう促した。
+香港電台ニュースサイト：特別行政区政府は、外国の政治家などが国家安全法実施細則の改正を中傷していると非難した - 主要ニュース - 香港文匯網
+香港文匯網 馮煒光：電子機器のロック解除権限付与――西側諸国は許されるのに、香港特別行政区は許されないのか？
+特別行政区政府は、外国の機関および政治家が国家安全法実施細則の改正を中傷していることに反論した。881903.com
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CUDB2NVlmek1tQ2duRFhIZXdhX2dZZ283TjN1cS1yQUN1ZDBLUnZ6eEk2QUV1VTRXLVJ2N1hLajhERG5PRFdkQzdocE9iUm1QMV9QZHZtNzBMbWZuUmtQZXAxYTA2QdIBa0FVX3lxTE9vZDdDLS1aa2pHSVgxQUxIazd1YVQzWXpya1BBcEdBckxMWjBGRFZQOFBJQnlRbjJxeERNUE9ldEtDQUQ4OEQweEU4ejRGZjhLZ1c0OUlyVXp6MlUwN3lFa1NfQkhaSTVoeUU0?oc=5
+
+### 啓徳ベーカリーマーケットは大盛況で、人気の四喜パンは3時間で完売した。一部の出店では商品が売り切れ、追加で補充するほどだった - 香港01
+
+啓徳ベーカリー市は人出も売り上げも好調で、人気の四喜パンは3時間で完売した。一部の出店では、売り切れのため商品を補充するほどだった。香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPUVdrSEp4NHR2QWRCbGQzaW54U0dTVEdQQUk4Yjk3QU5qeGVWcDdrYmRvUXlNMDJZeGIwMlhJb3VvdGViMzdiWDZSQV9sWE9LS3NUdXdwdHcyTXpjUlFsWUR3QlFBajFzeXdfMXFTbkYwZUJMX1A1QTZad2RUek9WNkUtOFVLakJmQncwQlBqQ0VoU2ZGUFdnbzV1X3JKMTFmXzlleDREYUdYdFN6RlpQM2w1UjVrRmp1SS1haF9kc2JHZE1wNnRNeTM2YUpJYkZjaUJyOWpPV3ZNMGl2eXd2VS1udVplRFZPQXpVWlFLeHNsQ09aLXNrQm1raEhnWnRLMkRkODZmc0Rpanh2THpFU2pndkYtZ2JPTTA5NEpHMVoyT0gyaW9LNDJTRmdWS0hheVpqNXY2VkxRZnBGc1VqVjdiSW1uXzFZSjJuTDFuMEVtc1ZlM1dMMGhaOVoxVV9Odm10c0FiaFRKeTB4TUt6WG1vYm9NX2pqZXI3eEFTVGl2anFhMXpYdDhPUFdUM3I0MzloaWlZWS1DczNYV29FRUlmNWZxNlNYMTMyN0Vla2ZTLUtLOFluQkJUZGd0dw?oc=5
+
+### 円相場｜上環の両替店に長蛇の列、香港人が円安に乗じて円を買い込み、燃油費高騰でオフシーズン旅行に切り替え - 香港01
+
+円相場：上環の両替店に長蛇の列、香港人が円安で買いだめ、燃油サーチャージ高騰で閑散期旅行へ - 香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPckQ3NV9pbTFUczlFRnhxT0ZxNllQdVlQS0Q3cmVodG1iZl8zVFNFdm1fNndzcnRBWHcyRUg4aUc0cnpTRzJGeGFBcm9RTHRwNkJ1M2VjRTlpalpGZ3hLU2JqWXo4dEdNUlNUSF9iU3ZPYjgtWjItUTlvdE03THRXZEpON1NSNWxSaWNTdFEzdDVEMXFxazJSdktValJTSHdYb3VZSEI4SVVzUGNZZ2VJTUlnbXFHUXFLMUVSRm1KQUtncVBnTVgyczJndHBlcUpBeThhZE8xZVFsbXBxYWpOVjlNVlhIRWQzWmlvYUdzYW1IM2xsckhLRnd5Q050dEg5aWlVV1A5dXcxdmZkTExfUkxqWFhkNXlCN1lMOGxGdnhObGh3YUZfaHkzaHBmdmdRNUsxNWIzQXZSY25US3F4ZGJSWGEwa1Q3TnBCTVBiU1M3LUZuRlpvWTdyUHFzZ0RTN0VEV2pfRE1jYXBpQm91dXJFVk1QVVRIdF9NMjFZYV92ay02ZTZUZk1fS2pHQ2wwdEtKcjVwcEczTFZsYU9hSjhZcC1uRjFMV3dBMjRfZ2xtczVud1hSOUlKLXVTUQ?oc=5
+
+### 荃湾 梯子転落労災：65歳男性作業員、入院1日で死亡 高齢の父親が嘆く「どうしようもない…事故だからね」 - 香港01
+
+荃灣での梯子からの転落労災：65歳の男性作業員が1日入院後に死亡。高齢の父親は「どうしようもない……事故だから」と嘆いた。香港01
+60代の内装工が2メートルの梯子から転落し死亡、彼に頼っていた高齢の父親が残された。- 20260329 - 香港ニュース 明報新聞網
+荃灣での死亡労災：内装工の男性作業員が梯子から転落し死亡。同居する90代の父親は「病院に行った時には、もう彼が話せない状態だった」と語った。星島頭條
+荃灣の楊屋道にある商業ビルで、65歳の男性作業員が長い梯子から転落し、意識不明の状態で病院に搬送されたが、1日入院後に死亡した。香港01
+荃灣の作業員が5フィートの高さから転落し、一時意識不明の状態で病院に搬送され治療を受けた。on.cc東網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMikgNBVV95cUxQeUZtamROemZIdGFEU25hQ01fVDlLS1dnU1p6RE5XNS1MWS1qT1UwY0l4VUQ0YnJIQVZNUDBHczd2SlJiemtOT2lVZ1cxcFZXSFljc2djTDRHeERXMHBERGcyN0tQUzZkclJaOXk4UkxCTlRBZkpOLVJQMTY2TnkwSnJWemlYNlYybV82RWdMckNUdjQ3cFNwcFBwcDdYWFdGTDhOMWxxektuSm02U3U2djRXUmZxUUJpMEpSWWFPX24zaEU0RXFUeV9SbkY2eFZYaXJENjdJeXYwQzJiU0VpZVZ0T1FWbFFJZHJ2QWNmWl96WDJnWmRFYXBHMW1TOHdUWHVTOG9HTGlsOW4xLVJ1VTdpYmgtZk5wcW9KTklLcS1DbTVuejRrNG1VTWVzQWRXaFFTLTFETEdHbVpTRktCZkU4ZDg0WmRuZ0dLLXJydjBLemxkZXEwbXpBNFVici1iNllaVG0zOWRFeUdvc1FUbG44QkFxOFV6ZTVWbkwtdXR5UE5KeUdmYWRhTHFUa2hjOFE?oc=5
+
+### 国際民間航空機関の新規定：乗客が持ち込めるモバイルバッテリーは最大2個まで - Yahoo
+
+国際民間航空機関（ICAO）の新しい規定により、本日より、香港空港を出発するすべての航空機乗客は、最大2つのモバイルバッテリーのみ機内に持ち込むことができ、飛行中の充電は禁止されます。
+この件は、Yahoo、香港電台ニュースネットワーク、明報ニュースネットワーク、Nowニュース、香港01といった各メディアが報じています。明報ニュースネットワークは、この国際的な規定が2026年3月28日14時20分に発表されたと伝えています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi0AJBVV95cUxPNi1TWTlSbUxZcmY5VFRlYnJkUUdadUVQN0ktX2FIRlpoZVJBN3h2Szdpd3JCVWl4VVRFWC1rSGlHdFdBUEFTNFVQRVVNcHUwSmRNdHNrWWJwcndKeXRBcU9DcW00UFlmcTRWVmZ0NzFfWEFCUERZMVhZZkZaNXo3WllPYzFvSWk3TVhUdWNhdHpZUTdCZjNocDQzZmxHOVJDX2M1MjNBWkliZjhmVTByOW44aUR1T2hoQ2psV29zY2UzS0lMbHpMQ084dkVuY3dfXzF6U2lZS2djdV9iNzk0bXNRbVZFNE1qNDM0aUZobVozZGNYLXZkWXJKX2dpS3RiN2NoUmd2TGV0VVp0WFRPTHQ3cHJrRzhMUk51N0x6U3FLNXBMN3lSelVUVkNZSVR6OXVqOEtLejdwaDhiY3hjZTBUREVBazd4bEN3S2hrZ1U?oc=5
+
+### 18歳男性、借金未返済の疑いで友人に刃物で脅される 義母が通報し、43歳男を逮捕 - Yahoo
+
+2026年3月28日16時42分、香港の油麻地、佐敦、上海街のマンションなどで、18歳の男性が金銭トラブルにより刃物で脅される事件が発生しました。被害者の義理の母が通報し、43歳の男性が逮捕されています。
+報道によると、18歳の男性は友人である43歳の男性から借りた4万香港ドルを返済しなかった疑いがあり、そのことで刃物で脅されたとされています。被害者の70歳の義理の母が警察に通報し、債権者である43歳の男性が逮捕されました。
+この事件は、ヤフー、明報ニュースネットワーク、香港01、星島頭條、AM730などの複数のメディアが報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi7gJBVV95cUxNOTVUZlpsRWxqQlU3Q01iZzlXdHFKeGFPWjFwRHZIMmJOQTRRRzJ3eGplMURKbjlPd2tWalV0SWRxMWhnVjFSYnl4b2dhWThEdzhTWUoxRy1JcEVxSDdQa3J6Q0dnLWJTek5IWUpiVzFwOHdVMFhzQWR4TE5yMDdDSUM4UFpzYlRIYUFJZDQzdEZBUWV1RHNuSTlsREIyNU05aTM3UXJucGJ0Z1lFM2x0bE52d05MRHl6VGtqYzI1Ym05ODYxNS1oWnU0a3FjZ3d6dXBtdFpNQW5mS2k4U3lvV2ZJSGRQSzM2ZlJQY05qQmo2UFA1Q1JWZXZ5U3dnS0xVWXRyVHlocjdRakEwcmFqYVh2Ri16WDg1N09TeWoydEY2TGdVanBlRVFnUmgyenBsODNpbXRIRkJoaGZxNDl0TUh3VGhHbGowV1hWcDlRcVVHNmlyenAwUGFrM2tDYS1ka2QtTVNDdVF5WWxFRXc?oc=5
+
+### ドラレコ映像：屯門で乗用車が事故を起こし、鉄柵に衝突後バスに激突、運転手は行方不明 - on.cc東網
+
+ドライブレコーダー直撃：屯門で乗用車が事故、鉄柵に衝突しバスに激突、運転手は行方不明 on.cc東網 (動画あり)
+屯門で乗用車が車線変更中に柵に接触しバスに激突、通行人が阻止を試みるも失敗、運転手は車を乗り捨てて逃走 - 香港 - 香港文匯網
+動画あり｜屯門で乗用車が車線変更中に制御不能になり柵に衝突、跳ね返って再びバスに衝突、運転手は車を乗り捨てて逃走 香港01
+警察が1名の男を逮捕、屯門で衝突事故後に現場から逃走した容疑 881903.com
+動画あり｜屯門で乗用車が柵に衝突、運転手は車を乗り捨てて逃走するも市民に阻止される 香港商報
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0pIZHRKLVRvRlhySFVPRGVQNEpGR2dZenhWQy12ZW9SanRjQ0N1c3Q5Qy05aGl3ZUZmVUJicDVEaVRNSUhXM3FiaDNIeDRWUEx0elJ3blNrV3p1c2xNZVgweHY2YnNGNmJLM0dyTV9EQXRFNkRWY29GZGlWcEZ5dWV0eXpnaFNHckhJ?oc=5
+
+### 香港セブンズが来月中旬に啓徳で開催され、50周年を記念して初代香港代表チームのキャプテンが招待されます。
+
+【Nowニュース】香港国際セブンズラグビー大会が50周年を迎え、大会組織委員会は、大会発祥の地である香港フットボールクラブスタジアムで記念イベントを開催しました。
+イベントでは、1976年の第1回大会の入場セレモニーが再現され、当時のセブンズ香港代表チームのキャプテンであったポール・ライト氏が、地元のラグビー界の各界代表で構成された香港代表チームを率いて入場しました。現役のセブンズ男子香港代表キャプテンのジェームス・ツァイ選手、女子香港代表キャプテンのチャン・ウィン選手、そして引退したヤオ・カムシン選手も会場に駆けつけ、応援しました。
+今大会のセブンズは、来月17日から19日にかけて、再び啓徳メインスタジアムで開催されます。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E9%A6%99%E6%B8%AF%E4%B8%83%E6%AC%96%E4%B8%8B%E6%9C%88%E4%B8%AD%E5%95%9F%E5%BE%B7%E4%B8%8A%E6%BC%94-%E9%82%80%E9%A6%96%E5%B1%86%E6%B8%AF%E9%9A%8A%E9%9A%8A%E9%95%B7%E7%B4%80%E5%BF%B550%E5%91%A8%E5%B9%B4-102730964.html
+
+### 跑馬地で男性がプラットフォームに転落、意識不明で病院に搬送され救命処置中 - on.cc東網
+
+跑馬地で男性がプラットフォームに転落し、意識不明のまま病院に搬送され救命措置を受けているとon.cc東網が報じた。
+命を大切に│大坑瑞士花園で男性が建物から転落し、プラットフォームに倒れ意識不明のまま病院に搬送されたと星島頭條が報じた。
+跑馬地で男性がプラットフォームに転落し、意識不明のまま病院に搬送され救命措置を受けているとon.cc東網とLINE TODAYが報じた。
+大坑瑞士花園で人が建物から転落し、意識不明のまま病院に搬送されたと明報新聞網が20260328付の香港ニュースとして15:50に報じた。
+命を大切に︱大坑瑞士花園で男性が建物から転落し、意識不明のまま病院に搬送され救命措置を受けていると香港01が報じた。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmh5WlZoZ3NoVk9pSFZkbEFfNkVXUW9oLUNzaTdBejk0a0N6aVZVTkp1Q3FCOFdJcmdLM1A0YUpOcXlRZEZnLWVpZDFwUU4xMDdKOHBTeV9GNlRkRFdvUmtVVEtyZy11ek45VHVYYUN4WU5qNjZoZFFPMV9lMXRYcW9URjRKSGkyZzk4?oc=5
+
+### 「香港で学び、深圳に住む」蔚来中学、未登録で先行募集 教育局は寄宿施設なしについて説明と是正を要求 - 20260328 - 香港ニュース - 明報ニュースネット
+
+以下に翻訳します。
+* 「香港で学び深圳に住む」蔚来中学、未登録で先行募集 教育局：「寄宿施設なし、説明と是正を要求済み」 - 2026年3月28日 - 香港ニュース 明報新聞網
+* 香港で学校設立申請中の機関、未登録で先行募集の疑い 教育局：「申請者に説明と是正を要求済み」 on.cc東網
+* 設立申請中の「蔚来中学」：「現時点では『予約相談』であり募集ではない」 宣伝文句が誤解を招きやすいことを認め、既に調整済み - 2026年3月29日 - 香港ニュース 明報新聞網
+* 「香港で学び深圳に住む」蔚来中学、未登録で先行募集 教育局：「寄宿施設なし、説明と是正を要求済み」 - 2026年3月28日 - 写真で見る世界 明報新聞網
+* 蔚来中学、未登録で先行募集の疑い 学校側：「あくまで相談の性質、宣伝文句は既に修正済み」 (20:56) - 2026年3月28日 - 香港ニュース 明報新聞網
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMilARBVV95cUxQY290V3d6enhQdVlySnN5eU1iOFVUOVp5cFhvaWRDRG03b0dpOEM0eDNTbkdrNERVQ29xdUVvWVZZdkZYT2JYMy1tTGRNQU0tZzRLOFNoVVJucnQ0ZUdhdGl5bnhreWE4Q0g2THVKcDRGbG83QWtqZ3NSbFBJVmFOTFdfSzBrRVMwZ3FOWDRBTlVzUEhPbldoVGFhWkVtNEhmTnFaMUowbFRrUXotNWsxUEFIcV9FVFVXZ0JrMTd4dWNwd0ptcXlnQ09GdG1mMGFxeXV0QVphc0U3SjZ3dWZ0WXVLdlZ3Z1A5U1hSb2owVmpWS1YtcmJhSnpDU3pqUzJ5R0lDZ2JfOHEyUXhSNXFKeGhJaXRhdnQ3Yi1oWm8wLVdRN3EwNHN5UGE2ejNFWXFHeWZHTUpiX3lja3k2N2ZXSzN2Y3VtVjFIQlRMcFlRYkJfSXhLcEtwR0ZhU3VaV2xjR3Q3Z09fYkNCYVZ2dGFnUklZWVhaSTkyTktJTDkxLUhqNVNucXprNG5URGhieTh2TGpheTc5bzJUMTlTX19GQXpnMjVESVBtaUg3aGM0N2FUZFZ3SnFTUGU2WXBBdHd1STBiY3p2empkdkhSVGY4YXRJOFAyUjF1Q2RIdmRNUzFyNGxMUDF6a2tjYWc0N3Z1M3R2SnZyUG5iWk5QQ1YyTjZyZFpqRVFWamRNbHFqMS1idHo2?oc=5
+
+### 旺角のフィットネスジムで19万ドルのサービスを威嚇販売、立ち去るのを妨げ契約を強制しクレジットカードを限度額まで使わせたとして、職員2名が逮捕 - 香港01
+
+旺角のフィットネスジムで19万ドルのサービスを威嚇販売し、立ち去りを妨害して契約を強制し、カードを限度額まで使わせたとして職員2名が逮捕された。香港01。
+フィットネスセンターの職員2名が、顧客を誘い込んで景品交換をさせた後、契約を強制的に締結させた疑いで税関に逮捕された。香港電台ニュースサイト。
+悪質なフィットネスジム問題を受け、スポーツ・レクリエーション業界は業界の自主規制規範の制定を提唱している。信報ウェブサイト。
+高額サービスの購入を威圧・誘惑した疑いで、税関がフィットネスジム職員2名を逮捕した。2026年3月28日、香港ニュース、明報ニュースサイト。
+税関がフィットネスセンターの不当な商慣行を取り締まり、2名を逮捕した。Nowニュース。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMinANBVV95cUxNcU9qLWZrNXplU0N5bHFVVlhXdC14Z3VVRlM4OE5nd0lic096OHpMdXBxdGxoYkxFVU1FdmloNGJrenpOc3g4dzkzX1F3blZPdEJLMjN0NWVoOWFRNERRNEtVVUFONTZNTW1NUW5xWmlrNHZlUWhERFE4RlNJbUs1bG1uZ1BTbkg5WVRmdllLY3hSN1Y3bVdGNElNVXZGRlUxZHZINDE4d19kQ05JekNHZTBybnBfRUQ3anBDTzNGNVRCa2JIQVhmZHl1M0Y5MnVwWlNoNm1JMW5IM2Q4RXZHZHdLUVpOVWdnVTM5YThjbkVqT09NNWNPWGFXai1KNm1ueFhkX3RiN3ZxZWtfdmRweDVFLXRGWVJNcHVGNDJIYUp2a0pPLUpxNWZJS2hEelRIMUdObDZrSmxRQ3EzZnFFOXlRd0lGR3BmUEJWTTZ1enRDLVh2Q1Y1eUlHQXlKaUxZVTJ3WC0weVhFX29YVWg2SUtWaG93WThyb1ZnczRGRV8yRk40dDhiNkMtOXkteVlydnptamVQZU9TME5L?oc=5
+
+### 珠江口の西に位置する雷雨域が徐々に接近しており、今後1～2時間で香港に影響を与える見込みです。- on.cc東網
+
+珠江口の西にある雷雨域が徐々に接近しており、今後1～2時間で香港に影響を与える見込みです。on.cc東網
+珠江口の西にある雷雨域が徐々に接近しており、今後1～2時間で香港に影響を与える見込みです。香港電台新聞網
+墓参り注意｜天文台は今後9日間雨が降ると予想、3月30日の日中の最高気温は29℃。清明節にはにわか雨と雷雨があるでしょう！星島頭條
+天気予報｜湿った南寄りの気流が華南沿岸に影響を与え、天文台は週末から8日間連続で驟雨があると予想しています。香港経済日報HKET
+天文台は清明節ににわか雨と雷雨があると予想しており、今後9日間は雨で、最高気温は約29度でしょう。香港01
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbUo0N1FZMUhGSmZlNjBiU0w2dVRjaGhIdTdlTGZYMGpkNU02SEQ0ZkZaUF8tWURWYVEtbWZnOFQ0WW1MSlRCNmQ4ZHZNT2FtSzZGa25YZHhHT1FQRDFjOFpZZ293VWVCZWNGVnVHY2Q0TE1sWDNfY3d3S0R1UENPazUzR2xtU3ZlMVZj?oc=5
+
+### 職工会登記局によると、教協は3月24日に解散し、半世紀にわたる歴史が正式に終結しました。
+
+労働組合登記局：教協は3月24日に解散し、半世紀にわたる歴史が正式に終焉を迎えた｜Yahoo
+Yahoo：労働組合登記局が官報で公示、教協は3月24日に解散｜香港電台ニュースサイト
+労働組合登記局が官報で公示、「教協」が正式に解散 - 香港｜香港文匯網
+香港文匯網：労働組合登記局が官報で公示、教協は今週火曜日に解散した｜信報ウェブサイト
+労働組合登記局が官報で公示、教協は3月24日に解散した｜TVBニュース
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMikANBVV95cUxOblRMd2F5a2ZnM1pfbGh2UE5faklJVFNyX3BHTjc3Z05kbjJXa1hhU01IRkg4SzgzN1kzV2pmVG9UazYzYXRZa1Z2T1lkOGhOSUtud2cza1lyXzRocDNxakR2b08wYldRdUZqZERKaGZjQ0FLdGRIMTQwNmJrYjFvZ05UeTh3b2d6RGVhR3hZTnNUdC1kNjdxNUlUTXY5VENDemFDVnBaTXo2VXJrNFBuekJsb1dON3JjUXBoV0RMVnpQQjNuUExfUUxDZE5IRHh3R0VTZHZRVFFZYzNRcDVYMlR2SG5ldC1DT3dMVGtRa2pBZFZ0bThFR1lCYlpsZm1XWC16MU5rZjZ1YXFiWm1zdkR2dlVqVzItSFF3N011WWhqMzFDR2kwSDhmMUxBUEZGVmlTNzZuUHBjakozNFR3LTgxdmVyVGJLYnFBOUdSbWFjY2hQc09MelkyOWVsaVQ5OHdZT2RJTGZoME1RYVNVbXBnXzI2eS1YYk9WN3ZCQl82aU95TUc2bjlVRmtFMGhT?oc=5
+
+### 香港空港は、国際的な規則に沿って、モバイルバッテリーの持ち込みを乗客1人あたり2個までに制限しています。
+
+空港管理局は、香港国際空港から出発するすべての乗客に対し、即時発効で新しい規則を遵守するよう求めていると述べました。
+空港管理局は土曜日の夜、香港国際空港から出発するすべての乗客に対し、即時発効で2つを超えるモバイルバッテリーの携帯を禁止すると発表しました。
+国際民間航空機関（ICAO）の新しい規則を引用し、空港管理局は、この国際航空機関がリチウム電池モバイルバッテリーによって引き起こされる新たな航空安全リスクに対処するため、これらの要件を発表したと述べました。
+同管理局によると、新しい規則の下では、各出発乗客はモバイルバッテリーを2つまでしか携帯できず、フライト中にそれらを充電することも禁止されます。
+同管理局は声明で、「即時発効で、香港国際空港から出発するすべての乗客は、これらの要件を遵守する必要があります」と述べました。
+同管理局は、乗客に対し、さらなる詳細と支援については各航空会社に問い合わせるよう助言しました。
+金曜日、国際民間航空機関（ICAO）は、新たに合意された措置に基づき、乗客はモバイルバッテリーを1人2個までに制限され、飛行中の充電は禁止されると発表しました。しかし、乗務員は運航上の要件に従い、引き続きモバイルバッテリーを携帯および使用します。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348269/hong-kong-airport-caps-power-banks-2-passenger-line-global-rule?utm_source=rss_feed
+
+### 香港の病院でチューブが外れた後、少年の心臓が16分間停止した。
+
+香港児童病院は、少年が集中治療室に留まり、人工呼吸器による補助と脳の保護治療を受けている中、調査を開始しました。
+香港児童病院で、6歳の少年の呼吸チューブが人工呼吸器から外れた後、心臓が約16分間停止するという重大な医療事故について、調査が開始されました。
+病院は土曜日、この件について「深く懸念している」と述べました。
+病院は声明で、「集中治療室において人工呼吸器によるケアを必要とする患者の監視を強化するため、直ちに対策を講じました」と述べました。
+「この事故を調査し、改善策を提言するため、根本原因分析委員会が設置されます。」
+病院によると、稀な基礎疾患を患う少年は、昨年12月24日に啓徳（カイタック）の施設に入院しました。
+彼は木曜日に全身麻酔下でインターベンション治療を受け、その後、経過観察のため小児集中治療室へ移された。彼はそこで挿管され、人工呼吸器による補助を受けていた。
+翌日の午前7時29分、看護師が彼が心停止しているのを発見し、心肺蘇生を開始した。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/health-environment/article/3348267/boys-heart-stops-16-minutes-after-tube-comes-loose-hong-kong-hospital?utm_source=rss_feed
+
+### 香港MTRでの線路侵入を受け、厳罰化と教育の強化を求める声が上がっている。
+
+金曜日に乗客が列車の非常口を開けたため、夕方のラッシュアワー中に2時間の運行停止が発生しました。
+MTR東鉄線で夕方のラッシュアワー中に2時間以上の運行停止を引き起こした最近の事故を受け、香港の鉄道専門家は、列車内での非常口の誤用を防ぐため、より厳しい罰則とより強力な公共教育を求めています。
+専門家らはまた、非常口へのアクセスを困難にするというある議員の提案にも疑問を呈し、その措置が乗客の安全を損なう可能性があると述べました。
+予備調査により、九龍塘駅から大囲駅へ向かっていた北行きの列車の後部運転室で、乗客が非常脱出用スロープを開放したことが判明しました。
+その後、35歳の男は九龍塘駅の出口付近のトンネル内で発見され、感電していました。
+土曜日の午後現在、彼は沙田にあるプリンス・オブ・ウェールズ病院で危篤状態が続いています。
+自由党の立法会交通委員会委員であるマイケル・リー・チュンキョン氏は、非常口のハンドルに、火災報知器の発報ボタンに用いられているものと同様の保護カバーを設置することを提案しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3348262/hong-kong-mtr-track-intrusion-prompts-calls-tougher-penalties-education?utm_source=rss_feed
+
+### 香港警察、違法燃料貯蔵所を摘発し、ディーゼル燃料1,600リットルを押収、1人を逮捕
+
+違法燃料事業への継続的な取り締まりの一環として、50,000香港ドル相当のディーゼル燃料が押収され、容疑者が現場で逮捕されました。
+中東での紛争による原油価格の高騰を受け、違法燃料販売への継続的な取り締まりの一環として、香港当局は土曜日、西湾の違法燃料ステーションから1,600リットル（423ガロン）のディーゼル燃料を押収しました。
+消防処と警察の職員が楓樹街の現場を急襲し、50,000香港ドル（6,383米ドル）相当のディーゼル燃料を回収し、給油設備を押収しました。
+現場では、火災危険防止および危険物規制に違反した疑いで男が逮捕されました。当局は彼が起訴されると述べました。
+木曜日と金曜日には、取り締まりチームがすでに別の男を逮捕し、葵涌のコンテナ港南路と葵和街で、250,000香港ドル相当の違法ガソリンとディーゼル燃料8,000リットル以上を押収していました。
+コンテナ港路南の現場は、3月17日に発生した、違法燃料トラック火災の疑いがある現場の近くに位置していました。この火災では、闇市場の燃料を最大2,000リットル積んだ車両が炎上しました。負傷者は報告されていないものの、警察はこの件に関連して、車両の女性所有者を捜索しています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3348260/hong-kong-police-seize-1600-litres-diesel-arrest-1-raid-illegal-fuel-site?utm_source=rss_feed
+
+### 香港が貨物船から9200万香港ドル相当の密輸タバコを押収し、4人を逮捕した。
+
+税関職員、水上警察、中国本土の法執行機関が、スタンレー南東のワグラン島沖の海域で河川貿易船を拿捕
+香港税関は、中国本土当局との共同密輸対策作戦中に、貨物船から推定市場価格9,200万香港ドル（1,146万米ドル）相当の違法タバコ約2,000万本を押収しました。
+当局が土曜日に発表したところによると、これらのタバコは約6,800万香港ドルの税収を生み出すはずでした。
+税関・消費税局の職員、水上警察、および中国本土の法執行機関は、リスク評価と情報分析に基づき、金曜日の未明にこの作戦を実施しました。
+作戦中、彼らはスタンレーの南東5.4海里に位置するワグラン島沖の海域で河川貿易船を拿捕しました。
+職員は、船上にあった2つの45フィートコンテナからタバコを押収しました。
+押収品は9,200万香港ドル相当と推定され、約6,800万香港ドルの関税相当額がありました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3348248/4-held-hong-kong-seizes-hk92-million-illicit-cigarettes-cargo-vessel?utm_source=rss_feed
+
+### 香港、AI推進の原動力となる北部都会区のデータセンターを着工
+
+イノベーション・技術・工業局長の孫東は、このプロジェクトが中国と世界を結ぶデータ接続ハブとしての都市の主導的地位をさらに強固にするだろうと述べました。
+北部メトロポリスで主要なデータセンターの建設が開始され、香港のイノベーション・技術担当大臣は、このプロジェクトが都市の計算能力を大幅に向上させ、国家の人工知能（AI）推進を促進するだろうと述べています。
+土曜日には、110,000平方メートル以上の敷地面積を持つレンジ（香港）サンディリッジデータ施設クラスターで起工式が開催されました。
+イノベーション・技術・工業局長の孫東は、このプロジェクトが都市のイノベーションと技術開発における飛躍的な進歩を示すものだと述べました。
+彼はさらに、この動きが国家の質の高い発展への都市の貢献、そして中国の「AIプラス」イニシアチブへの統合における重要な一歩であると付け加えました。
+「このクラスターは、香港の北部メトロポリスにおけるイノベーションとテクノロジー開発の主要プロジェクトであり、中国と世界を結ぶデータ接続ハブとしての香港の主導的地位をさらに確固たるものにするだろう」と彼は述べた。
+「このクラスターは、人工知能と産業開発の深い統合を強化するものであり、これは我が国の『AIプラス』戦略の実施と合致する。」
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3348246/hong-kong-breaks-ground-northern-metropolis-data-centre-power-ai-push?utm_source=rss_feed
+
+### 香港警察は、ガードレールとバスに衝突した後、逃走した運転手の行方を追っています。
+
+オンラインのドライブレコーダー映像には、屯門で黒い車が3車線を横切ろうとして衝突し、近くの歩道にいた歩行者を驚かせた様子が映っている。
+香港警察は、土曜日に車をバリケードに衝突させ、さらにバスにもぶつかった後、現場から逃走した運転手を捜索している。
+警察によると、午前9時20分頃、屯門の杯渡路沿いで車が路側のガードレールに衝突したとの通報があった。その際、その車は同じ道路の信号で停車していたバスにも接触した。
+警察は、運転手はその後、車から降りて逃走したと述べ、負傷者の報告はないと付け加えた。事故当時、バスに何人の乗客が乗っていたかは、直ちには明らかになっていない。
+オンラインで拡散しているドライブレコーダーの映像には、黒い車が2車線を横切ろうとした後、制御を失ってガードレールの一部に衝突する様子が映っている。衝突の衝撃で、その車は道路上に戻され、バスの後部に衝突したとみられる。
+歩道沿いを歩いていた住民が、目の前で車が衝突した際に、一瞬ぎょっとした様子を見せた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3348241/hong-kong-police-searching-driver-run-after-hitting-railing-and-bus?utm_source=rss_feed
+
+### 米国を拠点とするイラン人アーティストの布作品は、アート・セントラルで、彼女のアイデンティティの複雑な織りなす様相を映し出しています。
+
+エルナズ・ジャヴァニは、自身の作品が香港の人々にとって瞑想的な空間となり、高まる世界の地政学的緊張を垣間見る窓となると述べている。
+イラン系アメリカ人アーティストがアート・セントラル・フェスティバルのために制作した、特徴的な6着のコートをフィーチャーした一連の作品は、香港の人々に、中東で続く戦争の中で記憶と紛争というテーマについて考察するよう促している。
+1985年にイランで生まれ、現在は米国に住むエルナズ・ジャヴァニは、サウスチャイナ・モーニング・ポストに対し、この作品は高まる世界の地政学的緊張の時代において、香港の人々にとって瞑想的な空間としても機能すると語った。
+彼女は、自身の芸術がアイデンティティを巡る自身の過去の葛藤も表していると述べた。
+「私のアイデアは個人的な記憶から着想を得ていますが、それを直接的な記録ではなく、想像上の物語へと変容させています」と彼女は語った。
+「観客の皆さんが、生きた経験の感情的な複雑さ、そして記憶、離散、個人的な歴史が身体、物体、素材を通じてどのように伝えられるかを感じ取ってくれることを願っています。」
+彼女の作品は現在、セントラルハーバーフロントで日曜日まで開催されているアートセントラルにて展示されています。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348233/us-based-iranians-cloth-works-art-central-reflect-complex-fabric-her-identity?utm_source=rss_feed
+
+### 動物福祉に関する懸念があるにもかかわらず、中国ではエキゾチックペットの取引が活況を呈している。
+
+北京の動物フェアでは、ペット愛好家たちがミーアキャットの写真を撮ろうと容器の周りに熱心に集まっていた。ミーアキャットは1匹320ドルで販売されており、その近くではアライグマが自分よりほんの少し大きいだけのケージの中で神経質そうに歩き回っていた。中国全土から大勢の人々が、年に一度のペットフェアのために広大な展示ホールに詰めかけていた。そこではエキゾチックアニマルが […]
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/28/exotic-pet-trade-thrives-in-china-despite-welfare-concerns/
+
+### SDカードとハードドライブが香港で新たな「デジタルゴールド」と呼ばれるのはなぜか
+
+香港では、プロ仕様の記憶装置の価格が高騰している。
+香港の写真家ジャッキー・ラウ・キンサン氏は、数ヶ月前にカメラシステムをアップグレードした際、そのシステム用のプロ仕様の大容量SDメモリーカードが1枚あたり最大3,000香港ドル（383米ドル）もかかり、予想の3倍だったことに衝撃を受けた。
+しかし、42歳の彼にとって真の衝撃は、クライアントの画像をバックアップするために長年購入してきたハードディスクの価格も、16テラバイト（TB）容量のモデルで1,880香港ドルから3,880香港ドルへと急騰していたことだった。
+「これは、機材の価値が急騰したため、バックアップのためだけに実質的にずっと多くのお金を費やさなければならないことを意味します。実際、費用はすでに2倍になっています」と、海外での前撮り撮影を専門とするスタジオを経営するラウ氏は語った。
+一般消費者向けの基本的な記憶装置は、供給不足が続く中で事実上「デジタルゴールド」と化しており、専門家はこれらの高価格が少なくとも年末まで続くと警告している。
+サウスチャイナ・モーニング・ポストが、電子製品の人気比較サイト『price.com.hk』で検索を行ったところ、香港におけるプロフェッショナル向けストレージデバイスの費用が過去4ヶ月間で劇的に高騰していることが判明しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3348225/why-sd-cards-and-hard-drives-are-new-digital-gold-hong-kong?utm_source=rss_feed
+
+### 花展は明晩閉幕、来週月曜に3千鉢超の植物を配布 - 香港電台ニュース
+
+花卉展覧会は明日の夜閉幕し、来週月曜日には3千鉢以上の植物が配布されます。香港電台ニュースサイト
+2026年香港花卉展覧会らくらくガイド：ビクトリア公園花展の開催日時、交通アクセス、入場無料、花の配布、閉幕時間。タイムアウト香港
+香港花卉展覧会で受賞庭園を展示（写真付き）。香港政府ニュース
+【百家廊】 香港花展「花言葉に香りを求めて」 - 副刊 - 香港文匯網
+蜂の巣ガーデンが花展庭園コンテストで2つの賞を獲得 - 2026年3月27日 - 香港ニュース 明報ニュースサイト
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE4tekJMa21LV2hCTHRpellJbm4tZ1dEUE5Ma2F4T3lzREJFWmZybHFCQWNOdERrLUVsLWtKWTNMaG9qRjZwR0NOdWN3SGdvNUNYNHhUR2kwUzhZQ1p5R2xkb2swZV9ZQnF5ZW1NMUtUMA?oc=5
+
+### 沙田の小瀝源路で3台の車両が衝突、バスとミニバスが関与し少なくとも8人負傷 - 香港01
+
+香港の沙田小瀝源で多重衝突事故が発生しました。
+* 香港01によると、沙田小瀝源路でバスとミニバスを含む3台の車が衝突し、少なくとも8人が負傷しました。
+* 香港電台ニュースネットワークは、沙田小瀝源での3台の車が衝突する交通事故で、ミニバスの乗員8人が負傷したと報じました。
+* 香港文匯網は、沙田でバスとミニバスが関与する3台の玉突き衝突事故が発生し、少なくとも9人が負傷したと伝えました。
+* 明報ニュースネットワークの香港ニュース（2026年3月28日付）によると、ミニバスが信号機前で2台の車に衝突し、運転手と乗客7人が負傷しました。
+* news.tvb.comは、沙田小瀝源で3台の車が衝突し、少なくとも8人が負傷したと報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi3wJBVV95cUxQZllSMzV2ck5mY29uNVFkYTdrbjBWS3VZc3k1ZGJaaGpOdjFRMjNnaFBDWjJYRXhkZ0tZN04xcmhmZ3I1bXc5RlBwd29hYWZBWWRIYUpvZUNIU3ZYVDBLeUVkOThnd1RuSEswOTlsN0hNRXpRdzdCbjZwTEtOZzNCMlVjb3VCSXJTYVFuSjlGSGJEa2wwZE54ZWd0ZEN4eXVSQ0w2WEtxODJLZV8xTXlwLW5pallPYUtoM0kxT1hodUZWeFFYOWNiOFZmeEtvV1ZtWWwycG1tczZxa3Atem9OYS1UeXZpbm85WFhDbGk1ZXVVSm1TeVRiTDJGc2dMbURlTmYxYWdpQ1hFa0UwT1M5X1VrX3pDcG9aTi1lR0hJQ0k3MGFxQ0drcF9abFlBZ01VVWxVRG9lamxuWm9XMnhKcVNfeTJPRmRKRlFJNFM3emhHNGVZVVI1V0JHQk5rZEk?oc=5
+
+### 初の香港セブンズラグビー大会は1976年に開催されました – SCMPアーカイブ
+
+50年前の今日、この都市は香港フットボールクラブで初の国際ラグビーセブンズ大会を開催しました。
+この記事は1976年3月29日に初掲載されました。
+ジャック・ビーティー記
+7人制ラグビーユニオンワールドカップ大会 — そして香港で開催される可能性も！
+それが、香港フットボールクラブで開催された昨日の初の国際「セブンズ」選手権の後、浮上したエキサイティングな展望です。
+昨夜、12カ国が参加したこのユニークなイベントの共同スポンサーであるロスマンズとキャセイパシフィックは、やや言葉を濁していましたが、両社は来シーズン、同様のプロモーションが間違いなく実施されるだろうという点で合意しました。
+唯一の疑問点は、開催地と参加チーム数です。
+
+**引用元**: SCMP
+
+https://www.scmp.com/sport/rugby/hk-sevens/article/3348128/first-hong-kong-sevens-rugby-tourney-held-1976-scmp-archive?utm_source=rss_feed
+
+### 男性が東鉄線列車の車両後部にある運転室の出口から線路に侵入したとみられ、全身にやけどを負い、容態は危篤である。 - 香港電台ニュースサイト
+
+* 男性が東鉄線列車の車両後部運転室出口から線路に侵入したとみられ、全身にやけどを負い、容態は危篤。香港電台ニュース。
+* 東鉄線の乗客が無断で避難扉を開け、線路に降りて感電し重傷。信報ウェブサイト。
+* 男性が走行中の列車の緊急出口を勝手に開けて線路に侵入し、感電して半昏睡状態に。東鉄線 旺角東と大囲間の運行が2時間以上停止。香港文匯網。
+* 男性が走行中の列車から線路に飛び降り、東鉄線の上下線が2時間麻痺。2026年3月28日 香港ニュース 明報ニュースサイト。
+* 東鉄線遅延｜張欣宇氏は、避難扉は本来、乗客が自ら開けられるように設計されており、開けられた瞬間に多重保護メカニズムが作動すると指摘。星島頭條。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFB1ZzVpY3dqWTRKNm1OMWQ5M0VKYU10a1pFMFZ6em8zS0RjSHN6S04zb1d1SzdwTHJkSDAwcTZGQ2YxZUYzWGZiQkZ5MjlrNTUzN0wxMzM2Z3UtNUJ6TEhfTm45NFd5Rkw2MlpCZktkcw?oc=5
+
+### 52歳の香港科技大学副教授が補助警察官を務める。反修例運動の際に大学が破壊されるのを目撃し、「学生を守るために何かしたい」と語る - 香港01
+
+52歳の香港科技大学副教授が輔警に就任。反修例デモの際に大学が破壊されるのを目撃し、「学生を守るために何かしたい」と語る。（香港01）
+輔警の活動｜香港科技大学副教授、中年ながらも引退を口にせず最前線へ。大学生は学んだことを活かして市民を助ける。（星島頭條）
+輔警｜大学副教授が52歳で輔警試験に合格、社会の維持に貢献し家族の模範となることを願う。大学生は卒業後に警察官になるための準備と語る。（香港経済日報HKET）
+香港輔助警察隊が卒業式典を開催。（hkcna.hk）
+52歳の教授と若い学生たちが手を取り合って輔警に加入し、堅毅さと熱意をもって故郷を守る。（香港商報）
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivwNBVV95cUxNbVRmNnJvN2lrNGtsaTczcXBTUUpkLTdpUGkxVzdyc0pYSm1qa3RtMjdPLVRBbXhWMC1XdW9TU3hrRkc0dldob2NMU0JmOXJHMXhHMWljSDBQWEF5MXFJQUV2RVdwaTd5YlhLcWZFY2tRcGxSVHBkZnpBNkJ3eWt3WHJ5dXNSMG1DYmQzc0pzcWpkYXRjWUFiN0s0c2tTOFM2VXhEdTFab3pRaTVPZXFhcWp2Z0djclJNQmlaT3pLZDhaNDdxS0VrMTl3a2xqSWJfYThWY3ZiZG03dFRiZWVOYllzR2t6eWl5MjJkMDk4SThLSTJGV0tlaWVyYWRWcGdWZGNISGlueEVRUGljc2xXbEQtREt1UmhrU2dLMTBJNUd6d0tHYTNRRkd5SktYWFlONnlkVlMxVTQxZ0EwYkVEMXNUa1lmcHVpb2NuRXctNXlBOE5uQlplcGZUUWVYOFFmSUtRaVVkQW9yd2JDUmFuWFA0SUY2NVZKb1ZzZm5uV0NzazhxandGMmppd3ZGQ1hEcmRHYzYxQXlDT1pmZFU5N1hRcmJxZ2lZeGY3ckxnZDU0ZmlFSDBhNUlfaWFxck0?oc=5
+
+### 慎重な運転手が徐行してハトを避ける。中環の路上で餌を奪い合うハトの群れは、命を落としかねない危険な状況に陥った。ネットユーザーは、ある一つの細部からハトに餌を与える人物の悪意ある意図を見抜いた。｜ジューシーディン - 星島頭條
+
+中環の路上で餌を奪い合うハトの群れ、慎重なドライバーが徐行して避けるも命の危険に。ネットユーザーは、ある細部からハトに餌を与える者の悪意ある意図を見抜いたと指摘。（Juicy叮、星島頭條）
+中環の路上に野良バトが集結し、ドライバーが減速して衝突を避けたことが絶賛された。しかし、ネットユーザーからは違法な餌やりによる誘殺ではないかとの疑問の声が上がっている。（香港01）
+中環の路上に大量のハトが集まり車を恐れないため、ミニバンが徐行を余儀なくされた。ネットユーザーからは「誰かが米をまいて野良バトに餌をやっているのではないか？」との疑問の声が上がっている。（TVB）
+動画によると、将軍澳の坑口駅前で女性が違法にハトに餌を与えている疑いがあり、清掃員がハトの糞の後始末をしている。（singtao.ca）
+深水埗区議会は野良バトの集結問題について協議し、部門間の連携による巡回と取り締まりの強化を決定した。（堅料網）
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiogRBVV95cUxQem53d1NXR3ZQMFNJbnZTLXhBS3BZR0hfS2FCbWpMamx3al9WeUprX08wcmgtWG5YcXJmdGpWNDRPWDRkdEF4Q2g5NDNlbnkxa0tuZjBBNklWMjRlMmZ5SVc5aXI0U1VGOXFWXzBObTBqcjhHWGNoUGl5UjVyVDY1Q2RRaHhfajRabW1uNW1IX1RwQlJaZC1NUGdvS0hXVUVHcXJqdVk4X0x3aEw0R3J1eXJEWjVUSERTNy1YRUNISnNZZnlxblBPcFEzZEY4QmtrWVhia0dvOUJXdThfWTJRZ1VCcEkyLUE4MmphSkhULVlsa2xQU3pqbFNYUzAzdnlvRi1xOUNwdk9Gb0VtQndBd3pDNndhLWVUWERJZTYxMVVKWkNULVJfNWhwWm5DMG4yMzBJVEhPZ1JEZG85eEVGcFdTNU5Lb2Fwa3Z5MTFpY2Z3OE9BSjJKeHZpRG5sTGpldDI3WkRQeV9UVmpTVTU4U1NDUXQ5WVNYbEc0N240UlQ2OVpiUFhxSW5qdDdLcGZXdkVuU3lLLWl6dEZWQW9nakd0Y1VTSEJFQkZ2d1dhMjlfOGFwQ0liZ0JxZFIyeFpPRW5hVFI3MkhkWTktMXZHTzZLUzlfV3BFNW9FbUlpSXhpWFdyU2RJaDk0SG53TzJreUstN2IzX29tM1RYQV9fek5MSlVPRUYySlYxenp6dnF3VUNPbUIxU1R6WUlyb3loQ3c?oc=5
+
+### ランタオ島のビーチ近くの街灯で男性が感電死。
+
+57歳の男性が同僚と休暇中に野生のベリーを取ろうとした際、手が街灯に触れた。
+香港のランタオ島にあるビーチを訪れた後、体が濡れた状態で街灯から感電した男性が死亡した。近くのリゾートのスタッフによると、その街灯は10年間点検されていなかったという。
+警察は水曜日の午後8時32分、57歳の陳（チャン）という男性が街灯に触れて意識不明になったとの通報を受けた。
+木曜日に情報筋が語ったところによると、「故人が野生のベリーを取ろうとした際、手がリゾートの隣にある街灯に触れ、感電したかのように体が硬直した」とのことだ。
+内部関係者によると、建設作業員であるその男性は、水曜日に梅窩（ムイウォー）のシービュー・ホリデー・リゾートで、52歳の女性同僚と休暇を過ごしていたという。
+2人は近くの銀鉱湾（シルバーマイン・ベイ）ビーチで時間を過ごした後、午後8時頃にリゾートへ戻る途中の道を歩いていた。
+男性は街灯の隣の木になっているベリーを取ろうとしていた。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/law-and-crime/article/3347943/man-dies-after-getting-electric-shock-lamp-post-near-lantau-beach?utm_source=rss_feed
+
+### 黄大仙竹園北団地に5頭のイノシシが出没し、漁農自然護理署が麻酔銃で捕獲して郊外へ移送し放獣した - 香港電台ニュースサイト
+
+黄大仙竹園北邨に5頭のイノシシが出没し、漁農自然護理署が麻酔銃で捕獲して郊外へ移送し放獣した。香港電台ニュースサイト。
+イノシシ｜漁農自然護理署がイノシシの親子5頭を捕獲し、今年初めて郊外に放獣した。昨日までに152頭のイノシシが人道的に殺処分された。香港経済日報HKET。
+イノシシが猛威を振るい、米欧では大規模な駆除が行われている。機関銃による掃射の映像は残酷だ。信報ウェブサイト。
+寄稿｜「見つけ次第殺す」から「共存の道」へ——イノシシ問題の根源と解決策。香港01。
+毎日マガジン｜8頭の家族が「皆殺し」に遭う。イノシシの殺処分数が急増し懸念を呼んでおり、団体は人道的な処理基準の公表を求め、公衆教育と廃棄物管理の強化を訴えている。星島頭條。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE5nSklhXzJZRFhDWmI3bmNNZ3hRdE96bXFnU3BQTS01b0V0WVY2SzJvOWpVT0YwNU14dHVTeWpaTWtLY1F2RTJuc09fZ2V6MEQ4SDc5VjN6MWJRS1pYTzZNNGJvZWtMdHJReklETmYwMA?oc=5
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年03月29日 06:23

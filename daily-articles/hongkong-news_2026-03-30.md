@@ -1,0 +1,525 @@
+---
+title: 毎日AI香港ピックアップニュース(2026年03月30日)
+thumbnail: images/article-header-20260330_061455.png
+---
+
+# 毎日AI香港ピックアップニュース(2026年03月30日)
+
+## 本日の香港の天気
+
+### 天気予報
+香港天文台が2026年03月30日05時45分に発出した天気報告
+
+湿った南寄りの気流が広東省沿岸に影響しています。また、低圧の谷が華中に影響しています。
+
+香港地域の今日の天気予報：
+概ね曇りで、所々でにわか雨が降るでしょう。午前中は一部で日差しがある見込みです。その後、局地的に雷雨があるでしょう。日中は蒸し暑く、市街地の最高気温は約28度、新界ではさらに1、2度高くなるでしょう。穏やかな南寄りの風が吹き、高地では風がやや強いでしょう。
+
+展望：明日の午後には天気が不安定になり、その後2、3日は引き続き所々でにわか雨があり、一時的に日差しがあるでしょう。
+
+**引用元**: 香港天文台
+
+### 深圳の親子向けお出かけスポット2026：30のおすすめ！新オープン恐竜農場、鉄道ファン向けスポット、ショッピングモール屋内遊び場、家族向けホテル宿泊情報も
+
+2026年の深圳における親子向けお出かけスポットが多数紹介されています。新しくオープンした恐竜農場や鉄道ファン向けのフォトスポット、ショッピングモール内の屋内遊び場などが注目されており、家族向けホテル宿泊情報も提供されています。また、深圳野生動物園では30香港ドルからの入場料でトラの餌やりやサーカス、7つのアトラクションが楽しめる特別割引が提供されています。復活祭期間中には、深圳のスキー場や無料展示、人気ショッピングモールでのイベントなど、親子で楽しめるアクティビティが満載です。高速鉄道を利用した深センへの親子旅行では、恐竜や可愛い動物たちとの触れ合いが人気を集めています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi-gRBVV95cUxNckpmSTFTWVpTWlp0aTNCdUlRVUQySXVOS29Qd09odXp2SzNnQjZXVWREc3ZVUmN3RkRNMThSXzNfRVVZenZ4NGtqX21NVHdnU21xemRQeXpUSG9XUlNLMXlvdGphLVRLaVhHM0c0TVhVcjNERkZJVnhJQXlZOGhKNlhONk1kMWlvU3VNcGZRSWs1cDdpcGViUFlZcDhrb1h0NXVrSEo0QnZfSHVYT01XX2QxcE52WU9IZTJnUWtXQ2hqY25rdzRWWUl0d09oSjgyNTZxQ2RFTl80Q1VadEctby1ORkFkS1ZfZWVabzZSRXJPTjNFNzF2cjRaeHY5cm5OT0pNRHgzZ2tPTVAzaUFCanpRUmlDMmFBRFM2aEt0WE9vSGxNeWQ3TTJ2VE8tYUF2R3VrMHBMNDZLWktIUHdkRG9jU0k3VnlTUkZoajRlX1lDUXBmUW90WmhuUE1WalFXbjV5WjhaLXRXNUVCbzBEZm83NndtcUQzZ0p6UC00b3U0RkxtaWVGMnNWVWI3YkFtUllUNDg4aU5jYV8xekJSbFRXU1VNV1NwVC1yV0hacHhfTEZXRFVMM0d5MW1fekl6aEdOQVQzODBJeUpSbkRMTjZzWTFsZjJqSHpBaFdzSERLU0dpLUHxc0oybXRsRUp4Z2s3WlBjMUNNLWc4iUxxTHlFYjJ4bDVKY2s4QVB0clJ0eWFYaDhvQkdTeDZFSXNxSnFWanE0RHpKNVJZV2JicHZ2Q21kZnV6UTEtSEU0VUszRncteWdKcnc5RVVKR1pTQVFpcll0X0JVRy10UmZBQUNjc1B1WHNGanpnbGlzdFlXWVZnN1NoZGxR?oc=5
+
+### スーパーコンピューティングハブの電力需要は「予測可能」
+
+イノベーション・技術・産業局長の孫東（スン・ドン）氏は土曜日、北部大都市圏のサンディリッジ・データ施設が稼働を開始した際の追加電力需要に対応する計画が整っていると述べました。サンディリッジのデータ施設クラスターの起工式で、同氏はスーパーコンピューティングハブの設立プロジェクトが香港特別行政区のイノベーションと技術開発努力に新たな推進力を与え、国際デジタル経済における大湾区の存在感を高めるだろうと語りました。
+
+電力供給について、孫氏は「香港の電力供給システムは成熟しており、包括的である」と述べました。「関係する電力供給業者は、あらゆる種類のユーザーからの需要を満たすのに十分な発電能力と送電網の配電能力を持っている」と彼は言いました。「サンディリッジでの電力使用は長期的で安定しており、予測可能です。突然の急増はないでしょう。」
+
+同氏は、環境生態局や運輸局など様々な政府関係者で構成されるタスクフォースが、プロジェクトの推進を支援するために設立されており、データ施設が稼働を開始する日に活動を開始すると述べました。孫氏によると、このクラスターが2029年に稼働を開始すれば、香港の人工知能産業の主要な推進力となり、世界中から人材や企業を誘致するでしょう。この施設はまた、データフローのための安全で効率的かつ信頼性の高いインフラを提供し、中国本土と世界の他の地域を結ぶハブとして機能すると述べました。
+
+入札を勝ち取った香港レンジ・インテリジェント・コンピューティング・テクノロジーの親会社の創設者である周超男（ジョウ・チャオナン）氏は、この場所が香港、さらには中国のシリコンバレーになることを思い描いていると語りました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849148-20260328.htm
+
+### アートバーゼルとの長期契約は「包括的なビジョンを描く」
+
+アートバーゼル香港のディレクター、アンジェル・シヤン＝リー氏は日曜日、香港特別行政区が今後5年間、アートバーゼルの独占的な地域ホストとなる契約は、アートエコシステムを発展させるための「双方向のコミットメント」であると述べました。
+
+シヤン＝リー氏はRTHKに対し、この5年間のパートナーシップは、年次フェアのより包括的な計画と、長期的なビジョンを持った投資の舞台を整えるだろうと語りました。「都市がアートバーゼルとの長期的なパートナーシップにコミットしてくれたことに非常に感謝しています。私たちは過去10年以上にわたり都市と協力してきました。そして、ここでの私たちの役割は、単にアートフェアを設立するだけでなく、このいわゆるアートエコシステムを構築するために都市と共にさらに成長することだと認識しています」と彼女は述べました。
+
+「このパートナーシップは基本的に、香港におけるアジアの現代アートの認知度を高めることに焦点を当てるという、私たち双方のコミットメントです。」シヤン＝リー氏は、アートバーゼル香港がアジアのギャラリーやアーティストを強調し、香港のアーティストも支援すると述べました。
+
+彼女は、都市の文化発展が経済成長を促進する可能性があると付け加えました。「文化の成長とともに、人々を継続的に香港に惹きつけることができるでしょう。金融ハブやその他の理由だけでなく、アートや文化のためにも都市に戻ってくるでしょう」と彼女は言いました。「私は常に、経済が人々を都市に惹きつけるが、人々をここに留めるのは文化だと信じています。」
+
+シヤン＝リー氏は、今年のアートバーゼルは来場者から肯定的なフィードバックを受け、世界中からコレクターや美術館関係者を歓迎したと述べました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849226-20260329.htm
+
+### 北部大都市圏の専用法によりプロジェクトが1年加速する可能性、大臣が発言
+
+開発局長のバーナデット・リン・ホンホー氏は日曜日、香港の北部大都市圏における法定手続きを合理化するための専用法案が、一部のプロジェクトを約1年加速させる可能性があると述べました。
+
+リン氏はまた、政府が一部の用地の住宅部分を増やす準備を進めており、開発業者にとって投資をより魅力的にするだろうと明らかにしました。政府は今月初め、6つの主要な下位法からなる提案された法案の計画を発表しました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348288/dedicated-northern-metropolis-laws-may-speed-projects-1-year-minister?utm_source=rss_feed
+
+### 中東情勢の混乱による原油価格高騰の中、香港は安定を維持：ポール・チャン氏
+
+財政司長ポール・チャン・モーポー氏は日曜日、米国とイスラエルのイラン攻撃によって引き起こされた中東での戦争と、それに伴う世界の原油価格の変動を香港当局が綿密に監視しているものの、市経済への直接的な影響は限定的であると述べました。
+
+チャン氏はまた、地政学的な不安定さが国際投資家のセンチメントを揺るがしている一方で、香港の金融市場は「秩序正しく円滑」に運営され続けており、資本の流れも安定していると語りました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3348287/finance-chief-says-hong-kong-remains-stable-oil-prices-surge-amid-global-turmoil?utm_source=rss_feed
+
+### MTR新列車Q-trainが荃灣線で運行開始、本日の運行は概ね順調
+
+MTRの新列車「Q-train」が本日、荃灣（チュンワン）線で運行を開始し、その運行は概ね順調でした。100人以上の人々が新列車の初運行を見守り、多くの鉄道ファンが記念撮影に訪れました。MTR（00066）の新列車Q-trainは今朝、荃灣線で運行を開始し、財経ニュースAASTOCKS.comでも報じられました。「Q-train」の荃灣線初運行には100人以上の鉄道ファンが「打卡」（記念撮影）に訪れたと香港文匯網が伝えています。また、市街地路線の信号システム更新は2029年に完了する見込みであると大公報が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE5FTmc3Sm0wUzdNWjFiVGN5bmxtd0VtRXdKNU83X21UTURGbXBTNGozaDhILVNtbjJZYXNBUGg5czRLQlY0cUFxcWVKN2VmcjdEZXo2SjBWTk54SklzeDZ1OHFWN09GdDFBMUxLbjZmSQ?oc=5
+
+### 復活祭：旅行会社、高速鉄道ツアーが満席で「チケット入手困難」、欧州ツアー客は戦火の影響で半減
+
+復活祭の連休を控え、旅行会社は高速鉄道ツアーが満席で「チケット入手困難」な状況にあると報告しています。一方、欧州ツアーの客数は戦火の影響で半減したとのことです。清明節と復活祭の連休中、香港から中国本土の複数の都市へ向かう高速鉄道のチケットは入手困難な状況が続いています。同程HopeGooによると、香港の復活祭と清明節の連休における航空券予約数は前年比で約4倍に増加しました。李頴彰弁護士は、高速鉄道への予算反対からチケット争奪戦へと変化した歴史が、高速鉄道に公正な裁定を下したと香港01で述べています。高速鉄道ツアーの急増を受け、旅行会社はチケット確保のために様々な方法を講じていると香港文匯網が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiswNBVV95cUxOUDA1TEZiUjZrdWQyUFA1YWZDSGtFOVdfRXNuSGFlamI0Wm84M3c2aUZkOTR1Z1VRbGZNRkhob2hDdWJTUXllcWZ4ZWthVmdHUVZfM3NwTWQxdXZqRE9YVjRqTWlJdlBic2hVMDN4SkxQWUUxanY3RjdjNE1JREIzaDljYlhDdlQ1bXdZbGNsQlNQeHQ3cWc3RUM0dHpWUGk0amNrRUF2YmFrUE93Q3BLV2NBNDVaU2duQkRDVEtyMVhqei1XLTY1QXIxR1pvdFY5dGhSQ0FXWG4yckNZOHh4QTRQUUdqckxsc2hLdTdGNkdvbV91SFk1TmF6ekVjbC1nOEV5bTVyZS1jb29OWFNtZWRfck42T0hHMUZVaDU0MVV6OGYxM1o5VjJyUmNsckx0NHZIMU0yQkdXNU04VUlHazZfbElUT0ExckJOaFZtbGkyZjJGeVI5NGNhVmYzSEpCa2ZlMUJOWFJLSlhWN3hmUUI0cm5oc2J3Y01kajBIWjFNdkNzMWlSVlNEekRxeHgyUEkwN1QxVFVrYnFGd2dKU2JhYktHRXduNzlrS0RZVWVfS28?oc=5
+
+### 沙嶺データパーク着工、「中国のシリコンバレー」目指す 政府支援タスクフォース始動 運営会社潤江：「香港には優れた人材プールがある」
+
+沙嶺（サーレン）データパークが着工し、「中国のシリコンバレー」となることが期待されています。政府の支援タスクフォースも始動しました。運営会社の潤江（ルンジャン）は、「香港には非常に優れた人材プールがある」と述べています。潤沢科技は本日、沙嶺データパークで着工し、中国本土の公募REITsを利用して資金調達する意向を示したと財経ニュースAASTOCKS.comが報じました。環境団体は、沙嶺データパークの電力消費量が香港で最大になると予測しており、電力使用効率の規制がないことを指摘しています。機電署は指標の追加を検討しています。国家はエネルギー消費基準を設けており、香港政府は年内に諮問を行う予定です。データセンターの電力消費は膨大ですが、香港ではPUE（電力使用効率）の規制がありません。環境団体は沙嶺の年間消費電力が64万世帯分に相当すると予測し、「世界と足並みを揃える」ために上限設定を求めています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMi0ARBVV95cUxNclFLdUZvNjFiZjFwNnlGLW9nSmtXNHNMamVxLW9oaFZURXBqWDJIX1U2VlphUXRTSVJ3amJfa1MyT0xHTjdZZGVJOVZOSUVXSnJLaG80ZnpybElwUDFpcDEyNm15RDFBcGZ1Mlh6TVN0blRubkVyWDlMY1JVcnVUTk9RaTVqcjNMM0EzbFAxcGRrdXphNC1QSjA1TGpnUFhxUThzUUdad0UzVkk4dU5IQ0dVaTdzVy14bXVTV3Z1cmlJZ0dDd016SEJpSHFWS0Z3YWFab1I5a09kaE9iUVVsZ1ZPaUctRWFRNmZqX214QkdfYTZZWjgxY0pnektGMk11RWhwbmxseDV5VXJiSkRYVGRCeXQxRUZrNmFzUFlfR09nWlRoUEN5MzFBclFOM0M3dks3cTJaRDAyU1cwMi1jdDFtcDllaHBfZlU0dllWYjRjOW0zczI0Xy0zMmlRTXJLYVl3ZFRJX2NUanpiREFETFl0OTF2WFl3LWhBcV9aRGRadjNzenJBM2YyUVBtSUIyeFBCdnVLRHpIN3NIczN6emJzYmFPdWZnQmQxa3FGZ0RvUjJ4ZFNJSFZiZ3JBbDVaTHBaYnBwLXlrbFFxZ29xWHlzTHZZeV92TS1iRXZpSTlrQWxtV2Q4NURPNDlXZkpnMlI5OHRCSmZZSC1sd0gtZ1dQQmZMY1dFS0ZaNjlkQXVMSU54UEJTNGM0VzlfZEVnYXJmNVJIRVNqVktpcV9LNUpFbFBMN3lINmJIUm53OVZmNjBwYWJJaWYxblJZeWRu?oc=5
+
+### イラン戦争：米強襲揚陸艦が中東に到着、地上作戦の可能性が浮上
+
+米中央軍は土曜日、強襲揚陸艦USSトリポリが中東に到着したと発表しました。これにより、米地上部隊のイラン派遣に関する憶測が高まっています。
+
+中央軍はソーシャルメディアへの投稿で、同艦が金曜日に地域に到着したと述べ、この艦船が「約3,500人」の海兵隊員と水兵からなる部隊の旗艦であると指摘しました。同部隊には「輸送機と攻撃戦闘機、および強襲揚陸艦と戦術資産」も含まれるとのことです。
+
+**引用元**: SCMP Business
+
+https://www.scmp.com/news/world/middle-east/article/3348271/iran-war-us-amphibious-assault-ship-arrives-mideast-amid-talk-ground-operation?utm_source=rss_feed
+
+### 民間航空局が航空会社に通達：乗客1人あたり最大2個の携帯型充電器のみ機内持ち込み可能
+
+香港民間航空局は航空会社に対し、乗客1人あたり機内に持ち込める携帯型充電器（モバイルバッテリー）は最大2個までとする通達を発しました。昨日から香港空港を出発するすべての航空機で、乗客は2個を超える携帯型充電器を携帯することができません。キャセイパシフィック航空は、超過分は没収されると発表しています。この新しい制限が導入された初日、多くの旅行者はこのルールを理解しているものの、影響は小さいと述べています。新しい機内持ち込み規定では、各乗客は最大2個の「尿袋」（携帯型充電器の俗称）を携帯でき、飛行中の充電は禁止されています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE5lRjc4VDVwY3EwVVFVeUpUQ1VHZnl4bUY4TTlBSl9uR1Jsc2VKMEprRnFBR0t0U2JGXzA0OEhhQ2J6S0ZPMWFrOUowWENCdmdzZURXdUduLUlyNnUtNWc5cG5GVmg3YnRqNmdyUXU0QQ?oc=5
+
+### シンガポール首相ローレンス・ウォン氏、香港訪問を終え財界人や指導者と会談
+
+シンガポール首相ローレンス・ウォン氏は、香港への「短いが有意義な訪問」と称した滞在を終え、元首席判事のアンドリュー・リー・クォクナン氏や大富豪リー・カーシン氏の息子であるリチャード・リー・ツァーカイ氏を含む香港の政界の重鎮や財界のリーダーたちと会談しました。
+
+2024年に首相に就任して以来初の公式訪問を終え、ウォン氏は土曜日のFacebook投稿で、両アジア金融センター間の緊密な協力が、地域全体の発展に貢献するだろうと述べました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/politics/article/3348251/singapores-lawrence-wong-wraps-short-meaningful-visit-hong-kong?utm_source=rss_feed
+
+### 15の航空会社が第2ターミナルへのカウンター移転を開始
+
+香港国際空港は金曜日、香港エクスプレスを含む15の航空会社が、チェックインカウンターを第1ターミナルから第2ターミナルへ段階的に移転すると発表しました。拡張された第2ターミナルの旅客出発施設は5月27日に運用を開始する予定です。
+
+空港の声明によると、香港航空やグレーターベイ航空を含む他の航空会社も移転に関与しており、主に地域路線を運航しています。移転プロセスは夏期旅行シーズンが始まる前の6月10日までに完了する見込みです。
+
+「スムーズな移転と第2ターミナルでの運用を確保するため、空港管理局は包括的な準備を進めており、関係航空会社、ビジネスパートナー、利害関係者と密接な連絡を維持します」と声明で述べられています。「第2ターミナルのその他の旅客施設は、旅客交通需要に応じて稼働を開始します。」
+
+また、新ターミナルの出発階は、エアポートエクスプレスプラットフォームや、29のバス路線を含む他の公共交通機関や自家用車と「シームレスに」接続されていると指摘しました。1,000台以上の駐車スペースを提供する新しい6階建ての駐車場も、短い屋根付き通路を介してターミナルに直接接続されています。
+
+香港エクスプレスは移転計画を歓迎し、新ターミナルの「最先端」施設を通じて顧客体験を向上させることを楽しみにしていると述べました。「これらは、チェックインと搭乗におけるよりシームレスなセルフサービスを促進し、さらなる旅客数の増加をサポートするでしょう」と述べています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849039-20260327.htm
+
+### ジョン・リー行政長官、シンガポール首相を香港に歓迎
+
+ジョン・リー行政長官は金曜日、シンガポール首相ローレンス・ウォン氏を香港に歓迎し、ウォン氏が就任以来初めて香港特別行政区を公式訪問したことを非常に意義深いと称賛しました。
+
+リー行政長官は政府庁舎でウォン氏を迎え、会談で両都市間の深い絆を強調しました。「香港とシンガポールはアジアの鼓動として成長しており、長年の友情があります」とリー氏は述べ、両都市が自由貿易、多国間主義、そして国連や世界貿易機関のようなルールに基づく組織へのコミットメントを共有していると付け加えました。「私たちは橋を架け、対話と協力を信じています。私たちはウィンウィンを信じ、皆のためにより大きなパイを創造します。」
+
+リー行政長官は、自身が2023年に行政長官としてシンガポールを初めて公式訪問したことを振り返りました。彼は両政府の指導者や高官の間でより頻繁な交流が行われることを希望しました。
+
+ウォン首相は、香港の最新の発展、特に5カ年計画と北部大都市圏プロジェクトについて学ぶことを楽しみにしていると述べました。「香港が何をしているのか、シンガポールがこれらの機会にどのように参加できるのかを見たいと思っています」と彼は言いました。
+
+ウォン首相は、両都市間の時折の競争は最終的に「健全」であると指摘しました。「私たちが互いに連携すれば、パイは大きくなり、私たちは両方とも恩恵を受けます。なぜなら、私たちは両方とも自由貿易を信じ、ルールに基づく多国間主義を信じているからです」と彼は述べました。
+
+彼は、ますます分断される世界において、シンガポールと香港間の緊密な協力が特に重要であると付け加えました。
+
+財政司長ポール・チャン氏、金融サービス・財務局長クリストファー・ホイ氏、開発局長バーナデット・リン氏、公務員事務局長イングリッド・ヤン氏、イノベーション・技術・産業局長孫東氏を含む高官も会談に出席しました。
+
+ウォン首相はまた、北部大都市圏の河套深セン・香港科学技術イノベーション協力区を訪問しました。シンガポール首相はウェットラボ施設を視察し、孫氏から同パークの戦略的計画、産業レイアウト、世界的な投資と企業の誘致における進捗状況について説明を受けました。
+
+代表団に同行した陳国基（エリック・チャン）政務司長は声明で、今回の訪問がシンガポール代表団に香港北部新界の巨大開発プロジェクトについてより深い理解をもたらしたと述べました。彼はまた、この視察が北部大都市圏がシンガポールのビジネスコミュニティや都市の企業に提供する潜在的な投資と協力の機会を強調し、香港特別行政区とシンガポール間の交流と協力をさらに強化するだろうと付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849027-20260327.htm
+
+### 同仁堂子会社、香港IPOを延期 今年の上場ブームで初の延期
+
+伝統中国医学に基づくヘルスケアサービスを提供する北京同仁堂ヘルスケア・インベストメントは金曜日、株式への投資家需要が低迷したため、香港での新規株式公開（IPO）を延期しました。
+
+今回の延期は、現在のIPOブームの中で初めてのものです。LSEGデータ＆アナリティクスによると、今年3月18日までに香港での新規株式公開は約116億4000万米ドルを調達しており、前年同期の約24億米ドルから385%増加しています。同仁堂は6社のうちの1社でした。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/banking-finance/article/3348101/tong-ren-tang-healthcare-unit-pulls-hong-kong-ipo-scheduled-monday?utm_source=rss_feed
+
+### GoogleのGemini AIアプリが香港でデビュー
+
+テクノロジー大手Googleは、Gemini AIチャットボットのモバイル版を香港のユーザー向けに導入し、このサービスはすぐにAppleのアプリストアのチャートでトップに躍り出ました。
+
+木曜日のリリースは、Googleが先週、Geminiウェブサービスから開始し、その後モバイル版を立ち上げることで、生成AIサービスを香港に段階的に導入すると発表したことに続くものです。この人気のAI製品はこれまで香港の一般市民には利用できず、一部の地元企業にアクセスが限定されていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348076/googles-gemini-ai-app-debuts-hong-kong?utm_source=rss_feed
+
+### 陳茂波氏、2月の小売売上高は好調な伸びを記録し、10ヶ月連続で前年比増加の見込み
+
+財政司長ポール・チャン（陳茂波）氏は、先週金曜日までに今年の香港への訪問者数が1370万人を超え、前年比約17%増加したと述べました。この好調な雰囲気の中で、間もなく発表される2月の小売売上高も好調な伸びを記録すると確信しています。陳茂波氏は、「この数週間、大規模なイベントが相次いで開催され、市場の雰囲気は活気に満ち、経済は好調を維持しています。本日、私はアートバーゼル展に来て、皆さんと共に文化芸術の活力を感じています」と述べました。アートバーゼル展と5年間の協力協定を締結した「財爺」（財政司長の愛称）陳茂波氏は、土曜日にも会場を訪れました。陳茂波氏は、「ようこそ、ようこそ、どちらから来られましたか？」と尋ね、訪問者は「ユタから来ました」と答えました。彼は多くのアーティストや訪問者と交流しました。アート展の出展者は、「（人出は）昨年よりも多く、非常に国際的だと感じています。そして重要なのは、コンベンションセンターだけでなく、多くのことが起こっていることです」と述べました。陳茂波氏は、「そうですね、とても賑やかです。ご訪問ありがとうございます」と答えました。陳茂波氏は自身のブログで、多くのギャラリー担当者が今年の美術品の売れ行きが好調だと語ったことに言及しました。彼らは主に香港の開放的で包容力があり、中西を結びつける独特の文化的な雰囲気を評価しており、香港を地域から世界市場への拡大に理想的なプラットフォームと見なしています。陳茂波氏は、このような文化イベントやスポーツ大会が観光業にさらなる活力と推進力を与えると考えています。彼は、政府が引き続き様々なイベントを推進し、より多くの高付加価値の観光客を香港に誘致し、市民がより多くの文化・娯楽活動を楽しめるようにしたいと述べています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E9%99%B3%E8%8C%82%E6%B3%A2%E6%96%992%E6%9C%88%E9%9B%B6%E5%94%AE%E9%8A%B7%E8%B2%A8%E7%B8%BD%E5%80%BC%E9%8C%84%E4%B8%8D%E4%BF%97%E5%8D%87%E5%B9%85-%E6%9C%89%E6%9C%9B%E9%80%A3%E7%BA%8C%E7%AC%AC%E5%8D%81%E5%80%8B%E6%9C%88%E6%8C%89%E5%B9%B4%E5%A2%9E%E9%95%B7-%E4%BD%95%E5%98%89%E9%A7%BF%E5%A0%B1%E9%81%93-050938519.html
+
+### 崔建春氏が米国駐香港総領事と会談、米国に香港への干渉停止を要求
+
+崔建春（ツイ・ジェンチュン）氏は昨日、米国駐香港総領事の伊珠麗（イ・ジュリー）氏と会談し、米国に対し香港事務への干渉を停止するよう求めました。論評では、米国の「安全警報」は誤解を招くものであり、香港の法治は中傷を許さないと香港文匯網が報じています。香港国家安全法の新しい細則である「電子機器の強制ロック解除」が広範な注目を集めている理由についてBBCが報じています。龔静儀（ゴン・ジンイー）氏は、国家安全の維持は常に進行中であり、完了することはないと橙新聞で述べています。政府は、外国機関や政治家による「国家安全法実施細則」改正に対する誤解を招く中傷に強く不満を表明しているとNow新聞が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE1pTzZ2U1BYYkFZaDdpckVoSUZ1c2xvWTltMU9CMlpXYmhUMkZTbWh2TkpyZnZwSnVMT1ZjY0UtQXlZTWxxalVITFp4TE1IU0htTlAwQmZFT1ZPTzkzZjR1WWk4VWNpd0NYaDN6VXZzRQ?oc=5
+
+### 葵涌広場の20年続くスナック店「小息零食」が3月31日に閉店、店主は常連客との思い出を語る
+
+葵涌広場で20年間営業してきた地域密着型スナック店「小息零食」が、3月31日をもって最終営業日を迎えます。店主は常連客との思い出が忘れられないと語っています。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMiogNBVV95cUxPS2FvaE9od001c2s3ZlRWeF93bzFVMjZqOUVLZ2RMb0swN21zdDVXUjZWaWdtUnpZSi13WmFPREJzNDMwWEVOdHJ3U3FCc0Z4bGRTUjBwN2gyQURnaGk5NHk4UDVDVmlWdUw3M1R5Tk9HN3RhQWpyTzhpaUQ0d18yQ1ZncXJJRVBwX1UyOVZiWkZnNHhCdElfNExUOWhqOVdlVnhySjFlSGw2WGNYQ1VLODJtb3NQU0ZMdHB6Q1l1QmlPRE1zWUtOYTJ2anJ6Um9ab3dCdll4czRkTXhhbWUyWGw3UWtTRkZ2MldxRlBmZXJYSXZKV3VyalBmdWE1MDY1X1AwRnhLWDEzckROQkRCdHF2VUV5R0xtWlA1M25EY3NFRDZfSDZydUV4NFJMbjZQTVlZVWZNUjc1Qk1adDliWWltbXBqS2QycmJ1VDNyNFNBWndhMkdMbE5jSlFteU9JbVk4Q01PUEhlTzFtUFo3UVJOZUJvV2RVbXhqZkFfTHRLQnNvZ1dPOGwzYTdKMjlmRUpHbVZnZ3MtVERuMVhMd05R?oc=5
+
+### 天水囲の天頌苑頌棋閣で機械室火災の疑い、全棟停電で100人以上が避難
+
+天水囲（ティンシュイワイ）の天頌苑（ティンツォンユン）頌棋閣（ツォンケイコック）で機械室火災の疑いがあり、全棟が停電しました。消防隊が火災を鎮火し、100人以上が避難しました。天頌苑頌棋閣では、電気メーター室の故障が原因とみられる大きな音が響き、全棟の1000人以上の住民が停電に見舞われ、100人以上が暗闇の中を避難したと香港文匯網が報じています。天頌苑頌棋閣の電力供給停止について、中電は顧客設備の故障が原因と疑われると述べています（22:52）。天頌苑頌棋閣の停電では、警報が鳴り響く中、79歳の男性が31階を果敢に歩いて避難し、「ゆっくり歩けばいい」と語ったと香港01が報じています。天頌苑頌棋閣で突然全棟停電が発生し、電気メーター室の故障が原因とみられ、約200人の住民が暗闇の中を避難したと星島頭條が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTFBtWl9ac0QzSlNwNWJLUEY3ZE5LSExfU3FFMXBfQUtpX0YwVFQzSkJNdW1FLWd0MUY2aEFKcGw4ekNkRmV5R1dnYkUwRFhnQ08xSGV4dzZ4cGE0Yk9LVVNEc1dUaDY3aDZoQkg1Sm5jNA?oc=5
+
+### 伝説の司会者ホー・サウサム氏、カナダから香港に帰国しバスに乗る姿が目撃される 過去には居場所漏洩に不満も
+
+伝説の金牌司会者、ホー・サウサム（何守信）氏がカナダから香港に帰国し、バスに乗っている近況が明らかになりました。彼は以前、自身の居場所が漏洩したことに不満を公言していました。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMi0wNBVV95cUxOVi12Sm5hcDJiaTFsbWUtazI5b1RFbzcxZWlLZ1Z4dVJpaklZZ3Uyb3JIWnMtb01lZkZBVHJBVVZHSmFuZnU5eGQ4RnRsQzNnRmk1SmlReGxLWjBrUDdjNF9Ja01hRkVzS01LbDNNbGJveFUyMmNnUEFMcTZ1WUdtX1NrNWVJU0hOSUhKeXZVbE1SLWV0R2J4djFfc3N5dnVWZHFqM01YM01YV1Nna29TQ0lnS09OdksxeGxNR0VSNkJuRDAyUnozT2pydDJIOWxTb2lUUG40cDA0ZVVEYkZDdWJReFdYeUh2Ty0yUWlKNzdRYmxLMlVheXRlU0tiUkVPS0hhNkFzVnJ3bmh3RHFFUjk5M2hvZENSVjNqbnFfQ3hVMlBQQnNXRzRiSm5XNXlrUGRubXU4bEFEZ3lpRVRsTGpGOEhOdHBSTTRBaUw0TTJyckF3XzlfOVFxOHpuWk5QNG1XRmVnWTc1UFlnWEl2NUoyOWJJYVJTQ1UxcjV3b05hdnR2QW9NVldYbGF6R2ZpY0Q2cHlkNjBzbWNIUGoycTNVeFY1NTFUQ0FiTEs1eEVtUWIyU2RNeGZFeE1aZHB6Q09GejloaE81OWdUV2hoX0NmYw?oc=5
+
+### 粉嶺で自家用車が衝突事故、60代の運転手が運転中に意識を失い病院で死亡
+
+粉嶺（ファンリン）の覲龍村（カンルンツン）付近で自家用車が事故を起こし、欄に衝突しました。60代の運転手は運転中に意識を失ったとみられ、病院に搬送されましたが死亡が確認されました。粉嶺で致命的な交通事故が発生し、64歳の自家用車運転手が死亡したと香港電台新聞網が報じています。粉嶺で60代の運転手が運転中に意識を失い、自家用車が歩道に乗り上げて欄に衝突し、病院に搬送されましたが死亡したと香港文匯網が報じています。運転中に意識を失い制御不能となり欄に衝突したとみられる60代の運転手が死亡したと明報新聞網が報じています。粉嶺で自家用車が制御不能となり欄に衝突したとみられ、運転手は救命措置の後に死亡したと有線寬頻i-CABLEが報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMirwNBVV95cUxOQm1odEJIcWtvZG85N3p5dEk5NTB2RUJDcFVpSUszRS1WUWFoenBlMXoxcUctR2g2MlMtak1VN2ViX0k3QmxpTGNzc09vdWZWdG5samV6TGdiNFpBSVEyZmVXQ0t3ZVJVVG1DQktJTGRnLWpaSWJGc0FlTFYzblZMdGRGUm1uZk5xbnN2Yk80OFExTHRCLVZpb1ZkTDg5WVNoWUxDMXJDVHhfb3R0Sm9DYnFzd3Q3dzZKRlVMa2RPWHV6ZFdkcGFOdmlNaFpHS21CRUxPTjNJTlJBeHRBeXJ6YU9nWjRpcGhpY1FocFZrbkNCRVVjUFI4VnVrNzU0bU44eUdDenkyWWxZUThkRVJvZF82YkZ5YXNXYVoxUE1nVlZXT3AzX2YtbERzTUxONjJQY1dhR2xOTFJTZDRYRXR3Ukt4YzVwMV95SW1sdTRvVUluQ3QyNnp0Y0JiUVN2dnBIRjk2cjVfbzg5WTducmtiQ0NYUDJTLXp1cTRCeHJXZEk1bzJNTnVBTHYyZ3ZDaW5NVjVyT3JrYWd2UTRrOTRwUFJUckQ4MnJvZGpWSDlRdw?oc=5
+
+### ドライブレコーダーが捉えた元朗公路での犬の救出劇、飼い主と再会
+
+ドライブレコーダーが捉えた映像によると、元朗公路（ユンロンゴンロ）で迷子になったメスの犬が、ドライバーによって危険な状況から救出され、最終的に飼い主の元に戻りました。元朗公路で救助された犬にはマイクロチップが埋め込まれていましたが、飼い主が引き取りを拒否した疑いがあり、心優しい男性が10歳以上の病気の老犬を一時的に引き取ったと香港01が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnZFbUpNem8xYkN2WWRmZFg5d2FxbkpFd0Rjc1ZDcFVDLTJkVE00RmRPY1RhMUt2YmlZOEZqbi1mNkhiNk1XTDV0dVlLU1RXQjZhc2JvWklrZkxzQ2ExTjU5S2hIa09HQXdrZEtYN19tbWp4eFdNcjFacy1lRmNOcEFiMzFMN00tT1NR?oc=5
+
+### 天気：曇り時々驟雨、日中は一時的に晴れて暑く、週半ばには低気圧の谷が雷雨をもたらす見込み
+
+香港の天気予報によると、多雲で時々驟雨があり、日中は一時的に晴れて暑くなるでしょう。週半ばには低気圧の谷が雷雨をもたらす見込みです。清明節には驟雨と雷雨が予想され、今後9日間は雨が降ると明報新聞網が報じています。珠江口以西の雷雨域が徐々に香港に接近しており、今後1～2時間で香港に影響を与える見込みだと香港電台新聞網が伝えています。天文台は一時的に雷雨警報を発令し、月曜日の早い時間には雷雨が予想されると香港01が報じています。午後5時00分、天文台は特別気象情報として雷雨警報を発令し、市民に警戒を呼びかけています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMigwNBVV95cUxOTXhmRS1wQWlZZDFrMmc4aVJISVRDQTZYdy1MOGdBVk5UdWxJVzFTSFNXcWdibVZDdDN2OUJjM1ZBRzE3QlZvZDYxbk1oTXl1cEZ1LU1yZ1Fzc3dVeERCaS1QWURSLVFPelprSE96UnZadkZBT1R3WExaRFRxQTJoUk9LSUx6amkyUkR0U3V0NmxjSGhyMjdoWFU0NTlLT1BJcTNCcDNjWmdjVGJ1SkVuR1FOZ3RnTmR4WUlPUmQ4MTJNRGRvODdJMDJvZFh1X0dOdXViazd1YUd3OUFkZTgtcU5mc1RIUDlNUS1fS3JfX2U0akQ1VVA1bVF5WkhYaW55TTRtM0VQeFh3cndZTVpYSVZob3dMbEhRMW4ybHNsOWVPNTJuSXJ0ME15X01aM0lXdk4ycWRjZ3E0V3RxOGVxOXJ4bVJocFF1RTNtdlBXd05yQnFFbjJVcmtWc3hndjZsMnNQV1hKV1pEb0NZaURReHhlWXJCY2xFUlQtdG5WVmk3NHM?oc=5
+
+### 大埔の公営住宅で喫煙による煙が廊下に充満、隣人が怒りの張り紙 ネットユーザーは詳細から苦情主の年齢を推測
+
+大埔（タイポー）の公営住宅で、ある住民が喫煙した煙が廊下に充満し、隣人が受動喫煙に耐えかねて鉄製の門に罵詈雑言の張り紙を貼って非難しました。ネットユーザーは、その張り紙の細部から苦情主の年齢を推測しています。富蝶邨（フーティップツン）の公営住宅住民が喫煙で公衆の批判を浴び、隣人が煙が家から漏れると非難する張り紙を貼りました。法律ではどうなっているのでしょうか、と香港01が報じています。大埔富蝶邨の住民が家の中で喫煙し、煙が廊下に充満して不満を招き、隣人から罵詈雑言の張り紙を貼られたと東張+ myTV SUPERが報じています。富蝶邨の住民が家の中で喫煙し、隣人から煙が家から漏れると非難する張り紙で公衆の批判を浴び、ネットユーザーは衝撃を受けていると新假期が報じています。公営住宅での喫煙が隣人から「街頭広告」で公衆の批判を浴びました！家の中で喫煙した場合、減点されるのでしょうか？住宅署は「この場所では即座に5点減点」と述べています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMigwVBVV95cUxQelFUM0x0ZkcwSHFUSEFRaGZJS1JkaXI3X005X185ZFlYQWpXd2xHNDhXT2lnQXdIS05QRUd1S1duVjJnV3lDcEs1NjE2aHVrdjBHN05RdnV6bVJvNHR4RkJqVDhFVkFOLWNzV1ZVek42dFBEU0JPS3dfR3dPQkJmSlI3TWlwb0xFRUlQZWhMVHZSaXFRWUVBQjdtSjdoaEc4elpVVnN4dlJTeEYtZ2d6VlF0clFIampaYTB5eTdtWDBULXNQUGVyRHNhcGF2Zk9zMC05bi10b3RYOXNDb2FRT2k3NGdrSUQwUFpwYTQtWDA1bkFidWkwSTRpUGl1QnY1X2F6SzRiZHJ0S3JVeGc5N0JsbDBGWmh2Z0VSQmFFQ2JDYlBUTzEwVzRzMUZCQUEzOGRJc2Vpb2FyQWxMQ2ZjRURkVDlOX0JCYkFMY3lSRlNHdk5CLTVkbzdwcUs4ZkZBQ0hOYXNGTHBiS3NwNldJczc4R1VRdFF6UjQ1ZWlHQmg3TWdrQUs0WTNKQ1FQRXhwWWJHaWpib3gxY3g4UVM3YmR3TFZ6UjFkaEdEVjBEZV9KZV9rWGZnelF2LWloNEFJZFJ4ZmJFTTRWeTVUUVFndUF3SjhVVHEyR1hIZTcweUpmZF9TZm5Xc2NRZTlwQ3BUTkwwQmpJUThFLWdZZE1leWJmZzhoRHFwVVAtbmJkREJnMzZtVE50VERQVDI5cHhxd3lvYUdoMUpTR1htQzNOWm40NjlOWXB2Qk4tX09ndG1tVW1vMGlwb21HZVJ6c1MwcXMwRHE1TklYQi1EeWNoZm1oVWFyUTlJWmFFRjBaM1NNVy00blNObXctU2l4UWpNdUdj?oc=5
+
+### 香港花卉展覧会が日曜日に閉幕、月曜日の朝に約3500鉢の植物を無料配布（詳細付き）
+
+10日間にわたる香港花卉展覧会が日曜日に閉幕します。状態が良く、再植栽可能な花卉は、閉幕翌日の月曜日の朝、銅鑼湾（コーズウェイベイ）のビクトリア公園南亭広場、糖街（トンガイ）入口付近で配布されます。康楽及文化事務署（康文署）によると、植物の状態に応じて合計約3,500鉢が配布される予定で、一人一鉢限り、先着順でなくなり次第終了となります。受け取りに来る市民にはエコバッグの持参を呼びかけています。
+
+今年の香港花卉展覧会のテーマ花はスミレで、「花語尋『香』──細味城市特色」（花言葉で「香」を探す──都市の特色を味わう）をテーマとしています。テーマ花の立体花壁は、30以上の小さな立体花で構成された5つの巨大なスミレで、6,000株以上のランやワスレナグサなどの花材が敷き詰められ、花壁と手前の1万4千株以上の様々な色のチューリップで構成された花畑が互いに引き立て合っています。
+
+今年は合計236の機関が花展に参加し、会場では地元、中国本土、海外の機関による鉢植え、フラワーアレンジメント、庭園造形が展示されたほか、軽食や飲み物の屋台、花卉や園芸製品の販売ブースも設けられました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E9%A6%99%E6%B8%AF%E8%8A%B1%E5%8D%89%E5%B1%95%E8%A6%BD%E5%91%A8%E6%97%A5%E9%96%89%E5%B9%95-%E5%91%A8-%E6%97%A9%E4%B8%8A%E5%85%8D%E8%B2%BB%E6%B4%BE%E7%B4%843500%E7%9B%86%E6%A4%8D%E7%89%A9-%E9%99%84%E8%A9%B3%E6%83%85-091059230.html
+
+### 深水埗「森林ピアノ」展、香港の山野に没入 芸術家は映画「花様年華」の樹洞を参考に：「森は感情を受け止める」
+
+深水埗（シャムスイポー）で開催されている「森林ピアノ」展では、香港の山野に没入できる体験が提供されています。芸術家は、映画「花様年華」に登場する樹洞を参考に、「森は感情を受け止めることができる」と語っています。
+
+**引用元**: Yahoo News HK
+
+https://news.google.com/rss/articles/CBMiuwRBVV95cUxQbnVydjQ1bDVTa3B5blp1TURaWmFWOEthM25oZE9uWVBHVWpadEpYZWNVcUp3OFhZdzlOYTNqYVVqN1RyanRVclFiV2VZVUZzdzJES2tKQXUzbXFROHJpWDF4MllqemtfajdMV2pwWW1pMnhQNlFYTmNjanpVUzl0R3NZR0dxbHQ1cm10MEZIc1hEd19fRW5yc21RN0ZWR0pCUHhhS0hlQWh2M2FTa1d4TlFyeGN4UUI0OTF4cU1oQWl5VlFrUUdCM3ZsSDdlalV0ekVoVWU5ZWZ4Z29UUldTbEtTc1FlWFp3cnVHVzB5QW9XbVp1aGo0RFhPeWJUUklMdzl3dzhKNWVUa0c3VlEtMGdSc2tWXzljenVzNjI2Ny1GQWNsazZCeEtCUzFkR0NKVEt2UDJMY2k1bjBiYV9EZ3NsVjFFTTVvM1MtalhXSDF3ejZnVnZHR29ZeTY0OHVJUVZZSE9nTkdZVHF5U19NeXBEODVYSW04R3ExYVpyMTh3dmFoZDdWTTZOM2ZuNUpYblFLUHZzZEtVMFVFLTIyZmhyeVRrZTRNNXhfZ1Itcjh0SWdld2dzMHh1aDFoYWJWdVd0TWdWcDBEME1xWVcwYWVYd0N2STJIZ2Z4eGxkV3BZcVlXVkNlWWxxWVVGVFlHYldVeVlsa21tYVJ2VGVBa3c4QkZnUEFpUVRuVkZBMEIyMjRZY05IVXZRS01HTWJ3bTYxWl8wOWkxa1Z6UkVZeUxjOV80TkdMR20w?oc=5
+
+### 星島申訴王：香港の特殊な通り名が多数、ネットユーザーが珍しい名前を挙げ、地元歴史を解説
+
+星島申訴王（シンタオ・シェンソウワン）は、香港に多数存在する特殊な通り名について報じました。ネットユーザーはそれらの通り名を熟知しており、その奇妙さや発音の難しさを競い合いながら、地元の歴史や科学知識を交えて解説しています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi1ANBVV95cUxOU2x2dW5HM3JWdFlVV0xCNU4tbDFvTk9TeU1WRGFnMnNvZGcwMk5vQVRwUXRHQnU3MXBrd2NXd0xsSHNic1JLZ1ZLMm9ORld2aDZXQ1RZTmY5N0ZIQjhYV0k5aWJVLUtjSTBJU18tNHZwRWtiVHFzaldfUVVYQ1lPdjhSMU4wZzlsRk9HTEhuZjNWS09KM1FVWHlNbm0zajJ3XzBaSGg2eWgyQVpQTjdxd1lLSXNXVHRrU0tBeGcwNG5UMjgydWw5RWMzYkE5V2ZPT1NFZmJNOHNTN3RzeWJwZUVaSURPS2ViUXVjSnUzTEg5ZHVzMG1UMlBvS3h1QXpmQWtYZW5adDNUY0lFUTFuY1N2QWdQbW1zdFZXZVBTTlJ1Yl9QZE9SUGZvbjVsWkdmYUYyY3RxbU42ZEpjWGJ1TE5TbGNTLXFndUxNUTF3QTI2anpWUTdnMUFDZnBMbnJoR19EUmtWcmk1VG90cFNXNTRnWGpXOXhwVkI2RHhUWF92T3dKeFl2bWdVZnRTV19iVDJxUDVBM0JHUHNhZ2xaYjlSVDFtUEs1NmY2bmwwcHdReUFIZExxanNveXJja2dJcFpkem5ZMWJKQll4cWVDT1d3X28?oc=5
+
+### シンガポール首相ウォン氏、香港訪問を終え「星港は発展方向が異なる、協力に注力すべきで競争ではない」と発言
+
+シンガポール首相ローレンス・ウォン（黄循財）氏は香港訪問を終え、両都市は発展方向が異なるため、競争ではなく協力に焦点を当てるべきだと述べました。明報新聞網が報じています。ウォン氏は、シンガポールと香港は協力に注力すべきであり、競争ではないと信報サイトも伝えています。李先知氏の論評「聞風筆動」では、ウォン氏の香港訪問は「十分な敬意」を示しており、北京との関係強化に役立つと政界では見られていると明報新聞網が報じています。ウォン氏は、中日関係が低迷していることを完全に理解しているが、シンガポールは両国と友人であると香港01で述べています。ウォン氏は北部大都市圏の河套香港園区を訪問し、陳国基（エリック・チャン）政務司長は、これが香港とシンガポールの交流を促進すると述べたと香港電台新聞網が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMipwNBVV95cUxNUFhEaWF1QjVxeE95SHBJX2VScVN1TjJwWmFGQ01vdUhIa1l1TjZYa3F4c2xuTk5PRjBFYWV0MmdnNUJsUEUtVjM0bXZlRVpvRndTSEVLemNqbHlZbmc0S0tfQkZHNndtLTAySzB3RW9id3NfN0xpTGlHWXpock1CelpSX0lBQVp3M2MtTERCYVZNLXBPVTd2MURvY21uS0tNUWQtN0U0NjlYZ2ibW9kdU5DQ3dSU0hYdnpXRWM3akpyVGpvc3RMdWx6RGtDOFFWZGdxcHA4NHpQd1BTX1JSdUpEWTVaWWdmVmpkT2U5bWZYOGJkaW1OZWQ3UFZHN0NGbFdiUHRMamZtSDNKTmtLTTFsWEk5a3ppUjAtZXU3a2ZqZFYtZEhZTDE2anJwdVlLajhXR0VQQXhxU1RMUk5pQ2hmMm44V0VPcmo4TkxFYWN6ZXVvSm9nTXkyTUtRV0tyMVJuZHJzSFd2MHBBSHNqOVBGNXgyV2lVSXhPVmpoaF9ySlp6QldYdk40azN5d01LREdKQnVwZ1NwSFpFTFh5ZEVmVXBBYVk?oc=5
+
+### 啓徳ベーカリーマーケットが大盛況、人気の四喜麵包が3時間で完売、一部の屋台は追加販売
+
+啓徳（カイタック）で開催されたベーカリーマーケットは、丁財両旺（人出も売り上げも好調）で大盛況でした。特に人気の「四喜麵包」は3時間で完売し、一部の屋台では追加の品を販売するほどでした。
+
+**引用元**: 香港01
+
+https://news.google.com/rss/articles/CBMivgNBVV95cUxPUVdrSEp4NHR2QWRCbGQzaW54U0dTVEdQQUk4Yjk3QU5qeGVWcDdrYmRvUXlNMDJZeGIwMlhJb3VvdGViMzdiWDZSQV9sWE9LS3NUdXdwdHcyTXpjUlFsWUR3QlFBajFzeXdfMXFTbkYwZUJMX1A1QTZad2RUek9WNkUtOFVLakJmQncwQlBqQ0VoU2ZGUFdnbzV1X3JKMTFmXzlleDREYUdYdFN6RlpQM2w1UjVrRmp1SS1haF9kc2JHZE1wNnRNeTM2YUpJYkZjaUJyOWpPV3ZNMGl2eXd2VS1udVplRFZPQXpVWlFLeHNsQ09aLXNrQm1raEhnWnRLMkRkODZmc0Rpanh2THpFU2pndkYtZ2JPTTA5NEpHMVoyT0gyaW9LNDJTRmdWS0hheVpqNXY2VkxRZnBGc1VqVjdiSW1uXzFZSjJuTDFuMEVtc1ZlM1dMMGhaOVoxVV9Odm10c0FiaFRKeTB4TUt6WG1vYm9NX2pqZXI3eEFTVGl2anFhMXpYdDhPUFdUM3I0MzloaWlZWS1DczNYV29FRUlmNWZxNlNYMTMyN0Vla2ZTLUtLOFluQkJUZGd0dw?oc=5
+
+### 旺角の50年続く手彫り麻雀店「公友祥」が本日閉店、多くの客が別れを惜しみ麻雀牌を購入、店主は休む間もなく対応
+
+旺角（モンコック）で50年間営業してきた手彫り麻雀店「公友祥」が本日閉店します。多くの人々が別れを惜しんで麻雀牌を購入し、店主は休む間もなく対応に追われました。香港の物語｜上海街の「公友祥麻雀」が閉店し、手彫り業界の衰退を目の当たりにしましたとhkcna.hkが報じています。老舗閉店｜上海街に半世紀にわたり店を構えた公友祥麻雀が別れを告げ、店主は「手彫り麻雀だけでは生計を立てられない」と語ったと集誌社が報じています。【康港劉影】手彫り麻雀の消滅——上海街の公友祥麻雀閉店とhk.epochtimes.comが報じています。家主が店舗を回収したため、旺角の53年の歴史を持つ手彫り麻雀店が閉店したとsingtaousa.comが報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMivwNBVV95cUxPd3FCSmZfbjlMdkV6VzEtb3pwTnI4S1Y4eFVGTHVTX1RjZmIxbjN5Y3M1VlNqbHZ2dG9FRHFjcDA1TEFfZnNlSXdpcVRZV1ZYTElyTksyalJITkc3NklESU9vZHVaZ3hURG9wUm93TDN4c2xwX3dfNFpaa2Zwa1JvQnNGUGJCV1FXLURNbmttUXNHSUxnOEZRaDBRd0doOEh2b0dBREhXbEsybm8xYWxEMnc1cnRqaF9XUTlxbUtrRWhnOEFSc3dhaG5EY0RoaWZweW5BaEtJNWY2cmt1OWdEQ2oweEVjNHhaVGVUZThwT3dVNzNlcEVDSGtwV0k4a1BMWDNzOEc5S0l3NTlsRmhfOTVsVnhlS1ZPekdHTmVLZ21pUDRGbHhFT3Fqa1hHd01QY2MyVks2eXBEcTBfS05Lb2pwSnFJN093RnVTVWRtYUZ0Qk9Bck11T0VWdzYzTjVUUGFUbFZ5aTF5ZHkzbG80R0NOT2RfOG05Nzc4UjVEMG5fUGk1bXNLcUx2a0VwU3FBUGJMdVR2N283ODB4TDUxdWo5dU9TZHNiR0NsU1kyVlBZa2RhVmV0enZEb2lqT3M?oc=5
+
+### 九龍城の飲茶レストランで「時間制限飲茶」？4人以下は1時間で退席を要求！ネットユーザーは「客を追い払っている」と激怒
+
+九龍城（カオルンシティー）の飲茶レストランで「時間制限飲茶」が導入されたのでしょうか？4人以下の客は1時間で席を空けるよう求められるとのことです。ネットユーザーは「客を追い払っている」「まるで従業員の食事時間みたいだ」と激怒しています。
+
+**引用元**: 星島頭條
+
+https://news.google.com/rss/articles/CBMi-ANBVV95cUxQdDc4Uk9VUjBEeFdZbWgwcnNod2pFQmpsTEd3S0dTLVRjMjhpZmVMcmtpajFYay02anEybW5FeUlSRzRxcFJRaEJoNTZsaVF5WnZTTTJnbnlERzRwS1E3NXB3ekdQRGsyYUJFYmRSWHZNdVNrU0s3Vm93Z3I3b0NxaUt5ME1JcFpNODNSdm1XVGR4ekxCLVNtR3JDb0dGNXduMzE2ckE1UFBDZjQ3eUs4WXZmQ25WX0dMVnRQWmJ0QlZQOVBIaUZhaEJGcWpBSU1TT09fdFBWQzZ6dXlsT0ZrdHUyWkJPVXlvcl9peHRuUEVSZTdIMFVUaWlIZElOUkM1MlBGQmxIMWxMY0RHSml6TmhLemt5azlRZE9ZOEdRT1JzWUZhNW50SFIwcGd6dHB3MU9lb2d1RmtEVjgxU3laT2dycENIUnV4djQ4YVpZRkh4UUFTNVJRazV1WERrbHdJWEFnV1Z4X2dJZVBlSDhZU1BCSmdkcUFYSGVGVkFXX24xVjVHRkJlc25FbUR6bENGdG14MERzNV9ESkdhRHdzRnVLS1RQU2RXUloyMHJPazdpUUVrWkh3OWJad2tkOURDd0F2QXpVWDFzRjhLSXJDejNmX1ZtNEpqSmVTTG5icE5kM21jeUk3SnVVNWVLXzNScVJPY0hjLTQ?oc=5
+
+### 香港は中国の商業宇宙産業の波に乗れるか？
+
+中国の第15次5カ年計画は、商業宇宙産業を国家発展の主流の柱にしようとしており、香港はこの機会を逃すわけにはいきません。香港がこの国家的な推進力を具体的な地元の強みに変えられるかどうかは、中国の次なる戦略的産業と統合し、貢献する能力の試金石となるでしょう。
+
+商業宇宙産業は、わずか数年で本格的な戦略政策へと移行し、衛星、...
+
+**引用元**: SCMP
+
+https://www.scmp.com/opinion/hong-kong-opinion/article/3347794/can-hong-kong-hitch-ride-chinas-commercial-aerospace-wave?utm_source=rss_feed
+
+### 上水での衝突事故で運転手が意識を失い死亡
+
+日曜日、上水（ションスイ）で自家用車が衝突事故を起こし、運転中に意識を失った運転手が死亡しました。
+
+警察によると、64歳の男性は午後3時過ぎ、上水にある沙頭角公路-龍躍頭（シャータウコックロード-ルンユックタウ）付近を走行中に意識を失ったと報じられています。車両は鉄柵に衝突しました。男性は意識不明の状態で北区病院に搬送されましたが、後に死亡が確認されました。
+
+新界北交通特別捜査班がこの事件を捜査しています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849239-20260329.htm
+
+### 香港のMPF当局、雇用主の拠出金遅延に対し2段階の追加料金を提案へ
+
+香港の雇用主は、従業員の年金口座への未払い拠出金を長期間支払わなかった場合、懲罰的な追加料金に直面する可能性があります。データによると、6人に1人の雇用主しか、規定の2週間の期限内に滞納金を支払っていません。
+
+香港の年金制度を管理する強制積立年金計画管理局（MPFA）は、「2段階の追加料金」メカニズムの提案に取り組んでおり、年半ばまでに政府に提出したいと述べました。ブログで...
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348298/mpf-authority-propose-2-tier-surcharges-late-employer-contributions?utm_source=rss_feed
+
+### 学校が「登録前の生徒募集」で調査を受ける
+
+教育局は日曜日、中国本土の教育機関が運営する学校が、登録承認前に生徒を募集した疑いがあるとの報道に深く懸念していると述べました。
+
+教育局によると、荃湾（チュンワン）のオフィスビルの2階にある香港蔚来中学（Hong Kong Weilai Secondary School）の登録申請はまだ処理中であるとのことです。当局はすでに当該機関に説明を求めています。
+
+彼らは、虚偽の陳述や誤解を招く宣伝を行った者が発見された場合、厳重に対処すると述べました。学校もウェブサイトで、申請が処理中であると述べています。
+
+広報担当者は、教育局が私立学校の基準を重視していると述べ、私立学校は自己資金で運営されているものの、学校が適切に管理され、生徒の福祉と保護者の利益が保護されるよう、関連する法律や規制に依然として従っていると付け加えました。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849228-20260329.htm
+
+### ICUでの心停止見過ごしを受け、警戒強化を要請
+
+集中治療室（ICU）で子供が心停止に陥ってから看護師が発見するまでに9分間かかった事件を受け、医療部門の議員は日曜日、警報への警戒と安全確認の強化を求めました。
+
+デビッド・ラム議員は、先週木曜日に発生した香港児童病院の事件の報告を受けて発言しました。病院によると、6歳の男の子は稀な基礎疾患を抱えており、小児集中治療室で鎮静され、人工呼吸器を装着していました。彼の心臓は午前7時20分に停止しました。午前7時29分に看護師が心停止を発見しました。
+
+蘇生中に、スタッフは気管内の呼吸チューブと人工呼吸器をつなぐコネクタが外れていることを発見しました。彼らが人工呼吸器回路を再接続すると、男の子の心拍が戻りました。
+
+ラム議員は、すべてのICU機器には、切断や患者の脈拍、血圧、酸素レベルの変化があった場合にスタッフに警告するアラームが備わっていると述べました。「これらの機器にはすべてアラームが設置されています。ですから、最初に行うべきことは、ICUで子供や大人をケアするすべての人に、これらのアラームに特に注意を払い、すべての機器のアラームが現在作動しているかを確認することです」と彼はRTHKに語りました。
+
+病院によると、患者は発作を起こしましたが、これまでの初期神経学的検査では異常は認められていません。ラム議員は、何らかの損傷が発生したかどうかを判断するには時期尚早だと述べました。
+
+「てんかんや発作の発生による長期的な影響の可能性があります。もし長期間にわたって重度の低酸素状態が続けば、子供の意識レベルや長期的な知的能力に影響を与えるかどうかはまだよくわかりません。ですから、もしあれば、長期的な影響を本当に理解するには時間がかかります」と彼は言いました。
+
+病院は、この事件に深く懸念しており、調査委員会を設置すると述べています。
+
+**引用元**: RTHK
+
+https://news.rthk.hk/rthk/en/component/k2/1849222-20260329.htm
+
+### 中国の北朝鮮への玄関口で列車運行再開、期待高まる
+
+引退した王美利（ワン・メイリー）さんは、生涯住み慣れた中国東北部の川向こうにある閉鎖的な国、北朝鮮を含む世界を見てみたいと願っています。北朝鮮は長年、外国人観光客を厳しく管理しており、6年前の新型コロナウイルス感染症パンデミック開始時には事実上国境を閉鎖していました。しかし、...
+
+**引用元**: Hong Kong Free Press
+
+https://hongkongfp.com/2026/03/29/high-hopes-at-chinas-gateway-to-north-korea-as-trains-resume/
+
+### 香港の高齢化問題：シンガポールのカンプン・アドミラルティ・モデルは解決策となるか？
+
+香港に住むオスカーとステラ・チャン夫妻（60代後半）は、従来の老人ホームへの入居にはほとんど関心がありません。
+
+新界の馬鞍山（マオンシャン）でアパートを借りて暮らす元公務員の夫妻は、自宅での高齢化が常に「思ったほど簡単ではない」と認めつつも、従来の介護施設は「制限されていると感じる」と考えています。
+
+「もし経済状況と健康が許すなら、老人ホームには入りたくありません」とオスカーは言います。
+
+**引用元**: SCMP
+
+https://www.scmp.com/business/article/3348254/hong-kongs-ageing-challenge-singapores-kampung-admiralty-model-answer?utm_source=rss_feed
+
+### 麻痺した香港のダンサー、モー・リー氏が車椅子を操縦する動画を公開
+
+人気ボーイズバンドMirrorのコンサートで巨大スクリーンに打たれて麻痺した香港のダンサー、モー・リー・カイイン氏（31歳）が、事故から3年半ぶりに電動車椅子を自分で操作する動画をインスタグラムで公開しました。
+
+土曜日に公開された動画には、「90％内向的な人はこんな感じ：」というキャプションと、はにかんだ絵文字が添えられていました。クリップの中で彼は、右手で車椅子を操縦しながら、元気そうな様子を見せていました。
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348282/paralysed-hong-kong-dancer-mo-li-shares-video-himself-steering-wheelchair?utm_source=rss_feed
+
+### 香港の乗客、携帯型充電器2個制限の新ルールに戸惑う
+
+香港から出発する航空旅客は、携帯型充電器の持ち込みが2個までに制限されるという新ルールを知らなかったと述べています。日曜日、このルールが施行された初日、空港にはほとんど注意喚起の表示がありませんでした。
+
+この懸念は、香港国際空港が土曜日の夜に、出発旅客はフライトに携帯型充電器をそれぞれ2個までしか持ち込めないという発表をした後に提起されました。国際民間航空機関の新しい規制を引用し、...
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/transport/article/3348275/hong-kong-passengers-caught-guard-new-airport-limit-2-power-banks?utm_source=rss_feed
+
+### 匡智会（ホンチー協会）の生徒作品がアートバーゼルに登場 邱騰華会長：AI時代における知的障害者支援は時代とともに進化すべき
+
+匡智会（ホンチー協会）は今年、湾仔（ワンチャイ）のコンベンション＆エキシビションセンターで開催された国際芸術イベント「アートバーゼル」（Art Basel）に3年連続で参加し、「物潤留聲」（物の潤いが声を残す）をテーマに、知的障害を持つ生徒たちが制作した多数の芸術作品を展示しました。匡智会の邱騰華（エドワード・ヤウ）会長は、国際的なプラットフォームを通じて生徒たちの才能を披露したいと述べ、人工知能（AI）時代において、社会が知的障害者への支援と仕事の機会を時代とともに進化させる必要があることを強調しました。
+
+邱会長は、匡智会が1970年代に大埔（タイポー）の松嶺村（ソンリンツン）本部で小さな施設からスタートし、現在では特殊学校、寮、職業訓練センターなど多岐にわたる分野に拡大していると述べました。今回展示された作品は、生徒たちが自ら松嶺村本部に戻って写生し、風景だけでなく、匡智会と香港の知的障害者サービスが時代とともにどのように変化してきたかを記録しています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%8C%A1%E6%99%BA%E6%9C%83%E5%AD%B8%E5%93%A1%E4%BD%9C%E5%93%81%E4%BA%AE%E7%9B%B8art-basel-%E9%82%B1%E9%A8%B0%E8%8F%AF-ai%E6%99%82%E4%BB%A3%E6%94%AF%E6%8F%B4%E6%99%BA%E9%9A%9C%E4%BA%BA%E5%A3%AB%E9%A0%88%E8%88%87%E6%99%82%E4%B8%A6%E9%80%B2-043000951.html
+
+### 香港の交通量の多い道路で多重衝突事故、4人負傷
+
+香港の九龍城（カオルンシティー）で多重衝突事故が発生し、バンが歩道に乗り上げて壁に衝突し、4人が負傷しました。
+
+警察は日曜日午前8時34分、プリンスエドワードロード西（太子道西）を旺角（モンコック）方面へ走行していたバンの運転手が、アールストリート（Earl Street）の信号機付近で制御を失い、トラックとコーチに接触した後、車の後部に衝突したとの通報を受けました。
+
+衝突の衝撃でバンは歩道に乗り上げ、そこで...
+
+**引用元**: SCMP
+
+https://www.scmp.com/news/hong-kong/society/article/3348278/4-injured-multi-vehicle-collision-busy-hong-kong-road?utm_source=rss_feed
+
+### 九龍城でバンが信号機付近で3台の車に衝突し、歩道に乗り上げて4人負傷し病院へ搬送
+
+九龍城（カオルンシティー）の信号機付近でバンが3台の車に衝突し、さらに歩道に乗り上げて壁に激突する事故が発生しました。この事故で4人が負傷し、病院に搬送されました。交通意外｜太子道西（プリンスエドワードロード西）でバンが7人乗り車両に衝突し、4人が負傷したと信報サイトが報じています。車載カメラの映像｜九龍城でバンと7人乗り車両が衝突し、歩道に乗り上げて4人が負傷したとi-cable.comが報じています。（動画あり）太子道西で4台の車が玉突き衝突し4人が負傷、貨物バンが植え込みに突っ込み歩道に乗り上げて壁に衝突したと香港文匯網が報じています。太子道西でバンが3台の車に衝突し、さらに歩道に乗り上げて壁に激突し4人が負傷したと香港01が報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMixwJBVV95cUxQU0RwbmJfbXNNUGt2RlhCV3B3alM4M1MtTmdnSUp0aUNQdElfRmFocWEtb0U5dnBvWlRjWHhRNVVjMUhSTW1FMzV6WXV2dUtxUGRBVm5ScWxlZWJZYzNKVFJkN2xIWVFMQTRCQ1NPbnJVRm1LZF9TZTdFTVphZlRuZEcyNmVSVzJGeWhkRlNuYnZvcTJXeTItUDdleGE5eXc4NnRJeVZnWm1lcl85NW5QTnVteFBnWVRGMWdtdVppVXhaY25lTGJuRkNBQUVyU2dqSEJkNW5VT0lpeHRJbWVGSmU4VWoxYTZaNi1GWllGWVFLc3Y3MjhjX04yYjRhWV8zZXlVTW9ISjhMNHFpS1AwaUtvTWNJME9xVHZyWEVKeUR3NWdWRXBfVFJzOGZWenNVODl0enNYU29CTE9LdktuV2h2OUFzeXc?oc=5
+
+### 1976年に開催された初の香港セブンズラグビー大会 – SCMPアーカイブ
+
+この記事は1976年3月29日に初めて公開されました。
+
+ジャック・ビーティー記
+
+香港でラグビーセブンズ世界大会？
+
+ラグビーユニオンの7人制世界カップ大会が、もしかしたら香港で開催されるかもしれない！
+
+これは、昨日香港フットボールクラブで開催された初の国際「セブンズ」選手権大会の後に出現した、エキサイティングな展望です。昨夜、このユニークなイベントの共同スポンサーであるロスマンズとキャセイパシフィック（12カ国が参加）は、少し口を閉ざしていましたが、両社は同様のプロモーションが...
+
+**引用元**: SCMP
+
+https://www.scmp.com/sport/rugby/hk-sevens/article/3348128/first-hong-kong-sevens-rugby-tourney-held-1976-scmp-archive?utm_source=rss_feed
+
+### 香港仔のバンナーヒルでゴミ拾い中に模造拳銃と疑われる弾丸を発見、重案組が捜査
+
+本日（29日）午前10時頃、香港仔（アバディーン）のバンナーヒル（班納山）の導水路で、ハイキング中の男性から模造拳銃の疑いがあるものが発見されたとの通報が警察に寄せられました。警察官が現場に到着して捜査した結果、現場でその疑わしい拳銃と9発の疑わしい弾丸を押収し、すべてさらなる検査のために持ち去られました。この事件は「模造銃器及び弾薬発見」として処理され、西区警区重案組第二隊が捜査を引き継ぎました。現時点では逮捕者は出ていません。
+
+発見した男性は、「昨年拾ったものすべてを合わせても、これほど強力なものはないだろう」と冗談を言い、警察署で供述書を作成しました。彼はまた、警察から「拳銃は放棄された『実銃』である可能性が極めて高い」との通知を受けたと述べています。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E6%B8%AF%E7%94%B7%E7%8F%AD%E7%B4%8D%E5%B1%B1%E5%9F%B7%E5%9E%83%E5%9C%BE%E9%A9%9A%E8%A6%8B%E4%BB%BF%E8%A3%BD%E6%89%8B%E6%A7%8D%E5%8F%8A%E6%87%B7%E7%96%91%E5%AD%90%E5%BD%88-%E9%87%8D%E6%A1%88%E7%B5%84%E6%8E%A5%E6%89%8B%E8%AA%BF%E6%9F%A5-104255018.html
+
+### 香港児童病院で6歳病児の人工呼吸器チューブが一時的に外れ、その後心停止
+
+香港児童病院で、6歳の病児の人工呼吸器のチューブが一時的に外れた後、心停止したことが発見されました。香港児童病院で6歳の病児の人工呼吸器チューブが外れた後、心停止したと信報サイトが報じています。香港児童病院で6歳の子供の気管挿管コネクタが外れ、すぐに発見されなかったことについて、田北辰（ティン・パクチャン）議員はPICU（小児集中治療室）の業務量に懸念を示しています。6歳の病児の人工呼吸器チューブが緩み、16分間心停止していたことについて、病院管理局は委員会を設置して調査するとnews.tvb.comが報じています。
+
+**引用元**: Google News HK
+
+https://news.google.com/rss/articles/CBMib0FVX3lxTE9VWHgtYmVocW9nVS15ajBRLUVudlJjcWV1OHZ4MXEwUVFfUTExYWNVQVJaUllvT1lBd1lKUVFsV01RdU5XaFI1dGJfVGFFSmJ1Z3djNkUtNGVmdjJKQlEyR3ZieVNjZFZlZ3FDSHlYaw?oc=5
+
+### 「文字は人なり」｜張愛玲の原稿が都会大学に収蔵（三）宋以朗氏、手稿の研究・閲覧のしやすさを希望：「最も公開され自由なのはやはり香港」｜冼麗婷
+
+「文字は人なり」｜作家、張愛玲（チャン・アイリン）の原稿が香港都会大学に収蔵されました（三）。宋以朗（ソン・イーラン）氏は、手稿が研究や閲覧に便利であることを希望し、「最も公開され自由なのはやはり香港だ」と述べています。冼麗婷（シン・ライティン）氏のレポートです。
+
+**引用元**: Yahoo News HK
+
+https://news.google.com/rss/articles/CBMikwVBVV95cUxOTkNRenA5Unk1Y3E2bm90QnhZQ1FxVHNLcE41eV91WFhVQUNyb2ZZTk1rT2xjUHgxaTVHYmtuQU5tcGo0UVJoTGhLbk9INllFa09xOTk5bmFva084SXZONjFnbE90SVdwY0txbkdzdzNRcXpYSjhDOFBCZEZXMjFpZ29oRkd3OVVrd3E1TXlHRkw2dDBjRkY3bkdhQ3YyeEU3WEZxdlozMWxWdTkzN3JkVl9Yb1E5LUJDbkZYZzJrY1BBaEljelVBSzBpdEZfZVpVX3BPOG1XbWVROUJDQkd0b2J3TDZPM1FZYTZ2MFNGcXFyZVpMX0dRYk5IdVZjQVBTLXgwTVM0Wmg2TnBTNkktWVlGT001a19XNjFWZzJDQmxtclJhdF9PX1c4VGFBSVdfM2VYX0RzWXVYWnpucThDU0ptU0JiOFRkS2tndVh0TkQtc2I4ekJ3NEVTM0Ywc3FTRk50RWd4SmJYcl9WZWxnN2ZOdVZ2azlZMS1DOFppT2xTdF90UmFNYVpCX2o0ZlIzOHVSNkw1RnNOTDBHazdGVDRRZVBxS0phVW9CMmJQV0N0dE44Q212Zld2b2ZPNWxtWkU3VnVnU0ppU3RKQi1VTC1MTm5vTXVzYjN3a3JZLWlKVTdzVHBqaUpXdzRBVDdZMUh1X2JKYVExZVhmVC1kYml3NUVZbTJUaG9CLUp1ai1LWFNqSFI5ZklranZZT1d6cTdIRVlnQUZvMDF2NXVtYWI4c3RwV3RpN2I3dzRNdWdUNFdNR2RuTmxlZkxfaGtCcUFjNGJjNFRWSkh4ZEJsMlBiSnlpclBVeEpfVzc4ZDVfNGl0NTl5d01vb3NGQS14Vld4R190VXplZ1g0VWJSaHItWQ?oc=5
+
+### 中国本土の機関が未登録で生徒募集の疑い、教育局は申請者に説明と是正を要求
+
+報道によると、香港で学校を運営する中国本土の教育機関が、学校登録がまだ承認されていないにもかかわらず、生徒の募集を開始した疑いがあります。教育局はこれに対し、同校が「香港蔚来中学」と名乗る学校の登録申請を処理中であり、この件に深く懸念していると回答しました。教育局は直ちに申請者に連絡を取り、改善提案を文書で提出し、関連する慣行について説明と是正を求めました。教育局は、虚偽の陳述や宣伝を行った者、または法律や規則に違反した者が発見された場合、厳重に対処すると強調しました。
+
+教育局によると、問題の校舎は荃湾（チュンワン）の環貿広場（グローバル・トレード・スクエア）2階にあり、寄宿施設はありません。教育局は保護者に対し、学校を選ぶ際には学校の登録状況と宣伝資料の真実性を確認し、未成年の子供が単独で就学または居住する際の安全上のリスクにも注意するよう呼びかけています。本局が午後、同校のウェブサイトを確認したところ、トップページには「登録は申請中であり、教育局の承認はまだ得られていません」と表示されていました。
+
+**引用元**: Yahoo News HK
+
+https://hk.news.yahoo.com/%E5%85%A7%E5%9C%B0%E6%A9%9F%E6%A7%8B%E7%96%91%E6%9C%AA%E8%A8%BB%E5%86%8A%E5%85%88%E6%8B%9B%E7%94%9F-%E6%95%99%E8%82%B2%E5%B1%80-%E5%B7%B2%E8%A6%81%E6%B1%82%E7%94%B3%E8%AB%8B%E4%BA%BA%E8%A7%A3%E9%87%A3%E5%8F%8A%E7%B3%BE%E6%AD%A3-093008953.html
+
+## 広東語学習者向け情報
+
+広東語学習者向けにLINEが良い、便利という方もいるでしょうから、スラング先生公式アカウントもありますのでこちらご登録してから使用してください。秘書のリーさんが広東語についてなんでも回答してくれますのでぜひ使ってみてください
+
+(今現在400名以上の方に登録していただいております）
+
+[スラング先生LINE公式アカウント](https://line.me/R/ti/p/@298mwivr)
+
+## 広東語| 広東語超基礎　超簡単！初めての広東語「9声6調」
+
+https://youtu.be/RAWZAJUrvOU?si=WafOkQixyLiwMhUW
+----
+**タグ**: 香港,広東語,廣東話,中国語ニュース,最新,情報,アジア
+**生成日時**: 2026年03月30日 06:15
